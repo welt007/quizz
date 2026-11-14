@@ -4,11 +4,12 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 
 - 4 Antwortmöglichkeiten (Text oder Zahlen) pro Frage, Frage optional mit Bild
 - Kategorien und vier Schwierigkeitsgrade (leicht / medium / schwer / extrem)
-- Spielmodi: Punkteleiter (15 Fragen), Blitzrunde, Sudden Death, Duell/Party, Training *(in Arbeit)*
+- Spielmodi: **Punkteleiter** (15 Fragen) und **Training** spielbar; Blitzrunde, Sudden Death, Duell/Party *(in Arbeit)*
+- Bedienung per Maus, Touch oder Tastatur (`A`–`D`, `Enter`, `Esc`)
 - Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub;
   weitere Kataloge per URL im Optionsmenü *(in Arbeit)*
 
-**Status:** Meilenstein M0 (Projektgerüst). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Meilenstein M1 (erstes spielbares Quiz). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 

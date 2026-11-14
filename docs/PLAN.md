@@ -48,15 +48,16 @@ src/js/
     sources.js       Nutzer-URL → ladbare Manifest-/CSV-URL (GitHub-Links etc.) ✅
     question.js      Antworten mischen                                           ✅
     random.js        seedbarer Zufall (für Mehrspieler-Fairness & Tests)        ✅
-    questionPool.js  Kataloge zusammenführen, filtern, ziehen ohne Wiederholung
-    scoring.js       Punkte, Zeitbonus, Streaks
-    modes/           je Modus eine Zustandsmaschine (siehe §5)
+    questionPool.js  filtern, nach „am längsten nicht gestellt“ ordnen, Punkteleiter zusammenstellen ✅
+    stats.js         je Frage: gestellt/richtig/zuletzt (Wiederholungsvermeidung) ✅
+    modes/           je Modus eine Zustandsmaschine (siehe §5) – ladder.js ✅, training.js ✅
+    scoring.js       Zeitbonus, Streaks (ab M2/M3)
   data/
-    loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden
-    storage.js       IndexedDB/localStorage-Wrapper (mit Fallback)
+    loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden (M4)
+    storage.js       localStorage-Wrapper mit In-Memory-Fallback ✅ (IndexedDB folgt in M4)
   ui/
-    screens/         Start, Modus-Auswahl, Spiel, Ergebnis, Optionen (inkl. Kataloge)
-    components/      Antwort-Buttons, Timer, Punkteleiter, Joker, Moderator-Text
+    screens/         start ✅, setup ✅, ladder ✅, training ✅ (je Spiel + Ergebnis); Optionen (M4)
+    components/      questionView ✅, chips ✅, dialog ✅; Timer, Joker, Moderator-Text (M2)
     audio.js         WebAudio-Effekte (Tusch, richtig, falsch, Ticken)
     input.js         Maus/Touch/Tastatur (A–D, 1–4, Buzzer-Tasten)
   main.js           Einstieg, Router zwischen Screens
@@ -150,12 +151,19 @@ kleine Zustandsmaschine (`intro → question → reveal → … → result`).
 | Besonderheit | | 🛡 Sicherheitsstufe 1 | | | 🛡 Sicherheitsstufe 2 | | 15 = Hauptgewinn |
 
 - Verteilung: 4× leicht, 4× medium, 4× schwer, 3× extrem.
-- Punktwerte steigen pro Stufe (z. B. 100 → 200 → 300 → 500 → **1 000** → 2 000 → 4 000 → 8 000 →
-  16 000 → **32 000** → 64 000 → 125 000 → 250 000 → 500 000 → **1 000 000** Punkte).
+- Punktwerte (eigene Werte, umgesetzt in `core/modes/ladder.js`):
+  50 → 100 → 200 → 300 → **500** 🛡 → 750 → 1 000 → 1 500 → 2 500 → **4 000** 🛡 → 6 000 → 10 000 →
+  15 000 → 25 000 → **50 000** Punkte.
+- Fragen werden so gewählt, dass zuerst nie oder am längsten nicht gestellte Fragen drankommen.
 - Falsche Antwort → zurück auf die letzte erreichte Sicherheitsstufe; „Aussteigen“ sichert den aktuellen Stand.
 - Gibt der Pool für eine Stufe zu wenige Fragen her, wird auf die benachbarte Schwierigkeit
-  ausgewichen (erst leichter, dann schwerer) und ein Hinweis angezeigt.
+  ausgewichen (nächste Stufe zuerst, bei Gleichstand leichter vor schwerer) und ein Hinweis angezeigt.
+  Danach wird nach Schwierigkeit sortiert, damit das Spiel nie leichter wird. Unter 15 passenden
+  Fragen ist die Punkteleiter nicht startbar.
 - Zeitlimit je Stufe (Standard): 30 s für leicht/medium, 45 s für schwer/extrem; abschaltbar.
+
+Bedienung in allen Modi: Maus/Touch oder Tastatur – `A`–`D` bzw. `1`–`4` antworten,
+`Enter`/`Leertaste`/`→` weiter, `Esc` beenden bzw. zurück.
 
 Gemeinsame Einstellungen pro Spiel: Kategorien (Mehrfachauswahl), Quellen, Schwierigkeit (falls im Modus
 wählbar), Timer an/aus/Dauer, Sound an/aus.
@@ -193,7 +201,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | # | Inhalt | Ergebnis |
 |---|---|---|
 | **M0** ✅ | Projektgerüst, Plan, CSV-Format (4 Stufen), Beispielkataloge, CSV-Parser + Validierung, URL-Normalisierung für Quellen, Build-Pipeline, CI | `npm run build` erzeugt lauffähige Einzeldatei mit Startbildschirm |
-| **M1** | Spielkern: Fragepool, Scoring, **Training** und **Punkteleiter (15 Stufen)** ohne Joker; Basis-UI (Start → Spiel → Ergebnis) | Erstes spielbares Quiz |
+| **M1** ✅ | Spielkern: Fragepool, Wiederholungsvermeidung, **Training** und **Punkteleiter (15 Stufen)** ohne Joker/Timer; Basis-UI (Start → Einrichtung → Spiel → Ergebnis), Tastatursteuerung | Erstes spielbares Quiz |
 | **M2** | Gameshow-Optik & Sound: Bühne, Animationen, Timer, WebAudio, Moderator-Texte, Joker | Show-Feeling |
 | **M3** | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party mit Buzzer; Highscores | Alle Modi |
 | **M4** | **Optionsmenü**: Kataloge per URL hinzufügen/aktualisieren/entfernen, Standardkatalog-Update, IndexedDB, CSV-Import, Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
@@ -232,4 +240,6 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | Bildantworten | Nein – Antworten nur Text oder Zahlen, Bilder nur in der Frage |
 | Punkteleiter | 15 Fragen |
 
-Noch offen (Vorschläge oben, Entscheidung bei M1/M2): genaue Punktwerte, Joker-Auswahl, Zeitlimits.
+| Punktwerte | Eigene Werte 50 … 50 000 (siehe §5.1) |
+
+Noch offen (Vorschläge oben, Entscheidung bei M2): Joker-Auswahl, Zeitlimits.

@@ -1,0 +1,64 @@
+import { h } from '../dom.js';
+import { ANSWER_KEYS } from '../../core/question.js';
+import { DIFFICULTIES } from '../../core/catalog.js';
+
+/**
+ * Question card with four answer buttons.
+ * @param {{question: object, answers: string[], correctIndex: number}} prepared
+ * @param {{categoryInfo: Function, onAnswer: (index: number) => void}} opts
+ */
+export function questionView(prepared, { categoryInfo, onAnswer }) {
+  const q = prepared.question;
+  const info = categoryInfo(q.category);
+
+  const buttons = prepared.answers.map((text, i) =>
+    h(
+      'button',
+      { class: 'answer', onclick: () => onAnswer(i) },
+      h('span', { class: 'answer__key' }, `${ANSWER_KEYS[i]}:`),
+      h('span', { class: 'answer__text' }, text),
+      h('span', { class: 'answer__mark', 'aria-hidden': 'true' }),
+    ),
+  );
+
+  const el = h(
+    'section',
+    { class: 'question' },
+    h(
+      'div',
+      { class: 'question__meta' },
+      h('span', {}, `${info.icon} ${info.name}`),
+      h('span', { 'aria-hidden': 'true' }, '·'),
+      h('span', { class: `difficulty difficulty--${q.difficulty}` }, DIFFICULTIES[q.difficulty]),
+    ),
+    q.image ? h('img', { class: 'question__image', src: q.image, alt: 'Bild zur Frage' }) : null,
+    h('h2', { class: 'question__text', tabindex: '-1' }, q.question),
+    h('div', { class: 'answers', role: 'group', 'aria-label': 'Antworten' }, buttons),
+  );
+
+  return {
+    el,
+    /** Marks the chosen answer as "logged in" and disables all buttons. */
+    lock(index) {
+      buttons.forEach((b) => (b.disabled = true));
+      buttons[index]?.classList.add('is-locked');
+    },
+    /** Shows right/wrong. `chosen` may be null (e.g. after walking away). */
+    reveal(chosen) {
+      buttons.forEach((b, i) => {
+        b.disabled = true;
+        b.classList.remove('is-locked');
+        const mark = b.querySelector('.answer__mark');
+        if (i === prepared.correctIndex) {
+          b.classList.add('is-right');
+          mark.textContent = '✓';
+        } else if (i === chosen) {
+          b.classList.add('is-wrong');
+          mark.textContent = '✗';
+        } else {
+          b.classList.add('is-dimmed');
+        }
+      });
+    },
+  };
+}
