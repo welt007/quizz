@@ -1,0 +1,10 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+wis-0001,wissenschaft,1,Welcher Planet ist der Sonne am nächsten?,Merkur,Venus,Mars,Erde,,,astronomie
+wis-0002,wissenschaft,1,Wie lautet die chemische Formel für Wasser?,H₂O,CO₂,O₂,NaCl,,,chemie
+wis-0003,wissenschaft,1,Bei welcher Temperatur gefriert Wasser unter Normaldruck?,0 °C,100 °C,−10 °C,4 °C,,,physik
+wis-0004,wissenschaft,2,Welches chemische Element hat das Symbol „Fe“?,Eisen,Fluor,Phosphor,Zinn,,"Von lateinisch „ferrum“.",chemie
+wis-0005,wissenschaft,2,Welches Organ produziert das Hormon Insulin?,Bauchspeicheldrüse,Leber,Niere,Milz,,,biologie|körper
+wis-0006,wissenschaft,2,Welcher ist der größte Planet unseres Sonnensystems?,Jupiter,Saturn,Neptun,Uranus,,,astronomie
+wis-0007,wissenschaft,3,Welches chemische Element hat das Symbol „W“?,Wolfram,Wasserstoff,Vanadium,Wismut,,"Von „Wolfram“, englisch auch „tungsten“. Wasserstoff ist H, Wismut ist Bi.",chemie
+wis-0008,wissenschaft,3,Wie viele Chromosomen hat eine menschliche Körperzelle normalerweise?,46,23,44,48,,23 Chromosomenpaare.,biologie
+wis-0009,wissenschaft,3,Wie lange braucht das Licht ungefähr von der Sonne bis zur Erde?,Etwa 8 Minuten,Etwa 8 Sekunden,Etwa 1 Stunde,Etwa 1 Tag,,Im Mittel rund 8 Minuten und 20 Sekunden.,physik|astronomie

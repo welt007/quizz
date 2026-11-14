@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "version": "2026-11-14.1",
+  "title": "Standardkatalog",
+  "files": ["allgemeinwissen.csv", "geographie.csv", "wissenschaft.csv", "geschichte.csv"],
+  "categories": {
+    "allgemeinwissen": { "name": "Allgemeinwissen", "icon": "💡", "color": "#f2a541" },
+    "geographie": { "name": "Geographie", "icon": "🌍", "color": "#2e9e6b" },
+    "wissenschaft": { "name": "Wissenschaft", "icon": "🔬", "color": "#3a7bd5" },
+    "geschichte": { "name": "Geschichte", "icon": "🏛️", "color": "#b5523b" }
+  }
+}

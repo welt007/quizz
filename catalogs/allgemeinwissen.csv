@@ -1,0 +1,10 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+agw-0001,allgemeinwissen,1,Wie viele Tage hat ein Schaltjahr?,366,365,364,367,,Alle vier Jahre wird der 29. Februar eingefügt.,kalender
+agw-0002,allgemeinwissen,1,Wie viele Beine hat eine Spinne?,8,6,10,12,,Spinnen sind Spinnentiere und keine Insekten – Insekten haben 6 Beine.,tiere
+agw-0003,allgemeinwissen,1,Welche Farbe entsteht beim Mischen von blauer und gelber Malfarbe?,Grün,Orange,Violett,Braun,,,farben
+agw-0004,allgemeinwissen,2,Wie viele Tasten hat ein klassisches Klavier?,88,76,92,64,,52 weiße und 36 schwarze Tasten.,musik
+agw-0005,allgemeinwissen,2,Welches Tier ist das Wappentier von Berlin?,Bär,Adler,Löwe,Hirsch,,,deutschland|wappen
+agw-0006,allgemeinwissen,2,Wie nennt man die Angst vor Spinnen?,Arachnophobie,Klaustrophobie,Agoraphobie,Akrophobie,,"Klaustrophobie ist Platzangst, Akrophobie Höhenangst.",begriffe
+agw-0007,allgemeinwissen,3,Wie viele Herzen hat ein Oktopus?,3,1,2,4,,Zwei Kiemenherzen und ein Körperherz.,tiere
+agw-0008,allgemeinwissen,3,Was misst ein Anemometer?,Windgeschwindigkeit,Luftdruck,Luftfeuchtigkeit,Niederschlagsmenge,,,messgeräte
+agw-0009,allgemeinwissen,3,Wie viele Zähne hat das vollständige Gebiss eines Erwachsenen einschließlich Weisheitszähnen?,32,28,30,36,,,körper

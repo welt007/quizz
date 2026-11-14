@@ -1,0 +1,10 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+ges-0001,geschichte,1,In welchem Jahr fiel die Berliner Mauer?,1989,1990,1987,1991,,Am 9. November 1989.,deutschland|20. jahrhundert
+ges-0002,geschichte,1,Wer betrat als erster Mensch den Mond?,Neil Armstrong,Buzz Aldrin,Juri Gagarin,Michael Collins,,Am 21. Juli 1969 (MEZ) mit Apollo 11.,raumfahrt
+ges-0003,geschichte,1,Wer baute die Pyramiden von Gizeh?,Die alten Ägypter,Die Römer,Die Griechen,Die Maya,,,antike
+ges-0004,geschichte,2,In welchem Jahr begann der Erste Weltkrieg?,1914,1912,1916,1918,,,20. jahrhundert
+ges-0005,geschichte,2,Wer entwickelte in Europa den Buchdruck mit beweglichen Lettern?,Johannes Gutenberg,Martin Luther,Leonardo da Vinci,Albrecht Dürer,,Um 1450 in Mainz.,erfindungen
+ges-0006,geschichte,2,Wer war der erste Bundeskanzler der Bundesrepublik Deutschland?,Konrad Adenauer,Willy Brandt,Ludwig Erhard,Helmut Schmidt,,Adenauer war von 1949 bis 1963 Bundeskanzler.,deutschland
+ges-0007,geschichte,3,In welchem Jahr wurde Karl der Große zum Kaiser gekrönt?,800,768,814,962,,Die Krönung fand am 25. Dezember 800 in Rom statt.,mittelalter
+ges-0008,geschichte,3,Wie hieß die Hauptstadt des Byzantinischen Reiches?,Konstantinopel,Rom,Athen,Antiochia,,Heute Istanbul.,antike|mittelalter
+ges-0009,geschichte,3,In welchem Jahr wurde die Magna Carta besiegelt?,1215,1066,1314,1492,,,mittelalter|england
