@@ -7,6 +7,8 @@ document.addEventListener('keydown', (e) => {
   if (!handler || e.ctrlKey || e.metaKey || e.altKey || e.repeat) return;
   if (document.querySelector('dialog[open]')) return; // dialogs handle their own keys
   if (e.target instanceof Element && e.target.closest('input, textarea, select')) return;
+  // Otherwise the browser applies this Escape to a dialog the handler has just opened
+  if (e.key === 'Escape') e.preventDefault();
   handler(e);
 });
 

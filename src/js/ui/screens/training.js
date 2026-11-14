@@ -6,6 +6,8 @@ import { shuffle } from '../../core/random.js';
 import { questionView } from '../components/questionView.js';
 import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
+import { audio } from '../audio.js';
+import { confetti, pulseClass } from '../effects.js';
 
 const LOCK_DELAY_MS = 350;
 
@@ -66,6 +68,7 @@ export function renderTraining(ctx, params) {
     if (busy || s.phase !== 'question') return;
     busy = true;
     view.lock(index);
+    audio.play('click');
     setTimeout(() => {
       game.answer(index);
       ctx.record(s.current.question.id, s.correct);
@@ -73,6 +76,8 @@ export function renderTraining(ctx, params) {
       updateStatus();
       feedback.className = `feedback ${s.correct ? 'is-right' : 'is-wrong'}`;
       feedback.textContent = s.correct ? 'Richtig!' : `Falsch – richtig ist: ${s.current.question.correct}`;
+      audio.play(s.correct ? 'right' : 'wrong');
+      if (!s.correct) pulseClass(stage, 'is-shaking', 500);
       explanation.textContent = s.current.question.explanation ?? '';
       const last = s.index + 1 >= s.total;
       const next = h('button', { class: 'btn', onclick: () => advance() }, last ? 'Zum Ergebnis' : 'Nächste Frage');
@@ -165,4 +170,8 @@ function renderTrainingResult(ctx, s, params) {
     ),
   );
   primary.focus();
+  if (s.answered >= 5 && pct === 100) {
+    audio.play('win');
+    confetti();
+  }
 }

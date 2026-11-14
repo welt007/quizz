@@ -43,6 +43,24 @@ export function questionView(prepared, { categoryInfo, onAnswer }) {
       buttons.forEach((b) => (b.disabled = true));
       buttons[index]?.classList.add('is-locked');
     },
+    /** 50:50 – removes answers (they stay in place so the layout does not jump). */
+    hide(indices) {
+      for (const i of indices) {
+        buttons[i].disabled = true;
+        buttons[i].classList.add('is-removed');
+        buttons[i].setAttribute('aria-hidden', 'true');
+      }
+    },
+    /** Audience joker – shows a percentage bar inside every answer. */
+    showAudience(percentages) {
+      buttons.forEach((b, i) => {
+        b.querySelector('.answer__vote')?.remove();
+        if (b.classList.contains('is-removed')) return;
+        b.style.setProperty('--vote', `${percentages[i]}%`);
+        b.classList.add('has-vote');
+        b.append(h('span', { class: 'answer__vote' }, `${percentages[i]} %`));
+      });
+    },
     /** Shows right/wrong. `chosen` may be null (e.g. after walking away). */
     reveal(chosen) {
       buttons.forEach((b, i) => {
@@ -55,7 +73,7 @@ export function questionView(prepared, { categoryInfo, onAnswer }) {
         } else if (i === chosen) {
           b.classList.add('is-wrong');
           mark.textContent = '✗';
-        } else {
+        } else if (!b.classList.contains('is-removed')) {
           b.classList.add('is-dimmed');
         }
       });

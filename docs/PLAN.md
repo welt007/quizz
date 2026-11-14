@@ -51,14 +51,17 @@ src/js/
     questionPool.js  filtern, nach „am längsten nicht gestellt“ ordnen, Punkteleiter zusammenstellen ✅
     stats.js         je Frage: gestellt/richtig/zuletzt (Wiederholungsvermeidung) ✅
     modes/           je Modus eine Zustandsmaschine (siehe §5) – ladder.js ✅, training.js ✅
-    scoring.js       Zeitbonus, Streaks (ab M2/M3)
+    jokers.js        50:50, Publikumsabstimmung (Treffsicherheit je Schwierigkeit) ✅
+    host.js          Moderator-Sprüche je Situation, ohne direkte Wiederholung ✅
+    scoring.js       Zeitbonus, Streaks (M3)
   data/
     loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden (M4)
     storage.js       localStorage-Wrapper mit In-Memory-Fallback ✅ (IndexedDB folgt in M4)
   ui/
     screens/         start ✅, setup ✅, ladder ✅, training ✅ (je Spiel + Ergebnis); Optionen (M4)
-    components/      questionView ✅, chips ✅, dialog ✅; Timer, Joker, Moderator-Text (M2)
-    audio.js         WebAudio-Effekte (Tusch, richtig, falsch, Ticken)
+    components/      questionView ✅, chips ✅, dialog ✅, timer ✅
+    audio.js         WebAudio-Effekte (Start, Einloggen + Trommelwirbel, richtig, falsch, Ticken, Zeit um, Joker, Sicherheitsstufe, Sieg) ✅
+    effects.js       Konfetti (Canvas), Animations-Helfer ✅
     input.js         Maus/Touch/Tastatur (A–D, 1–4, Buzzer-Tasten)
   main.js           Einstieg, Router zwischen Screens
 ```
@@ -163,7 +166,13 @@ kleine Zustandsmaschine (`intro → question → reveal → … → result`).
 - Zeitlimit je Stufe (Standard): 30 s für leicht/medium, 45 s für schwer/extrem; abschaltbar.
 
 Bedienung in allen Modi: Maus/Touch oder Tastatur – `A`–`D` bzw. `1`–`4` antworten,
-`Enter`/`Leertaste`/`→` weiter, `Esc` beenden bzw. zurück.
+`Enter`/`Leertaste`/`→` weiter, `Esc` beenden bzw. zurück, `M` Ton an/aus.
+Joker in der Punkteleiter: `H` 50:50, `P` Publikum, `T` +30 s.
+
+**Joker & Zeit (umgesetzt):** Zeitablauf zählt wie eine falsche Antwort. Der Timer pausiert
+während Dialogen und bei verstecktem Tab. Ohne Timer entfällt der Zeit-Joker. Das Publikum
+liegt bei leichten Fragen fast immer richtig, bei extremen deutlich seltener; nach 50:50
+stimmt es nur noch über die verbliebenen Antworten ab.
 
 Gemeinsame Einstellungen pro Spiel: Kategorien (Mehrfachauswahl), Quellen, Schwierigkeit (falls im Modus
 wählbar), Timer an/aus/Dauer, Sound an/aus.
@@ -202,7 +211,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 |---|---|---|
 | **M0** ✅ | Projektgerüst, Plan, CSV-Format (4 Stufen), Beispielkataloge, CSV-Parser + Validierung, URL-Normalisierung für Quellen, Build-Pipeline, CI | `npm run build` erzeugt lauffähige Einzeldatei mit Startbildschirm |
 | **M1** ✅ | Spielkern: Fragepool, Wiederholungsvermeidung, **Training** und **Punkteleiter (15 Stufen)** ohne Joker/Timer; Basis-UI (Start → Einrichtung → Spiel → Ergebnis), Tastatursteuerung | Erstes spielbares Quiz |
-| **M2** | Gameshow-Optik & Sound: Bühne, Animationen, Timer, WebAudio, Moderator-Texte, Joker | Show-Feeling |
+| **M2** ✅ | Gameshow-Optik & Sound: Animationen, Countdown-Ring, WebAudio-Sounds mit Ton-Schalter, Moderator-Texte, Joker (50:50, Publikum, +30 s), Konfetti | Show-Feeling |
 | **M3** | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party mit Buzzer; Highscores | Alle Modi |
 | **M4** | **Optionsmenü**: Kataloge per URL hinzufügen/aktualisieren/entfernen, Standardkatalog-Update, IndexedDB, CSV-Import, Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** | Präsentationsmodus, Responsiv-/A11y-Feinschliff, Statistik, Playwright-E2E-Tests (`file://`) | Release 1.0 |
@@ -242,4 +251,5 @@ zum Schließen, worauf das Optionsmenü hinweist).
 
 | Punktwerte | Eigene Werte 50 … 50 000 (siehe §5.1) |
 
-Noch offen (Vorschläge oben, Entscheidung bei M2): Joker-Auswahl, Zeitlimits.
+| Joker | 50:50, Publikum, +30 s – je einmal pro Spiel |
+| Zeitlimits | 30 s leicht/medium, 45 s schwer/extrem, im Einrichtungsbildschirm abschaltbar |

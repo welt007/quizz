@@ -20,6 +20,7 @@ export function renderSetup(ctx, { mode }) {
     categories: keep(saved.categories, ctx.categories),
     difficulties: keep(saved.difficulties, ALL_DIFFICULTIES),
     count: COUNT_OPTIONS.includes(saved.count) ? saved.count : 10,
+    timer: saved.timer !== false,
   };
 
   const info = h('p', { class: 'setup__info', role: 'status' });
@@ -53,6 +54,26 @@ export function renderSetup(ctx, { mode }) {
       categoryChips.el,
     ),
   ];
+
+  if (mode === 'ladder') {
+    sections.push(
+      h(
+        'section',
+        { class: 'panel' },
+        h('h2', {}, 'Zeitlimit'),
+        chipGroup({
+          label: 'Zeitlimit',
+          multi: false,
+          options: [
+            { value: true, label: '⏱ an', hint: '30 s leicht/medium · 45 s schwer/extrem' },
+            { value: false, label: 'aus', hint: 'ohne Zeit-Joker' },
+          ],
+          selected: [choice.timer],
+          onChange: (v) => (choice.timer = v[0] ?? true),
+        }).el,
+      ),
+    );
+  }
 
   if (mode === 'training') {
     sections.push(
@@ -114,7 +135,7 @@ export function renderSetup(ctx, { mode }) {
   function launch() {
     if (start.disabled) return;
     ctx.saveSettings({ setup: { ...ctx.settings.setup, [mode]: choice } });
-    ctx.go(mode, { questions: pool(), count: choice.count });
+    ctx.go(mode, { questions: pool(), count: choice.count, timer: choice.timer });
   }
 
   setKeyHandler((e) => {
