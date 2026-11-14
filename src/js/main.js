@@ -6,12 +6,11 @@ import { DIFFICULTIES } from './core/catalog.js';
 import { prepareQuestion, ANSWER_KEYS } from './core/question.js';
 import { pick } from './core/random.js';
 
-/* global __APP_VERSION__, __BUILD_DATE__ */
+/* global __APP_VERSION__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
-const BUILD_DATE = typeof __BUILD_DATE__ !== 'undefined' ? __BUILD_DATE__ : '';
 
 const MODES = [
-  { id: 'ladder', icon: '🏆', name: 'Punkteleiter', desc: '12 Fragen, steigende Schwierigkeit, Joker.' },
+  { id: 'ladder', icon: '🏆', name: 'Punkteleiter', desc: '15 Fragen von leicht bis extrem, mit Jokern.' },
   { id: 'blitz', icon: '⚡', name: 'Blitzrunde', desc: '60 Sekunden – so viele Fragen wie möglich.' },
   { id: 'sudden', icon: '💀', name: 'Sudden Death', desc: 'Weiter bis zum ersten Fehler.' },
   { id: 'duel', icon: '🎮', name: 'Duell / Party', desc: '2–4 Spieler an einem Gerät, mit Buzzer.' },
@@ -37,7 +36,7 @@ function renderStart() {
   const { manifest, questions } = state.catalog;
   const byCat = {};
   for (const q of questions) {
-    byCat[q.category] ??= { total: 0, 1: 0, 2: 0, 3: 0 };
+    byCat[q.category] ??= { total: 0, 1: 0, 2: 0, 3: 0, 4: 0 };
     byCat[q.category].total++;
     byCat[q.category][q.difficulty]++;
   }
@@ -81,7 +80,7 @@ function renderStart() {
               'div',
               {},
               h('div', { class: 'category__name' }, info.name ?? id),
-              h('div', { class: 'category__meta' }, [1, 2, 3].map((d) => `${c[d]} ${DIFFICULTIES[d]}`).join(' · ')),
+              h('div', { class: 'category__meta' }, Object.keys(DIFFICULTIES).map((d) => `${c[d]} ${DIFFICULTIES[d]}`).join(' · ')),
             ),
           );
         }),
@@ -92,7 +91,7 @@ function renderStart() {
       { class: 'actions' },
       h('button', { class: 'btn', onclick: () => renderSample(), disabled: questions.length === 0 }, '▶ Probefrage'),
     ),
-    h('footer', { class: 'footer' }, `Version ${VERSION} ${BUILD_DATE} · Katalog „${manifest.title}“ ${manifest.version}`),
+    h('footer', { class: 'footer' }, `Version ${VERSION} · Katalog „${manifest.title}“ ${manifest.version}`),
   );
 }
 

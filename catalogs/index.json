@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026-11-14.1",
+  "version": "2026-11-14.2",
   "title": "Standardkatalog",
   "files": ["allgemeinwissen.csv", "geographie.csv", "wissenschaft.csv", "geschichte.csv"],
   "categories": {

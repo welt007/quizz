@@ -25,13 +25,13 @@ catalogs/
 |---|---|---|
 | `id` | ja | Eindeutige, **dauerhafte** Kennung, z. B. `geo-0001`. Nie wiederverwenden oder ändern. |
 | `category` | ja | Kategorie-Kennung, z. B. `geographie`. Anzeigename/Farbe/Icon kommen aus `index.json`. |
-| `difficulty` | ja | `1` = leicht, `2` = mittel, `3` = schwer |
+| `difficulty` | ja | `1` = leicht, `2` = medium, `3` = schwer, `4` = extrem |
 | `question` | ja | Fragetext |
-| `correct` | ja | Die **richtige** Antwort |
-| `wrong1`, `wrong2`, `wrong3` | ja | Drei falsche Antworten |
-| `image` | nein | Bild zur Frage: relativer Pfad (`images/eiffelturm.jpg`), `https://…`-URL oder `data:`-URI |
+| `correct` | ja | Die **richtige** Antwort (nur Text oder Zahl) |
+| `wrong1`, `wrong2`, `wrong3` | ja | Drei falsche Antworten (nur Text oder Zahl) |
+| `image` | nein | Bild zur **Frage** (Bilder gibt es nur hier, nie als Antwort): relativer Pfad (`images/eiffelturm.jpg`), `https://…`-URL oder `data:`-URI |
 | `explanation` | nein | Kurze Erklärung/Hintergrund, wird nach der Auflösung gezeigt |
-| `tags` | nein | Schlagworte, durch `|` getrennt, z. B. `europa|hauptstädte` |
+| `tags` | nein | Schlagworte, durch senkrechten Strich getrennt, z. B. `europa\|hauptstädte` |
 
 Die Antworten werden im Spiel **zufällig gemischt** – die richtige Antwort steht in der CSV
 also immer in `correct`, im Spiel aber auf einer beliebigen Position A–D.
@@ -40,15 +40,29 @@ also immer in `correct`, im Spiel aber auf einer beliebigen Position A–D.
 
 - Alle Pflichtspalten vorhanden und nicht leer.
 - `id` ist im gesamten Katalog eindeutig.
-- `difficulty` ist 1, 2 oder 3.
+- `difficulty` ist 1, 2, 3 oder 4.
+- Antworten sind reiner Text oder Zahlen – Bildpfade (`….png` usw.), URLs und `data:`-URIs sind als Antwort nicht erlaubt.
 - Die vier Antworten sind paarweise verschieden (Groß-/Kleinschreibung egal).
 - `category` ist in `index.json` definiert (sonst Warnung).
 - Relative Bildpfade existieren (beim Build).
 - Hinweise (keine Fehler): sehr lange Fragen (> 200 Zeichen) oder Antworten (> 60 Zeichen),
   verdächtige Zeichen wie `Ã¤` (falsche Kodierung).
 
+## Schwierigkeitsgrade
+
+| Wert | Stufe | Richtschnur |
+|---|---|---|
+| 1 | leicht | Weiß fast jeder, Schulwissen Unterstufe |
+| 2 | medium | Allgemeinbildung, kurz nachdenken |
+| 3 | schwer | Nur wer sich etwas auskennt |
+| 4 | extrem | Expertenwissen, Detailfragen, gute Ablenker |
+
+Die Punkteleiter (15 Fragen) braucht pro Spiel 4× leicht, 4× medium, 4× schwer und 3× extrem –
+damit sich Fragen nicht ständig wiederholen, sollte jede Stufe gut gefüllt sein.
+
 ## Bilder
 
+- Bilder gibt es **nur in der Frage** (Spalte `image`), nicht in den Antworten.
 - Formate: `.jpg`, `.png`, `.webp`, `.gif`, `.svg`
 - Empfehlung: max. 1280 px Kantenlänge, ≤ 200 KB je Bild (alle Bilder landen in der HTML-Datei).
 - Nur Bilder verwenden, die frei nutzbar sind; Quelle/Lizenz bei Bedarf in `explanation` angeben.
@@ -60,6 +74,14 @@ id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,t
 geo-0001,geographie,1,Wie heißt die Hauptstadt von Frankreich?,Paris,Lyon,Marseille,Nizza,,,europa|hauptstädte
 geo-0002,geographie,2,"Welcher Fluss fließt durch Wien, Budapest und Belgrad?",Donau,Rhein,Elbe,Moldau,,Die Donau ist der zweitlängste Fluss Europas.,europa|flüsse
 ```
+
+## Eigene Kataloge an anderer Stelle
+
+Kataloge müssen nicht in diesem Repo liegen. Im Spiel lassen sich unter **Optionen → Kataloge →
+Katalog hinzufügen** weitere Quellen per URL eintragen, z. B. ein eigenes GitHub-Repo
+(`owner/repo`, dort wird `catalogs/index.json` erwartet), ein Ordner mit `index.json` oder eine
+einzelne `.csv`-Datei. Der Server muss Zugriffe aus dem Browser erlauben (CORS) – GitHub und
+GitHub Pages tun das. Format und Regeln sind dieselben wie hier beschrieben.
 
 ## index.json
 

@@ -27,7 +27,7 @@ test('fehlerhafte Zeilen werden mit Zeilennummer übersprungen', () => {
   const csv = [
     HEADER,
     'ok1,geo,1,F?,a,b,c,d',
-    'bad1,geo,4,F?,a,b,c,d',      // Schwierigkeit
+    'bad1,geo,5,F?,a,b,c,d',      // Schwierigkeit
     'bad2,geo,1,F?,a,A,c,d',      // doppelte Antwort
     'ok1,geo,1,F?,a,b,c,d',       // doppelte ID
     'bad3,geo,1,,a,b,c,d',        // leere Frage
@@ -37,6 +37,21 @@ test('fehlerhafte Zeilen werden mit Zeilennummer übersprungen', () => {
   assert.deepEqual(questions.map((q) => q.id), ['ok1']);
   assert.deepEqual(errors.map((e) => e.line), [3, 4, 5, 6, 7]);
   assert.ok(errors.every((e) => e.source === 't.csv'));
+});
+
+test('Schwierigkeit 4 (extrem) ist gültig', () => {
+  const { questions, errors } = parseCatalog(`${HEADER}\nq1,geo,4,F?,a,b,c,d`);
+  assert.equal(errors.length, 0);
+  assert.equal(questions[0].difficulty, 4);
+});
+
+test('Bilder als Antwort sind nicht erlaubt', () => {
+  for (const bad of ['bild.png', 'images/x.JPG', 'https://example.org/a', 'data:image/png;base64,AA']) {
+    const { errors } = parseCatalog(`${HEADER}\nq1,geo,1,F?,a,b,c,${bad}`);
+    assert.match(errors[0]?.message ?? '', /nur Text oder Zahlen/, bad);
+  }
+  const { errors } = parseCatalog(`${HEADER}\nq1,geo,1,F?,3.14,2.5,1/2,"1,5"`);
+  assert.equal(errors.length, 0);
 });
 
 test('unbekannte Kategorie und falsche Kodierung sind Warnungen', () => {

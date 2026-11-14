@@ -9,8 +9,9 @@ Ein Quizspiel im Stil einer TV-Gameshow, das
 - **offline** funktioniert und **portabel** ist: das Ergebnis ist eine **einzige HTML-Datei**
   (`dist/quizshow.html`), die per Doppelklick im Browser läuft (auch von USB-Stick, über `file://`),
 - **Fragenkataloge als CSV** aus einem GitHub-Repo laden und aktualisieren kann,
-- Fragen mit **genau 4 Antwortmöglichkeiten** stellt, optional mit **Bild**,
-- **mehrere Spielmodi**, **Kategorien** und **Schwierigkeitsgrade** anbietet.
+- im **Optionsmenü weitere Kataloge per URL** hinzufügen lässt,
+- Fragen mit **genau 4 Antwortmöglichkeiten** (nur Text oder Zahlen) stellt, die Frage optional mit **Bild**,
+- **mehrere Spielmodi**, **Kategorien** und **4 Schwierigkeitsgrade** anbietet.
 
 ## 2. Leitentscheidungen
 
@@ -19,9 +20,13 @@ Ein Quizspiel im Stil einer TV-Gameshow, das
 | Laufzeit | Vanilla JS (ES2020), kein Framework | Kleine Dateigröße, keine Laufzeitabhängigkeiten, läuft lange stabil |
 | Quellcode | Modular in `src/` (ES-Module) | Wartbar und testbar |
 | Build | Node-Skript `tools/build.mjs` + **esbuild** (einzige Dev-Abhängigkeit) | Bündelt JS/CSS/Fragen/Bilder in eine HTML-Datei |
+| Auslieferung | `dist/quizshow.html` **wird ins Repo committet**; Build ist reproduzierbar (keine Zeitstempel), CI prüft, dass die Datei aktuell ist | Direkt von GitHub herunterladbar, ohne Build-Werkzeuge |
 | Fragen im Auslieferungszustand | Beim Build als JSON **eingebettet**, Bilder als `data:`-URI | Spiel ist ohne Netz sofort spielbar |
-| Aktualisierung | `fetch` auf `raw.githubusercontent.com` (CORS `*`, funktioniert auch von `file://`) | Kein Server nötig |
-| Lokaler Speicher | **IndexedDB** für aktualisierte Kataloge + Bilder, **localStorage** für Einstellungen/Highscores | IndexedDB verkraftet Bilddaten, localStorage ist für Kleinkram einfacher |
+| Kataloge | Liegen im selben Repo unter `catalogs/` | Eine Quelle für Code und Inhalte |
+| Schwierigkeit | **4 Stufen**: 1 leicht, 2 medium, 3 schwer, 4 extrem | Feine Abstufung für die 15er-Punkteleiter |
+| Antworten | **Nur Text oder Zahlen**, Bilder **nur in der Frage** | Einheitliche Darstellung, vom Validator erzwungen |
+| Aktualisierung & weitere Kataloge | `fetch` auf vom Nutzer eingetragene URLs (Standard: `raw.githubusercontent.com`, CORS `*`, funktioniert auch von `file://`) | Kein Server nötig |
+| Lokaler Speicher | **IndexedDB** für geladene Kataloge + Bilder, **localStorage** für Einstellungen/Highscores | IndexedDB verkraftet Bilddaten, localStorage ist für Kleinkram einfacher |
 | Sounds | Per **WebAudio synthetisiert** (keine Audiodateien) | Offline, keine Dateigröße, keine Lizenzfragen |
 | Schriften/Icons | System-Fonts, Emoji / Inline-SVG | Keine externen Ressourcen |
 | Sprache | UI und Doku Deutsch, Code-Bezeichner Englisch | |
@@ -38,27 +43,29 @@ Ein Quizspiel im Stil einer TV-Gameshow, das
 
 src/js/
   core/            reine Logik, ohne DOM → in Node testbar
-    csv.js           RFC-4180-Parser, Trennzeichen-Erkennung (, ;), BOM
-    catalog.js       CSV-Zeilen → Question-Objekte, Validierung
-    questionPool.js  Filtern (Kategorie/Schwierigkeit), Ziehen ohne Wiederholung
-    random.js        seedbarer Zufall (für Mehrspieler-Fairness & Tests)
+    csv.js           RFC-4180-Parser, Trennzeichen-Erkennung (, ;), BOM          ✅
+    catalog.js       CSV-Zeilen → Question-Objekte, Validierung                  ✅
+    sources.js       Nutzer-URL → ladbare Manifest-/CSV-URL (GitHub-Links etc.) ✅
+    question.js      Antworten mischen                                           ✅
+    random.js        seedbarer Zufall (für Mehrspieler-Fairness & Tests)        ✅
+    questionPool.js  Kataloge zusammenführen, filtern, ziehen ohne Wiederholung
     scoring.js       Punkte, Zeitbonus, Streaks
     modes/           je Modus eine Zustandsmaschine (siehe §5)
   data/
-    sources.js       Kataloge zusammenführen: eingebettet ← IndexedDB ← Import
-    updater.js       Manifest + CSV + Bilder von GitHub laden
+    loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden
     storage.js       IndexedDB/localStorage-Wrapper (mit Fallback)
   ui/
-    screens/         Start, Modus-Auswahl, Spiel, Ergebnis, Einstellungen, Kataloge
+    screens/         Start, Modus-Auswahl, Spiel, Ergebnis, Optionen (inkl. Kataloge)
     components/      Antwort-Buttons, Timer, Punkteleiter, Joker, Moderator-Text
     audio.js         WebAudio-Effekte (Tusch, richtig, falsch, Ticken)
     input.js         Maus/Touch/Tastatur (A–D, 1–4, Buzzer-Tasten)
   main.js           Einstieg, Router zwischen Screens
 ```
 
-**Datenfluss beim Start:** eingebettete Kataloge laden → in IndexedDB gespeicherte, neuere
-Katalogversionen darüberlegen → Fragepool aufbauen. Ein Update läuft nur auf Knopfdruck
-(oder optional „beim Start prüfen, wenn online“) und überschreibt nie die eingebetteten Daten.
+**Datenfluss beim Start:** eingebetteter Standardkatalog → aktualisierte Version des
+Standardkatalogs aus IndexedDB (falls neuer) → alle aktivierten zusätzlichen Quellen aus
+IndexedDB → gemeinsamer Fragepool. Netzzugriffe gibt es nur auf Knopfdruck („Aktualisieren“,
+„Hinzufügen“) oder optional „beim Start prüfen, wenn online“.
 
 ## 4. Fragenkataloge
 
@@ -71,27 +78,56 @@ Details für Autoren: [`docs/FRAGENFORMAT.md`](FRAGENFORMAT.md).
 - Pflichtspalten: `id, category, difficulty, question, correct, wrong1, wrong2, wrong3`
 - Optionale Spalten: `image, explanation, tags`
 - Die **richtige Antwort steht immer in `correct`**; die Reihenfolge wird zur Laufzeit gemischt.
-  Das macht das Schreiben einfacher und Fehler (falscher Buchstabe) unmöglich.
-- Schwierigkeit: `1` = leicht, `2` = mittel, `3` = schwer.
+- Antworten sind **nur Text oder Zahlen**; Bildpfade, URLs oder `data:`-URIs als Antwort lehnt der Validator ab.
+- Schwierigkeit: `1` leicht, `2` medium, `3` schwer, `4` extrem.
 - `id` ist stabil und eindeutig → Statistik („schon gestellt“), Wiederholungsvermeidung, Updates.
 
-### Aktualisierung aus GitHub
+### 4.1 Optionsmenü „Kataloge“
 
-1. Einstellung „Katalog-Quelle“: `owner/repo`, Branch, Pfad – Vorgabe `welt007/quizz`, `main`, `catalogs`.
-2. `GET https://raw.githubusercontent.com/<owner>/<repo>/<branch>/<path>/index.json`
-3. Versionsvergleich mit lokal gespeicherter Version → nur bei Änderung weiter.
-4. Alle CSVs laden, parsen, **validieren**. Fehlerhafte Zeilen werden übersprungen und angezeigt;
-   ist ein Katalog komplett unbrauchbar, bleibt die alte Version aktiv.
-5. Bilder laden, in `data:`-URIs bzw. Blobs wandeln und mit in IndexedDB speichern
+Liste aller Quellen mit Name, Herkunft, Version, Fragenanzahl, Stand (zuletzt aktualisiert) und
+Fehlerhinweisen. Pro Quelle: **aktivieren/deaktivieren**, **aktualisieren**, **entfernen**
+(der Standardkatalog kann nicht entfernt, nur deaktiviert oder zurückgesetzt werden).
+
+**„Katalog hinzufügen“** – ein Eingabefeld für eine URL. Akzeptiert wird (umgesetzt in `core/sources.js`):
+
+| Eingabe | wird geladen |
+|---|---|
+| `owner/repo` oder `https://github.com/owner/repo` | `raw.githubusercontent.com/owner/repo/HEAD/catalogs/index.json` |
+| `https://github.com/owner/repo/tree/<branch>/<ordner>` | `<ordner>/index.json` auf `<branch>` |
+| `https://github.com/owner/repo/blob/<branch>/<datei>.csv` | genau diese CSV (bzw. `.json` als Manifest) |
+| `https://…/index.json` | Manifest mit mehreren CSVs + Bildern |
+| `https://…/fragen.csv` | einzelne CSV (ohne Manifest; Name = Dateiname) |
+| `https://…/ordner/` | `ordner/index.json` |
+
+Nur `https` (und `http://localhost` zum Testen). Der Server muss CORS erlauben – GitHub (raw)
+und GitHub Pages tun das. Bei CORS- oder Netzfehlern gibt es einen verständlichen Hinweis
+mit Alternative (Datei herunterladen und per **CSV-Import** laden).
+
+Ablauf beim Hinzufügen/Aktualisieren:
+
+1. URL normalisieren → Manifest bzw. CSV laden.
+2. Bei Aktualisierung: Versionsvergleich (`version` im Manifest; bei reiner CSV ein Hash des
+   Inhalts) → nur bei Änderung weiter.
+3. Alle CSVs laden, parsen, **validieren**. Fehlerhafte Zeilen werden übersprungen und angezeigt;
+   ist eine Quelle komplett unbrauchbar, bleibt die alte Version aktiv.
+4. Bilder (relativ zur Quelle aufgelöst) laden und als Blob in IndexedDB speichern
    → danach auch offline mit Bildern spielbar.
-6. Fortschrittsanzeige, Zusammenfassung („+12 neue Fragen, 3 Zeilen fehlerhaft“).
+5. Vorschau vor dem Übernehmen: „48 Fragen in 4 Kategorien, 2 Zeilen fehlerhaft – hinzufügen?“
 
-Zusätzlich: **manueller Import** einer CSV-Datei über einen Datei-Dialog (ganz ohne Netz,
-Bilder dann nur als URL oder `data:`-URI) und **Zurücksetzen** auf die eingebetteten Fragen.
+**Zusammenführen mehrerer Quellen:**
+
+- Fragen werden intern als `<quelle>:<id>` geführt → gleiche IDs in verschiedenen Quellen kollidieren nicht.
+- Gleiche Kategorie-ID in mehreren Quellen = **eine** Kategorie (z. B. „geographie“ aus zwei
+  Katalogen wird zusammen gespielt). Anzeigename/Icon/Farbe aus der zuerst geladenen Quelle;
+  Kategorien ohne Metadaten bekommen eine automatisch gewählte Farbe und ❓.
+- Beim Spielstart lässt sich zusätzlich nach Quelle filtern.
+
+Außerdem: **CSV-Import** aus einer lokalen Datei (ganz ohne Netz; Bilder dann nur als
+`https`-URL oder `data:`-URI) und **„Standardkatalog zurücksetzen“** auf die eingebettete Version.
 
 Qualitätssicherung im Repo: `npm run validate` prüft alle CSVs; die GitHub Action
-`.github/workflows/ci.yml` führt Validierung, Tests und Build bei jedem Push aus und stellt
-`quizshow.html` als Build-Artefakt bereit.
+`.github/workflows/ci.yml` führt Validierung, Tests und Build bei jedem Push aus und prüft,
+dass das committete `dist/quizshow.html` zum Quellstand passt.
 
 ## 5. Spielmodi
 
@@ -100,13 +136,28 @@ kleine Zustandsmaschine (`intro → question → reveal → … → result`).
 
 | Modus | Ablauf | Besonderheiten |
 |---|---|---|
-| **Punkteleiter** (Hauptmodus) | 12 Fragen mit steigender Schwierigkeit (4× leicht, 4× mittel, 4× schwer), Punktwert steigt pro Stufe | 3 Joker: **50:50**, **Publikum** (simulierte Abstimmung, Trefferquote abhängig von Schwierigkeit), **Zeit+**; 2 Sicherheitsstufen; jederzeit „aussteigen“ |
+| **Punkteleiter** (Hauptmodus) | **15 Fragen** mit steigender Schwierigkeit (siehe unten) | 3 Joker: **50:50**, **Publikum** (simulierte Abstimmung, Trefferquote abhängig von Schwierigkeit), **Zeit+**; 2 Sicherheitsstufen; jederzeit „aussteigen“ |
 | **Blitzrunde** | 60 Sekunden, so viele Fragen wie möglich | Streak-Multiplikator, falsche Antwort kostet 3 s |
-| **Sudden Death** | Fragen bis zum ersten Fehler, Schwierigkeit steigt langsam | Highscore pro Kategorie |
+| **Sudden Death** | Fragen bis zum ersten Fehler, Schwierigkeit steigt alle 5 Fragen | Highscore pro Kategorie |
 | **Duell / Party** (2–4 Spieler, ein Gerät) | Reihum oder Buzzer (Tasten je Spieler, z. B. `Q`, `P`, `Z`, `M`) | Wer zuerst buzzert, antwortet; falsch → Punktabzug, Frage geht an die anderen |
-| **Training** | Freie Wahl von Kategorie(n) und Schwierigkeit, kein Timer | Erklärung (`explanation`) nach jeder Antwort, „falsch beantwortete wiederholen“ |
+| **Training** | Freie Wahl von Kategorie(n) und Schwierigkeit(en), kein Timer | Erklärung (`explanation`) nach jeder Antwort, „falsch beantwortete wiederholen“ |
 
-Gemeinsame Einstellungen pro Spiel: Kategorien (Mehrfachauswahl), Schwierigkeit (falls im Modus
+### 5.1 Punkteleiter (15 Stufen)
+
+| Frage | 1–4 | 5 | 6–8 | 9 | 10 | 11–12 | 13–15 |
+|---|---|---|---|---|---|---|---|
+| Schwierigkeit | leicht | medium | medium | schwer | schwer | schwer | extrem |
+| Besonderheit | | 🛡 Sicherheitsstufe 1 | | | 🛡 Sicherheitsstufe 2 | | 15 = Hauptgewinn |
+
+- Verteilung: 4× leicht, 4× medium, 4× schwer, 3× extrem.
+- Punktwerte steigen pro Stufe (z. B. 100 → 200 → 300 → 500 → **1 000** → 2 000 → 4 000 → 8 000 →
+  16 000 → **32 000** → 64 000 → 125 000 → 250 000 → 500 000 → **1 000 000** Punkte).
+- Falsche Antwort → zurück auf die letzte erreichte Sicherheitsstufe; „Aussteigen“ sichert den aktuellen Stand.
+- Gibt der Pool für eine Stufe zu wenige Fragen her, wird auf die benachbarte Schwierigkeit
+  ausgewichen (erst leichter, dann schwerer) und ein Hinweis angezeigt.
+- Zeitlimit je Stufe (Standard): 30 s für leicht/medium, 45 s für schwer/extrem; abschaltbar.
+
+Gemeinsame Einstellungen pro Spiel: Kategorien (Mehrfachauswahl), Quellen, Schwierigkeit (falls im Modus
 wählbar), Timer an/aus/Dauer, Sound an/aus.
 
 ## 6. Gameshow-Präsentation
@@ -117,7 +168,7 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 - Moderator-Sprüche (Textbausteine, zufällig, je Situation).
 - Konfetti bei Sieg/Highscore (Canvas, ohne Bibliothek).
 - **Präsentationsmodus** für Beamer/TV: Vollbild (`F`), komplette Tastatursteuerung,
-  skaliert auf 16:9; Bilder groß darstellbar (Klick → Zoom).
+  skaliert auf 16:9; Fragebilder groß darstellbar (Klick → Zoom).
 - Responsiv: Smartphone (hochkant) bis Beamer. Bedienbar per Touch, Maus und Tastatur.
 - Barrierearm: ausreichende Kontraste, Fokus-Ringe, `prefers-reduced-motion` respektieren,
   Antworten nicht nur über Farbe kenntlich (✓/✗-Symbole).
@@ -126,49 +177,59 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 
 | Schlüssel | Speicher | Inhalt |
 |---|---|---|
-| `quizshow.settings` | localStorage | Sound, Timer, Katalog-Quelle, Sprache der Moderation |
+| `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“ |
+| `quizshow.sources` | localStorage | Liste der Quellen: id, URL, Name, aktiv, Version/Hash, Stand, Fragenanzahl |
 | `quizshow.highscores` | localStorage | je Modus/Kategorie Top 10 (Name, Punkte, Datum) |
-| `quizshow.stats` | localStorage | je Frage-`id`: gestellt/richtig (für Wiederholungsvermeidung) |
-| `catalogs` | IndexedDB | aktualisierte Kataloge inkl. Version und Bilddaten |
+| `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |
+| `catalogs` | IndexedDB | Fragen je Quelle inkl. Manifest |
+| `images` | IndexedDB | Bilder je Quelle als Blob |
 
 Alle Zugriffe in `try/catch`; im privaten Modus oder bei `file://`-Einschränkungen läuft das
-Spiel ohne Speicherung weiter (In-Memory-Fallback).
+Spiel ohne Speicherung weiter (In-Memory-Fallback; hinzugefügte Kataloge gelten dann nur bis
+zum Schließen, worauf das Optionsmenü hinweist).
 
 ## 8. Meilensteine
 
 | # | Inhalt | Ergebnis |
 |---|---|---|
-| **M0** ✅ | Projektgerüst, Plan, CSV-Format, Beispielkataloge, CSV-Parser + Validierung, Build-Pipeline, CI | `npm run build` erzeugt lauffähige Einzeldatei mit Startbildschirm |
-| **M1** | Spielkern: Fragepool, Antwort-Mischen, Scoring, **Training** und **Punkteleiter** ohne Joker; Basis-UI (Start → Spiel → Ergebnis) | Erstes spielbares Quiz |
+| **M0** ✅ | Projektgerüst, Plan, CSV-Format (4 Stufen), Beispielkataloge, CSV-Parser + Validierung, URL-Normalisierung für Quellen, Build-Pipeline, CI | `npm run build` erzeugt lauffähige Einzeldatei mit Startbildschirm |
+| **M1** | Spielkern: Fragepool, Scoring, **Training** und **Punkteleiter (15 Stufen)** ohne Joker; Basis-UI (Start → Spiel → Ergebnis) | Erstes spielbares Quiz |
 | **M2** | Gameshow-Optik & Sound: Bühne, Animationen, Timer, WebAudio, Moderator-Texte, Joker | Show-Feeling |
 | **M3** | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party mit Buzzer; Highscores | Alle Modi |
-| **M4** | Katalog-Update aus GitHub, IndexedDB, CSV-Import, Katalogverwaltung, Fehleranzeige | Kataloge ohne neuen Build aktualisierbar |
+| **M4** | **Optionsmenü**: Kataloge per URL hinzufügen/aktualisieren/entfernen, Standardkatalog-Update, IndexedDB, CSV-Import, Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** | Präsentationsmodus, Responsiv-/A11y-Feinschliff, Statistik, Playwright-E2E-Tests (`file://`) | Release 1.0 |
 | **M6** | Inhalte: Kataloge auf ≥ 50 Fragen je Kategorie und Stufe ausbauen | Spielspaß |
 
 ## 9. Tests
 
-- **Unit** (`node --test`): CSV-Parser, Validierung, Fragepool, Scoring, Modus-Zustandsmaschinen.
+- **Unit** (`node --test`): CSV-Parser, Validierung, URL-Normalisierung, Fragepool, Scoring, Modus-Zustandsmaschinen.
 - **Katalog-Validierung** (`npm run validate`): in CI bei jeder Änderung an `catalogs/`.
+- **Build-Aktualität**: CI baut neu und bricht ab, wenn `dist/quizshow.html` vom Commit abweicht.
 - **E2E** (ab M5, Playwright, Chromium ist vorhanden): `dist/quizshow.html` über `file://` öffnen,
-  je Modus ein Spiel durchspielen, Offline-Betrieb prüfen (Netz blockiert).
+  je Modus ein Spiel durchspielen, Offline-Betrieb prüfen (Netz blockiert), Katalog per URL
+  hinzufügen (gegen lokalen Testserver).
 
 ## 10. Risiken & Gegenmaßnahmen
 
 | Risiko | Gegenmaßnahme |
 |---|---|
 | Dateigröße durch eingebettete Bilder | Richtwert ≤ 200 KB/Bild, max. 1280 px; Build warnt ab 5 MB Gesamtgröße |
-| `file://`-Einschränkungen (einige Browser sperren Storage/fetch) | Alles mit Fallback; Update-Funktion zeigt klare Fehlermeldung, Spielen geht immer |
+| Repo wächst durch committete HTML-Datei | Build ist reproduzierbar, Änderungen nur bei echten Inhaltsänderungen; Bildgrößen-Richtwert |
+| `file://`-Einschränkungen (einige Browser sperren Storage/fetch) | Alles mit Fallback; Optionsmenü zeigt klare Fehlermeldung, Spielen geht immer |
+| Fremde Kataloge ohne CORS oder hinter Login | Verständliche Fehlermeldung + Weg über Download und CSV-Import |
+| Schadhafte Inhalte aus fremden Quellen | Texte nur per `textContent`; Bilder nur als `<img>` (SVG in `<img>` führt kein Script aus); Validierung vor Übernahme |
 | GitHub-Rate-Limit / Repo privat | `raw.githubusercontent.com` statt API; bei privatem Repo: Hinweis, CSV-Import als Alternative |
 | Excel speichert CSV mit `;` und Windows-1252 | Trennzeichen-Erkennung; Doku empfiehlt „CSV UTF-8“; Validator meldet kaputte Umlaute |
 | Fehlerhafte Fragen in Katalogen | Validator in CI, zeilengenaue Fehlermeldungen, defekte Zeilen werden übersprungen |
 
-## 11. Offene Punkte (zur Entscheidung)
+## 11. Entscheidungen
 
-1. **Auslieferung der HTML-Datei:** nur als CI-Artefakt, zusätzlich als GitHub-Release, oder
-   `dist/quizshow.html` mit ins Repo committen? (Aktuell: CI-Artefakt, `dist/` ist ignoriert.)
-2. **Fragen-Repo:** Kataloge im selben Repo (`welt007/quizz/catalogs`) oder separates Inhalts-Repo?
-   Technisch ist beides über die Einstellung „Katalog-Quelle“ möglich.
-3. **Schwierigkeitsstufen:** 3 Stufen (aktuell) oder 5 für eine feinere Punkteleiter?
-4. **Bildantworten** (Antworten selbst als Bilder) – gewünscht? Aktuell nicht vorgesehen.
-5. Länge der Punkteleiter (12 oder 15 Fragen) und Joker-Auswahl.
+| Frage | Entscheidung (2026-11-14) |
+|---|---|
+| Auslieferung der HTML-Datei | Fertige HTML-Datei **und** Kataloge liegen im Repo |
+| Ort der Kataloge | Im selben Repo (`catalogs/`); weitere Kataloge per URL im Optionsmenü |
+| Schwierigkeitsstufen | 4: leicht, medium, schwer, extrem |
+| Bildantworten | Nein – Antworten nur Text oder Zahlen, Bilder nur in der Frage |
+| Punkteleiter | 15 Fragen |
+
+Noch offen (Vorschläge oben, Entscheidung bei M1/M2): genaue Punktwerte, Joker-Auswahl, Zeitlimits.

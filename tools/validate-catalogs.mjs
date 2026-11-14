@@ -14,14 +14,14 @@ const { manifest, questions, errors, warnings } = await loadCatalogs(dir);
 if (questions.length) {
   const table = {};
   for (const q of questions) {
-    table[q.category] ??= { 1: 0, 2: 0, 3: 0 };
+    table[q.category] ??= Object.fromEntries(Object.keys(DIFFICULTIES).map((d) => [d, 0]));
     table[q.category][q.difficulty]++;
   }
   console.log(`Katalog "${manifest?.title ?? '?'}" Version ${manifest?.version ?? '?'}: ${questions.length} Fragen\n`);
   const head = ['Kategorie'.padEnd(20), ...Object.values(DIFFICULTIES).map((d) => d.padStart(7))].join('');
   console.log(head);
   for (const [cat, counts] of Object.entries(table).sort()) {
-    console.log([cat.padEnd(20), ...[1, 2, 3].map((d) => String(counts[d]).padStart(7))].join(''));
+    console.log([cat.padEnd(20), ...Object.keys(DIFFICULTIES).map((d) => String(counts[d]).padStart(7))].join(''));
   }
   console.log();
 }

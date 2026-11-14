@@ -2,18 +2,20 @@ import { parseCsvObjects, CsvError } from './csv.js';
 
 export const REQUIRED_COLUMNS = ['id', 'category', 'difficulty', 'question', 'correct', 'wrong1', 'wrong2', 'wrong3'];
 export const OPTIONAL_COLUMNS = ['image', 'explanation', 'tags'];
-export const DIFFICULTIES = { 1: 'leicht', 2: 'mittel', 3: 'schwer' };
+export const DIFFICULTIES = { 1: 'leicht', 2: 'medium', 3: 'schwer', 4: 'extrem' };
 export const MANIFEST_FORMAT = 1;
 
 const MAX_QUESTION_LEN = 200;
 const MAX_ANSWER_LEN = 60;
 const MOJIBAKE = /Ã[¤¶¼Ÿ„–œ]|â€/;
+// answers are plain text or numbers – images are only allowed in the "image" column
+const LOOKS_LIKE_IMAGE = /^data:|^https?:\/\/|\.(png|jpe?g|gif|webp|svg)$/i;
 
 /**
  * @typedef {Object} Question
  * @property {string} id
  * @property {string} category
- * @property {1|2|3} difficulty
+ * @property {1|2|3|4} difficulty
  * @property {string} question
  * @property {string} correct
  * @property {string[]} wrong      exactly three entries
@@ -70,7 +72,7 @@ export function parseCatalog(text, { source = 'catalog.csv', categories } = {}) 
     }
     const difficulty = Number(rec.difficulty);
     if (rec.difficulty && !DIFFICULTIES[difficulty]) {
-      rowErrors.push(`Schwierigkeit "${rec.difficulty}" ungültig (erlaubt: 1, 2, 3)`);
+      rowErrors.push(`Schwierigkeit "${rec.difficulty}" ungültig (erlaubt: ${Object.keys(DIFFICULTIES).join(', ')})`);
     }
     if (rec.id && seenIds.has(rec.id)) rowErrors.push(`ID "${rec.id}" ist doppelt`);
     if (rec.extraFields) {
@@ -80,6 +82,9 @@ export function parseCatalog(text, { source = 'catalog.csv', categories } = {}) 
     const answers = [rec.correct, rec.wrong1, rec.wrong2, rec.wrong3];
     const normalized = answers.filter(Boolean).map((a) => a.toLocaleLowerCase('de'));
     if (new Set(normalized).size !== normalized.length) rowErrors.push('Antworten sind nicht alle verschieden');
+    if (answers.some((a) => a && LOOKS_LIKE_IMAGE.test(a))) {
+      rowErrors.push('Antworten dürfen nur Text oder Zahlen sein – Bilder gehören in die Spalte "image"');
+    }
 
     if (rowErrors.length) {
       issue(errors, line, `${rec.id || '(ohne ID)'}: ${rowErrors.join('; ')}`);

@@ -2,6 +2,9 @@
 // Builds dist/quizshow.html: a single, self-contained, offline-capable HTML file
 // containing the bundled JS, CSS, all catalogs and all images (as data URIs).
 //
+// The output is reproducible (no timestamps) and committed to the repo, so the
+// game can be downloaded directly from GitHub.
+//
 // Usage: node tools/build.mjs [--dev]   (--dev: no minification)
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -36,7 +39,6 @@ const js = await esbuild.build({
   target: ['es2020'],
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
-    __BUILD_DATE__: JSON.stringify(new Date().toISOString().slice(0, 10)),
   },
 });
 const css = await esbuild.build({ ...common, entryPoints: [path.join(root, 'src/styles/main.css')] });

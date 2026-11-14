@@ -20,7 +20,10 @@ jobs:
         run: npm test
       - name: Build
         run: npm run build
-      - uses: actions/upload-artifact@v4
-        with:
-          name: quizshow
-          path: dist/quizshow.html
+      - name: dist/quizshow.html ist aktuell
+        run: |
+          if ! git diff --quiet -- dist/; then
+            echo "::error::dist/quizshow.html passt nicht zum Quellstand – bitte 'npm run build' ausführen und committen."
+            git diff --stat -- dist/
+            exit 1
+          fi

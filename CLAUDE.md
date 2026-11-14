@@ -8,7 +8,8 @@ Plan und Meilensteine: `docs/PLAN.md`. CSV-Format: `docs/FRAGENFORMAT.md`.
 
 - **Keine externen Laufzeit-Ressourcen**: keine CDNs, Webfonts, externen Bilder/Sounds im gebauten
   Spiel. Alles wird inline gebündelt; Sounds per WebAudio erzeugen. Einzige erlaubte Netzwerk-
-  zugriffe zur Laufzeit: das optionale Katalog-Update von `raw.githubusercontent.com`.
+  zugriffe zur Laufzeit: Laden/Aktualisieren von Katalogquellen, die der Nutzer im Optionsmenü
+  eingetragen hat (Standard: `raw.githubusercontent.com`), und nur auf Nutzeraktion.
 - Muss über `file://` funktionieren (kein Service Worker, keine ES-Module zur Laufzeit,
   Storage-Zugriffe immer in `try/catch` mit Fallback).
 - Katalogtexte nie per `innerHTML` einsetzen – nur `textContent` (siehe `src/js/ui/dom.js`).
@@ -16,4 +17,7 @@ Plan und Meilensteine: `docs/PLAN.md`. CSV-Format: `docs/FRAGENFORMAT.md`.
 - Laufzeit-Abhängigkeiten vermeiden; einzige Dev-Abhängigkeit ist esbuild.
 - UI-Texte und Doku auf Deutsch, Code-Bezeichner auf Englisch.
 - Eigenes Gameshow-Design – keine Namen, Logos oder Optik bestehender TV-Shows nachbauen.
+- Schwierigkeit 1–4 (leicht, medium, schwer, extrem). Antworten nur Text/Zahlen, Bilder nur in der Frage.
+- `dist/quizshow.html` ist **im Repo** und muss zum Quellstand passen (CI prüft das): nach jeder
+  Änderung an `src/`, `catalogs/` oder `package.json` neu bauen und mit committen.
 - Vor dem Commit: `npm run check` (validieren, testen, bauen).
