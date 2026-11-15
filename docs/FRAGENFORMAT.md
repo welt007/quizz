@@ -68,7 +68,8 @@ damit sich Fragen nicht ständig wiederholen, sollte jede Stufe gut gefüllt sei
 - Nur Bilder verwenden, die frei nutzbar sind; Quelle/Lizenz bei Bedarf in `explanation` angeben.
 - Fragen mit gleichem Text sind erlaubt, wenn das Bild den Unterschied macht (z. B. „Zu welchem Land
   gehört diese Flagge?“ in `flaggen.csv`, „Welches Land hat diesen Umriss?“ in `umrisse.csv`).
-  Die Umrisse erzeugt `tools/assets/build-outlines.mjs` aus Natural-Earth-Daten.
+  Die Umrisse erzeugt `tools/assets/build-outlines.mjs` aus Natural-Earth-Daten, die Obst-/Gemüsebilder
+  `tools/assets/build-food-images.mjs` und die Baumblätter `tools/assets/build-leaves.mjs`.
 
 ## Beispiel
 

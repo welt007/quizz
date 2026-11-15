@@ -1,0 +1,117 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+nz-0001,neunziger,1,In welchem Jahr wurde Deutschland wiedervereinigt?,1990,1989,1991,1992,,,
+nz-0002,neunziger,1,Welche Stadt wählte der Bundestag 1991 zum Regierungssitz?,Berlin,Bonn,Frankfurt am Main,Leipzig,,,
+nz-0003,neunziger,4,An welchem Tag beschloss der Bundestag den Umzug nach Berlin?,20. Juni 1991,3. Oktober 1990,9. November 1991,1. Januar 1992,,,
+nz-0004,neunziger,3,Wer war 1990 der letzte Ministerpräsident der DDR?,Lothar de Maizière,Egon Krenz,Hans Modrow,Erich Honecker,,,
+nz-0005,neunziger,1,Welcher Bundeskanzler regierte während der Wiedervereinigung?,Helmut Kohl,Helmut Schmidt,Gerhard Schröder,Willy Brandt,,,
+nz-0006,neunziger,1,Wer wurde 1998 Bundeskanzler?,Gerhard Schröder,Helmut Kohl,Angela Merkel,Joschka Fischer,,,
+nz-0007,neunziger,1,In welchem Jahr löste sich die Sowjetunion auf?,1991,1989,1993,1995,,,
+nz-0008,neunziger,2,Welcher russische Präsident trat am Silvestertag 1999 zurück?,Boris Jelzin,Michail Gorbatschow,Wladimir Putin,Dmitri Medwedew,,,
+nz-0009,neunziger,1,Welcher US-Präsident regierte von 1993 bis 2001?,Bill Clinton,George Bush senior,George W. Bush,Ronald Reagan,,,
+nz-0010,neunziger,2,In welchem Jahr wurde Nelson Mandela nach 27 Jahren aus der Haft entlassen?,1990,1985,1994,1988,,,
+nz-0011,neunziger,2,In welchem Jahr wurde Nelson Mandela Präsident Südafrikas?,1994,1990,1992,1999,,,
+nz-0012,neunziger,2,Welche Stadt war von 1992 bis 1996 fast vier Jahre lang belagert?,Sarajevo,Belgrad,Zagreb,Dubrovnik,,,
+nz-0013,neunziger,2,In welchem Land kam es 1994 zum Völkermord an den Tutsi?,Ruanda,Somalia,Uganda,Kongo,,,
+nz-0014,neunziger,1,Welche Stadt gab Großbritannien 1997 an China zurück?,Hongkong,Macau,Singapur,Shanghai,,,
+nz-0015,neunziger,1,Welche Prinzessin starb 1997 bei einem Autounfall in Paris?,Diana,Caroline,Grace,Margaret,,,
+nz-0016,neunziger,2,In welchem Jahr trat der Vertrag von Maastricht in Kraft?,1993,1992,1995,1999,,,
+nz-0017,neunziger,2,Welcher Tunnel wurde 1994 eröffnet?,Der Eurotunnel unter dem Ärmelkanal,Der Gotthard-Basistunnel,Der Elbtunnel,Der Seikan-Tunnel,,,
+nz-0018,neunziger,2,Welcher Künstler verhüllte 1995 zusammen mit Jeanne-Claude den Berliner Reichstag?,Christo,Joseph Beuys,Jeff Koons,Gerhard Richter,,,
+nz-0019,neunziger,2,Was bekam das Reichstagsgebäude bei seinem Umbau bis 1999?,Eine begehbare Glaskuppel,Einen Fernsehturm,Ein Flachdach,Zwei neue Türme,,,
+nz-0020,neunziger,2,"Welcher Fluss verursachte 1997 ein Jahrhunderthochwasser in Brandenburg, Polen und Tschechien?",Oder,Elbe,Rhein,Donau,,,
+nz-0021,neunziger,3,An welchem Tag war 1999 in Süddeutschland eine totale Sonnenfinsternis zu sehen?,11. August,21. Juni,1. Mai,31. Dezember,,,
+nz-0022,neunziger,3,In welchem Jahr wurde die deutsche Rechtschreibreform beschlossen?,1996,1990,1999,1993,,,
+nz-0023,neunziger,2,Welche Rinderkrankheit („Rinderwahn“) sorgte in den 90ern für Aufregung?,BSE,Maul- und Klauenseuche,Vogelgrippe,Schweinepest,,,
+nz-0024,neunziger,1,Welches Schaf wurde 1996 als erstes Säugetier aus einer Körperzelle geklont?,Dolly,Polly,Molly,Shaun,,,
+nz-0025,neunziger,3,In welchem Land wurde das Klonschaf Dolly geboren?,Schottland,Wales,USA,Neuseeland,,,
+nz-0026,neunziger,2,Welches Weltraumteleskop wurde 1990 ins All gebracht?,Hubble,James Webb,Kepler,Spitzer,,,
+nz-0027,neunziger,2,"Wie hieß die russische Raumstation, die in den 90ern die Erde umkreiste?",Mir,Saljut,Skylab,Tiangong,,,
+nz-0028,neunziger,3,Welcher Komet war 1997 monatelang mit bloßem Auge zu sehen?,Hale-Bopp,Halley,Shoemaker-Levy 9,Swift-Tuttle,,,
+nz-0029,neunziger,2,Was befürchtete man beim „Millennium-Bug“ (Y2K)?,Computer könnten das Jahr 2000 als 1900 deuten,Ein Virus würde alle Handys löschen,Satelliten könnten abstürzen,Die Uhren würden stehen bleiben,,,
+nz-0030,neunziger,1,Welches Betriebssystem führte Microsoft 1995 mit großem Werbeaufwand ein?,Windows 95,Windows XP,MS-DOS 1.0,Windows Vista,,,
+nz-0031,neunziger,1,Welche Suchmaschine wurde 1998 gegründet?,Google,Yahoo,Bing,AltaVista,,,
+nz-0032,neunziger,2,Welches Unternehmen startete 1995 als Online-Buchhandlung?,Amazon,eBay,Zalando,Otto,,,
+nz-0033,neunziger,1,Welche finnische Handymarke beherrschte Ende der 90er den Markt?,Nokia,Siemens,Motorola,Ericsson,,,
+nz-0034,neunziger,2,Wie viele Zeichen durfte eine SMS haben?,160,140,100,255,,,
+nz-0035,neunziger,1,Was war ein „Discman“?,Ein tragbarer CD-Spieler,Ein Diskjockey,Eine Diskettenbox,Eine Spielkonsole,,,
+nz-0036,neunziger,3,Welches Speichermedium von Sony sollte ab 1992 die Kassette ablösen?,Die MiniDisc,Die DVD,Die Diskette,Die Blu-ray,,,
+nz-0037,neunziger,1,Was war ein Tamagotchi?,Ein virtuelles Haustier im Ei,Ein Karaoke-Gerät,Ein Taschenrechner,Ein japanisches Gericht,,,
+nz-0038,neunziger,2,Aus welchem Land stammt das Tamagotchi (1996)?,Japan,China,Südkorea,USA,,,
+nz-0039,neunziger,2,"Welches plüschige, sprechende Elektronik-Spielzeug war 1998 der große Weihnachtsrenner?",Furby,Teletubby,Tamagotchi,Gameboy,,,
+nz-0040,neunziger,1,Welche Spielkonsole brachte Sony 1994 heraus?,PlayStation,Game Boy,Dreamcast,Xbox,,,
+nz-0041,neunziger,2,Welche Spielereihe mit Taschenmonstern startete 1996 in Japan?,Pokémon,Digimon,Yu-Gi-Oh!,Monster Hunter,,,
+nz-0042,neunziger,2,Welcher Schachweltmeister verlor 1997 einen Wettkampf gegen den Computer „Deep Blue“?,Garri Kasparow,Anatoli Karpow,Bobby Fischer,Wladimir Kramnik,,,
+nz-0043,neunziger,3,Welche Firma baute den Schachcomputer „Deep Blue“?,IBM,Apple,Microsoft,Intel,,,
+nz-0044,neunziger,2,"Wie hießen die klobigen Plateauschuhe, die in den 90ern Kult waren?",Buffalos,Crocs,Birkenstocks,Doc Martens,,,
+nz-0045,neunziger,1,Welche britische Girlgroup sang 1996 „Wannabe“?,Spice Girls,All Saints,Sugababes,Bananarama,,,
+nz-0046,neunziger,1,Wer sang 1998 „…Baby One More Time“?,Britney Spears,Christina Aguilera,Jessica Simpson,Mandy Moore,,,
+nz-0047,neunziger,1,Wie hieß die Band von Kurt Cobain?,Nirvana,Pearl Jam,Soundgarden,Alice in Chains,,,
+nz-0048,neunziger,2,Welcher Musikstil kam Anfang der 90er aus Seattle?,Grunge,Britpop,Eurodance,Hip-House,,,
+nz-0049,neunziger,2,Welche Band sang 1995 „Wonderwall“?,Oasis,Blur,Pulp,Radiohead,,,
+nz-0050,neunziger,4,Welche Seattle-Band sang 1994 „Black Hole Sun“?,Soundgarden,Nirvana,Pearl Jam,Stone Temple Pilots,,,
+nz-0051,neunziger,1,Welche Techno-Parade zog in den 90ern Hunderttausende nach Berlin?,Love Parade,Street Parade,Mayday,Fuckparade,,,
+nz-0052,neunziger,2,Welcher Musiksender ging 1993 als deutsche Antwort auf MTV auf Sendung?,VIVA,Onyx,The Box,RTL 2,,,
+nz-0053,neunziger,2,Wer hatte 1999 mit „Mambo No. 5“ einen Sommerhit?,Lou Bega,Ricky Martin,Shaggy,Las Ketchup,,,
+nz-0054,neunziger,2,Welches Duo hatte 1996 mit „Macarena“ einen Welthit?,Los del Río,Gipsy Kings,Las Ketchup,Bellini,,,
+nz-0055,neunziger,3,Welcher Sänger mischte 1995 Scat-Gesang mit Dance-Beats?,Scatman John,Dr. Alban,Haddaway,Captain Jack,,,
+nz-0056,neunziger,2,Welche Stuttgarter Hip-Hop-Gruppe landete 1992 mit „Die da!?!“ einen Hit?,Die Fantastischen Vier,Fettes Brot,Freundeskreis,Absolute Beginner,,,
+nz-0057,neunziger,4,Wie hieß das erste internationale Soloalbum von Björk (1993)?,Debut,Homogenic,Post,Vespertine,,,
+nz-0058,neunziger,1,Welcher Film von 1997 erzählt vom Untergang eines berühmten Schiffs?,Titanic,Poseidon,Das Boot,Master and Commander,,,
+nz-0059,neunziger,1,Wer spielte in „Titanic“ (1997) den Jack Dawson?,Leonardo DiCaprio,Brad Pitt,Matt Damon,Johnny Depp,,,
+nz-0060,neunziger,1,In welchem Film von 1993 werden Dinosaurier geklont?,Jurassic Park,Godzilla,King Kong,In einem Land vor unserer Zeit,,,
+nz-0061,neunziger,2,Welcher Film von 1995 war der erste komplett am Computer animierte Kinofilm?,Toy Story,Shrek,Das große Krabbeln,Antz,,,
+nz-0062,neunziger,1,Wer spielt „Forrest Gump“ (1994)?,Tom Hanks,Robin Williams,Kevin Costner,Bill Murray,,,
+nz-0063,neunziger,1,"In welchem Film von 1999 entdeckt Neo, dass seine Welt eine Simulation ist?",Matrix,Inception,Total Recall,Dark City,,,
+nz-0064,neunziger,1,Welche Sitcom über sechs Freunde in New York startete 1994?,Friends,Seinfeld,How I Met Your Mother,Scrubs,,,
+nz-0065,neunziger,2,In welcher Serie der 90er wachten Rettungsschwimmer am Strand von Kalifornien?,Baywatch,Miami Vice,"Beverly Hills, 90210",Knight Rider,,,
+nz-0066,neunziger,1,Welcher Harry-Potter-Band erschien 1997 als erster?,Harry Potter und der Stein der Weisen,Harry Potter und die Kammer des Schreckens,Harry Potter und der Gefangene von Askaban,Harry Potter und der Feuerkelch,,,
+nz-0067,neunziger,1,"Wer moderierte „Wetten, dass..?“ in den 90ern die meiste Zeit?",Thomas Gottschalk,Frank Elstner,Markus Lanz,Günther Jauch,,,
+nz-0068,neunziger,1,Welches Land wurde 1990 Fußball-Weltmeister?,Deutschland,Argentinien,Italien,Brasilien,,,
+nz-0069,neunziger,2,In welchem Land fand die Fußball-WM 1994 statt?,USA,Frankreich,Italien,Mexiko,,,
+nz-0070,neunziger,2,Welches Land wurde 1996 Fußball-Europameister?,Deutschland,Tschechien,Frankreich,Italien,,,
+nz-0071,neunziger,3,Wer schoss im EM-Finale 1996 das entscheidende „Golden Goal“?,Oliver Bierhoff,Jürgen Klinsmann,Andreas Möller,Matthias Sammer,,,
+nz-0072,neunziger,3,Welches Land gewann 1992 überraschend die Fußball-Europameisterschaft?,Dänemark,Deutschland,Niederlande,Schweden,,Dänemark rückte erst kurzfristig für das ausgeschlossene Jugoslawien nach.,
+nz-0073,neunziger,1,Welcher Deutsche wurde 1994 erstmals Formel-1-Weltmeister?,Michael Schumacher,Ralf Schumacher,Heinz-Harald Frentzen,Sebastian Vettel,,,
+nz-0074,neunziger,3,Mit welchem Rennstall wurde Michael Schumacher 1994 Weltmeister?,Benetton,Ferrari,Jordan,Williams,,,
+nz-0075,neunziger,2,Welcher brasilianische Rennfahrer verunglückte 1994 in Imola tödlich?,Ayrton Senna,Nelson Piquet,Rubens Barrichello,Emerson Fittipaldi,,,
+nz-0076,neunziger,1,Welche deutsche Tennisspielerin gewann in den 90ern zahlreiche Grand-Slam-Turniere?,Steffi Graf,Anke Huber,Martina Hingis,Monica Seles,,,
+nz-0077,neunziger,4,Welcher Deutsche gewann 1991 das Herreneinzel in Wimbledon?,Michael Stich,Boris Becker,Tommy Haas,Nicolas Kiefer,,,
+nz-0078,neunziger,2,Wo fanden die Olympischen Sommerspiele 1992 statt?,Barcelona,Atlanta,Seoul,Sydney,,,
+nz-0079,neunziger,2,Wo fanden die Olympischen Sommerspiele 1996 statt?,Atlanta,Barcelona,Sydney,Los Angeles,,,
+nz-0080,neunziger,2,Welcher Boxer biss 1997 Evander Holyfield ins Ohr?,Mike Tyson,Lennox Lewis,George Foreman,Riddick Bowe,,,
+nz-0081,neunziger,1,Mit welcher Mannschaft gewann Michael Jordan in den 90ern sechs NBA-Titel?,Chicago Bulls,Los Angeles Lakers,Boston Celtics,New York Knicks,,,
+nz-0082,neunziger,4,In welchem Jahr wurde die Europäische Zentralbank gegründet?,1998,1992,2002,1995,,,
+nz-0083,neunziger,4,Welcher Film gewann 1994 die Goldene Palme in Cannes?,Pulp Fiction,Forrest Gump,Schindlers Liste,Das Piano,,,
+nz-0084,neunziger,4,An welchem Tag trat die Währungsunion zwischen Bundesrepublik und DDR in Kraft?,1. Juli 1990,3. Oktober 1990,9. November 1989,1. Januar 1991,,,
+nz-0085,neunziger,3,In welcher Stadt fand 1992 der „Erdgipfel“ der Vereinten Nationen statt?,Rio de Janeiro,Kyoto,Genf,New York,,,
+nz-0086,neunziger,2,In welcher japanischen Stadt wurde 1997 ein wichtiges Klimaschutz-Protokoll beschlossen?,Kyoto,Tokio,Osaka,Hiroshima,,,
+nz-0087,neunziger,2,Welche deutsche Band wurde 1997/98 mit „Du hast“ international bekannt?,Rammstein,Die Ärzte,Böhse Onkelz,Scooter,,,
+nz-0088,neunziger,2,Welche Nintendo-Konsole erschien 1996 mit „Super Mario 64“?,Nintendo 64,Super Nintendo,GameCube,Wii,,,
+nz-0089,neunziger,3,Wie hieß der Nachfolger des Game Boy mit Farbbildschirm (1998)?,Game Boy Color,Game Boy Advance,Game Gear,Nintendo DS,,,
+nz-0090,neunziger,1,Welche Schauspielerin spielte 1990 die Hauptrolle in „Pretty Woman“?,Julia Roberts,Meg Ryan,Sandra Bullock,Demi Moore,,,
+nz-0091,neunziger,3,Welche Neufassung eines Elton-John-Songs wurde 1997 zum Gedenken an Prinzessin Diana zur meistverkauften Single?,Candle in the Wind 1997,Your Song,Rocket Man,Sacrifice,,,
+otq-history-2,neunziger,1,"Wie heißt die rund 5.300 Jahre alte Gletschermumie, die 1991 in den Ötztaler Alpen gefunden wurde?",Ötzi,Bigfoot,Yeti,Nessie,,,opentriviaqa
+otq-history-524,neunziger,1,In welcher Stadt wurde 1992 der Vertrag über die Europäische Union unterzeichnet?,Maastricht,Lissabon,Genf,Rom,,,opentriviaqa
+otq-history-950,neunziger,1,In welchem Jahrzehnt zerfiel die Sowjetunion und begann die Massennutzung des Internets?,1990er,2000er,1980er,1970er,,,opentriviaqa
+otq-newest-2367,neunziger,1,Wie heißt die Figur von Kate Winslet in „Titanic“ (1997)?,Rose,Mary,Iris,Pearl,,,opentriviaqa
+otq-rated-496,neunziger,1,Mit welchem Song hatte Cher 1998/99 einen weltweiten Nummer-eins-Hit?,Believe,Strong Enough,The Power of Love,Half-Breed,,,opentriviaqa
+otq-sports-1294,neunziger,1,Welcher Fußballer algerischer Abstammung führte Frankreich 1998 zum WM-Titel?,Zinédine Zidane,Alessandro Del Piero,Jean-Pierre Papin,Thierry Henry,,,opentriviaqa
+otq-general-1829,neunziger,2,Wann wurde der Euro als Buchgeld eingeführt?,Januar 1999,Januar 1990,Januar 2002,Januar 1994,,,opentriviaqa
+otq-general-1934,neunziger,2,Welcher Elton-John-Song aus „Der König der Löwen“ gewann 1995 den Oscar?,Can You Feel the Love Tonight,Circle of Life,I Just Can’t Wait to Be King,Hakuna Matata,,,opentriviaqa
+otq-general-1989,neunziger,2,Welcher Filmstil mit strengen Regeln entstand 1995 in Dänemark?,Dogma 95,Nouvelle Vague,Neorealismus,Film noir,,,opentriviaqa
+otq-general-2591,neunziger,2,In welchem Film von 1996 spielen Michael Jordan und die Looney Tunes Basketball?,Space Jam,Toy Story,Der Hofnarr,Who Framed Roger Rabbit,,,opentriviaqa
+otq-general-2738,neunziger,2,"In welchem Film von 1994 spielt Jean Reno einen Auftragskiller, der ein Mädchen aufnimmt?",Léon – Der Profi,Ronin,Nikita,Das Mädchen Léolo,,,opentriviaqa
+otq-movies-3615,neunziger,2,In welchem Pixar-Film von 1998 leiht Kevin Spacey dem bösen Grashüpfer Hopper die Stimme?,Das große Krabbeln,"Lucas, der Ameisenschreck",Antz,Findet Nemo,,,opentriviaqa
+otq-music-2604,neunziger,2,Welche Sängerin nahm 1995 mit Nick Cave „Where the Wild Roses Grow“ auf?,Kylie Minogue,Mariah Carey,Björk,Sheryl Crow,,,opentriviaqa
+otq-music-2610,neunziger,2,Welcher Sänger veröffentlichte 1999 den Song „Desert Rose“?,Sting,Ricky Martin,Bryan Adams,Eric Clapton,,,opentriviaqa
+otq-music-5087,neunziger,2,Welche Sängerin hatte 1996 mit „Because You Loved Me“ einen Hit?,Céline Dion,Mariah Carey,Christina Aguilera,Whitney Houston,,,opentriviaqa
+otq-newest-1990,neunziger,2,Wer hatte 1995 einen Hit mit „Gangsta’s Paradise“?,Coolio,Snoop Dogg,LL Cool J,Dr. Dre,,,opentriviaqa
+otq-world-1378,neunziger,2,Welche Zwillingstürme in Kuala Lumpur waren von 1998 bis 2004 die höchsten Gebäude der Welt?,Petronas Towers,Republic Plaza,Rialto Towers,Jin Mao Tower,,,opentriviaqa
+otq-general-2744,neunziger,3,Welches Giftgas setzte die Aum-Sekte 1995 in der Tokioter U-Bahn frei?,Sarin,Strychnin,Schwefeltrioxid,Natriumcyanid,,,opentriviaqa
+otq-newest-1986,neunziger,3,Welches Supermodel war in den 1990ern mit dem Zauberer David Copperfield verlobt?,Claudia Schiffer,Linda Evangelista,Cindy Crawford,Naomi Campbell,,,opentriviaqa
+otq-rated-1565,neunziger,3,Aus welchem Film von 1994 stammt der Satz „Ich werd jetzt mittelalterlich auf deinen Arsch“?,Pulp Fiction,GoodFellas,Gangster,Die Sopranos,,,opentriviaqa
+otq-rated-1826,neunziger,3,"In welchem Animationsfilm (1998) klagt die Hauptfigur, als mittleres von fünf Millionen Kindern keine Beachtung zu bekommen?",Antz,Toy Story 2,Shrek,Findet Nemo,,,opentriviaqa
+otq-science-technology-1922,neunziger,3,Welcher Komet stürzte 1994 auf den Jupiter?,Shoemaker-Levy 9,Hale-Bopp,Halley,Tempel 1,,,opentriviaqa
+otq-sports-422,neunziger,3,In welcher Stadt war Snowboard 1998 erstmals olympisch?,Nagano,Albertville,Turin,Salt Lake City,,,opentriviaqa
+otq-world-1571,neunziger,3,"Wie hieß die Fähre, deren Untergang 1994 in der Ostsee 852 Menschen tötete?",Estonia,Finlandia,Polonia,Herald of Free Enterprise,,,opentriviaqa
+otq-world-2377,neunziger,3,Wen kürte das Time Magazine 1999 zur „Person des Jahrhunderts“?,Albert Einstein,Mahatma Gandhi,Winston Churchill,Franklin D. Roosevelt,,,opentriviaqa

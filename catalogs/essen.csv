@@ -1,0 +1,274 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+es-0001,essen,3,Wie viele Kilokalorien liefert ein Gramm Fett ungefähr?,9,4,7,12,,,
+es-0002,essen,3,Wie viele Kilokalorien liefert ein Gramm Kohlenhydrate ungefähr?,4,9,2,7,,,
+es-0003,essen,2,Welcher Zucker ist die wichtigste Energiequelle für das Gehirn?,Glukose (Traubenzucker),Fruktose,Laktose,Saccharose,,,
+es-0004,essen,1,Welches Vitamin bildet der Körper mithilfe von Sonnenlicht?,Vitamin D,Vitamin C,Vitamin B12,Vitamin K,,,
+es-0005,essen,2,Mangel an welchem Vitamin verursacht Skorbut?,Vitamin C,Vitamin A,Vitamin D,Vitamin B1,,Skorbut plagte früher Seeleute auf langen Fahrten ohne frisches Obst.,
+es-0006,essen,1,Welcher Mineralstoff ist besonders wichtig für Knochen und Zähne?,Calcium,Natrium,Eisen,Kalium,,,
+es-0007,essen,2,Mangel an welchem Spurenelement kann zu einem Kropf führen?,Jod,Zink,Eisen,Selen,,,
+es-0008,essen,2,Was gehört NICHT zu den Hülsenfrüchten?,Mais,Linsen,Kichererbsen,Erbsen,,,
+es-0009,essen,2,Was ist Gluten?,Ein Klebereiweiß in Getreide,Ein Zucker in Milch,Ein Fett in Nüssen,Ein Farbstoff in Gemüse,,,
+es-0010,essen,2,Bei welcher Erkrankung müssen Betroffene auf Gluten verzichten?,Zöliakie,Diabetes,Gicht,Laktoseintoleranz,,,
+es-0011,essen,1,Was kann der Körper bei einer Laktoseintoleranz nicht richtig verdauen?,Milchzucker,Klebereiweiß,Fruchtzucker,Pflanzenfett,,,
+es-0012,essen,1,Worauf verzichten Veganer?,Auf alle tierischen Produkte,Nur auf Fleisch,Nur auf Fisch,Auf Getreide,,,
+es-0013,essen,3,Was essen Ovo-lacto-Vegetarier im Gegensatz zu Veganern?,Eier und Milchprodukte,Fisch,Geflügel,Meeresfrüchte,,,
+es-0014,essen,1,Woraus wird Tofu hergestellt?,Aus Sojabohnen,Aus Reis,Aus Kichererbsen,Aus Weizen,,,
+es-0015,essen,1,Woraus besteht Hummus hauptsächlich?,Aus Kichererbsen,Aus Linsen,Aus Auberginen,Aus Joghurt,,,
+es-0016,essen,2,Woraus wird die Paste Tahini gemacht?,Aus Sesam,Aus Erdnüssen,Aus Mandeln,Aus Sonnenblumenkernen,,,
+es-0017,essen,1,Woraus besteht Marzipan hauptsächlich?,Aus Mandeln und Zucker,Aus Haselnüssen und Kakao,Aus Erdnüssen und Honig,Aus Kokos und Sahne,,,
+es-0018,essen,3,Was ist Quinoa?,Ein „Pseudogetreide“ aus den Anden,Eine Hirseart aus Afrika,Eine Reissorte aus Asien,Eine Bohnensorte aus Mexiko,,,
+es-0019,essen,1,Welche Lebensmittel enthalten besonders viele Ballaststoffe?,Vollkornprodukte,Weißbrot,Butter,Zucker,,,
+es-0020,essen,2,Wie viele Portionen Obst und Gemüse am Tag empfiehlt die Kampagne „5 am Tag“?,5,3,7,10,,,
+es-0021,essen,2,Welcher Stoff macht Chilischoten scharf?,Capsaicin,Koffein,Piperin,Gingerol,,,
+es-0022,essen,3,Welche „Geschmacksrichtung“ ist eigentlich ein Schmerzreiz und kein Geschmack?,Scharf,Bitter,Umami,Salzig,,,
+es-0023,essen,1,Was bedeutet „al dente“ bei Nudeln?,Bissfest,Weich gekocht,Mit Soße,Ungesalzen,,,
+es-0024,essen,2,Was bedeutet „blanchieren“?,Kurz in kochendes Wasser geben,Scharf anbraten,Langsam schmoren,Im Ofen überbacken,,,
+es-0025,essen,2,Wie heißt die Grundlage aus Mehl und Fett für helle Soßen?,Mehlschwitze,Sud,Fond,Marinade,,,
+es-0026,essen,4,Was gibt die „Type“ bei Mehl (z. B. Type 405 oder 1050) an?,Den Mineralstoffgehalt,Die Korngröße,Das Erntejahr,Die Getreidesorte,,,
+es-0027,essen,2,Welches Gas lässt Hefeteig aufgehen?,Kohlendioxid,Sauerstoff,Stickstoff,Wasserstoff,,,
+es-0028,essen,1,Aus welchem Bundesland stammt die Weißwurst?,Bayern,Sachsen,Hessen,Niedersachsen,,,
+es-0029,essen,1,Für welche Region sind Maultaschen typisch?,Schwaben,Ostfriesland,Sachsen,Pfalz,,,
+es-0030,essen,2,"Welches Gericht aus Pökelfleisch, Kartoffeln und Roter Bete ist typisch für Seeleute in Norddeutschland?",Labskaus,Grünkohl,Himmel und Erde,Saumagen,,,
+es-0031,essen,2,Aus welcher Region stammt der Saumagen?,Pfalz,Allgäu,Erzgebirge,Spreewald,,,
+es-0032,essen,2,In welcher Stadt wurde 1949 die Currywurst erfunden?,Berlin,Hamburg,Bochum,Köln,,,
+es-0033,essen,4,Wer gilt als Erfinderin der Currywurst?,Herta Heuwer,Lotte Ulbricht,Hertha Kraus,Käthe Kruse,,,
+es-0034,essen,1,Welche Stadt ist berühmt für ihren Christstollen?,Dresden,Nürnberg,Aachen,Lübeck,,,
+es-0035,essen,1,Welche Stadt ist berühmt für Lebkuchen?,Nürnberg,Dresden,Bremen,Kiel,,,
+es-0036,essen,1,Für welche Stadt ist Marzipan besonders bekannt?,Lübeck,Aachen,Ulm,Kassel,,,
+es-0037,essen,3,Was ist „Himmel und Erde“?,"Kartoffeln und Äpfel, oft mit Blutwurst",Ein Dessert aus Sahne und Schokolade,Ein Fischgericht,Eine Suppe aus Bohnen,,,
+es-0038,essen,2,Was sind Königsberger Klopse?,Fleischklöße in Kapernsoße,Kartoffelknödel,Süße Hefeklöße,Fischfrikadellen,,,
+es-0039,essen,1,Woraus wird Sauerkraut gemacht?,Aus Weißkohl,Aus Rotkohl,Aus Spinat,Aus Wirsing,,,
+es-0040,essen,2,Was ist Pumpernickel?,Ein lange gebackenes Roggenvollkornbrot,Ein Kartoffelgericht,Eine Wurstsorte,Ein Käse,,,
+es-0041,essen,3,"Welches Organ bildet die Galle, die bei der Fettverdauung hilft?",Die Leber,Die Gallenblase,Die Bauchspeicheldrüse,Die Milz,,Die Gallenblase speichert die Galle nur.,
+otq-general-165,essen,1,Welches Lebensmittel verdirbt praktisch nie?,Honig,Kartoffeln,Nudeln,Erdnussbutter,,,opentriviaqa
+otq-general-1986,essen,1,Aus welchem Land stammt der geharzte Wein Retsina?,Griechenland,Zypern,Italien,Türkei,,,opentriviaqa
+otq-general-680,essen,1,In welchem Lebensmittel kommt Laktose vor allem vor?,In Milch,In Früchten,In Gemüse,In Honig,,,opentriviaqa
+otq-geography-493,essen,1,Was ist die Hauptzutat der Schweizer Rösti?,Kartoffeln,Käse,Kohl,Fisch,,,opentriviaqa
+otq-hobbies-1017,essen,1,Was streut man beim Servieren einer Margarita auf den Glasrand?,Salz,Zucker,Pfeffer,Zimt,,,opentriviaqa
+otq-hobbies-1098,essen,1,Welches Vitamin (bzw. seine Vorstufe) steckt reichlich in Karotten?,Vitamin A,Vitamin K,Vitamin D,Vitamin E,,,opentriviaqa
+otq-hobbies-1119,essen,1,Aus welchem Land stammt das Tiramisu?,Italien,Frankreich,Österreich,Spanien,,,opentriviaqa
+otq-hobbies-1120,essen,1,Welche Früchte gehören in eine Schwarzwälder Kirschtorte?,Kirschen,Bananen,Feigen,Pfirsiche,,,opentriviaqa
+otq-hobbies-113,essen,1,"Was ist Nori, in das Sushi oft eingerollt wird?",Getrockneter Seetang,Fleisch,Pilz,Reispapier,,,opentriviaqa
+otq-hobbies-140,essen,1,In welcher Region Europas ist Oregano besonders verbreitet?,Im Mittelmeerraum,Im Baltikum,In Skandinavien,Auf den Britischen Inseln,,,opentriviaqa
+otq-hobbies-15,essen,1,"Welches Lebensmittel enthält Phenylethylamin, das Glücksgefühle wie Verliebtsein auslösen soll?",Schokolade,Honig,Käse,Zucker,,,opentriviaqa
+otq-hobbies-150,essen,1,Welches schottische Gericht wird im Schafsmagen gegart?,Haggis,Ratatouille,Shepherd’s Pie,Hotpot,,,opentriviaqa
+otq-hobbies-151,essen,1,Welches Reisgericht mit Safran stammt aus der Region Valencia?,Paella,Risotto,Jambalaya,Pilaw,,,opentriviaqa
+otq-hobbies-155,essen,1,Welche japanische Spezialität besteht aus dünn geschnittenem rohem Fisch mit Soße?,Sashimi,Moussaka,Tempura,Ramen,,,opentriviaqa
+otq-hobbies-21,essen,1,Welches Getränk enthält Koffein und ist das meistgetrunkene Heißgetränk vieler Länder?,Kaffee,Wasser,Orangensaft,Kakao,,,opentriviaqa
+otq-hobbies-221,essen,1,Welche Schokoladenmarke hat eine lila Kuh als Symbol?,Milka,Nestlé,Ritter Sport,Lindt,,,opentriviaqa
+otq-hobbies-24,essen,1,Tequila ist nach einer Stadt in welchem Land benannt?,Mexiko,Chile,Spanien,Portugal,,,opentriviaqa
+otq-hobbies-25,essen,1,In welchem Land ist Wodka das traditionelle Nationalgetränk?,Russland,Irland,Mexiko,Frankreich,,,opentriviaqa
+otq-hobbies-29,essen,1,Aus welchem Land stammt die Sangría?,Spanien,Malta,Ecuador,Argentinien,,,opentriviaqa
+otq-hobbies-313,essen,1,In welchem Schichtdessert ist Mascarpone eine Hauptzutat?,Tiramisu,Panna cotta,Zabaione,Cassata,,,opentriviaqa
+otq-hobbies-32,essen,1,In welchem Land ist Ouzo das Nationalgetränk?,Griechenland,Ungarn,Italien,Spanien,,,opentriviaqa
+otq-hobbies-337,essen,1,"Wie heißt die osteuropäische Suppe aus Brühe, Roter Bete und Gemüse?",Borschtsch,Rassolnik,Schtschi,Soljanka,,,opentriviaqa
+otq-hobbies-340,essen,1,"Wie heißt das dünne, panierte Kalbsschnitzel aus Österreich?",Wiener Schnitzel,Currywurst,Stollen,Spanferkel,,,opentriviaqa
+otq-hobbies-341,essen,1,Aus welchem Land stammt das Risotto?,Italien,Spanien,Griechenland,Portugal,,,opentriviaqa
+otq-hobbies-505,essen,1,Was wird für „Buffalo Wings“ verwendet?,Hähnchenflügel,Schinken,Büffelrippen,Hackfleisch,,,opentriviaqa
+otq-hobbies-549,essen,1,"Welche ringförmigen, gefüllten Nudeln stammen aus der Emilia-Romagna?",Tortellini,Cannelloni,Ravioli,Gnocchi,,,opentriviaqa
+otq-hobbies-610,essen,1,Welche Spirituose gehört traditionell in eine Piña Colada?,Rum,Tequila,Gin,Wodka,,,opentriviaqa
+otq-hobbies-62,essen,1,Aus welchem Land stammt das Schmorgericht Coq au Vin?,Frankreich,Belgien,Deutschland,Schweiz,,,opentriviaqa
+otq-hobbies-629,essen,1,Welches Tier isst man bei der französischen Spezialität Escargots?,Schnecken,Austern,Garnelen,Kaninchen,,,opentriviaqa
+otq-hobbies-66,essen,1,Aus welchem Land stammen Quesadillas?,Mexiko,Spanien,Italien,Argentinien,,,opentriviaqa
+otq-hobbies-68,essen,1,Aus welchem Land stammt das im Lehmofen gegarte Tandoori-Huhn?,Indien,Indonesien,Thailand,Iran,,,opentriviaqa
+otq-hobbies-693,essen,1,Welches Gemüse ist die Hauptzutat der kalten spanischen Suppe Gazpacho?,Tomate,Paprika,Kartoffel,Karotte,,,opentriviaqa
+otq-hobbies-739,essen,1,Aus welchem Land stammt der Cheddar-Käse?,England,Schottland,Irland,Frankreich,,,opentriviaqa
+otq-hobbies-785,essen,1,Welches Vitamin steckt reichlich in Erdbeeren?,Vitamin C,Vitamin B12,Vitamin E,Vitamin K,,,opentriviaqa
+otq-hobbies-788,essen,1,Welchem italienischen Gericht ähnelt das Fladenbrot Focaccia?,Pizza,Ravioli,Lasagne,Biscotti,,,opentriviaqa
+otq-hobbies-871,essen,1,Wogegen helfen getrocknete Pflaumen und Pflaumensaft?,Gegen Verstopfung,Gegen Schwindel,Gegen Schmerzen,Gegen Krämpfe,,,opentriviaqa
+otq-hobbies-954,essen,1,"Welchen Nährstoff können Vegetarier entgegen einem verbreiteten Irrtum durchaus über Soja, Bohnen, Nüsse oder Eier aufnehmen?",Eiweiß,Kalorien,Ballaststoffe,Kohlenhydrate,,,opentriviaqa
+otq-hobbies-972,essen,1,Mit welcher Skala misst man die Schärfe von Chilischoten?,Scoville-Skala,Piquant-Skala,Hitzefaktor-Index,Richter-Skala,,,opentriviaqa
+otq-humanities-352,essen,1,Was ist ein Aperitif?,Ein Getränk vor dem Essen,Eine Nachspeise,Ein Vorspiel im Theater,Ein Kartenspiel,,,opentriviaqa
+otq-rated-1324,essen,1,Wie nennt man das schnelle Garen unter Rühren im Wok mit wenig Öl?,Pfannenrühren (Stir-Fry),Pochieren,Frittieren,Dünsten,,,opentriviaqa
+otq-rated-728,essen,1,Was ist ein Wok?,Eine Pfanne aus der asiatischen Küche,Ein Sieb zum Abtropfen,Ein feines Fischernetz,Ein Werkzeug der Goldwäscher,,,opentriviaqa
+otq-science-technology-1887,essen,1,Wie heißt die Delikatesse aus Stör-Rogen?,Kaviar,Blini,Surimi,Baklava,,,opentriviaqa
+otq-science-technology-1890,essen,1,Wie heißt das Gebäck aus steif geschlagenem Eiweiß und Zucker?,Baiser (Meringue),Vanillepudding,Eiscreme,Mürbeteig,,,opentriviaqa
+otq-world-2159,essen,1,"Tom-Yum-Suppe, Hummus, Chicken Tikka und Nasi Goreng stammen aus der Küche welches Kontinents?",Asien,Afrika,Südamerika,Europa,,,opentriviaqa
+otq-world-3140,essen,1,Was gehört auf jeden Fall zum englischen Frühstück?,Eier und Speck,Nur Toast,Müsli,Croissants,,,opentriviaqa
+otq-world-341,essen,1,"Welches Weihnachtsgetränk entsteht aus Milch, Eiern und Zucker?",Eierpunsch (Eggnog),Zabaione,Glühwein,Apfelwein,,,opentriviaqa
+otq-world-3966,essen,1,Was ist ein Haggis?,"Ein Gericht, kein Tier",Ein Jagdhund,Ein Schaf,Eine Wildkatze,,,opentriviaqa
+otq-world-864,essen,1,"Welche niederländische Stadt ist für ihren kugelförmigen, mit Wachs überzogenen Käse bekannt?",Edam,Gouda,Emmental,Maasdam,,,opentriviaqa
+otq-brain-teasers-144,essen,2,Welches Dessert aus Baiser und Früchten wurde nach einer berühmten Ballerina benannt?,Pavlova,Tiramisu,Crêpe Suzette,Rocky Road,,,opentriviaqa
+otq-general-2538,essen,2,Welche Farbe hat Kaugummi am häufigsten – weil der Erfinder nur diese Lebensmittelfarbe zur Hand hatte?,Rosa,Blau,Grün,Weiß,,,opentriviaqa
+otq-general-316,essen,2,Was erfand der österreichische Konditor Eduard Haas 1927?,PEZ-Bonbons,Den Handmixer,Die Mozartkugel,Die Sachertorte,,,opentriviaqa
+otq-hobbies-1016,essen,2,Welcher Cocktail besteht nur aus Wodka und Orangensaft?,Screwdriver,Bloody Mary,Cuba Libre,Mojito,,,opentriviaqa
+otq-hobbies-1031,essen,2,In welchem Land wurde Kaffee zuerst entdeckt?,Äthiopien,Brasilien,Kolumbien,Indonesien,,,opentriviaqa
+otq-hobbies-111,essen,2,Was ist Pancetta?,Italienischer Bauchspeck,Eine Wurst,Ein Käse,Eine Peperoni,,,opentriviaqa
+otq-hobbies-1113,essen,2,Womit wird die spanische „Arroz negro“ schwarz gefärbt?,Mit Tintenfischtinte,Mit Lebensmittelfarbe,Mit Kohle,Mit Sojasoße,,,opentriviaqa
+otq-hobbies-114,essen,2,Wie wird der Fisch für Fisch-Tacos meist zubereitet?,Frittiert,Gegrillt,Gebacken,Pochiert,,,opentriviaqa
+otq-hobbies-115,essen,2,Aus welchem Land stammt der Blauschimmelkäse Stilton?,England,Frankreich,Niederlande,Schweiz,,,opentriviaqa
+otq-hobbies-136,essen,2,Welches Gewürz gibt Raki und Ouzo ihren Geschmack?,Anis,Zichorie,Kardamom,Piment,,,opentriviaqa
+otq-hobbies-152,essen,2,Welches mexikanische Gericht besteht aus Tortillas in scharfer Soße?,Enchilada,Polenta,Bacalhau,Jambalaya,,,opentriviaqa
+otq-hobbies-222,essen,2,"Welche Schokolade enthält Kakaobutter, aber keine Kakaomasse?",Weiße Schokolade,Zartbitterschokolade,Halbbitter,Vollmilchschokolade,,,opentriviaqa
+otq-hobbies-294,essen,2,Welchen Reis verwendet man für ein Risotto?,Rundkornreis,Naturreis,Basmatireis,Langkornreis,,,opentriviaqa
+otq-hobbies-338,essen,2,Welcher griechische Käse wird aus Schafs- und Ziegenmilch hergestellt und in Salzlake gereift?,Feta,Kasseri,Metsovone,Mizithra,,,opentriviaqa
+otq-hobbies-339,essen,2,Welches Land ist für sein „Fry-up“-Frühstück bekannt?,England,Norwegen,Schweden,Niederlande,,,opentriviaqa
+otq-hobbies-343,essen,2,Aus welchem Land stammt das moderne Restaurant?,Frankreich,England,Italien,Deutschland,,,opentriviaqa
+otq-hobbies-381,essen,2,Wie heißt die Wissenschaft vom Wein?,Önologie,Oologie,Ätiologie,Pomologie,,,opentriviaqa
+otq-hobbies-434,essen,2,In welchem Jahr wurde Coca-Cola erfunden?,1886,1920,1850,1790,,,opentriviaqa
+otq-hobbies-480,essen,2,Was ist ein Latte macchiato bzw. Caffè Latte?,Espresso mit aufgeschäumter Milch,Filterkaffee mit Milch,Kaffee mit Schokolade,Espresso mit Sahne,,,opentriviaqa
+otq-hobbies-550,essen,2,"Wie heißen die gefüllten, gerollten Nudelröhren, die mit Soße überbacken werden?",Cannelloni,Manicotti,Penne,Rigatoni,,,opentriviaqa
+otq-hobbies-554,essen,2,Welche Bandnudel heißt übersetzt „kleines Band“ und ist besonders in Rom beliebt?,Fettuccine,Farfalle,Fusilli,Orecchiette,,,opentriviaqa
+otq-hobbies-555,essen,2,Wie heißen die spiralförmigen Nudeln?,Fusilli,Maccheroni,Lasagne,Spaghetti,,,opentriviaqa
+otq-hobbies-556,essen,2,Von welchem Kontinent stammen Tomaten ursprünglich?,Südamerika,Asien,Afrika,Europa,,,opentriviaqa
+otq-hobbies-583,essen,2,"Für welche Biersorte gibt es das typische hohe, schlanke Glas aus Bayern?",Weißbier,Pils,Kölsch,Alt,,,opentriviaqa
+otq-hobbies-634,essen,2,Was ist die Hauptzutat des französischen Eintopfs Cassoulet?,Weiße Bohnen,Karotten,Tomaten,Kartoffeln,,,opentriviaqa
+otq-hobbies-637,essen,2,Welches Fleisch kocht man im französischen Pot-au-feu?,Rindfleisch,Schwein,Gar kein Fleisch,Ente,,,opentriviaqa
+otq-hobbies-673,essen,2,Welches Getränk wird unter anderem mit Wermutkraut hergestellt?,Absinth,Whisky,Rum,Gin,,,opentriviaqa
+otq-hobbies-79,essen,2,Welches Fleisch gehört zu einem traditionellen Irish Breakfast?,"Schwein (Speck, Würstchen, Black Pudding)",Keines,Rind,Huhn,,,opentriviaqa
+otq-hobbies-792,essen,2,Was bedeutet der Name des Schweizer Sonntagsbrots „Zopf“?,Geflochtener Strang,Wasser,Schuh,Sonnenaufgang,,,opentriviaqa
+otq-hobbies-804,essen,2,Was bedeutet der Name des indonesischen Gerichts „Mie goreng“?,Gebratene Nudeln,Kriechende Schlangen,Haarbüschel,Grüne Mischung,,,opentriviaqa
+otq-hobbies-950,essen,2,Welche Nuss gab der Cola ihren Namen und enthält Koffein?,Kolanuss,Haselnuss,Erdnuss,Kastanie,,,opentriviaqa
+otq-hobbies-969,essen,2,Welches Dessert wurde zu Ehren einer berühmten Sängerin benannt?,Pfirsich Melba,Kirschen Jubilee,Sachertorte,Crêpe Suzette,,,opentriviaqa
+otq-hobbies-974,essen,2,Welches Fleisch wird für ein Chateaubriand verwendet?,Rinderfilet,Lamm,Schwein,Hirsch,,,opentriviaqa
+otq-hobbies-994,essen,2,"Welches Land braut die vielfältigsten Biere, von Pils bis Lambic?",Belgien,Tschechien,Deutschland,Niederlande,,,opentriviaqa
+otq-hobbies-997,essen,2,Welches Land hat den höchsten Bierkonsum pro Kopf?,Tschechien,Irland,Großbritannien,Deutschland,,,opentriviaqa
+otq-humanities-500,essen,2,"Bei welcher Tätigkeit wollte der Earl of Sandwich angeblich nicht unterbrochen werden, als er Fleisch zwischen Brotscheiben bestellte?",Beim Glücksspiel,Beim Schachspielen,Bei der Vogeljagd,Beim Lesen,,,opentriviaqa
+otq-newest-475,essen,2,"Wie heißt die italienische Vorspeisenplatte mit Salami, Oliven und Artischocken?",Antipasto,Prosciutto,Crostini,Bruschetta,,,opentriviaqa
+otq-people-670,essen,2,Welche Obstsorte ist nach einer australischen Züchterin benannt?,Der Apfel Granny Smith,Die Nektarine,Die Pflaume Sweet Susan,Die Birne Bosc,,,opentriviaqa
+otq-people-886,essen,2,"Wie heißt der Beruf, bei dem Essen für Fotos appetitlich hergerichtet wird?",Foodstylist,Foodarrangeur,Fooddesigner,Food-Effektspezialist,,,opentriviaqa
+otq-rated-1641,essen,2,Welche Körperteile hält Fluorid aus dem Tee gesund?,Die Zähne,Die Beine,Die Augen,Die Lunge,,,opentriviaqa
+otq-science-technology-1682,essen,2,Welche Fische enthalten besonders viele Omega-3-Fettsäuren?,Kaltwasserfische wie Lachs und Hering,Süßwasserfische,Knochenfische allgemein,Knorpelfische,,,opentriviaqa
+otq-science-technology-554,essen,2,Welche Mahlzeit passt am besten zu einer kohlenhydratarmen Ernährung?,Hüttenkäse mit etwas Obst,Nudeln mit Soße,Ein Schinkenbrot,Fleisch mit Kartoffeln,,,opentriviaqa
+otq-science-technology-680,essen,2,Welches dieser Lebensmittel ist die beste Eisenquelle?,Leber,Erbsen,Gurke,Salz,,,opentriviaqa
+otq-world-3126,essen,2,Welches Getränk ist in ganz Indien am beliebtesten?,Tee,Limonade,Kaffee,Wein,,,opentriviaqa
+otq-world-3367,essen,2,Das Bier auf dem Oktoberfest muss innerhalb welcher Stadtgrenzen gebraut sein?,München,Dortmund,Augsburg,Nürnberg,,,opentriviaqa
+otq-world-3667,essen,2,Welche Nutzpflanze wird auf Bali am meisten angebaut?,Reis,Kaffee,Bananen,Tee,,,opentriviaqa
+otq-brain-teasers-145,essen,3,"Welches Gemüse gibt es als Chinesische, Jerusalem- und Globe-Variante (im Englischen)?",Artischocke,Curry,Cracker,Schwein,,,opentriviaqa
+otq-general-2452,essen,3,Welches Produkt trug 1974 als erstes einen Strichcode an der Kasse?,Kaugummi,Öl,Mehl,Wein,,,opentriviaqa
+otq-general-2546,essen,3,Warum war der erste Kaugummi von Walter Diemer rosa?,"Es war die einzige Farbe, die er noch hatte",Für seine Tochter,Lieblingsfarbe,Wegen seiner Mutter,,,opentriviaqa
+otq-general-2692,essen,3,"Welches Getränk wird in Irland, Neuseeland und Japan besonders viel getrunken?",Tee,Weinbrand,Kaffee,Cola,,,opentriviaqa
+otq-general-70,essen,3,Was soll George Crum 1853 im Kurort Saratoga Springs erfunden haben?,Kartoffelchips,Die Fernbedienung,Regallautsprecher,Ketchup,,,opentriviaqa
+otq-general-719,essen,3,Welche Nutzpflanze wird auf dem amerikanischen Doppelkontinent am meisten angebaut?,Mais,Weizen,Sojabohnen,Hirse,,,opentriviaqa
+otq-geography-778,essen,3,Was für ein Gericht ist die brasilianische Moqueca?,Ein Fischeintopf,Ein Dessert,Ein Getränk,Ein Salat,,,opentriviaqa
+otq-hobbies-1034,essen,3,Wie schnell beginnt gemahlener Kaffee an Aroma zu verlieren?,Innerhalb von Minuten,Nach Wochen,Nach Stunden,Nach Monaten,,,opentriviaqa
+otq-hobbies-1037,essen,3,Der teure Kaffee „Kopi Luwak“ wird aus den Ausscheidungen welches Tieres gewonnen?,Fleckenmusang (Schleichkatze),Bergziege,Fruchtfledermaus,Seekuh,,,opentriviaqa
+otq-hobbies-1096,essen,3,In welchem Land wurde das süße „Melonpan“-Brötchen erfunden?,Japan,Indien,Vietnam,China,,,opentriviaqa
+otq-hobbies-1115,essen,3,Was ist die Hauptzutat des spanischen Eintopfs Fabada Asturiana?,Bohnen,Lauch,Auberginen,Karotten,,,opentriviaqa
+otq-hobbies-1118,essen,3,Welches Fett verwendet man für einen Chiffon-Kuchen?,Pflanzenöl,Butter,Kein Fett,Schmalz,,,opentriviaqa
+otq-hobbies-1125,essen,3,Womit ist die ungarische Dobostorte gekrönt?,Mit einer Karamellschicht,Mit Zuckerwatte,Mit Schokoraspeln,Mit Zuckerglas,,,opentriviaqa
+otq-hobbies-123,essen,3,"Welcher Cocktail besteht aus hellem und dunklem Rum, Kokoscreme, Ananassaft und Erdbeeren?",Strawberry Colada,Swamp Water,Spanish Coffee,Singapore Sling,,,opentriviaqa
+otq-hobbies-13,essen,3,Welche Frucht nannten die Azteken „Ahuacatl“ – nach ihrer Form „Hodenbaum“?,Avocado,Apfel,Banane,Birne,,,opentriviaqa
+otq-hobbies-139,essen,3,Die Macis (Muskatblüte) stammt vom Baum welches Gewürzes?,Muskatnuss,Paprika,Nelke,Mohn,,,opentriviaqa
+otq-hobbies-142,essen,3,Die Samen welcher Pflanze sind ein Hauptgewürz indischer Currys?,Koriander,Rainfarn,Frauenminze,Thymian,,,opentriviaqa
+otq-hobbies-154,essen,3,Wie heißt die rumänische Variante der Polenta aus Maisgrieß?,Mămăligă,Sarmale,Mici,Ciorbă,,,opentriviaqa
+otq-hobbies-189,essen,3,Welche nordirische Brennerei gilt als älteste lizenzierte Whiskey-Destillerie der Welt (1608)?,Bushmills,Cooley,Tullamore,Jameson,,,opentriviaqa
+otq-hobbies-299,essen,3,"In welchem Zustand sollte die Brühe sein, die man zum Risotto gibt?","Heiß, leicht köchelnd",Ungesalzen,Kalt,Gesüßt,,,opentriviaqa
+otq-hobbies-300,essen,3,Wann gibt man beim Risotto die nächste Kelle Brühe hinzu?,Wenn der Reis die vorige aufgesogen hat,Wenn das Wasser kocht,Wenn der Reis hart wird,Wenn der Reis weich ist,,,opentriviaqa
+otq-hobbies-393,essen,3,Wie viel des weltweiten Ahornsirups stammt ungefähr aus Kanada?,Etwa 70 bis 80 %,Etwa 30 %,Etwa 50 %,Etwa 10 %,,,opentriviaqa
+otq-hobbies-395,essen,3,In welchem Monat beginnt traditionell die Gewinnung von Ahornsirup?,Februar/März,Juli,Oktober,September,,,opentriviaqa
+otq-hobbies-509,essen,3,Was für ein Tee ist „Gunpowder“ aus China?,Grüner Tee,Schwarzer Tee,Kräutertee,Weißer Tee,,,opentriviaqa
+otq-hobbies-520,essen,3,Aus welchem Land stammt der Gemüsesalat Gado-Gado mit Erdnusssoße?,Indonesien,Indien,China,Thailand,,,opentriviaqa
+otq-hobbies-523,essen,3,In welchem Land wurde der Caesar Salad erfunden?,Mexiko,Griechenland,Spanien,Italien,,,opentriviaqa
+otq-hobbies-579,essen,3,"Wie heißt das belgische Bier, das durch Spontangärung mit wilden Hefen entsteht?",Lambic,Pils,Stout,Kölsch,,,opentriviaqa
+otq-hobbies-58,essen,3,Welches Gemüse verehrten die alten Ägypter wegen seiner kugeligen Form und Ringe als Symbol der Ewigkeit?,Die Zwiebel,Die Karotte,Der Knoblauch,Die Petersilie,,,opentriviaqa
+otq-hobbies-586,essen,3,Welche polnische Biermarke wurde 1629 gegründet?,Tyskie,Saku,Kalnapilis,A. Le Coq,,,opentriviaqa
+otq-hobbies-61,essen,3,"Aus welchem Land stammen Zongzi, in Bambusblätter gewickelte Klebreisklöße?",China,Thailand,Japan,Singapur,,,opentriviaqa
+otq-hobbies-636,essen,3,Welche Zutat gehört NICHT in eine Tartiflette?,Reis,Reblochon-Käse,Speck,Kartoffeln,,,opentriviaqa
+otq-hobbies-655,essen,3,Welches Land produziert und verbraucht am meisten Milch?,Indien,USA,Südafrika,China,,,opentriviaqa
+otq-hobbies-701,essen,3,Welches Gemüse ist die Hauptzutat der portugiesischen Suppe Caldo verde?,Kohl,Tomate,Kürbis,Aubergine,,,opentriviaqa
+otq-hobbies-728,essen,3,Welches Fleisch verwendet man für das chinesische Gericht Char Siu?,Schweinefleisch,Ente,Fisch,Huhn,,,opentriviaqa
+otq-hobbies-730,essen,3,"Woraus bestehen die Nester der Salanganen, die in China als „Schwalbennester“ eine Delikatesse sind?",Aus Speichel,Aus Bambussprossen,Aus Knochen,Aus getrockneten Insekten,,,opentriviaqa
+otq-hobbies-740,essen,3,Welche Konsistenz hat Greyerzer (Gruyère) traditionell?,Hart,Halbfest,Cremig,Weich,,,opentriviaqa
+otq-hobbies-747,essen,3,Woran erkennt man einen gut zubereiteten Espresso?,An der Crema,Am Aroma,An der Klarheit,An der Temperatur,,,opentriviaqa
+otq-hobbies-757,essen,3,In welchem Land entstand der Chihuahua-Käse?,Mexiko,Argentinien,Portugal,Spanien,,,opentriviaqa
+otq-hobbies-774,essen,3,Was bedeutet der Markenname Danone?,Kleiner Daniel,Jeden Tag,Langes Leben,Gesundheit,,,opentriviaqa
+otq-hobbies-784,essen,3,Welches Land ist der größte Erdbeerproduzent der Welt?,China,Spanien,Südkorea,Frankreich,,,opentriviaqa
+otq-hobbies-807,essen,3,Was ist die Hauptzutat des indonesischen Gerichts Rendang?,Fleisch (meist Rind),Bananen,Kartoffeln,Reis,,,opentriviaqa
+otq-hobbies-81,essen,3,Welches Frühstück wird im Englischen auch „Full Monty“ genannt?,Das komplette englische Frühstück,Das kontinentale Frühstück,Das irische Frühstück,Das französische Frühstück,,,opentriviaqa
+otq-hobbies-818,essen,3,Wie wird das japanische Gericht Karaage zubereitet?,Frittiert,Gebraten im Ofen,Geschmort,Gekocht,,,opentriviaqa
+otq-hobbies-83,essen,3,Wann wird im Vereinigten Königreich das sogenannte „wedding breakfast“ serviert?,Beim Hochzeitsempfang,Am Morgen nach der Hochzeit,Am Morgen vor der Trauung,Am Tag vor der Hochzeit,,,opentriviaqa
+otq-hobbies-835,essen,3,Was bedeutet der arabischstämmige Name „Safran“?,Gelb,Gift,Duft,Rot,,,opentriviaqa
+otq-hobbies-85,essen,3,Worin wird der Reis für das malaysische Frühstücksgericht Nasi Lemak gekocht?,In Kokosmilch,In Kuhmilch,In Kaffee,In Grüntee,,,opentriviaqa
+otq-hobbies-891,essen,3,Welches Fleisch verwendet man für den arabischen Grillspieß Shish Taouk?,Hähnchen,Rind,Lamm,Ente,,,opentriviaqa
+otq-hobbies-900,essen,3,Wie wird das südafrikanische Fleisch Biltong hergestellt?,Durch Würzen und Lufttrocknen,Durch Frittieren,Durch Braten,Durch Kochen,,,opentriviaqa
+otq-hobbies-924,essen,3,"Welche Spezialität aus dem australischen Outback sind weiße Larven, die in Baumwurzeln leben?",Witchetty-Maden,Geoduck-Muscheln,Sashimi,Balut,,,opentriviaqa
+otq-hobbies-929,essen,3,"Wie heißt der norwegische Stockfisch, der in Lauge eingelegt wird?",Lutefisk,Gravlax,Surströmming,Rakfisk,,,opentriviaqa
+otq-hobbies-931,essen,3,Wie heißt das philippinische Gericht aus einem angebrüteten Entenei?,Balut,Adobo,Lumpia,Sinigang,,,opentriviaqa
+otq-hobbies-94,essen,3,"Welcher Cocktail besteht aus Bourbon, Zucker, Wasser, Crushed Ice und Minze?",Mint Julep,Margarita,Piña Colada,Mojito,,,opentriviaqa
+otq-hobbies-96,essen,3,"Welches Getränk mixt man aus Rum, Ananas-, Orangen- und Limettensaft, Angostura und Zuckersirup?",Rum Punch,Mint Julep,Mai Tai,Peppermint Patty,,,opentriviaqa
+otq-hobbies-963,essen,3,Welche Garmethode passt nicht zu den anderen (alles Schmoren)?,Pochieren,Schmoren im Topf,Braisieren,Dünsten im Eintopf,,,opentriviaqa
+otq-people-2093,essen,3,Welcher französische Chemiker erfand 1869 die Margarine?,Hippolyte Mège-Mouriès,Louis Pasteur,Antoine Lavoisier,Joseph Gay-Lussac,,,opentriviaqa
+otq-rated-938,essen,3,"Wie heißt der Brauschritt, bei dem Malz in warmem Wasser eingeweicht wird, damit Stärke zu Zucker wird?",Maischen,Läutern,Gären,Kochen,,,opentriviaqa
+otq-science-technology-1542,essen,3,Welches dieser Lebensmittel ist eine gute Eisenquelle?,Rosinen,Zitronen,Gurken,Tomaten,,,opentriviaqa
+otq-science-technology-450,essen,3,"Welches natürliche Lebensmittel schadet den Zähnen besonders, weil es klebt und konzentrierten Fruchtzucker enthält?",Trockenobst,Fruchtpüree,Kakao,Saft,,,opentriviaqa
+otq-science-technology-555,essen,3,Welches dieser Lebensmittel enthält am wenigsten Transfette?,Sonnenblumenöl,Margarine,Backfett,Industriekekse,,,opentriviaqa
+otq-world-1346,essen,3,Welche Marke ist KEIN schottischer Whisky?,Tullamore Dew,Johnnie Walker,Dewar’s,Chivas Regal,,,opentriviaqa
+otq-world-2485,essen,3,Zu welchem schottischen Fest isst man traditionell Haggis?,Burns Night,Hogmanay,Bloomsday,St. Patrick’s Day,,,opentriviaqa
+otq-world-3123,essen,3,Wie heißt der südindische Pfannkuchen aus Reis und schwarzen Linsen?,Dosa,Dahi,Naan,Chapati,,,opentriviaqa
+otq-world-3719,essen,3,An welchem Fest isst man in Venezuela traditionell Hallacas?,An Weihnachten,Am Nationalfeiertag,An Ostern,An Silvester,,,opentriviaqa
+otq-world-378,essen,3,"Wie endet der Werbespruch „A Mars a day helps you work, rest and …“?",… play,… sleep,… pray,… stay,,,opentriviaqa
+otq-world-3867,essen,3,Welches Fleisch isst man in Mexiko traditionell an Weihnachten?,Truthahn,Rind,Lamm,Huhn,,,opentriviaqa
+otq-world-3870,essen,3,Welche Meeresfrüchte gehören in Spanien traditionell zum Weihnachtsessen?,Garnelen (Gambas),Tintenfisch,Seetang,Austern,,,opentriviaqa
+otq-world-4024,essen,3,Woraus besteht das irische Gericht Colcannon hauptsächlich?,Aus Kartoffelbrei und Kohl,Aus Reis und Fleisch,Aus Trockenobst,Aus Eiern und Milch,,,opentriviaqa
+otq-general-1407,essen,4,Welche Firma stellte 1847 die erste Tafel Schokolade her?,J. S. Fry & Sons,Nestlé,Mars,Lindt,,,opentriviaqa
+otq-general-2499,essen,4,Welches Produkt half der mexikanische General Santa Anna in den USA bekannt zu machen?,Kaugummi (Chicle),Die Gatling-Kanone,Tacos,Den Film,,,opentriviaqa
+otq-general-2923,essen,4,"Wie heißt Schwarztee auf Chinesisch, Japanisch und Koreanisch wörtlich übersetzt?",Roter Tee,Grauer Tee,Lila Tee,Brauner Tee,,,opentriviaqa
+otq-general-943,essen,4,Welches Getränk wurde anfangs als „geschätztes Hirntonikum und intellektuelles Getränk“ beworben?,Coca-Cola,Tab,Dr Pepper,Sprite,,,opentriviaqa
+otq-geography-524,essen,4,Woraus besteht die norwegische Spezialität Smalahove?,Aus einem Schafskopf,Aus Schweinedarm,Aus Fischleber,Aus Hühnermägen,,,opentriviaqa
+otq-hobbies-104,essen,4,Welche Frucht heißt in Teilen Spaniens „sandía“ und galt als besonders eisenreich?,Wassermelone,Mango,Avocado,Banane,,,opentriviaqa
+otq-hobbies-1094,essen,4,Aus welchem Land stammt das knusprige Fladenbrot Pane carasau?,Italien (Sardinien),Brasilien,Portugal,Spanien,,,opentriviaqa
+otq-hobbies-1111,essen,4,In welcher Form wird das spanische Gebäck „Tortell“ zubereitet?,Als Ring,Als Herz,Als Fisch,Als Stern,,,opentriviaqa
+otq-hobbies-122,essen,4,"Welcher Cocktail besteht aus Gin, Grapefruitsaft und Maraschino mit Minzzweig?",Seventh Heaven,Singapore Sling,Silver Fizz,Sangria,,,opentriviaqa
+otq-hobbies-125,essen,4,"Welcher Cocktail besteht aus Wodka, Midori und Zitronenlimonade?",Midori Dream,Hocus Pocus,Hole in One,Highland Sling,,,opentriviaqa
+otq-hobbies-156,essen,4,"Wie heißt die tschechische, in Essig eingelegte Wurst?",Utopenec,Dršťková,Polévka,Knedlíky,,,opentriviaqa
+otq-hobbies-183,essen,4,Was verursacht laut gängiger Erklärung den Kater nach Wein neben dem Alkohol vor allem?,Begleitstoffe (Fuselöle),Antioxidantien,Gerbstoffe allein,Kohlensäure,,,opentriviaqa
+otq-hobbies-187,essen,4,"Wie heißt die zuckerhaltige Flüssigkeit, die beim Einmaischen von Malz entsteht?",Würze,Torf,Amylase,Brennblase,,,opentriviaqa
+otq-hobbies-218,essen,4,"Wie heißt das lange Rühren der Schokoladenmasse, das ihren Schmelz erzeugt?",Conchieren,Temperieren,Maischen,Läutern,,,opentriviaqa
+otq-hobbies-230,essen,4,Wie viel Wasser wird Milch für Kondensmilch etwa entzogen?,Etwa 60 %,Etwa 10 %,Etwa 90 %,Etwa 30 %,,,opentriviaqa
+otq-hobbies-308,essen,4,"Wie heißt das Abkommen von 1951, mit dem mehrere europäische Länder Käsebezeichnungen vor Fälschung schützten?",Abkommen von Stresa,Schweizer Abkommen,Mailänder Abkommen,Genfer Abkommen,,,opentriviaqa
+otq-hobbies-312,essen,4,Welchen Käse versuchten venezianische Käser schon im 16. Jahrhundert zu fälschen?,Parmesan,Brie,Kaschkawal,Gouda,,,opentriviaqa
+otq-hobbies-355,essen,4,Wann wurde Popcorn in Kinos populär?,Um 1930,Um 1890,Um 1960,Um 1980,,,opentriviaqa
+otq-hobbies-360,essen,4,"Wie nennt man im Englischen Maiskörner, die nicht aufpoppen?",Old maids,Spinsters,Barrens,Bachelors,,,opentriviaqa
+otq-hobbies-373,essen,4,Welche Skala eines französischen Apothekers wird zur Messung des Zuckergehalts von Most und Wein genutzt?,Baumé-Skala,Beaufort-Skala,Brix-Skala,Scoville-Skala,,,opentriviaqa
+otq-hobbies-375,essen,4,Wie heißt ein süßer Schaumwein aus Rot- und Weißwein?,Cold Duck (Kalte Ente),Barrique,Bodega,Claret,,,opentriviaqa
+otq-hobbies-377,essen,4,Welche europäische Weinrebenart wurde Mitte des 19. Jahrhunderts von der Reblaus verwüstet?,Vitis vinifera,Vitis aestivalis,Vitis sylvestris,Vitis labrusca,,,opentriviaqa
+otq-hobbies-500,essen,4,Welche Zutat gehört NICHT in das chinesische Gericht „Ameisen klettern auf den Baum“?,Fisch,Knoblauch,Glasnudeln,Hackfleisch,,,opentriviaqa
+otq-hobbies-501,essen,4,Was bedeutet der Name des thailändischen Gerichts „Suea Rong Hai“?,Weinender Tiger,Spinnennetz,Wütender Tintenfisch,Mutterherz,,,opentriviaqa
+otq-hobbies-528,essen,4,Aus welcher Küche stammt der Fleischsalat Larb?,Aus Laos,Aus Kambodscha,Aus Indien,Aus China,,,opentriviaqa
+otq-hobbies-529,essen,4,Was bedeutet der Name des chinesischen Neujahrssalats „Yusheng“?,Roher Fisch,Süßer Salat,Glitschige Garnele,Saurer Salat,,,opentriviaqa
+otq-hobbies-547,essen,4,"Wie heißen die kleinen, muschelförmigen Nudeln mit eingerollten Rändern aus Süditalien?",Cavatelli,Fregola,Orzo,Ditali,,,opentriviaqa
+otq-hobbies-557,essen,4,Welches Land ist der größte Tomatenproduzent der Welt?,China,Indien,USA,Türkei,,,opentriviaqa
+otq-hobbies-580,essen,4,Welcher Neuseeländer entwickelte 1953 die kontinuierliche Gärung für die Bierherstellung?,Morton Coutts,Charlie Mopps,James Death,Daniel Wheeler,,,opentriviaqa
+otq-hobbies-60,essen,4,Aus welchem Land stammt das vergorene Hirsegetränk Boza ursprünglich?,Türkei,Bulgarien,Griechenland,Ungarn,,,opentriviaqa
+otq-hobbies-630,essen,4,Was ist die provenzalische Weihnachtsspezialität „Pâte de coing“?,Quittenbrot (Quittengelee),Gänseleberpastete,Ziegenkäse,Kartoffelpüree,,,opentriviaqa
+otq-hobbies-631,essen,4,Was ist die Hauptzutat der normannischen Süßspeise „Teurgoule“?,Reis,Eier,Kartoffeln,Äpfel,,,opentriviaqa
+otq-hobbies-687,essen,4,Wo sitzt der größte Teil des Eiweißes in der Kartoffel?,Direkt unter der Schale,Gleichmäßig verteilt,In der Schale,In der Mitte,,,opentriviaqa
+otq-hobbies-732,essen,4,Aus welcher Milch wird der belgische „Brusselse Kaas“ hergestellt?,Kuhmilch,Büffelmilch,Schafmilch,Ziegenmilch,,,opentriviaqa
+otq-hobbies-787,essen,4,Aus welchem Land stammt das Fladenbrot Flatkaka?,Island,Philippinen,Südafrika,Peru,,,opentriviaqa
+otq-hobbies-794,essen,4,Aus welchem Land stammt das dünne Fladenbrot „Tunnbröd“?,Schweden,Deutschland,Schweiz,Norwegen,,,opentriviaqa
+otq-hobbies-800,essen,4,Was ist das indonesische „Klepon“?,Ein Dessert aus Klebreis mit Palmzucker,Eine Suppe,Ein Salat,Ein Hauptgericht,,,opentriviaqa
+otq-hobbies-802,essen,4,Wie schmeckt die indonesische Suppe Sayur Asem?,Süßsauer,Sehr salzig,Bittersüß,Sehr scharf,,,opentriviaqa
+otq-hobbies-805,essen,4,Woraus besteht die indonesische Spezialität Pempek hauptsächlich?,Aus Fisch,Aus Garnelen,Aus Austern,Aus Tintenfisch,,,opentriviaqa
+otq-hobbies-809,essen,4,Was bedeutet der Begriff „Ikizukuri“ in der japanischen Küche?,Lebendig zubereitet,Meeresfrüchte,Frittiert,Gebraut,,,opentriviaqa
+otq-hobbies-813,essen,4,Welches Fleisch verwendet man für das Gericht Soki aus Okinawa?,Schweinefleisch,Rindfleisch,Fisch,Hühnchen,,,opentriviaqa
+otq-hobbies-814,essen,4,"Welches süße, kaum alkoholische Getränk aus Reis stammt aus Japan?",Amazake,Hojicha,Kukicha,Matcha,,,opentriviaqa
+otq-hobbies-829,essen,4,Welches Kraut wird in Laos und Thailand auch „laotischer Koriander“ genannt?,Dill,Majoran,Basilikum,Petersilie,,,opentriviaqa
+otq-hobbies-848,essen,4,Was ist das jamaikanische „Bammy“?,Ein Fladenbrot aus Maniok,Ein Dessert,Gekochtes Fleisch,Eine Suppe,,,opentriviaqa
+otq-hobbies-849,essen,4,Wozu reicht man in Mexiko traditionell Mole de Cacahuate (Erdnuss-Mole)?,Zu Huhn,Zu Rind,Zu Fisch,Zu Meerschweinchen,,,opentriviaqa
+otq-hobbies-850,essen,4,Was ist die mexikanische „Alegría“?,Eine Süßigkeit aus Amarant,Ein Kuchen,Ein Getränk,Ein Brot,,,opentriviaqa
+otq-hobbies-854,essen,4,Was für ein Getränk ist das mexikanische Champurrado?,Ein Schokoladengetränk,Ein Bier,Ein Kokatee,Ein Tequila,,,opentriviaqa
+otq-hobbies-882,essen,4,Was bedeutet der Name des thailändischen Gerichts „Pad See Ew“?,Gebraten mit Sojasoße,Nudeln mit Fleisch,Dreifaches Mahl,Hungriger Tiger,,,opentriviaqa
+otq-hobbies-892,essen,4,Welche Zutat ist die Basis der arabischen Soße Toum?,Knoblauch,Rübe,Senf,Zwiebel,,,opentriviaqa
+otq-hobbies-898,essen,4,Was für ein Getränk ist das südafrikanische Umqombothi?,Bier,Weinbrand,Wein,Rum,,,opentriviaqa
+otq-hobbies-902,essen,4,Was ist das südafrikanische Gericht Sosatie?,Fleischspieße,Fischsuppe,Käse,Fleischbällchen,,,opentriviaqa
+otq-hobbies-904,essen,4,Woraus besteht das südostasiatische Gericht Balut?,Aus einem angebrüteten Entenei,Aus Rattenfleisch,Aus Schweinehirn,Aus Fischköpfen,,,opentriviaqa
+otq-hobbies-905,essen,4,Woraus wird die vietnamesische Spezialität „Chanh muối“ hergestellt?,Aus Limetten,Aus Bananen,Aus Papaya,Aus Grapefruit,,,opentriviaqa
+otq-hobbies-906,essen,4,Welcher Reis wird für das vietnamesische Gericht Cơm tấm verwendet?,Bruchreis,Naturreis,Langkornreis,Grob gemahlener Reis,,,opentriviaqa
+otq-hobbies-907,essen,4,Was ist die Hauptzutat des vietnamesischen Gerichts Tiết canh?,Rohes Blut,Rote Bete,Tomaten,Paprika,,,opentriviaqa
+otq-hobbies-923,essen,4,Wie heißt der philippinische Eintopf aus Schweineblut?,Dinuguan,Adobo,Sinigang,Kare-Kare,,,opentriviaqa
+otq-hobbies-925,essen,4,Wie heißt das grönländische Gericht aus in Robbenhaut fermentierten Seevögeln?,Kiviaq,Retsina,Surströmming,Hákarl,,,opentriviaqa
+otq-hobbies-97,essen,4,"Welcher Cocktail besteht aus Wodka, Cranberry- und Grapefruitsaft?",Sea Breeze,Bloody Mary,Caipirinha,Kamikaze,,,opentriviaqa
+otq-hobbies-970,essen,4,Wer gilt als erster international berühmter Starkoch?,Marie-Antoine Carême,Auguste Escoffier,Paul Bocuse,Wolfgang Puck,,,opentriviaqa
+otq-hobbies-973,essen,4,Welche Brotzutat hemmt in größerer Menge das Aufgehen des Teigs?,Salz,Wasser,Mehl,Zucker,,,opentriviaqa
+otq-people-420,essen,4,Welcher New Yorker Teehändler soll um 1908 versehentlich den Teebeutel erfunden haben?,Thomas Sullivan,Thomas Lipton,Roy Plunkett,Adolf Rambold,,,opentriviaqa
+otq-people-615,essen,4,Was sind „Rocky Mountain Oysters“?,Stierhoden,Pinienzapfen,Kuhfladen,Muscheln,,,opentriviaqa
+otq-rated-1626,essen,4,In welchem Jahr eröffnete in Neapel die erste Pizzeria?,1830,1910,1880,1770,,,opentriviaqa
+otq-rated-1746,essen,4,"Welcher Cocktail besteht aus Wodka, Kaffeelikör und Irish Cream?",Mudslide,Caipirinha,Bronx,Bullshot,,,opentriviaqa
+otq-science-technology-1761,essen,4,Welche chinesische Delikatesse soll Haut und Milz guttun?,Schwalbennester (Vogelnestsuppe),Haifischflossensuppe,Misosuppe,Bambussprossen,,,opentriviaqa
+otq-world-2060,essen,4,Welche Stadt gilt als „Hauptstadt der elsässischen Weine“?,Colmar,Straßburg,Mülhausen,Avignon,,,opentriviaqa
+otq-world-2621,essen,4,Welches Gericht stammt NICHT aus Mexiko?,Mofongo,Mole,Machaca,Enchiladas,,,opentriviaqa
+otq-world-3110,essen,4,Welches Fleisch wird für das isländische Gericht Hangikjöt geräuchert?,Lamm,Kaninchen,Gans,Schwein,,,opentriviaqa
+otq-world-3129,essen,4,Welches traditionelle indische Getränk wird aus Hanf zubereitet?,Bhang,Nimbu Pani,Kaapi,Lassi,,,opentriviaqa
+otq-world-3611,essen,4,Was reicht man bei der Teezeremonie zum dicken Tee „Koicha“?,Süßigkeiten (Wagashi),Tabak,Fisch,Wasabi,,,opentriviaqa
+otq-world-3837,essen,4,Woraus wird das in Taiwan beliebte „Grass Jelly“ hergestellt?,Aus Kräutern,Aus Reis,Aus Pilzen,Aus Pfirsichen,,,opentriviaqa

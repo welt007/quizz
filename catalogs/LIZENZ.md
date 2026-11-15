@@ -23,6 +23,15 @@ CC BY-SA 4.0 stellen.
 - `images/umrisse/` – Ländersilhouetten, erzeugt mit `tools/assets/build-outlines.mjs` aus den
   Grenzdaten von **Natural Earth** (<https://www.naturalearthdata.com>, gemeinfrei), bezogen über das
   Paket world-atlas (ISC).
+- `images/obst/`, `images/gemuese/` – Obst- und Gemüsebilder, erzeugt mit
+  `tools/assets/build-food-images.mjs`. Die meisten Motive stammen aus **Microsoft Fluent Emoji Flat**
+  (<https://github.com/microsoft/fluentui-emoji>), MIT-Lizenz (Text unten), bezogen über das Paket
+  @iconify-json/fluent-emoji-flat. Für dieses Projekt selbst gezeichnet sind: Zwetschge, Himbeere,
+  Johannisbeeren, Stachelbeere, Kürbis, Radieschen, Rote Bete, Kohlrabi, Spargel, Lauch und Blumenkohl.
+- `images/blaetter/` – Blätter heimischer Bäume, für dieses Projekt gezeichnet bzw. aus Formeln erzeugt
+  mit `tools/assets/build-leaves.mjs` (keine fremden Vorlagen).
+
+Die selbst gezeichneten Bilder stehen wie die Kataloge unter CC BY-SA 4.0.
 
 ### MIT-Lizenz von flag-icons
 
@@ -47,4 +56,30 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+
+### MIT-Lizenz von Microsoft Fluent Emoji
+
+```
+MIT License
+
+Copyright (c) Microsoft Corporation.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```

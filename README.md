@@ -19,7 +19,8 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
   einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln
   ein- und ausschalten lässt – alle eingeschalteten werden zu einem Fragenpool vereint
-- Rund **5000 Fragen** in 14 Kategorien, darunter **Flaggen** und **Länderumrisse** mit Bildern
+- Über **5400 Fragen** in 17 Kategorien – u. a. Essen & Ernährung, Computer- & Brettspiele, Die 90er –
+  sowie Bilderfragen zu **Flaggen**, **Länderumrissen**, **Obst & Gemüse** und **Blättern heimischer Bäume**
 
 **Status:** Version 1.0 – alle Meilensteine M0–M6 umgesetzt. Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
@@ -62,7 +63,9 @@ Nach Änderungen `version` in `catalogs/index.json` erhöhen, `npm run check` au
 
 Der Standardkatalog enthält übersetzte Fragen aus [OpenTriviaQA](https://github.com/uberspot/OpenTriviaQA)
 (CC BY-SA 4.0); diese Fragen (IDs `otq-…`) stehen ebenfalls unter CC BY-SA 4.0. Flaggen stammen aus
-[flag-icons](https://github.com/lipis/flag-icons) (MIT), Länderumrisse aus Natural Earth (gemeinfrei).
+[flag-icons](https://github.com/lipis/flag-icons) (MIT), Länderumrisse aus Natural Earth (gemeinfrei),
+viele Obst- und Gemüsebilder aus [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT);
+die übrigen Bilder (Blätter, einige Obst- und Gemüsesorten) sind für dieses Projekt gezeichnet.
 Details: [`catalogs/LIZENZ.md`](catalogs/LIZENZ.md).
 
 ## Projektstruktur

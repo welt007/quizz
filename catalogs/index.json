@@ -1,21 +1,26 @@
 {
   "format": 1,
-  "version": "2026-11-15.1",
+  "version": "2026-11-15.2",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
-  "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
+  "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Obst und Gemüse: Microsoft Fluent Emoji (MIT) und eigene Zeichnungen; Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
   "files": [
     "allgemeinwissen.csv",
     "geographie.csv",
     "geschichte.csv",
     "wissenschaft.csv",
     "natur.csv",
+    "baumblaetter.csv",
     "kultur.csv",
     "religion.csv",
     "musik.csv",
     "film.csv",
     "sport.csv",
     "freizeit.csv",
+    "essen.csv",
+    "obst-gemuese.csv",
+    "spiele.csv",
+    "neunziger.csv",
     "sprache.csv",
     "flaggen.csv",
     "umrisse.csv"
@@ -26,12 +31,17 @@
     "geschichte.csv": "Geschichte",
     "wissenschaft.csv": "Wissenschaft & Technik",
     "natur.csv": "Tiere & Natur",
+    "baumblaetter.csv": "Blätter heimischer Bäume (Bilder)",
     "kultur.csv": "Kunst & Literatur",
     "religion.csv": "Religion & Mythologie",
     "musik.csv": "Musik",
     "film.csv": "Film & Fernsehen",
     "sport.csv": "Sport",
-    "freizeit.csv": "Essen & Freizeit",
+    "freizeit.csv": "Freizeit & Lifestyle",
+    "essen.csv": "Essen & Ernährung",
+    "obst-gemuese.csv": "Obst & Gemüse (Bilder)",
+    "spiele.csv": "Computer- & Brettspiele",
+    "neunziger.csv": "Die 90er",
     "sprache.csv": "Sprache",
     "flaggen.csv": "Flaggen",
     "umrisse.csv": "Umrisse"
@@ -98,9 +108,24 @@
       "color": "#25a5b8"
     },
     "freizeit": {
-      "name": "Essen & Freizeit",
-      "icon": "🍽️",
+      "name": "Freizeit & Lifestyle",
+      "icon": "🎭",
+      "color": "#6d4c41"
+    },
+    "essen": {
+      "name": "Essen & Ernährung",
+      "icon": "🥗",
       "color": "#d35400"
+    },
+    "spiele": {
+      "name": "Computer- & Brettspiele",
+      "icon": "🎲",
+      "color": "#8e44ad"
+    },
+    "neunziger": {
+      "name": "Die 90er",
+      "icon": "📼",
+      "color": "#1e3799"
     },
     "sprache": {
       "name": "Sprache",

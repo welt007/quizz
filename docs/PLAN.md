@@ -240,7 +240,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M3** ✅ | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party (Buzzer/Reihum); Bestenlisten mit Namenseintrag | Alle Modi |
 | **M4** ✅ | **Optionen & Kataloge**: mehrere CSVs je Quelle, zu einem Pool vereint; Kataloge einzeln an/aus; per URL hinzufügen/aktualisieren/entfernen; Standardkatalog-Update; CSV-Import; IndexedDB; Vorschau mit Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** ✅ | Präsentationsmodus (`F`, Vollbild, skaliert), Bild-Zoom (`Z`), Tastenkürzel-Hilfe (`?`), Statistik mit Knackpunkten, A11y-/Responsiv-Feinschliff, Browser-Tests im Repo + CI | Release 1.0 |
-| **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern | Spielspaß |
+| **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern; danach Bilderfragen zu Obst & Gemüse und Baumblättern sowie die Kategorien Essen & Ernährung, Computer- & Brettspiele und Die 90er | Spielspaß |
 
 ## 9. Tests
 

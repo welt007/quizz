@@ -54,7 +54,7 @@ export async function openGame(browser, { offline = true, device, viewport, cloc
   const files = await page.evaluate(() =>
     JSON.parse(document.getElementById('embedded-catalogs').textContent).files.map((f) => ({
       file: f.file,
-      questions: f.questions.map((q) => [q.question, q.correct, q.category, [q.correct, ...q.wrong].sort().join('\u0001')]),
+      questions: f.questions.map((q) => [q.question, q.correct, q.category, [q.correct, ...q.wrong].sort().join('\u0001'), q.image ?? null]),
     })),
   );
   const embedded = files.flatMap((f) => f.questions);
@@ -71,9 +71,12 @@ export async function openGame(browser, { offline = true, device, viewport, cloc
     const q = await page.locator('.question__text').innerText();
     const answers = await page.locator('.answer__text').allInnerTexts();
     const fixture = KNOWN_FIXTURE_ANSWERS(q);
-    // flag/outline questions share their text, so match the full answer set as well
+    // flag/outline questions share their text (some even their answers), so match answer set and image too
     const set = [...answers].sort().join('\u0001');
-    const idx = answers.findIndex((a) => a === fixture || embedded.some(([qq, c, , all]) => qq === q && c === a && all === set));
+    const img = (await page.locator('.question__image').count()) ? await page.locator('.question__image').getAttribute('src') : null;
+    const idx = answers.findIndex(
+      (a) => a === fixture || embedded.some(([qq, c, , all, image]) => qq === q && c === a && all === set && (image ?? null) === img),
+    );
     if (idx < 0) throw new Error(`Richtige Antwort unbekannt: ${q}`);
     return idx;
   }

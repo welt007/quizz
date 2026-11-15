@@ -22,7 +22,6 @@ otq-movies-3744,film,1,Wer ist Han Solos Partner beim Schmuggeln in „Star Wars
 otq-newest-1375,film,1,Wie heißt die Schurkin in Disneys „101 Dalmatiner“?,Cruella de Vil,Estella,Drizella,Anastasia,,,opentriviaqa
 otq-newest-1515,film,1,Welcher James-Cameron-Film wurde 2009/2010 zum erfolgreichsten Film aller Zeiten?,Avatar,Titanic,Terminator 2,Abyss,,,opentriviaqa
 otq-newest-2015,film,1,Wer spielt Edward Cullen in den „Twilight“-Filmen?,Robert Pattinson,Zac Efron,Taylor Lautner,Tom Cruise,,,opentriviaqa
-otq-newest-2367,film,1,Wie heißt die Figur von Kate Winslet in „Titanic“ (1997)?,Rose,Mary,Iris,Pearl,,,opentriviaqa
 otq-newest-2403,film,1,Welcher Regisseur drehte die „Der Pate“-Trilogie?,Francis Ford Coppola,Martin Scorsese,Quentin Tarantino,Oliver Stone,,,opentriviaqa
 otq-newest-900,film,1,Wer führte bei „Gefährten“ und „Die Abenteuer von Tim und Struppi“ (beide 2011) Regie?,Steven Spielberg,Martin Scorsese,Oliver Stone,Peter Jackson,,,opentriviaqa
 otq-rated-124,film,1,Wer spielt Austin Powers?,Mike Myers,Robert Wagner,Michael McKean,Michael Douglas,,,opentriviaqa
@@ -40,11 +39,7 @@ otq-general-1297,film,2,Welchen Lehrer spielt Robin Williams in „Der Club der 
 otq-general-1598,film,2,In welchem Woody-Allen-Film verliebt sich ein Maler in zwei junge Amerikanerinnen?,Vicky Cristina Barcelona,Match Point,Midnight in Paris,To Rome with Love,,,opentriviaqa
 otq-general-17,film,2,Wer drehte „Amadeus“ und „Einer flog über das Kuckucksnest“?,Miloš Forman,Stanley Kubrick,Pedro Almodóvar,Roman Polański,,,opentriviaqa
 otq-general-1925,film,2,Welche Farbe hat der Mantel des Mädchens in Spielbergs „Schindlers Liste“?,Rot,Grün,Weiß,Gelb,,,opentriviaqa
-otq-general-1934,film,2,Welcher Elton-John-Song aus „Der König der Löwen“ gewann 1995 den Oscar?,Can You Feel the Love Tonight,Circle of Life,I Just Can’t Wait to Be King,Hakuna Matata,,,opentriviaqa
-otq-general-1989,film,2,Welcher Filmstil mit strengen Regeln entstand 1995 in Dänemark?,Dogma 95,Nouvelle Vague,Neorealismus,Film noir,,,opentriviaqa
 otq-general-2290,film,2,Was für ein Film ist Stanley Kubricks „Full Metal Jacket“ (1987)?,Ein Kriegsfilm,Ein Sportfilm,Ein Horrorfilm,Eine Komödie,,,opentriviaqa
-otq-general-2591,film,2,In welchem Film von 1996 spielen Michael Jordan und die Looney Tunes Basketball?,Space Jam,Toy Story,Der Hofnarr,Who Framed Roger Rabbit,,,opentriviaqa
-otq-general-2738,film,2,"In welchem Film von 1994 spielt Jean Reno einen Auftragskiller, der ein Mädchen aufnimmt?",Léon – Der Profi,Ronin,Nikita,Das Mädchen Léolo,,,opentriviaqa
 otq-general-701,film,2,Wie heißt der James-Bond-Film von 1979?,Moonraker,Moonspinners,Moonshadow,Moondogs,,,opentriviaqa
 otq-general-730,film,2,Auf welcher Insel lebt King Kong?,Skull Island,Insel ohne Wiederkehr,Verbotene Insel,Krater-Insel,,,opentriviaqa
 otq-general-861,film,2,Das Ende welches Spielberg-Films spielt am Devils Tower?,Unheimliche Begegnung der dritten Art,E. T.,Jäger des verlorenen Schatzes,Der Soldat James Ryan,,,opentriviaqa
@@ -67,7 +62,6 @@ otq-movies-2611,film,2,In wen verliebt sich der Esel im Film „Shrek“?,In den
 otq-movies-2970,film,2,Welcher Bösewicht aus einem Bond-Film von 1964 steht auf der AFI-Liste der größten Schurken?,Auric Goldfinger,Dr. No,Blofeld,Rosa Klebb,,,opentriviaqa
 otq-movies-2979,film,2,Von welchem Wüstenplaneten stammt Anakin Skywalker?,Tatooine,Alderaan,Hoth,Endor,,,opentriviaqa
 otq-movies-3041,film,2,In welchem Spiel besiegt James Bond in „Goldfinger“ den Bösewicht?,Golf,Bogenschießen,Fechten,Tennis,,,opentriviaqa
-otq-movies-3615,film,2,In welchem Pixar-Film von 1998 leiht Kevin Spacey dem bösen Grashüpfer Hopper die Stimme?,Das große Krabbeln,"Lucas, der Ameisenschreck",Antz,Findet Nemo,,,opentriviaqa
 otq-movies-379,film,2,"Wie geht Forrest Gumps Satz weiter: „Ich bin vielleicht nicht schlau, aber …“?","„… ich weiß, was Liebe ist.“",„… ich kann lieben.“,„… ich wäre ein guter Ehemann.“,„… ich liebe dich für immer.“,,,opentriviaqa
 otq-movies-430,film,2,Wie heißt der Truck von Lightning McQueen im Film „Cars“?,Mack,Chevy,Red,Peterbilt,,,opentriviaqa
 otq-movies-45,film,2,Wie heißt Doc Browns Hund im ersten „Zurück in die Zukunft“?,Einstein,Copernicus,Newton,Galileo,,,opentriviaqa
@@ -174,10 +168,8 @@ otq-rated-151,film,3,Wer führte Regie bei der Stephen-King-Verfilmung „Misery
 otq-rated-1537,film,3,Wer lieh in „Findet Nemo“ (Original) KEINER Figur seine Stimme?,Nathan Lane,Geoffrey Rush,Willem Dafoe,John Ratzenberger,,,opentriviaqa
 otq-rated-1541,film,3,"In welchem Film spielte Richard Gere den Zack Mayo, nachdem John Travolta die Rolle abgelehnt hatte?",Ein Offizier und Gentleman,"Die Braut, die sich nicht traut",Pretty Woman,Zwielicht,,,opentriviaqa
 otq-rated-1564,film,3,"Aus welchem Film von 1991 stammt „Grundprinzipien, Clarice. Lies Marc Aurel“?",Das Schweigen der Lämmer,Braveheart,"Der Mann, der Liberty Valance erschoss",Frau ohne Gewissen,,,opentriviaqa
-otq-rated-1565,film,3,Aus welchem Film von 1994 stammt der Satz „Ich werd jetzt mittelalterlich auf deinen Arsch“?,Pulp Fiction,GoodFellas,Gangster,Die Sopranos,,,opentriviaqa
 otq-rated-178,film,3,Welchen Beatles-Song singt Ferris Bueller in „Ferris macht blau“ auf einem Paradewagen?,Twist and Shout,Come Together,Hey Jude,Please Please Me,,,opentriviaqa
 otq-rated-1813,film,3,"In welchem Film spielt Brad Pitt einen Jungen, der in einer Jugendstrafanstalt misshandelt wurde?",Sleepers,Fight Club,Vertrauter Feind,12 Monkeys,,,opentriviaqa
-otq-rated-1826,film,3,"In welchem Animationsfilm (1998) klagt die Hauptfigur, als mittleres von fünf Millionen Kindern keine Beachtung zu bekommen?",Antz,Toy Story 2,Shrek,Findet Nemo,,,opentriviaqa
 otq-rated-40,film,3,Welchen Beruf hat Dan Gallagher (Michael Douglas) in „Eine verhängnisvolle Affäre“?,Anwalt,Autoverkäufer,Steuerberater,Baumarktleiter,,,opentriviaqa
 otq-rated-656,film,3,"Wer führte bei „Mitternacht im Garten von Gut und Böse“, „Absolute Power“ und „Mystic River“ Regie?",Clint Eastwood,Ron Howard,Peter Jackson,Steven Spielberg,,,opentriviaqa
 otq-rated-861,film,3,Wie heißt der Chihuahua von Elle Woods in „Natürlich blond“?,Bruiser,Buster,Benny,Coco,,,opentriviaqa

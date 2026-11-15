@@ -1,0 +1,118 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+spl-0001,spiele,1,Wie viele Felder hat ein Schachbrett?,64,32,81,100,,,
+spl-0002,spiele,1,Welche Schachfigur darf über andere Figuren hinwegspringen?,Springer,Läufer,Turm,Dame,,,
+spl-0003,spiele,2,"Wie heißt der Zug, bei dem König und Turm gleichzeitig bewegt werden?",Rochade,En passant,Gambit,Fianchetto,,,
+spl-0004,spiele,3,"Wie heißt eine Stellung, in der der Spieler am Zug nicht im Schach steht, aber keinen erlaubten Zug hat?",Patt,Matt,Zugzwang,Remis durch Wiederholung,,Ein Patt endet unentschieden.,
+spl-0005,spiele,1,Welche Farbe macht beim Schach den ersten Zug?,Weiß,Schwarz,Wer würfelt,Wer jünger ist,,,
+spl-0006,spiele,2,Welche Schachfigur steht zu Beginn auf einem Feld ihrer eigenen Farbe?,Die Dame,Der König,Der Läufer,Der Springer,,Merksatz: „Die Dame steht auf ihrer Farbe.“,
+spl-0007,spiele,4,Wer war der erste offizielle Schachweltmeister (1886)?,Wilhelm Steinitz,Emanuel Lasker,José Raúl Capablanca,Paul Morphy,,,
+spl-0008,spiele,4,Welcher Deutsche war von 1894 bis 1921 Schachweltmeister?,Emanuel Lasker,Siegbert Tarrasch,Adolf Anderssen,Wilhelm Steinitz,,Lasker hielt den Titel 27 Jahre lang – länger als jeder andere.,
+spl-0009,spiele,1,Mit wie vielen Figuren spielt jeder bei „Mensch ärgere Dich nicht“?,4,3,5,6,,,
+spl-0010,spiele,1,"Welche Augenzahl braucht man bei „Mensch ärgere Dich nicht“, um eine Figur ins Spiel zu bringen?",Eine 6,Eine 1,Eine 5,Eine beliebige Zahl,,,
+spl-0011,spiele,4,Wer erfand „Mensch ärgere Dich nicht“ (um 1907/1914)?,Josef Friedrich Schmidt,Klaus Teuber,Alex Randolph,Wolfgang Kramer,,,
+spl-0012,spiele,3,Wer erfand das Brettspiel „Die Siedler von Catan“ (1995)?,Klaus Teuber,Reiner Knizia,Uwe Rosenberg,Wolfgang Kramer,,,
+spl-0013,spiele,2,Welcher Rohstoff kommt im Grundspiel „Catan“ NICHT vor?,Kohle,Holz,Lehm,Erz,,"Die fünf Rohstoffe sind Holz, Lehm, Wolle, Getreide und Erz.",
+spl-0014,spiele,2,Welcher Kritikerpreis mit rotem Pöppel als Logo wird seit 1979 an Brettspiele vergeben?,Spiel des Jahres,Goldener Würfel,Goldene Kamera,Bambi,,,
+spl-0015,spiele,1,Welche Straße ist beim klassischen deutschen Monopoly die teuerste?,Schlossallee,Parkstraße,Opernplatz,Bahnhofstraße,,,
+spl-0016,spiele,2,Wie viele Buchstabensteine hat beim Scrabble jeder Spieler auf seiner Bank?,7,5,8,10,,,
+spl-0017,spiele,1,Wie viele Karten hat ein Skatblatt?,32,52,36,40,,,
+spl-0018,spiele,1,Wie viele Spieler spielen in einer Skatrunde aktiv mit?,3,4,2,5,,,
+spl-0019,spiele,2,Wie heißen beim Skat die zwei verdeckt liegenden Karten?,Der Skat,Der Talon,Der Stich,Der Stock,,,
+spl-0020,spiele,2,Mit welchem Wert beginnt beim Skat das Reizen?,18,10,20,23,,,
+spl-0021,spiele,3,Mit wie vielen Karten spielt man Doppelkopf (mit Neunen)?,48,32,52,40,,,
+spl-0022,spiele,3,Welche Farbe des deutschen Blatts entspricht dem französischen Kreuz?,Eichel,Herz,Schellen,Grün (Blatt),,,
+spl-0023,spiele,1,"Was muss der nächste Spieler bei UNO tun, wenn eine „+4“ gelegt wird?",Vier Karten ziehen,Vier Runden aussetzen,Vier Karten abwerfen,Die Richtung wechseln,,,
+spl-0024,spiele,2,"Was ruft man bei UNO, wenn man nur noch eine Karte hat?",„Uno!“,„Letzte!“,„Stopp!“,„Bingo!“,,,
+spl-0025,spiele,1,Wie viele Würfel braucht man für Kniffel?,5,3,4,6,,,
+spl-0026,spiele,3,Wie viele Punkte bringt beim Kniffel eine große Straße?,40,30,25,50,,,
+spl-0027,spiele,2,Wie heißt beim Kniffel die Kombination aus fünf gleichen Würfeln?,Kniffel,Full House,Große Straße,Pasch,,,
+spl-0028,spiele,2,Wie viele Spielsteine hat jeder Spieler bei Mühle?,9,7,12,15,,,
+spl-0029,spiele,3,Mit wie vielen Steinen spielt jeder beim Backgammon?,15,12,16,9,,,
+spl-0030,spiele,3,Wie viele Steine hat ein Standard-Domino (Doppel-Sechs)?,28,24,32,36,,,
+spl-0031,spiele,3,Aus wie vielen Holzklötzen besteht ein Jenga-Turm?,54,48,60,36,,,
+spl-0032,spiele,3,Wie viele Schnittpunkte hat ein Go-Brett mit 19 × 19 Linien?,361,324,400,289,,,
+spl-0033,spiele,2,"Was passiert beim Damespiel mit einem Stein, der die gegnerische Grundlinie erreicht?",Er wird zur Dame,Er wird geschlagen,Er kehrt zurück,Er wird zum König des Gegners,,,
+spl-0034,spiele,2,"Aus welchem Land stammt der Erfinder des Zauberwürfels, Ernő Rubik?",Ungarn,Tschechien,Polen,Österreich,,,
+spl-0035,spiele,1,Wie viele Farben hat ein klassischer Zauberwürfel?,6,4,8,9,,,
+spl-0036,spiele,3,Welches Spielzeug erfand Ravensburger 1959 als Gedächtnisspiel mit Bildpaaren?,Memory,Puzzle,Scotland Yard,Kniffel,,,
+spl-0037,spiele,2,In welchem Bundesland hat der Spieleverlag Ravensburger seinen Sitz?,Baden-Württemberg,Bayern,Nordrhein-Westfalen,Hessen,,,
+spl-0038,spiele,2,Worum geht es beim Spiel „Tabu“?,"Begriffe erklären, ohne bestimmte Wörter zu benutzen",Wörter rückwärts buchstabieren,Gegenstände pantomimisch darstellen,Möglichst schnell Wörter bilden,,,
+spl-0039,spiele,3,Wie heißt das Opfer im deutschen „Cluedo“-Klassiker?,Dr. Schwarz,Professor Bloom,Oberst von Gatow,Fräulein Gloria,,,
+spl-0040,spiele,1,Was ist das Ziel im Brettspiel „Risiko“?,Die Welt erobern bzw. eine Mission erfüllen,Ein Hotelimperium aufbauen,Einen Mordfall lösen,Als Erster ins Ziel würfeln,,,
+spl-0041,spiele,2,Wie nennt man die kleinen Spielfiguren aus Holz in Brettspielen umgangssprachlich?,Pöppel (Meeple),Pins,Pawns,Muggel,,,
+spl-0042,spiele,2,Was legen die Spieler bei „Carcassonne“ nach und nach aus?,Landschaftsplättchen,Spielkarten,Dominosteine,Buchstaben,,,
+spl-0043,spiele,3,Welches Rollenspiel mit Stift und Papier erschien 1974 in den USA?,Dungeons & Dragons,Das Schwarze Auge,Warhammer,Shadowrun,,,
+spl-0044,spiele,4,In welchem Jahr erschien das deutsche Pen-&-Paper-Rollenspiel „Das Schwarze Auge“?,1984,1974,1991,1979,,,
+spl-0045,spiele,3,Wie viele Seiten hat der typische „W20“-Würfel aus Rollenspielen?,20,12,10,8,,,
+spl-0046,spiele,1,Wie heißt der Bruder von Mario?,Luigi,Wario,Toad,Yoshi,,,
+spl-0047,spiele,1,Welche Firma erfand die Figur Super Mario?,Nintendo,Sega,Sony,Atari,,,
+spl-0048,spiele,2,Wie heißt Marios schildkrötenartiger Erzfeind?,Bowser,Wario,Donkey Kong,Ganon,,,
+spl-0049,spiele,3,Für welche Konsole erschien 1985 „Super Mario Bros.“?,NES,Game Boy,Super Nintendo,Nintendo 64,,,
+spl-0050,spiele,1,Welcher blaue Igel ist das Maskottchen von Sega?,Sonic,Tails,Knuckles,Crash,,,
+spl-0051,spiele,1,Welches gelbe Pokémon ist eine Elektro-Maus?,Pikachu,Glumanda,Schiggy,Bisasam,,,
+spl-0052,spiele,3,Wie viele Pokémon gab es in den ersten Spielen (Rot/Blau)?,151,100,251,386,,,
+spl-0053,spiele,2,Gegen welche Tiere schleudern die Vögel in „Angry Birds“?,Schweine,Katzen,Füchse,Schlangen,,,
+spl-0054,spiele,1,In welchem Spiel baut man eine Welt aus Klötzen ab und auf?,Minecraft,Tetris,Fortnite,Pac-Man,,,
+spl-0055,spiele,2,"Aus welchem Land stammt das Studio Mojang, das „Minecraft“ entwickelte?",Schweden,Finnland,Kanada,Dänemark,,,
+spl-0056,spiele,3,Wer erfand das Computerspiel „Tetris“ (1984)?,Alexei Paschitnow,Shigeru Miyamoto,Hideo Kojima,Toru Iwatani,,,
+spl-0057,spiele,3,"Wie heißen die Spielsteine in „Tetris“, die aus vier Quadraten bestehen?",Tetrominos,Pentominos,Quadrinos,Tetraeder,,,
+spl-0058,spiele,1,Was frisst Pac-Man im Labyrinth?,"Punkte (und Geister, wenn sie blau sind)",Äpfel,Münzen,Sterne,,,
+spl-0059,spiele,1,Welche Firma stellt die PlayStation her?,Sony,Nintendo,Microsoft,Sega,,,
+spl-0060,spiele,1,Welche Firma stellt die Xbox her?,Microsoft,Sony,Nintendo,Apple,,,
+spl-0061,spiele,2,Was bedeutet „NPC“ in Computerspielen?,Nicht-Spieler-Charakter,Neues Profil-Konto,Netzwerk-Punktezähler,Nächster Pflicht-Checkpoint,,,
+spl-0062,spiele,2,Was ist ein „Easter Egg“ in einem Computerspiel?,Eine versteckte Überraschung der Entwickler,Ein Osterlevel,Ein Programmfehler,Ein Bonusleben,,,
+spl-0063,spiele,2,In welcher Spielereihe ist Lara Croft die Heldin?,Tomb Raider,Resident Evil,Half-Life,Uncharted,,,
+spl-0064,spiele,3,Wie heißt die Fantasiesprache der Figuren in „Die Sims“?,Simlisch,Simonesisch,Klingonisch,Sindarin,,,
+spl-0065,spiele,3,Welches Strategiespiel von Sid Meier lässt eine Zivilisation von der Steinzeit an aufbauen?,Civilization,Age of Empires,Anno,Die Siedler,,,
+spl-0066,spiele,4,Welche Firma brachte 1972 das Arcade-Spiel „Pong“ heraus?,Atari,Nintendo,Taito,Namco,,,
+spl-0067,spiele,3,Welcher Heimcomputer von Commodore (1982) gilt als meistverkaufter Heimcomputer?,C64,Amiga 500,VC20,PET 2001,,,
+spl-0068,spiele,3,Was ist ein „Indie-Spiel“?,Ein Spiel unabhängiger Entwickler ohne großen Verlag,Ein Spiel aus Indien,Ein Spiel nur für Einzelspieler,Ein kostenloses Probespiel,,,
+spl-0069,spiele,1,"Was schreibt man bei „Stadt, Land, Fluss“ auf?",Begriffe mit einem vorgegebenen Anfangsbuchstaben,Rechenaufgaben,Hauptstädte in alphabetischer Reihenfolge,Reime,,,
+spl-0070,spiele,2,"Was muss man bei „Activity“ tun, um Begriffe zu vermitteln?","Erklären, zeichnen oder pantomimisch darstellen",Nur summen,Nur buchstabieren,Nur rückwärts sprechen,,,
+spl-0071,spiele,3,"Wie heißt die Brettspielvariante auf sternförmigem Brett, die man auch „Chinesische Dame“ nennt?",Sternhalma,Mancala,Mühle,Reversi,,,
+otq-hobbies-69,spiele,1,Welches Brettspiel mit Straßen und Häusern ließ Charles Darrow 1935 patentieren?,Monopoly,Go,Mensch ärgere dich nicht,Sorry!,,,opentriviaqa
+otq-hobbies-73,spiele,1,Welches Casinospiel geht auf das französische „Vingt-et-un“ zurück?,Blackjack,Bingo,Roulette,Baccara,,,opentriviaqa
+otq-hobbies-75,spiele,1,Welches Spiel stellt das Videospiel „Pong“ nach?,Tischtennis,Othello,Tic-Tac-Toe,Fußball,,,opentriviaqa
+otq-hobbies-932,spiele,1,In welchem Brettspiel ziehen Spieler nach Würfelwurf ihre Steine nach Hause?,Backgammon,Schach,Go,Dame,,,opentriviaqa
+otq-newest-2221,spiele,1,Was für ein Spiel ist „Hearts“ (Schwarze Maria)?,Ein Kartenspiel,Ein Brettspiel,Ein Murmelspiel,Ein Rollenspiel,,,opentriviaqa
+otq-world-3202,spiele,1,Was für ein Spiel ist das traditionelle chinesische Go?,Ein Brettspiel,Ein Versteckspiel,Ein Wettrennen mit Schnecken,Ein Ballspiel,,,opentriviaqa
+otq-hobbies-468,spiele,2,Woraus besteht beim Blackjack ein „Natural“?,Ass und eine Zehnerkarte,Zwei gleiche Karten,Zwei gerade Karten,Zwei Asse,,,opentriviaqa
+otq-hobbies-915,spiele,2,Welches strategische Brettspiel stammt aus dem alten China und wird mit schwarzen und weißen Steinen gespielt?,Go,Hex,Othello,Mühle,,,opentriviaqa
+otq-hobbies-919,spiele,2,"Welches Spiel, ursprünglich mit Papier und Bleistift, brachte Milton Bradley 1931 als Brettspiel heraus?",Schiffe versenken,Mühle,Titan,Stratego,,,opentriviaqa
+otq-hobbies-937,spiele,2,In welchem Kartenspiel sollte man die Pik-Dame meiden?,Hearts,Bridge,Whist,Skat,,,opentriviaqa
+otq-hobbies-938,spiele,2,Bei welchem Brettspiel kann man die Werte der gegnerischen Figuren nicht sehen?,Stratego,Bridge,Mille Bornes,Risiko,,,opentriviaqa
+otq-video-games-392,spiele,2,Wie heißt die Währung in den „Zelda“-Spielen?,Rubine,Münzen,Dreiecke,Ringe,,,opentriviaqa
+otq-general-1184,spiele,3,Welche Schildkrötenwesen dienen Bowser in den Mario-Spielen als Handlanger?,Koopas,Schlangen,Gumbas,Raptoren,,,opentriviaqa
+otq-general-2010,spiele,3,Welche Firma entwickelte die Computerspielreihe „Command & Conquer“?,Westwood Studios (Electronic Arts),Microsoft,Blizzard,Nintendo,,,opentriviaqa
+otq-hobbies-1003,spiele,3,Welche Farbe gibt es im Kartenspiel „Magic: The Gathering“ NICHT?,Orange,Blau,Grün,Rot,,,opentriviaqa
+otq-hobbies-1004,spiele,3,Welche Karte gilt als die wertvollste im Sammelkartenspiel „Magic: The Gathering“?,Black Lotus,Wildfire,Mox Diamond,Wrath of God,,,opentriviaqa
+otq-hobbies-131,spiele,3,Was ist „Beleaguered Castle“ (Belagerte Burg)?,Eine Patience (Solitär),Ein Stichspiel,Ein Rommé,Eine Pokervariante,,,opentriviaqa
+otq-hobbies-261,spiele,3,Welche dieser Figuren gab es beim klassischen Monopoly NICHT?,Einen Wasserkessel,Einen Schuh,Ein Bügeleisen,Einen Zylinder,,,opentriviaqa
+otq-hobbies-416,spiele,3,Was ist im Schach eine Kombination?,"Eine Zugfolge, die einen Vorteil erzwingt",Eine Zugfolge zum Zugzwang,Immer ein Matt,Ein Bauerntausch,,,opentriviaqa
+otq-hobbies-453,spiele,3,Welcher Name ist KEINE Bezeichnung für Blackjack?,Mau-Mau (Crazy Eights),Siebzehn und Vier,Vingt-et-un,Pontoon,,,opentriviaqa
+otq-hobbies-457,spiele,3,"Welchen Teil seines Einsatzes verliert ein Spieler beim Blackjack, wenn er „aufgibt“ (Surrender)?",Die Hälfte,Ein Fünftel,Den ganzen Einsatz,Zwei Drittel,,,opentriviaqa
+otq-hobbies-464,spiele,3,Wann wird beim Blackjack eine „Versicherung“ angeboten?,Wenn die offene Karte des Gebers ein Ass ist,Wenn der Spieler 20 hat,Wenn der Geber eine Zehn zeigt,Wenn der Spieler 18 hat,,,opentriviaqa
+otq-hobbies-72,spiele,3,Welches Brettspiel für zwei auf einem 8×8-Feld ist besonders in Japan beliebt (auch „Reversi“)?,Othello,Hex,Fanorona,Dame,,,opentriviaqa
+otq-hobbies-820,spiele,3,Welche Bezeichnung ist ein umgangssprachlicher Name für Dominosteine?,"Alle drei: Steine, Spinner, Knochen",Nur „Steine“,Nur „Knochen“,Keine davon,,,opentriviaqa
+otq-hobbies-838,spiele,3,Aus welchem indischen Strategiespiel ging das Schach hervor?,Chaturanga,Sankara,Pachisi,Mancala,,,opentriviaqa
+otq-hobbies-839,spiele,3,Wie heißt die japanische Variante des Schachs?,Shogi,Kyoki,Shatranj,Xiangqi,,,opentriviaqa
+otq-hobbies-933,spiele,3,Welches Kartenspiel mit wechselnder Trumpffarbe gilt als Vorläufer des Bridge?,Whist,Rommé,Skat,Canasta,,,opentriviaqa
+otq-newest-1359,spiele,3,Wie heißt der rote Geist im Videospiel Pac-Man?,Blinky,Pinky,Clyde,Inky,,,opentriviaqa
+otq-video-games-25,spiele,3,Wie hieß Mario in seinem ersten Spiel „Donkey Kong“?,Jumpman,Koopa,Plumberio,Luigi,,,opentriviaqa
+otq-video-games-46,spiele,3,Welche Figur aus der „Final Fantasy“-Reihe kämpft mit dem „Buster Sword“?,Cloud Strife,Sephiroth,Squall Leonhart,Seifer Almasy,,,opentriviaqa
+otq-entertainment-43,spiele,4,Wer tötet Liu Kang in der „Mortal Kombat“-Handlung?,Shang Tsung,Goro,Shao Kahn,Kung Lao,,,opentriviaqa
+otq-general-380,spiele,4,Welches Brettspiel mit zwei Reihen zu je sechs Mulden ist das Nationalspiel Ghanas?,Oware,Dame,Backgammon,Schach,,,opentriviaqa
+otq-hobbies-1005,spiele,4,Wer erfand das Sammelkartenspiel „Magic: The Gathering“?,Richard Garfield,Bennie Smith,Gary Gygax,Mike Flores,,,opentriviaqa
+otq-hobbies-128,spiele,4,"In welchem Stichspiel gibt es die Punkte High, Low, Jack und Game?",Pitch (All Fours),Binokel,Whist,Bridge,,,opentriviaqa
+otq-hobbies-264,spiele,4,Wie viele Ereigniskarten enthält ein Standard-Monopoly?,16,17,20,15,,,opentriviaqa
+otq-hobbies-459,spiele,4,Was bedeutet die Angabe „S17“ auf einem Blackjack-Tisch?,Der Croupier bleibt bei „Soft 17“ stehen,Der Croupier zählt „Soft 17“ als 8,Der Croupier gibt bei „Soft 17“ auf,Der Croupier verdoppelt bei „Soft 17“,,,opentriviaqa
+otq-hobbies-461,spiele,4,Welche Blackjack-Variante ist für Spieler am günstigsten?,Mit einem einzigen Kartendeck,Mit zwei Decks,Mit acht Decks,Mit vier Decks,,,opentriviaqa
+otq-hobbies-531,spiele,4,Welche Kartenkombination ist beim Rommé eine gültige Reihe (Sequenz)?,"Herz 6, 7, 8","Herz 7, Kreuz 8, Pik 9","Herz 7, Herz 8, Pik 7","Herz 7, Kreuz 8, Karo 8",,,opentriviaqa
+otq-hobbies-640,spiele,4,Wer erfand die Stayman-Konvention im Kontrakt-Bridge?,George Rapée,Samuel Stayman,Bill Stayman,George C. Stayman,,,opentriviaqa
+otq-hobbies-641,spiele,4,Was ist beim Bridge ein „Yarborough“?,Ein Blatt ohne Karte über Neun,Ein Blatt mit vier Buben,Ein Blatt in nur einer Farbe,Ein Blatt mit allen Damen und Königen,,,opentriviaqa
+otq-hobbies-650,spiele,4,Welche drei Farben (Serien) gibt es beim Mahjong?,"Kreise (Steine), Bambus und Zeichen","Bambus, Winde und Zeichen","Drachen, Winde und Zeichen","Drachen, Steine und Bambus",,,opentriviaqa
+otq-hobbies-840,spiele,4,Wie heißt die birmanische Variante des Schachs?,Sittuyin,Makruk,Shogi,Xiangqi,,,opentriviaqa
+otq-hobbies-842,spiele,4,In welcher alten Schachvariante gibt es die Figur „Rukh“ (Turm)?,Schatrandsch,Shatar,Shogi,Makruk,,,opentriviaqa
+otq-hobbies-843,spiele,4,"In welcher chinesischen Schachvariante treten Leopard, Löwe und Tiger auf?",Dou Shou Qi (Dschungelschach),Chaturanga,Shatranj,Makruk,,,opentriviaqa
+otq-sports-2374,spiele,4,Welche Eröffnung kann nach dem ersten Schachzug 1. Sf3 nicht mehr entstehen?,Königsgambit,Englische Eröffnung,Spanische Partie,Königsindischer Angriff,,,opentriviaqa
+otq-video-games-199,spiele,4,Wo beginnt das Rollenspiel „Final Fantasy X“?,In Zanarkand,Am Berg Gagazet,Auf Besaid,Auf Kilika,,,opentriviaqa

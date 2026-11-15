@@ -1,0 +1,44 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+og-0001,essen,1,Welches Obst ist hier abgebildet?,Apfel,Tomate,Granatapfel,Nektarine,images/obst/apfel.svg,,obst
+og-0002,essen,1,Welches Obst ist hier abgebildet?,Birne,Quitte,Avocado,Limette,images/obst/birne.svg,Die Birne gehört wie der Apfel zum Kernobst.,obst
+og-0003,essen,1,Welches Obst ist hier abgebildet?,Mandarine,Zitrone,Papaya,Pflaume,images/obst/mandarine.svg,,obst
+og-0004,essen,1,Welches Obst ist hier abgebildet?,Zitrone,Mango,Banane,Quitte,images/obst/zitrone.svg,,obst
+og-0005,essen,2,Welches Obst ist hier abgebildet?,Limette,Kiwi,Stachelbeere,Pomelo,images/obst/limette.svg,"Limetten sind kleiner als Zitronen, grün und haben ein besonders saftiges Fruchtfleisch.",obst
+og-0006,essen,1,Welches Obst ist hier abgebildet?,Banane,Mango,Papaya,Ananas,images/obst/banane.svg,,obst
+og-0007,essen,1,Welches Obst ist hier abgebildet?,Wassermelone,Honigmelone,Kürbis,Papaya,images/obst/wassermelone.svg,,obst
+og-0008,essen,2,Welches Obst ist hier abgebildet?,Honigmelone,Wassermelone,Grapefruit,Kokosnuss,images/obst/honigmelone.svg,Die Netzzeichnung auf der Schale ist typisch für Zucker- und Honigmelonen.,obst
+og-0009,essen,1,Welches Obst ist hier abgebildet?,Weintrauben,Heidelbeeren,Holunderbeeren,Brombeeren,images/obst/weintrauben.svg,,obst
+og-0010,essen,1,Welches Obst ist hier abgebildet?,Erdbeere,Himbeere,Kirsche,Johannisbeere,images/obst/erdbeere.svg,Botanisch ist die Erdbeere eine Sammelnussfrucht – die eigentlichen Früchte sind die kleinen gelben „Nüsschen“ außen.,obst
+og-0011,essen,2,Welches Obst ist hier abgebildet?,Heidelbeeren,Weintrauben,Schlehen,Aroniabeeren,images/obst/heidelbeeren.svg,Heidelbeeren heißen regional auch Blaubeeren oder Bickbeeren.,obst
+og-0012,essen,1,Welches Obst ist hier abgebildet?,Kirschen,Johannisbeeren,Cranberrys,Hagebutten,images/obst/kirschen.svg,,obst
+og-0013,essen,1,Welches Obst ist hier abgebildet?,Pfirsich,Pflaume,Feige,Birne,images/obst/pfirsich.svg,,obst
+og-0014,essen,2,Welches Obst ist hier abgebildet?,Mango,Papaya,Banane,Birne,images/obst/mango.svg,,obst
+og-0015,essen,1,Welches Obst ist hier abgebildet?,Ananas,Mango,Papaya,Kokosnuss,images/obst/ananas.svg,,obst
+og-0016,essen,1,Welches Obst ist hier abgebildet?,Kokosnuss,Walnuss,Kiwi,Kartoffel,images/obst/kokosnuss.svg,"Botanisch ist die Kokosnuss keine Nuss, sondern eine Steinfrucht.",obst
+og-0017,essen,1,Welches Obst ist hier abgebildet?,Kiwi,Feige,Stachelbeere,Melone,images/obst/kiwi.svg,Die Kiwi stammt ursprünglich aus China und hieß früher „Chinesische Stachelbeere“.,obst
+og-0018,essen,2,Welches Obst ist hier abgebildet?,Avocado,Birne,Mango,Feige,images/obst/avocado.svg,Botanisch ist die Avocado eine Beere – wegen ihres hohen Fettgehalts wird sie oft wie Gemüse verwendet.,obst
+og-0019,essen,2,Welches Obst ist hier abgebildet?,Zwetschge (Pflaume),Aubergine,Feige,Heidelbeere,images/obst/zwetschge.svg,Zwetschgen sind länglicher als Pflaumen und haben eine leichte Längsnaht.,obst
+og-0020,essen,1,Welches Obst ist hier abgebildet?,Himbeere,Erdbeere,Brombeere,Maulbeere,images/obst/himbeere.svg,,obst
+og-0021,essen,2,Welches Obst ist hier abgebildet?,Johannisbeeren,Kirschen,Preiselbeeren,Vogelbeeren,images/obst/johannisbeeren.svg,"Rote Johannisbeeren hängen in Rispen – der Name kommt vom Johannistag (24. Juni), um den sie reifen.",obst
+og-0022,essen,3,Welches Obst ist hier abgebildet?,Stachelbeere,Weintraube,Kiwi,Physalis,images/obst/stachelbeere.svg,Stachelbeeren wachsen an dornigen Sträuchern – daher der Name.,obst
+og-0023,essen,1,Welches Gemüse ist hier abgebildet?,Tomate,Paprika,Radieschen,Rote Bete,images/gemuese/tomate.svg,,gemuese
+og-0024,essen,1,Welches Gemüse ist hier abgebildet?,Aubergine,Zucchini,Rote Bete,Rotkohl,images/gemuese/aubergine.svg,,gemuese
+og-0025,essen,1,Welches Gemüse ist hier abgebildet?,Kartoffel,Ingwer,Pastinake,Süßkartoffel,images/gemuese/kartoffel.svg,,gemuese
+og-0026,essen,1,Welches Gemüse ist hier abgebildet?,Karotte (Möhre),Pastinake,Rettich,Petersilienwurzel,images/gemuese/karotte.svg,,gemuese
+og-0027,essen,1,Welches Gemüse ist hier abgebildet?,Mais,Spargel,Hirse,Lauch,images/gemuese/mais.svg,,gemuese
+og-0028,essen,1,Welches Gemüse ist hier abgebildet?,Chili,Radieschen,Tomate,Rote Bete,images/gemuese/chili.svg,,gemuese
+og-0029,essen,1,Welches Gemüse ist hier abgebildet?,Paprika,Gurke,Zucchini,Aubergine,images/gemuese/paprika.svg,,gemuese
+og-0030,essen,1,Welches Gemüse ist hier abgebildet?,Gurke,Zucchini,Aubergine,Spargel,images/gemuese/gurke.svg,Gurke und Zucchini sehen sich ähnlich – typisch für die Gurke sind die kleinen Noppen auf der Schale.,gemuese
+og-0031,essen,1,Welches Gemüse ist hier abgebildet?,Brokkoli,Blumenkohl,Rosenkohl,Grünkohl,images/gemuese/brokkoli.svg,,gemuese
+og-0032,essen,1,Welches Gemüse ist hier abgebildet?,Knoblauch,Zwiebel,Schalotte,Fenchel,images/gemuese/knoblauch.svg,,gemuese
+og-0033,essen,1,Welches Gemüse ist hier abgebildet?,Zwiebel,Knoblauch,Kartoffel,Kohlrabi,images/gemuese/zwiebel.svg,,gemuese
+og-0034,essen,2,Welches Gemüse ist hier abgebildet?,Kidneybohnen,Kaffeebohnen,Linsen,Erdnüsse,images/gemuese/kidneybohnen.svg,Kidneybohnen verdanken ihren Namen der Nierenform (englisch „kidney“).,gemuese
+og-0035,essen,2,Welches Gemüse ist hier abgebildet?,Ingwer,Kartoffel,Meerrettich,Topinambur,images/gemuese/ingwer.svg,"Ingwer ist ein Wurzelstock (Rhizom), der als Gewürz und Gemüse verwendet wird.",gemuese
+og-0036,essen,1,Welches Gemüse ist hier abgebildet?,Erbsen,Bohnen,Edamame,Kichererbsen,images/gemuese/erbsen.svg,,gemuese
+og-0037,essen,1,Welches Gemüse ist hier abgebildet?,Kürbis,Melone,Paprika,Tomate,images/gemuese/kuerbis.svg,,gemuese
+og-0038,essen,1,Welches Gemüse ist hier abgebildet?,Radieschen,Rote Bete,Tomate,Rettich,images/gemuese/radieschen.svg,,gemuese
+og-0039,essen,2,Welches Gemüse ist hier abgebildet?,Rote Bete,Radieschen,Rotkohl,Zwiebel,images/gemuese/rote-bete.svg,Rote Bete färbt durch den Farbstoff Betanin alles tiefrot.,gemuese
+og-0040,essen,2,Welches Gemüse ist hier abgebildet?,Kohlrabi,Sellerie,Rettich,Weißkohl,images/gemuese/kohlrabi.svg,Kohlrabi ist eine verdickte Sprossachse – und gilt als typisch deutsches Gemüse.,gemuese
+og-0041,essen,1,Welches Gemüse ist hier abgebildet?,Spargel,Lauch,Frühlingszwiebeln,Schwarzwurzeln,images/gemuese/spargel.svg,,gemuese
+og-0042,essen,2,Welches Gemüse ist hier abgebildet?,Lauch (Porree),Spargel,Frühlingszwiebel,Mangold,images/gemuese/lauch.svg,Lauch heißt in vielen Regionen auch Porree.,gemuese
+og-0043,essen,1,Welches Gemüse ist hier abgebildet?,Blumenkohl,Brokkoli,Weißkohl,Sellerie,images/gemuese/blumenkohl.svg,,gemuese
