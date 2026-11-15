@@ -1,9 +1,7 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
 geo-0001,geographie,1,Wie heißt die Hauptstadt von Frankreich?,Paris,Lyon,Marseille,Nizza,,,europa|hauptstädte
-geo-0002,geographie,1,Zu welchem Land gehört diese Flagge?,Japan,China,Südkorea,Bangladesch,images/flagge-japan.svg,"Die japanische Flagge heißt „Hinomaru“ (Sonnenscheibe).",flaggen|asien
 geo-0003,geographie,1,Auf welchem Kontinent liegt Ägypten?,Afrika,Asien,Europa,Australien,,Nur die Sinai-Halbinsel liegt in Asien.,kontinente
 geo-0004,geographie,2,"Welcher Fluss fließt durch Wien, Budapest und Belgrad?",Donau,Rhein,Elbe,Moldau,,Die Donau ist der zweitlängste Fluss Europas.,europa|flüsse
-geo-0005,geographie,2,Zu welchem Land gehört diese Flagge?,Schweden,Finnland,Norwegen,Dänemark,images/flagge-schweden.svg,Alle nordischen Länder verwenden ein skandinavisches Kreuz – Schwedens ist gelb auf Blau.,flaggen|europa
 geo-0006,geographie,2,Wie heißt der höchste Berg Deutschlands?,Zugspitze,Watzmann,Feldberg,Brocken,,Die Zugspitze ist 2962 m hoch.,deutschland|berge
 geo-0007,geographie,3,Wie heißt die Hauptstadt von Australien?,Canberra,Sydney,Melbourne,Perth,,Canberra wurde als Kompromiss zwischen Sydney und Melbourne gegründet.,hauptstädte|ozeanien
 geo-0008,geographie,3,Welches ist der flächenmäßig größte Staat Afrikas?,Algerien,Demokratische Republik Kongo,Sudan,Libyen,,Seit der Unabhängigkeit Südsudans 2011 ist Algerien der größte Staat Afrikas.,afrika

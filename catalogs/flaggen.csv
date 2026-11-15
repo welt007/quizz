@@ -1,0 +1,51 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+fla-0001,flaggen,1,Zu welchem Land gehört diese Flagge?,Kanada,Peru,Österreich,Lettland,images/flaggen/ca.svg,Das rote Ahornblatt ziert die Flagge seit 1965.,amerika
+fla-0002,flaggen,1,Zu welchem Land gehört diese Flagge?,Brasilien,Portugal,Kolumbien,Argentinien,images/flaggen/br.svg,"Der Sternenhimmel zeigt den Himmel über Rio de Janeiro am 15. November 1889, dem Tag der Ausrufung der Republik.",amerika
+fla-0003,flaggen,1,Zu welchem Land gehört diese Flagge?,Italien,Irland,Mexiko,Ungarn,images/flaggen/it.svg,,europa
+fla-0004,flaggen,1,Zu welchem Land gehört diese Flagge?,Schweiz,Dänemark,Österreich,Georgien,images/flaggen/ch.svg,,europa
+fla-0005,flaggen,1,Zu welchem Land gehört diese Flagge?,Vereinigtes Königreich,Australien,Neuseeland,Norwegen,images/flaggen/gb.svg,"Der „Union Jack“ vereint die Kreuze der Schutzheiligen von England, Schottland und Irland.",europa
+fla-0006,flaggen,1,Zu welchem Land gehört diese Flagge?,Südkorea,Japan,Nordkorea,Mongolei,images/flaggen/kr.svg,,asien
+fla-0007,flaggen,1,Zu welchem Land gehört diese Flagge?,Indien,Niger,Irland,Sri Lanka,images/flaggen/in.svg,Das Rad in der Mitte ist das Ashoka-Chakra mit 24 Speichen.,asien
+fla-0008,flaggen,1,Zu welchem Land gehört diese Flagge?,Türkei,Tunesien,Pakistan,Algerien,images/flaggen/tr.svg,,asien|europa
+fla-0029,flaggen,1,Welche Organisation verwendet diese Flagge?,Europäische Union,Vereinte Nationen,NATO,Afrikanische Union,images/flaggen/eu.svg,Die zwölf Sterne stehen für Einheit und Vollkommenheit – nicht für die Zahl der Mitgliedstaaten.,organisationen
+fla-0034,flaggen,1,Zu welchem Landesteil des Vereinigten Königreichs gehört diese Flagge?,Wales,Schottland,England,Nordirland,images/flaggen/gb-wls.svg,Der rote Drache gilt seit Jahrhunderten als Symbol von Wales.,europa|regionen
+fla-0039,flaggen,1,Zu welchem Bundesland gehört diese Flagge?,Bayern,Baden-Württemberg,Hessen,Sachsen,images/flaggen/de-by.svg,Die weiß-blauen Rauten.,deutschland|bundesländer
+geo-0002,flaggen,1,Zu welchem Land gehört diese Flagge?,Japan,China,Südkorea,Bangladesch,images/flaggen/jp.svg,Die japanische Flagge heißt „Hinomaru“ (Sonnenscheibe).,asien
+fla-0009,flaggen,2,Zu welchem Land gehört diese Flagge?,Griechenland,Uruguay,Finnland,Israel,images/flaggen/gr.svg,Die neun Streifen stehen der Überlieferung nach für die neun Silben des Wahlspruchs „Freiheit oder Tod“.,europa
+fla-0010,flaggen,2,Zu welchem Land gehört diese Flagge?,Portugal,Spanien,Brasilien,Angola,images/flaggen/pt.svg,,europa
+fla-0011,flaggen,2,Zu welchem Land gehört diese Flagge?,Südafrika,Kenia,Jamaika,Namibia,images/flaggen/za.svg,,afrika
+fla-0012,flaggen,2,Zu welchem Land gehört diese Flagge?,Argentinien,Uruguay,Nicaragua,Honduras,images/flaggen/ar.svg,Die „Sonne des Mai“ erinnert an die Mairevolution von 1810.,amerika
+fla-0013,flaggen,2,Zu welchem Land gehört diese Flagge?,Norwegen,Island,Dänemark,Finnland,images/flaggen/no.svg,,europa
+fla-0014,flaggen,2,Zu welchem Land gehört diese Flagge?,Irland,Italien,Elfenbeinküste,Indien,images/flaggen/ie.svg,,europa
+fla-0015,flaggen,2,Zu welchem Land gehört diese Flagge?,Ukraine,Kasachstan,Schweden,Rumänien,images/flaggen/ua.svg,,europa
+fla-0030,flaggen,2,Welche Organisation verwendet diese Flagge?,Vereinte Nationen,NATO,Europäische Union,Weltgesundheitsorganisation,images/flaggen/un.svg,"Das Emblem zeigt die Weltkarte, umrahmt von Olivenzweigen als Friedenssymbol.",organisationen
+fla-0035,flaggen,2,Zu welchem Landesteil des Vereinigten Königreichs gehört diese Flagge?,Schottland,England,Wales,Nordirland,images/flaggen/gb-sct.svg,Das weiße Andreaskreuz („Saltire“) auf Blau.,europa|regionen
+fla-0036,flaggen,2,Zu welchem Landesteil des Vereinigten Königreichs gehört diese Flagge?,England,Schottland,Wales,Nordirland,images/flaggen/gb-eng.svg,Das rote Georgskreuz auf weißem Grund.,europa|regionen
+fla-0040,flaggen,2,Zu welchem Bundesland gehört diese Flagge?,Hamburg,Bremen,Berlin,Schleswig-Holstein,images/flaggen/de-hh.svg,Die weiße Burg auf rotem Grund.,deutschland|bundesländer
+geo-0005,flaggen,2,Zu welchem Land gehört diese Flagge?,Schweden,Finnland,Norwegen,Dänemark,images/flaggen/se.svg,Alle nordischen Länder verwenden ein skandinavisches Kreuz – Schwedens ist gelb auf Blau.,europa
+fla-0016,flaggen,3,Zu welchem Land gehört diese Flagge?,Estland,Lettland,Litauen,Finnland,images/flaggen/ee.svg,,europa
+fla-0017,flaggen,3,Zu welchem Land gehört diese Flagge?,Litauen,Bolivien,Ghana,Äthiopien,images/flaggen/lt.svg,,europa
+fla-0018,flaggen,3,Zu welchem Land gehört diese Flagge?,Ungarn,Italien,Bulgarien,Iran,images/flaggen/hu.svg,,europa
+fla-0019,flaggen,3,Zu welchem Land gehört diese Flagge?,Nepal,Bhutan,Sri Lanka,Bangladesch,images/flaggen/np.svg,"Die einzige Nationalflagge der Welt, die nicht rechteckig ist.",asien
+fla-0020,flaggen,3,Zu welchem Land gehört diese Flagge?,Kasachstan,Usbekistan,Kirgisistan,Turkmenistan,images/flaggen/kz.svg,,asien
+fla-0021,flaggen,3,Zu welchem Land gehört diese Flagge?,Kenia,Südsudan,Uganda,Malawi,images/flaggen/ke.svg,In der Mitte sind ein traditioneller Massai-Schild und zwei Speere abgebildet.,afrika
+fla-0022,flaggen,3,Zu welchem Land gehört diese Flagge?,Chile,Kuba,Panama,Liberia,images/flaggen/cl.svg,,amerika
+fla-0031,flaggen,3,Welche Organisation verwendet diese Flagge?,Arabische Liga,Afrikanische Union,Organisation für Islamische Zusammenarbeit,ASEAN,images/flaggen/arab.svg,,organisationen
+fla-0032,flaggen,3,Welche Organisation verwendet diese Flagge?,ASEAN,Afrikanische Union,Arabische Liga,Pazifische Gemeinschaft,images/flaggen/asean.svg,Der Verband Südostasiatischer Nationen; die zehn Reishalme stehen für die zehn Gründungs- bzw. Mitgliedstaaten.,organisationen
+fla-0037,flaggen,3,Zu welcher spanischen Region gehört diese Flagge?,Katalonien,Baskenland,Galicien,Andalusien,images/flaggen/es-ct.svg,Die „Senyera“ mit vier roten Streifen auf goldenem Grund.,europa|regionen
+fla-0038,flaggen,3,Zu welcher spanischen Region gehört diese Flagge?,Baskenland,Katalonien,Galicien,Asturien,images/flaggen/es-pv.svg,Die „Ikurriña“.,europa|regionen
+fla-0041,flaggen,3,Zu welchem Bundesland gehört diese Flagge?,Nordrhein-Westfalen,Sachsen,Rheinland-Pfalz,Saarland,images/flaggen/de-nw.svg,,deutschland|bundesländer
+fla-0042,flaggen,3,Zu welchem Bundesland gehört diese Flagge?,Baden-Württemberg,Bayern,Niedersachsen,Rheinland-Pfalz,images/flaggen/de-bw.svg,Die Landesfarben Schwarz-Gold.,deutschland|bundesländer
+fla-0043,flaggen,3,Zu welchem Bundesland gehört diese Flagge?,Schleswig-Holstein,Hamburg,Mecklenburg-Vorpommern,Niedersachsen,images/flaggen/de-sh.svg,,deutschland|bundesländer
+fla-0044,flaggen,3,Zu welchem Bundesland gehört diese Flagge?,Sachsen,Sachsen-Anhalt,Thüringen,Brandenburg,images/flaggen/de-sn.svg,,deutschland|bundesländer
+fla-0045,flaggen,3,Zu welchem Bundesland gehört diese Flagge?,Bremen,Hamburg,Berlin,Niedersachsen,images/flaggen/de-hb.svg,Die rot-weiße „Speckflagge“.,deutschland|bundesländer
+fla-0023,flaggen,4,Zu welchem Land gehört diese Flagge?,Mali,Guinea,Senegal,Kamerun,images/flaggen/ml.svg,,afrika
+fla-0024,flaggen,4,Zu welchem Land gehört diese Flagge?,Luxemburg,Niederlande,Frankreich,Russland,images/flaggen/lu.svg,Das Blau ist heller als bei der sonst gleichen Flagge der Niederlande.,europa
+fla-0025,flaggen,4,Zu welchem Land gehört diese Flagge?,Elfenbeinküste,Irland,Italien,Niger,images/flaggen/ci.svg,Fast das Spiegelbild der irischen Flagge: Hier steht Orange am Mast.,afrika
+fla-0026,flaggen,4,Zu welchem Land gehört diese Flagge?,Uruguay,Argentinien,Griechenland,El Salvador,images/flaggen/uy.svg,Die „Sonne des Mai“ trägt auch die Flagge Argentiniens.,amerika
+fla-0027,flaggen,4,Zu welchem Land gehört diese Flagge?,Rumänien,Moldau,Belgien,Andorra,images/flaggen/ro.svg,Fast identisch mit der Flagge des Tschad – dessen Blau ist etwas dunkler.,europa
+fla-0028,flaggen,4,Zu welchem Land gehört diese Flagge?,Senegal,Mali,Kamerun,Guinea,images/flaggen/sn.svg,,afrika
+fla-0033,flaggen,4,Welche Organisation verwendet diese Flagge?,Ostafrikanische Gemeinschaft,Afrikanische Union,ECOWAS,Arabische Liga,images/flaggen/eac.svg,,organisationen|afrika
+fla-0046,flaggen,4,Zu welchem Bundesland gehört diese Flagge?,Hessen,Thüringen,Saarland,Bremen,images/flaggen/de-he.svg,Rot über Weiß – bei Thüringen ist es genau umgekehrt.,deutschland|bundesländer
+fla-0047,flaggen,4,Zu welchem Bundesland gehört diese Flagge?,Thüringen,Hessen,Sachsen,Bremen,images/flaggen/de-th.svg,Weiß über Rot – bei Hessen ist es genau umgekehrt.,deutschland|bundesländer
+fla-0048,flaggen,4,Zu welchem Bundesland gehört diese Flagge?,Mecklenburg-Vorpommern,Schleswig-Holstein,Niedersachsen,Brandenburg,images/flaggen/de-mv.svg,,deutschland|bundesländer

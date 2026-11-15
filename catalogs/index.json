@@ -3,11 +3,44 @@
   "version": "2026-11-14.2",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
-  "files": ["allgemeinwissen.csv", "geographie.csv", "wissenschaft.csv", "geschichte.csv"],
+  "files": [
+    "allgemeinwissen.csv",
+    "geographie.csv",
+    "wissenschaft.csv",
+    "geschichte.csv",
+    "flaggen.csv",
+    "umrisse.csv"
+  ],
   "categories": {
-    "allgemeinwissen": { "name": "Allgemeinwissen", "icon": "💡", "color": "#f2a541" },
-    "geographie": { "name": "Geographie", "icon": "🌍", "color": "#2e9e6b" },
-    "wissenschaft": { "name": "Wissenschaft", "icon": "🔬", "color": "#3a7bd5" },
-    "geschichte": { "name": "Geschichte", "icon": "🏛️", "color": "#b5523b" }
+    "allgemeinwissen": {
+      "name": "Allgemeinwissen",
+      "icon": "💡",
+      "color": "#f2a541"
+    },
+    "geographie": {
+      "name": "Geographie",
+      "icon": "🌍",
+      "color": "#2e9e6b"
+    },
+    "wissenschaft": {
+      "name": "Wissenschaft",
+      "icon": "🔬",
+      "color": "#3a7bd5"
+    },
+    "geschichte": {
+      "name": "Geschichte",
+      "icon": "🏛️",
+      "color": "#b5523b"
+    },
+    "flaggen": {
+      "name": "Flaggen",
+      "icon": "🚩",
+      "color": "#c0392b"
+    },
+    "umrisse": {
+      "name": "Umrisse",
+      "icon": "🗺️",
+      "color": "#16a085"
+    }
   }
 }

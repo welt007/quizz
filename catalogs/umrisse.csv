@@ -1,0 +1,51 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+umr-0001,umrisse,1,Welches Land hat diesen Umriss?,Italien,Griechenland,Kroatien,Portugal,images/umrisse/italy.svg,Der „Stiefel“ – mit Sizilien und Sardinien.,länder
+umr-0002,umrisse,1,Welches Land hat diesen Umriss?,Japan,Philippinen,Neuseeland,Südkorea,images/umrisse/japan.svg,,länder
+umr-0003,umrisse,1,Welches Land hat diesen Umriss?,Australien,Neuseeland,Indonesien,Papua-Neuguinea,images/umrisse/australia.svg,Unten rechts ist Tasmanien zu sehen.,länder
+umr-0004,umrisse,1,Welches Land hat diesen Umriss?,Vereinigtes Königreich,Irland,Island,Dänemark,images/umrisse/united-kingdom.svg,,länder
+umr-0005,umrisse,1,Welches Land hat diesen Umriss?,Chile,Peru,Argentinien,Norwegen,images/umrisse/chile.svg,"Chile ist über 4.000 km lang, aber im Mittel nur rund 180 km breit.",länder
+umr-0006,umrisse,1,Welches Land hat diesen Umriss?,Brasilien,Argentinien,Kolumbien,Venezuela,images/umrisse/brazil.svg,,länder
+umr-0007,umrisse,1,Welches Land hat diesen Umriss?,Frankreich,Spanien,Deutschland,Polen,images/umrisse/france.svg,Wegen seiner Form nennen die Franzosen ihr Land „l’Hexagone“ (das Sechseck). Unten rechts: Korsika.,länder
+umr-0008,umrisse,1,Welches Land hat diesen Umriss?,Spanien,Portugal,Frankreich,Italien,images/umrisse/spain.svg,Rechts sind die Balearen zu sehen.,länder
+umr-0009,umrisse,1,Welches Land hat diesen Umriss?,Island,Irland,Finnland,Neuseeland,images/umrisse/iceland.svg,,länder
+umr-0010,umrisse,1,Welches Land hat diesen Umriss?,Deutschland,Polen,Frankreich,Österreich,images/umrisse/germany.svg,,länder
+umr-0011,umrisse,2,Welches Land hat diesen Umriss?,Griechenland,Kroatien,Türkei,Italien,images/umrisse/greece.svg,"Unten liegt Kreta, die größte griechische Insel.",länder
+umr-0012,umrisse,2,Welches Land hat diesen Umriss?,Norwegen,Schweden,Chile,Finnland,images/umrisse/norway.svg,,länder
+umr-0013,umrisse,2,Welches Land hat diesen Umriss?,Mexiko,Kuba,Guatemala,Honduras,images/umrisse/mexico.svg,"Links die Halbinsel Niederkalifornien, rechts die Halbinsel Yucatán.",länder
+umr-0014,umrisse,2,Welches Land hat diesen Umriss?,Irland,Island,Vereinigtes Königreich,Dänemark,images/umrisse/ireland.svg,,länder
+umr-0015,umrisse,2,Welches Land hat diesen Umriss?,Portugal,Spanien,Uruguay,Kroatien,images/umrisse/portugal.svg,,länder
+umr-0016,umrisse,2,Welches Land hat diesen Umriss?,Türkei,Iran,Griechenland,Syrien,images/umrisse/turkey.svg,"Links der kleine europäische Teil, getrennt durch den Bosporus.",länder
+umr-0017,umrisse,2,Welches Land hat diesen Umriss?,Madagaskar,Sri Lanka,Mosambik,Kuba,images/umrisse/madagascar.svg,Die viertgrößte Insel der Welt.,länder
+umr-0018,umrisse,2,Welches Land hat diesen Umriss?,Sri Lanka,Madagaskar,Jamaika,Zypern,images/umrisse/sri-lanka.svg,,länder
+umr-0019,umrisse,2,Welches Land hat diesen Umriss?,Kuba,Jamaika,Haiti,Philippinen,images/umrisse/cuba.svg,,länder
+umr-0020,umrisse,2,Welches Land hat diesen Umriss?,Argentinien,Chile,Peru,Bolivien,images/umrisse/argentina.svg,,länder
+umr-0021,umrisse,2,Welches Land hat diesen Umriss?,Südafrika,Namibia,Botsuana,Simbabwe,images/umrisse/south-africa.svg,"Das Loch im Inneren ist Lesotho – ein eigener Staat, vollständig von Südafrika umschlossen.",länder
+umr-0022,umrisse,2,Welches Land hat diesen Umriss?,Schweden,Norwegen,Finnland,Chile,images/umrisse/sweden.svg,,länder
+umr-0023,umrisse,2,Welches Land hat diesen Umriss?,Neuseeland,Japan,Australien,Philippinen,images/umrisse/new-zealand.svg,,länder
+umr-0024,umrisse,2,Welches Land hat diesen Umriss?,Finnland,Schweden,Norwegen,Estland,images/umrisse/finland.svg,,länder
+umr-0025,umrisse,3,Welches Land hat diesen Umriss?,Österreich,Schweiz,Tschechien,Ungarn,images/umrisse/austria.svg,,länder
+umr-0026,umrisse,3,Welches Land hat diesen Umriss?,Schweiz,Österreich,Slowenien,Belgien,images/umrisse/switzerland.svg,,länder
+umr-0027,umrisse,3,Welches Land hat diesen Umriss?,Polen,Tschechien,Deutschland,Ungarn,images/umrisse/poland.svg,,länder
+umr-0028,umrisse,3,Welches Land hat diesen Umriss?,Ukraine,Polen,Belarus,Rumänien,images/umrisse/ukraine.svg,,länder
+umr-0029,umrisse,3,Welches Land hat diesen Umriss?,Vietnam,Laos,Kambodscha,Thailand,images/umrisse/vietnam.svg,,länder
+umr-0030,umrisse,3,Welches Land hat diesen Umriss?,Philippinen,Indonesien,Japan,Malaysia,images/umrisse/philippines.svg,Der Inselstaat besteht aus über 7.000 Inseln.,länder
+umr-0031,umrisse,3,Welches Land hat diesen Umriss?,Kroatien,Slowenien,Montenegro,Albanien,images/umrisse/croatia.svg,,länder
+umr-0032,umrisse,3,Welches Land hat diesen Umriss?,Thailand,Laos,Myanmar,Vietnam,images/umrisse/thailand.svg,,länder
+umr-0033,umrisse,3,Welches Land hat diesen Umriss?,Somalia,Äthiopien,Kenia,Eritrea,images/umrisse/somalia.svg,Wegen seiner Form wird die Region auch „Horn von Afrika“ genannt.,länder
+umr-0034,umrisse,3,Welches Land hat diesen Umriss?,Peru,Ecuador,Bolivien,Chile,images/umrisse/peru.svg,,länder
+umr-0035,umrisse,3,Welches Land hat diesen Umriss?,Ungarn,Tschechien,Rumänien,Österreich,images/umrisse/hungary.svg,,länder
+umr-0036,umrisse,3,Welches Land hat diesen Umriss?,Tschechien,Slowakei,Ungarn,Österreich,images/umrisse/czechia.svg,,länder
+umr-0037,umrisse,3,Welches Land hat diesen Umriss?,Dänemark,Niederlande,Estland,Norwegen,images/umrisse/denmark.svg,Rechts liegt die Ostseeinsel Bornholm.,länder
+umr-0038,umrisse,3,Welches Land hat diesen Umriss?,Südkorea,Nordkorea,Japan,Philippinen,images/umrisse/south-korea.svg,,länder
+umr-0039,umrisse,4,Welches Land hat diesen Umriss?,Uruguay,Paraguay,Bolivien,Ecuador,images/umrisse/uruguay.svg,,länder
+umr-0040,umrisse,4,Welches Land hat diesen Umriss?,Paraguay,Uruguay,Bolivien,Kolumbien,images/umrisse/paraguay.svg,,länder
+umr-0041,umrisse,4,Welches Land hat diesen Umriss?,Bolivien,Paraguay,Peru,Ecuador,images/umrisse/bolivia.svg,,länder
+umr-0042,umrisse,4,Welches Land hat diesen Umriss?,Ecuador,Kolumbien,Peru,Venezuela,images/umrisse/ecuador.svg,"Die Galápagos-Inseln gehören zu Ecuador, sind hier aber nicht abgebildet.",länder
+umr-0043,umrisse,4,Welches Land hat diesen Umriss?,Kirgisistan,Tadschikistan,Kasachstan,Usbekistan,images/umrisse/kyrgyzstan.svg,,länder
+umr-0044,umrisse,4,Welches Land hat diesen Umriss?,Usbekistan,Turkmenistan,Kirgisistan,Afghanistan,images/umrisse/uzbekistan.svg,,länder
+umr-0045,umrisse,4,Welches Land hat diesen Umriss?,Kambodscha,Laos,Thailand,Myanmar,images/umrisse/cambodia.svg,,länder
+umr-0046,umrisse,4,Welches Land hat diesen Umriss?,Laos,Kambodscha,Vietnam,Myanmar,images/umrisse/laos.svg,,länder
+umr-0047,umrisse,4,Welches Land hat diesen Umriss?,Tansania,Kenia,Mosambik,Sambia,images/umrisse/tanzania.svg,Rechts vor der Küste liegt Sansibar.,länder
+umr-0048,umrisse,4,Welches Land hat diesen Umriss?,Namibia,Botsuana,Angola,Südafrika,images/umrisse/namibia.svg,Der schmale Streifen oben rechts ist der Caprivi-Zipfel.,länder
+umr-0049,umrisse,4,Welches Land hat diesen Umriss?,Slowenien,Kroatien,Slowakei,Montenegro,images/umrisse/slovenia.svg,,länder
+umr-0050,umrisse,4,Welches Land hat diesen Umriss?,Mongolei,Kasachstan,Kirgisistan,Usbekistan,images/umrisse/mongolia.svg,,länder
