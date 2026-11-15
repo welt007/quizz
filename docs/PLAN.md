@@ -50,16 +50,16 @@ src/js/
     random.js        seedbarer Zufall (für Mehrspieler-Fairness & Tests)        ✅
     questionPool.js  filtern, nach „am längsten nicht gestellt“ ordnen, Punkteleiter zusammenstellen ✅
     stats.js         je Frage: gestellt/richtig/zuletzt (Wiederholungsvermeidung) ✅
-    modes/           je Modus eine Zustandsmaschine (siehe §5) – ladder.js ✅, training.js ✅
+    modes/           je Modus eine Zustandsmaschine (siehe §5) – ladder ✅, training ✅, blitz ✅, sudden ✅, duel ✅
+    highscores.js    Top 10 je Modus: Einsortieren, Qualifikation, Namen bereinigen ✅
     jokers.js        50:50, Publikumsabstimmung (Treffsicherheit je Schwierigkeit) ✅
     host.js          Moderator-Sprüche je Situation, ohne direkte Wiederholung ✅
-    scoring.js       Zeitbonus, Streaks (M3)
   data/
     loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden (M4)
     storage.js       localStorage-Wrapper mit In-Memory-Fallback ✅ (IndexedDB folgt in M4)
   ui/
-    screens/         start ✅, setup ✅, ladder ✅, training ✅ (je Spiel + Ergebnis); Optionen (M4)
-    components/      questionView ✅, chips ✅, dialog ✅, timer ✅
+    screens/         start, setup, ladder, training, blitz, sudden, duel (je Spiel + Ergebnis), highscores ✅; Optionen (M4)
+    components/      questionView, chips, dialog, timer, highscoreEntry ✅
     audio.js         WebAudio-Effekte (Start, Einloggen + Trommelwirbel, richtig, falsch, Ticken, Zeit um, Joker, Sicherheitsstufe, Sieg) ✅
     effects.js       Konfetti (Canvas), Animations-Helfer ✅
     input.js         Maus/Touch/Tastatur (A–D, 1–4, Buzzer-Tasten)
@@ -141,9 +141,9 @@ kleine Zustandsmaschine (`intro → question → reveal → … → result`).
 | Modus | Ablauf | Besonderheiten |
 |---|---|---|
 | **Punkteleiter** (Hauptmodus) | **15 Fragen** mit steigender Schwierigkeit (siehe unten) | 3 Joker: **50:50**, **Publikum** (simulierte Abstimmung, Trefferquote abhängig von Schwierigkeit), **Zeit+**; 2 Sicherheitsstufen; jederzeit „aussteigen“ |
-| **Blitzrunde** | 60 Sekunden, so viele Fragen wie möglich | Streak-Multiplikator, falsche Antwort kostet 3 s |
-| **Sudden Death** | Fragen bis zum ersten Fehler, Schwierigkeit steigt alle 5 Fragen | Highscore pro Kategorie |
-| **Duell / Party** (2–4 Spieler, ein Gerät) | Reihum oder Buzzer (Tasten je Spieler, z. B. `Q`, `P`, `Z`, `M`) | Wer zuerst buzzert, antwortet; falsch → Punktabzug, Frage geht an die anderen |
+| **Blitzrunde** | 3-2-1-Countdown, dann 60 Sekunden, so viele Fragen wie möglich; Schwierigkeit und Kategorien wählbar | Punkte je Stufe 100/150/200/300 × Serien-Multiplikator (×2 ab 4 richtigen in Folge, ×3 ab 7, max. ×4 ab 10); falsche Antwort kostet 3 s; bei wenigen Fragen werden sie wiederholt |
+| **Sudden Death** | Fragen bis zum ersten Fehler (oder Zeitablauf); Schwierigkeit steigt alle 5 Fragen (leicht → medium → schwer → extrem) | Zeitlimit wie Punkteleiter, abschaltbar; Wertung = Serie; sind alle passenden Fragen geschafft: „Unbesiegbar!“ |
+| **Duell / Party** (2–4 Spieler, ein Gerät) | 10/15/20 Runden, Spielernamen; **Buzzer** (Tasten `Q`, `P`, `X`, `N` – auf beiden Tastaturlayouts gleich – oder Antippen des eigenen Namens) oder **Reihum** | Punkte je Stufe 100/200/300/400. Buzzer: 20 s zum Buzzern, dann 10 s zum Antworten; falsch kostet die Hälfte, die Antwort wird ausgeblendet und die anderen dürfen nachbuzzern. Reihum: 30 s, falsch ohne Abzug. Siegerehrung mit geteilten Plätzen bei Gleichstand |
 | **Training** | Freie Wahl von Kategorie(n) und Schwierigkeit(en), kein Timer | Erklärung (`explanation`) nach jeder Antwort, „falsch beantwortete wiederholen“ |
 
 ### 5.1 Punkteleiter (15 Stufen)
@@ -196,7 +196,7 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 |---|---|---|
 | `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“ |
 | `quizshow.sources` | localStorage | Liste der Quellen: id, URL, Name, aktiv, Version/Hash, Stand, Fragenanzahl |
-| `quizshow.highscores` | localStorage | je Modus/Kategorie Top 10 (Name, Punkte, Datum) |
+| `quizshow.highscores` | localStorage | je Modus (Punkteleiter, Blitzrunde, Sudden Death) Top 10: Name, Wertung, Details (Kategorien, Timer, Joker …), Datum |
 | `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |
 | `catalogs` | IndexedDB | Fragen je Quelle inkl. Manifest |
 | `images` | IndexedDB | Bilder je Quelle als Blob |
@@ -212,7 +212,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M0** ✅ | Projektgerüst, Plan, CSV-Format (4 Stufen), Beispielkataloge, CSV-Parser + Validierung, URL-Normalisierung für Quellen, Build-Pipeline, CI | `npm run build` erzeugt lauffähige Einzeldatei mit Startbildschirm |
 | **M1** ✅ | Spielkern: Fragepool, Wiederholungsvermeidung, **Training** und **Punkteleiter (15 Stufen)** ohne Joker/Timer; Basis-UI (Start → Einrichtung → Spiel → Ergebnis), Tastatursteuerung | Erstes spielbares Quiz |
 | **M2** ✅ | Gameshow-Optik & Sound: Animationen, Countdown-Ring, WebAudio-Sounds mit Ton-Schalter, Moderator-Texte, Joker (50:50, Publikum, +30 s), Konfetti | Show-Feeling |
-| **M3** | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party mit Buzzer; Highscores | Alle Modi |
+| **M3** ✅ | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party (Buzzer/Reihum); Bestenlisten mit Namenseintrag | Alle Modi |
 | **M4** | **Optionsmenü**: Kataloge per URL hinzufügen/aktualisieren/entfernen, Standardkatalog-Update, IndexedDB, CSV-Import, Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** | Präsentationsmodus, Responsiv-/A11y-Feinschliff, Statistik, Playwright-E2E-Tests (`file://`) | Release 1.0 |
 | **M6** | Inhalte: Kataloge auf ≥ 50 Fragen je Kategorie und Stufe ausbauen | Spielspaß |

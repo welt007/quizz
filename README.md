@@ -4,14 +4,19 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 
 - 4 Antwortmöglichkeiten (Text oder Zahlen) pro Frage, Frage optional mit Bild
 - Kategorien und vier Schwierigkeitsgrade (leicht / medium / schwer / extrem)
-- Spielmodi: **Punkteleiter** (15 Fragen, Zeitlimit, Joker 50:50 / Publikum / +30 s) und **Training** spielbar;
-  Blitzrunde, Sudden Death, Duell/Party *(in Arbeit)*
+- Spielmodi:
+  - **Punkteleiter** – 15 Fragen, Zeitlimit, Joker 50:50 / Publikum / +30 s
+  - **Training** – freie Auswahl, Erklärungen, Falsches wiederholen
+  - **Blitzrunde** – 60 Sekunden, Serien-Multiplikator bis ×4
+  - **Sudden Death** – immer schwerer, bis zum ersten Fehler
+  - **Duell / Party** – 2–4 Spieler an einem Gerät, mit Buzzer (`Q` `P` `X` `N` oder Antippen) oder reihum
+- Bestenlisten (Top 10) für Punkteleiter, Blitzrunde und Sudden Death
 - Show-Feeling: Moderator, Spannungspause, Sounds (synthetisiert, offline), Konfetti
 - Bedienung per Maus, Touch oder Tastatur (`A`–`D`, `Enter`, `Esc`, Joker `H`/`P`/`T`, Ton `M`)
 - Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub;
   weitere Kataloge per URL im Optionsmenü *(in Arbeit)*
 
-**Status:** Meilenstein M2 (Gameshow-Optik, Sound, Timer, Joker). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Meilenstein M3 (alle Spielmodi und Bestenlisten). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 

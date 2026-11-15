@@ -2,6 +2,7 @@
 // routes between screens. See docs/PLAN.md for the overall architecture.
 import { h } from './ui/dom.js';
 import { recordAnswer } from './core/stats.js';
+import { insertHighscore } from './core/highscores.js';
 import { loadJson, saveJson, KEYS } from './data/storage.js';
 import { setKeyHandler } from './ui/input.js';
 import { audio } from './ui/audio.js';
@@ -9,6 +10,10 @@ import { renderStart } from './ui/screens/start.js';
 import { renderSetup } from './ui/screens/setup.js';
 import { renderLadder } from './ui/screens/ladder.js';
 import { renderTraining } from './ui/screens/training.js';
+import { renderBlitz } from './ui/screens/blitz.js';
+import { renderSudden } from './ui/screens/sudden.js';
+import { renderDuel } from './ui/screens/duel.js';
+import { renderHighscores } from './ui/screens/highscores.js';
 
 /* global __APP_VERSION__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
@@ -25,6 +30,10 @@ const screens = {
   setup: renderSetup,
   ladder: renderLadder,
   training: renderTraining,
+  blitz: renderBlitz,
+  sudden: renderSudden,
+  duel: renderDuel,
+  highscores: renderHighscores,
 };
 
 const catalog = loadEmbeddedCatalogs();
@@ -39,6 +48,7 @@ const ctx = {
   categories: categoryIds,
   settings: loadJson(KEYS.settings, {}),
   stats: loadJson(KEYS.stats, {}),
+  highscores: loadJson(KEYS.highscores, {}),
   leaveHandlers: [],
 
   categoryInfo(id) {
@@ -54,6 +64,25 @@ const ctx = {
   saveSettings(patch) {
     ctx.settings = { ...ctx.settings, ...patch };
     saveJson(KEYS.settings, ctx.settings);
+  },
+
+  /** "Alle Kategorien" or the category names. */
+  categoryLabel(ids = []) {
+    if (!ids.length || ids.length === categoryIds.length) return 'Alle Kategorien';
+    return ids.map((id) => ctx.categoryInfo(id).name).join(', ');
+  },
+
+  /** Adds a highscore entry, returns the 1-based rank (0 = not in the list). */
+  addHighscore(mode, entry) {
+    const { list, rank } = insertHighscore(ctx.highscores[mode], entry);
+    ctx.highscores = { ...ctx.highscores, [mode]: list };
+    saveJson(KEYS.highscores, ctx.highscores);
+    return rank;
+  },
+
+  clearHighscores(mode) {
+    ctx.highscores = { ...ctx.highscores, [mode]: [] };
+    saveJson(KEYS.highscores, ctx.highscores);
   },
 
   record(id, correct) {

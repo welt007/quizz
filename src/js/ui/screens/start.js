@@ -25,7 +25,17 @@ export function renderStart(ctx) {
   mount(
     ctx.app,
     h('header', { class: 'logo' }, h('h1', {}, 'QUIZSHOW'), h('p', {}, 'Licht an, Bühne frei!')),
-    h('section', { class: 'panel' }, h('h2', {}, 'Spielmodus'), h('div', { class: 'modes' }, modeButtons)),
+    h(
+      'section',
+      { class: 'panel' },
+      h(
+        'div',
+        { class: 'panel__head' },
+        h('h2', {}, 'Spielmodus'),
+        h('button', { class: 'link', onclick: () => ctx.go('highscores') }, '🏅 Bestenliste'),
+      ),
+      h('div', { class: 'modes' }, modeButtons),
+    ),
     h(
       'section',
       { class: 'panel' },

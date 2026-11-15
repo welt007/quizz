@@ -5,9 +5,10 @@ import { DIFFICULTIES } from '../../core/catalog.js';
 /**
  * Question card with four answer buttons.
  * @param {{question: object, answers: string[], correctIndex: number}} prepared
- * @param {{categoryInfo: Function, onAnswer: (index: number) => void}} opts
+ * @param {{categoryInfo: Function, onAnswer: (index: number) => void, fast?: boolean}} opts
+ *   fast: shorter entrance animation (Blitzrunde)
  */
-export function questionView(prepared, { categoryInfo, onAnswer }) {
+export function questionView(prepared, { categoryInfo, onAnswer, fast = false }) {
   const q = prepared.question;
   const info = categoryInfo(q.category);
 
@@ -23,7 +24,7 @@ export function questionView(prepared, { categoryInfo, onAnswer }) {
 
   const el = h(
     'section',
-    { class: 'question' },
+    { class: `question${fast ? ' question--fast' : ''}` },
     h(
       'div',
       { class: 'question__meta' },
@@ -38,6 +39,13 @@ export function questionView(prepared, { categoryInfo, onAnswer }) {
 
   return {
     el,
+    /** Enables/disables answering (e.g. only after buzzing in a duel). */
+    setEnabled(on) {
+      buttons.forEach((b) => {
+        if (!b.classList.contains('is-removed')) b.disabled = !on;
+      });
+      el.classList.toggle('is-waiting', !on);
+    },
     /** Marks the chosen answer as "logged in" and disables all buttons. */
     lock(index) {
       buttons.forEach((b) => (b.disabled = true));
@@ -47,6 +55,7 @@ export function questionView(prepared, { categoryInfo, onAnswer }) {
     hide(indices) {
       for (const i of indices) {
         buttons[i].disabled = true;
+        buttons[i].classList.remove('is-locked');
         buttons[i].classList.add('is-removed');
         buttons[i].setAttribute('aria-hidden', 'true');
       }

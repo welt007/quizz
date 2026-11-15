@@ -58,3 +58,26 @@ export function pulseClass(el, cls, ms = 700) {
   el.classList.add(cls);
   setTimeout(() => el.classList.remove(cls), ms);
 }
+
+/**
+ * "3 – 2 – 1 – Los!" overlay inside `parent` (it disappears with the screen).
+ * @returns {Promise<void>}
+ */
+export function countdown(parent, { from = 3, onStep } = {}) {
+  const el = document.createElement('div');
+  el.className = 'countdown';
+  el.setAttribute('aria-live', 'assertive');
+  parent.append(el);
+  const fast = reducedMotion();
+  return new Promise((resolve) => {
+    let n = from;
+    const step = () => {
+      el.textContent = n > 0 ? String(n) : 'Los!';
+      pulseClass(el, 'is-tick', 600);
+      onStep?.(n);
+      if (n-- > 0) setTimeout(step, fast ? 400 : 750);
+      else setTimeout(() => (el.remove(), resolve()), fast ? 200 : 500);
+    };
+    step();
+  });
+}

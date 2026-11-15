@@ -347,3 +347,112 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
   .topbar { font-size: 0.82rem; }
 }
 .hud__timer.is-idle { opacity: 0.4; transition: opacity 0.3s; }
+
+/* ================= M3: modes, players, highscores ================= */
+.question--fast .question__text { animation-duration: 0.2s; }
+.question--fast .answer { animation-duration: 0.18s; animation-delay: 0s !important; }
+.question.is-waiting .answer:disabled:not(.is-removed) { opacity: 0.75; }
+.timer.is-penalty { animation: penalty 0.8s ease-out; }
+@keyframes penalty { 30% { transform: scale(0.85); filter: drop-shadow(0 0 12px var(--wrong)); } }
+.is-bump { animation: bump 0.45s ease-out; display: inline-block; }
+@keyframes bump { 40% { transform: scale(1.3); } }
+
+/* countdown overlay */
+.countdown {
+  position: fixed; inset: 0; z-index: 15; display: grid; place-items: center; pointer-events: none;
+  font-size: clamp(5rem, 22vw, 12rem); font-weight: 900; color: var(--gold);
+  text-shadow: 0 0 40px rgba(255, 201, 64, 0.6); background: rgba(5, 3, 20, 0.55);
+}
+.countdown.is-tick { animation: count-pop 0.6s ease-out; }
+@keyframes count-pop { from { transform: scale(1.8); opacity: 0; } 40% { opacity: 1; } to { transform: scale(1); } }
+
+/* blitz & sudden HUD */
+.blitz__scorebox, .sudden__box { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.blitz__label, .sudden__label { color: var(--muted); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.1em; }
+.blitz__score, .sudden__streak { font-size: clamp(2rem, 6vw, 2.8rem); font-weight: 900; font-variant-numeric: tabular-nums; }
+.blitz__multi { font-weight: 900; font-size: 1.2rem; padding: 2px 10px; border-radius: 999px; background: rgba(255, 255, 255, 0.1); color: var(--muted); }
+.blitz__multi--2 { background: rgba(242, 193, 78, 0.25); color: var(--d2); }
+.blitz__multi--3 { background: rgba(240, 138, 60, 0.3); color: var(--d3); }
+.blitz__multi--4 { background: rgba(224, 65, 58, 0.35); color: #ff8a84; }
+.sudden__level { font-weight: 700; }
+
+/* duel */
+.duel__prompt { margin: 0; font-weight: 600; font-size: 1.05rem; }
+.players-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-top: 6px; }
+.player {
+  --pc: var(--answer-border);
+  font: inherit; color: var(--text); cursor: pointer; text-align: left;
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px;
+  padding: 12px 14px; border-radius: var(--radius); border: 2px solid var(--pc);
+  background: color-mix(in srgb, var(--pc) 18%, transparent); transition: transform 0.15s, opacity 0.2s;
+  touch-action: manipulation;
+}
+.player--0 { --pc: #5d7cff; }
+.player--1 { --pc: #e05c9b; }
+.player--2 { --pc: #22b86b; }
+.player--3 { --pc: #f08a3c; }
+.player__key {
+  display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; font-weight: 900;
+  background: var(--pc); color: #fff;
+}
+.player__name { font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.player__score { font-weight: 900; font-variant-numeric: tabular-nums; }
+.player:disabled { cursor: default; }
+.player.is-locked { opacity: 0.4; }
+.player.is-active { background: var(--pc); box-shadow: 0 0 24px color-mix(in srgb, var(--pc) 70%, transparent); transform: scale(1.04); }
+.player.is-active .player__key { background: #fff; color: #000; }
+.player.is-winner { border-color: var(--right); box-shadow: 0 0 24px rgba(34, 184, 107, 0.7); }
+.player.is-buzzed { animation: buzzed 0.5s ease-out; }
+@keyframes buzzed { 30% { transform: scale(1.12); } }
+
+/* setup: player names */
+.players { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-top: 12px; }
+.player-input { display: flex; align-items: center; gap: 8px; }
+.player-input__key { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; font-weight: 900; background: rgba(255, 255, 255, 0.12); flex: none; }
+.player-input__key[hidden] { display: none; }
+.input {
+  font: inherit; color: var(--text); width: 100%; min-width: 0; padding: 10px 14px; border-radius: 10px;
+  border: 1px solid var(--panel-border); background: rgba(0, 0, 0, 0.3);
+}
+.input:focus { outline: 2px solid var(--gold); outline-offset: 1px; }
+
+/* podium */
+.podium { list-style: none; margin: 0; padding: 0; width: min(100%, 560px); display: flex; flex-direction: column; gap: 8px; }
+.podium__row {
+  display: grid; grid-template-columns: 2.2em 1fr auto; grid-template-areas: "medal name score" "medal stats score";
+  align-items: center; column-gap: 12px; padding: 10px 16px; border-radius: 12px; text-align: left;
+  background: var(--panel); border: 1px solid var(--panel-border);
+}
+.podium__row--1 { border-color: var(--gold); background: rgba(255, 201, 64, 0.12); }
+.podium__medal { grid-area: medal; font-size: 1.8rem; }
+.podium__name { grid-area: name; font-weight: 800; }
+.podium__stats { grid-area: stats; color: var(--muted); font-size: 0.85rem; }
+.podium__score { grid-area: score; font-size: 1.5rem; font-variant-numeric: tabular-nums; }
+
+/* highscores */
+.hs-entry { width: min(100%, 520px); text-align: left; }
+.hs-entry h2 { color: var(--gold); }
+.hs-entry__row { display: flex; gap: 10px; }
+.hs-entry__done { margin: 0 0 6px; font-weight: 700; }
+.hs-table-slot { margin-top: 16px; overflow-x: auto; }
+.hs-table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.hs-table th, .hs-table td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--panel-border); }
+.hs-table th { color: var(--muted); font-weight: 600; font-size: 0.85rem; }
+.hs-table .num { text-align: right; font-weight: 800; }
+.hs-name { font-weight: 700; }
+.hs-detail { color: var(--muted); font-size: 0.85rem; }
+.hs-empty { color: var(--muted); text-align: center; margin: 18px 0 4px; }
+.actions--end { justify-content: flex-end; margin-top: 10px; }
+@media (max-width: 640px) {
+  .hs-detail { display: none; }
+  .players-bar { grid-template-columns: 1fr 1fr; }
+}
+/* buzzers always reachable on small screens */
+@media (max-width: 860px) {
+  .game--duel .players-bar {
+    position: sticky; bottom: 0; z-index: 4; margin: 0 -16px -48px; padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: linear-gradient(180deg, rgba(11, 8, 32, 0.6), rgba(11, 8, 32, 0.97) 30%);
+    backdrop-filter: blur(6px);
+  }
+  .game--duel .player { padding: 14px 12px; }
+}

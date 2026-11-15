@@ -26,4 +26,5 @@ export function saveJson(key, value) {
 export const KEYS = {
   settings: 'quizshow.settings',
   stats: 'quizshow.stats',
+  highscores: 'quizshow.highscores',
 };

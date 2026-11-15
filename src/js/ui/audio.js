@@ -57,6 +57,12 @@ function noise(c, { start = 0, dur = 0.1, vol = 0.5, filter = 1200, q = 1 }) {
 const chord = (c, freqs, opts) => freqs.forEach((freq) => tone(c, { ...opts, freq }));
 
 const SOUNDS = {
+  buzz: (c) => {
+    tone(c, { freq: 440, type: 'square', dur: 0.35, vol: 0.45 });
+    tone(c, { freq: 554.37, type: 'square', dur: 0.35, vol: 0.3 });
+  },
+  countdown: (c) => tone(c, { freq: 660, type: 'triangle', dur: 0.15, vol: 0.5 }),
+  go: (c) => tone(c, { freq: 990, type: 'triangle', dur: 0.4, vol: 0.6 }),
   click: (c) => tone(c, { freq: 660, type: 'triangle', dur: 0.06, vol: 0.4 }),
   tick: (c) => tone(c, { freq: 1200, type: 'square', dur: 0.035, vol: 0.18 }),
   lock: (c) => {

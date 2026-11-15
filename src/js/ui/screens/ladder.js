@@ -7,6 +7,7 @@ import { createHost } from '../../core/host.js';
 import { questionView } from '../components/questionView.js';
 import { createTimer } from '../components/timer.js';
 import { confirmDialog } from '../components/dialog.js';
+import { highscoreEntry } from '../components/highscoreEntry.js';
 import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
@@ -282,6 +283,13 @@ function renderLadderResult(ctx, s, params) {
   const [icon, title, sub] = titles[s.outcome];
   const again = h('button', { class: 'btn btn--big', onclick: () => ctx.go('ladder', params) }, 'Nochmal spielen');
   const used = Object.entries(s.jokers).filter(([type, available]) => !available && (type !== 'time' || s.timer));
+  const detail = [
+    `Frage ${reached}/${LADDER.length}`,
+    ctx.categoryLabel(params.categories),
+    s.timer ? null : 'ohne Timer',
+    used.length ? null : 'ohne Joker',
+  ].filter(Boolean).join(' · ');
+  const entry = highscoreEntry(ctx, 'ladder', s.points, detail);
 
   setKeyHandler((e) => {
     if (e.key === 'Escape') ctx.go('start');
@@ -295,6 +303,7 @@ function renderLadderResult(ctx, s, params) {
       h('h1', { class: 'result__title' }, title),
       h('p', { class: 'result__points' }, h('strong', { class: 'countup' }, '0'), ' Punkte'),
       h('p', { class: 'result__sub' }, sub, used.length ? ` Joker eingesetzt: ${used.map(([t]) => JOKERS[t].label).join(', ')}.` : ' Ganz ohne Joker!'),
+      entry?.el,
       h(
         'div',
         { class: 'actions' },
@@ -306,7 +315,8 @@ function renderLadderResult(ctx, s, params) {
   );
   countUp(ctx.app.querySelector('.countup'), s.points);
   if (s.outcome === 'won') confetti({ count: 260, duration: 4000 });
-  again.focus();
+  if (entry) entry.focus();
+  else again.focus();
 }
 
 function countUp(el, target, ms = 1200) {

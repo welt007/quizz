@@ -75,12 +75,24 @@ export function createTimer({ seconds, onExpire, onSecond }) {
       running = false;
       cancelAnimationFrame(raf);
     },
+    /** Adds (or with a negative value: subtracts) time; reaching 0 expires immediately. */
     addSeconds(sec) {
-      remaining += sec * 1000;
+      if (remaining <= 0) return;
+      remaining = Math.max(0, remaining + sec * 1000);
       total = Math.max(total, remaining);
-      el.classList.add('is-boosted');
-      setTimeout(() => el.classList.remove('is-boosted'), 800);
+      const cls = sec >= 0 ? 'is-boosted' : 'is-penalty';
+      el.classList.add(cls);
+      setTimeout(() => el.classList.remove(cls), 800);
       render();
+      if (remaining <= 0) {
+        running = false;
+        cancelAnimationFrame(raf);
+        el.classList.add('is-expired');
+        onExpire();
+      }
+    },
+    get remainingSeconds() {
+      return remaining / 1000;
     },
     get running() {
       return running;
