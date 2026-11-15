@@ -19,6 +19,7 @@ import { renderDuel } from './ui/screens/duel.js';
 import { renderHighscores } from './ui/screens/highscores.js';
 import { renderOptions } from './ui/screens/options.js';
 import { renderStatistics } from './ui/screens/statistics.js';
+import { renderCategories } from './ui/screens/categories.js';
 
 /* global __APP_VERSION__, __APP_PLATFORM__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
@@ -44,6 +45,7 @@ const screens = {
   highscores: renderHighscores,
   options: renderOptions,
   statistics: renderStatistics,
+  categories: renderCategories,
 };
 
 const ctx = {

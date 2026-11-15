@@ -19,7 +19,10 @@ describe('Spielmodi (Browser, offline)', { skip }, () => {
     assert.equal(await g.page.locator('.mode:not(:disabled)').count(), 5);
     const b = g.builtin;
     assert.ok((await g.text('.footer')).includes(`${b.files} von ${b.files} Katalogen aktiv`));
+    await g.page.click('text=🗂️ Kategorien');
     assert.equal(await g.page.locator('.category').count(), b.categories);
+    await g.page.keyboard.press('Escape');
+    await g.page.waitForSelector('.mode');
     await noProblems(g);
   });
 

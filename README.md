@@ -13,6 +13,7 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - Bestenlisten (Top 10) für Punkteleiter, Blitzrunde und Sudden Death
 - Show-Feeling: Moderator, Spannungspause, Sounds (synthetisiert, offline), Konfetti
 - **Präsentationsmodus** für Beamer/TV (`F`): Vollbild, alles groß; Fragebilder zoombar (`Z`)
+- **Kategorien-Übersicht** mit Fragenzahl je Schwierigkeit (eigenes Untermenü)
 - **Statistik**: Trefferquoten je Kategorie/Schwierigkeit, „Knackpunkte“ gezielt üben
 - Bedienung per Maus, Touch oder Tastatur – Übersicht aller Tasten mit `?`
 - **Automatisch weiter:** 5 Sekunden nach der Auflösung kommt die nächste Frage (abschaltbar in den

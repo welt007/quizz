@@ -45,9 +45,11 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     assert.ok((await o.summary()).includes(`${b.total - b.count('geographie')} Fragen aus ${b.files - 1} von ${b.files}`));
     await page.reload();
     assert.ok((await g.text('.footer')).includes(`${b.files - 1} von ${b.files} Katalogen aktiv`));
+    await page.click('text=🗂️ Kategorien');
     const names = await page.locator('.category__name').allInnerTexts();
     assert.equal(names.length, b.categories - 1);
     assert.ok(!names.includes('Geographie') && names.includes('Geschichte'));
+    await page.click('text=Zurück');
     await page.click('text=⚙️ Optionen & Kataloge');
     await o.card('Standardkatalog').locator('text=Alle aus').click();
     await page.click('text=Fertig');

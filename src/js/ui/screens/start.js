@@ -1,6 +1,4 @@
 import { h, mount } from '../dom.js';
-import { DIFFICULTIES } from '../../core/catalog.js';
-import { countByDifficulty } from '../../core/questionPool.js';
 import { MODES } from '../modes.js';
 import { showHelp } from '../components/help.js';
 
@@ -39,6 +37,7 @@ export function renderStart(ctx) {
         h(
           'div',
           { class: 'panel__tools' },
+          tool('🗂️', 'Kategorien', 'categories'),
           tool('🏅', 'Bestenliste', 'highscores'),
           tool('📊', 'Statistik', 'statistics'),
           tool('⚙️', 'Optionen & Kataloge', 'options'),
@@ -46,30 +45,6 @@ export function renderStart(ctx) {
       ),
       empty ? h('p', { class: 'setup__info is-warning' }, 'Keine aktiven Fragen – bitte in den Optionen mindestens einen Katalog aktivieren.') : null,
       h('div', { class: 'modes' }, modeButtons),
-    ),
-    h(
-      'section',
-      { class: 'panel' },
-      h('h2', {}, `Kategorien · ${questions.length} Fragen`),
-      h(
-        'div',
-        { class: 'categories' },
-        ctx.categories.map((id) => {
-          const info = ctx.categoryInfo(id);
-          const counts = countByDifficulty(questions.filter((q) => q.category === id));
-          return h(
-            'div',
-            { class: 'category', '--cat': info.color },
-            h('span', { class: 'category__icon', 'aria-hidden': 'true' }, info.icon),
-            h(
-              'div',
-              {},
-              h('div', { class: 'category__name' }, info.name),
-              h('div', { class: 'category__meta' }, Object.keys(DIFFICULTIES).map((d) => `${counts[d]} ${DIFFICULTIES[d]}`).join(' · ')),
-            ),
-          );
-        }),
-      ),
     ),
     h(
       'footer',
