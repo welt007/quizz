@@ -27,3 +27,20 @@ jobs:
             git diff --stat -- dist/
             exit 1
           fi
+
+  e2e:
+    # Browser tests against the built file (file://, offline). Playwright is not a
+    # project dependency – it is installed only for this job.
+    needs: check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm install --no-save playwright@1.63.0
+      - run: npx playwright install --with-deps chromium
+      - run: npm run e2e

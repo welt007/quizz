@@ -1,6 +1,6 @@
 {
   "name": "quizshow",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Offline-Quizspiel im Gameshow-Stil als einzelne HTML-Datei",
   "type": "module",
@@ -9,6 +9,7 @@
     "build:dev": "node tools/build.mjs --dev",
     "validate": "node tools/validate-catalogs.mjs",
     "test": "node --test \"test/**/*.test.mjs\"",
+    "e2e": "node --test --test-concurrency=1 \"test/e2e/*.e2e.mjs\"",
     "check": "npm run validate && npm test && npm run build"
   },
   "engines": {

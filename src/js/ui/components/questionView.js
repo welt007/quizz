@@ -1,6 +1,7 @@
 import { h } from '../dom.js';
 import { ANSWER_KEYS } from '../../core/question.js';
 import { DIFFICULTIES } from '../../core/catalog.js';
+import { openLightbox } from './lightbox.js';
 
 /**
  * Question card with four answer buttons.
@@ -32,7 +33,13 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
       h('span', { 'aria-hidden': 'true' }, '·'),
       h('span', { class: `difficulty difficulty--${q.difficulty}` }, DIFFICULTIES[q.difficulty]),
     ),
-    q.image ? h('img', { class: 'question__image', src: q.image, alt: 'Bild zur Frage' }) : null,
+    q.image
+      ? h(
+          'button',
+          { type: 'button', class: 'question__zoom', title: 'Bild vergrößern (Z)', 'aria-label': 'Bild zur Frage vergrößern', onclick: () => openLightbox(q.image) },
+          h('img', { class: 'question__image', src: q.image, alt: 'Bild zur Frage' }),
+        )
+      : null,
     h('h2', { class: 'question__text', tabindex: '-1' }, q.question),
     h('div', { class: 'answers', role: 'group', 'aria-label': 'Antworten' }, buttons),
   );
@@ -76,12 +83,16 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
         b.disabled = true;
         b.classList.remove('is-locked');
         const mark = b.querySelector('.answer__mark');
+        // screen readers: the ✓/✗ marks are decorative, so say it in words
+        const say = (text) => b.append(h('span', { class: 'visually-hidden' }, text));
         if (i === prepared.correctIndex) {
           b.classList.add('is-right');
           mark.textContent = '✓';
+          say(i === chosen ? ' – richtig, deine Antwort' : ' – richtige Antwort');
         } else if (i === chosen) {
           b.classList.add('is-wrong');
           mark.textContent = '✗';
+          say(' – deine Antwort, falsch');
         } else if (!b.classList.contains('is-removed')) {
           b.classList.add('is-dimmed');
         }

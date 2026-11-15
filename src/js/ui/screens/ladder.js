@@ -118,6 +118,8 @@ export function renderLadder(ctx, params) {
     ladderItems.forEach((li, i) => {
       li.classList.toggle('is-done', i < s.level || (i === s.level && s.phase !== 'question' && s.correct));
       li.classList.toggle('is-current', i === s.level);
+      if (i === s.level) li.setAttribute('aria-current', 'step');
+      else li.removeAttribute('aria-current');
       li.classList.toggle('is-failed', i === s.level && s.correct === false);
     });
   }

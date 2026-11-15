@@ -1,0 +1,10 @@
+{
+  "format": 1,
+  "version": "1",
+  "title": "Sport & Film",
+  "files": ["sport.csv", "film.csv"],
+  "categories": {
+    "sport": { "name": "Sport", "icon": "⚽", "color": "#d94f9a" },
+    "film": { "name": "Film", "icon": "🎬" }
+  }
+}

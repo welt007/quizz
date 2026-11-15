@@ -20,4 +20,6 @@ Plan und Meilensteine: `docs/PLAN.md`. CSV-Format: `docs/FRAGENFORMAT.md`.
 - Schwierigkeit 1–4 (leicht, medium, schwer, extrem). Antworten nur Text/Zahlen, Bilder nur in der Frage.
 - `dist/quizshow.html` ist **im Repo** und muss zum Quellstand passen (CI prüft das): nach jeder
   Änderung an `src/`, `catalogs/` oder `package.json` neu bauen und mit committen.
-- Vor dem Commit: `npm run check` (validieren, testen, bauen).
+- Vor dem Commit: `npm run check` (validieren, testen, bauen). Bei UI-Änderungen zusätzlich
+  `npm run e2e` (Browser-Tests in `test/e2e/`). Playwright ist **keine** Abhängigkeit: es wird
+  global bzw. mit `npm i --no-save playwright` bereitgestellt; ohne Playwright werden die Tests übersprungen.

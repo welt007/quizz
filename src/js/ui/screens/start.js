@@ -2,6 +2,7 @@ import { h, mount } from '../dom.js';
 import { DIFFICULTIES } from '../../core/catalog.js';
 import { countByDifficulty } from '../../core/questionPool.js';
 import { MODES } from '../modes.js';
+import { showHelp } from '../components/help.js';
 
 export function renderStart(ctx) {
   const { questions, activeCatalogs, totalCatalogs } = ctx.catalog;
@@ -37,6 +38,7 @@ export function renderStart(ctx) {
           'div',
           { class: 'panel__tools' },
           h('button', { class: 'link', onclick: () => ctx.go('highscores') }, '🏅 Bestenliste'),
+          h('button', { class: 'link', onclick: () => ctx.go('statistics') }, '📊 Statistik'),
           h('button', { class: 'link', onclick: () => ctx.go('options') }, '⚙️ Optionen & Kataloge'),
         ),
       ),
@@ -72,6 +74,8 @@ export function renderStart(ctx) {
       { class: 'footer' },
       `Version ${ctx.version} · ${activeCatalogs} von ${totalCatalogs} Katalogen aktiv · `,
       h('button', { class: 'link', onclick: () => ctx.go('options') }, 'Kataloge verwalten'),
+      ' · ',
+      h('button', { class: 'link', onclick: () => showHelp() }, '⌨️ Tastenkürzel (?)'),
     ),
   );
 

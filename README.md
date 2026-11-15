@@ -12,13 +12,15 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
   - **Duell / Party** – 2–4 Spieler an einem Gerät, mit Buzzer (`Q` `P` `X` `N` oder Antippen) oder reihum
 - Bestenlisten (Top 10) für Punkteleiter, Blitzrunde und Sudden Death
 - Show-Feeling: Moderator, Spannungspause, Sounds (synthetisiert, offline), Konfetti
-- Bedienung per Maus, Touch oder Tastatur (`A`–`D`, `Enter`, `Esc`, Joker `H`/`P`/`T`, Ton `M`)
+- **Präsentationsmodus** für Beamer/TV (`F`): Vollbild, alles groß; Fragebilder zoombar (`Z`)
+- **Statistik**: Trefferquoten je Kategorie/Schwierigkeit, „Knackpunkte“ gezielt üben
+- Bedienung per Maus, Touch oder Tastatur – Übersicht aller Tasten mit `?`
 - Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub
 - **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
   einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln
   ein- und ausschalten lässt – alle eingeschalteten werden zu einem Fragenpool vereint
 
-**Status:** Meilenstein M4 (Katalogverwaltung, Updates, Import). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Version 1.0 – alle Meilensteine M0–M5 umgesetzt; als Nächstes: mehr Fragen (M6). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 
@@ -36,7 +38,12 @@ npm run build:dev  # ohne Minifizierung
 npm run validate   # Fragenkataloge prüfen
 npm test           # Unit-Tests
 npm run check      # alles zusammen (wie in CI)
+npm run e2e        # Browser-Tests (braucht Playwright, s. u.)
 ```
+
+Die Browser-Tests spielen die fertige `dist/quizshow.html` offline durch. Playwright ist bewusst
+keine Projektabhängigkeit; einmalig installieren mit
+`npm i --no-save playwright && npx playwright install chromium`. In CI laufen sie in einem eigenen Job.
 
 ## Fragen schreiben
 

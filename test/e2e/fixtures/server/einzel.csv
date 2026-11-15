@@ -1,0 +1,3 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+ez-1,musik,1,Musikfrage 1?,Richtig 1,Nein,Vielleicht,Nie,,,
+ez-2,musik,2,Musikfrage 2?,Richtig 2,Nein,Vielleicht,Nie,,,

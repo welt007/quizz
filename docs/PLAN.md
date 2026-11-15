@@ -200,11 +200,16 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 - Spannungsaufbau: kurze Pause zwischen „eingeloggt“ und Auflösung, Trommelwirbel-Sound.
 - Moderator-Sprüche (Textbausteine, zufällig, je Situation).
 - Konfetti bei Sieg/Highscore (Canvas, ohne Bibliothek).
-- **Präsentationsmodus** für Beamer/TV: Vollbild (`F`), komplette Tastatursteuerung,
-  skaliert auf 16:9; Fragebilder groß darstellbar (Klick → Zoom).
+- **Präsentationsmodus** für Beamer/TV ✅: `F` oder 📺-Knopf → Vollbild, alles skaliert mit der
+  Bildschirmgröße (16:9-Fläche), Eckknöpfe dezent unten rechts; Fragebilder per Klick oder `Z` groß.
+  Ohne Vollbild-Erlaubnis gilt trotzdem das große Layout.
 - Responsiv: Smartphone (hochkant) bis Beamer. Bedienbar per Touch, Maus und Tastatur.
-- Barrierearm: ausreichende Kontraste, Fokus-Ringe, `prefers-reduced-motion` respektieren,
-  Antworten nicht nur über Farbe kenntlich (✓/✗-Symbole).
+- Barrierearm ✅: Kontraste, Fokus-Ringe, `prefers-reduced-motion` (keine Animationen/Konfetti),
+  Antworten nicht nur über Farbe (✓/✗ + Screenreader-Text „richtige Antwort“/„deine Antwort, falsch“),
+  `aria-current` auf der Leiterstufe, Fokus kehrt nach Dialogen zurück, Windows-Kontrastmodus,
+  Tastenkürzel-Übersicht mit `?`, flache Querformat-Handys.
+- **Statistik** ✅: Antworten, Trefferquote, gesehene Fragen – gesamt, je Kategorie und
+  Schwierigkeit; „Knackpunkte“ (am häufigsten falsch) mit „Diese Fragen üben“.
 
 ## 7. Persistenz
 
@@ -229,7 +234,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M2** ✅ | Gameshow-Optik & Sound: Animationen, Countdown-Ring, WebAudio-Sounds mit Ton-Schalter, Moderator-Texte, Joker (50:50, Publikum, +30 s), Konfetti | Show-Feeling |
 | **M3** ✅ | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party (Buzzer/Reihum); Bestenlisten mit Namenseintrag | Alle Modi |
 | **M4** ✅ | **Optionen & Kataloge**: mehrere CSVs je Quelle, zu einem Pool vereint; Kataloge einzeln an/aus; per URL hinzufügen/aktualisieren/entfernen; Standardkatalog-Update; CSV-Import; IndexedDB; Vorschau mit Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
-| **M5** | Präsentationsmodus, Responsiv-/A11y-Feinschliff, Statistik, Playwright-E2E-Tests (`file://`) | Release 1.0 |
+| **M5** ✅ | Präsentationsmodus (`F`, Vollbild, skaliert), Bild-Zoom (`Z`), Tastenkürzel-Hilfe (`?`), Statistik mit Knackpunkten, A11y-/Responsiv-Feinschliff, Browser-Tests im Repo + CI | Release 1.0 |
 | **M6** | Inhalte: Kataloge auf ≥ 50 Fragen je Kategorie und Stufe ausbauen | Spielspaß |
 
 ## 9. Tests
@@ -237,9 +242,13 @@ zum Schließen, worauf das Optionsmenü hinweist).
 - **Unit** (`node --test`): CSV-Parser, Validierung, URL-Normalisierung, Fragepool, Scoring, Modus-Zustandsmaschinen.
 - **Katalog-Validierung** (`npm run validate`): in CI bei jeder Änderung an `catalogs/`.
 - **Build-Aktualität**: CI baut neu und bricht ab, wenn `dist/quizshow.html` vom Commit abweicht.
-- **E2E** (ab M5, Playwright, Chromium ist vorhanden): `dist/quizshow.html` über `file://` öffnen,
-  je Modus ein Spiel durchspielen, Offline-Betrieb prüfen (Netz blockiert), Katalog per URL
-  hinzufügen (gegen lokalen Testserver).
+- **E2E** (`npm run e2e`, `test/e2e/*.e2e.mjs`, Playwright + Chromium): `dist/quizshow.html` über
+  `file://` und offline – jeder Modus (inkl. Joker, Zeitablauf, Timer-Pause, Buzzer-Sperre),
+  Präsentationsmodus, Bild-Zoom, Hilfe, Statistik, Screenreader-Texte, Handy hoch/quer;
+  Katalogverwaltung gegen einen lokalen CORS-Testserver (Fixtures in `test/e2e/fixtures/`),
+  Standardkatalog-Update gegen ein simuliertes GitHub. Zeitabhängiges mit Playwrights Uhr.
+  Playwright ist **keine** Projektabhängigkeit: lokal `npm i --no-save playwright && npx playwright
+  install chromium`, in CI ein eigener Job `e2e`. Ohne Playwright werden die Tests übersprungen.
 
 ## 10. Risiken & Gegenmaßnahmen
 
