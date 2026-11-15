@@ -13,9 +13,9 @@ import { confetti, countdown, pulseClass } from '../effects.js';
 import { formatPoints } from '../modes.js';
 import { nextButton } from '../components/nextButton.js';
 import { gameFooter } from '../components/gameFooter.js';
+import { icon } from '../icons.js';
 
 const LOCK_DELAY_MS = 700;
-const MEDALS = ['🥇', '🥈', '🥉', '🎖️'];
 
 /** params: { questions, players, variant, rounds } */
 export function renderDuel(ctx, params) {
@@ -53,7 +53,7 @@ export function renderDuel(ctx, params) {
       h(
         'div',
         { class: 'game__main' },
-        h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => abort() }, '✕ Beenden'), status),
+        h('div', { class: 'topbar' }, h('button', { class: 'link topbar__exit', onclick: () => abort() }, icon('x', { size: 16 }), 'Beenden'), status),
         h('div', { class: 'hud' }, prompt, timerSlot),
         stage,
         explanation,
@@ -259,7 +259,7 @@ function renderDuelResult(ctx, game, params) {
     h(
       'section',
       { class: 'result result--won' },
-      h('div', { class: 'result__icon', 'aria-hidden': 'true' }, winners.length > 1 ? '🤝' : '🏆'),
+      h('div', { class: 'result__icon' }, icon(winners.length > 1 ? 'users' : 'trophy', { size: 44 })),
       h('h1', { class: 'result__title' }, title),
       h(
         'ol',
@@ -268,7 +268,7 @@ function renderDuelResult(ctx, game, params) {
           h(
             'li',
             { class: `podium__row podium__row--${p.rank}` },
-            h('span', { class: 'podium__medal', 'aria-label': `Platz ${p.rank}` }, MEDALS[p.rank - 1] ?? String(p.rank)),
+            h('span', { class: `podium__medal podium__medal--${p.rank}`, 'aria-label': `Platz ${p.rank}` }, String(p.rank)),
             h('span', { class: 'podium__name' }, p.name),
             h('span', { class: 'podium__stats' }, `${p.correct} richtig · ${p.wrong} falsch`),
             h('strong', { class: 'podium__score' }, formatPoints(p.score)),

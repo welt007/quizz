@@ -1,9 +1,10 @@
 import { h } from '../dom.js';
+import { icon } from '../icons.js';
 
 /** Shows an image large (modal). Closes on click, Escape or any key. */
 export function openLightbox(src, alt = 'Bild zur Frage') {
   const previous = document.activeElement;
-  const close = h('button', { class: 'lightbox__close', type: 'button', 'aria-label': 'Schließen' }, '✕');
+  const close = h('button', { class: 'lightbox__close', type: 'button', 'aria-label': 'Schließen' }, icon('x', { size: 22 }));
   const dlg = h(
     'dialog',
     { class: 'lightbox', 'aria-label': alt },

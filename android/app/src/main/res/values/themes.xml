@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.Quizshow" parent="android:Theme.Material.NoActionBar">
+    <style name="Theme.Quizshow" parent="android:Theme.Material.Light.NoActionBar">
         <item name="android:windowBackground">@color/stage</item>
         <item name="android:colorBackground">@color/stage</item>
-        <item name="android:colorAccent">@color/gold</item>
+        <item name="android:colorAccent">@color/accent</item>
         <item name="android:statusBarColor">@color/stage</item>
         <item name="android:navigationBarColor">@color/stage</item>
+        <item name="android:windowLightStatusBar">true</item>
     </style>
 </resources>

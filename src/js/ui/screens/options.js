@@ -8,6 +8,7 @@ import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler } from '../input.js';
 import { audio } from '../audio.js';
 import { autoNextEnabled, AUTO_NEXT_SECONDS } from '../components/nextButton.js';
+import { icon } from '../icons.js';
 
 const KIND_LABEL = { builtin: 'Standard', url: 'aus dem Internet', import: 'Datei-Import' };
 const MAX_LISTED_ISSUES = 30;
@@ -55,9 +56,9 @@ export function renderOptions(ctx) {
       button('Alle aus', () => (lib.setSourceEnabled(source.id, false), changed()), 'all-off');
     }
     const updateUrl = source.kind === 'builtin' ? source.updateUrl : source.kind === 'url' ? source.resolvedUrl ?? source.url : null;
-    if (updateUrl) button('🔄 Aktualisieren', () => update(), 'update');
+    if (updateUrl) button([icon('refresh', { size: 16 }), 'Aktualisieren'], () => update(), 'update');
     if (source.kind === 'builtin' && source.override) button('Auf eingebaute Version zurücksetzen', () => resetBuiltin(), 'reset');
-    if (source.kind !== 'builtin') button('🗑 Entfernen', () => remove(), 'remove');
+    if (source.kind !== 'builtin') button([icon('trash', { size: 16 }), 'Entfernen'], () => remove(), 'remove');
 
     async function update() {
       setBusy(true);
@@ -226,7 +227,7 @@ export function renderOptions(ctx) {
 
   // ---------- import files ----------
   const fileInput = h('input', { type: 'file', accept: '.csv,text/csv', multiple: true, class: 'visually-hidden', onchange: () => importFiles() });
-  const fileButton = h('button', { class: 'btn', type: 'button', onclick: () => fileInput.click() }, '📂 CSV-Dateien auswählen …');
+  const fileButton = h('button', { class: 'btn', type: 'button', onclick: () => fileInput.click() }, icon('folder', { size: 18 }), 'CSV-Dateien auswählen …');
   const fileStatus = h('p', { class: 'source__status', role: 'status' });
   const filePreview = h('div', { class: 'source__preview' });
 
@@ -317,7 +318,7 @@ export function renderOptions(ctx) {
   const back = h('button', { class: 'btn', onclick: () => ctx.go('start') }, 'Fertig');
   mount(
     ctx.app,
-    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon', 'aria-hidden': 'true' }, '⚙️'), h('h1', {}, 'Optionen & Kataloge')),
+    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon' }, icon('sliders', { size: 30 })), h('h1', {}, 'Optionen & Kataloge')),
     h(
       'section',
       { class: 'panel' },

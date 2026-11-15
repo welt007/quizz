@@ -10,6 +10,7 @@ import { setKeyHandler, answerIndexFromKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, countdown, pulseClass } from '../effects.js';
 import { formatPoints } from '../modes.js';
+import { icon } from '../icons.js';
 
 const RIGHT_PAUSE_MS = 450;
 const WRONG_PAUSE_MS = 1100;
@@ -41,7 +42,7 @@ export function renderBlitz(ctx, params) {
       h(
         'div',
         { class: 'game__main' },
-        h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => abort() }, '✕ Beenden'), status),
+        h('div', { class: 'topbar' }, h('button', { class: 'link topbar__exit', onclick: () => abort() }, icon('x', { size: 16 }), 'Beenden'), status),
         h(
           'div',
           { class: 'hud' },
@@ -157,7 +158,7 @@ function renderBlitzResult(ctx, s, params) {
     h(
       'section',
       { class: 'result' },
-      h('div', { class: 'result__icon', 'aria-hidden': 'true' }, '⚡'),
+      h('div', { class: 'result__icon' }, icon('bolt', { size: 44 })),
       h('h1', { class: 'result__title' }, 'Blitzrunde vorbei!'),
       h('p', { class: 'result__points' }, h('strong', {}, formatPoints(s.score)), ' Punkte'),
       h('p', { class: 'result__sub' }, `${s.correctCount} von ${s.answered} richtig (${pct} %) · beste Serie: ${s.bestStreak}`),

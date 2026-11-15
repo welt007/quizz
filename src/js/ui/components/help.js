@@ -18,7 +18,7 @@ export function showHelp() {
     h(
       'form',
       { method: 'dialog' },
-      h('h3', { class: 'dialog__title', id: 'help-title' }, '⌨️ Tastenkürzel'),
+      h('h3', { class: 'dialog__title', id: 'help-title' }, 'Tastenkürzel'),
       SECTIONS.map(([title, keys]) =>
         h(
           'section',

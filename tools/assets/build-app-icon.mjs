@@ -16,10 +16,10 @@ const root = path.dirname(path.dirname(path.dirname(fileURLToPath(import.meta.ur
 const res = path.join(root, 'android/app/src/main/res');
 
 // adaptive icon canvas: 108×108, visible safe zone = circle with diameter 66 around the centre
-const BG_INNER = '#3a2496';
-const BG_OUTER = '#0b0820';
-const GOLD = '#ffc940';
-const WHITE = '#f5f3ff';
+const BG_INNER = '#6347ff';
+const BG_OUTER = '#3a22c0';
+const GOLD = '#f5b700';
+const WHITE = '#ffffff';
 const RING = 'M54,28 A26,26 0 1,1 54,80 A26,26 0 1,1 54,28 Z';
 const QUESTION = 'M45.5,46 A8.5,8.5 0 1,1 62.5,46 C62.5,51.5 54,52.5 54,58.5 L54,60.5';
 const DOT = 'M54,65.6 A3.6,3.6 0 1,1 54,72.8 A3.6,3.6 0 1,1 54,65.6 Z';

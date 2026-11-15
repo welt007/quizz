@@ -91,17 +91,17 @@ describe('Android-Version (WebView-Inhalt)', { skip }, () => {
     assert.ok(!keys.some((k) => k.startsWith('quizshow.')), `direkt im localStorage: ${keys}`);
     await page.reload();
     await page.waitForSelector('.mode');
-    assert.equal(await page.locator('.corner-btn').last().innerText(), '🔇', 'Einstellung nach Neustart erhalten');
+    assert.equal(await page.locator('.corner-btn').last().getAttribute('aria-label'), 'Ton einschalten (M)', 'Einstellung nach Neustart erhalten');
 
     // imported catalogs → files (writeData)
-    await page.click('text=⚙️ Optionen & Kataloge');
+    await page.click('button:has-text("Optionen & Kataloge")');
     await page.setInputFiles('input[type=file]', [path.join(FIXTURES, 'import/kunst.csv')]);
     await page.click('.preview >> text=Importieren');
     await page.waitForSelector('.source--import');
     assert.equal((await stored()).filter((k) => k.startsWith('native:data:')).length, 1);
     await page.reload();
     await page.waitForSelector('.mode');
-    await page.click('text=⚙️ Optionen & Kataloge');
+    await page.click('button:has-text("Optionen & Kataloge")');
     await page.waitForSelector('.source--import');
     assert.equal(await page.locator('.source--import :text("Daten fehlen")').count(), 0, 'Katalogdaten nach Neustart da');
     await context.close();
@@ -111,7 +111,7 @@ describe('Android-Version (WebView-Inhalt)', { skip }, () => {
     const { context, page, back } = await openApp();
     assert.equal(await back(), false, 'Startbildschirm → App schließen');
 
-    await page.click('text=⚙️ Optionen & Kataloge');
+    await page.click('button:has-text("Optionen & Kataloge")');
     assert.equal(await back(), true);
     await page.waitForSelector('.mode');
 

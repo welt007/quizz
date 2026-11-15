@@ -3,6 +3,7 @@ import { h, mount } from '../dom.js';
 import { DIFFICULTIES } from '../../core/catalog.js';
 import { countByDifficulty } from '../../core/questionPool.js';
 import { setKeyHandler } from '../input.js';
+import { icon } from '../icons.js';
 
 export function renderCategories(ctx) {
   const { questions } = ctx.catalog;
@@ -17,7 +18,7 @@ export function renderCategories(ctx) {
     h(
       'header',
       { class: 'setup__head' },
-      h('div', { class: 'setup__icon', 'aria-hidden': 'true' }, '🗂️'),
+      h('div', { class: 'setup__icon' }, icon('grid', { size: 30 })),
       h('h1', {}, 'Kategorien'),
       h('p', {}, `${questions.length} Fragen in ${ctx.categories.length} Kategorien`),
     ),

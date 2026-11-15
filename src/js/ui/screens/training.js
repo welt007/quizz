@@ -10,6 +10,7 @@ import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
 import { nextButton } from '../components/nextButton.js';
 import { gameFooter } from '../components/gameFooter.js';
+import { icon } from '../icons.js';
 
 const LOCK_DELAY_MS = 350;
 
@@ -37,7 +38,7 @@ export function renderTraining(ctx, params) {
       h(
         'div',
         { class: 'game__main' },
-        h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => end() }, '✕ Beenden'), status),
+        h('div', { class: 'topbar' }, h('button', { class: 'link topbar__exit', onclick: () => end() }, icon('x', { size: 16 }), 'Beenden'), status),
         progress,
         stage,
         explanation,
@@ -125,7 +126,7 @@ export function renderTraining(ctx, params) {
 
 function renderTrainingResult(ctx, s, params) {
   const pct = s.answered ? Math.round((s.correctCount / s.answered) * 100) : 0;
-  const icon = pct === 100 ? '🌟' : pct >= 70 ? '👏' : pct >= 40 ? '💪' : '📚';
+  const iconName = pct === 100 ? 'crown' : pct >= 70 ? 'star' : pct >= 40 ? 'target' : 'book';
   const buttons = [
     h('button', { class: 'btn btn--ghost', onclick: () => ctx.go('start') }, 'Hauptmenü'),
     h('button', { class: 'btn btn--ghost', onclick: () => ctx.go('setup', { mode: 'training' }) }, 'Auswahl ändern'),
@@ -143,7 +144,7 @@ function renderTrainingResult(ctx, s, params) {
     h(
       'section',
       { class: 'result' },
-      h('div', { class: 'result__icon', 'aria-hidden': 'true' }, icon),
+      h('div', { class: 'result__icon' }, icon(iconName, { size: 44 })),
       h('h1', { class: 'result__title' }, 'Training beendet'),
       h('p', { class: 'result__points' }, h('strong', {}, `${s.correctCount} / ${s.answered}`), ' richtig'),
       h('p', { class: 'result__sub' }, s.answered ? `${pct} % Trefferquote` : 'Keine Frage beantwortet.'),

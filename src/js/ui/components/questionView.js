@@ -2,6 +2,7 @@ import { h } from '../dom.js';
 import { ANSWER_KEYS } from '../../core/question.js';
 import { DIFFICULTIES } from '../../core/catalog.js';
 import { openLightbox } from './lightbox.js';
+import { icon } from '../icons.js';
 
 /**
  * Question card with four answer buttons.
@@ -17,7 +18,7 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
     h(
       'button',
       { class: 'answer', onclick: () => onAnswer(i) },
-      h('span', { class: 'answer__key' }, `${ANSWER_KEYS[i]}:`),
+      h('span', { class: 'answer__key' }, ANSWER_KEYS[i]),
       h('span', { class: 'answer__text' }, text),
       h('span', { class: 'answer__mark', 'aria-hidden': 'true' }),
     ),
@@ -29,7 +30,7 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
     h(
       'div',
       { class: 'question__meta' },
-      h('span', {}, `${info.icon} ${info.name}`),
+      h('span', { class: 'question__category', '--cat': info.color }, `${info.icon} ${info.name}`),
       h('span', { 'aria-hidden': 'true' }, '·'),
       h('span', { class: `difficulty difficulty--${q.difficulty}` }, DIFFICULTIES[q.difficulty]),
     ),
@@ -41,7 +42,8 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
         )
       : null,
     h('h2', { class: 'question__text', tabindex: '-1' }, q.question),
-    h('div', { class: 'answers', role: 'group', 'aria-label': 'Antworten' }, buttons),
+    // short answers (flags, numbers …) fit two per row even on phones
+    h('div', { class: `answers${prepared.answers.every((a) => String(a).length <= 11) ? ' answers--short' : ''}`, role: 'group', 'aria-label': 'Antworten' }, buttons),
   );
 
   return {
@@ -87,11 +89,11 @@ export function questionView(prepared, { categoryInfo, onAnswer, fast = false })
         const say = (text) => b.append(h('span', { class: 'visually-hidden' }, text));
         if (i === prepared.correctIndex) {
           b.classList.add('is-right');
-          mark.textContent = '✓';
+          mark.replaceChildren(icon('check', { size: 22 }));
           say(i === chosen ? ' – richtig, deine Antwort' : ' – richtige Antwort');
         } else if (i === chosen) {
           b.classList.add('is-wrong');
-          mark.textContent = '✗';
+          mark.replaceChildren(icon('x', { size: 22 }));
           say(' – deine Antwort, falsch');
         } else if (!b.classList.contains('is-removed')) {
           b.classList.add('is-dimmed');

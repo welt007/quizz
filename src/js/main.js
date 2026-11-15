@@ -20,6 +20,7 @@ import { renderHighscores } from './ui/screens/highscores.js';
 import { renderOptions } from './ui/screens/options.js';
 import { renderStatistics } from './ui/screens/statistics.js';
 import { renderCategories } from './ui/screens/categories.js';
+import { icon } from './ui/icons.js';
 
 /* global __APP_VERSION__, __APP_PLATFORM__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
@@ -137,14 +138,14 @@ const soundButton = h('button', { class: 'corner-btn', onclick: () => toggleSoun
 const presentButton = h('button', { class: 'corner-btn corner-btn--present', onclick: () => togglePresentation() });
 function renderPresentButton() {
   const on = isPresentation();
-  presentButton.textContent = on ? '🗗' : '📺';
+  presentButton.replaceChildren(icon(on ? 'minimize' : 'tv'));
   presentButton.setAttribute('aria-label', on ? 'Präsentationsmodus beenden (F)' : 'Präsentationsmodus: Vollbild für Beamer/TV (F)');
   presentButton.setAttribute('aria-pressed', String(on));
   presentButton.title = presentButton.getAttribute('aria-label');
 }
 onPresentationChange(renderPresentButton);
 function renderSoundButton() {
-  soundButton.textContent = audio.enabled ? '🔊' : '🔇';
+  soundButton.replaceChildren(icon(audio.enabled ? 'volume' : 'volumeOff'));
   soundButton.setAttribute('aria-label', audio.enabled ? 'Ton ausschalten (M)' : 'Ton einschalten (M)');
   soundButton.title = soundButton.getAttribute('aria-label');
 }

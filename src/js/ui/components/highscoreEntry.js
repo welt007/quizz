@@ -22,7 +22,7 @@ export function highscoreEntry(ctx, mode, score, detail) {
   const form = h(
     'form',
     { class: 'panel hs-entry', onsubmit: (e) => (e.preventDefault(), save()) },
-    h('h2', {}, '🏅 Neuer Highscore!'),
+    h('h2', {}, 'Neuer Highscore!'),
     h('div', { class: 'hs-entry__row' }, input, h('button', { class: 'btn', type: 'submit' }, 'Eintragen')),
   );
 

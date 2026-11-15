@@ -11,6 +11,7 @@ import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
 import { nextButton } from '../components/nextButton.js';
 import { gameFooter } from '../components/gameFooter.js';
+import { icon } from '../icons.js';
 
 const LOCK_DELAY_MS = 800;
 
@@ -39,11 +40,11 @@ export function renderSudden(ctx, params) {
       h(
         'div',
         { class: 'game__main' },
-        h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => abort() }, '✕ Beenden'), status),
+        h('div', { class: 'topbar' }, h('button', { class: 'link topbar__exit', onclick: () => abort() }, icon('x', { size: 16 }), 'Beenden'), status),
         h(
           'div',
           { class: 'hud' },
-          h('div', { class: 'sudden__box' }, h('span', { class: 'sudden__label' }, '🔥 Serie'), streakEl, levelEl),
+          h('div', { class: 'sudden__box' }, h('span', { class: 'sudden__label' }, 'Serie'), streakEl, levelEl),
           timerSlot,
         ),
         stage,
@@ -181,7 +182,7 @@ function renderSuddenResult(ctx, s, params) {
     h(
       'section',
       { class: `result${cleared ? ' result--won' : ''}` },
-      h('div', { class: 'result__icon', 'aria-hidden': 'true' }, cleared ? '👑' : '💀'),
+      h('div', { class: 'result__icon' }, icon(cleared ? 'crown' : 'flame', { size: 44 })),
       h('h1', { class: 'result__title' }, cleared ? 'Unbesiegbar!' : s.timedOut ? 'Die Zeit ist um!' : 'Erwischt!'),
       h('p', { class: 'result__points' }, h('strong', {}, String(s.score)), ' richtig in Folge'),
       h('p', { class: 'result__sub' }, sub),

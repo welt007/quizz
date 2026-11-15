@@ -21,5 +21,5 @@ export function h(tag, props = {}, ...children) {
 }
 
 export function mount(root, ...nodes) {
-  root.replaceChildren(...nodes);
+  root.replaceChildren(...nodes.flat().filter((n) => n != null && n !== false));
 }

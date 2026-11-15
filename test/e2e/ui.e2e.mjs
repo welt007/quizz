@@ -50,7 +50,7 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
   test('Statistik zählt Antworten und bietet Knackpunkte zum Üben an', async () => {
     const g = await openGame(browser);
     const { page } = g;
-    await page.click('text=📊 Statistik');
+    await page.click('button:has-text("Statistik")');
     assert.match(await g.text('.panel'), /Noch keine Antworten/);
     await page.click('text=Zurück');
     await page.click('.mode >> text=Training');
@@ -61,11 +61,11 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
       await page.keyboard.press('Enter');
     }
     await page.click('text=Hauptmenü');
-    await page.click('text=📊 Statistik');
+    await page.click('button:has-text("Statistik")');
     assert.match(await g.text('.tiles'), new RegExp(`^10 \\| Antworten \\| 60 % \\| Trefferquote \\| 10 / ${g.builtin.total}`));
     assert.equal(await page.locator('.stat-list').first().locator('.stat-row').count(), g.builtin.categories);
     assert.equal(await page.locator('.review__list li').count(), 4);
-    await page.click('text=📚 Diese Fragen üben');
+    await page.click('button:has-text("Diese Fragen üben")');
     assert.match(await g.text('.topbar__status'), /Frage 1 von 4/);
     await g.context.close();
   });
@@ -111,7 +111,7 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
     assert.match(await status(), /Frage 3 von 10/);
 
     await page.goto(page.url()); // fresh start, settings are kept
-    await page.click('text=⚙️ Optionen & Kataloge');
+    await page.click('button:has-text("Optionen & Kataloge")');
     await page.click('label:has-text("Automatisch weiter")');
     await page.goto(page.url());
     await page.click('.mode >> text=Training');
@@ -127,10 +127,12 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
   test('Handy hochkant: Menü-Links im Rahmen, Bild sichtbar, „Nächste Frage“ ohne Scrollen erreichbar', async () => {
     const g = await openGame(browser, { device: 'iPhone 13' });
     const { page } = g;
-    const panel = await page.locator('.panel').first().boundingBox();
-    for (const box of await Promise.all((await page.locator('.tool').all()).map((t) => t.boundingBox()))) {
-      assert.ok(box.x >= panel.x && box.x + box.width <= panel.x + panel.width + 0.5, 'Link im Rahmen');
+    const width = page.viewportSize().width;
+    for (const box of await Promise.all((await page.locator('.tool, .mode').all()).map((t) => t.boundingBox()))) {
+      assert.ok(box.x >= 0 && box.x + box.width <= width + 0.5, 'Kachel im sichtbaren Bereich');
     }
+    const last = await page.locator('.tool').last().boundingBox();
+    assert.ok(last.y + last.height <= page.viewportSize().height, 'Startseite ohne Scrollen');
     await page.click('.mode >> text=Training');
     await page.click('text=keine');
     await page.click('.chip >> text=Flaggen');

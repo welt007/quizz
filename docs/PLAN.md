@@ -200,8 +200,12 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 
 ## 6. Gameshow-Präsentation
 
-- Bühnen-Look: dunkler Hintergrund, animierte Spotlights (CSS), große Typografie,
-  Antwort-Kacheln A–D mit Hover/Lock-in/Auflösungs-Animation (orange „eingeloggt“ → grün/rot).
+- Optik „Tageslicht“ (seit M8): heller, luftiger Grund, weiße Karten, kräftiges Violett als
+  Akzent, Gold für Show-Momente; Glühbirnen-Reihen an Logo und Fragekarte als Show-Element;
+  Strich-Icons (`src/js/ui/icons.js`) statt Emoji in der Oberfläche (Kategorie-Emoji aus den
+  Katalogen bleiben); Systemschriften, damit das Spiel offline ohne Webfonts auskommt.
+- Antwort-Kacheln A–D mit eigener Buchstabenfarbe und Hover/Lock-in/Auflösungs-Animation
+  (orange „eingeloggt“ → grün/rot); kurze Antworten auch auf dem Handy im 2er-Raster.
 - Spannungsaufbau: kurze Pause zwischen „eingeloggt“ und Auflösung, Trommelwirbel-Sound.
 - Moderator-Sprüche (Textbausteine, zufällig, je Situation).
 - Konfetti bei Sieg/Highscore (Canvas, ohne Bibliothek).
@@ -247,6 +251,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M5** ✅ | Präsentationsmodus (`F`, Vollbild, skaliert), Bild-Zoom (`Z`), Tastenkürzel-Hilfe (`?`), Statistik mit Knackpunkten, A11y-/Responsiv-Feinschliff, Browser-Tests im Repo + CI | Release 1.0 |
 | **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern; danach Bilderfragen zu Obst & Gemüse und Baumblättern sowie die Kategorien Essen & Ernährung, Computer- & Brettspiele und Die 90er | Spielspaß |
 | **M7** ✅ | **Android-App** (`android/`, `de.quizshow.app`): WebView-Hülle in Java, Web-Teil per `npm run build:android` (Bilder als Dateien statt `data:`-URIs), Laden über `WebViewAssetLoader` (https-Origin statt `file://`), native Speicherung (SharedPreferences + Dateien, Auto-Backup), Zurück-Taste → `window.quizshowBack()`, CSV-Import über den Android-Dateiauswahl-Dialog, Vollbild, Display bleibt an, Spieluhr pausiert im Hintergrund; Debug-APK per GitHub Actions (`.github/workflows/android.yml`) | Spielen auf dem Handy |
+| **M8** ✅ | Handy-Feinschliff und neues Design: „Weiter“-Bereich klebt am unteren Rand, automatisch weiter nach 5 s (abschaltbar), Kategorien als Untermenü, Startseite ohne Scrollen; Optik „Tageslicht“ (hell, Violett/Gold, Strich-Icons, neues App-Icon) nach Mockup-Auswahl | Modernes, klares Erscheinungsbild |
 
 ## 9. Tests
 

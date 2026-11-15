@@ -5,6 +5,7 @@ import { summarizeStats } from '../../core/statistics.js';
 import { saveJson, KEYS } from '../../data/storage.js';
 import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler } from '../input.js';
+import { icon } from '../icons.js';
 
 const pct = (r) => (r == null ? '–' : `${Math.round(r * 100)} %`);
 
@@ -53,7 +54,7 @@ export function renderStatistics(ctx) {
 
   mount(
     ctx.app,
-    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon', 'aria-hidden': 'true' }, '📊'), h('h1', {}, 'Statistik')),
+    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon' }, icon('chart', { size: 30 })), h('h1', {}, 'Statistik')),
     h(
       'section',
       { class: 'panel' },
@@ -95,7 +96,7 @@ export function renderStatistics(ctx) {
             h(
               'button',
               { class: 'btn btn--small', onclick: () => ctx.go('training', { replay: s.troublemakers.map((t) => t.question) }) },
-              '📚 Diese Fragen üben',
+              icon('book', { size: 18 }), 'Diese Fragen üben',
             ),
           ),
           h(

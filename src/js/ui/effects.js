@@ -1,7 +1,7 @@
 // Visual effects without libraries. All respect prefers-reduced-motion.
 const reducedMotion = () => window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
 
-const COLORS = ['#ffc940', '#ff9f1c', '#5d7cff', '#22b86b', '#e05c9b', '#ffffff'];
+const COLORS = ['#ffc940', '#ff9f1c', '#5d7cff', '#22b86b', '#e05c9b', '#4a2fe0'];
 
 /** Confetti burst on a temporary full-screen canvas. */
 export function confetti({ count = 140, duration = 2600 } = {}) {

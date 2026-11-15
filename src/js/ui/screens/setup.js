@@ -9,6 +9,7 @@ import { MAX_NAME_LENGTH } from '../../core/highscores.js';
 import { chipGroup } from '../components/chips.js';
 import { setKeyHandler } from '../input.js';
 import { modeById } from '../modes.js';
+import { icon } from '../icons.js';
 
 const COUNT_OPTIONS = [10, 20, 0]; // 0 = alle
 const ROUND_OPTIONS = [10, 15, 20];
@@ -103,7 +104,7 @@ export function renderSetup(ctx, { mode }) {
           label: 'Zeitlimit',
           multi: false,
           options: [
-            { value: true, label: '⏱ an', hint: onHint },
+            { value: true, icon: icon('clock', { size: 16 }), label: 'an', hint: onHint },
             { value: false, label: 'aus', hint: offHint },
           ],
           selected: [choice.timer],
@@ -170,8 +171,8 @@ export function renderSetup(ctx, { mode }) {
           label: 'Spielweise',
           multi: false,
           options: [
-            { value: 'buzzer', label: '🔔 Buzzer', hint: 'wer zuerst drückt, antwortet – falsch kostet Punkte' },
-            { value: 'turns', label: '🔁 Reihum', hint: 'jeder ist abwechselnd dran' },
+            { value: 'buzzer', icon: icon('bell', { size: 16 }), label: 'Buzzer', hint: 'wer zuerst drückt, antwortet – falsch kostet Punkte' },
+            { value: 'turns', icon: icon('repeat', { size: 16 }), label: 'Reihum', hint: 'jeder ist abwechselnd dran' },
           ],
           selected: [choice.variant],
           onChange: (v) => ((choice.variant = v[0] ?? 'buzzer'), renderNames()),
@@ -254,7 +255,7 @@ export function renderSetup(ctx, { mode }) {
     h(
       'header',
       { class: 'setup__head' },
-      h('div', { class: 'setup__icon', 'aria-hidden': 'true' }, def.icon),
+      h('div', { class: `setup__icon setup__icon--${mode}` }, icon(def.icon, { size: 30 })),
       h('h1', {}, def.name),
       h('p', {}, def.desc),
     ),

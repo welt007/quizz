@@ -4,9 +4,9 @@ import { chipGroup } from '../components/chips.js';
 import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler } from '../input.js';
 import { modeById, formatPoints } from '../modes.js';
+import { icon } from '../icons.js';
 
 const UNIT = { ladder: 'Punkte', blitz: 'Punkte', sudden: 'richtig in Folge' };
-const MEDALS = ['🥇', '🥈', '🥉'];
 
 export function renderHighscores(ctx, params = {}) {
   let mode = HIGHSCORE_MODES.includes(params.mode) ? params.mode : HIGHSCORE_MODES[0];
@@ -41,7 +41,7 @@ export function renderHighscores(ctx, params = {}) {
             h(
               'tr',
               {},
-              h('td', {}, MEDALS[i] ?? String(i + 1)),
+              h('td', {}, h('span', { class: `rank rank--${i + 1}` }, String(i + 1))),
               h('td', { class: 'hs-name' }, e.name),
               h('td', { class: 'num' }, formatPoints(e.score)),
               h('td', { class: 'hs-detail' }, e.detail ?? ''),
@@ -72,7 +72,7 @@ export function renderHighscores(ctx, params = {}) {
   const back = h('button', { class: 'btn', onclick: () => ctx.go('start') }, 'Zurück');
   mount(
     ctx.app,
-    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon', 'aria-hidden': 'true' }, '🏅'), h('h1', {}, 'Bestenliste')),
+    h('header', { class: 'setup__head' }, h('div', { class: 'setup__icon' }, icon('medal', { size: 30 })), h('h1', {}, 'Bestenliste')),
     h('section', { class: 'panel' }, tabs.el, tableSlot),
     h('div', { class: 'actions' }, back),
   );

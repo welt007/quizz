@@ -14,10 +14,12 @@ import { confetti, pulseClass } from '../effects.js';
 import { formatPoints } from '../modes.js';
 import { nextButton } from '../components/nextButton.js';
 import { gameFooter } from '../components/gameFooter.js';
+import { icon } from '../icons.js';
 
 const LOCK_DELAY_MS = 1300; // suspense between "logged in" and reveal (matches the drum roll)
 const TICK_FROM_SECONDS = 5;
 const JOKER_KEYS = { h: 'fifty', p: 'audience', t: 'time' };
+const JOKER_ICONS = { fifty: 'half', audience: 'users', time: 'clock' };
 
 /** params: { questions, timer } */
 export function renderLadder(ctx, params) {
@@ -35,7 +37,7 @@ export function renderLadder(ctx, params) {
       { class: `ladder__step${lvl.safe ? ' is-safe' : ''}` },
       h('span', { class: 'ladder__no' }, String(i + 1)),
       h('span', { class: 'ladder__points' }, formatPoints(lvl.points)),
-      lvl.safe ? h('span', { class: 'ladder__safe', title: 'Sicherheitsstufe' }, '🛡') : null,
+      lvl.safe ? h('span', { class: 'ladder__safe', title: 'Sicherheitsstufe' }, icon('shield', { size: 14 })) : null,
     ),
   );
   const jokerButtons = Object.fromEntries(
@@ -44,7 +46,7 @@ export function renderLadder(ctx, params) {
       h(
         'button',
         { class: `joker joker--${type}`, title: `${j.title} (Taste ${Object.keys(JOKER_KEYS).find((k) => JOKER_KEYS[k] === type).toUpperCase()})`, onclick: () => useJoker(type) },
-        h('span', { class: 'joker__icon', 'aria-hidden': 'true' }, j.icon),
+        h('span', { class: 'joker__icon' }, icon(JOKER_ICONS[type], { size: 18 })),
         h('span', { class: 'joker__label' }, j.label),
       ),
     ]),
@@ -66,8 +68,8 @@ export function renderLadder(ctx, params) {
       h(
         'div',
         { class: 'game__main' },
-        h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => abort() }, '✕ Beenden'), status),
-        h('div', { class: 'host' }, h('span', { class: 'host__avatar', 'aria-hidden': 'true' }, '🎤'), hostText),
+        h('div', { class: 'topbar' }, h('button', { class: 'link topbar__exit', onclick: () => abort() }, icon('x', { size: 16 }), 'Beenden'), status),
+        h('div', { class: 'host' }, h('span', { class: 'host__avatar' }, icon('mic', { size: 22 })), hostText),
         h('div', { class: 'hud' }, h('div', { class: 'jokers', role: 'group', 'aria-label': 'Joker' }, Object.values(jokerButtons)), timerSlot),
         stage,
         explanation,
@@ -193,7 +195,7 @@ export function renderLadder(ctx, params) {
         audio.play('win');
         confetti({ count: 220, duration: 3500 });
       } else if (lvl.safe) {
-        feedback.textContent = `Richtig! ${formatPoints(lvl.points)} Punkte – Sicherheitsstufe erreicht! 🛡`;
+        feedback.textContent = `Richtig! ${formatPoints(lvl.points)} Punkte – Sicherheitsstufe erreicht!`;
         say('safe', { points: formatPoints(lvl.points) });
         audio.play('safe');
         confetti({ count: 90, duration: 2000 });
@@ -279,11 +281,11 @@ export function renderLadder(ctx, params) {
 function renderLadderResult(ctx, s, params) {
   const reached = s.outcome === 'won' ? LADDER.length : s.level;
   const titles = {
-    won: ['🏆', 'Hauptgewinn!', `Alle ${LADDER.length} Fragen richtig beantwortet.`],
-    walked: ['🧠', 'Clever ausgestiegen!', `${reached} von ${LADDER.length} Fragen geschafft.`],
-    lost: ['💥', s.timedOut ? 'Die Zeit ist um!' : 'Das war’s!', `${reached} von ${LADDER.length} Fragen geschafft.`],
+    won: ['trophy', 'Hauptgewinn!', `Alle ${LADDER.length} Fragen richtig beantwortet.`],
+    walked: ['flag', 'Clever ausgestiegen!', `${reached} von ${LADDER.length} Fragen geschafft.`],
+    lost: ['xCircle', s.timedOut ? 'Die Zeit ist um!' : 'Das war’s!', `${reached} von ${LADDER.length} Fragen geschafft.`],
   };
-  const [icon, title, sub] = titles[s.outcome];
+  const [iconName, title, sub] = titles[s.outcome];
   const again = h('button', { class: 'btn btn--big', onclick: () => ctx.go('ladder', params) }, 'Nochmal spielen');
   const used = Object.entries(s.jokers).filter(([type, available]) => !available && (type !== 'time' || s.timer));
   const detail = [
@@ -302,7 +304,7 @@ function renderLadderResult(ctx, s, params) {
     h(
       'section',
       { class: `result result--${s.outcome}` },
-      h('div', { class: 'result__icon', 'aria-hidden': 'true' }, icon),
+      h('div', { class: 'result__icon' }, icon(iconName, { size: 44 })),
       h('h1', { class: 'result__title' }, title),
       h('p', { class: 'result__points' }, h('strong', { class: 'countup' }, '0'), ' Punkte'),
       h('p', { class: 'result__sub' }, sub, used.length ? ` Joker eingesetzt: ${used.map(([t]) => JOKERS[t].label).join(', ')}.` : ' Ganz ohne Joker!'),

@@ -1,50 +1,42 @@
 import { h, mount } from '../dom.js';
 import { MODES } from '../modes.js';
+import { icon } from '../icons.js';
 import { showHelp } from '../components/help.js';
 
 export function renderStart(ctx) {
-  const tool = (icon, label, screen) =>
-    h('button', { class: 'link tool', onclick: () => ctx.go(screen) }, h('span', { class: 'tool__icon', 'aria-hidden': 'true' }, icon), ' ', h('span', {}, label));
   const { questions, activeCatalogs, totalCatalogs } = ctx.catalog;
   const empty = questions.length === 0;
 
-  const modeButtons = MODES.map((m) =>
+  const modeButtons = MODES.map((m, i) =>
     h(
       'button',
       {
-        class: 'mode',
+        class: `mode mode--${m.id}${i === 0 ? ' mode--featured' : ''}`,
         disabled: !m.ready || empty,
         title: m.ready ? null : 'Folgt in einem der nächsten Meilensteine',
         onclick: () => ctx.go('setup', { mode: m.id }),
       },
-      h('span', { class: 'mode__icon', 'aria-hidden': 'true' }, m.icon),
+      h('span', { class: 'mode__icon' }, icon(m.icon, { size: i === 0 ? 26 : 22 })),
       h('span', { class: 'mode__name' }, m.name),
-      h('span', { class: 'mode__desc' }, m.desc),
+      h('span', { class: 'mode__desc' }, i === 0 ? m.desc : m.short),
+      i === 0 ? h('span', { class: 'mode__go', 'aria-hidden': 'true' }, 'Los') : null,
       m.ready ? null : h('span', { class: 'badge' }, 'demnächst'),
     ),
   );
+  const tool = (name, label, screen) => h('button', { class: 'tool', onclick: () => ctx.go(screen) }, icon(name, { size: 18 }), h('span', {}, label));
 
   mount(
     ctx.app,
     h('header', { class: 'logo' }, h('h1', {}, 'QUIZSHOW'), h('p', {}, 'Licht an, Bühne frei!')),
+    empty ? h('p', { class: 'setup__info is-warning' }, 'Keine aktiven Fragen – bitte in den Optionen mindestens einen Katalog aktivieren.') : null,
+    h('section', { class: 'start__modes', 'aria-labelledby': 'modes-title' }, h('h2', { class: 'visually-hidden', id: 'modes-title' }, 'Spielmodus'), h('div', { class: 'modes' }, modeButtons)),
     h(
-      'section',
-      { class: 'panel' },
-      h(
-        'div',
-        { class: 'panel__head' },
-        h('h2', {}, 'Spielmodus'),
-        h(
-          'div',
-          { class: 'panel__tools' },
-          tool('🗂️', 'Kategorien', 'categories'),
-          tool('🏅', 'Bestenliste', 'highscores'),
-          tool('📊', 'Statistik', 'statistics'),
-          tool('⚙️', 'Optionen & Kataloge', 'options'),
-        ),
-      ),
-      empty ? h('p', { class: 'setup__info is-warning' }, 'Keine aktiven Fragen – bitte in den Optionen mindestens einen Katalog aktivieren.') : null,
-      h('div', { class: 'modes' }, modeButtons),
+      'nav',
+      { class: 'tools', 'aria-label': 'Menü' },
+      tool('grid', 'Kategorien', 'categories'),
+      tool('medal', 'Bestenliste', 'highscores'),
+      tool('chart', 'Statistik', 'statistics'),
+      tool('sliders', 'Optionen & Kataloge', 'options'),
     ),
     h(
       'footer',
@@ -52,7 +44,7 @@ export function renderStart(ctx) {
       `${ctx.platform === 'android' ? 'App-' : ''}Version ${ctx.version} · ${activeCatalogs} von ${totalCatalogs} Katalogen aktiv · `,
       h('button', { class: 'link', onclick: () => ctx.go('options') }, 'Kataloge verwalten'),
       ' · ',
-      h('button', { class: 'link', onclick: () => showHelp() }, '⌨️ Tastenkürzel (?)'),
+      h('button', { class: 'link', onclick: () => showHelp() }, 'Tastenkürzel (?)'),
     ),
   );
 
