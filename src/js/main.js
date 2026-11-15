@@ -20,6 +20,7 @@ import { renderHighscores } from './ui/screens/highscores.js';
 import { renderOptions } from './ui/screens/options.js';
 import { renderStatistics } from './ui/screens/statistics.js';
 import { renderCategories } from './ui/screens/categories.js';
+import { renderJourney } from './ui/screens/journey.js';
 import { icon } from './ui/icons.js';
 
 /* global __APP_VERSION__, __APP_PLATFORM__ */
@@ -47,6 +48,7 @@ const screens = {
   options: renderOptions,
   statistics: renderStatistics,
   categories: renderCategories,
+  journey: renderJourney,
 };
 
 const ctx = {

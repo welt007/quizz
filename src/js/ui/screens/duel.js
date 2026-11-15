@@ -80,7 +80,7 @@ export function renderDuel(ctx, params) {
   }
 
   function renderRound() {
-    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose });
+    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, confirm: ctx.settings.confirmAnswer === true, confirmSlot: actions });
     stage.replaceChildren(view.el);
     feedback.textContent = '';
     feedback.className = 'feedback';
@@ -224,8 +224,9 @@ export function renderDuel(ctx, params) {
       const p = BUZZER_KEYS.indexOf(key);
       if (p >= 0 && p < s.players.length) buzz(p);
     } else if (s.phase === 'answering') {
+      if (e.key === 'Enter' && view.confirmSelection()) return e.preventDefault();
       const i = answerIndexFromKey(e.key);
-      if (i >= 0) choose(i);
+      if (i >= 0) view.pick(i);
     } else if (s.phase === 'reveal' && isContinueKey(e)) {
       e.preventDefault();
       actions.querySelector('button')?.click();

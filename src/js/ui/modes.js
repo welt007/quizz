@@ -1,5 +1,6 @@
 export const MODES = [
   { id: 'ladder', icon: 'trophy', name: 'Punkteleiter', desc: '15 Fragen von leicht bis extrem, mit Zeitlimit und drei Jokern.', short: '15 Fragen bis zum Hauptgewinn', ready: true },
+  { id: 'journey', icon: 'route', name: 'Journey', desc: 'Eine Reise in 15 Etappen: je 5 Fragen aus einer Kategorie, alle richtig. Etappenziele bringen Joker.', short: 'Reise in 15 Etappen, Joker sammeln', ready: true },
   { id: 'training', icon: 'book', name: 'Training', desc: 'Freie Auswahl, ohne Zeitdruck, mit Erklärungen.', short: 'Freie Auswahl, mit Erklärungen', ready: true },
   { id: 'blitz', icon: 'bolt', name: 'Blitzrunde', desc: '60 Sekunden, Serien-Multiplikator bis ×4 – Fehler kosten 3 Sekunden.', short: '60 Sekunden, Multiplikator ×4', ready: true },
   { id: 'sudden', icon: 'flame', name: 'Sudden Death', desc: 'Immer schwerer, bis zum ersten Fehler.', short: 'Bis zum ersten Fehler', ready: true },

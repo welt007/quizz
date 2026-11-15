@@ -124,6 +124,49 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
     await g.context.close();
   });
 
+  test('Option „Antwort bestätigen“: erst wählen, dann einloggen (Klick, zweites Antippen, Enter)', async () => {
+    const g = await openGame(browser);
+    const { page } = g;
+    await page.click('button:has-text("Optionen & Kataloge")');
+    await page.click('label:has-text("Antwort bestätigen")');
+    await page.click('text=Fertig');
+    await page.click('.mode >> text=Training');
+    await page.click('text=keine');
+    await page.click('.chip >> text=Obst & Gemüse');
+    await page.click('.chip >> text=Baumblätter');
+    await page.click('text=Los geht’s!');
+    const status = () => g.text('.topbar__status');
+
+    await page.waitForSelector('.answer:not(:disabled)');
+    const c = await g.correctIndex();
+    const other = (c + 1) % 4;
+    await page.locator('.answer').nth(other).click();
+    assert.equal(await page.locator('.answer.is-selected').count(), 1, 'nur markiert');
+    assert.equal(await page.locator('.answer.is-locked, .answer.is-right').count(), 0, 'noch nicht eingeloggt');
+    await page.locator('.answer').nth(c).click(); // umentschieden
+    assert.equal(await page.locator('.answer').nth(c).getAttribute('aria-pressed'), 'true');
+    await page.click('.question__confirm');
+    await page.waitForSelector('.answer.is-right');
+    assert.match(await g.text('.feedback'), /Richtig/);
+    await page.locator('.btn--next').click();
+
+    await page.waitForSelector('.answer:not(:disabled)');
+    const c2 = await g.correctIndex();
+    await page.keyboard.press('ABCD'[c2]);
+    await page.keyboard.press('ABCD'[c2]); // zweimal dieselbe Taste = einloggen
+    await page.waitForSelector('.answer.is-right');
+    await page.locator('.btn--next').click();
+
+    await page.waitForSelector('.answer:not(:disabled)');
+    const c3 = await g.correctIndex();
+    await page.keyboard.press('ABCD'[c3]);
+    await page.keyboard.press('Enter');
+    await page.waitForSelector('.answer.is-right');
+    assert.match(await status(), /3 richtig/);
+    assert.deepEqual(g.errors, []);
+    await g.context.close();
+  });
+
   test('Handy hochkant: Menü-Links im Rahmen, Bild sichtbar, „Nächste Frage“ ohne Scrollen erreichbar', async () => {
     const g = await openGame(browser, { device: 'iPhone 13' });
     const { page } = g;

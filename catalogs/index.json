@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026-11-15.3",
+  "version": "2026-11-15.4",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
   "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Obst und Gemüse: Microsoft Fluent Emoji (MIT) und eigene Zeichnungen; Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
@@ -31,7 +31,7 @@
     "geschichte.csv": "Geschichte",
     "wissenschaft.csv": "Wissenschaft & Technik",
     "natur.csv": "Tiere & Natur",
-    "baumblaetter.csv": "Blätter heimischer Bäume (Bilder)",
+    "baumblaetter.csv": "Blätter heimischer Bäume",
     "kultur.csv": "Kunst & Literatur",
     "religion.csv": "Religion & Mythologie",
     "musik.csv": "Musik",
@@ -39,7 +39,7 @@
     "sport.csv": "Sport",
     "freizeit.csv": "Freizeit & Lifestyle",
     "essen.csv": "Essen & Ernährung",
-    "obst-gemuese.csv": "Obst & Gemüse (Bilder)",
+    "obst-gemuese.csv": "Obst & Gemüse",
     "spiele.csv": "Computer- & Brettspiele",
     "neunziger.csv": "Die 90er",
     "sprache.csv": "Sprache",
@@ -126,6 +126,16 @@
       "name": "Die 90er",
       "icon": "📼",
       "color": "#1e3799"
+    },
+    "obstgemuese": {
+      "name": "Obst & Gemüse",
+      "icon": "🍎",
+      "color": "#d81b60"
+    },
+    "baumblaetter": {
+      "name": "Baumblätter",
+      "icon": "🍃",
+      "color": "#2e7d32"
     },
     "sprache": {
       "name": "Sprache",

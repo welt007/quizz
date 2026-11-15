@@ -6,7 +6,7 @@ import { setKeyHandler } from '../input.js';
 import { modeById, formatPoints } from '../modes.js';
 import { icon } from '../icons.js';
 
-const UNIT = { ladder: 'Punkte', blitz: 'Punkte', sudden: 'richtig in Folge' };
+const UNIT = { ladder: 'Punkte', journey: 'Etappen', blitz: 'Punkte', sudden: 'richtig in Folge' };
 
 export function renderHighscores(ctx, params = {}) {
   let mode = HIGHSCORE_MODES.includes(params.mode) ? params.mode : HIGHSCORE_MODES[0];
@@ -15,7 +15,7 @@ export function renderHighscores(ctx, params = {}) {
   const tabs = chipGroup({
     label: 'Spielmodus',
     multi: false,
-    options: HIGHSCORE_MODES.map((id) => ({ value: id, label: modeById(id).name, icon: modeById(id).icon })),
+    options: HIGHSCORE_MODES.map((id) => ({ value: id, label: modeById(id).name, icon: icon(modeById(id).icon, { size: 16 }) })),
     selected: [mode],
     onChange: (v) => {
       mode = v[0] ?? mode;

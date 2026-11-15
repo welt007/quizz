@@ -10,23 +10,27 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
   - **Blitzrunde** – 60 Sekunden, Serien-Multiplikator bis ×4
   - **Sudden Death** – immer schwerer, bis zum ersten Fehler
   - **Duell / Party** – 2–4 Spieler an einem Gerät, mit Buzzer (`Q` `P` `X` `N` oder Antippen) oder reihum
-- Bestenlisten (Top 10) für Punkteleiter, Blitzrunde und Sudden Death
+  - **Journey** – eine Reise in 15 Etappen: je 5 Fragen aus einer ausgelosten Kategorie, alle richtig;
+    alle 5 Etappen ein Etappenziel mit 10 Fragen und einem Joker nach Wahl (Kategorie wechseln,
+    ein Fehler frei, 50:50 für eine ganze Etappe); wird immer schwerer; Pause und Fortsetzen möglich
+- Bestenlisten (Top 10) für Punkteleiter, Journey, Blitzrunde und Sudden Death
 - Show-Feeling: Moderator, Spannungspause, Sounds (synthetisiert, offline), Konfetti – in einer hellen,
   luftigen Optik mit Glühbirnen-Akzenten
 - **Präsentationsmodus** für Beamer/TV (`F`): Vollbild, alles groß; Fragebilder zoombar (`Z`)
 - **Kategorien-Übersicht** mit Fragenzahl je Schwierigkeit (eigenes Untermenü)
 - **Statistik**: Trefferquoten je Kategorie/Schwierigkeit, „Knackpunkte“ gezielt üben
 - Bedienung per Maus, Touch oder Tastatur – Übersicht aller Tasten mit `?`
+- **Antwort bestätigen** (Option): Antippen markiert die Antwort, erst „Antwort einloggen“ zählt
 - **Automatisch weiter:** 5 Sekunden nach der Auflösung kommt die nächste Frage (abschaltbar in den
   Optionen; Antippen oder Scrollen hält die Automatik für die aktuelle Frage an)
 - Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub
 - **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
   einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln
   ein- und ausschalten lässt – alle eingeschalteten werden zu einem Fragenpool vereint
-- Über **5400 Fragen** in 17 Kategorien – u. a. Essen & Ernährung, Computer- & Brettspiele, Die 90er –
+- Über **5400 Fragen** in 19 Kategorien – u. a. Essen & Ernährung, Computer- & Brettspiele, Die 90er –
   sowie Bilderfragen zu **Flaggen**, **Länderumrissen**, **Obst & Gemüse** und **Blättern heimischer Bäume**
 
-**Status:** Version 1.0 – alle Meilensteine M0–M8 umgesetzt (M7: Android-App, M8: Design „Tageslicht“). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Version 1.0 – alle Meilensteine M0–M9 umgesetzt (M7: Android-App, M8: Design „Tageslicht“, M9: Journey). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 

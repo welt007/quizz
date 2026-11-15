@@ -35,6 +35,8 @@ const PATHS = {
   xCircle: [circle(12, 12, 9), 'M9 9l6 6', 'M15 9l-6 6'],
   target: [circle(12, 12, 9), circle(12, 12, 5), circle(12, 12, 1)],
   arrowRight: ['M5 12h14', 'M13 6l6 6-6 6'],
+  route: [circle(6, 18, 2.5), circle(18, 6, 2.5), 'M8.5 18H15a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h6.5'],
+  shuffle: ['M3 7h4l10 10h4', 'M18 14l3 3-3 3', 'M3 17h4l3-3', 'M14 10l3-3h4', 'M18 4l3 3-3 3'],
   half: [circle(12, 12, 9), 'M12 3v18', 'M12 7.5h4.5', 'M12 12h6', 'M12 16.5h4.5'],
 };
 

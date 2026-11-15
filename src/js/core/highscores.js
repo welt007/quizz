@@ -1,6 +1,6 @@
 // Highscore lists (top 10 per mode).
 export const HIGHSCORE_LIMIT = 10;
-export const HIGHSCORE_MODES = ['ladder', 'blitz', 'sudden'];
+export const HIGHSCORE_MODES = ['ladder', 'journey', 'blitz', 'sudden'];
 export const MAX_NAME_LENGTH = 20;
 
 /** Would `score` make it into the list? */

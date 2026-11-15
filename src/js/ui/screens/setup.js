@@ -9,6 +9,8 @@ import { MAX_NAME_LENGTH } from '../../core/highscores.js';
 import { chipGroup } from '../components/chips.js';
 import { setKeyHandler } from '../input.js';
 import { modeById } from '../modes.js';
+import { JOURNEY_QUESTIONS, JOURNEY_STEPS, JOURNEY_JOKERS } from '../../core/modes/journey.js';
+import { savedJourney } from './journey.js';
 import { icon } from '../icons.js';
 
 const COUNT_OPTIONS = [10, 20, 0]; // 0 = alle
@@ -21,6 +23,7 @@ const MODE_OPTIONS = {
   blitz: { difficulty: true },
   sudden: { timer: 'sudden' },
   duel: { difficulty: true, players: true },
+  journey: {},
 };
 
 const TIMER_HINTS = {
@@ -221,6 +224,11 @@ export function renderSetup(ctx, { mode }) {
       text = `Nur ${n} passende Fragen – in der Blitzrunde werden sie sich wiederholen.`;
     } else if (mode === 'sudden' && ok) {
       text = `${n} passende Fragen – so lang kann die Serie höchstens werden.`;
+    } else if (mode === 'journey' && ok) {
+      warn = n < JOURNEY_QUESTIONS;
+      text = warn
+        ? `Nur ${n} passende Fragen – für die ganze Reise werden ${JOURNEY_QUESTIONS} gebraucht. Mehr Kategorien wählen, sonst endet sie früher.`
+        : `${n} passende Fragen in ${choice.categories.length} Kategorien.`;
     } else if (mode === 'duel' && ok) {
       warn = n < choice.rounds;
       text = warn ? `Nur ${n} passende Fragen – es werden ${n} Runden gespielt.` : `${n} passende Fragen – gespielt werden ${choice.rounds} Runden.`;
@@ -249,6 +257,34 @@ export function renderSetup(ctx, { mode }) {
   setKeyHandler((e) => {
     if (e.key === 'Escape') ctx.go('start');
   });
+
+  const resume = mode === 'journey' ? savedJourney(ctx) : null;
+  if (resume) {
+    const questions = filterQuestions(ctx.catalog.questions, { categories: resume.categories });
+    const jokers = Object.entries(resume.jokers ?? {}).filter(([, n]) => n > 0).map(([t, n]) => `${n}× ${JOURNEY_JOKERS[t]?.label ?? t}`);
+    const go = h(
+      'button',
+      { class: 'btn', disabled: !questions.length, onclick: () => ctx.go('journey', { questions, categories: resume.categories, resume }) },
+      'Reise fortsetzen',
+    );
+    sections.unshift(
+      h(
+        'section',
+        { class: 'panel journey__resume' },
+        h('h2', {}, 'Gespeicherte Reise'),
+        h(
+          'p',
+          { class: 'setup__info' },
+          `Weiter mit Etappe ${resume.step + 1} von ${JOURNEY_STEPS}`,
+          jokers.length ? ` · Joker: ${jokers.join(', ')}` : ' · keine Joker',
+          resume.date ? ` · gespeichert am ${new Date(resume.date).toLocaleDateString('de-DE')}` : '',
+          questions.length ? '' : ' – die Kategorien sind derzeit nicht verfügbar.',
+        ),
+        h('div', { class: 'actions actions--start' }, go),
+        h('p', { class: 'options__hint' }, '„Los geht’s!“ unten startet eine neue Reise und ersetzt die gespeicherte.'),
+      ),
+    );
+  }
 
   mount(
     ctx.app,

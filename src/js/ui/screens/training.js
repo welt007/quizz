@@ -51,7 +51,7 @@ export function renderTraining(ctx, params) {
   let busy = false;
 
   function renderQuestion() {
-    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose });
+    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, confirm: ctx.settings.confirmAnswer === true, confirmSlot: actions });
     stage.replaceChildren(view.el);
     feedback.textContent = '';
     feedback.className = 'feedback';
@@ -113,8 +113,9 @@ export function renderTraining(ctx, params) {
     if (e.key === 'Escape') return end();
     if (busy) return;
     if (s.phase === 'question') {
+      if (e.key === 'Enter' && view.confirmSelection()) return e.preventDefault();
       const i = answerIndexFromKey(e.key);
-      if (i >= 0) choose(i);
+      if (i >= 0) view.pick(i);
     } else if (isContinueKey(e)) {
       e.preventDefault();
       actions.querySelector('button')?.click();

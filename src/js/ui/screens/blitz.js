@@ -61,7 +61,7 @@ export function renderBlitz(ctx, params) {
 
   let view;
   function renderQuestion() {
-    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, fast: true });
+    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, fast: true, confirm: ctx.settings.confirmAnswer === true });
     stage.replaceChildren(view.el);
     updateHud();
   }
@@ -130,8 +130,9 @@ export function renderBlitz(ctx, params) {
 
   setKeyHandler((e) => {
     if (e.key === 'Escape') return abort();
+    if (e.key === 'Enter' && view.confirmSelection()) return e.preventDefault();
     const i = answerIndexFromKey(e.key);
-    if (i >= 0) choose(i);
+    if (i >= 0) view.pick(i);
   });
 
   renderQuestion();

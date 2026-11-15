@@ -2,7 +2,7 @@ import { h } from '../dom.js';
 
 const SECTIONS = [
   ['Überall', [['M', 'Ton an/aus'], ['F', 'Präsentationsmodus (Vollbild, groß für Beamer/TV)'], ['?', 'diese Übersicht'], ['Esc', 'zurück bzw. Spiel beenden']]],
-  ['Im Spiel', [['A–D oder 1–4', 'Antwort wählen'], ['Enter / Leertaste / →', 'weiter'], ['Z', 'Fragebild vergrößern']]],
+  ['Im Spiel', [['A–D oder 1–4', 'Antwort wählen'], ['Enter', 'gewählte Antwort einloggen (Option „Antwort bestätigen“)'], ['Enter / Leertaste / →', 'weiter'], ['Z', 'Fragebild vergrößern']]],
   ['Punkteleiter', [['H', 'Joker 50:50'], ['P', 'Joker Publikum'], ['T', 'Joker +30 Sekunden']]],
   ['Duell mit Buzzer', [['Q · P · X · N', 'Buzzer für Spieler 1–4'], ['danach A–D', 'antworten']]],
 ];

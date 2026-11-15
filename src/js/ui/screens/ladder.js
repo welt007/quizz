@@ -91,7 +91,7 @@ export function renderLadder(ctx, params) {
 
   function renderQuestion(first = false) {
     const lvl = LADDER[s.level];
-    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose });
+    view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, confirm: ctx.settings.confirmAnswer === true, confirmSlot: actions });
     stage.replaceChildren(view.el);
     feedback.textContent = '';
     feedback.className = 'feedback';
@@ -261,8 +261,9 @@ export function renderLadder(ctx, params) {
     if (e.key === 'Escape') return abort();
     if (busy) return;
     if (s.phase === 'question') {
+      if (e.key === 'Enter' && view.confirmSelection()) return e.preventDefault();
       const i = answerIndexFromKey(e.key);
-      if (i >= 0) return choose(i);
+      if (i >= 0) return view.pick(i);
       const joker = JOKER_KEYS[e.key.toLowerCase()];
       if (joker) useJoker(joker);
     } else if (isContinueKey(e)) {

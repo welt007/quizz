@@ -166,6 +166,7 @@ kleine Zustandsmaschine (`intro → question → reveal → … → result`).
 | **Sudden Death** | Fragen bis zum ersten Fehler (oder Zeitablauf); Schwierigkeit steigt alle 5 Fragen (leicht → medium → schwer → extrem) | Zeitlimit wie Punkteleiter, abschaltbar; Wertung = Serie; sind alle passenden Fragen geschafft: „Unbesiegbar!“ |
 | **Duell / Party** (2–4 Spieler, ein Gerät) | 10/15/20 Runden, Spielernamen; **Buzzer** (Tasten `Q`, `P`, `X`, `N` – auf beiden Tastaturlayouts gleich – oder Antippen des eigenen Namens) oder **Reihum** | Punkte je Stufe 100/200/300/400. Buzzer: 20 s zum Buzzern, dann 10 s zum Antworten; falsch kostet die Hälfte, die Antwort wird ausgeblendet und die anderen dürfen nachbuzzern. Reihum: 30 s, falsch ohne Abzug. Siegerehrung mit geteilten Plätzen bei Gleichstand |
 | **Training** | Freie Wahl von Kategorie(n) und Schwierigkeit(en), kein Timer | Erklärung (`explanation`) nach jeder Antwort, „falsch beantwortete wiederholen“ |
+| **Journey** (`core/modes/journey.js`) | Reise in **15 Etappen**; jede Etappe spielt in einer ausgelosten Kategorie (nie zweimal hintereinander dieselbe) mit 5 Fragen, die alle richtig sein müssen; jede 5. Etappe ist ein **Etappenziel** mit 10 Fragen. Schwierigkeit: Etappe 1–4 leicht, 5–8 medium, 9–12 schwer, ab 13 extrem (fehlt eine Stufe, wird auf eine benachbarte ausgewichen) | Etappenziel → **Joker nach Wahl**, sammelbar: **Kategorie wechseln** (Rest der Etappe aus einer anderen Kategorie), **Ein Fehler frei** (in dieser Etappe darf eine Frage falsch sein, vorher aktivieren), **50:50 für die Etappe**. Kein Timer. Ein Fehler beendet die Reise. Gespeichert wird am Anfang jeder Etappe (`settings.journey`): „Reise fortsetzen“ in der Einrichtung. Wertung = geschaffte Etappen |
 
 ### 5.1 Punkteleiter (15 Stufen)
 
@@ -224,7 +225,7 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 
 | Schlüssel | Speicher | Inhalt |
 |---|---|---|
-| `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“, „Automatisch weiter“ (`autoNext`, Standard an) |
+| `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“, „Automatisch weiter“ (`autoNext`, Standard an), „Antwort bestätigen“ (`confirmAnswer`, Standard aus), gespeicherte Reise (`journey`) |
 | `quizshow.library` | localStorage | Quellen mit Katalogen: id, Art, Name, URL, Version/Hash, Stand, Kategorie-Infos, je Katalog an/aus, Anzahl, übersprungene Zeilen |
 | `quizshow.highscores` | localStorage | je Modus (Punkteleiter, Blitzrunde, Sudden Death) Top 10: Name, Wertung, Details (Kategorien, Timer, Joker …), Datum |
 | `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |
@@ -252,6 +253,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern; danach Bilderfragen zu Obst & Gemüse und Baumblättern sowie die Kategorien Essen & Ernährung, Computer- & Brettspiele und Die 90er | Spielspaß |
 | **M7** ✅ | **Android-App** (`android/`, `de.quizshow.app`): WebView-Hülle in Java, Web-Teil per `npm run build:android` (Bilder als Dateien statt `data:`-URIs), Laden über `WebViewAssetLoader` (https-Origin statt `file://`), native Speicherung (SharedPreferences + Dateien, Auto-Backup), Zurück-Taste → `window.quizshowBack()`, CSV-Import über den Android-Dateiauswahl-Dialog, Vollbild, Display bleibt an, Spieluhr pausiert im Hintergrund; Debug-APK per GitHub Actions (`.github/workflows/android.yml`) | Spielen auf dem Handy |
 | **M8** ✅ | Handy-Feinschliff und neues Design: „Weiter“-Bereich klebt am unteren Rand, automatisch weiter nach 5 s (abschaltbar), Kategorien als Untermenü, Startseite ohne Scrollen; Optik „Tageslicht“ (hell, Violett/Gold, Strich-Icons, neues App-Icon) nach Mockup-Auswahl | Modernes, klares Erscheinungsbild |
+| **M9** ✅ | Modus **Journey** (Etappen, Etappenziele mit Jokern, Fortsetzen), Option **Antwort bestätigen**, Kategorien „Obst & Gemüse“ und „Baumblätter“ einzeln wählbar | Mehr Abwechslung |
 
 ## 9. Tests
 

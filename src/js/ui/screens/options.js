@@ -310,6 +310,16 @@ export function renderOptions(ctx) {
     },
   });
   autoNext.checked = autoNextEnabled(ctx);
+  const confirmAnswer = h('input', {
+    type: 'checkbox',
+    role: 'switch',
+    class: 'switch__input',
+    onchange: (e) => {
+      ctx.saveSettings({ confirmAnswer: e.target.checked });
+      audio.play('click');
+    },
+  });
+  confirmAnswer.checked = ctx.settings.confirmAnswer === true;
 
   setKeyHandler((e) => {
     if (e.key === 'Escape') ctx.go('start');
@@ -363,6 +373,14 @@ export function renderOptions(ctx) {
         h('span', { class: 'switch__text' }, `Automatisch weiter: ${AUTO_NEXT_SECONDS} Sekunden nach der Auflösung kommt die nächste Frage`),
       ),
       h('p', { class: 'options__hint' }, 'Antippen oder Scrollen hält die Automatik für die aktuelle Frage an, z. B. um eine Erklärung in Ruhe zu lesen.'),
+      h(
+        'label',
+        { class: 'switch' },
+        confirmAnswer,
+        h('span', { class: 'switch__track', 'aria-hidden': 'true' }),
+        h('span', { class: 'switch__text' }, 'Antwort bestätigen: Eine Antwort ist erst gewählt, wenn du sie einloggst'),
+      ),
+      h('p', { class: 'options__hint' }, 'Antippen markiert die Antwort; „Antwort einloggen“, ein zweites Antippen oder Enter loggt sie ein. So lässt sich ein Vertippen noch korrigieren.'),
     ),
     h(
       'section',

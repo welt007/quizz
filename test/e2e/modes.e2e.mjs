@@ -16,7 +16,7 @@ describe('Spielmodi (Browser, offline)', { skip }, () => {
 
   test('Startbildschirm: alle Modi, Kataloge aktiv', async () => {
     const g = await openGame(browser);
-    assert.equal(await g.page.locator('.mode:not(:disabled)').count(), 5);
+    assert.equal(await g.page.locator('.mode:not(:disabled)').count(), 6);
     const b = g.builtin;
     assert.ok((await g.text('.footer')).includes(`${b.files} von ${b.files} Katalogen aktiv`));
     await g.page.click('button:has-text("Kategorien")');
@@ -242,6 +242,51 @@ describe('Spielmodi (Browser, offline)', { skip }, () => {
     assert.equal(await page.locator('.answer.is-wrong').count(), 1);
     await page.keyboard.press('Enter');
     assert.match(await g.text('.duel__prompt'), /Spieler 2 ist dran/);
+    await noProblems(g);
+  });
+
+  test('Journey: Etappe aus einer Kategorie, Pause, Fortsetzen, Ende bei Fehler', async () => {
+    const g = await openGame(browser);
+    const { page } = g;
+    await page.click('.mode >> text=Journey');
+    assert.match(await g.text('.setup__info'), /passende Fragen in \d+ Kategorien/);
+    await page.click('text=Los geht’s!');
+    await page.waitForSelector('.journey__route');
+    assert.equal(await page.locator('.journey__stop').count(), 15);
+    assert.equal(await page.locator('.journey__stop.is-milestone').count(), 3);
+    assert.match(await g.text('.topbar__status'), /Etappe 1 von 15/);
+    const category = await g.text('.journey__stage .question__category');
+    assert.match(await g.text('.journey__stage'), /leicht/);
+    for (let i = 0; i < 5; i++) {
+      await page.waitForSelector('.answer:not(:disabled)');
+      assert.equal(await g.text('.journey__stage .question__category'), category, 'eine Kategorie je Etappe');
+      await g.answer(true, { key: i % 2 === 1 });
+      await page.waitForSelector('.btn--next');
+      assert.equal(await page.locator('.journey__pip.is-right').count(), i + 1);
+      await page.keyboard.press('Enter');
+    }
+    await page.waitForSelector('.journey__card');
+    assert.match(await g.text('.journey__title'), /Etappe 1 geschafft/);
+    assert.equal(await page.locator('.journey__stop.is-done').count(), 1);
+    await page.click('text=Weiter zu Etappe 2');
+    await page.waitForSelector('.answer:not(:disabled)');
+    // pause and resume: continues at the start of stage 2
+    await page.click('.topbar__exit');
+    await page.click('dialog button[value=ok]');
+    await page.click('.mode >> text=Journey');
+    assert.match(await g.text('.journey__resume'), /Weiter mit Etappe 2 von 15/);
+    await page.click('text=Reise fortsetzen');
+    await page.waitForSelector('.answer:not(:disabled)');
+    assert.match(await g.text('.topbar__status'), /Etappe 2 von 15/);
+    assert.equal(await page.locator('.journey__stop.is-done').count(), 1);
+    await g.answer(false);
+    await page.waitForSelector('.btn--next');
+    assert.match(await g.text('.feedback'), /Hier endet die Reise/);
+    await page.locator('.btn--next').click();
+    assert.match(await g.text('.result__points'), /1 \/ 15/);
+    await page.click('text=Hauptmenü');
+    await page.click('.mode >> text=Journey');
+    assert.equal(await page.locator('.journey__resume').count(), 0, 'beendete Reise ist nicht mehr gespeichert');
     await noProblems(g);
   });
 });
