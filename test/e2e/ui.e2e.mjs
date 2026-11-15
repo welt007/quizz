@@ -83,6 +83,69 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
     await g.context.close();
   });
 
+  test('Automatisch weiter nach 5 Sekunden, anhalten durch Antippen, abschaltbar', async () => {
+    const g = await openGame(browser, { clock: true });
+    const { page } = g;
+    const status = () => g.text('.topbar__status');
+    const answerNow = async () => {
+      await page.clock.runFor(1000); // question appears
+      await g.answer(true);
+      await page.clock.runFor(1500); // reveal
+      await page.waitForSelector('.btn--next');
+    };
+    await page.click('.mode >> text=Training');
+    await page.click('text=keine');
+    await page.click('.chip >> text=Geographie');
+    await page.click('text=Los geht’s!');
+    await answerNow();
+    assert.ok(await page.locator('.btn--next.is-counting').count(), 'Countdown läuft');
+    await page.clock.runFor(5200);
+    assert.match(await status(), /Frage 2 von 10/);
+
+    await answerNow();
+    await page.mouse.click(5, 300); // touches the screen elsewhere → stays
+    await page.clock.runFor(8000);
+    assert.match(await status(), /Frage 2 von 10/);
+    assert.equal(await page.locator('.btn--next.is-counting').count(), 0);
+    await page.click('.btn--next');
+    assert.match(await status(), /Frage 3 von 10/);
+
+    await page.goto(page.url()); // fresh start, settings are kept
+    await page.click('text=⚙️ Optionen & Kataloge');
+    await page.click('label:has-text("Automatisch weiter")');
+    await page.goto(page.url());
+    await page.click('.mode >> text=Training');
+    await page.click('text=Los geht’s!');
+    await answerNow();
+    assert.equal(await page.locator('.btn--next.is-counting').count(), 0, 'abgeschaltet');
+    await page.clock.runFor(8000);
+    assert.match(await status(), /Frage 1 von/);
+    assert.deepEqual(g.errors, []);
+    await g.context.close();
+  });
+
+  test('Handy hochkant: Menü-Links im Rahmen, Bild sichtbar, „Nächste Frage“ ohne Scrollen erreichbar', async () => {
+    const g = await openGame(browser, { device: 'iPhone 13' });
+    const { page } = g;
+    const panel = await page.locator('.panel').first().boundingBox();
+    for (const box of await Promise.all((await page.locator('.tool').all()).map((t) => t.boundingBox()))) {
+      assert.ok(box.x >= panel.x && box.x + box.width <= panel.x + panel.width + 0.5, 'Link im Rahmen');
+    }
+    await page.click('.mode >> text=Training');
+    await page.click('text=keine');
+    await page.click('.chip >> text=Flaggen');
+    await page.click('text=Los geht’s!');
+    await page.waitForSelector('.answer:not(:disabled)');
+    const img = await page.locator('.question__image').boundingBox();
+    assert.ok(img && img.width > 100 && img.height > 50, 'Fragebild sichtbar');
+    await g.answer(false);
+    await page.waitForSelector('.btn--next');
+    const btn = await page.locator('.btn--next').boundingBox();
+    assert.ok(btn.y >= 0 && btn.y + btn.height <= page.viewportSize().height, '„Nächste Frage“ im sichtbaren Bereich');
+    assert.deepEqual(g.errors, []);
+    await g.context.close();
+  });
+
   for (const device of ['iPhone 13', 'iPhone 13 landscape']) {
     test(`Handy (${device}): kein seitliches Scrollen, Buzzer sichtbar`, async () => {
       const g = await openGame(browser, { device });

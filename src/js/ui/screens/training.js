@@ -8,6 +8,8 @@ import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
+import { nextButton } from '../components/nextButton.js';
+import { gameFooter } from '../components/gameFooter.js';
 
 const LOCK_DELAY_MS = 350;
 
@@ -38,9 +40,8 @@ export function renderTraining(ctx, params) {
         h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => end() }, '✕ Beenden'), status),
         progress,
         stage,
-        feedback,
         explanation,
-        actions,
+        gameFooter(feedback, actions),
       ),
     ),
   );
@@ -80,9 +81,9 @@ export function renderTraining(ctx, params) {
       if (!s.correct) pulseClass(stage, 'is-shaking', 500);
       explanation.textContent = s.current.question.explanation ?? '';
       const last = s.index + 1 >= s.total;
-      const next = h('button', { class: 'btn', onclick: () => advance() }, last ? 'Zum Ergebnis' : 'Nächste Frage');
+      const next = nextButton(ctx, last ? 'Zum Ergebnis' : 'Nächste Frage', () => advance());
       actions.replaceChildren(next);
-      next.focus();
+      next.focus({ preventScroll: true });
       busy = false;
     }, LOCK_DELAY_MS);
   }

@@ -220,7 +220,7 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 
 | Schlüssel | Speicher | Inhalt |
 |---|---|---|
-| `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“ |
+| `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“, „Automatisch weiter“ (`autoNext`, Standard an) |
 | `quizshow.library` | localStorage | Quellen mit Katalogen: id, Art, Name, URL, Version/Hash, Stand, Kategorie-Infos, je Katalog an/aus, Anzahl, übersprungene Zeilen |
 | `quizshow.highscores` | localStorage | je Modus (Punkteleiter, Blitzrunde, Sudden Death) Top 10: Name, Wertung, Details (Kategorien, Timer, Joker …), Datum |
 | `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |

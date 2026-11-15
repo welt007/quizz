@@ -11,6 +11,8 @@ import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, countdown, pulseClass } from '../effects.js';
 import { formatPoints } from '../modes.js';
+import { nextButton } from '../components/nextButton.js';
+import { gameFooter } from '../components/gameFooter.js';
 
 const LOCK_DELAY_MS = 700;
 const MEDALS = ['🥇', '🥈', '🥉', '🎖️'];
@@ -54,10 +56,12 @@ export function renderDuel(ctx, params) {
         h('div', { class: 'topbar' }, h('button', { class: 'link', onclick: () => abort() }, '✕ Beenden'), status),
         h('div', { class: 'hud' }, prompt, timerSlot),
         stage,
-        feedback,
         explanation,
-        actions,
-        h('div', { class: 'players-bar', role: 'group', 'aria-label': buzzer ? 'Buzzer' : 'Spieler' }, cards),
+        gameFooter(
+          feedback,
+          actions,
+          h('div', { class: 'players-bar', role: 'group', 'aria-label': buzzer ? 'Buzzer' : 'Spieler' }, cards),
+        ),
       ),
     ),
   );
@@ -191,7 +195,7 @@ export function renderDuel(ctx, params) {
     explanation.textContent = q.explanation ?? '';
     updatePlayers();
     const last = s.round + 1 >= s.rounds;
-    const next = h('button', { class: 'btn', onclick: () => advance() }, last ? 'Zur Siegerehrung' : 'Nächste Frage');
+    const next = nextButton(ctx, last ? 'Zur Siegerehrung' : 'Nächste Frage', () => advance());
     actions.replaceChildren(next);
     next.focus({ preventScroll: true });
   }

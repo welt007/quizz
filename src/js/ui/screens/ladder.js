@@ -12,6 +12,8 @@ import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
 import { formatPoints } from '../modes.js';
+import { nextButton } from '../components/nextButton.js';
+import { gameFooter } from '../components/gameFooter.js';
 
 const LOCK_DELAY_MS = 1300; // suspense between "logged in" and reveal (matches the drum roll)
 const TICK_FROM_SECONDS = 5;
@@ -68,9 +70,8 @@ export function renderLadder(ctx, params) {
         h('div', { class: 'host' }, h('span', { class: 'host__avatar', 'aria-hidden': 'true' }, '🎤'), hostText),
         h('div', { class: 'hud' }, h('div', { class: 'jokers', role: 'group', 'aria-label': 'Joker' }, Object.values(jokerButtons)), timerSlot),
         stage,
-        feedback,
         explanation,
-        actions,
+        gameFooter(feedback, actions),
       ),
       ladderEl,
     ),
@@ -211,7 +212,7 @@ export function renderLadder(ctx, params) {
       pulseClass(stage, 'is-shaking', 500);
     }
     explanation.textContent = q.explanation ?? '';
-    const next = h('button', { class: 'btn', onclick: () => advance() }, s.outcome ? 'Zum Ergebnis' : 'Nächste Frage');
+    const next = nextButton(ctx, s.outcome ? 'Zum Ergebnis' : 'Nächste Frage', () => advance());
     actions.replaceChildren(next);
     next.focus({ preventScroll: true });
   }

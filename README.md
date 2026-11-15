@@ -15,6 +15,8 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - **Präsentationsmodus** für Beamer/TV (`F`): Vollbild, alles groß; Fragebilder zoombar (`Z`)
 - **Statistik**: Trefferquoten je Kategorie/Schwierigkeit, „Knackpunkte“ gezielt üben
 - Bedienung per Maus, Touch oder Tastatur – Übersicht aller Tasten mit `?`
+- **Automatisch weiter:** 5 Sekunden nach der Auflösung kommt die nächste Frage (abschaltbar in den
+  Optionen; Antippen oder Scrollen hält die Automatik für die aktuelle Frage an)
 - Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub
 - **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
   einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln

@@ -5,6 +5,8 @@ import { MODES } from '../modes.js';
 import { showHelp } from '../components/help.js';
 
 export function renderStart(ctx) {
+  const tool = (icon, label, screen) =>
+    h('button', { class: 'link tool', onclick: () => ctx.go(screen) }, h('span', { class: 'tool__icon', 'aria-hidden': 'true' }, icon), ' ', h('span', {}, label));
   const { questions, activeCatalogs, totalCatalogs } = ctx.catalog;
   const empty = questions.length === 0;
 
@@ -37,9 +39,9 @@ export function renderStart(ctx) {
         h(
           'div',
           { class: 'panel__tools' },
-          h('button', { class: 'link', onclick: () => ctx.go('highscores') }, '🏅 Bestenliste'),
-          h('button', { class: 'link', onclick: () => ctx.go('statistics') }, '📊 Statistik'),
-          h('button', { class: 'link', onclick: () => ctx.go('options') }, '⚙️ Optionen & Kataloge'),
+          tool('🏅', 'Bestenliste', 'highscores'),
+          tool('📊', 'Statistik', 'statistics'),
+          tool('⚙️', 'Optionen & Kataloge', 'options'),
         ),
       ),
       empty ? h('p', { class: 'setup__info is-warning' }, 'Keine aktiven Fragen – bitte in den Optionen mindestens einen Katalog aktivieren.') : null,

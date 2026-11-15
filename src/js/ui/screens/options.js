@@ -7,6 +7,7 @@ import { saveJson, KEYS } from '../../data/storage.js';
 import { confirmDialog } from '../components/dialog.js';
 import { setKeyHandler } from '../input.js';
 import { audio } from '../audio.js';
+import { autoNextEnabled, AUTO_NEXT_SECONDS } from '../components/nextButton.js';
 
 const KIND_LABEL = { builtin: 'Standard', url: 'aus dem Internet', import: 'Datei-Import' };
 const MAX_LISTED_ISSUES = 30;
@@ -297,6 +298,18 @@ export function renderOptions(ctx) {
     ctx.toast('Spielstatistik zurückgesetzt.');
   }
 
+  // ---------- game flow ----------
+  const autoNext = h('input', {
+    type: 'checkbox',
+    role: 'switch',
+    class: 'switch__input',
+    onchange: (e) => {
+      ctx.saveSettings({ autoNext: e.target.checked });
+      audio.play('click');
+    },
+  });
+  autoNext.checked = autoNextEnabled(ctx);
+
   setKeyHandler((e) => {
     if (e.key === 'Escape') ctx.go('start');
   });
@@ -336,6 +349,19 @@ export function renderOptions(ctx) {
       fileButton,
       fileStatus,
       filePreview,
+    ),
+    h(
+      'section',
+      { class: 'panel' },
+      h('h2', {}, 'Spielablauf'),
+      h(
+        'label',
+        { class: 'switch' },
+        autoNext,
+        h('span', { class: 'switch__track', 'aria-hidden': 'true' }),
+        h('span', { class: 'switch__text' }, `Automatisch weiter: ${AUTO_NEXT_SECONDS} Sekunden nach der Auflösung kommt die nächste Frage`),
+      ),
+      h('p', { class: 'options__hint' }, 'Antippen oder Scrollen hält die Automatik für die aktuelle Frage an, z. B. um eine Erklärung in Ruhe zu lesen.'),
     ),
     h(
       'section',

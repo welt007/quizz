@@ -9,6 +9,8 @@ import { highscoreEntry } from '../components/highscoreEntry.js';
 import { setKeyHandler, answerIndexFromKey, isContinueKey } from '../input.js';
 import { audio } from '../audio.js';
 import { confetti, pulseClass } from '../effects.js';
+import { nextButton } from '../components/nextButton.js';
+import { gameFooter } from '../components/gameFooter.js';
 
 const LOCK_DELAY_MS = 800;
 
@@ -45,9 +47,8 @@ export function renderSudden(ctx, params) {
           timerSlot,
         ),
         stage,
-        feedback,
         explanation,
-        actions,
+        gameFooter(feedback, actions),
       ),
     ),
   );
@@ -122,7 +123,7 @@ export function renderSudden(ctx, params) {
       feedback.textContent = `${s.timedOut ? 'Zeit abgelaufen!' : 'Falsch!'} Richtig ist: ${q.correct}`;
     }
     explanation.textContent = q.explanation ?? '';
-    const next = h('button', { class: 'btn', onclick: () => advance() }, s.outcome ? 'Zum Ergebnis' : 'Nächste Frage');
+    const next = nextButton(ctx, s.outcome ? 'Zum Ergebnis' : 'Nächste Frage', () => advance());
     actions.replaceChildren(next);
     next.focus({ preventScroll: true });
   }

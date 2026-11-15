@@ -99,7 +99,7 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
   background: linear-gradient(180deg, #23307a, #151d52); border: 2px solid var(--answer-border);
   box-shadow: 0 0 30px rgba(93, 124, 255, 0.35);
 }
-.question__image { max-width: min(100%, 520px); max-height: 40vh; margin: 0 auto; border-radius: 10px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); }
+.question__image { display: block; max-width: min(100%, 520px); max-height: 40vh; min-width: 0; margin: 0 auto; border-radius: 10px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5); }
 .answers { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 @media (max-width: 640px) { .answers { grid-template-columns: 1fr; } }
 .answer {
@@ -140,6 +140,9 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
   font: inherit; font-weight: 700; cursor: pointer; padding: 12px 22px; border-radius: 999px;
   border: none; color: #1b1400; background: linear-gradient(180deg, #ffe08a, var(--gold));
 }
+.btn--next { position: relative; overflow: hidden; isolation: isolate; }
+.btn__countdown { position: absolute; inset: 0; z-index: -1; background: rgba(120, 70, 0, 0.28); transform: scaleX(0); transform-origin: left; display: none; }
+.btn--next.is-counting .btn__countdown { display: block; transition: transform 0.1s linear; }
 .btn--ghost { background: transparent; color: var(--text); border: 1px solid var(--panel-border); }
 .btn--big { font-size: 1.15rem; padding: 14px 30px; }
 .btn:disabled { cursor: default; opacity: 0.45; }
@@ -153,8 +156,20 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
 .setup__icon { font-size: 3rem; }
 .setup__info { text-align: center; margin: 0; color: var(--muted); }
 .setup__info.is-warning { color: var(--locked); }
-.panel__head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
-.panel__tools { display: flex; gap: 4px; }
+.panel__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px; }
+.panel__tools { display: flex; flex-wrap: wrap; gap: 4px; }
+.tool { white-space: nowrap; }
+@media (max-width: 640px) {
+  /* phones: the three links become a row of equal tiles below the heading */
+  .panel__head { flex-direction: column; align-items: stretch; }
+  .panel__tools { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .tool {
+    display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 8px 4px;
+    white-space: normal; text-align: center; text-decoration: none; font-size: 0.85rem; line-height: 1.2;
+    color: var(--text); background: rgba(255, 255, 255, 0.06); border: 1px solid var(--panel-border); border-radius: 12px;
+  }
+  .tool__icon { font-size: 1.3rem; }
+}
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   font: inherit; color: var(--text); cursor: pointer; display: inline-flex; align-items: center; gap: 8px;
@@ -170,6 +185,13 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
 .game { display: grid; gap: 24px; }
 .game--ladder { grid-template-columns: minmax(0, 1fr) 220px; align-items: start; }
 .game__main { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+/* feedback + "Nächste Frage" stay at the bottom edge when the question is taller than the screen */
+.game__footer {
+  position: sticky; bottom: -1px; z-index: 4; display: flex; flex-direction: column; gap: 12px;
+  margin-top: -8px; padding: 8px 0 max(10px, env(safe-area-inset-bottom));
+}
+.game__footer.is-stuck { background: linear-gradient(to top, rgba(11, 8, 32, 0.97) calc(100% - 10px), rgba(11, 8, 32, 0)); }
+.game__footer .actions:empty { display: none; }
 .topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; color: var(--muted); font-size: 0.95rem; }
 .topbar__status { text-align: right; font-weight: 600; }
 .progress { height: 6px; border-radius: 99px; background: rgba(255, 255, 255, 0.1); overflow: hidden; }
@@ -345,7 +367,8 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
 }
 @media (max-width: 640px) {
   .corner-btn--present { display: none; } /* phones: no projector use, saves room */
-  .topbar { padding-right: 52px; }
+  .topbar, .game__main > .progress { margin-right: 52px; }
+  .topbar { padding-right: 0; }
 }
 .topbar .link { white-space: nowrap; }
 @media (max-width: 640px) {
@@ -522,7 +545,7 @@ h2 { margin: 0 0 12px; font-size: 1.15rem; text-transform: uppercase; letter-spa
 .issues--hint summary { color: var(--muted); }
 
 /* ================= M5: presentation, zoom, help, statistics, a11y ================= */
-.question__zoom { all: unset; display: block; margin: 0 auto; cursor: zoom-in; border-radius: 10px; }
+.question__zoom { all: unset; display: flex; justify-content: center; max-width: 100%; margin: 0 auto; cursor: zoom-in; border-radius: 10px; }
 .question__zoom:focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
 
 .lightbox {
@@ -561,6 +584,24 @@ kbd {
 .review__list--numbered { list-style: decimal; padding-left: 22px; }
 @media (max-width: 640px) {
   .stat-row { grid-template-columns: 1fr 4em; grid-template-areas: "label rate" "bar bar" "meta meta"; }
+}
+
+/* phones in portrait: more compact, so question, image, answers and "Weiter" fit on one screen */
+@media (max-width: 640px) {
+  .app { padding-top: 12px; gap: 18px; }
+  .game__main { gap: 12px; }
+  .question { gap: 12px; }
+  .question__text { padding: 14px; font-size: 1.18rem; }
+  .question__image { max-height: 28vh; }
+  .answers { gap: 8px; }
+  .answer { min-height: 50px; padding: 10px 16px; font-size: 1.02rem; }
+  .feedback { font-size: 1.05rem; }
+}
+
+@media (max-width: 640px) and (max-height: 720px) {
+  .question__image { max-height: 22vh; }
+  .question__text { padding: 12px; font-size: 1.08rem; }
+  .answer { min-height: 44px; padding: 8px 14px; }
 }
 
 /* short landscape screens (phones turned sideways) */
