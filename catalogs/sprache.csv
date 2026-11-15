@@ -2,33 +2,47 @@ id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,t
 otq-for-kids-173,sprache,1,Was ist das Gegenteil von „kalt“?,Heiß,Feucht,Trocken,Nass,,,opentriviaqa
 otq-for-kids-175,sprache,1,Was ist das Gegenteil von „fröhlich“?,Traurig,Vermisst,Lila,Wütend,,,opentriviaqa
 otq-general-2818,sprache,1,"„Ik hou van jou“ (Niederländisch), „Ani ohev otach“ (Hebräisch) – was bedeutet das?",Ich liebe dich,Wie geht es dir?,Guten Morgen,Schlaf gut,,,opentriviaqa
+otq-general-654,sprache,1,"Wie nennt man ein Wort, das vorwärts wie rückwärts gleich lautet, z. B. „Rentner“?",Palindrom,Anagramm,Akronym,Homonym,,,opentriviaqa
 otq-geography-763,sprache,1,Welche Sprache ist die Amtssprache Schwedens?,Schwedisch,Finnisch,Deutsch,Dänisch,,,opentriviaqa
 otq-geography-774,sprache,1,Welche Amtssprache hat Brasilien?,Portugiesisch,Englisch,Spanisch,Französisch,,,opentriviaqa
 otq-hobbies-223,sprache,1,"Was sind „pommes de terre“, wörtlich „Erdäpfel“?",Kartoffeln,Tomaten,Äpfel,Rüben,,,opentriviaqa
 otq-humanities-11,sprache,1,In welcher Sprache bedeutet „Je t’aime“ „Ich liebe dich“?,Französisch,Schwedisch,Italienisch,Spanisch,,,opentriviaqa
+otq-humanities-12,sprache,1,Welcher Satz bedeutet „Ich liebe dich“ auf Deutsch?,Ich liebe dich,Te amo,Volim te,Je t’aime,,,opentriviaqa
+otq-humanities-149,sprache,1,Welche Sprache hat die meisten Muttersprachler der Welt?,Mandarin-Chinesisch,Englisch,Spanisch,Hindi,,,opentriviaqa
 otq-humanities-16,sprache,1,In welcher Plansprache bedeutet „Mi amas vin“ „Ich liebe dich“?,Esperanto,Volapük,Klingonisch,Latein,,,opentriviaqa
 otq-humanities-374,sprache,1,Wie lautet der spanische Vorname Guillermo auf Deutsch?,Wilhelm,Georg,Josua,Jakob,,,opentriviaqa
 otq-humanities-404,sprache,1,Wie lautet „Wie alt sind Sie?“ auf Englisch?,How old are you?,Where do you live?,How do you get there?,How do you do?,,,opentriviaqa
+otq-humanities-408,sprache,1,"Wie zählt man auf Französisch weiter: un, deux, trois, quatre, …?",cinq,huit,dix,six,,,opentriviaqa
 otq-humanities-412,sprache,1,Was heißt „Tasse“ auf Französisch?,Tasse,Fourchette,Assiette,Cuillère,,,opentriviaqa
 otq-humanities-429,sprache,1,Wie endet das Sprichwort „Blut ist dicker als …“?,Wasser,Schweiß,Tränen,Wein,,,opentriviaqa
 otq-humanities-550,sprache,1,Vervollständige das Sprichwort: „Not macht …“,… erfinderisch,… hungrig,… fleißig,… stark,,,opentriviaqa
 otq-humanities-552,sprache,1,Wie endet das Sprichwort „Hochmut kommt vor dem …“?,Fall,Neid,Ärger,Ruhm,,,opentriviaqa
+otq-humanities-563,sprache,1,"Wie endet das Sprichwort „Ist die Katze aus dem Haus, …“?",… tanzen die Mäuse auf dem Tisch,… schlafen die Mäuse,… laufen die Mäuse weg,… bleibt die Maus zu Haus,,,opentriviaqa
 otq-humanities-820,sprache,1,"In welcher Sprache ist der Satz „I trädgården låg ett gammalt hus, och i huset bodde Pippi Långstrump“?",Schwedisch,Niederländisch,Dänisch,Norwegisch,,,opentriviaqa
 otq-humanities-821,sprache,1,In welcher Sprache ist der Satz „Mariachi me acompaña cuando canto mi canción“?,Spanisch,Portugiesisch,Französisch,Italienisch,,,opentriviaqa
 otq-humanities-843,sprache,1,Welche Muttersprache wird in der EU von den meisten Menschen gesprochen?,Deutsch,Englisch,Französisch,Italienisch,,,opentriviaqa
 otq-humanities-855,sprache,1,Wie nennt man ein männliches Geschwisterkind?,Bruder,Cousine,Vetter,Onkel,,,opentriviaqa
 otq-humanities-864,sprache,1,In welcher Sprache grüßt man mit „Hola“?,Spanisch,Griechisch,Japanisch,Polnisch,,,opentriviaqa
+otq-humanities-868,sprache,1,Was bedeutet der französische Gruß „Bonjour“ wörtlich?,Guten Tag,Hallo,Wie geht’s,Friede sei mit dir,,,opentriviaqa
+otq-humanities-871,sprache,1,Was bedeutet der süddeutsche Gruß „Grüß Gott“ ursprünglich?,Gott grüße dich (segne dich),Guten Tag,Wie geht es dir,Friede sei mit dir,,,opentriviaqa
 otq-humanities-923,sprache,1,Zu welcher Sprachgruppe gehört Englisch?,Germanisch,Keltisch,Romanisch,Baltisch,,,opentriviaqa
 otq-rated-1472,sprache,1,Wie viele Wochen sind ein englisches „fortnight“?,2,3,5,4,,,opentriviaqa
 otq-rated-679,sprache,1,"In welcher Sprache ist der Satz „J’ai compris tous les mots, merci“?",Französisch,Rumänisch,Niederländisch,Italienisch,,,opentriviaqa
+otq-religion-faith-187,sprache,1,Was bedeutet die hebräische Glückwunschformel „Masel tov“?,Viel Glück,Schönen Tag,Leichtes Fasten,Entschuldigung,,,opentriviaqa
+otq-religion-faith-496,sprache,1,Was meint man heute mit einem „barmherzigen Samariter“?,"Einen Menschen, der Bedürftigen hilft",Einen Feind,Einen Auswanderer,Einen Egoisten,,,opentriviaqa
+otq-world-1691,sprache,1,In welcher Sprache wünscht man „Fröhliche Weihnachten“?,Deutsch,Französisch,Italienisch,Polnisch,,,opentriviaqa
 otq-world-2152,sprache,1,Auf welchem Kontinent wird die indigene Sprache Quechua gesprochen?,Südamerika,Afrika,Australien,Nordamerika,,,opentriviaqa
 otq-world-2641,sprache,1,Welche Amtssprache hat Frankreich?,Französisch,Französisch und Katalanisch,Französisch und Flämisch,Französisch und Baskisch,,,opentriviaqa
 otq-world-2869,sprache,1,Welche Sprache ist die Amtssprache der Niederlande?,Niederländisch,Englisch,Deutsch,Französisch,,,opentriviaqa
+otq-world-3170,sprache,1,Welche Amtssprachen hat Kanada?,Englisch und Französisch,Französisch und Spanisch,Nur Französisch,Nur Englisch,,,opentriviaqa
+otq-world-3218,sprache,1,Welche Amtssprache hat Kuba?,Spanisch,Englisch und Spanisch,Portugiesisch,Französisch,,,opentriviaqa
 otq-world-3305,sprache,1,Welche Sprache ist die Amtssprache in Deutschland?,Deutsch,Deutsch und Englisch,Deutsch und Dänisch,Deutsch und Französisch,,,opentriviaqa
 otq-world-3581,sprache,1,Welche Sprache ist die Amtssprache Vietnams?,Vietnamesisch,Chinesisch,Französisch,Khmer,,,opentriviaqa
 otq-world-413,sprache,1,Welche Sprache spricht man hauptsächlich in Brasilien?,Portugiesisch,Tupi,Spanisch,Brasilianisch,,,opentriviaqa
+otq-world-434,sprache,1,Welche zwei Amtssprachen hat Irland?,Irisch und Englisch,Gälisch und Schottisch,Englisch und Latein,Walisisch und Englisch,,,opentriviaqa
 otq-general-2613,sprache,2,In welcher Sprache heißt „Guten Morgen“ „Jó reggelt“?,Ungarisch,Rumänisch,Russisch,Kroatisch,,,opentriviaqa
 otq-general-2781,sprache,2,Was bedeutet der indische Gruß „Namaste“?,Ich verneige mich vor dir,Möge deine Familie vollständig sein,Sei gesegnet,Wie geht es dir?,,,opentriviaqa
+otq-general-2903,sprache,2,Was bedeutet das russische Wort „Sowjet“?,Rat,Sozialistisch,Kommunistisch,Republik,,,opentriviaqa
 otq-general-2980,sprache,2,Was bedeutet „Chiromantie“ wörtlich?,Handwahrsagung,Geheimnis der Hand,Hautprüfung,Sterndeutung,,,opentriviaqa
 otq-general-540,sprache,2,Wie heißt ein Bäcker auf Spanisch?,Panadero,Marinero,Carpintero,Cerrajero,,,opentriviaqa
 otq-geography-709,sprache,2,Was heißt „Guten Tag“ auf Russisch?,Sdrawstwujte,Spassibo,Poschaluista,Do swidanija,,,opentriviaqa
@@ -42,6 +56,8 @@ otq-humanities-338,sprache,2,Für welche Kultur begeistert sich ein Sinophiler?,
 otq-humanities-350,sprache,2,Welcher französische Ausdruck bedeutet „modisch“?,À la mode,À propos,À la carte,À gogo,,,opentriviaqa
 otq-humanities-353,sprache,2,Was bedeutet „blasiert“?,Überheblich und gelangweilt,Müde,Trüb,Aufgeregt,,,opentriviaqa
 otq-humanities-359,sprache,2,Wie heißt „Feuerwehrmann“ auf Spanisch?,Bombero,Ebanista,Banquero,Botánico,,,opentriviaqa
+otq-humanities-363,sprache,2,Was heißt „Fischer“ auf Spanisch?,Pescador,Florista,Cartero,Artesano,,,opentriviaqa
+otq-humanities-417,sprache,2,Was bedeutet „Per aspera ad astra“?,Durch Mühsal zu den Sternen,Der Mensch will zu den Sternen,Niemand erreicht die Sterne,Reiche lächeln nie,,,opentriviaqa
 otq-humanities-420,sprache,2,Was bedeutet der lateinische Ausruf „Vae victis“?,Wehe den Besiegten,Ruhm den Siegern,"Wer siegt, verliert",Hüte dich vor dem Sieger,,,opentriviaqa
 otq-humanities-437,sprache,2,Vervollständige das englische Sprichwort: „Learn to walk before you …“,run,crawl,speak,leap,,,opentriviaqa
 otq-humanities-506,sprache,2,Was bedeutet das Wort „Yoga“ wörtlich?,Verbindung (Joch),Erhebung,Übung,Schöpfung,,,opentriviaqa
@@ -53,30 +69,44 @@ otq-humanities-840,sprache,2,Welche dieser Sprachen ist mit dem Italienischen am
 otq-humanities-841,sprache,2,In welchem Land ist Esperanto Amtssprache?,In keinem Land,Vatikan,Estland,Polen,,,opentriviaqa
 otq-humanities-867,sprache,2,Zu welcher Tageszeit sagt man auf Niederländisch „Goedenavond“?,Am Abend,Am Morgen,Am Mittag,Den ganzen Tag,,,opentriviaqa
 otq-newest-1805,sprache,2,Was bedeutet das deutsche Wort „Stadium“ (nicht „Stadion“)?,Entwicklungsstufe,Wanduhr,Stadtzentrum,Messung,,,opentriviaqa
+otq-people-1635,sprache,2,Aus welcher Sprache stammt der Name Jakob?,Hebräisch,Altenglisch,Griechisch,Latein,,,opentriviaqa
+otq-rated-1163,sprache,2,"Wie schreibt man das englische Wort für „hinüber, quer“ richtig?",across,ackross,accros,accross,,,opentriviaqa
+otq-rated-1573,sprache,2,Welche Wortverbindung ist ein Pleonasmus (doppelt gemoppelt)?,Dreiteilige Trilogie,Goldene Hände,Weibliche Männlichkeit,Schrecklich schön,,,opentriviaqa
+otq-religion-faith-318,sprache,2,Was bedeutet der hebräische Trinkspruch „L’Chaim!“?,Auf das Leben!,Auf das Land!,Auf die Gesundheit!,Auf den Erfolg!,,,opentriviaqa
 otq-science-technology-352,sprache,2,Was bedeutet die Chat-Abkürzung „NP“?,No problem (kein Problem),Nicht persönlich,No Parents,Neue Post,,,opentriviaqa
 otq-science-technology-39,sprache,2,Auf welchen Körperteil bezieht sich die griechische Vorsilbe „Arthro-“?,Gelenk,Kopf,Haut,Knochen,,,opentriviaqa
 otq-science-technology-705,sprache,2,Was bedeutet die Vorsilbe „austral-“?,Süd,Ost,West,Nord,,,opentriviaqa
 otq-world-1074,sprache,2,Auf welchem Kontinent ist Yoruba eine Muttersprache?,Afrika,Asien,Südamerika,Nordamerika,,,opentriviaqa
 otq-world-1159,sprache,2,Was bedeutet der Name des Ferrari „Testarossa“?,Roter Kopf,Weiße Rose,Schwarzes Pferd,Feiner Geschmack,,,opentriviaqa
 otq-world-2006,sprache,2,In welcher Sprache wünscht man mit „Kalí chroniá“ ein gutes neues Jahr?,Griechisch,Chinesisch,Russisch,Amharisch,,,opentriviaqa
+otq-world-2427,sprache,2,Welche Sprache ist (neben Englisch) Amtssprache der indischen Zentralregierung?,Hindi,Urdu,Bengali,Sanskrit,,,opentriviaqa
 otq-world-2551,sprache,2,Welche Amtssprache der EU wird in den meisten EU-Staaten gesprochen?,Deutsch,Englisch,Französisch,Niederländisch,,,opentriviaqa
 otq-world-2969,sprache,2,Welche Amtssprachen hat die Republik Irland?,Irisch und Englisch,Nur Irisch,Nur Englisch,Irisch und Schottisch-Gälisch,,,opentriviaqa
 otq-world-349,sprache,2,Wie heißt der Weihnachtsmann auf Französisch?,Père Noël,Olentzero,Väterchen Frost,Zwarte Piet,,,opentriviaqa
+otq-world-3562,sprache,2,Was bedeutet der Name „Sudan“ ursprünglich?,Die Schwarzen,Sieg,Blut,Schmerz,,,opentriviaqa
 otq-world-3941,sprache,2,Was bedeutet der lateinische Wahlspruch „Semper fidelis“?,Allzeit treu,Für immer und ewig,Immer genau,Immer zusammen,,,opentriviaqa
+otq-world-419,sprache,2,Welche Sprache spricht man hauptsächlich in Bangladesch?,Bengalisch,Französisch,Hindi,Urdu,,,opentriviaqa
 otq-world-553,sprache,2,In welchem Ländernamen steckt das Wort „Löwe“?,Sierra Leone,Sudan,Kiribati,Kap Verde,,,opentriviaqa
 otq-world-829,sprache,2,Welche Amtssprache hat Barbados?,Englisch,Niederländisch,Spanisch,Französisch,,,opentriviaqa
+otq-animals-237,sprache,3,Wie nennt man eine Gruppe von Flamingos im Englischen?,Flamboyance,Pride,Parliament,Murder,,,opentriviaqa
+otq-animals-596,sprache,3,Was bedeutet „piscivor“ bei Pinguinen?,Sie fressen hauptsächlich Fisch,Sie trinken kein Wasser,Sie haben einen Röhrenkörper,Sie leben im Wasser,,,opentriviaqa
+otq-animals-964,sprache,3,Wie heißt ein Schwarm Krähen im Englischen literarisch?,A murder,A mug,A plunder,A gaggle,,,opentriviaqa
 otq-brain-teasers-25,sprache,3,Welche „Blumen“ trägt man im Englischen immer bei sich (Wortspiel two lips)?,Tulpen (tulips = two lips),Rosen,Gänseblümchen,Mohn,,,opentriviaqa
 otq-brain-teasers-96,sprache,3,Was bedeutet „polyglott“?,Vielsprachig,Viele Karten enthaltend,Wortreich,Geschäftlich,,,opentriviaqa
 otq-general-1351,sprache,3,Welcher von einem Personennamen abgeleitete Begriff steht für einen Landesverräter?,Quisling,Cyrano,Casanova,Mentor,,,opentriviaqa
+otq-general-1713,sprache,3,Was bedeutet „panza“ in Sancho Panzas Namen auf Spanisch?,Bauch,Narr,Spaßmacher,Landsmann,,,opentriviaqa
 otq-general-178,sprache,3,Aus welchen Sprachen ist das Ladino (Judenspanisch) hervorgegangen?,Aus Altspanisch und Hebräisch,Aus Spanisch und Portugiesisch,Aus Spanisch und Arabisch,Aus Portugiesisch und Italienisch,,,opentriviaqa
 otq-general-181,sprache,3,Welche drei dieser europäischen Sprachen gehören NICHT zu den indogermanischen Sprachen?,"Ungarisch, Estnisch und Finnisch","Norwegisch, Dänisch und Schwedisch","Andorranisch, Katalanisch und Provenzalisch","Rumänisch, Rätoromanisch und Englisch",,,opentriviaqa
+otq-general-2356,sprache,3,Was bedeutet der lateinische Name Paul (Paulus)?,"Klein, gering",Heilig,Groß,Stur,,,opentriviaqa
 otq-general-2359,sprache,3,Was bedeutet der Vorname Anastasia?,Auferstehung,Märtyrerin,Engelsgleich,Fluss,,,opentriviaqa
+otq-general-2363,sprache,3,Aus welcher Sprache stammt der Name Susanne?,Hebräisch (Lilie),Griechisch,Persisch,Germanisch,,,opentriviaqa
 otq-general-2777,sprache,3,In welchem afrikanischen Land ist Spanisch Amtssprache?,Äquatorialguinea,Marokko,Mosambik,Tschad,,,opentriviaqa
 otq-general-2821,sprache,3,"Was bedeutet „uʍop ǝpısdn“, wie der Mathematiker Brian Hayes es nannte?",Kopfüber (upside down),Ein Computerfehler,Eine Alien-Sprache,Ein Sprachmischmasch,,,opentriviaqa
 otq-general-62,sprache,3,In welchem Land entstand der Ausdruck „blaues Blut“ für Adel?,Spanien,England,Deutschland,Frankreich,,,opentriviaqa
 otq-general-996,sprache,3,Welches 1822 formulierte Lautgesetz beschreibt die Entwicklung der germanischen Sprachen?,Grimmsches Gesetz,Vernersches Gesetz,Grassmannsches Gesetz,Ohmsches Gesetz,,,opentriviaqa
 otq-geography-256,sprache,3,Welche Sprache ist neben Niederländisch offizielle Sprache in den Niederlanden?,Friesisch,Niedersächsisch,Französisch,Englisch,,,opentriviaqa
 otq-geography-379,sprache,3,Wie sagt man „Ich liebe dich“ auf Filipino?,Mahal kita,Ikaw na nga,Sino ka,Hindi ko alam,,,opentriviaqa
+otq-geography-580,sprache,3,Was bedeutet das indonesische Motto „Bhinneka Tunggal Ika“?,Einheit in der Vielfalt,"Vergangenheit, Gegenwart, Zukunft",Fortschritt und Stabilität,Gemeinsam sind wir stark,,,opentriviaqa
 otq-geography-634,sprache,3,Was bedeutet der Name der Iguaçu-Wasserfälle?,Großes Wasser,Weg zum Himmel,Flusssturm,Teufelsschlund,,,opentriviaqa
 otq-history-65,sprache,3,"In welcher ehemals französischen Kolonie, 1763 an Großbritannien verloren, spricht man heute noch Französisch?",Québec,Senegal,Haiti,Kambodscha,,,opentriviaqa
 otq-history-859,sprache,3,Was bedeutet der Name „Holland“ ursprünglich?,Holzland,Palmenland,Vulkanland,Wüstenland,,,opentriviaqa
@@ -85,16 +115,23 @@ otq-hobbies-885,sprache,3,Was bedeutet das arabische Wort „Hummus“?,Kicherer
 otq-humanities-148,sprache,3,Welche Sprache ist in KEINEM südamerikanischen Staat Amtssprache?,Deutsch,Englisch,Niederländisch,Guaraní,,,opentriviaqa
 otq-humanities-156,sprache,3,In welcher Sprache wird in Singapur per Gesetz unterrichtet?,Englisch,Tamil,Malaiisch,Chinesisch,,,opentriviaqa
 otq-humanities-296,sprache,3,"Wie nennt man ein Argument, das die Person statt die Sache angreift?",Ad hominem,Ad hoc,Ad absurdum,Ad infinitum,,,opentriviaqa
+otq-humanities-320,sprache,3,Worauf bezieht sich ein „Quorum“?,Auf eine Mindestzahl von Personen,Auf Blumen,Auf Wörter,Auf Tiere,,,opentriviaqa
 otq-humanities-360,sprache,3,Wie heißt der Bürgermeister auf Spanisch?,Alcalde,Clérigo,Tabernero,Carnicero,,,opentriviaqa
+otq-humanities-366,sprache,3,Was heißt „Trainer“ auf Spanisch?,Entrenador,Enfermero,Droguero,Fraile,,,opentriviaqa
+otq-humanities-424,sprache,3,Wann sagt man passend „Nunc est bibendum“ (Jetzt muss getrunken werden)?,Bei einer Feier,Beim Rauchen,Vor Gericht,In der Messe,,,opentriviaqa
 otq-humanities-472,sprache,3,Welche Institution wacht über die spanische Sprache?,Real Academia Española,Instituto Cervantes,Academia Castellana,Ministerio del Español,,,opentriviaqa
 otq-humanities-474,sprache,3,In wie vielen Ländern ist Spanisch (Amts-)Sprache?,Etwa 20,Etwa 10,Etwa 30,Etwa 40,,,opentriviaqa
+otq-humanities-490,sprache,3,Welche Sprache gehört NICHT zur indoeuropäischen Familie?,Finnisch,Russisch,Englisch,Persisch,,,opentriviaqa
 otq-humanities-564,sprache,3,Wie endet das englische Sprichwort „One man’s trash is another man’s …“?,treasure,joy,goulash,monster,,,opentriviaqa
+otq-humanities-64,sprache,3,Aus welcher Sprache stammt der englische Name „dandelion“ (Löwenzahn)?,Aus dem Französischen (dent de lion),Aus dem Portugiesischen,Aus dem Altenglischen,Aus dem Schwedischen,,,opentriviaqa
 otq-humanities-656,sprache,3,In welchem afrikanischen Land wird Igbo gesprochen?,Nigeria,Niger,Tschad,Äthiopien,,,opentriviaqa
+otq-humanities-925,sprache,3,Zu welcher Sprachgruppe gehört Spanisch?,Italisch (romanisch),Anatolisch,Germanisch,Keltisch,,,opentriviaqa
 otq-humanities-942,sprache,3,Welches Satzglied gehört NICHT zum Prädikatsteil des Satzes?,Das Subjekt,Das Adverbial,Das Prädikativ,Das Objekt,,,opentriviaqa
 otq-people-1814,sprache,3,Was bedeutet der Name Salomo?,Frieden,Weisheit,Mut,König,,,opentriviaqa
 otq-rated-1169,sprache,3,"Wie schreibt man das Fremdwort für „Abweichung, Unregelmäßigkeit“ richtig?",Anomalie,Anormalie,Anomalität,Annomalie,,,opentriviaqa
 otq-rated-1373,sprache,3,Welche Farbe steht im Englischen („yellow“) für Feigheit?,Gelb,Rot,Blau,Grün,,,opentriviaqa
 otq-science-technology-1415,sprache,3,Was bedeutet die englische Redewendung „long in the tooth“?,Alt,Langweilig,Weise,Gefräßig,,,opentriviaqa
+otq-science-technology-349,sprache,3,Was bedeutet die Chat-Abkürzung „BTDT“?,"Been there, done that",Bitte trotzdem danke tun,Bis tausend durchzählen,Better than doing time,,,opentriviaqa
 otq-world-1923,sprache,3,Wie heißt Jerusalem auf Arabisch?,Al-Quds,Al-Zawra,Al-Qahira,Al-Bahr,,,opentriviaqa
 otq-world-2003,sprache,3,Welcher Gruß bedeutet auf Hebräisch „Ein gutes neues Jahr“?,Schana Tova,Masel Tov,Schalom Alechem,Bar Mizwa,,,opentriviaqa
 otq-world-2088,sprache,3,Welche Amtssprache hat die Vatikanstadt?,Italienisch,Keine,Latein,Französisch,,,opentriviaqa
@@ -102,20 +139,26 @@ otq-world-3407,sprache,3,Welche Amtssprachen hat Malta?,Maltesisch und Englisch,
 otq-world-3695,sprache,3,"Was bedeutet „Negaraku“, der Name der Nationalhymne Malaysias?",Mein Land,Feierlich,Gesegnete Insel,Schwarzes Land,,,opentriviaqa
 otq-world-418,sprache,3,Welche Sprache spricht man in Haiti hauptsächlich?,Haitianisches Kreolisch,Englisch,Portugiesisch,Spanisch,,,opentriviaqa
 otq-animals-100,sprache,4,Was bedeutet „Chamäleon“ wörtlich aus dem Griechischen?,Erdlöwe,Grüne Melone,Kleiner Drache,Farbwechsler,,,opentriviaqa
+otq-animals-181,sprache,4,"Was bedeutet es auf Englisch, wenn eine Person ein „social butterfly“ ist?",Sie flattert gesellig von einem zum anderen,Sie schminkt sich stark,Sie ist eingebildet,Sie trägt bunte Kleidung,,,opentriviaqa
+otq-animals-466,sprache,4,Was bedeutet „Chinchilla“ wörtlich?,Kleine Chincha (nach einem Andenvolk),Kleiner Chilene,Kleines Chile,Von Chincha,,,opentriviaqa
 otq-brain-teasers-70,sprache,4,"Was tut jemand, der „lacrimös“ (weinerlich) ist?",Er weint,Er redet laut,Er lacht,Er schläft,,,opentriviaqa
 otq-general-1353,sprache,4,Welche Bartform ist nach dem US-General Ambrose Burnside benannt?,Koteletten (Sideburns),Schnurrbart,Kinnbart,Vollbart,,,opentriviaqa
 otq-general-1660,sprache,4,Welches englische Sammelwort bezeichnet eine Gruppe Störche?,A mustering,A rafter,A smack,A murder,,,opentriviaqa
 otq-general-1814,sprache,4,Was tun „Bibliobibuli“?,Sie lesen zu viel,Sie nutzen nur Recyclingpapier,Sie sammeln Bibeln,Sie verbrennen Bücher,,,opentriviaqa
 otq-general-2139,sprache,4,"Wie nennt man im Englischen ein kleines, dünnes Hautstück, etwa nach einem Sonnenbrand?",Blype,Bobo,Olea,Obol,,,opentriviaqa
+otq-general-2360,sprache,4,Was bedeutet der germanische Name Robert?,Der Ruhmglänzende,Der lange Weg,Ehrenwerter Herr,Mächtiger Krieger,,,opentriviaqa
 otq-general-2364,sprache,4,Was bedeutet der hebräische Name Josef?,„Gott möge hinzufügen“,„Gott ist gnädig“,„Gott ist mit uns“,„Gott liebt uns“,,,opentriviaqa
 otq-general-564,sprache,4,Welcher britische Indologe erkannte 1786 die Verwandtschaft der indoeuropäischen Sprachen?,William Jones,Max Müller,Jacob Grimm,Franz Bopp,,,opentriviaqa
+otq-general-886,sprache,4,Was bedeutet die englische Redewendung „green around the gills“?,Kränklich aussehen,Neu beim Angeln,Gärtnerneuling,Eifersüchtig,,,opentriviaqa
 otq-geography-517,sprache,4,Wovon leitet sich der Name „Norwegen“ ab?,Vom „Weg nach Norden“ entlang der Küste,Von einem König,Von einem Fluss,Von einem Tier,,,opentriviaqa
 otq-geography-690,sprache,4,Wie endet das irische Sprichwort „Die fernen Hügel sind …“?,… am grünsten,… in Wolken gehüllt,… voller Musik,… am weitesten weg,,,opentriviaqa
 otq-history-595,sprache,4,Woher stammt das englische Wort „milliner“ (Hutmacher)?,Von der Stadt Mailand,Von „Million“,Von „Mühle“,Von „Mill“ (Fabrik),,,opentriviaqa
+otq-humanities-272,sprache,4,Was bedeutet das Adjektiv „anatin“?,Entenartig,Maritim,Übergroß,Reptilienartig,,,opentriviaqa
 otq-humanities-559,sprache,4,Welches englische Sprichwort ist das Gegenteil von „Schweigen ist Gold“?,The squeaky wheel gets the grease,Loose lips sink ships,Walls have ears,"Saying is one thing, doing another",,,opentriviaqa
 otq-humanities-650,sprache,4,Auf welchem Kontinent wird die Sprache Ga gesprochen?,Afrika,Südamerika,Australien,Asien,,,opentriviaqa
 otq-humanities-86,sprache,4,Was bedeutet das englische Verb „to vex“?,Ärgern,Eilen,Drehen,Fluchen,,,opentriviaqa
 otq-humanities-872,sprache,4,In welchem Land begrüßt man sich mit „Hast du schon gegessen?“ (Sik Jo Fan Mei)?,China (Kantonesisch),Vietnam,Japan,Korea,,,opentriviaqa
+otq-humanities-921,sprache,4,Zu welchem Zweig der indoeuropäischen Sprachen gehörte das Hethitische?,Anatolisch,Keltisch,Tocharisch,Indoiranisch,,,opentriviaqa
 otq-humanities-949,sprache,4,"Wie heißt in der Grammatik die Umkehr von Subjekt und Verb wie in „Kaum war er da, …“?",Inversion,Negation,Ellipse,Emphase,,,opentriviaqa
 otq-people-1631,sprache,4,"Was bedeuten die Namen Sean, Shane und Shaun, Formen von Johannes?",Gott ist gnädig,Gott ist Liebe,Gott ist mit uns,Gott ist Licht,,,opentriviaqa
 otq-people-1816,sprache,4,Was bedeutet der hebräische Name Juda?,Gepriesen,Mager,Gefallen,Verräterisch,,,opentriviaqa
@@ -128,6 +171,7 @@ otq-world-1316,sprache,4,Wer erfand die Schrift der Cherokee-Sprache?,Sequoyah,B
 otq-world-2069,sprache,4,Was bedeutet vermutlich der spanische Ortsname „La Jolla“ (von „la joya“)?,Das Juwel,Die Bucht,Die Freude,Die Palme,,,opentriviaqa
 otq-world-2556,sprache,4,Welcher Tag ist der Europäische Tag der Sprachen?,26. September,26. Mai,26. Dezember,26. Januar,,,opentriviaqa
 otq-world-3122,sprache,4,Was bedeutet „Tikka“ im Gericht Chicken Tikka?,Stücke,Bürzel,Flügel,Schenkel,,,opentriviaqa
+otq-world-3782,sprache,4,Was bedeutet das in der Khoisan-Sprache verfasste Motto Südafrikas „!ke e: ǀxarra ǁke“?,Einheit in Vielfalt,Freiheit und Ehrlichkeit,Wohlstand und langes Leben,Einigkeit macht stark,,,opentriviaqa
 otq-world-415,sprache,4,Welche Sprache wird in Papua-Neuguinea am meisten gesprochen?,Tok Pisin,Hiri Motu,Französisch,Bislama,,,opentriviaqa
 otq-world-690,sprache,4,"Wie heißt eine einfache, frei nutzbare Schutzhütte in britischen Bergen?",Bothy,Cottage,Barracks,Lodge,,,opentriviaqa
 otq-world-796,sprache,4,Was bedeutet der Stammesname „Dakota“?,"Verbündete, Freunde",Feinde,Rotes Gesicht,Weißes Gesicht,,,opentriviaqa
