@@ -24,10 +24,10 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
     await page.keyboard.press('Escape');
     await page.waitForSelector('dialog.help', { state: 'detached' });
 
-    // training with Geographie/leicht contains the Japan flag question
+    // every question of the Flaggen category has an image
     await page.click('.mode >> text=Training');
     await page.click('text=keine');
-    await page.click('.chip >> text=Geographie');
+    await page.click('.chip >> text=Flaggen');
     for (const d of ['medium', 'schwer', 'extrem']) await page.click(`.chip >> text=${d}`);
     await page.click('text=Los geht’s!');
     for (let i = 0; i < 3 && !(await page.locator('.question__zoom').count()); i++) {
@@ -62,8 +62,8 @@ describe('Oberfläche (Browser, offline)', { skip }, () => {
     }
     await page.click('text=Hauptmenü');
     await page.click('text=📊 Statistik');
-    assert.match(await g.text('.tiles'), /^10 \| Antworten \| 60 % \| Trefferquote \| 10 \/ 48/);
-    assert.equal(await page.locator('.stat-list').first().locator('.stat-row').count(), 4);
+    assert.match(await g.text('.tiles'), new RegExp(`^10 \\| Antworten \\| 60 % \\| Trefferquote \\| 10 / ${g.builtin.total}`));
+    assert.equal(await page.locator('.stat-list').first().locator('.stat-row').count(), g.builtin.categories);
     assert.equal(await page.locator('.review__list li').count(), 4);
     await page.click('text=📚 Diese Fragen üben');
     assert.match(await g.text('.topbar__status'), /Frage 1 von 4/);

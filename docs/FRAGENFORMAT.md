@@ -66,6 +66,9 @@ damit sich Fragen nicht ständig wiederholen, sollte jede Stufe gut gefüllt sei
 - Formate: `.jpg`, `.png`, `.webp`, `.gif`, `.svg`
 - Empfehlung: max. 1280 px Kantenlänge, ≤ 200 KB je Bild (alle Bilder landen in der HTML-Datei).
 - Nur Bilder verwenden, die frei nutzbar sind; Quelle/Lizenz bei Bedarf in `explanation` angeben.
+- Fragen mit gleichem Text sind erlaubt, wenn das Bild den Unterschied macht (z. B. „Zu welchem Land
+  gehört diese Flagge?“ in `flaggen.csv`, „Welches Land hat diesen Umriss?“ in `umrisse.csv`).
+  Die Umrisse erzeugt `tools/assets/build-outlines.mjs` aus Natural-Earth-Daten.
 
 ## Beispiel
 
@@ -91,7 +94,9 @@ GitHub Pages tun das. Format und Regeln sind dieselben wie hier beschrieben.
   "version": "2026-11-14.1",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
+  "attribution": "Enthält Fragen aus OpenTriviaQA (CC BY-SA 4.0) …",
   "files": ["allgemeinwissen.csv", "geographie.csv"],
+  "titles": { "allgemeinwissen.csv": "Allgemeinwissen" },
   "categories": {
     "geographie": { "name": "Geographie", "icon": "🌍", "color": "#2e9e6b" }
   }
@@ -106,5 +111,8 @@ GitHub Pages tun das. Format und Regeln sind dieselben wie hier beschrieben.
   eindeutig sein.
 - `categories`: Anzeigename, Icon und Farbe je Kategorie (optional; ohne Angabe wird der Name aus
   der ID gebildet).
+- `titles` (optional): Anzeigename je Datei im Optionsmenü; ohne Angabe wird er aus dem Dateinamen gebildet.
+- `attribution` (optional): Herkunfts- bzw. Lizenzhinweis, wird im Optionsmenü bei der Quelle angezeigt.
+  Pflicht, wenn Fragen aus fremden Quellen mit Namensnennungslizenz (z. B. CC BY-SA) stammen.
 - `updateUrl` (optional, nur für den eingebauten Standardkatalog): woher das Spiel Updates holt –
   ein GitHub-Repo oder eine URL wie im Optionsmenü.

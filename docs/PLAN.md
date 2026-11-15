@@ -87,6 +87,11 @@ Details für Autoren: [`docs/FRAGENFORMAT.md`](FRAGENFORMAT.md).
 - Antworten sind **nur Text oder Zahlen**; Bildpfade, URLs oder `data:`-URIs als Antwort lehnt der Validator ab.
 - Schwierigkeit: `1` leicht, `2` medium, `3` schwer, `4` extrem.
 - `id` ist stabil und eindeutig → Statistik („schon gestellt“), Wiederholungsvermeidung, Updates.
+- Herkunft des Standardkatalogs: eigene Fragen sowie rund 5000 übersetzte und überarbeitete Fragen
+  aus [OpenTriviaQA](https://github.com/uberspot/OpenTriviaQA) (CC BY-SA 4.0, IDs `otq-…`).
+  Ausgelassen wurden US-lastige (US-Sport, US-Politik), zeitkritische, wortgleich doppelte und
+  nicht übersetzbare Fragen (Wortspiele). Flaggen (flag-icons, MIT) und Länderumrisse (Natural Earth,
+  gemeinfrei) liegen als SVG in `catalogs/images/`. Lizenzhinweise: `catalogs/LIZENZ.md`.
 
 ### 4.1 Optionsmenü „Kataloge“
 
@@ -235,7 +240,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M3** ✅ | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party (Buzzer/Reihum); Bestenlisten mit Namenseintrag | Alle Modi |
 | **M4** ✅ | **Optionen & Kataloge**: mehrere CSVs je Quelle, zu einem Pool vereint; Kataloge einzeln an/aus; per URL hinzufügen/aktualisieren/entfernen; Standardkatalog-Update; CSV-Import; IndexedDB; Vorschau mit Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** ✅ | Präsentationsmodus (`F`, Vollbild, skaliert), Bild-Zoom (`Z`), Tastenkürzel-Hilfe (`?`), Statistik mit Knackpunkten, A11y-/Responsiv-Feinschliff, Browser-Tests im Repo + CI | Release 1.0 |
-| **M6** | Inhalte: Kataloge auf ≥ 50 Fragen je Kategorie und Stufe ausbauen | Spielspaß |
+| **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern | Spielspaß |
 
 ## 9. Tests
 

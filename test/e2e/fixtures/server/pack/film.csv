@@ -1,6 +1,6 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
-fi-1,film,2,Filmfrage 1?,Richtig 1,Falsch A1,Falsch B1,Falsch C1,,,
-fi-2,film,3,Filmfrage 2?,Richtig 2,Falsch A2,Falsch B2,Falsch C2,,,
-fi-3,film,4,Filmfrage 3?,Richtig 3,Falsch A3,Falsch B3,Falsch C3,,,
-fi-4,film,1,Filmfrage 4?,Richtig 4,Falsch A4,Falsch B4,Falsch C4,,,
-fi-x,film,7,Kaputte Zeile?,a,b,c,d,,,
+fi-1,kino,2,Filmfrage 1?,Richtig 1,Falsch A1,Falsch B1,Falsch C1,,,
+fi-2,kino,3,Filmfrage 2?,Richtig 2,Falsch A2,Falsch B2,Falsch C2,,,
+fi-3,kino,4,Filmfrage 3?,Richtig 3,Falsch A3,Falsch B3,Falsch C3,,,
+fi-4,kino,1,Filmfrage 4?,Richtig 4,Falsch A4,Falsch B4,Falsch C4,,,
+fi-x,kino,7,Kaputte Zeile?,a,b,c,d,,,

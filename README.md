@@ -19,8 +19,9 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
   einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln
   ein- und ausschalten lässt – alle eingeschalteten werden zu einem Fragenpool vereint
+- Rund **5000 Fragen** in 14 Kategorien, darunter **Flaggen** und **Länderumrisse** mit Bildern
 
-**Status:** Version 1.0 – alle Meilensteine M0–M5 umgesetzt; als Nächstes: mehr Fragen (M6). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Version 1.0 – alle Meilensteine M0–M6 umgesetzt. Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 
@@ -56,6 +57,13 @@ geo-0001,geographie,1,Wie heißt die Hauptstadt von Frankreich?,Paris,Lyon,Marse
 
 Nach Änderungen `version` in `catalogs/index.json` erhöhen, `npm run check` ausführen und
 `catalogs/` **zusammen mit** dem neu gebauten `dist/quizshow.html` committen.
+
+## Lizenzen der Inhalte
+
+Der Standardkatalog enthält übersetzte Fragen aus [OpenTriviaQA](https://github.com/uberspot/OpenTriviaQA)
+(CC BY-SA 4.0); diese Fragen (IDs `otq-…`) stehen ebenfalls unter CC BY-SA 4.0. Flaggen stammen aus
+[flag-icons](https://github.com/lipis/flag-icons) (MIT), Länderumrisse aus Natural Earth (gemeinfrei).
+Details: [`catalogs/LIZENZ.md`](catalogs/LIZENZ.md).
 
 ## Projektstruktur
 

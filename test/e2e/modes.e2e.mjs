@@ -17,8 +17,9 @@ describe('Spielmodi (Browser, offline)', { skip }, () => {
   test('Startbildschirm: alle Modi, Kataloge aktiv', async () => {
     const g = await openGame(browser);
     assert.equal(await g.page.locator('.mode:not(:disabled)').count(), 5);
-    assert.match(await g.text('.footer'), /4 von 4 Katalogen aktiv/);
-    assert.equal(await g.page.locator('.category').count(), 4);
+    const b = g.builtin;
+    assert.ok((await g.text('.footer')).includes(`${b.files} von ${b.files} Katalogen aktiv`));
+    assert.equal(await g.page.locator('.category').count(), b.categories);
     await noProblems(g);
   });
 

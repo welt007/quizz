@@ -34,7 +34,7 @@ function KNOWN_FIXTURE_ANSWERS(q) {
 
 /**
  * Opens the game in a fresh browser context.
- * @returns {Promise<{page, context, errors: string[], external: string[], correctIndex: Function, answer: Function, text: Function}>}
+ * @returns {Promise<{page, context, errors: string[], external: string[], builtin: object, correctIndex: Function, answer: Function, text: Function}>}
  */
 export async function openGame(browser, { offline = true, device, viewport, clock = false, route } = {}) {
   const base = device ? pw.devices[device] : { viewport: viewport ?? { width: 1280, height: 900 } };
@@ -51,15 +51,29 @@ export async function openGame(browser, { offline = true, device, viewport, cloc
   if (clock) await page.clock.install();
   await page.goto(GAME_URL);
   await page.waitForSelector('.mode');
-  const embedded = await page.evaluate(() =>
-    JSON.parse(document.getElementById('embedded-catalogs').textContent).files.flatMap((f) => f.questions.map((q) => [q.question, q.correct])),
+  const files = await page.evaluate(() =>
+    JSON.parse(document.getElementById('embedded-catalogs').textContent).files.map((f) => ({
+      file: f.file,
+      questions: f.questions.map((q) => [q.question, q.correct, q.category, [q.correct, ...q.wrong].sort().join('\u0001')]),
+    })),
   );
+  const embedded = files.flatMap((f) => f.questions);
+  /** Figures of the embedded standard catalog, so tests do not hard-code catalog sizes. */
+  const builtin = {
+    total: embedded.length,
+    files: files.length,
+    categories: new Set(embedded.map((q) => q[2])).size,
+    /** Number of questions in one CSV, e.g. count('geographie'). */
+    count: (name) => files.find((f) => f.file === `${name}.csv`).questions.length,
+  };
 
   async function correctIndex() {
     const q = await page.locator('.question__text').innerText();
     const answers = await page.locator('.answer__text').allInnerTexts();
     const fixture = KNOWN_FIXTURE_ANSWERS(q);
-    const idx = answers.findIndex((a) => a === fixture || embedded.some(([qq, c]) => qq === q && c === a));
+    // flag/outline questions share their text, so match the full answer set as well
+    const set = [...answers].sort().join('\u0001');
+    const idx = answers.findIndex((a) => a === fixture || embedded.some(([qq, c, , all]) => qq === q && c === a && all === set));
     if (idx < 0) throw new Error(`Richtige Antwort unbekannt: ${q}`);
     return idx;
   }
@@ -71,7 +85,7 @@ export async function openGame(browser, { offline = true, device, viewport, cloc
     else await page.locator('.answer').nth(i).click();
   }
   const text = async (sel) => (await page.locator(sel).first().innerText()).replace(/\s*\n+\s*/g, ' | ');
-  return { page, context, errors, external, correctIndex, answer, text };
+  return { page, context, errors, external, builtin, correctIndex, answer, text };
 }
 
 /** Static file server with CORS on a random port, serving a writable copy of fixtures/server. */

@@ -38,13 +38,16 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     const g = await openGame(browser);
     const { page } = g;
     const o = helpers(g);
+    const b = g.builtin;
     await page.click('text=⚙️ Optionen & Kataloge');
-    assert.match(await o.summary(), /48 Fragen aus 4 von 4 Katalogen in 4 Kategorien/);
+    assert.ok((await o.summary()).includes(`${b.total} Fragen aus ${b.files} von ${b.files} Katalogen in ${b.categories} Kategorien`));
     await o.toggle('Geographie').click();
-    assert.match(await o.summary(), /36 Fragen aus 3 von 4/);
+    assert.ok((await o.summary()).includes(`${b.total - b.count('geographie')} Fragen aus ${b.files - 1} von ${b.files}`));
     await page.reload();
-    assert.match(await g.text('.footer'), /3 von 4 Katalogen aktiv/);
-    assert.deepEqual(await page.locator('.category__name').allInnerTexts(), ['Allgemeinwissen', 'Geschichte', 'Wissenschaft']);
+    assert.ok((await g.text('.footer')).includes(`${b.files - 1} von ${b.files} Katalogen aktiv`));
+    const names = await page.locator('.category__name').allInnerTexts();
+    assert.equal(names.length, b.categories - 1);
+    assert.ok(!names.includes('Geographie') && names.includes('Geschichte'));
     await page.click('text=⚙️ Optionen & Kataloge');
     await o.card('Standardkatalog').locator('text=Alle aus').click();
     await page.click('text=Fertig');
@@ -52,7 +55,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     assert.match(await g.text('.panel .setup__info'), /Keine aktiven Fragen/);
     await page.click('.footer >> text=Kataloge verwalten');
     await o.card('Standardkatalog').locator('text=Alle an').click();
-    assert.match(await o.summary(), /48 Fragen aus 4 von 4/);
+    assert.ok((await o.summary()).includes(`${b.total} Fragen aus ${b.files} von ${b.files}`));
     await g.context.close();
   });
 
@@ -60,6 +63,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     const g = await openGame(browser, { offline: false });
     const { page, context } = g;
     const o = helpers(g);
+    const b = g.builtin;
     await page.click('text=⚙️ Optionen & Kataloge');
 
     await o.addUrl('das ist keine url');
@@ -72,12 +76,12 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     assert.match(await g.text('.preview'), /Film \(film\.csv\): 4 Fragen · ⚠ 1 übersprungen/);
     await page.click('.preview >> text=Hinzufügen');
     await page.waitForSelector('.source--url');
-    assert.match(await o.summary(), /58 Fragen aus 6 von 6 Katalogen in 6 Kategorien/);
+    assert.ok((await o.summary()).includes(`${b.total + 10} Fragen aus ${b.files + 2} von ${b.files + 2} Katalogen in ${b.categories + 2} Kategorien`));
 
     await o.addUrl(`${server.url}/einzel.csv`);
     await page.click('.preview >> text=Hinzufügen');
     await page.waitForSelector('.source__name:has-text("Einzel")');
-    assert.match(await o.summary(), /60 Fragen aus 7 von 7/);
+    assert.ok((await o.summary()).includes(`${b.total + 12} Fragen aus ${b.files + 3} von ${b.files + 3}`));
 
     await o.addUrl(`${server.url}/pack/index.json`);
     assert.match(await g.text('.preview__intro'), /schon vorhanden/);
@@ -88,7 +92,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     await context.setOffline(true);
     await page.click('.mode >> text=Training');
     await page.click('text=keine');
-    await page.click('.chip >> text=Sport');
+    await page.click('.chip:has-text("Ballsport")');
     await page.click('.chip >> text=alle');
     await page.click('text=Los geht’s!');
     let image = null;
@@ -109,6 +113,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     const g = await openGame(browser, { offline: false });
     const { page } = g;
     const o = helpers(g);
+    const b = g.builtin;
     await page.click('text=⚙️ Optionen & Kataloge');
     await o.addUrl(`${server.url}/pack/`);
     await page.click('.preview >> text=Hinzufügen');
@@ -117,7 +122,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
 
     const index = path.join(server.dir, 'pack/index.json');
     fs.writeFileSync(index, fs.readFileSync(index, 'utf8').replace('"version": "1"', '"version": "2"'));
-    fs.appendFileSync(path.join(server.dir, 'pack/sport.csv'), 'sp-7,sport,2,Neue Sportfrage?,a,b,c,d,,,\n');
+    fs.appendFileSync(path.join(server.dir, 'pack/sport.csv'), 'sp-7,ballsport,2,Neue Sportfrage?,a,b,c,d,,,\n');
     const pack = o.card('Sport & Film');
     await pack.locator('text=🔄 Aktualisieren').click();
     await pack.locator('.preview').waitFor();
@@ -125,7 +130,7 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     await pack.locator('text=Update übernehmen').click();
     await page.waitForSelector('.source--url .source__meta:has-text("Version 2 ·")');
     assert.equal(await o.toggle('Film').locator('input').isChecked(), false, 'Film bleibt aus');
-    assert.match(await o.summary(), /55 Fragen/);
+    assert.ok((await o.summary()).includes(`${b.total + 7} Fragen`));
     await o.card('Sport & Film').locator('text=🔄 Aktualisieren').click();
     await page.waitForSelector('.source__status:has-text("Bereits aktuell")');
 
@@ -134,11 +139,11 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     assert.match(await g.text('.preview'), /Import \(2 Dateien\).*2 Fragen aus 2 Dateien in 1 Kategorie/);
     await page.click('.preview >> text=Importieren');
     await page.waitForSelector('.source--import');
-    assert.match(await o.summary(), /57 Fragen/);
+    assert.ok((await o.summary()).includes(`${b.total + 9} Fragen`));
     await page.locator('.source--import >> text=🗑 Entfernen').click();
     await page.click('dialog button[value=ok]');
     await page.waitForSelector('.source--import', { state: 'detached' });
-    assert.match(await o.summary(), /55 Fragen/);
+    assert.ok((await o.summary()).includes(`${b.total + 7} Fragen`));
     await g.context.close();
   });
 
@@ -168,14 +173,15 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     assert.match(await builtin.locator('.preview__intro').innerText(), /Neue Version 9999-01-01\.1/);
     await builtin.locator('text=Update übernehmen').click();
     await page.waitForSelector('.badge:has-text("aktualisiert")');
-    assert.match(await g.text('.source--builtin .source__meta'), /49 Fragen/);
+    const total = g.builtin.total;
+    assert.ok((await g.text('.source--builtin .source__meta')).includes(`${total + 1} Fragen`));
     await page.reload();
     await page.click('text=⚙️ Optionen & Kataloge');
-    assert.match(await g.text('.source--builtin .source__meta'), /9999-01-01\.1 · 49 Fragen/);
+    assert.ok((await g.text('.source--builtin .source__meta')).includes(`9999-01-01.1 · ${total + 1} Fragen`));
     await page.click('text=Auf eingebaute Version zurücksetzen');
     await page.click('dialog button[value=ok]');
     await page.waitForSelector(`.source--builtin .source__meta:has-text("${current}")`);
-    assert.match(await g.text('.source--builtin .source__meta'), /48 Fragen/);
+    assert.ok((await g.text('.source--builtin .source__meta')).includes(`${total} Fragen`));
     await g.context.close();
   });
 });
