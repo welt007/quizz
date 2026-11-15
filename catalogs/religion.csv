@@ -2,8 +2,10 @@ id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,t
 otq-general-1258,religion,1,"Welche griechische Göttin ist die Schutzherrin Athens, der der Parthenon geweiht ist?",Athene,Aphrodite,Hera,Artemis,,,opentriviaqa
 otq-general-1473,religion,1,Wo wurde Jesus laut Bibel geboren?,In Bethlehem,In Jerusalem,In Jericho,In Ägypten,,,opentriviaqa
 otq-general-1504,religion,1,Welcher biblische Prophet wurde von einem großen Fisch verschluckt?,Jona,Jerobeam,Josua,Jeremia,,,opentriviaqa
+otq-general-2228,religion,1,Wie verzaubern Meerjungfrauen in Sagen die Menschen?,Mit ihrem Gesang,Mit Zauberstaub,Mit Tanz,Mit Blicken,,,opentriviaqa
 otq-general-2594,religion,1,Welchem griechischen Gott entspricht der römische Kriegsgott Mars?,Ares,Zeus,Hades,Hermes,,,opentriviaqa
 otq-general-2831,religion,1,Welcher der zwölf Apostel verriet Jesus laut Neuem Testament mit einem Kuss?,Judas,Thaddäus,Bartholomäus,Simon Zelotes,,,opentriviaqa
+otq-geography-562,religion,1,In welchem Fluss wurde Jesus von Johannes getauft?,Im Jordan,Im Tigris,Im Euphrat,Im Nil,,,opentriviaqa
 otq-history-391,religion,1,Wer löste die Reformation in Europa aus?,Martin Luther,Johannes Calvin,Erasmus von Rotterdam,Huldrych Zwingli,,,opentriviaqa
 otq-humanities-136,religion,1,Welche Tiere begleiteten den Gott Odin als Hugin und Munin?,Raben,Fledermäuse,Falken,Schlangen,,,opentriviaqa
 otq-humanities-381,religion,1,Aus welchen zwei Wesen besteht der Minotaurus?,Mensch und Stier,Mensch und Pferd,Mann und Frau,Mensch und Löwe,,,opentriviaqa
@@ -16,6 +18,8 @@ otq-humanities-830,religion,1,"Was für Vögel sind Hugin und Munin, die Begleit
 otq-humanities-908,religion,1,"Wie heißt der dreiköpfige Hund, der den Eingang zur Unterwelt bewacht?",Kerberos,Chimära,Echidna,Orthos,,,opentriviaqa
 otq-humanities-930,religion,1,Was für ein Wesen ist Pegasus in der griechischen Sage?,Ein geflügeltes Pferd,Ein geflügelter Widder,Ein geflügelter Hund,Ein geflügelter Drache,,,opentriviaqa
 otq-people-52,religion,1,Welcher Name bedeutet „der Erwachte“?,Buddha,Christus,Dalai Lama,Mahatma,,,opentriviaqa
+otq-people-71,religion,1,Welcher Papst hieß mit bürgerlichem Namen Karol Wojtyła?,Johannes Paul II.,Johannes XXIII.,Paul VI.,Johannes Paul I.,,,opentriviaqa
+otq-rated-1757,religion,1,Wer war laut Bibel das erste Menschenpaar?,Adam und Eva,Antonius und Kleopatra,Abraham und Sara,Romeo und Julia,,,opentriviaqa
 otq-religion-faith-148,religion,1,Welcher Fluss ist den Hindus am heiligsten?,Ganges,Yamuna,Indus,Brahmaputra,,,opentriviaqa
 otq-religion-faith-152,religion,1,Welchen Tierkopf hat der hinduistische Gott Ganesha?,Einen Elefantenkopf,Einen Kobrakopf,Einen Löwenkopf,Einen Bärenkopf,,,opentriviaqa
 otq-religion-faith-178,religion,1,"Welcher biblische Anführer teilte das Meer, damit sein Volk hindurchziehen konnte?",Mose,Noah,Josef,Jakob,,,opentriviaqa
@@ -26,25 +30,33 @@ otq-religion-faith-21,religion,1,"Welcher Engel verkündete Maria, dass sie Jesu
 otq-religion-faith-228,religion,1,In welcher Sprache ist die Tora geschrieben?,Hebräisch,Arabisch,Syrisch,Aramäisch,,,opentriviaqa
 otq-religion-faith-234,religion,1,"In welcher Stadt liegen der Tempelberg, die Grabeskirche und die Klagemauer?",Jerusalem,Bagdad,Damaskus,Konstantinopel,,,opentriviaqa
 otq-religion-faith-235,religion,1,Wer baute laut Bibel den ersten Tempel in Jerusalem?,König Salomo,Kaiser Konstantin,König David,Kaiser Justinian,,,opentriviaqa
+otq-religion-faith-253,religion,1,Wie lautet das Buch des Alten Testaments: „Das Hohelied …“?,… Salomos,… Hiobs,… Ruths,… Joels,,,opentriviaqa
 otq-religion-faith-279,religion,1,"Was geschah mit Schadrach, Meschach und Abed-Nego, weil sie das Götzenbild nicht anbeteten?",Sie wurden in einen Feuerofen geworfen,Sie wurden gehängt,Sie wurden in die Löwengrube geworfen,Sie wurden gesteinigt,,,opentriviaqa
 otq-religion-faith-435,religion,1,Welcher Papst regierte von 1978 bis 2005?,Johannes Paul II.,Johannes Paul I.,Benedikt XVI.,Paul VI.,,,opentriviaqa
 otq-religion-faith-68,religion,1,Wie hieß der Bruder von Mose?,Aaron,Josua,Kaleb,Levi,,,opentriviaqa
+otq-science-technology-1209,religion,1,Nach wem ist der Planet Mars benannt?,Nach dem römischen Kriegsgott,Nach einem Schokoriegel,Nach dem Friedensgott,Nach dem Meeresgott,,,opentriviaqa
 otq-science-technology-1278,religion,1,Venus ist die römische Göttin wofür?,Für die Liebe,Für die Wahrheit,Für die Jagd,Für die Weisheit,,,opentriviaqa
 otq-science-technology-1442,religion,1,Welcher griechische Gott entspricht dem römischen Jupiter?,Zeus,Apollon,Ares,Hermes,,,opentriviaqa
 otq-science-technology-526,religion,1,Was war Blitz nach dem Glauben der alten Griechen?,Die Waffe des Zeus,Eine Warnung der Athene,Ein Todeszeichen,Ein Glückszeichen,,,opentriviaqa
+otq-world-1095,religion,1,Welcher Fluss ist im Hinduismus heilig?,Ganges,Donau,Amazonas,Nil,,,opentriviaqa
 otq-world-1101,religion,1,Welches Land ist mit dem „Heiligen Land“ gemeint?,Israel bzw. Palästina,Bhutan,Indien,Saudi-Arabien,,,opentriviaqa
+otq-world-156,religion,1,In welcher Stadt wurde Jesus laut Bibel geboren?,Bethlehem,Nazareth,Jerusalem,Kapernaum,,,opentriviaqa
 otq-world-1908,religion,1,Wie viele Stämme Israels gab es laut Bibel?,12,13,15,7,,,opentriviaqa
 otq-world-1912,religion,1,"Wie heißt das Schiff, mit dem Jason das Goldene Vlies suchte?",Argo,Pegasus,Olympia,Artemis,,,opentriviaqa
 otq-world-2082,religion,1,Wer regiert den Staat Vatikanstadt?,Der Papst,Das Völkerrecht,Italien,Der Kardinalsrat,,,opentriviaqa
+otq-world-2085,religion,1,Für wie lange wird ein Papst gewählt?,Auf Lebenszeit,3 Jahre,5 Jahre,10 Jahre,,,opentriviaqa
 otq-world-238,religion,1,Am Tag vor welchem katholischen Feiertag wird Halloween gefeiert?,Allerheiligen,Aschermittwoch,Silvester,Weihnachten,,,opentriviaqa
+otq-world-2477,religion,1,Welcher griechische Gott entspricht dem römischen Amor (Cupido)?,Eros,Apollon,Aphrodite,Dionysos,,,opentriviaqa
 otq-world-597,religion,1,Auf welche historische Person geht die Figur des Weihnachtsmanns zurück?,Den heiligen Nikolaus,Den heiligen Ludwig,Den heiligen Josef,Den Apostel Paulus,,,opentriviaqa
 otq-general-1441,religion,2,Wer wurde 632 Nachfolger Mohammeds und erster Kalif?,Abu Bakr,Ali,Umar,Uthman,,,opentriviaqa
+otq-general-2071,religion,2,Welche Farbe gilt im Islam als besonders heilig?,Grün,Blau,Weiß,Gold,,,opentriviaqa
 otq-general-2770,religion,2,Wie heißt der Weltuntergang in der nordischen Mythologie?,Ragnarök,Reykjavík,Walhalla,Midgard,,,opentriviaqa
 otq-general-281,religion,2,Wie heißt die aus Lehm erschaffene Gestalt der jüdischen Sage?,Golem,Grendel,Dybbuk,Kraken,,,opentriviaqa
 otq-general-286,religion,2,Wie heißt der Wachhund der Unterwelt in der griechischen Mythologie?,Kerberos,Golem,Hydra,Typhon,,,opentriviaqa
 otq-general-2911,religion,2,Was ist die „Päpstliche Schweizergarde“?,Die über 500 Jahre alte Leibwache des Papstes,Ein Name der Alpen,Eine Brauerei in Basel,Ein Friedensgarten,,,opentriviaqa
 otq-general-521,religion,2,Wie heißt das jüdische Neujahrsfest?,Rosch ha-Schana,Jom Kippur,Schabbat,Chanukka,,,opentriviaqa
 otq-general-557,religion,2,Welcher dieser Götter war KEIN Sonnengott?,Thor,Helios,Sol,Ra,,,opentriviaqa
+otq-general-77,religion,2,Wie viele Himmel gibt es nach islamischer Überlieferung?,7,11,3,9,,,opentriviaqa
 otq-geography-116,religion,2,Welches Kleidungsstück ist eng mit der Religion der Sikhs verbunden?,Turban,Kimono,Sari,Kaftan,,,opentriviaqa
 otq-geography-236,religion,2,Wessen Frau erstarrte laut Bibel am Toten Meer zur Salzsäule?,Lot,Isaak,Abraham,Jakob,,,opentriviaqa
 otq-geography-520,religion,2,Welche Form des Christentums überwiegt in Norwegen?,Evangelisch-lutherisch,Anglikanisch,Orthodox,Römisch-katholisch,,,opentriviaqa
@@ -59,8 +71,13 @@ otq-humanities-225,religion,2,Welcher Vogel gilt bei vielen Völkern Nordamerika
 otq-humanities-400,religion,2,Wofür sind Chakren nach indischer Lehre Zentren?,Für Energie,Für Gefühle,Für die Seele,Für das Blut,,,opentriviaqa
 otq-humanities-44,religion,2,Wessen Wagen zog das Seepferd Hippokamp in der griechischen Mythologie?,Poseidons,Zeus’,Ares’,Apollons,,,opentriviaqa
 otq-humanities-443,religion,2,"Wie heißen die halb menschlichen, halb ziegenartigen Begleiter des Dionysos?",Satyrn,Kentauren,Bakchantinnen,Nymphen,,,opentriviaqa
+otq-humanities-46,religion,2,Wie wird der Krake der Seefahrersagen meist beschrieben?,Als riesiger Tintenfisch,Als Buckelwal,Als Riesenqualle,Als Weißer Hai,,,opentriviaqa
 otq-humanities-518,religion,2,Wie heißt der Wohnsitz der nordischen Götter?,Asgard,Olymp,Atlantis,Midgard,,,opentriviaqa
+otq-humanities-692,religion,2,Wer war die Mutter des Zeus?,Rhea,Maia,Hera,Gaia,,,opentriviaqa
+otq-humanities-770,religion,2,Wofür steht die Banshee in der irischen Sage?,Für den nahen Tod,Für Reichtum,Für Nahrung,Für Geburt,,,opentriviaqa
 otq-humanities-80,religion,2,"Welches Instrument spielte Orpheus so schön, dass selbst Tiere und Steine lauschten?",Die Lyra,Die Harfe,Die Flöte,Die Trommel,,,opentriviaqa
+otq-humanities-904,religion,2,Welcher Titan erschuf nach griechischer Sage die Menschen aus Lehm?,Prometheus,Uranos,Kronos,Atlas,,,opentriviaqa
+otq-humanities-911,religion,2,Wen sollte Poseidon auf Bitten des Zyklopen Polyphem nie heimkehren lassen?,Odysseus,Eurymachos,Telemachos,Achilles,,,opentriviaqa
 otq-humanities-93,religion,2,Wie heißt das Fabelwesen mit Löwenkörper und Adlerkopf und -flügeln?,Greif,Basilisk,Alraune,Sphinx,,,opentriviaqa
 otq-humanities-97,religion,2,"Welches Mischwesen der griechischen Mythologie ist halb Mensch, halb Bock?",Satyr,Kentaur,Anubis,Minotaurus,,,opentriviaqa
 otq-newest-1159,religion,2,Welcher Gott erhielt nach dem Sturz des Kronos die Herrschaft über das Meer?,Poseidon,Neptun,Zeus,Apollon,,,opentriviaqa
@@ -70,31 +87,42 @@ otq-people-877,religion,2,Wie endete Judas Iskariot laut Matthäusevangelium?,Er
 otq-rated-1138,religion,2,Welche Göttin versprach Paris die schönste Frau der Welt und bekam dafür den goldenen Apfel?,Aphrodite,Athene,Demeter,Hera,,,opentriviaqa
 otq-rated-1141,religion,2,Welcher griechische Gott lenkt den Sonnenwagen über den Himmel?,Helios,Poseidon,Hermes,Ares,,,opentriviaqa
 otq-rated-1194,religion,2,In welcher Beziehung steht Persephone zum Unterweltgott Hades?,Sie ist seine Gemahlin,Sie ist seine Tochter,Sie ist seine Schwiegermutter,Sie ist seine Mutter,,,opentriviaqa
+otq-religion-faith-10,religion,2,"Wie geht die Seligpreisung weiter: „Selig, die arm sind vor Gott, denn …“?",„… ihnen gehört das Himmelreich“,„… sie werden getröstet werden“,„… sie werden Kinder Gottes heißen“,„… sie werden Gott schauen“,,,opentriviaqa
 otq-religion-faith-112,religion,2,Zu welchem Fest essen Juden ungesäuertes Brot (Mazza)?,Pessach,Rosch ha-Schana,Chanukka,Jom Kippur,,,opentriviaqa
 otq-religion-faith-114,religion,2,Welche Grundaussagen bilden den Kern der Lehre Buddhas?,Die Vier Edlen Wahrheiten,Die Sieben Glaubensartikel,Die Drei Schriftrollen,Die Zehn Wege,,,opentriviaqa
 otq-religion-faith-117,religion,2,Welcher Weg führt im Buddhismus zur Aufhebung des Leidens?,Der Edle Achtfache Pfad,Die Zehn rechten Taten,Die tiefe Versenkung,Die Sechs Heilmittel,,,opentriviaqa
+otq-religion-faith-13,religion,2,Wer verfasste die meisten Bücher (Briefe) des Neuen Testaments?,Paulus,David,Johannes,Petrus,,,opentriviaqa
 otq-religion-faith-14,religion,2,Wer schrieb laut Überlieferung die Offenbarung im Exil auf Patmos?,Johannes,Paulus,Petrus,Jakobus,,,opentriviaqa
 otq-religion-faith-142,religion,2,"Welcher Heilige wird angerufen, wenn man etwas verloren hat?",Antonius von Padua,Josef,Judas Thaddäus,Christophorus,,,opentriviaqa
 otq-religion-faith-143,religion,2,Welcher Heilige ist der Schutzpatron der Reisenden?,Christophorus,Michael,Theresia,Andreas,,,opentriviaqa
 otq-religion-faith-15,religion,2,Wie alt war Jesus nach gängiger Annahme bei seiner Kreuzigung?,Etwa 33 Jahre,27 Jahre,40 Jahre,50 Jahre,,,opentriviaqa
+otq-religion-faith-153,religion,2,Welche Gruppe bildete die höchste Kaste im Hinduismus?,Priester (Brahmanen),Witwen,Krieger,Arbeiter,,,opentriviaqa
 otq-religion-faith-154,religion,2,Krishna ist eine Inkarnation welches Hindu-Gottes?,Vishnu,Buddha,Shiva,Brahma,,,opentriviaqa
 otq-religion-faith-157,religion,2,Welche verheiratete Frau sah König David beim Baden und begehrte sie?,Batseba,Ahinoam,Abigajil,Michal,,,opentriviaqa
 otq-religion-faith-18,religion,2,Welchen Beruf hatte der Evangelist Lukas laut Neuem Testament?,Arzt,Zöllner,Zimmermann,Bootsbauer,,,opentriviaqa
 otq-religion-faith-190,religion,2,Wie viele Bücher hat das Neue Testament?,27,25,20,39,,,opentriviaqa
 otq-religion-faith-197,religion,2,Wie hieß die Frau Isaaks laut Bibel?,Rebekka,Lea,Rahel,Sara,,,opentriviaqa
 otq-religion-faith-199,religion,2,Wofür verkaufte Esau laut Bibel sein Erstgeburtsrecht an Jakob?,Für Brot und Linsengericht,Für Brot und Wildbret,Für einen Schafbock,Für Manna,,,opentriviaqa
+otq-religion-faith-23,religion,2,Was gehört NICHT zu den sieben Todsünden?,Verschleierung,Zorn,Wollust,Neid,,,opentriviaqa
+otq-religion-faith-245,religion,2,"Wie hieß die Schwiegermutter, bei der Rut blieb?",Noomi,Maria,Orpa,Rahab,,,opentriviaqa
+otq-religion-faith-281,religion,2,"Was drohte König Darius jedem, der 30 Tage lang zu einem anderen Gott betete?",Die Löwengrube,Die Enthauptung,Die Steinigung,Der Feuerofen,,,opentriviaqa
 otq-religion-faith-319,religion,2,Welcher Prophet salbte laut Bibel im Auftrag Gottes David zum König?,Samuel,Abjatar,Ahimelech,Saul,,,opentriviaqa
 otq-religion-faith-321,religion,2,Wer war laut Bibel der Vater von König David?,Isai,Samuel,Salomo,Saul,,,opentriviaqa
 otq-religion-faith-345,religion,2,Wem wird Psalm 23 („Der Herr ist mein Hirte“) zugeschrieben?,David,Mose,Salomo,Asaf,,,opentriviaqa
 otq-religion-faith-358,religion,2,Welcher Science-Fiction-Autor gründete Scientology?,L. Ron Hubbard,Isaac Asimov,Robert A. Heinlein,Arthur C. Clarke,,,opentriviaqa
+otq-religion-faith-37,religion,2,"In welche Tiere fuhren laut Evangelium die Dämonen, die Jesus austrieb?",In Schweine,In Geier,In Krähen,In Kühe,,,opentriviaqa
 otq-religion-faith-399,religion,2,Welcher Heilige gilt als erster Märtyrer des Christentums (Gedenktag 26. Dezember)?,Stephanus,Matthäus,Andreas,Paulus,,,opentriviaqa
 otq-religion-faith-400,religion,2,Wessen Geburt feiern Christen am 8. September als Kind von Joachim und Anna?,Die Jungfrau Maria,König Salomo,Johannes der Täufer,König David,,,opentriviaqa
 otq-religion-faith-401,religion,2,Welches gilt als höchstes Fest im christlichen Kalender?,Ostern (Auferstehung Jesu),Christi Himmelfahrt,Dreikönigstag,Weihnachten,,,opentriviaqa
+otq-religion-faith-419,religion,2,Das wievielte Wunder Jesu war die Verwandlung von Wasser in Wein in Kana?,Das erste,Das letzte,Das zweite,Das siebte,,,opentriviaqa
 otq-religion-faith-420,religion,2,Wer ist nach christlichem Glauben der Mittler zwischen Gott und den Menschen?,Jesus Christus,Maria,Josef,Johannes der Täufer,,,opentriviaqa
 otq-religion-faith-437,religion,2,Welcher Evangelist schrieb auch die Apostelgeschichte?,Lukas,Johannes,Matthäus,Markus,,,opentriviaqa
 otq-religion-faith-453,religion,2,Wie nennt man die ersten fünf Bücher des Alten Testaments im Judentum?,Tora,Talmud,Mischna,Psalter,,,opentriviaqa
+otq-religion-faith-459,religion,2,Wie nennt man im Judentum erlaubte Speisen?,Koscher,Treife,Halal,Parve,,,opentriviaqa
 otq-religion-faith-474,religion,2,Was erschuf Gott laut 1. Buch Mose am sechsten Tag zuletzt?,Den Menschen,Die Fische,Die Vögel,Die Sterne,,,opentriviaqa
+otq-religion-faith-481,religion,2,Wie hieß der dritte Sohn von Adam und Eva?,Set,Eli,Abel,Henoch,,,opentriviaqa
 otq-religion-faith-510,religion,2,"Wer sagte: „Nicht die Gesunden brauchen den Arzt, sondern die Kranken“?",Jesus,Johannes der Täufer,Josef,Paulus,,,opentriviaqa
+otq-religion-faith-513,religion,2,"Wer beklagte sich bei Jesus, dass ihre Schwester ihr nicht helfe?",Marta,Waschti,Maria Magdalena,Die Königin von Saba,,,opentriviaqa
 otq-religion-faith-516,religion,2,Wie heißt im Buddhismus der Kreislauf der Wiedergeburten?,Samsara,Dharma,Naraka,Asura,,,opentriviaqa
 otq-religion-faith-53,religion,2,Wie heißt nach katholischer Lehre der Ort der Läuterung nach dem Tod?,Fegefeuer (Purgatorium),Apokalypse,Limbus,Apokryphen,,,opentriviaqa
 otq-religion-faith-65,religion,2,Worin bestand nach christlicher Lehre der Sündenfall?,Im Ungehorsam gegen Gott,In Gier,In einem Mord,In Gotteslästerung,,,opentriviaqa
@@ -106,14 +134,20 @@ otq-religion-faith-92,religion,2,Wer sind die drei Erzväter des Judentums?,"Abr
 otq-world-1339,religion,2,Wer ist der Schutzpatron Schottlands (Gedenktag 30. November)?,Der heilige Andreas,Der heilige Petrus,Der heilige Patrick,Der heilige Georg,,,opentriviaqa
 otq-world-160,religion,2,An welchem Tag feiern viele orthodoxe Kirchen (z. B. die russische) Weihnachten?,7. Januar,31. Dezember,6. Februar,25. November,,,opentriviaqa
 otq-world-1628,religion,2,Welcher in Bethlehem geborene König war der zweite König Israels?,David,Juda,Josef,Samuel,,,opentriviaqa
+otq-world-1883,religion,2,Welches Land hat das islamische Glaubensbekenntnis als Staatsmotto und in der Flagge?,Saudi-Arabien,Pakistan,Senegal,Sudan,,,opentriviaqa
+otq-world-2203,religion,2,"Wie heißt Golgota, der Ort der Kreuzigung, auch?",Kalvarienberg,Gethsemane,Sinai,Tabor,,,opentriviaqa
 otq-world-2642,religion,2,Welche Religion ist in Frankreich am weitesten verbreitet?,Römischer Katholizismus,Islam,Protestantismus,Buddhismus,,,opentriviaqa
 otq-world-2809,religion,2,"Auf welches Fest geht Halloween zurück, und welcher Kultur entstammt es?",Samhain der Kelten,Saturnalien der Römer,Jul der Germanen,Beltane der Wikinger,,,opentriviaqa
+otq-world-2859,religion,2,Mit welchem jüdischen Fest ist Ostern eng verbunden?,Pessach,Schawuot,Chanukka,Sukkot,,,opentriviaqa
 otq-world-3311,religion,2,In welchem dieser Länder wird Weihnachten am 7. Januar gefeiert?,Russland,Tschechien,Portugal,Polen,,,opentriviaqa
+otq-world-3373,religion,2,Wie heißt der griechische Klosterkomplex auf Felsen im Pindos-Gebirge?,Meteora,Delphi,Thessaloniki,Athos,,,opentriviaqa
 otq-world-3918,religion,2,"In welchem heutigen Land lag Myra, wo der heilige Nikolaus Bischof war?",Türkei,Griechenland,Finnland,Italien,,,opentriviaqa
 otq-world-599,religion,2,Wo lebten Maria und Josef laut Bibel vor der Geburt Jesu?,In Nazareth,In Jerusalem,In Bethlehem,In Rom,,,opentriviaqa
 otq-world-968,religion,2,Welcher doppelgesichtige römische Gott gab einem Monat seinen Namen?,Janus,Jupiter,Mars,Juno,,,opentriviaqa
 otq-animals-320,religion,3,Was geschah im „Jahr des Elefanten“ (um 570) der islamischen Geschichte?,Mohammed wurde geboren,Der Koran wurde niedergeschrieben,Mohammed empfing die erste Offenbarung,Mohammed starb,,,opentriviaqa
 otq-general-1574,religion,3,Welche Kirche trennte sich 1534 von Rom und ist Mutterkirche der Anglikanischen Gemeinschaft?,Kirche von England,Lutherische Kirche,Reformierte Kirche,Altkatholische Kirche,,,opentriviaqa
+otq-general-211,religion,3,Woraus wurde laut islamischem Glauben der Teufel (Iblis) erschaffen?,Aus rauchlosem Feuer,Aus Stein,Aus Lehm,Aus Licht,,,opentriviaqa
+otq-general-261,religion,3,Welches Land nahm als erstes das Christentum als Staatsreligion an?,Armenien,Rom,Äthiopien,Georgien,,,opentriviaqa
 otq-general-284,religion,3,Welches Fabelwesen heißt übersetzt „Ziegensauger“?,Chupacabra,Chimäre,Kitsune,Cthulhu,,,opentriviaqa
 otq-general-44,religion,3,Welche griechische Göttin beschreibt Homer als „golden“?,Aphrodite,Demeter,Hera,Medusa,,,opentriviaqa
 otq-geography-232,religion,3,Welche jüdische Gruppe soll die Schriftrollen von Qumran verfasst haben?,Die Essener,Die Pharisäer,Die Sadduzäer,Die Zeloten,,,opentriviaqa
@@ -123,12 +157,14 @@ otq-history-340,religion,3,Welcher Glaubensgruppe gehörten die meisten Einwohne
 otq-history-407,religion,3,Welche Religion herrschte im persischen Achämenidenreich vor?,Zoroastrismus,Rastafari,Hinduismus,Schamanismus,,,opentriviaqa
 otq-history-745,religion,3,Welche Religion erlangte während der Tang-Dynastie in China großen Einfluss?,Buddhismus,Christentum,Hinduismus,Islam,,,opentriviaqa
 otq-history-834,religion,3,Als Verkörperung welcher Göttin galt Kleopatra?,Isis,Athene,Artemis,Hathor,,,opentriviaqa
+otq-history-888,religion,3,Welcher Papst verhandelte 452 mit Attila und bewahrte Rom vor der Plünderung?,Leo I. (der Große),Urban III.,Benedikt V.,Gregor I.,,,opentriviaqa
 otq-hobbies-675,religion,3,"Wer trägt den Zucchetto, eine kleine Kappe?",Katholische Geistliche,Samurai,Baseballspieler,Köche,,,opentriviaqa
 otq-hobbies-682,religion,3,Männer welcher Religion tragen die Kappe „Takke“ (Taqiyah)?,Islam,Hinduismus,Buddhismus,Shintoismus,,,opentriviaqa
 otq-humanities-101,religion,3,Welches Mischwesen aus Frau und Tier ist mit „Sirena“ gemeint?,Meerjungfrau,Grendel,Vampir,Mantikor,,,opentriviaqa
 otq-humanities-221,religion,3,Welche Vogelteile galten bei vielen Völkern Nordamerikas als Ehrenzeichen?,Federn,Krallen,Flügel,Schnäbel,,,opentriviaqa
 otq-humanities-316,religion,3,Was für ein Wesen ist der Leprechaun in der irischen Sagenwelt?,Ein Feenwesen,Ein Gnom,Ein Zwerg,Ein Dämon,,,opentriviaqa
 otq-humanities-319,religion,3,"Was stellten Iren früher hin, um Leprechauns zufriedenzustellen?",Eine Schale Milch,Bier,Whiskey,Kekse,,,opentriviaqa
+otq-humanities-439,religion,3,Welche sterbliche Frau war die Mutter des Dionysos?,Semele,Medea,Metis,Leda,,,opentriviaqa
 otq-humanities-460,religion,3,"Wie heißt die Statue, in die sich Pygmalion verliebt?",Galatea,Lachesis,Echo,Leda,,,opentriviaqa
 otq-humanities-466,religion,3,Welche nordische Göttin hütet die goldenen Äpfel der ewigen Jugend?,Idun,Frigg,Freya,Hel,,,opentriviaqa
 otq-humanities-47,religion,3,"Aus der Folklore welcher Länder stammen die „Brownies“, hilfreiche Hausgeister?",England und Schottland,Deutschland und Österreich,Irland und Wales,Dänemark und Holland,,,opentriviaqa
@@ -138,8 +174,10 @@ otq-humanities-520,religion,3,Was ist Bifröst in der nordischen Mythologie?,Die
 otq-humanities-54,religion,3,Welchem griechischen Gott entspricht der ägyptische Totengott Osiris am ehesten?,Hades,Herakles,Zeus,Hermes,,,opentriviaqa
 otq-humanities-693,religion,3,Wer ist die Mutter der neun Musen?,Mnemosyne,Urania,Melpomene,Hera,,,opentriviaqa
 otq-humanities-694,religion,3,Wer ist die Mutter des griechischen Gottes Hephaistos?,Hera,Artemis,Athene,Aphrodite,,,opentriviaqa
+otq-humanities-73,religion,3,Welche eitle Königin wurde zur Strafe kopfüber als Sternbild an den Himmel gesetzt?,Kassiopeia,Andromeda,Hera,Ariadne,,,opentriviaqa
 otq-humanities-763,religion,3,Welches Wesen ist Melusine in der europäischen Sage?,Eine Frau mit Schlangenleib,Eine zweiköpfige Hexe,Eine Waldfee,Ein Hund mit Adlerkopf,,,opentriviaqa
 otq-humanities-765,religion,3,"Wie heißt die Schlange, die sich selbst in den Schwanz beißt?",Ouroboros,Basilisk,Krokotta,Salamander,,,opentriviaqa
+otq-humanities-766,religion,3,Welchen Kopf hat das Fabelwesen Mantikor?,Einen Menschenkopf,Einen Löwenkopf,Einen Drachenkopf,Einen Pferdekopf,,,opentriviaqa
 otq-newest-2330,religion,3,Woran erinnert das Fronleichnamsfest?,An die Eucharistie,An die Kreuzauffindung,An die Menschwerdung Jesu,An den Gang über das Wasser,,,opentriviaqa
 otq-newest-887,religion,3,Welche Heilige wird „die kleine Blume“ genannt?,Theresia von Lisieux,Bartolomea Capitanio,Klara von Assisi,Teresa von Ávila,,,opentriviaqa
 otq-people-46,religion,3,Welcher Papst war der erste Nichtitaliener seit Hadrian VI.?,Johannes Paul II.,Johannes Paul I.,Benedikt XVI.,Johannes XXIII.,,,opentriviaqa
@@ -152,19 +190,24 @@ otq-religion-faith-141,religion,3,Welcher Heilige gilt als Schutzpatron der Fisc
 otq-religion-faith-145,religion,3,Welcher Heilige ist Schutzpatron der Schriftsteller und Bibliothekare?,Hieronymus,Thomas von Aquin,Gregor der Große,Benedikt,,,opentriviaqa
 otq-religion-faith-146,religion,3,Welche Heilige wird bei Augenleiden angerufen?,Die heilige Lucia,Die heilige Maria von Neapel,Die heilige Franziska,Die heilige Anna,,,opentriviaqa
 otq-religion-faith-156,religion,3,Welche Richterin führte die Israeliten laut Bibel zum Sieg über Sisera?,Debora,Rebekka,Lea,Sara,,,opentriviaqa
+otq-religion-faith-158,religion,3,Welche lange kinderlose Frau wurde Mutter des Propheten Samuel?,Hanna,Abigajil,Peninna,Hagar,,,opentriviaqa
 otq-religion-faith-160,religion,3,"Wie hieß laut Bibel die Mutter des Mose, die ihn im Körbchen am Nil versteckte?",Jochebed,Mirjam,Marta,Zippora,,,opentriviaqa
 otq-religion-faith-161,religion,3,Welche Frau versteckte laut Bibel in Jericho zwei israelitische Kundschafter unter Flachs?,Rahab,Lea,Noomi,Rahel,,,opentriviaqa
 otq-religion-faith-171,religion,3,Wie oft am Tag betet ein orthodoxer Jude an Werktagen?,3-mal,1-mal,5-mal,7-mal,,,opentriviaqa
+otq-religion-faith-175,religion,3,Wie viele Statuen stehen in jeder Synagoge?,Keine,Zehn,Fünf,Drei,,,opentriviaqa
 otq-religion-faith-179,religion,3,Was bedeutet der Name Mose laut Bibel?,Aus dem Wasser gezogen,Prinz von Ägypten,Der Schöne,Der Bittere,,,opentriviaqa
+otq-religion-faith-185,religion,3,"Was tun Juden an Simchat Tora, nachdem sie die Tora zu Ende gelesen haben?",Sie beginnen sofort von vorn,Sie feiern ein Fest und ruhen ein Jahr,Sie diskutieren,Sie fasten,,,opentriviaqa
 otq-religion-faith-2,religion,3,Welcher dieser Männer war KEIN Sohn von Adam und Eva?,Henoch,Kain,Abel,Set,,,opentriviaqa
 otq-religion-faith-229,religion,3,Wie viele Gebote (Mizwot) enthält nach jüdischer Zählung die Tora?,613,1075,24,215,,,opentriviaqa
 otq-religion-faith-231,religion,3,Welches Gebet wird am Vorabend von Jom Kippur vor Sonnenuntergang gesungen?,Kol Nidre,Selichot,Tenaim,Dor wa-dor,,,opentriviaqa
 otq-religion-faith-232,religion,3,"Wie heißt das jüdische Glaubensbekenntnis, das morgens, abends und vor dem Tod gesprochen wird?",Schma Jisrael,Hoschana Rabba,Kaddisch,Kiddusch,,,opentriviaqa
+otq-religion-faith-241,religion,3,Wessen Schwiegermutter heilte Jesus laut Matthäusevangelium vom Fieber?,Die des Petrus,Die des Jakobus,Die des Johannes,Die des Markus,,,opentriviaqa
 otq-religion-faith-254,religion,3,Welches Buch des Alten Testaments hat die wenigsten Kapitel (nur eines)?,Obadja,Haggai,Zefanja,Habakuk,,,opentriviaqa
 otq-religion-faith-275,religion,3,Wovon träumte König Nebukadnezar im zweiten Kapitel des Buches Daniel?,Von einer Statue,Von einem Baum,Von einem Ziegenbock,Von einem Tempel,,,opentriviaqa
 otq-religion-faith-309,religion,3,Wie heißt der Baldachin bei einer jüdischen Hochzeit?,Chuppa,Chuzpe,Chanukkia,Tallit,,,opentriviaqa
 otq-religion-faith-311,religion,3,Was isst man traditionell zum jüdischen Lichterfest Chanukka?,Kartoffelpuffer und Krapfen,Kartoffelpuffer und Fladenbrot,Gekochtes Huhn und Knödel,Krapfen und Fladenbrot,,,opentriviaqa
 otq-religion-faith-317,religion,3,Ab welchem Alter sind jüdische Kinder für ihr religiöses Handeln verantwortlich?,"Jungen mit 13, Mädchen mit 12",Alle mit 13,"Jungen mit 14, Mädchen mit 13","Jungen mit 13, Mädchen mit 14",,,opentriviaqa
+otq-religion-faith-322,religion,3,Wie viele Steine nahm David für den Kampf gegen Goliath mit?,5,6,4,7,,,opentriviaqa
 otq-religion-faith-326,religion,3,Welchem Stamm Israels gehörte König David an?,Juda,Naftali,Benjamin,Simeon,,,opentriviaqa
 otq-religion-faith-327,religion,3,Wie viele Jahre regierte David laut Bibel als König?,40,25,45,35,,,opentriviaqa
 otq-religion-faith-337,religion,3,Wie nennt man die Einwanderung von Juden nach Israel?,Alija,Medina,Schidduch,Gabbai,,,opentriviaqa
@@ -176,12 +219,15 @@ otq-religion-faith-444,religion,3,Welcher ist der älteste Dom Deutschlands?,Tri
 otq-religion-faith-484,religion,3,In welchem Land lebte Hiob laut Bibel?,Uz,Judäa,Galiläa,Nazareth,,,opentriviaqa
 otq-religion-faith-486,religion,3,"Wie alt war Josef laut Bibel, als der Pharao ihn über ganz Ägypten setzte?",30 Jahre,40 Jahre,22 Jahre,35 Jahre,,,opentriviaqa
 otq-religion-faith-489,religion,3,Wer war laut Bibel Jakobs Schwiegervater und Vater von Rahel und Lea?,Laban,Terach,Noah,Isaak,,,opentriviaqa
+otq-religion-faith-492,religion,3,Wen berief Jesus als einen der ersten Jünger?,Simon (Petrus),Philippus,Thomas,Judas,,,opentriviaqa
 otq-religion-faith-515,religion,3,Welches Symbol steht im Buddhismus für das Dharma (die Lehre)?,Das Rad,Die Flagge,Der Thron,Die Lotusblüte,,,opentriviaqa
 otq-religion-faith-518,religion,3,"Wie heißt der Weg zum Glück im Buddhismus, der Extreme vermeidet?",Der Mittlere Weg,Der Alte Pfad,Der Pfad der Freiheit,Der Pfad der Liebe,,,opentriviaqa
 otq-religion-faith-54,religion,3,"Wie heißt der Teil der katholischen Messe, in dem Brot und Wein in Leib und Blut Christi gewandelt werden?",Wandlung (Konsekration),Anrufung,Gabenbereitung,Kommunion,,,opentriviaqa
 otq-religion-faith-57,religion,3,"Wie nennt die katholische Kirche einen Menschen, der nach dem Tod sicher im Himmel ist?",Heiliger,Cherub,Seraph,Engel,,,opentriviaqa
 otq-religion-faith-60,religion,3,"Wer bat Pilatus um den Leichnam Jesu, um ihn zu bestatten?",Josef von Arimathäa,Petrus,Markus,Matthäus,,,opentriviaqa
 otq-religion-faith-61,religion,3,Welches Kapitel der Bibel enthält die bekannte Weihnachtsgeschichte von der Krippe?,Lukas 2,Lukas 1,Johannes 1,Matthäus 2,,,opentriviaqa
+otq-religion-faith-69,religion,3,Welche war die neunte der zehn Plagen Ägyptens?,Finsternis,Tod der Erstgeborenen,Stechmücken,Frösche,,,opentriviaqa
+otq-religion-faith-73,religion,3,Welcher Engel wird in der Bibel ausdrücklich „Erzengel“ genannt?,Michael,Luzifer,Raphael,Gabriel,,,opentriviaqa
 otq-religion-faith-8,religion,3,Welches dieser Gleichnisse erzählt Jesus NICHT?,Vom alten und jungen Mann,Vom Senfkorn,Vom verlorenen Sohn,Von den anvertrauten Talenten,,,opentriviaqa
 otq-religion-faith-85,religion,3,"Wer sind im Voodoo die „Loa“, über die man mit Gott in Verbindung tritt?",Geister,Puppen,Trommeln,Priester,,,opentriviaqa
 otq-religion-faith-89,religion,3,Wie heißt das jüdische Gebetbuch?,Siddur,Seder,Tora,Schofar,,,opentriviaqa
@@ -202,20 +248,28 @@ otq-world-469,religion,3,Welcher nordische Gott wurde mit einem Mistelzweig get�
 otq-world-994,religion,3,Welches mythische Bauwerk auf Kreta soll den Minotaurus beherbergt haben?,Das Labyrinth von Knossos,Das ägyptische Labyrinth,Der Artemistempel,Das Orakel von Delphi,,,opentriviaqa
 otq-animals-485,religion,4,In welcher Gestalt erscheinen die chinesischen Fuchsgeister (Huli Jing) häufig?,Als schöne Frauen,Als Katzen,Als Kinder,Als Büsche,,,opentriviaqa
 otq-general-129,religion,4,Welcher Papst soll beim Amtsantritt der jüngste der Geschichte gewesen sein (um 1032)?,Benedikt IX.,Johannes XII.,Gregor V.,Innozenz III.,,,opentriviaqa
+otq-general-1324,religion,4,Wie starb Krishna nach hinduistischer Überlieferung?,Durch einen Pfeil in die Ferse,Durch Gift Shivas,Durch die Sünden der Menschen,Durch einen Dolch ins Herz,,,opentriviaqa
 otq-general-1397,religion,4,"Welche Frau ist die einzige, deren Alter in der Bibel genannt wird?",Sara,Waschti,Rut,Batseba,,,opentriviaqa
 otq-general-2188,religion,4,"Welcher biblische Prophet, der im feurigen Wagen gen Himmel fuhr, inspirierte den Gospel „Swing Low, Sweet Chariot“?",Elija,Ezechiel,Jona,Jesaja,,,opentriviaqa
 otq-general-2235,religion,4,Wie heißt die Meerjungfrau der brasilianischen Folklore?,Iara,Rusalka,Undine,Nereide,,,opentriviaqa
+otq-general-2336,religion,4,Welche Pflanze sollte laut Volksglauben Vampire fernhalten?,Die Heckenrose,Die Hyazinthe,Der Löwenzahn,Die Petersilie,,,opentriviaqa
 otq-general-2500,religion,4,Aus welchem Holz baute Noah laut Bibel die Arche?,Goferholz,Eichenholz,Eschenholz,Zedernholz,,,opentriviaqa
 otq-general-278,religion,4,Welches Ungeheuer zähmte der Legende nach die heilige Martha?,Die Tarasque,Yomi,Den Lindwurm,Die Sphinx,,,opentriviaqa
+otq-geography-90,religion,4,Mit welchem Halbgott wurde der Vesuv in der Antike besonders verbunden?,Herakles,Asklepios,Apollon,Zeus,,,opentriviaqa
 otq-history-822,religion,4,Wie heißen die Berggeister in der Inka-Mythologie?,Apus,Kon,Chasca,Paricia,,,opentriviaqa
+otq-hobbies-1040,religion,4,"Wie heißen Speisen, die nach den jüdischen Speisegesetzen verboten sind?",Treife,Halal,Parve,Koscher,,,opentriviaqa
 otq-humanities-1,religion,4,Welche Gemüse meiden viele buddhistische Mönche traditionell?,Knoblauch und Zwiebeln,Hülsenfrüchte,Auberginen und Tomaten,Kohl und Salat,,,opentriviaqa
+otq-humanities-140,religion,4,Wie hieß der erste Mann der nordischen Mythologie?,Ask,Annar,Arvak,Bur,,,opentriviaqa
 otq-humanities-222,religion,4,Welcher Vogel galt bei vielen Völkern als Bote von Unglück und Tod?,Rabe,Adler,Taube,Kranich,,,opentriviaqa
+otq-humanities-391,religion,4,Welches Chakra steht für Intuition und Wahrnehmung („drittes Auge“)?,Das Stirnchakra,Das Herzchakra,Das Solarplexuschakra,Das Wurzelchakra,,,opentriviaqa
 otq-humanities-394,religion,4,Welche Farbe soll in der Farbheilkunde die Seele heilen?,Violett,Gelb,Grün,Orange,,,opentriviaqa
 otq-humanities-444,religion,4,Welches Fell trugen die Anhänger des Dionysos oft über den Schultern?,Rehfell,Ziegenfell,Löwenfell,Schafsfell,,,opentriviaqa
 otq-humanities-461,religion,4,Welcher litauische Gott schickte Wasser- und Windgeist zur Bestrafung der Menschheit?,Praamžius,Jūratė,Patrimpas,Perkūnas,,,opentriviaqa
 otq-humanities-462,religion,4,Welcher litauische Gott entspricht in etwa dem griechischen Hades?,Pikuolis,Saulė,Mėnulis,Perkūnas,,,opentriviaqa
 otq-humanities-464,religion,4,Was für ein Gegenstand ist der Sampo aus der finnischen Mythologie?,Eine Mühle,Ein Medaillon,Ein Schwert,Ein Ring,,,opentriviaqa
 otq-humanities-508,religion,4,Welcher Weg ist das Bhakti-Yoga?,Der Weg der Hingabe und Gottesliebe,Der Weg des Handelns,Der Weg der Körperbeherrschung,Der Weg der Erkenntnis,,,opentriviaqa
+otq-humanities-531,religion,4,Wie viele Hunde begleiteten Artemis laut Legende auf der Jagd?,7,9,2,12,,,opentriviaqa
+otq-humanities-534,religion,4,Was bedeutet der Beiname „Elaphebolos“ der Göttin Artemis?,Hirschjägerin,Die Jungfrau,Herrin der Tiere,Die Jägerin,,,opentriviaqa
 otq-humanities-55,religion,4,Was bedeutet der Name des ägyptischen Gottes Amun?,Der Verborgene,Der Weise,Der Starke,Der Leuchtende,,,opentriviaqa
 otq-humanities-56,religion,4,Welcher ägyptische Gott verkörperte das dunkle Urwasser des Chaos?,Nun,Atum,Iris,Bes,,,opentriviaqa
 otq-humanities-581,religion,4,In welchem Land soll die Sage vom Kobold (englisch „goblin“) entstanden sein?,Frankreich,Irland,Deutschland,England,,,opentriviaqa
@@ -226,12 +280,14 @@ otq-humanities-750,religion,4,Was bedeutet der griechische Göttinnenname „Met
 otq-humanities-767,religion,4,Wo lebt das walisische Sagenwesen Afanc?,In Seen,Unter Betten,Auf Friedhöfen,In Wäldern,,,opentriviaqa
 otq-humanities-769,religion,4,Was ist ein „Fuath“ in der keltischen Mythologie?,Ein Wassergeist,Ein Werwolf,Eine Hexe,Eine Blumenfee,,,opentriviaqa
 otq-humanities-827,religion,4,In welcher Mythologie fraß der Vogel Camulatz den ersten Menschen die Köpfe ab?,Maya,Ojibwe,Persisch,Chinesisch,,,opentriviaqa
+otq-humanities-832,religion,4,Welches Merkmal hat der Göttervogel Garuda NICHT?,Einen Rabenschnabel,Rote Flügel,Einen goldenen Körper,Ein weißes Gesicht,,,opentriviaqa
 otq-humanities-845,religion,4,Welches Merkmal hatte das traditionelle Einhorn der Sage NICHT?,Eine Schlangenzunge,Einen Ziegenbart,Einen Löwenschwanz,Gespaltene Hufe,,,opentriviaqa
 otq-humanities-903,religion,4,Was bedeutet Athenes Beiname „Kore“?,"Jungfrau, Mädchen",Heldin,Göttin,Arbeiterin,,,opentriviaqa
 otq-newest-2327,religion,4,In welchem Land ist das Fest Mariä Schutz (Pokrow) einer der wichtigsten Feiertage?,Russland,Serbien,Griechenland,Slowenien,,,opentriviaqa
 otq-newest-2357,religion,4,Welche Göttin war bei den Römern „Trivia“ – zuständig unter anderem für Zauberei und Wegkreuzungen?,Hekate (Trivia),Venus,Juno,Ceres,,,opentriviaqa
 otq-people-1918,religion,4,Was bedeutet der hebräische Name Rut vermutlich?,"Freundin, Gefährtin",Vergebung,Geliebte,Treue,,,opentriviaqa
 otq-people-397,religion,4,An welchem Tag ist der Gedenktag der heiligen Maria Magdalena?,22. Juli,6. Januar,15. August,29. September,,,opentriviaqa
+otq-religion-faith-107,religion,4,"Wie heißt das Gewand mit Schaufäden, das jüdische Männer unter dem Hemd tragen?",Tallit katan,Jarmulke,Tefillin,Kippa,,,opentriviaqa
 otq-religion-faith-138,religion,4,Welcher Heilige gilt als Schutzpatron Indiens (neben dem Apostel Thomas)?,Franz Xaver,Johannes,Ägidius,Katharina,,,opentriviaqa
 otq-religion-faith-181,religion,4,Wie viele Fastentage sind im jüdischen Jahr traditionell vorgeschrieben?,6,0,13,2,,,opentriviaqa
 otq-religion-faith-182,religion,4,Welches Thema hat der erste Traktat des Talmuds („Berachot“)?,Segenssprüche,Zivilrechtliche Schäden,Sabbat,Feiertage,,,opentriviaqa
@@ -246,14 +302,17 @@ otq-religion-faith-25,religion,4,Wie heißt das Wahrsagen aus Kaffeesatz oder Te
 otq-religion-faith-252,religion,4,Wie viele Bücher umfasst das Alte Testament in der protestantischen Zählung?,39,43,20,35,,,opentriviaqa
 otq-religion-faith-273,religion,4,Welchen Namen erhielt Daniel laut Bibel in Babylon?,Beltschazar,Meschach,Belsazar,Schadrach,,,opentriviaqa
 otq-religion-faith-276,religion,4,Für welches Reich steht das goldene Haupt im Traum Nebukadnezars (Daniel 2)?,Das Babylonische Reich,Das Römische Reich,Das Perserreich,Das Griechische Reich,,,opentriviaqa
+otq-religion-faith-277,religion,4,Für welches Reich stehen die eisernen Beine im Traum Nebukadnezars?,Das Römische Reich,Das Perserreich,Das Griechische Reich,Das Babylonische Reich,,,opentriviaqa
 otq-religion-faith-31,religion,4,Wie heißt das Wahrsagen aus Wetter- und Himmelserscheinungen?,Aeromantie,Kephalomantie,Graphologie,Bibliomantie,,,opentriviaqa
 otq-religion-faith-335,religion,4,In welcher Sprache lesen äthiopische Juden traditionell die Tora?,Ge’ez,Arabisch,Amharisch,Hausa,,,opentriviaqa
 otq-religion-faith-346,religion,4,In wie viele Bücher ist der Psalter unterteilt?,Fünf,Vier,Zwei,Drei,,,opentriviaqa
 otq-religion-faith-347,religion,4,Wie werden die Psalmen 120 bis 134 genannt?,Wallfahrtslieder,Davidpsalmen,Gottespsalmen,Hymnen,,,opentriviaqa
 otq-religion-faith-348,religion,4,Wer gilt als frühester Verfasser eines Psalms (Psalm 90)?,Mose,David,Esra,Asaf,,,opentriviaqa
 otq-religion-faith-350,religion,4,"Aus welchem Psalm stammt: „Du hast mich gebildet im Mutterleib … ich danke dir, dass ich wunderbar gemacht bin“?",Psalm 139,Psalm 23,Psalm 150,Psalm 119,,,opentriviaqa
+otq-religion-faith-362,religion,4,Wie nennen Scientologen gespeicherte traumatische Erinnerungen?,Engramme,Thetane,Audits,Dianetik,,,opentriviaqa
 otq-religion-faith-367,religion,4,Wie bezeichnen Scientologen das unsterbliche geistige Wesen des Menschen?,Thetan,Clear,Auditor,Engramm,,,opentriviaqa
 otq-religion-faith-372,religion,4,Wie heißt das Hauptwerk der Kabbala?,Sohar,Bereschit,Devarim,Schemot,,,opentriviaqa
+otq-religion-faith-380,religion,4,Welche ist KEINE der vier Hauptschulen des tibetischen Buddhismus?,Chan,Gelug,Nyingma,Sakya,,,opentriviaqa
 otq-religion-faith-382,religion,4,Welcher tibetische König soll den Buddhismus in Tibet eingeführt haben?,Songtsen Gampo,Marpa,Tilopa,Dschingis Khan,,,opentriviaqa
 otq-religion-faith-389,religion,4,Mit welchem magischen Gegenstand der keltischen Mythologie wird der Heilige Gral in Verbindung gebracht?,Mit dem Kessel des Bran,Mit dem Speer des Lug,Mit dem Boot des Lir,Mit dem Stein von Fál,,,opentriviaqa
 otq-religion-faith-41,religion,4,Welche Gegenstände sollen nach katholischem Ritus neben Kruzifix und Weihwasser bei einem Exorzismus bereitliegen?,Salz und Wein,Totenkopf und Knochen,Feder und Tinte,Schwert und Schild,,,opentriviaqa

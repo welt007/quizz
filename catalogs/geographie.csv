@@ -16,11 +16,13 @@ otq-general-122,geographie,1,Welches Land ist mit über 80 Millionen Besuchern j
 otq-general-1259,geographie,1,Welche Stadt ist die Hauptstadt Bayerns und drittgrößte Stadt Deutschlands?,München,Hamburg,Nürnberg,Augsburg,,,opentriviaqa
 otq-general-1306,geographie,1,"Wo liegt Loch Ness, in dem ein Ungeheuer hausen soll?",Im Norden Schottlands,In Wales,Im Süden Irlands,In England,,,opentriviaqa
 otq-general-1559,geographie,1,Welcher ist der kleinste Staat der Welt?,Vatikanstadt,Andorra,San Marino,Monaco,,,opentriviaqa
+otq-general-1725,geographie,1,Wo liegt die tiefste Stelle der Ozeane?,Im Marianengraben,Im Kurilengraben,Im Philippinengraben,Im Tongagraben,,,opentriviaqa
 otq-general-2059,geographie,1,Welches dieser Länder liegt in Mitteleuropa?,Polen,Bulgarien,Portugal,Griechenland,,,opentriviaqa
 otq-general-2073,geographie,1,Welche Insel wird wegen ihrer grünen Landschaft „Grüne Insel“ genannt?,Irland,Sizilien,Island,Jamaika,,,opentriviaqa
 otq-general-2802,geographie,1,Welches Alpenland trägt den lateinischen Namen „Confoederatio Helvetica“?,Schweiz,Österreich,Liechtenstein,Slowenien,,,opentriviaqa
 otq-general-2901,geographie,1,Wie heißt die Hauptstadt der Vereinigten Arabischen Emirate?,Abu Dhabi,Riad,Doha,Dubai,,,opentriviaqa
 otq-general-872,geographie,1,Welche dieser Städte ist KEINE Hauptstadt eines EU-Staats?,Zürich,Warschau,Kopenhagen,Lissabon,,,opentriviaqa
+otq-general-948,geographie,1,Wie heißt die Hauptstadt Finnlands?,Helsinki,Tallinn,Oslo,Turku,,,opentriviaqa
 otq-geography-1,geographie,1,Wie heißt die Hauptstadt Afghanistans?,Kabul,Tirana,Duschanbe,Taschkent,,,opentriviaqa
 otq-geography-100,geographie,1,"An welches Meer grenzen England, Norwegen, Belgien und Dänemark?",Nordsee,Ostsee,Schwarzes Meer,Ägäis,,,opentriviaqa
 otq-geography-108,geographie,1,Welche ist die größte Insel der Erde?,Grönland,Neuguinea,Borneo,Madagaskar,,,opentriviaqa
@@ -40,9 +42,12 @@ otq-geography-244,geographie,1,An welchen Platz grenzt der Moskauer Kreml im Ost
 otq-geography-246,geographie,1,Welcher berühmte Platz liegt in der Vatikanstadt?,Petersplatz,Campo de’ Fiori,Piazza Navona,Markusplatz,,,opentriviaqa
 otq-geography-25,geographie,1,Welches Kartenelement zeigt die Himmelsrichtungen an?,Die Windrose,Die Legende,Der Maßstab,Das Gitternetz,,,opentriviaqa
 otq-geography-252,geographie,1,An welches Meer grenzen die Niederlande?,Nordsee,Rotes Meer,Schwarzes Meer,Mittelmeer,,,opentriviaqa
+otq-geography-253,geographie,1,Welche Farben hat die Flagge der Niederlande von oben nach unten?,"Rot, Weiß, Blau","Blau, Gelb, Rot","Rot, Blau, Weiß","Grün, Rot, Weiß",,,opentriviaqa
 otq-geography-269,geographie,1,Welchen Anteil der Erdoberfläche bedecken die Ozeane?,Gut zwei Drittel,Ein Drittel,Die Hälfte,Ein Viertel,,,opentriviaqa
 otq-geography-3,geographie,1,Wie heißt die Hauptstadt Belgiens?,Brüssel,Amsterdam,Luxemburg,Antwerpen,,,opentriviaqa
 otq-geography-339,geographie,1,Durch welches Land verläuft der Himalaya NICHT?,Israel,Bhutan,Pakistan,Indien,,,opentriviaqa
+otq-geography-347,geographie,1,Welche Insel nördlich von Australien ist die zweitgrößte der Erde?,Neuguinea,Tasmanien,Borneo,Sri Lanka,,,opentriviaqa
+otq-geography-348,geographie,1,Welche Insel heißt auch Kalimantan?,Borneo,Bali,Sumatra,Java,,,opentriviaqa
 otq-geography-365,geographie,1,In welchem Land entspringt der Rhein?,Schweiz,Österreich,Liechtenstein,Deutschland,,,opentriviaqa
 otq-geography-399,geographie,1,Welche Form hat die Italienische Halbinsel?,Die eines Stiefels,Die eines Schädels,Die eines Hundes,Die einer Hand,,,opentriviaqa
 otq-geography-4,geographie,1,Wie heißt die Hauptstadt Griechenlands?,Athen,Ankara,Sofia,Thessaloniki,,,opentriviaqa
@@ -50,30 +55,37 @@ otq-geography-424,geographie,1,In welchem Land liegt Casablanca?,Marokko,Ägypte
 otq-geography-426,geographie,1,Welche ist die größte Insel der Großen Antillen?,Kuba,Hispaniola,Puerto Rico,Jamaika,,,opentriviaqa
 otq-geography-434,geographie,1,Valletta ist die Hauptstadt welches Inselstaates im Mittelmeer?,Malta,Mallorca,Korsika,Zypern,,,opentriviaqa
 otq-geography-436,geographie,1,Wie heißt die Hauptstadt Spaniens?,Madrid,Barcelona,Sevilla,Valencia,,,opentriviaqa
+otq-geography-438,geographie,1,An welches Land grenzt Spanien NICHT?,Deutschland,Portugal,Frankreich,Andorra,,,opentriviaqa
 otq-geography-442,geographie,1,Welche Farben hat die Flagge Spaniens?,Rot-Gelb-Rot (waagrecht),Blau-Weiß-Blau,Gelb-Rot-Schwarz,Weiß-Blau-Rot,,,opentriviaqa
 otq-geography-489,geographie,1,Welche Stadt ist Sitz der Schweizer Bundesregierung?,Bern,Basel,Genf,Zürich,,,opentriviaqa
 otq-geography-490,geographie,1,Welches Gebirge bedeckt rund zwei Drittel der Schweiz?,Die Alpen,Der Apennin,Die Pyrenäen,Der Jura,,,opentriviaqa
 otq-geography-494,geographie,1,Welche ist die größte Stadt der Schweiz?,Zürich,Genf,Bern,Basel,,,opentriviaqa
 otq-geography-496,geographie,1,Wie heißt die Hauptstadt Nordkoreas?,Pjöngjang,Nampo,Hamhŭng,Sinŭiju,,,opentriviaqa
 otq-geography-516,geographie,1,Wie heißt die Hauptstadt Norwegens?,Oslo,Reykjavík,Bergen,Helsinki,,,opentriviaqa
+otq-geography-53,geographie,1,"Welche Linie verläuft bei 23,5° nördlicher Breite?",Der Wendekreis des Krebses,Der Äquator,Der Polarkreis,Der Wendekreis des Steinbocks,,,opentriviaqa
 otq-geography-539,geographie,1,Welche ist die größte griechische Insel?,Kreta,Rhodos,Korfu,Euböa,,,opentriviaqa
 otq-geography-558,geographie,1,Welcher Fluss fließt durch Paris?,Seine,Loire,Rhône,Rhein,,,opentriviaqa
 otq-geography-587,geographie,1,In welchem Land liegt der Rheinfall?,Schweiz,Deutschland,Österreich,Liechtenstein,,,opentriviaqa
 otq-geography-611,geographie,1,An welches Meer grenzt Ägypten im Osten?,Rotes Meer,Schwarzes Meer,Kaspisches Meer,Mittelmeer,,,opentriviaqa
 otq-geography-614,geographie,1,Welche Stadt ist die größte Afrikas und des Nahen Ostens?,Kairo,Lagos,Kinshasa,Istanbul,,,opentriviaqa
 otq-geography-667,geographie,1,"Welcher ist der kleinste Kontinent, der auch als Insel gelten kann?",Australien,Indien,Afrika,Europa,,,opentriviaqa
+otq-geography-668,geographie,1,Welcher ist der bevölkerungsärmste unabhängige Staat der Welt?,Vatikanstadt,Monaco,San Marino,Tuvalu,,,opentriviaqa
 otq-geography-677,geographie,1,Wie hieß Myanmar bis 1989?,Birma,Siam,Bhutan,Nordvietnam,,,opentriviaqa
 otq-geography-693,geographie,1,Wie heißt die Hauptstadt Indiens?,Neu-Delhi,Jaipur,Mumbai,Kalkutta,,,opentriviaqa
 otq-geography-698,geographie,1,Kathmandu ist die Hauptstadt welches Landes?,Nepal,Bhutan,Tibet,Bangladesch,,,opentriviaqa
 otq-geography-7,geographie,1,Wie heißt die Hauptstadt Deutschlands?,Berlin,Frankfurt,München,Hamburg,,,opentriviaqa
+otq-geography-761,geographie,1,Mit welchem Land hat Schweden eine Landgrenze?,Norwegen,Schweiz,Dänemark,Litauen,,,opentriviaqa
 otq-geography-762,geographie,1,Welche Farben hat die Flagge Schwedens?,Blau und Gelb,Weiß und Blau,Weiß und Rot,Rot und Gelb,,,opentriviaqa
 otq-geography-764,geographie,1,Wie heißt die Hauptstadt Schwedens?,Stockholm,Göteborg,Malmö,Uppsala,,,opentriviaqa
 otq-geography-776,geographie,1,Welche ist die größte und wirtschaftsstärkste Stadt Brasiliens?,São Paulo,Salvador,Rio de Janeiro,Brasília,,,opentriviaqa
 otq-geography-8,geographie,1,Wie heißt die Hauptstadt Norwegens?,Oslo,Stockholm,Helsinki,Kopenhagen,,,opentriviaqa
 otq-history-1407,geographie,1,Wo liegen die Pyramiden von Gizeh?,Am Stadtrand von Kairo,In Abu Simbel,Am Golf von Akaba,In Luxor,,,opentriviaqa
 otq-humanities-740,geographie,1,Welche große Sprache ist eine der Amtssprachen Neuseelands?,Englisch,Deutsch,Spanisch,Französisch,,,opentriviaqa
+otq-humanities-761,geographie,1,Welches Land zeigt einen roten Drachen in seiner Flagge?,Wales,England,Schottland,Irland,,,opentriviaqa
+otq-humanities-838,geographie,1,"Welches Land heißt bei Nachbarn „Tyskland“, „Niemcy“ oder „Allemagne“?",Deutschland,Ukraine,Türkei,Norwegen,,,opentriviaqa
 otq-people-1885,geographie,1,In welchem Ozean liegt die Inselgruppe Madeira?,Im Atlantischen Ozean,Im Nordpolarmeer,Im Indischen Ozean,Im Pazifischen Ozean,,,opentriviaqa
 otq-people-958,geographie,1,Was ist New South Wales?,Ein Bundesstaat Australiens,Ein fiktiver Name,Ein britisches Überseegebiet,Eine Insel vor Wales,,,opentriviaqa
+otq-science-technology-1643,geographie,1,In welchem Land liegt die „Tornado Alley“ mit den meisten Tornados der Welt?,USA,Indonesien,Mexiko,Australien,,,opentriviaqa
 otq-science-technology-3,geographie,1,Welches Naturereignis tritt in Japan sehr häufig auf und wird durch Bewegungen der Erdkruste ausgelöst?,Erdbeben,Vulkanausbruch,Gezeiten,Hurrikan,,,opentriviaqa
 otq-science-technology-725,geographie,1,Wie viele Kontinente zählt man üblicherweise?,7,4,6,5,,,opentriviaqa
 otq-science-technology-732,geographie,1,Welcher Anteil der Erdoberfläche ist von Wasser bedeckt?,Etwa 70 %,Genau 50 %,Etwa 25 %,Etwa 90 %,,,opentriviaqa
@@ -85,6 +97,9 @@ otq-world-114,geographie,1,Welches Land besteht aus über 17.000 Inseln?,Indones
 otq-world-121,geographie,1,In welcher Stadt liegt die Verbotene Stadt?,Peking,Shanghai,Kanton,Nanjing,,,opentriviaqa
 otq-world-1228,geographie,1,Wie heißt die Hauptstadt Perus?,Lima,Quito,La Paz,Bogotá,,,opentriviaqa
 otq-world-124,geographie,1,In der Nähe welcher Stadt liegen die Ruinen von Pompeji?,Neapel,Bologna,Venedig,Rom,,,opentriviaqa
+otq-world-1343,geographie,1,Welche Farben hat die Flagge Schottlands?,Blau und Weiß,Rot und Weiß,Rot und Gelb,Blau und Rot,,,opentriviaqa
+otq-world-1392,geographie,1,Wie heißt die Hauptstadt Schottlands?,Edinburgh,Glasgow,Dublin,Aberdeen,,,opentriviaqa
+otq-world-1398,geographie,1,Wie heißt die Hauptstadt Indonesiens?,Jakarta,Manila,Kuala Lumpur,Bangkok,,,opentriviaqa
 otq-world-1505,geographie,1,Welches Land hat die Hauptstadt Tallinn und eine blau-schwarz-weiße Flagge?,Estland,Litauen,Finnland,Lettland,,,opentriviaqa
 otq-world-1506,geographie,1,Welches mittelamerikanische Land hat die Hauptstadt San José?,Costa Rica,Panama,Nicaragua,El Salvador,,,opentriviaqa
 otq-world-174,geographie,1,Welche „Stadt der Lichter“ hieß auf Lateinisch Lutetia?,Paris,London,Rom,Wien,,,opentriviaqa
@@ -126,27 +141,38 @@ otq-world-64,geographie,1,Madrid ist Hauptstadt und größte Stadt welches Lande
 otq-world-668,geographie,1,An welchen Ozean grenzt New York City?,Atlantik,Indischer Ozean,Pazifik,Nordpolarmeer,,,opentriviaqa
 otq-world-676,geographie,1,In welchem Ozean liegt das Bermudadreieck?,Im Atlantik,Im Nordpolarmeer,Im Indischen Ozean,Im Pazifik,,,opentriviaqa
 otq-world-682,geographie,1,Welches Land wird von einem Kanal zwischen Pazifik und Atlantik geteilt?,Panama,Peru,Kolumbien,Costa Rica,,,opentriviaqa
+otq-world-712,geographie,1,Was für ein Bauwerk ist das „London Eye“?,Ein Riesenrad,Ein Uhrturm,Eine Sternwarte,Ein Sessellift,,,opentriviaqa
 otq-world-739,geographie,1,Was ist Montenegro („Schwarzer Berg“)?,Ein Land auf dem Balkan,Eine ehemalige Sowjetrepublik,Eine Mittelmeerinsel,Ein Alpengipfel,,,opentriviaqa
 otq-world-855,geographie,1,Wie heißt die Hauptstadt Kanadas?,Ottawa,Québec,Toronto,Montreal,,,opentriviaqa
 otq-world-891,geographie,1,Welches südostasiatische Land hat die Hauptstadt Manila?,Philippinen,Osttimor,Malaysia,Indonesien,,,opentriviaqa
 otq-world-895,geographie,1,Welches Land hat die Hauptstadt Amman?,Jordanien,Syrien,Kuwait,Israel,,,opentriviaqa
+otq-general-108,geographie,2,Welche beiden Länder Südamerikas haben keinen Meerzugang?,Bolivien und Paraguay,Paraguay und Uruguay,Bolivien und Uruguay,Kolumbien und Ecuador,,,opentriviaqa
+otq-general-1611,geographie,2,Welche Hauptstadt liegt am südlichsten?,Wellington,Canberra,Kapstadt,Buenos Aires,,,opentriviaqa
+otq-general-1769,geographie,2,Welche Region bezeichnet man als „Fernen Osten“?,Ost- und Südostasien,Ganz Asien,Ozeanien,Ostsibirien,,,opentriviaqa
+otq-general-1835,geographie,2,In welchem Land sind die Samen NICHT heimisch?,Dänemark,Finnland,Russland,Schweden,,,opentriviaqa
 otq-general-1910,geographie,2,Welcher Anteil des Wassers auf der Erde ist Süßwasser?,Weniger als 5 %,13 bis 20 %,5 bis 11 %,Über 20 %,,,opentriviaqa
 otq-general-1919,geographie,2,Wo liegt der älteste und zugleich tiefste See der Welt?,In Sibirien,Am Kaukasus,In Israel,In Kanada,,,opentriviaqa
 otq-general-2631,geographie,2,Welches Land gilt als älteste noch bestehende Republik der Welt?,San Marino,Frankreich,Schweiz,Island,,,opentriviaqa
 otq-general-2710,geographie,2,Wie viele Kontinente gehören vollständig einem einzigen Staat?,1 (Australien),0,2,3,,,opentriviaqa
 otq-general-2726,geographie,2,Welche Insel hieß ursprünglich „Van-Diemens-Land“?,Tasmanien,Neuguinea,Neuseeland,Borneo,,,opentriviaqa
 otq-general-2870,geographie,2,Zu welchem Land gehört die Osterinsel?,Chile,USA,Peru,Ecuador,,,opentriviaqa
+otq-general-60,geographie,2,Welches dieser Länder grenzt NICHT an das Rote Meer?,Oman,Jordanien,Ägypten,Sudan,,,opentriviaqa
 otq-general-651,geographie,2,Welches afrikanische Land hat KEINEN Zugang zum Meer?,Malawi,Madagaskar,Mosambik,Mauretanien,,,opentriviaqa
 otq-general-674,geographie,2,Welches ist das flächenmäßig größte Land Afrikas?,Algerien,Südafrika,Sudan,Ägypten,,,opentriviaqa
 otq-general-7,geographie,2,Wie heißt die Hauptstadt der Mongolei?,Ulaanbaatar,Astana,Bischkek,Taschkent,,,opentriviaqa
+otq-general-810,geographie,2,"In welchem Land liegt Hammerfest, oft „nördlichste Stadt Europas“ genannt?",Norwegen,Finnland,Schweden,Island,,,opentriviaqa
 otq-geography-174,geographie,2,Welches Land zahlt am meisten in den EU-Haushalt ein?,Deutschland,Frankreich,Italien,Spanien,,,opentriviaqa
 otq-geography-186,geographie,2,"Welches EU-Land umschließt zwei Staaten, die nicht der EU angehören?",Italien,Österreich,Frankreich,Spanien,,,opentriviaqa
+otq-geography-203,geographie,2,Welche zwei Farben zeigt die Flagge Maltas?,Weiß und Rot,Grün und Schwarz,Gelb und Lila,Blau und Gelb,,,opentriviaqa
 otq-geography-209,geographie,2,Welche Insel gehört NICHT zu den Balearen?,Capri,Ibiza,Mallorca,Formentera,,,opentriviaqa
 otq-geography-21,geographie,2,"Wie heißt der Breitenkreis bei 23,5° Süd, der Südamerika, Afrika und Australien quert?",Wendekreis des Steinbocks,Wendekreis des Krebses,Nullmeridian,Äquator,,,opentriviaqa
 otq-geography-215,geographie,2,Riga ist die Hauptstadt welches baltischen Landes?,Lettland,Estland,Litauen,Belarus,,,opentriviaqa
 otq-geography-217,geographie,2,Wie heißt die Hauptstadt Madagaskars?,Antananarivo,Toamasina,Harare,Maputo,,,opentriviaqa
+otq-geography-229,geographie,2,In welcher Schweizer Stadt hat die Welthandelsorganisation (WTO) ihren Sitz?,Genf,Bern,Basel,Zürich,,,opentriviaqa
+otq-geography-233,geographie,2,Welche Staaten grenzen an das Tote Meer?,Israel (mit Westjordanland) und Jordanien,Ägypten und Israel,Nur Israel,Saudi-Arabien,,,opentriviaqa
 otq-geography-245,geographie,2,"Welcher Platz, früher „Longacre Square“, wird „Kreuzung der Welt“ genannt?",Times Square,Trafalgar Square,Piccadilly Circus,Place de la Concorde,,,opentriviaqa
 otq-geography-247,geographie,2,Auf dem Hauptplatz welcher Stadt wird regelmäßig ein riesiger Blumenteppich ausgelegt?,Brüssel (Grand-Place),Berlin,Paris,Straßburg,,,opentriviaqa
+otq-geography-254,geographie,2,Wie heißt die Hauptstadt der Niederlande?,Amsterdam,Den Haag,Rotterdam,Utrecht,,,opentriviaqa
 otq-geography-259,geographie,2,Welche Insel im Süden Südamerikas teilen sich Chile und Argentinien?,Feuerland,Falklandinseln,Galápagos,Osterinsel,,,opentriviaqa
 otq-geography-260,geographie,2,Welche Insel teilen sich Indonesien und Osttimor?,Timor,Neuguinea,Borneo,Flores,,,opentriviaqa
 otq-geography-262,geographie,2,Welche Insel teilen sich drei Staaten?,Borneo,Luzon,Irland,Neuguinea,,,opentriviaqa
@@ -155,21 +181,27 @@ otq-geography-27,geographie,2,Welcher dieser Kontinente ist am größten?,Nordam
 otq-geography-274,geographie,2,Zu welchem Ozean gehört das Beringmeer?,Pazifik,Arktischer Ozean,Indischer Ozean,Atlantik,,,opentriviaqa
 otq-geography-335,geographie,2,Was liegt NICHT am Schwarzen Meer?,Der Ural,Die Balkanhalbinsel,Der Kaukasus,Anatolien,,,opentriviaqa
 otq-geography-349,geographie,2,Welche viertgrößte Insel der Welt beherbergt rund 5 % aller Tier- und Pflanzenarten?,Madagaskar,Jamaika,Tasmanien,Kuba,,,opentriviaqa
+otq-geography-367,geographie,2,"Welcher Fluss entspringt in Tschechien, fließt durch Deutschland und mündet in die Nordsee?",Elbe,Oder,Moldau,Weser,,,opentriviaqa
 otq-geography-369,geographie,2,Welcher Fluss fließt durch zehn Länder und ist der längste der EU?,Donau,Rhein,Dnepr,Elbe,,,opentriviaqa
 otq-geography-37,geographie,2,"In welchem Land fließen Tajo, Ebro, Duero und Guadiana?",Spanien,Kolumbien,Italien,Brasilien,,,opentriviaqa
 otq-geography-372,geographie,2,In welchem Land entspringt der Po?,Italien,Frankreich,Österreich,Schweiz,,,opentriviaqa
 otq-geography-38,geographie,2,"In welchem Land liegen die Vulkane Aso, Akan und Fuji?",Japan,Malaysia,Nordkorea,Indonesien,,,opentriviaqa
+otq-geography-393,geographie,2,Welches große Gebirge liegt fast vollständig in Italien?,Der Apennin,Die Alpen,Die Anden,Die Karpaten,,,opentriviaqa
 otq-geography-40,geographie,2,In welchem Land liegen die Täler des Gelben Flusses und des Perlflusses?,China,Myanmar,Thailand,Indien,,,opentriviaqa
 otq-geography-423,geographie,2,Welche Pazifikinsel ist von einer Lagune und einem Barriereriff umgeben?,Bora Bora,Zypern,Thasos,Sansibar,,,opentriviaqa
 otq-geography-427,geographie,2,Welche Insel hieß früher „Formosa“?,Taiwan,Hainan,Okinawa,Honshu,,,opentriviaqa
 otq-geography-430,geographie,2,Welche Insel ist eine eigene Provinz Indonesiens?,Bali,Java,Sumatra,Lombok,,,opentriviaqa
 otq-geography-47,geographie,2,Welche beiden Staaten grenzen an das Tote Meer (neben dem Westjordanland)?,Jordanien und Israel,Libanon und Jordanien,Syrien und Jordanien,Libanon und Israel,,,opentriviaqa
+otq-geography-480,geographie,2,Wie heißt die Hauptstadt Sloweniens?,Ljubljana,Prag,Bratislava,Zagreb,,,opentriviaqa
 otq-geography-481,geographie,2,Welches Land grenzt sowohl an Slowenien als auch an die Slowakei?,Österreich,Serbien,Polen,Tschechien,,,opentriviaqa
+otq-geography-488,geographie,2,Wie lautet der inoffizielle Wahlspruch der Schweiz?,"Einer für alle, alle für einen",Fortschritt und Wohlstand,In Gott vertrauen wir,Höher und stärker,,,opentriviaqa
 otq-geography-594,geographie,2,Madagaskar ist der weltgrößte Produzent welches Gewürzes?,Vanille,Zimt,Pfeffer,Safran,,,opentriviaqa
 otq-geography-603,geographie,2,Nach welchem Land wurde die Insel Neuguinea benannt? Wo liegt dieses?,In Afrika,Im Pazifik,In Südamerika,In Asien,,,opentriviaqa
 otq-geography-620,geographie,2,An welches Land grenzt Luxemburg NICHT?,Niederlande,Belgien,Frankreich,Deutschland,,,opentriviaqa
 otq-geography-646,geographie,2,Auf welcher Kanareninsel liegt der Vulkan Teide?,Teneriffa,Gran Canaria,Fuerteventura,La Palma,,,opentriviaqa
+otq-geography-658,geographie,2,In welcher Region liegt die Kalahari („großer Durst“)?,Im südlichen Afrika,In Zentralasien,Im Nahen Osten,In Südwestasien,,,opentriviaqa
 otq-geography-692,geographie,2,Wie heißt die Hauptstadt Jamaikas?,Kingston,Montego Bay,Kigali,Harare,,,opentriviaqa
+otq-geography-694,geographie,2,Tegucigalpa ist die Hauptstadt welches Landes?,Honduras,Namibia,Usbekistan,Laos,,,opentriviaqa
 otq-geography-696,geographie,2,Addis Abeba ist die Hauptstadt welches Landes?,Äthiopien,Kenia,Eritrea,Ghana,,,opentriviaqa
 otq-geography-697,geographie,2,Wie heißt die Hauptstadt des Libanon?,Beirut,Damaskus,Amman,Bagdad,,,opentriviaqa
 otq-geography-701,geographie,2,Quito ist die Hauptstadt welches Landes?,Ecuador,Bolivien,Kolumbien,Peru,,,opentriviaqa
@@ -179,7 +211,11 @@ otq-geography-707,geographie,2,Wie heißt die Hauptstadt Kenias?,Nairobi,Mombasa
 otq-geography-770,geographie,2,Wie heißt die Hauptstadt Brasiliens?,Brasília,São Paulo,Bogotá,Rio de Janeiro,,,opentriviaqa
 otq-geography-773,geographie,2,Welche Farben hat die Flagge Brasiliens?,"Grün, Gelb, Blau und Weiß","Gelb, Grün, Schwarz und Blau","Rot, Grün und Gelb",Grün und Schwarz,,,opentriviaqa
 otq-geography-94,geographie,2,Welcher Vulkan auf Teneriffa ist der höchste Berg Spaniens?,Teide,Stromboli,Mulhacén,Aneto,,,opentriviaqa
+otq-history-1067,geographie,2,Was für ein Gelände waren die Thermopylen?,Ein schmaler Engpass,Ein dichter Wald,Ein Hügel,Eine weite Ebene,,,opentriviaqa
+otq-history-222,geographie,2,Welches Land nannte Herodot das „Geschenk des Nils“?,Ägypten,Äthiopien,Sudan,Libyen,,,opentriviaqa
+otq-history-223,geographie,2,Wo liegt das Nildelta?,In Unterägypten am Mittelmeer,Am Victoriasee,An der Quelle des Nils,In Oberägypten,,,opentriviaqa
 otq-rated-1853,geographie,2,Welches Land hieß früher Ceylon?,Sri Lanka,Singapur,Malaysia,Myanmar,,,opentriviaqa
+otq-science-technology-365,geographie,2,Welcher Kontinent hat die höchste Bevölkerungsdichte?,Asien,Europa,Nordamerika,Afrika,,,opentriviaqa
 otq-science-technology-720,geographie,2,Welche Region ist am stärksten von HIV/AIDS betroffen?,Afrika südlich der Sahara,Lateinamerika,Ostasien,Westeuropa,,,opentriviaqa
 otq-science-technology-780,geographie,2,Wie heißen tropische Wirbelstürme im Indischen Ozean und im Südpazifik?,Zyklone,Tornados,Taifune,Depressionen,,,opentriviaqa
 otq-world-1015,geographie,2,"Welches Land am Arabischen Meer grenzt an Iran, Afghanistan, China und Indien?",Pakistan,Irak,Aserbaidschan,Turkmenistan,,,opentriviaqa
@@ -193,9 +229,11 @@ otq-world-127,geographie,2,"Welche Hauptstadt trägt einen Namen, der in der Lan
 otq-world-1364,geographie,2,Wie heißt die Währung des Irak?,Dinar,Lira,Rial,Dirham,,,opentriviaqa
 otq-world-1377,geographie,2,Wie heißt der Wolkenkratzer mit 101 Stockwerken und 509 Metern Höhe?,Taipei 101,Petronas Towers,Burj al-Arab,Shanghai Tower,,,opentriviaqa
 otq-world-1378,geographie,2,Welche Zwillingstürme in Kuala Lumpur waren von 1998 bis 2004 die höchsten Gebäude der Welt?,Petronas Towers,Republic Plaza,Rialto Towers,Jin Mao Tower,,,opentriviaqa
+otq-world-1383,geographie,2,Wie heißt das segelförmige Luxushotel auf einer künstlichen Insel vor Dubai?,Burj al-Arab,Burj Khalifa,Atlantis,Emirates Palace,,,opentriviaqa
 otq-world-1510,geographie,2,Welches Land mit der Hauptstadt Podgorica wurde 2006 unabhängig?,Montenegro,Serbien,Slowenien,Nordmazedonien,,,opentriviaqa
 otq-world-1537,geographie,2,"Welches Land grenzt an Guyana, Brasilien und Kolumbien?",Venezuela,Ecuador,Argentinien,Uruguay,,,opentriviaqa
 otq-world-16,geographie,2,Welches Land grenzt an alle südamerikanischen Länder außer Chile und Ecuador?,Brasilien,Kolumbien,Argentinien,Bolivien,,,opentriviaqa
+otq-world-1741,geographie,2,Wie heißt der See Genezareth (Tiberias) noch?,See von Galiläa,Rotes Meer,Totes Meer,Hulesee,,,opentriviaqa
 otq-world-1825,geographie,2,Amman ist die Hauptstadt welches Landes?,Jordanien,Vereinigte Arabische Emirate,Äthiopien,Algerien,,,opentriviaqa
 otq-world-1827,geographie,2,Welche asiatische Hauptstadt liegt an der Nordwestküste Javas?,Jakarta,Bangkok,Manila,Kuala Lumpur,,,opentriviaqa
 otq-world-1830,geographie,2,"In welchem Land liegt Dakar, das namensgebende Ziel der Rallye Paris–Dakar?",Senegal,Ägypten,Algerien,Mali,,,opentriviaqa
@@ -203,29 +241,37 @@ otq-world-201,geographie,2,Welche Monarchie ist vollständig von Südafrika umsc
 otq-world-2023,geographie,2,Auf welchem Kontinent liegen Königin-Maud-Land und Marie-Byrd-Land?,Antarktika,Europa,Australien,Südamerika,,,opentriviaqa
 otq-world-2078,geographie,2,In welchem Ozean liegen die Pitcairninseln?,Im Pazifik,Im Indischen Ozean,Im Atlantik,Im Nordpolarmeer,,,opentriviaqa
 otq-world-2304,geographie,2,Welches Gebirge liegt zwischen Schwarzem und Kaspischem Meer?,Kaukasus,Karpaten,Balkangebirge,Alpen,,,opentriviaqa
+otq-world-2310,geographie,2,In welchem Gebirge liegen Manaslu und Lhotse?,Himalaya,Anden,Alpen,Kaukasus,,,opentriviaqa
+otq-world-2516,geographie,2,Welche Farben hat die Flagge Rumäniens?,"Blau, Gelb, Rot","Schwarz, Gelb, Blau","Rot, Gelb, Grün","Rot, Weiß, Blau",,,opentriviaqa
 otq-world-2542,geographie,2,Welche ist die größte und bevölkerungsreichste der japanischen Hauptinseln?,Honshū,Shikoku,Hokkaidō,Kyūshū,,,opentriviaqa
 otq-world-2723,geographie,2,"Wie heißt das Land, das auch Timor-Leste genannt wird?",Osttimor,Nordtimor,Westtimor,Papua,,,opentriviaqa
+otq-world-277,geographie,2,Welches Balkanland heißt in seiner Sprache „Shqipëria“?,Albanien,Nordmazedonien,Montenegro,Kosovo,,,opentriviaqa
 otq-world-280,geographie,2,Welches Land heißt in seiner Landessprache „Slovensko“?,Slowakei,Slowenien,Polen,Serbien,,,opentriviaqa
 otq-world-3095,geographie,2,An wie viele Länder grenzt Monaco?,Eins,Keines,Zwei,Drei,,,opentriviaqa
 otq-world-3197,geographie,2,Welcher ist der längste Fluss Chinas und ganz Asiens?,Jangtsekiang,Huang He,Xi Jiang,Amur,,,opentriviaqa
 otq-world-3543,geographie,2,Wie heißt die Hauptstadt Ugandas?,Kampala,Kinshasa,Kigali,Khartum,,,opentriviaqa
 otq-world-3583,geographie,2,Welche Farben hat die Flagge Vietnams?,Gelb und Rot,Grün und Rot,Rot und Weiß,Blau und Rot,,,opentriviaqa
 otq-world-3592,geographie,2,Welche Farben hat die Flagge Jamaikas?,"Gold, Schwarz und Grün",Grün und Weiß,Grün und Schwarz,"Grün, Weiß und Gelb",,,opentriviaqa
+otq-world-3598,geographie,2,Welcher Abstammung ist der Großteil der Bevölkerung Jamaikas?,Afrikanisch,Gemischt,Lateinamerikanisch,Indisch,,,opentriviaqa
 otq-world-3631,geographie,2,Welches Tier zeigt die Flagge Sri Lankas?,Einen Löwen,Einen Tiger,Einen Adler,Einen Elefanten,,,opentriviaqa
 otq-world-3682,geographie,2,Welche ist die größte Stadt Kolumbiens?,Bogotá,Santa Marta,Barranquilla,Medellín,,,opentriviaqa
 otq-world-3711,geographie,2,Welcher Name ist eine Motorradmarke und zugleich eine Millionenstadt bei Tokio?,Kawasaki,Suzuki,Honda,Yamaha,,,opentriviaqa
 otq-world-3795,geographie,2,Welches Land grenzt östlich an Peru?,Brasilien,Chile,Ecuador,Kolumbien,,,opentriviaqa
 otq-world-3901,geographie,2,Wie heißt die Hauptstadt der Dominikanischen Republik?,Santo Domingo,San Juan,Santiago,Port-au-Prince,,,opentriviaqa
+otq-world-4137,geographie,2,Wonach ist Tasmanien benannt?,Nach dem Entdecker Abel Tasman,Nach einem Tier,Nach einem Volk,Nach einem Berg,,,opentriviaqa
 otq-world-446,geographie,2,Welche Hauptstadt liegt NICHT auf einer Insel?,Amsterdam,Kopenhagen,Nikosia,Reykjavík,,,opentriviaqa
 otq-world-449,geographie,2,Welche Hauptstadt ist die nördlichste der Welt?,Reykjavík,Stockholm,Oslo,Helsinki,,,opentriviaqa
 otq-world-454,geographie,2,In welcher europäischen Hauptstadt hat die OPEC ihren Sitz?,Wien,London,Oslo,Genf,,,opentriviaqa
 otq-world-46,geographie,2,"In welchem Land liegt der Vulkan Krakatau, dessen Ausbruch 1883 die Insel weitgehend zerstörte?",Indonesien,Thailand,Malaysia,Philippinen,,,opentriviaqa
 otq-world-539,geographie,2,In welchem Land liegt die Stadt Narvik?,Norwegen,Dänemark,Schweden,Vereinigtes Königreich,,,opentriviaqa
 otq-world-555,geographie,2,Welcher Ländername enthält KEINE Farbe?,Sri Lanka,Belarus (Weißrussland),Montenegro,Kap Verde,,,opentriviaqa
+otq-world-630,geographie,2,Welche Millionenstadt wurde 1521 von Hernán Cortés als spanische Stadt neu gegründet?,Mexiko-Stadt,New York,Rio de Janeiro,Lima,,,opentriviaqa
 otq-world-636,geographie,2,Welches Land grenzt an Nepal?,China,Bangladesch,Laos,Myanmar,,,opentriviaqa
 otq-world-637,geographie,2,Welches Land grenzt an Belize?,Guatemala,Nicaragua,Panama,Honduras,,,opentriviaqa
 otq-world-69,geographie,2,Vientiane ist die Hauptstadt welches Landes?,Laos,Nordkorea,Vietnam,Kambodscha,,,opentriviaqa
+otq-world-721,geographie,2,Was bezeichnet „Big Ben“ in London eigentlich?,Die große Glocke im Uhrturm von Westminster,Den Tower of London,Die Tower Bridge,Das Riesenrad,,,opentriviaqa
 otq-world-735,geographie,2,Wie lautet der chinesische Name des Gelben Flusses?,Huang He,Mekong,Jangtsekiang,Chang Jiang,,,opentriviaqa
+otq-world-742,geographie,2,Durch welche Meerenge ist das Schwarze Meer mit anderen Meeren verbunden?,Durch den Bosporus,Durch den Suezkanal,Durch die Straße von Gibraltar,Durch die Straße von Messina,,,opentriviaqa
 otq-world-850,geographie,2,Wie heißt die Hauptstadt der Provinz Québec?,Québec (Stadt),Laval,Montreal,Gatineau,,,opentriviaqa
 otq-world-883,geographie,2,"Wo liegt der Mont Blanc, der höchste Berg der EU?",An der französisch-italienischen Grenze,Ganz in Frankreich,Ganz in Italien,In der Schweiz,,,opentriviaqa
 otq-world-919,geographie,2,Welcher kleine Binnenstaat ist vollständig von Südafrika umschlossen?,Lesotho,Eswatini,Botsuana,Simbabwe,,,opentriviaqa
@@ -235,15 +281,21 @@ otq-general-1446,geographie,3,Was für ein Gestein ist Bims?,Ein vulkanisches Ge
 otq-general-1540,geographie,3,Welcher chinesische Fluss verursachte 1931 eine der verheerendsten Überschwemmungen der Geschichte?,Jangtse und Huang He,Perlfluss,Roter Fluss,Tumen,,,opentriviaqa
 otq-general-1579,geographie,3,Wie heißt die Hauptstadt von Bahrain?,Manama,Doha,Abu Dhabi,Maskat,,,opentriviaqa
 otq-general-1723,geographie,3,Welcher Berg ist vom Fuß bis zum Gipfel gemessen der höchste der Erde?,Mauna Kea,Chimborazo,K2,Mount Everest,,,opentriviaqa
+otq-general-1781,geographie,3,Welcher Teil der Erde besteht hauptsächlich aus festem Eisen und Nickel?,Der innere Kern,Die Asthenosphäre,Der äußere Mantel,Die Kruste,,,opentriviaqa
 otq-general-2111,geographie,3,In welchem Land heißt der Präsidentensitz „Blaues Haus“?,Südkorea,Argentinien,Griechenland,Frankreich,,,opentriviaqa
 otq-general-225,geographie,3,"Welche englische Stadt, einst Römer- und Wikingersiedlung, gilt als eine der „spukreichsten“ Europas?",York,Hull,Ripon,Leeds,,,opentriviaqa
 otq-general-2309,geographie,3,Welcher ist der größte aktive Vulkan der Erde?,Mauna Loa,Mount Rainier,Ätna,Merapi,,,opentriviaqa
+otq-general-2528,geographie,3,Welches Land hat die Hauptstadt Tegucigalpa und die Währung Lempira?,Honduras,El Salvador,Bolivien,Nicaragua,,,opentriviaqa
+otq-general-2581,geographie,3,Wie viele Stockwerke hat das Empire State Building?,102,100,150,86,,,opentriviaqa
 otq-general-2684,geographie,3,Aus welchem Land stammt der staatliche Ölkonzern PEMEX?,Mexiko,Vereinigte Arabische Emirate,Venezuela,Panama,,,opentriviaqa
 otq-general-312,geographie,3,In welchem Land ist der Oranje der längste Fluss?,Südafrika,Kanada,Chile,Australien,,,opentriviaqa
 otq-general-374,geographie,3,Der Dram ist die Währung welches Landes mit der Hauptstadt Jerewan?,Armenien,Moldau,Aserbaidschan,Georgien,,,opentriviaqa
+otq-general-529,geographie,3,Was ist KEIN Stadtbezirk von New York City?,Yonkers,Brooklyn,Bronx,Staten Island,,,opentriviaqa
 otq-general-659,geographie,3,Welches dieser Länder hat die meisten Einwohner?,Uganda,Uruguay,Ukraine,Usbekistan,,,opentriviaqa
 otq-general-879,geographie,3,Welches Land hatte bis 2011 eine einfarbig grüne Flagge?,Libyen,Litauen,Irland,Dominica,,,opentriviaqa
 otq-geography-126,geographie,3,An welcher Londoner Straße liegt das Kaufhaus Harrods?,Brompton Road,Abbey Road,Oxford Street,Fleet Street,,,opentriviaqa
+otq-geography-160,geographie,3,Welches Land hat die Donau größtenteils als Nordgrenze?,Bulgarien,Österreich,Ungarn,Serbien,,,opentriviaqa
+otq-geography-173,geographie,3,Welche ehemalige britische Kolonie trat 2004 der EU bei?,Malta,Gibraltar,Irland,Bermuda,,,opentriviaqa
 otq-geography-261,geographie,3,"Welche europäische Insel ist teils von ihrem Nachbarinselstaat verwaltet, was jahrhundertelangen Streit auslöste?",Irland,Sardinien,Sizilien,Island,,,opentriviaqa
 otq-geography-266,geographie,3,Welche beiden Länder teilen sich die winzige Ostseeinsel Märket?,Finnland und Schweden,Schweden und Dänemark,Finnland und Estland,Finnland und Russland,,,opentriviaqa
 otq-geography-273,geographie,3,Welches Meer ist das einzige ohne Küste?,Die Sargassosee,Das Europäische Nordmeer,Die Labradorsee,Die Keltische See,,,opentriviaqa
@@ -254,6 +306,7 @@ otq-geography-31,geographie,3,Welcher dieser Seen ist der tiefste?,Tanganjikasee
 otq-geography-32,geographie,3,Welcher dieser Flüsse ist der längste?,Ob-Irtysch,Huang He,Lena,Amur,,,opentriviaqa
 otq-geography-33,geographie,3,Welches dieser Meere ist das größte?,Mittelmeer,Beringmeer,Arabisches Meer,Golf von Mexiko,,,opentriviaqa
 otq-geography-342,geographie,3,Welche ist eine der beiden beliebtesten Routen auf den Mount Everest?,Der Südostgrat von Nepal,Der Südgrat von Tibet,Der Ostgrat von Pakistan,Der Westgrat von Indien,,,opentriviaqa
+otq-geography-351,geographie,3,Welche ist die größte Insel Kanadas?,Baffininsel,Victoria-Insel,Banks-Insel,Neufundland,,,opentriviaqa
 otq-geography-352,geographie,3,Welche Insel hat die meisten Einwohner der Welt?,Java,Kuba,Borneo,Honshu,,,opentriviaqa
 otq-geography-368,geographie,3,Welcher Fluss ist der längste Großbritanniens?,Severn,Trent,Great Ouse,Themse,,,opentriviaqa
 otq-geography-370,geographie,3,Welcher Fluss ist der längste der Iberischen Halbinsel?,Tajo (Tejo),Guadiana,Duero,Guadalquivir,,,opentriviaqa
@@ -283,39 +336,51 @@ otq-geography-655,geographie,3,Welcher Ozean ist nach dem Pazifik der zweitgrö�
 otq-geography-657,geographie,3,Welche ist die größte Wüste der Erde?,Die Antarktis,Die Sahara,Die Kalahari,Die Gobi,,,opentriviaqa
 otq-geography-69,geographie,3,Welche Insel ist die größte Insel in einem Süßwassersee?,Manitoulin Island,Isle Royale,Ufenau,Isle of Wight,,,opentriviaqa
 otq-geography-705,geographie,3,Wie heißt die Hauptstadt von Guinea?,Conakry,Bamako,Dakar,Freetown,,,opentriviaqa
+otq-geography-722,geographie,3,Welche Länder gründeten 1958 mit der EUREGIO bei Gronau die erste Euroregion?,Deutschland und Niederlande,Österreich und Schweiz,Deutschland und Österreich,Schweiz und Frankreich,,,opentriviaqa
 otq-geography-728,geographie,3,Welcher Fluss teilt die Region Pommern in einen deutschen und einen polnischen Teil?,Oder,Weichsel,Donau,Elbe,,,opentriviaqa
 otq-geography-729,geographie,3,Welche drei Länder umfasst die Region „TriRhena“ am Oberrhein?,"Frankreich, Deutschland und Schweiz","Belgien, Deutschland und Luxemburg","Österreich, Deutschland und Schweiz","Frankreich, Deutschland und Niederlande",,,opentriviaqa
 otq-geography-730,geographie,3,Entlang welcher Grenze liegt die Euroregion Pyrenäen-Mittelmeer?,Frankreich–Spanien,Frankreich–Italien,Norwegen–Schweden,Spanien–Portugal,,,opentriviaqa
 otq-geography-749,geographie,3,Auf welchem Kontinent liegt der Vulkan Nyiragongo?,Afrika,Asien,Australien,Südamerika,,,opentriviaqa
 otq-geography-752,geographie,3,In welchem Land liegt der aktive Vulkan Sakurajima?,Japan,Indonesien,Peru,Philippinen,,,opentriviaqa
 otq-geography-754,geographie,3,Was bedeutet der Name des indonesischen Vulkans Merapi?,Feuerberg,Zorn der Götter,Verfluchter Berg,Höllenberg,,,opentriviaqa
+otq-geography-91,geographie,3,Welcher erloschene Vulkan ist der höchste Berg Ecuadors?,Chimborazo,Cotopaxi,Ojos del Salado,Aconcagua,,,opentriviaqa
+otq-geography-92,geographie,3,Welcher ruhende Vulkan nordöstlich von Teheran gilt als Symbol des iranischen Widerstands?,Damavand,Mount Hood,Ararat,Sabalan,,,opentriviaqa
+otq-history-1091,geographie,3,Welche schwedische Stadt gründete König Gustav II. Adolf 1621?,Göteborg,Stockholm,Malmö,Lund,,,opentriviaqa
 otq-hobbies-1052,geographie,3,"In welchem Land liegt das Rosental bei Kasanlak, berühmt für Rosenöl?",Bulgarien,Griechenland,Frankreich,Italien,,,opentriviaqa
 otq-humanities-541,geographie,3,Welches Land ist mit dem alten Namen „Albion“ gemeint?,Großbritannien,Irland,Grönland,Island,,,opentriviaqa
 otq-humanities-847,geographie,3,Welches Land führt ein Einhorn im Wappen?,Schottland,Italien,Spanien,Frankreich,,,opentriviaqa
 otq-people-509,geographie,3,Miss World 2005 hieß Unnur Birna Vilhjálmsdóttir. Aus welchem Land stammt sie vermutlich?,Island,Kasachstan,Thailand,Venezuela,,,opentriviaqa
 otq-science-technology-1311,geographie,3,"Welche Wolkenart bildet eine dunkle Schicht, aus der Regen oder Schnee fällt?",Nimbostratus,Stratocumulus,Cirrus,Altocumulus,,,opentriviaqa
 otq-world-1012,geographie,3,"Welches afrikanische Land grenzt an Nigeria, Kamerun, Niger, Libyen, Sudan und die Zentralafrikanische Republik?",Tschad,Mauretanien,Togo,Mali,,,opentriviaqa
+otq-world-1099,geographie,3,Welcher Ländername hat KEINEN christlichen Ursprung?,Kap Verde,San Marino,Trinidad und Tobago,El Salvador,,,opentriviaqa
+otq-world-1111,geographie,3,Welcher australische Turm hieß früher „Centrepoint“?,Sydney Tower,Q1 Tower,Eureka Tower,Rialto Tower,,,opentriviaqa
 otq-world-112,geographie,3,"In welchem Land mit über 160 Millionen Einwohnern leben Muslime, Hindus und Christen zusammen?",Bangladesch,Pakistan,Iran,Irak,,,opentriviaqa
 otq-world-120,geographie,3,Welche osteuropäische Hauptstadt wird wegen ihrer Belle-Époque-Bauten „Klein-Paris“ genannt?,Bukarest,Belgrad,Sofia,Athen,,,opentriviaqa
 otq-world-1260,geographie,3,Drei dieser Länder sind/waren Islamische Republiken. Welches ist ein Königreich?,Bhutan,Afghanistan,Pakistan,Iran,,,opentriviaqa
 otq-world-1341,geographie,3,Welche Aussage über Loch Ness stimmt?,Er liegt nahe der Stadt Inverness,Er ist ein Salzwassersee,Er ist der flächengrößte See Schottlands,Er hat vier Inseln,,,opentriviaqa
 otq-world-1372,geographie,3,Wie heißt die Währung von Costa Rica?,Colón,Lira,Peso,Real,,,opentriviaqa
+otq-world-1374,geographie,3,Welcher Wolkenkratzer in Hongkong wurde von I. M. Pei entworfen?,Bank of China Tower,International Commerce Centre,HSBC Building,Central Plaza,,,opentriviaqa
 otq-world-1395,geographie,3,Wie heißt die Hauptstadt von Burkina Faso?,Ouagadougou,N’Djamena,Moroni,Praia,,,opentriviaqa
 otq-world-1396,geographie,3,Niamey ist die Hauptstadt welches Landes?,Niger,El Salvador,Suriname,Haiti,,,opentriviaqa
 otq-world-1513,geographie,3,"Welcher Inselstaat, bis 1966 britische Kolonie, zeigt einen Dreizack in der Flagge?",Barbados,Dominica,Bahamas,Kuba,,,opentriviaqa
+otq-world-168,geographie,3,Welche Hauptstadt entstand aus einer muslimischen Siedlung am Fluss Pasig?,Manila,Lima,Jakarta,Seoul,,,opentriviaqa
 otq-world-170,geographie,3,Welche japanische Großstadt hieß früher Naniwa und hat das Aquarium Kaiyukan?,Osaka,Kyoto,Kobe,Nagoya,,,opentriviaqa
 otq-world-1777,geographie,3,Welches Land hieß früher Volksrepublik Kampuchea?,Kambodscha,Vietnam,Laos,Myanmar,,,opentriviaqa
 otq-world-2024,geographie,3,Was bildet die Grenze zwischen Nord- und Südkorea?,Die Demilitarisierte Zone,Der Fluss Yalu,Der Fluss Tumen,Der 45. Breitengrad,,,opentriviaqa
+otq-world-2056,geographie,3,In welcher Reihenfolge passierte Vasco da Gama auf dem Weg nach Indien die Kaps Afrikas?,"Kap Verde, Kap der Guten Hoffnung, Ras Hafun","Kap der Guten Hoffnung, Kap Verde, Ras Hafun","Ras Hafun, Kap Verde, Kap der Guten Hoffnung","Kap Verde, Ras Hafun, Kap der Guten Hoffnung",,,opentriviaqa
 otq-world-2160,geographie,3,Welcher ist der höchste Gipfel der kanadischen Rocky Mountains?,Mount Robson,Denali,Mount Logan,Mount Assiniboine,,,opentriviaqa
+otq-world-2664,geographie,3,Welcher Inselstaat im Indischen Ozean mit rund 115 Inseln zählt zu Afrika?,Seychellen,Malediven,Mauritius,Sri Lanka,,,opentriviaqa
 otq-world-2698,geographie,3,Welches Land hat eine rot-weiß-schwarz gestreifte Flagge ohne Symbol?,Jemen,Syrien,Ägypten,Irak,,,opentriviaqa
 otq-world-2703,geographie,3,Welches Land hat eine Flagge aus einem weißen Streifen und einem großen weinroten Feld mit Zackenlinie?,Katar,Chile,Brunei,Bahrain,,,opentriviaqa
 otq-world-2720,geographie,3,Welche international nicht anerkannte Region am Horn von Afrika gehört formal zu Somalia?,Somaliland,Dschibuti,Eritrea,Ogaden,,,opentriviaqa
 otq-world-2740,geographie,3,Welche Stadt liegt NICHT in Nicaragua?,Tegucigalpa,Matagalpa,Masaya,León,,,opentriviaqa
 otq-world-2824,geographie,3,Von welchem Fluss leitet sich der Name Indien ab?,Indus (Sindhu),Indravati,Ganges,Periyar,,,opentriviaqa
 otq-world-3090,geographie,3,Welches Land grenzt NICHT an Honduras?,Costa Rica,El Salvador,Nicaragua,Guatemala,,,opentriviaqa
+otq-world-3155,geographie,3,Konstantinopel (Istanbul) liegt zwischen dem Goldenen Horn und welchem Meer?,Marmarameer,Schwarzes Meer,Mittelmeer,Ägäis,,,opentriviaqa
 otq-world-3217,geographie,3,Welche Farbe kommt in der Flagge Kubas NICHT vor?,Gelb,Blau,Weiß,Rot,,,opentriviaqa
 otq-world-3220,geographie,3,Wie heißt die zweitgrößte Insel Kubas?,Isla de la Juventud,Isla de los Niños,Cayo Largo,Isla Mujeres,,,opentriviaqa
 otq-world-3413,geographie,3,Welche Stadt ist die offizielle Hauptstadt Boliviens (der Regierungssitz ist La Paz)?,Sucre,Potosí,Santa Cruz,Cochabamba,,,opentriviaqa
+otq-world-3414,geographie,3,In welcher Stadt sitzt die Regierung Boliviens?,La Paz,Cochabamba,Oruro,Santa Cruz,,,opentriviaqa
 otq-world-3454,geographie,3,In welchem Land liegt der Saimaa-See?,Finnland,Schweden,Russland,Estland,,,opentriviaqa
 otq-world-3456,geographie,3,Welcher ist der flächengrößte See der Britischen Inseln?,Lough Neagh,Strangford Lough,Loch Lomond,Windermere,,,opentriviaqa
 otq-world-3458,geographie,3,Welches Seenpaar liegt vollständig in Italien?,Comer See und Gardasee,Lago Maggiore und Comer See,Gardasee und Luganersee,Luganersee und Lago Maggiore,,,opentriviaqa
@@ -325,6 +390,7 @@ otq-world-3547,geographie,3,Wie heißt die Hauptstadt von Kap Verde?,Praia,Beira
 otq-world-3549,geographie,3,Wie heißt die Hauptstadt Mauretaniens?,Nouakchott,Nouadhibou,Bamako,Niamey,,,opentriviaqa
 otq-world-3638,geographie,3,Belo Horizonte ist die Hauptstadt welches brasilianischen Bundesstaates?,Minas Gerais,Espírito Santo,São Paulo,Rio de Janeiro,,,opentriviaqa
 otq-world-3820,geographie,3,Welche Grundfarben hat die Flagge des Irak?,"Rot, Weiß und Schwarz","Grün, Rot und Schwarz","Weiß, Gelb und Schwarz","Gelb, Grün und Rot",,,opentriviaqa
+otq-world-4127,geographie,3,Welche Farbe hat der Stern auf der Flagge Marokkos?,Grün,Blau,Rot,Gelb,,,opentriviaqa
 otq-world-4131,geographie,3,Welche Farbe kommt in der Flagge der Seychellen NICHT vor?,Schwarz,Weiß,Grün,Gelb,,,opentriviaqa
 otq-world-4132,geographie,3,Welches Land zeigt eine Krone in der oberen linken Ecke seiner Flagge?,Liechtenstein,Montenegro,Malta,Luxemburg,,,opentriviaqa
 otq-world-4133,geographie,3,Welches Land zeigt als einziges ein Bauwerk in seiner Nationalflagge?,Kambodscha,Guatemala,Ägypten,Dominica,,,opentriviaqa
@@ -334,37 +400,49 @@ otq-world-626,geographie,3,Welcher ist der höchste Berg der Antarktis?,Mount Vi
 otq-world-631,geographie,3,Welcher ist flächenmäßig der größte Bundesstaat Indiens (Hauptstadt Jaipur)?,Rajasthan,Madhya Pradesh,Maharashtra,Uttar Pradesh,,,opentriviaqa
 otq-world-714,geographie,3,Welches Londoner Gebäude von Norman Foster ist seit 2002 Sitz der Stadtverwaltung?,City Hall,Clarence House,Somerset House,Royal Albert Hall,,,opentriviaqa
 otq-world-759,geographie,3,Wie heißt die Hauptstadt von Samoa auf der Insel Upolu?,Apia,Pago Pago,Nukuʻalofa,Asmara,,,opentriviaqa
+otq-world-856,geographie,3,Wie heißt die Hauptstadt des kanadischen Territoriums Yukon?,Whitehorse,Dawson City,Yellowknife,Iqaluit,,,opentriviaqa
+otq-world-875,geographie,3,Welche EU-Hauptstadt liegt am weitesten östlich?,Nikosia,Bukarest,Helsinki,Riga,,,opentriviaqa
 otq-world-879,geographie,3,Welches Land hat die meisten Nachbarländer innerhalb der EU?,Deutschland,Österreich,Polen,Frankreich,,,opentriviaqa
 otq-world-920,geographie,3,Welches europäische Land ist wie Usbekistan „doppelt binnenländisch“ (nur von Binnenstaaten umgeben)?,Liechtenstein,Andorra,Luxemburg,San Marino,,,opentriviaqa
 otq-general-1474,geographie,4,In welchem Land liegt die Stadt Bahía Blanca?,Argentinien,Kolumbien,Chile,Dominikanische Republik,,,opentriviaqa
 otq-general-245,geographie,4,Welcher Ort in Québec hat zwei Ausrufezeichen im Namen?,Saint-Louis-du-Ha! Ha!,Cap-Chat,Trois-Rivières,Rivière-du-Loup,,,opentriviaqa
+otq-general-2514,geographie,4,Welche beiden Länder sind „doppelt binnenländisch“?,Liechtenstein und Usbekistan,Österreich und Schweiz,Tadschikistan und Liechtenstein,Schweiz und Tadschikistan,,,opentriviaqa
 otq-general-2614,geographie,4,"Welches Land hat über 1.500 Inseln, rund 1.000 Seen und im Winter nur etwa sechs Stunden Tageslicht?",Estland,Schweden,Montenegro,Dänemark,,,opentriviaqa
 otq-general-2630,geographie,4,Welches ist das größte Randmeer der Erde (nach üblicher Zählung ohne Ozeanteile)?,Südchinesisches Meer,Karibisches Meer,Mittelmeer,Beringmeer,,,opentriviaqa
+otq-general-2747,geographie,4,"Welcher Staat wurde 1980 von Großbritannien und Frankreich unabhängig und hat die Hymne „Yumi, Yumi, Yumi“?",Vanuatu,Fidschi,Tuvalu,Samoa,,,opentriviaqa
 otq-general-837,geographie,4,"Wie nennt man eine geologische Formation, die von der Mitte nach allen Seiten abfällt?",Quaquaversal (Dom),Synklinal,Monoklinal,Isoklinal,,,opentriviaqa
 otq-geography-172,geographie,4,In welchem EU-Staat stellt die Titularnation nur gut 60 % der Bevölkerung?,Lettland,Polen,Österreich,Frankreich,,,opentriviaqa
 otq-geography-210,geographie,4,Welche kroatische Insel ist bekannt für ihre Gänsegeier-Kolonie?,Cres,Filfla,Procida,Gorgona,,,opentriviaqa
 otq-geography-26,geographie,4,Welcher Name bezeichnet KEINE Kartenprojektion?,Crusoe,Robinson,Mercator,Mollweide,,,opentriviaqa
 otq-geography-267,geographie,4,Mit welchem Land teilt sich Indonesien die Insel Sebatik?,Malaysia,Philippinen,Singapur,Brunei,,,opentriviaqa
+otq-geography-279,geographie,4,Welche künstliche Insel südwestlich von Singapur entstand durch Zusammenlegung mehrerer Inseln?,Jurong Island,Sentosa,Pulau Ubin,Neeltje Jans,,,opentriviaqa
 otq-geography-284,geographie,4,"Wie heißt die künstliche Insel, über die die Öresundverbindung zwischen Dänemark und Schweden führt?",Peberholm,Saltholm,Flakfortet,Ven,,,opentriviaqa
+otq-geography-331,geographie,4,Was fehlt den tiefen Wasserschichten des Schwarzen Meeres fast vollständig?,Gelöster Sauerstoff,Salz,Stickstoff,Schwefelwasserstoff,,,opentriviaqa
 otq-geography-398,geographie,4,Was bedeutet der Name Italien nach einer verbreiteten Deutung?,Land der Jungrinder,Land des heiligen Wassers,Land der Lämmer,Land der Berge,,,opentriviaqa
+otq-geography-41,geographie,4,In welchem Land liegen Pico da Bandeira und Pedra da Mina?,Brasilien,Argentinien,Chile,Peru,,,opentriviaqa
 otq-geography-413,geographie,4,Wie heißt die letzte große Hürde vor dem Gipfel des Mount Everest auf der Südroute?,Hillary Step,Second Step,Kangshung-Wand,Lhotse-Flanke,,,opentriviaqa
 otq-geography-414,geographie,4,An welcher Stelle liegt der Lhotse unter den 14 Achttausendern?,4,3,8,13,,,opentriviaqa
 otq-geography-440,geographie,4,An welchem Tag feiert Spanien seinen Nationalfeiertag (Fiesta Nacional)?,12. Oktober,15. August,6. Dezember,8. Dezember,,,opentriviaqa
 otq-geography-45,geographie,4,"In welchem Land liegen die Berge Kaskasapakte, Áhkká und Sielmmačohkka?",Schweden,Norwegen,Finnland,Dänemark,,,opentriviaqa
 otq-geography-529,geographie,4,Welche Farben hat die Flagge Madagaskars?,"Weiß, Rot und Grün","Rot, Gelb und Blau",Gelb und Grün,"Blau, Grün und Gelb",,,opentriviaqa
 otq-geography-578,geographie,4,"Welcher Inselstaat hat das Motto „Ever Conscious of God We Aspire, Build and Advance as One People“?",Grenada,Neuseeland,Papua-Neuguinea,Mikronesien,,,opentriviaqa
+otq-geography-584,geographie,4,Wie heißt der höchste von Menschen geschaffene Wasserfall in Umbrien?,Cascata delle Marmore,Cascata del Toce,Cascata di Varone,Cascate del Serio,,,opentriviaqa
 otq-geography-585,geographie,4,In welchem Land liegen die Jog Falls?,Indien,Japan,China,Thailand,,,opentriviaqa
+otq-geography-591,geographie,4,Wie hieß Madagaskar nach der Unabhängigkeit 1960 offiziell?,Madagassische Republik,Rhodesien,Mosambik,Malaysia,,,opentriviaqa
 otq-geography-605,geographie,4,Aus wie vielen Inseln besteht Indonesien ungefähr?,Rund 17.500,Rund 400,Rund 8.400,Rund 250.000,,,opentriviaqa
 otq-geography-629,geographie,4,Wie heißt der höchste Wasserfall Japans (nur zeitweise wasserführend)?,Hannoki-Fall,Midagahara-Fall,Kegon-Fall,Nachi-Fall,,,opentriviaqa
+otq-geography-632,geographie,4,In welchem Land liegen die Yumbilla-Wasserfälle?,Peru,Chile,Venezuela,Australien,,,opentriviaqa
 otq-geography-633,geographie,4,"In welchem Land liegt der Ramnefjellsfossen, einer der höchsten Wasserfälle der Welt?",Norwegen,Finnland,Schweiz,Island,,,opentriviaqa
 otq-geography-635,geographie,4,In welchem Land liegt der Gocta-Wasserfall?,Peru,Venezuela,Spanien,Nicaragua,,,opentriviaqa
 otq-geography-641,geographie,4,Welcher kolumbianische Vulkan tötete 1993 bei einem Ausbruch mehrere Forscher?,Galeras,Nevado del Ruiz,Cotopaxi,Chimborazo,,,opentriviaqa
+otq-geography-643,geographie,4,Welcher sehr aktive Vulkan liegt auf Kamtschatka nahe Petropawlowsk?,Awatschinski,Elbrus,Ararat,Kasbek,,,opentriviaqa
 otq-geography-644,geographie,4,Wie heißt der gefährliche aktive Vulkan im westlichen Hochland Guatemalas?,Santa María,Santa Lucía,Santa Fernanda,Santa Beatriz,,,opentriviaqa
 otq-geography-670,geographie,4,Welches mitteleuropäische Land hat keinen seiner Nachbarstaaten von vor 1989 mehr und grenzt heute an sieben Staaten?,Polen,Österreich,Ungarn,Rumänien,,,opentriviaqa
 otq-geography-726,geographie,4,Welche Länder teilen sich die Euroregion am Fluss Torne (Tornio)?,Schweden und Finnland,Italien und Slowenien,Italien und Frankreich,Österreich und Italien,,,opentriviaqa
 otq-geography-75,geographie,4,Wie nennt man Lava mit mehr als 65 % Kieselsäure?,Felsisch (sauer),Dickflüssig,Mafisch (basisch),Dicht,,,opentriviaqa
 otq-geography-751,geographie,4,"Was bedeutet der arabische Name des Ätna, „Dschabal al-Nar“, ungefähr?",Feuerberg,Ende der Welt,Heim des Teufels,Atmender Berg,,,opentriviaqa
 otq-geography-753,geographie,4,Wie heißt der aktivste Vulkan Mexikos im Bundesstaat Jalisco?,Volcán de Colima,Nevado de Toluca,Popocatépetl,Pico de Orizaba,,,opentriviaqa
+otq-geography-755,geographie,4,In welchem Land liegt der aktive Vulkan Korjakski?,Russland,Ukraine,Japan,Island,,,opentriviaqa
 otq-geography-757,geographie,4,Wie heißt der höchste Vulkan Asiens und höchste Berg des Nahen Ostens?,Damavand,Bazman,Sabalan,Ararat,,,opentriviaqa
 otq-newest-1306,geographie,4,"Wie heißt der Urozean, der den Superkontinent Pangäa umgab?",Panthalassa,Iapetus,Paläotethys,Rheischer Ozean,,,opentriviaqa
 otq-newest-1315,geographie,4,Welcher frühe Superkontinent entstand im Mesoproterozoikum?,Rodinia,Pangaea,Gondwana,Pannotia,,,opentriviaqa
@@ -374,6 +452,9 @@ otq-newest-709,geographie,4,Wie hieß der New Yorker Flughafen John F. Kennedy f
 otq-people-309,geographie,4,"Welches Volk in Myanmar trägt einen Namen, der auch ein Vorname ist?",Karen,Susan,Jennifer,Maria,,,opentriviaqa
 otq-science-technology-215,geographie,4,"Wie heißen Erdbeben, die im Inneren einer Kontinentalplatte auftreten?",Intraplattenbeben,Innenbeben,Nicht-Plattenbeben,Ultraplattenbeben,,,opentriviaqa
 otq-science-technology-687,geographie,4,Bei welchem Tageswetter entsteht Konvektionsregen?,Bei großer Hitze am Tag,Bei Trockenheit,Bei Kälte,Bei Nebel,,,opentriviaqa
+otq-world-1106,geographie,4,Welcher Fernsehturm in Kuala Lumpur ist Schauplatz jährlicher Treppenläufe?,Menara Kuala Lumpur,Petronas Towers,Taschkent-Turm,Liberation Tower,,,opentriviaqa
+otq-world-1408,geographie,4,Welche Nachbarstadt ist mit Manchester baulich zusammengewachsen?,Salford,Leeds,Liverpool,Birmingham,,,opentriviaqa
+otq-world-1420,geographie,4,Aus welchem Land stammen der Astronaut Franklin Chang-Díaz und Friedensnobelpreisträger Óscar Arias?,Costa Rica,Argentinien,Peru,Chile,,,opentriviaqa
 otq-world-1498,geographie,4,In welche Himmelsrichtung neigt sich der Schiefe Turm von Pisa?,Nach Süden,Nach Nordwesten,Nach Osten,Nach Norden,,,opentriviaqa
 otq-world-1565,geographie,4,Welche Hauptstadt eines Ostsee-Anrainers liegt nicht am Meer?,Vilnius,Stockholm,Tallinn,Helsinki,,,opentriviaqa
 otq-world-167,geographie,4,Welche Hauptstadt des bevölkerungsreichsten muslimischen Landes hat den Status einer Provinz?,Jakarta,Ankara,Kairo,Islamabad,,,opentriviaqa
@@ -392,3 +473,4 @@ otq-world-3724,geographie,4,Was ist der Huangshan in der chinesischen Provinz An
 otq-world-450,geographie,4,Welche Hauptstadt soll der Sage nach von Odysseus gegründet worden sein?,Lissabon,Rom,Athen,Sofia,,,opentriviaqa
 otq-world-558,geographie,4,"Welches Land hat einen Namen, der übersetzt „Land der Schwarzen“ bedeutet?",Sudan,Montenegro,Senegal,Simbabwe,,,opentriviaqa
 otq-world-851,geographie,4,"Wie heißt die Hauptstadt der kleinsten kanadischen Provinz, Prince Edward Island?",Charlottetown,Summerside,Halifax,Fredericton,,,opentriviaqa
+otq-world-878,geographie,4,Welches Gebirge liegt vollständig innerhalb der EU?,Die Sudeten,Die Karpaten,Die Pyrenäen,Die Alpen,,,opentriviaqa

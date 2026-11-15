@@ -1,11 +1,14 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
 otq-general-165,freizeit,1,Welches Lebensmittel verdirbt praktisch nie?,Honig,Kartoffeln,Nudeln,Erdnussbutter,,,opentriviaqa
+otq-general-672,freizeit,1,Wer erfand die Tupperdose?,Earl Tupper,John Smith,David Silas,Brownie Wise,,,opentriviaqa
 otq-general-680,freizeit,1,In welchem Lebensmittel kommt Laktose vor allem vor?,In Milch,In Früchten,In Gemüse,In Honig,,,opentriviaqa
 otq-general-938,freizeit,1,Welche Modeschöpferin machte das „kleine Schwarze“ populär?,Coco Chanel,Vivienne Westwood,Jil Sander,Christian Dior,,,opentriviaqa
 otq-general-974,freizeit,1,Welche Farbe gehört neben Orange zu Halloween?,Schwarz,Weiß,Lila,Rot,,,opentriviaqa
 otq-geography-493,freizeit,1,Was ist die Hauptzutat der Schweizer Rösti?,Kartoffeln,Käse,Kohl,Fisch,,,opentriviaqa
 otq-hobbies-1098,freizeit,1,Welches Vitamin (bzw. seine Vorstufe) steckt reichlich in Karotten?,Vitamin A,Vitamin K,Vitamin D,Vitamin E,,,opentriviaqa
 otq-hobbies-1119,freizeit,1,Aus welchem Land stammt das Tiramisu?,Italien,Frankreich,Österreich,Spanien,,,opentriviaqa
+otq-hobbies-1120,freizeit,1,Welche Früchte gehören in eine Schwarzwälder Kirschtorte?,Kirschen,Bananen,Feigen,Pfirsiche,,,opentriviaqa
+otq-hobbies-113,freizeit,1,"Was ist Nori, in das Sushi oft eingerollt wird?",Getrockneter Seetang,Fleisch,Pilz,Reispapier,,,opentriviaqa
 otq-hobbies-140,freizeit,1,In welcher Region Europas ist Oregano besonders verbreitet?,Im Mittelmeerraum,Im Baltikum,In Skandinavien,Auf den Britischen Inseln,,,opentriviaqa
 otq-hobbies-15,freizeit,1,"Welches Lebensmittel enthält Phenylethylamin, das Glücksgefühle wie Verliebtsein auslösen soll?",Schokolade,Honig,Käse,Zucker,,,opentriviaqa
 otq-hobbies-150,freizeit,1,Welches schottische Gericht wird im Schafsmagen gegart?,Haggis,Ratatouille,Shepherd’s Pie,Hotpot,,,opentriviaqa
@@ -19,18 +22,23 @@ otq-hobbies-29,freizeit,1,Aus welchem Land stammt die Sangría?,Spanien,Malta,Ec
 otq-hobbies-32,freizeit,1,In welchem Land ist Ouzo das Nationalgetränk?,Griechenland,Ungarn,Italien,Spanien,,,opentriviaqa
 otq-hobbies-337,freizeit,1,"Wie heißt die osteuropäische Suppe aus Brühe, Roter Bete und Gemüse?",Borschtsch,Rassolnik,Schtschi,Soljanka,,,opentriviaqa
 otq-hobbies-340,freizeit,1,"Wie heißt das dünne, panierte Kalbsschnitzel aus Österreich?",Wiener Schnitzel,Currywurst,Stollen,Spanferkel,,,opentriviaqa
+otq-hobbies-341,freizeit,1,Aus welchem Land stammt das Risotto?,Italien,Spanien,Griechenland,Portugal,,,opentriviaqa
 otq-hobbies-364,freizeit,1,In welchem Land wurde die Firma LEGO gegründet?,Dänemark,Schweden,Norwegen,Niederlande,,,opentriviaqa
+otq-hobbies-366,freizeit,1,Aus welchem Land stammen die Matrjoschka-Puppen?,Russland,Österreich,Polen,Ungarn,,,opentriviaqa
+otq-hobbies-39,freizeit,1,Welches Sternzeichen wird von der Sonne regiert?,Löwe,Wassermann,Schütze,Jungfrau,,,opentriviaqa
 otq-hobbies-505,freizeit,1,Was wird für „Buffalo Wings“ verwendet?,Hähnchenflügel,Schinken,Büffelrippen,Hackfleisch,,,opentriviaqa
 otq-hobbies-549,freizeit,1,"Welche ringförmigen, gefüllten Nudeln stammen aus der Emilia-Romagna?",Tortellini,Cannelloni,Ravioli,Gnocchi,,,opentriviaqa
 otq-hobbies-610,freizeit,1,Welche Spirituose gehört traditionell in eine Piña Colada?,Rum,Tequila,Gin,Wodka,,,opentriviaqa
 otq-hobbies-62,freizeit,1,Aus welchem Land stammt das Schmorgericht Coq au Vin?,Frankreich,Belgien,Deutschland,Schweiz,,,opentriviaqa
 otq-hobbies-629,freizeit,1,Welches Tier isst man bei der französischen Spezialität Escargots?,Schnecken,Austern,Garnelen,Kaninchen,,,opentriviaqa
 otq-hobbies-68,freizeit,1,Aus welchem Land stammt das im Lehmofen gegarte Tandoori-Huhn?,Indien,Indonesien,Thailand,Iran,,,opentriviaqa
+otq-hobbies-69,freizeit,1,Welches Brettspiel mit Straßen und Häusern ließ Charles Darrow 1935 patentieren?,Monopoly,Go,Mensch ärgere dich nicht,Sorry!,,,opentriviaqa
 otq-hobbies-693,freizeit,1,Welches Gemüse ist die Hauptzutat der kalten spanischen Suppe Gazpacho?,Tomate,Paprika,Kartoffel,Karotte,,,opentriviaqa
 otq-hobbies-73,freizeit,1,Welches Casinospiel geht auf das französische „Vingt-et-un“ zurück?,Blackjack,Bingo,Roulette,Baccara,,,opentriviaqa
 otq-hobbies-75,freizeit,1,Welches Spiel stellt das Videospiel „Pong“ nach?,Tischtennis,Othello,Tic-Tac-Toe,Fußball,,,opentriviaqa
 otq-hobbies-785,freizeit,1,Welches Vitamin steckt reichlich in Erdbeeren?,Vitamin C,Vitamin B12,Vitamin E,Vitamin K,,,opentriviaqa
 otq-hobbies-788,freizeit,1,Welchem italienischen Gericht ähnelt das Fladenbrot Focaccia?,Pizza,Ravioli,Lasagne,Biscotti,,,opentriviaqa
+otq-hobbies-932,freizeit,1,In welchem Brettspiel ziehen Spieler nach Würfelwurf ihre Steine nach Hause?,Backgammon,Schach,Go,Dame,,,opentriviaqa
 otq-hobbies-954,freizeit,1,"Welchen Nährstoff können Vegetarier entgegen einem verbreiteten Irrtum durchaus über Soja, Bohnen, Nüsse oder Eier aufnehmen?",Eiweiß,Kalorien,Ballaststoffe,Kohlenhydrate,,,opentriviaqa
 otq-hobbies-972,freizeit,1,Mit welcher Skala misst man die Schärfe von Chilischoten?,Scoville-Skala,Piquant-Skala,Hitzefaktor-Index,Richter-Skala,,,opentriviaqa
 otq-hobbies-975,freizeit,1,Aus welchem Material entstehen Origami-Figuren?,Aus Papier,Aus Stein,Aus Holz,Aus Blumen,,,opentriviaqa
@@ -42,6 +50,7 @@ otq-science-technology-1887,freizeit,1,Wie heißt die Delikatesse aus Stör-Roge
 otq-science-technology-1890,freizeit,1,Wie heißt das Gebäck aus steif geschlagenem Eiweiß und Zucker?,Baiser (Meringue),Vanillepudding,Eiscreme,Mürbeteig,,,opentriviaqa
 otq-world-2159,freizeit,1,"Tom-Yum-Suppe, Hummus, Chicken Tikka und Nasi Goreng stammen aus der Küche welches Kontinents?",Asien,Afrika,Südamerika,Europa,,,opentriviaqa
 otq-world-2252,freizeit,1,Was zerschlagen mexikanische Kinder mit verbundenen Augen beim Geburtstag?,Eine Piñata,Einen Krug,Einen Tontopf,Einen Kürbis,,,opentriviaqa
+otq-world-3140,freizeit,1,Was gehört auf jeden Fall zum englischen Frühstück?,Eier und Speck,Nur Toast,Müsli,Croissants,,,opentriviaqa
 otq-world-3202,freizeit,1,Was für ein Spiel ist das traditionelle chinesische Go?,Ein Brettspiel,Ein Versteckspiel,Ein Wettrennen mit Schnecken,Ein Ballspiel,,,opentriviaqa
 otq-world-3366,freizeit,1,In welcher spanischen Stadt findet das Stiertreiben von San Fermín statt?,Pamplona,Barcelona,Madrid,Sevilla,,,opentriviaqa
 otq-world-341,freizeit,1,"Welches Weihnachtsgetränk entsteht aus Milch, Eiern und Zucker?",Eierpunsch (Eggnog),Zabaione,Glühwein,Apfelwein,,,opentriviaqa
@@ -51,13 +60,17 @@ otq-world-4108,freizeit,1,In welcher Stadt wurde 1810 zur Hochzeit von Kronprinz
 otq-world-581,freizeit,1,Was geschieht beim Fest San Fermín in Pamplona jeden Morgen?,Stiertreiben durch die Straßen,Teufelsumzug,Tomatenschlacht,Pferderennen,,,opentriviaqa
 otq-world-693,freizeit,1,Wie heißt das zerlegbare Rundzelt der Nomaden Zentralasiens?,Jurte,Minshuku,Tipi,Iglu,,,opentriviaqa
 otq-world-864,freizeit,1,"Welche niederländische Stadt ist für ihren kugelförmigen, mit Wachs überzogenen Käse bekannt?",Edam,Gouda,Emmental,Maasdam,,,opentriviaqa
+otq-brain-teasers-144,freizeit,2,Welches Dessert aus Baiser und Früchten wurde nach einer berühmten Ballerina benannt?,Pavlova,Tiramisu,Crêpe Suzette,Rocky Road,,,opentriviaqa
 otq-general-2538,freizeit,2,Welche Farbe hat Kaugummi am häufigsten – weil der Erfinder nur diese Lebensmittelfarbe zur Hand hatte?,Rosa,Blau,Grün,Weiß,,,opentriviaqa
+otq-general-2543,freizeit,2,Womit entfernt man Kaugummi am besten aus Kleidung?,Mit Eiswürfeln (Einfrieren),Mit dem Bügeleisen,Mit Öl,Mit Butter,,,opentriviaqa
 otq-general-316,freizeit,2,Was erfand der österreichische Konditor Eduard Haas 1927?,PEZ-Bonbons,Den Handmixer,Die Mozartkugel,Die Sachertorte,,,opentriviaqa
+otq-geography-118,freizeit,2,Welche Tracht gehört NICHT zu einem europäischen Volk?,Hanfu,Tracht,Kilt,Kroje,,,opentriviaqa
 otq-geography-120,freizeit,2,Welches dieser Kleidungsstücke trägt man auf dem Kopf?,Fes,Mitumba,Koto,Kiondo,,,opentriviaqa
 otq-history-1036,freizeit,2,Wofür erhielt Levi Strauss 1873 ein Patent?,Für Jeanshosen mit Kupfernieten,Für eine Dampfmaschine,Für einen Kugelschreiber,Für eine Nähmaschine,,,opentriviaqa
 otq-history-528,freizeit,2,Welche britische Designerin machte den Minirock populär?,Mary Quant,Vivienne Westwood,Twiggy,Stella McCartney,,,opentriviaqa
 otq-history-531,freizeit,2,Wie heißt der Schmuckpunkt auf der Stirn indischer Frauen?,Bindi,Henna,Tilaka,Mangalsutra,,,opentriviaqa
 otq-hobbies-1016,freizeit,2,Welcher Cocktail besteht nur aus Wodka und Orangensaft?,Screwdriver,Bloody Mary,Cuba Libre,Mojito,,,opentriviaqa
+otq-hobbies-1031,freizeit,2,In welchem Land wurde Kaffee zuerst entdeckt?,Äthiopien,Brasilien,Kolumbien,Indonesien,,,opentriviaqa
 otq-hobbies-1113,freizeit,2,Womit wird die spanische „Arroz negro“ schwarz gefärbt?,Mit Tintenfischtinte,Mit Lebensmittelfarbe,Mit Kohle,Mit Sojasoße,,,opentriviaqa
 otq-hobbies-114,freizeit,2,Wie wird der Fisch für Fisch-Tacos meist zubereitet?,Frittiert,Gegrillt,Gebacken,Pochiert,,,opentriviaqa
 otq-hobbies-115,freizeit,2,Aus welchem Land stammt der Blauschimmelkäse Stilton?,England,Frankreich,Niederlande,Schweiz,,,opentriviaqa
@@ -71,6 +84,8 @@ otq-hobbies-338,freizeit,2,Welcher griechische Käse wird aus Schafs- und Ziegen
 otq-hobbies-339,freizeit,2,Welches Land ist für sein „Fry-up“-Frühstück bekannt?,England,Norwegen,Schweden,Niederlande,,,opentriviaqa
 otq-hobbies-343,freizeit,2,Aus welchem Land stammt das moderne Restaurant?,Frankreich,England,Italien,Deutschland,,,opentriviaqa
 otq-hobbies-40,freizeit,2,Welches Sternzeichen wird vom Saturn regiert und gilt als ehrgeizig und praktisch?,Steinbock,Fische,Schütze,Stier,,,opentriviaqa
+otq-hobbies-43,freizeit,2,Welches Sternzeichen wird von Neptun regiert und gilt als besonders träumerisch?,Fische,Waage,Wassermann,Schütze,,,opentriviaqa
+otq-hobbies-434,freizeit,2,In welchem Jahr wurde Coca-Cola erfunden?,1886,1920,1850,1790,,,opentriviaqa
 otq-hobbies-468,freizeit,2,Woraus besteht beim Blackjack ein „Natural“?,Ass und eine Zehnerkarte,Zwei gleiche Karten,Zwei gerade Karten,Zwei Asse,,,opentriviaqa
 otq-hobbies-47,freizeit,2,Welches Sternzeichen wird vom Merkur regiert und gilt als wechselhaft?,Zwillinge,Löwe,Waage,Wassermann,,,opentriviaqa
 otq-hobbies-554,freizeit,2,Welche Bandnudel heißt übersetzt „kleines Band“ und ist besonders in Rom beliebt?,Fettuccine,Farfalle,Fusilli,Orecchiette,,,opentriviaqa
@@ -82,9 +97,13 @@ otq-hobbies-637,freizeit,2,Welches Fleisch kocht man im französischen Pot-au-fe
 otq-hobbies-673,freizeit,2,Welches Getränk wird unter anderem mit Wermutkraut hergestellt?,Absinth,Whisky,Rum,Gin,,,opentriviaqa
 otq-hobbies-792,freizeit,2,Was bedeutet der Name des Schweizer Sonntagsbrots „Zopf“?,Geflochtener Strang,Wasser,Schuh,Sonnenaufgang,,,opentriviaqa
 otq-hobbies-804,freizeit,2,Was bedeutet der Name des indonesischen Gerichts „Mie goreng“?,Gebratene Nudeln,Kriechende Schlangen,Haarbüschel,Grüne Mischung,,,opentriviaqa
+otq-hobbies-915,freizeit,2,Welches strategische Brettspiel stammt aus dem alten China und wird mit schwarzen und weißen Steinen gespielt?,Go,Hex,Othello,Mühle,,,opentriviaqa
+otq-hobbies-919,freizeit,2,"Welches Spiel, ursprünglich mit Papier und Bleistift, brachte Milton Bradley 1931 als Brettspiel heraus?",Schiffe versenken,Mühle,Titan,Stratego,,,opentriviaqa
+otq-hobbies-937,freizeit,2,In welchem Kartenspiel sollte man die Pik-Dame meiden?,Hearts,Bridge,Whist,Skat,,,opentriviaqa
 otq-hobbies-938,freizeit,2,Bei welchem Brettspiel kann man die Werte der gegnerischen Figuren nicht sehen?,Stratego,Bridge,Mille Bornes,Risiko,,,opentriviaqa
 otq-hobbies-950,freizeit,2,Welche Nuss gab der Cola ihren Namen und enthält Koffein?,Kolanuss,Haselnuss,Erdnuss,Kastanie,,,opentriviaqa
 otq-hobbies-969,freizeit,2,Welches Dessert wurde zu Ehren einer berühmten Sängerin benannt?,Pfirsich Melba,Kirschen Jubilee,Sachertorte,Crêpe Suzette,,,opentriviaqa
+otq-hobbies-992,freizeit,2,Welches Tier ist das erste Zeichen im chinesischen Tierkreis?,Die Ratte,Der Hund,Das Pferd,Das Schwein,,,opentriviaqa
 otq-hobbies-994,freizeit,2,"Welches Land braut die vielfältigsten Biere, von Pils bis Lambic?",Belgien,Tschechien,Deutschland,Niederlande,,,opentriviaqa
 otq-hobbies-997,freizeit,2,Welches Land hat den höchsten Bierkonsum pro Kopf?,Tschechien,Irland,Großbritannien,Deutschland,,,opentriviaqa
 otq-humanities-18,freizeit,2,Wie heißt das Gerät zum Löschen einer Kerze?,Kerzenlöscher,Kerzenzieher,Kerzenhalter,Kerzenständer,,,opentriviaqa
@@ -94,8 +113,11 @@ otq-humanities-503,freizeit,2,Wie heißen die Körperhaltungen im Yoga?,Asanas,M
 otq-newest-475,freizeit,2,"Wie heißt die italienische Vorspeisenplatte mit Salami, Oliven und Artischocken?",Antipasto,Prosciutto,Crostini,Bruschetta,,,opentriviaqa
 otq-people-670,freizeit,2,Welche Obstsorte ist nach einer australischen Züchterin benannt?,Der Apfel Granny Smith,Die Nektarine,Die Pflaume Sweet Susan,Die Birne Bosc,,,opentriviaqa
 otq-science-technology-1682,freizeit,2,Welche Fische enthalten besonders viele Omega-3-Fettsäuren?,Kaltwasserfische wie Lachs und Hering,Süßwasserfische,Knochenfische allgemein,Knorpelfische,,,opentriviaqa
+otq-science-technology-554,freizeit,2,Welche Mahlzeit passt am besten zu einer kohlenhydratarmen Ernährung?,Hüttenkäse mit etwas Obst,Nudeln mit Soße,Ein Schinkenbrot,Fleisch mit Kartoffeln,,,opentriviaqa
 otq-science-technology-680,freizeit,2,Welches dieser Lebensmittel ist die beste Eisenquelle?,Leber,Erbsen,Gurke,Salz,,,opentriviaqa
 otq-world-1728,freizeit,2,Welches Tier stellt der schwedische Weihnachtsschmuck „Julbock“ aus Stroh dar?,Einen Ziegenbock,Einen Schneemann,Ein Rentier,Einen Hasen,,,opentriviaqa
+otq-world-3126,freizeit,2,Welches Getränk ist in ganz Indien am beliebtesten?,Tee,Limonade,Kaffee,Wein,,,opentriviaqa
+otq-world-3310,freizeit,2,In welchem Land stellen Kinder an Heiligabend ihre Schuhe für Père Noël an den Kamin?,Frankreich,Spanien,Schweiz,Italien,,,opentriviaqa
 otq-world-3367,freizeit,2,Das Bier auf dem Oktoberfest muss innerhalb welcher Stadtgrenzen gebraut sein?,München,Dortmund,Augsburg,Nürnberg,,,opentriviaqa
 otq-world-339,freizeit,2,Wie heißt der Begleiter des Sinterklaas in den Niederlanden?,Zwarte Piet,Knecht Ruprecht,Krampus,Rudolph,,,opentriviaqa
 otq-world-3406,freizeit,2,Wann findet der traditionelle Karneval auf Malta statt?,Vor Aschermittwoch,Nach Ostern,Am 1. April,An Heiligabend,,,opentriviaqa
@@ -105,6 +127,8 @@ otq-world-974,freizeit,2,In welchem Land ist Neujahr („Oshōgatsu“) das wich
 otq-brain-teasers-145,freizeit,3,"Welches Gemüse gibt es als Chinesische, Jerusalem- und Globe-Variante (im Englischen)?",Artischocke,Curry,Cracker,Schwein,,,opentriviaqa
 otq-general-1184,freizeit,3,Welche Schildkrötenwesen dienen Bowser in den Mario-Spielen als Handlanger?,Koopas,Schlangen,Gumbas,Raptoren,,,opentriviaqa
 otq-general-2010,freizeit,3,Welche Firma entwickelte die Computerspielreihe „Command & Conquer“?,Westwood Studios (Electronic Arts),Microsoft,Blizzard,Nintendo,,,opentriviaqa
+otq-general-2452,freizeit,3,Welches Produkt trug 1974 als erstes einen Strichcode an der Kasse?,Kaugummi,Öl,Mehl,Wein,,,opentriviaqa
+otq-general-2546,freizeit,3,Warum war der erste Kaugummi von Walter Diemer rosa?,"Es war die einzige Farbe, die er noch hatte",Für seine Tochter,Lieblingsfarbe,Wegen seiner Mutter,,,opentriviaqa
 otq-general-2692,freizeit,3,"Welches Getränk wird in Irland, Neuseeland und Japan besonders viel getrunken?",Tee,Weinbrand,Kaffee,Cola,,,opentriviaqa
 otq-general-70,freizeit,3,Was soll George Crum 1853 im Kurort Saratoga Springs erfunden haben?,Kartoffelchips,Die Fernbedienung,Regallautsprecher,Ketchup,,,opentriviaqa
 otq-general-719,freizeit,3,Welche Nutzpflanze wird auf dem amerikanischen Doppelkontinent am meisten angebaut?,Mais,Weizen,Sojabohnen,Hirse,,,opentriviaqa
@@ -112,17 +136,22 @@ otq-general-945,freizeit,3,"Welche Modeschöpferin riet, Parfüm überall dort a
 otq-geography-112,freizeit,3,Wie heißt das traditionelle Gewand der Frauen in Vietnam?,Áo dài,Qipao,Kimono,Sari,,,opentriviaqa
 otq-geography-121,freizeit,3,Welches dieser Trachtengewänder stammt aus Norwegen?,Bunad,Kente,Dashiki,Boubou,,,opentriviaqa
 otq-history-1322,freizeit,3,Was erfand Walter Morrison 1948?,Die Frisbeescheibe,Die Mikrowelle,Den Dopplerradar,Die Solarzelle,,,opentriviaqa
+otq-history-529,freizeit,3,Welche Frauenfigur galt in den 1920er-Jahren als modisch?,Knabenhaft schlank,Üppig,Sanduhrförmig,Muskulös,,,opentriviaqa
 otq-history-597,freizeit,3,Welche Modeschöpferin machte den Pullover für Frauen salonfähig?,Coco Chanel,Yves Saint Laurent,Christian Dior,Gianfranco Ferré,,,opentriviaqa
 otq-hobbies-1003,freizeit,3,Welche Farbe gibt es im Kartenspiel „Magic: The Gathering“ NICHT?,Orange,Blau,Grün,Rot,,,opentriviaqa
 otq-hobbies-1004,freizeit,3,Welche Karte gilt als die wertvollste im Sammelkartenspiel „Magic: The Gathering“?,Black Lotus,Wildfire,Mox Diamond,Wrath of God,,,opentriviaqa
 otq-hobbies-1037,freizeit,3,Der teure Kaffee „Kopi Luwak“ wird aus den Ausscheidungen welches Tieres gewonnen?,Fleckenmusang (Schleichkatze),Bergziege,Fruchtfledermaus,Seekuh,,,opentriviaqa
+otq-hobbies-1096,freizeit,3,In welchem Land wurde das süße „Melonpan“-Brötchen erfunden?,Japan,Indien,Vietnam,China,,,opentriviaqa
 otq-hobbies-1115,freizeit,3,Was ist die Hauptzutat des spanischen Eintopfs Fabada Asturiana?,Bohnen,Lauch,Auberginen,Karotten,,,opentriviaqa
 otq-hobbies-1118,freizeit,3,Welches Fett verwendet man für einen Chiffon-Kuchen?,Pflanzenöl,Butter,Kein Fett,Schmalz,,,opentriviaqa
 otq-hobbies-1125,freizeit,3,Womit ist die ungarische Dobostorte gekrönt?,Mit einer Karamellschicht,Mit Zuckerwatte,Mit Schokoraspeln,Mit Zuckerglas,,,opentriviaqa
 otq-hobbies-123,freizeit,3,"Welcher Cocktail besteht aus hellem und dunklem Rum, Kokoscreme, Ananassaft und Erdbeeren?",Strawberry Colada,Swamp Water,Spanish Coffee,Singapore Sling,,,opentriviaqa
 otq-hobbies-13,freizeit,3,Welche Frucht nannten die Azteken „Ahuacatl“ – nach ihrer Form „Hodenbaum“?,Avocado,Apfel,Banane,Birne,,,opentriviaqa
+otq-hobbies-131,freizeit,3,Was ist „Beleaguered Castle“ (Belagerte Burg)?,Eine Patience (Solitär),Ein Stichspiel,Ein Rommé,Eine Pokervariante,,,opentriviaqa
 otq-hobbies-139,freizeit,3,Die Macis (Muskatblüte) stammt vom Baum welches Gewürzes?,Muskatnuss,Paprika,Nelke,Mohn,,,opentriviaqa
 otq-hobbies-142,freizeit,3,Die Samen welcher Pflanze sind ein Hauptgewürz indischer Currys?,Koriander,Rainfarn,Frauenminze,Thymian,,,opentriviaqa
+otq-hobbies-204,freizeit,3,In welcher Stadt zeigte Elio Fiorucci 1970 erstmals Designerjeans?,Mailand,Rom,Paris,New York,,,opentriviaqa
+otq-hobbies-261,freizeit,3,Welche dieser Figuren gab es beim klassischen Monopoly NICHT?,Einen Wasserkessel,Einen Schuh,Ein Bügeleisen,Einen Zylinder,,,opentriviaqa
 otq-hobbies-299,freizeit,3,"In welchem Zustand sollte die Brühe sein, die man zum Risotto gibt?","Heiß, leicht köchelnd",Ungesalzen,Kalt,Gesüßt,,,opentriviaqa
 otq-hobbies-300,freizeit,3,Wann gibt man beim Risotto die nächste Kelle Brühe hinzu?,Wenn der Reis die vorige aufgesogen hat,Wenn das Wasser kocht,Wenn der Reis hart wird,Wenn der Reis weich ist,,,opentriviaqa
 otq-hobbies-362,freizeit,3,Welche deutsche Puppe inspirierte Ruth Handler zur Barbie?,Bild-Lilli,Käthe Kruse,Steiff-Puppe,Schildkröt-Puppe,,,opentriviaqa
@@ -134,10 +163,12 @@ otq-hobbies-453,freizeit,3,Welcher Name ist KEINE Bezeichnung für Blackjack?,Ma
 otq-hobbies-457,freizeit,3,"Welchen Teil seines Einsatzes verliert ein Spieler beim Blackjack, wenn er „aufgibt“ (Surrender)?",Die Hälfte,Ein Fünftel,Den ganzen Einsatz,Zwei Drittel,,,opentriviaqa
 otq-hobbies-46,freizeit,3,Welches Sternzeichen hat Uranus als Planeten und steht für Unabhängigkeit?,Wassermann,Waage,Zwillinge,Fische,,,opentriviaqa
 otq-hobbies-509,freizeit,3,Was für ein Tee ist „Gunpowder“ aus China?,Grüner Tee,Schwarzer Tee,Kräutertee,Weißer Tee,,,opentriviaqa
+otq-hobbies-520,freizeit,3,Aus welchem Land stammt der Gemüsesalat Gado-Gado mit Erdnusssoße?,Indonesien,Indien,China,Thailand,,,opentriviaqa
 otq-hobbies-523,freizeit,3,In welchem Land wurde der Caesar Salad erfunden?,Mexiko,Griechenland,Spanien,Italien,,,opentriviaqa
 otq-hobbies-576,freizeit,3,"Welches chinesische Tierkreiszeichen hat, wer 1976, 1988 oder 2000 geboren ist?",Drache,Pferd,Schlange,Hase,,,opentriviaqa
 otq-hobbies-579,freizeit,3,"Wie heißt das belgische Bier, das durch Spontangärung mit wilden Hefen entsteht?",Lambic,Pils,Stout,Kölsch,,,opentriviaqa
 otq-hobbies-58,freizeit,3,Welches Gemüse verehrten die alten Ägypter wegen seiner kugeligen Form und Ringe als Symbol der Ewigkeit?,Die Zwiebel,Die Karotte,Der Knoblauch,Die Petersilie,,,opentriviaqa
+otq-hobbies-586,freizeit,3,Welche polnische Biermarke wurde 1629 gegründet?,Tyskie,Saku,Kalnapilis,A. Le Coq,,,opentriviaqa
 otq-hobbies-61,freizeit,3,"Aus welchem Land stammen Zongzi, in Bambusblätter gewickelte Klebreisklöße?",China,Thailand,Japan,Singapur,,,opentriviaqa
 otq-hobbies-620,freizeit,3,Welche Duftart enthält typischerweise 10 bis 20 % Duftstoffe?,Eau de Parfum,Eau de Cologne,Eau de Toilette,Rasierwasser,,,opentriviaqa
 otq-hobbies-636,freizeit,3,Welche Zutat gehört NICHT in eine Tartiflette?,Reis,Reblochon-Käse,Speck,Kartoffeln,,,opentriviaqa
@@ -148,6 +179,7 @@ otq-hobbies-728,freizeit,3,Welches Fleisch verwendet man für das chinesische Ge
 otq-hobbies-730,freizeit,3,"Woraus bestehen die Nester der Salanganen, die in China als „Schwalbennester“ eine Delikatesse sind?",Aus Speichel,Aus Bambussprossen,Aus Knochen,Aus getrockneten Insekten,,,opentriviaqa
 otq-hobbies-740,freizeit,3,Welche Konsistenz hat Greyerzer (Gruyère) traditionell?,Hart,Halbfest,Cremig,Weich,,,opentriviaqa
 otq-hobbies-747,freizeit,3,Woran erkennt man einen gut zubereiteten Espresso?,An der Crema,Am Aroma,An der Klarheit,An der Temperatur,,,opentriviaqa
+otq-hobbies-757,freizeit,3,In welchem Land entstand der Chihuahua-Käse?,Mexiko,Argentinien,Portugal,Spanien,,,opentriviaqa
 otq-hobbies-774,freizeit,3,Was bedeutet der Markenname Danone?,Kleiner Daniel,Jeden Tag,Langes Leben,Gesundheit,,,opentriviaqa
 otq-hobbies-784,freizeit,3,Welches Land ist der größte Erdbeerproduzent der Welt?,China,Spanien,Südkorea,Frankreich,,,opentriviaqa
 otq-hobbies-798,freizeit,3,Woraus wurde Segeltuch (Kanevas) ursprünglich hergestellt?,Aus Hanf,Aus Wolle,Aus Baumwolle,Aus Seide,,,opentriviaqa
@@ -160,6 +192,7 @@ otq-hobbies-835,freizeit,3,Was bedeutet der arabischstämmige Name „Safran“?
 otq-hobbies-838,freizeit,3,Aus welchem indischen Strategiespiel ging das Schach hervor?,Chaturanga,Sankara,Pachisi,Mancala,,,opentriviaqa
 otq-hobbies-839,freizeit,3,Wie heißt die japanische Variante des Schachs?,Shogi,Kyoki,Shatranj,Xiangqi,,,opentriviaqa
 otq-hobbies-85,freizeit,3,Worin wird der Reis für das malaysische Frühstücksgericht Nasi Lemak gekocht?,In Kokosmilch,In Kuhmilch,In Kaffee,In Grüntee,,,opentriviaqa
+otq-hobbies-891,freizeit,3,Welches Fleisch verwendet man für den arabischen Grillspieß Shish Taouk?,Hähnchen,Rind,Lamm,Ente,,,opentriviaqa
 otq-hobbies-900,freizeit,3,Wie wird das südafrikanische Fleisch Biltong hergestellt?,Durch Würzen und Lufttrocknen,Durch Frittieren,Durch Braten,Durch Kochen,,,opentriviaqa
 otq-hobbies-916,freizeit,3,Welches Brettspiel wurde 1975 von Gorō Hasegawa in Japan populär gemacht?,Othello,Go,Mensch ärgere dich nicht,Backgammon,,,opentriviaqa
 otq-hobbies-924,freizeit,3,"Welche Spezialität aus dem australischen Outback sind weiße Larven, die in Baumwurzeln leben?",Witchetty-Maden,Geoduck-Muscheln,Sashimi,Balut,,,opentriviaqa
@@ -168,6 +201,7 @@ otq-hobbies-931,freizeit,3,Wie heißt das philippinische Gericht aus einem angeb
 otq-hobbies-933,freizeit,3,Welches Kartenspiel mit wechselnder Trumpffarbe gilt als Vorläufer des Bridge?,Whist,Rommé,Skat,Canasta,,,opentriviaqa
 otq-hobbies-94,freizeit,3,"Welcher Cocktail besteht aus Bourbon, Zucker, Wasser, Crushed Ice und Minze?",Mint Julep,Margarita,Piña Colada,Mojito,,,opentriviaqa
 otq-hobbies-96,freizeit,3,"Welches Getränk mixt man aus Rum, Ananas-, Orangen- und Limettensaft, Angostura und Zuckersirup?",Rum Punch,Mint Julep,Mai Tai,Peppermint Patty,,,opentriviaqa
+otq-hobbies-963,freizeit,3,Welche Garmethode passt nicht zu den anderen (alles Schmoren)?,Pochieren,Schmoren im Topf,Braisieren,Dünsten im Eintopf,,,opentriviaqa
 otq-hobbies-976,freizeit,3,Für welches Handwerk ist die englische Stadt Stoke-on-Trent berühmt?,Töpferei und Porzellan,Briefmarken,Uhrmacherei,Glasbläserei,,,opentriviaqa
 otq-hobbies-984,freizeit,3,Welches chinesische Tierkreiszeichen liegt zwischen Drache und Pferd?,Schlange,Hase,Ratte,Hahn,,,opentriviaqa
 otq-hobbies-993,freizeit,3,Welches Tier ist das zwölfte und letzte Zeichen im chinesischen Tierkreis?,Schwein,Schlange,Hase,Ratte,,,opentriviaqa
@@ -175,10 +209,14 @@ otq-newest-1270,freizeit,3,"Welcher Tag gilt in spanischsprachigen Ländern stat
 otq-newest-1359,freizeit,3,Wie heißt der rote Geist im Videospiel Pac-Man?,Blinky,Pinky,Clyde,Inky,,,opentriviaqa
 otq-newest-1986,freizeit,3,Welches Supermodel war in den 1990ern mit dem Zauberer David Copperfield verlobt?,Claudia Schiffer,Linda Evangelista,Cindy Crawford,Naomi Campbell,,,opentriviaqa
 otq-people-2093,freizeit,3,Welcher französische Chemiker erfand 1869 die Margarine?,Hippolyte Mège-Mouriès,Louis Pasteur,Antoine Lavoisier,Joseph Gay-Lussac,,,opentriviaqa
+otq-rated-1492,freizeit,3,Wo werden Panamahüte traditionell hergestellt?,In Ecuador,In Argentinien,In Kuba,In Panama,,,opentriviaqa
 otq-rated-1603,freizeit,3,Wie hieß die Videospielfigur Mario ursprünglich?,Jumpman,Springboy,Hopman,Frog Guy,,,opentriviaqa
 otq-rated-938,freizeit,3,"Wie heißt der Brauschritt, bei dem Malz in warmem Wasser eingeweicht wird, damit Stärke zu Zucker wird?",Maischen,Läutern,Gären,Kochen,,,opentriviaqa
+otq-science-technology-1542,freizeit,3,Welches dieser Lebensmittel ist eine gute Eisenquelle?,Rosinen,Zitronen,Gurken,Tomaten,,,opentriviaqa
+otq-science-technology-1924,freizeit,3,Welchem Sternzeichen ist der Planet Jupiter als Herrscher zugeordnet?,Schütze,Widder,Zwillinge,Waage,,,opentriviaqa
 otq-science-technology-450,freizeit,3,"Welches natürliche Lebensmittel schadet den Zähnen besonders, weil es klebt und konzentrierten Fruchtzucker enthält?",Trockenobst,Fruchtpüree,Kakao,Saft,,,opentriviaqa
 otq-science-technology-555,freizeit,3,Welches dieser Lebensmittel enthält am wenigsten Transfette?,Sonnenblumenöl,Margarine,Backfett,Industriekekse,,,opentriviaqa
+otq-video-games-25,freizeit,3,Wie hieß Mario in seinem ersten Spiel „Donkey Kong“?,Jumpman,Koopa,Plumberio,Luigi,,,opentriviaqa
 otq-video-games-46,freizeit,3,Welche Figur aus der „Final Fantasy“-Reihe kämpft mit dem „Buster Sword“?,Cloud Strife,Sephiroth,Squall Leonhart,Seifer Almasy,,,opentriviaqa
 otq-world-1190,freizeit,3,In welchem Land soll der Brauch des Aprilscherzes entstanden sein?,Frankreich,Italien,Spanien,Großbritannien,,,opentriviaqa
 otq-world-1729,freizeit,3,In welchem Land bringt traditionell das Christkind (Ježíšek) die Geschenke?,Tschechien,Costa Rica,Kanada,Venezuela,,,opentriviaqa
@@ -187,12 +225,18 @@ otq-world-2653,freizeit,3,Woraus werden traditionelle Navajo-Teppiche gewebt?,Au
 otq-world-3123,freizeit,3,Wie heißt der südindische Pfannkuchen aus Reis und schwarzen Linsen?,Dosa,Dahi,Naan,Chapati,,,opentriviaqa
 otq-world-3370,freizeit,3,In welchem Land findet das Eis- und Schneeskulpturenfest von Harbin statt?,China,Japan,Kanada,Norwegen,,,opentriviaqa
 otq-world-3610,freizeit,3,Wie heißt die förmliche japanische Sitzhaltung auf den Fersen?,Seiza,Suimono,Tokonoma,Hassun,,,opentriviaqa
+otq-world-3719,freizeit,3,An welchem Fest isst man in Venezuela traditionell Hallacas?,An Weihnachten,Am Nationalfeiertag,An Ostern,An Silvester,,,opentriviaqa
+otq-world-378,freizeit,3,"Wie endet der Werbespruch „A Mars a day helps you work, rest and …“?",… play,… sleep,… pray,… stay,,,opentriviaqa
 otq-world-3867,freizeit,3,Welches Fleisch isst man in Mexiko traditionell an Weihnachten?,Truthahn,Rind,Lamm,Huhn,,,opentriviaqa
+otq-world-3870,freizeit,3,Welche Meeresfrüchte gehören in Spanien traditionell zum Weihnachtsessen?,Garnelen (Gambas),Tintenfisch,Seetang,Austern,,,opentriviaqa
 otq-general-1407,freizeit,4,Welche Firma stellte 1847 die erste Tafel Schokolade her?,J. S. Fry & Sons,Nestlé,Mars,Lindt,,,opentriviaqa
 otq-general-1667,freizeit,4,Bei welchem Pariser Modehaus folgte Alexander McQueen 1996 auf John Galliano als Chefdesigner?,Givenchy,Chanel,Christian Lacroix,Dior,,,opentriviaqa
 otq-general-2074,freizeit,4,"Was bedeutet es in China, einen „grünen Hut zu tragen“?",Ein betrogener Ehemann zu sein,Ein Bauer zu sein,Weise zu sein,Unreif zu sein,,,opentriviaqa
+otq-general-2499,freizeit,4,Welches Produkt half der mexikanische General Santa Anna in den USA bekannt zu machen?,Kaugummi (Chicle),Die Gatling-Kanone,Tacos,Den Film,,,opentriviaqa
+otq-general-271,freizeit,4,In welchem Jahrzehnt wurden Turnschuhe mit Gummisohle erfunden?,1830er,1940er,1890er,1920er,,,opentriviaqa
 otq-general-2923,freizeit,4,"Wie heißt Schwarztee auf Chinesisch, Japanisch und Koreanisch wörtlich übersetzt?",Roter Tee,Grauer Tee,Lila Tee,Brauner Tee,,,opentriviaqa
 otq-general-380,freizeit,4,Welches Brettspiel mit zwei Reihen zu je sechs Mulden ist das Nationalspiel Ghanas?,Oware,Dame,Backgammon,Schach,,,opentriviaqa
+otq-general-735,freizeit,4,Was erfand der Ingenieur James Wright 1943 eher zufällig?,Die Hüpfknete (Silly Putty),Den Polio-Impfstoff,Ein Haiabwehrmittel,Zeichentrickfolien,,,opentriviaqa
 otq-general-943,freizeit,4,Welches Getränk wurde anfangs als „geschätztes Hirntonikum und intellektuelles Getränk“ beworben?,Coca-Cola,Tab,Dr Pepper,Sprite,,,opentriviaqa
 otq-geography-117,freizeit,4,Aus welchem Land stammt das bestickte Festhemd „Barong“?,Philippinen,Thailand,Indonesien,Japan,,,opentriviaqa
 otq-geography-231,freizeit,4,Welche israelische Firma ist für Kosmetik aus Mineralien des Toten Meeres bekannt?,Ahava,Naot,Kfar Gideon,Elite,,,opentriviaqa
@@ -208,14 +252,18 @@ otq-hobbies-1111,freizeit,4,In welcher Form wird das spanische Gebäck „Tortel
 otq-hobbies-122,freizeit,4,"Welcher Cocktail besteht aus Gin, Grapefruitsaft und Maraschino mit Minzzweig?",Seventh Heaven,Singapore Sling,Silver Fizz,Sangria,,,opentriviaqa
 otq-hobbies-125,freizeit,4,"Welcher Cocktail besteht aus Wodka, Midori und Zitronenlimonade?",Midori Dream,Hocus Pocus,Hole in One,Highland Sling,,,opentriviaqa
 otq-hobbies-128,freizeit,4,"In welchem Stichspiel gibt es die Punkte High, Low, Jack und Game?",Pitch (All Fours),Binokel,Whist,Bridge,,,opentriviaqa
+otq-hobbies-156,freizeit,4,"Wie heißt die tschechische, in Essig eingelegte Wurst?",Utopenec,Dršťková,Polévka,Knedlíky,,,opentriviaqa
 otq-hobbies-183,freizeit,4,Was verursacht laut gängiger Erklärung den Kater nach Wein neben dem Alkohol vor allem?,Begleitstoffe (Fuselöle),Antioxidantien,Gerbstoffe allein,Kohlensäure,,,opentriviaqa
 otq-hobbies-203,freizeit,4,Was zeigte das erste außen an eine Jeans genähte Etikett von Levi’s (1936)?,Ein rotes Fähnchen,Einen Bären,Einen Cowboyhut,Einen Falken,,,opentriviaqa
 otq-hobbies-218,freizeit,4,"Wie heißt das lange Rühren der Schokoladenmasse, das ihren Schmelz erzeugt?",Conchieren,Temperieren,Maischen,Läutern,,,opentriviaqa
+otq-hobbies-230,freizeit,4,Wie viel Wasser wird Milch für Kondensmilch etwa entzogen?,Etwa 60 %,Etwa 10 %,Etwa 90 %,Etwa 30 %,,,opentriviaqa
 otq-hobbies-264,freizeit,4,Wie viele Ereigniskarten enthält ein Standard-Monopoly?,16,17,20,15,,,opentriviaqa
 otq-hobbies-308,freizeit,4,"Wie heißt das Abkommen von 1951, mit dem mehrere europäische Länder Käsebezeichnungen vor Fälschung schützten?",Abkommen von Stresa,Schweizer Abkommen,Mailänder Abkommen,Genfer Abkommen,,,opentriviaqa
 otq-hobbies-312,freizeit,4,Welchen Käse versuchten venezianische Käser schon im 16. Jahrhundert zu fälschen?,Parmesan,Brie,Kaschkawal,Gouda,,,opentriviaqa
 otq-hobbies-355,freizeit,4,Wann wurde Popcorn in Kinos populär?,Um 1930,Um 1890,Um 1960,Um 1980,,,opentriviaqa
+otq-hobbies-360,freizeit,4,"Wie nennt man im Englischen Maiskörner, die nicht aufpoppen?",Old maids,Spinsters,Barrens,Bachelors,,,opentriviaqa
 otq-hobbies-373,freizeit,4,Welche Skala eines französischen Apothekers wird zur Messung des Zuckergehalts von Most und Wein genutzt?,Baumé-Skala,Beaufort-Skala,Brix-Skala,Scoville-Skala,,,opentriviaqa
+otq-hobbies-375,freizeit,4,Wie heißt ein süßer Schaumwein aus Rot- und Weißwein?,Cold Duck (Kalte Ente),Barrique,Bodega,Claret,,,opentriviaqa
 otq-hobbies-377,freizeit,4,Welche europäische Weinrebenart wurde Mitte des 19. Jahrhunderts von der Reblaus verwüstet?,Vitis vinifera,Vitis aestivalis,Vitis sylvestris,Vitis labrusca,,,opentriviaqa
 otq-hobbies-459,freizeit,4,Was bedeutet die Angabe „S17“ auf einem Blackjack-Tisch?,Der Croupier bleibt bei „Soft 17“ stehen,Der Croupier zählt „Soft 17“ als 8,Der Croupier gibt bei „Soft 17“ auf,Der Croupier verdoppelt bei „Soft 17“,,,opentriviaqa
 otq-hobbies-500,freizeit,4,Welche Zutat gehört NICHT in das chinesische Gericht „Ameisen klettern auf den Baum“?,Fisch,Knoblauch,Glasnudeln,Hackfleisch,,,opentriviaqa
@@ -235,6 +283,7 @@ otq-hobbies-687,freizeit,4,Wo sitzt der größte Teil des Eiweißes in der Karto
 otq-hobbies-732,freizeit,4,Aus welcher Milch wird der belgische „Brusselse Kaas“ hergestellt?,Kuhmilch,Büffelmilch,Schafmilch,Ziegenmilch,,,opentriviaqa
 otq-hobbies-787,freizeit,4,Aus welchem Land stammt das Fladenbrot Flatkaka?,Island,Philippinen,Südafrika,Peru,,,opentriviaqa
 otq-hobbies-794,freizeit,4,Aus welchem Land stammt das dünne Fladenbrot „Tunnbröd“?,Schweden,Deutschland,Schweiz,Norwegen,,,opentriviaqa
+otq-hobbies-800,freizeit,4,Was ist das indonesische „Klepon“?,Ein Dessert aus Klebreis mit Palmzucker,Eine Suppe,Ein Salat,Ein Hauptgericht,,,opentriviaqa
 otq-hobbies-805,freizeit,4,Woraus besteht die indonesische Spezialität Pempek hauptsächlich?,Aus Fisch,Aus Garnelen,Aus Austern,Aus Tintenfisch,,,opentriviaqa
 otq-hobbies-809,freizeit,4,Was bedeutet der Begriff „Ikizukuri“ in der japanischen Küche?,Lebendig zubereitet,Meeresfrüchte,Frittiert,Gebraut,,,opentriviaqa
 otq-hobbies-813,freizeit,4,Welches Fleisch verwendet man für das Gericht Soki aus Okinawa?,Schweinefleisch,Rindfleisch,Fisch,Hühnchen,,,opentriviaqa
@@ -258,8 +307,11 @@ otq-hobbies-978,freizeit,4,Zu welchem Feiertag lässt man auf den Bermudas tradi
 otq-hobbies-983,freizeit,4,Wie nennt man das Sammeln von Streichholzschachteln?,Phillumenie,Philanthropie,Philhellenismus,Philatelie,,,opentriviaqa
 otq-humanities-671,freizeit,4,Was sammelt ein Tegestologe?,Bierdeckel,Münzen,Porzellan,Streichholzschachteln,,,opentriviaqa
 otq-humanities-710,freizeit,4,Welcher lateinamerikanische Tanz gehört NICHT zum Turnierprogramm der Latein-Tänze?,Merengue,Rumba,Samba,Cha-Cha-Cha,,,opentriviaqa
+otq-newest-1452,freizeit,4,Welches chinesische Schriftzeichen hängt zu Neujahr oft kopfüber an der Haustür?,Fu – Glück,Cai – Reichtum,Lu – Wohlstand,Shou – Langlebigkeit,,,opentriviaqa
 otq-people-2348,freizeit,4,Was erfand Samuel Leeds Allen 1889?,Einen lenkbaren Schlitten (Flexible Flyer),Das Radio,Das Kofferradio,Den Sekundenkleber,,,opentriviaqa
+otq-people-420,freizeit,4,Welcher New Yorker Teehändler soll um 1908 versehentlich den Teebeutel erfunden haben?,Thomas Sullivan,Thomas Lipton,Roy Plunkett,Adolf Rambold,,,opentriviaqa
 otq-people-615,freizeit,4,Was sind „Rocky Mountain Oysters“?,Stierhoden,Pinienzapfen,Kuhfladen,Muscheln,,,opentriviaqa
+otq-rated-1626,freizeit,4,In welchem Jahr eröffnete in Neapel die erste Pizzeria?,1830,1910,1880,1770,,,opentriviaqa
 otq-rated-1746,freizeit,4,"Welcher Cocktail besteht aus Wodka, Kaffeelikör und Irish Cream?",Mudslide,Caipirinha,Bronx,Bullshot,,,opentriviaqa
 otq-science-technology-1761,freizeit,4,Welche chinesische Delikatesse soll Haut und Milz guttun?,Schwalbennester (Vogelnestsuppe),Haifischflossensuppe,Misosuppe,Bambussprossen,,,opentriviaqa
 otq-sports-2374,freizeit,4,Welche Eröffnung kann nach dem ersten Schachzug 1. Sf3 nicht mehr entstehen?,Königsgambit,Englische Eröffnung,Spanische Partie,Königsindischer Angriff,,,opentriviaqa
@@ -269,12 +321,14 @@ otq-world-1730,freizeit,4,Wie vertreibt man laut griechischem Volksglauben die W
 otq-world-1737,freizeit,4,In welchem Land bringt der Legende nach ein Kamel den Kindern Geschenke?,Syrien,Türkei,Pakistan,Ägypten,,,opentriviaqa
 otq-world-2060,freizeit,4,Welche Stadt gilt als „Hauptstadt der elsässischen Weine“?,Colmar,Straßburg,Mülhausen,Avignon,,,opentriviaqa
 otq-world-2621,freizeit,4,Welches Gericht stammt NICHT aus Mexiko?,Mofongo,Mole,Machaca,Enchiladas,,,opentriviaqa
+otq-world-2981,freizeit,4,Welche Kosmetikunternehmerin starb am 1. April 1965?,Helena Rubinstein,Estée Lauder,Elizabeth Arden,Coco Chanel,,,opentriviaqa
 otq-world-3110,freizeit,4,Welches Fleisch wird für das isländische Gericht Hangikjöt geräuchert?,Lamm,Kaninchen,Gans,Schwein,,,opentriviaqa
 otq-world-3129,freizeit,4,Welches traditionelle indische Getränk wird aus Hanf zubereitet?,Bhang,Nimbu Pani,Kaapi,Lassi,,,opentriviaqa
 otq-world-3183,freizeit,4,Am Tag welches Heiligen (15. Juli) soll laut englischer Wetterregel das Wetter 40 Tage anhalten?,St. Swithin,St. George,St. Patrick,St. Silvester,,,opentriviaqa
 otq-world-3501,freizeit,4,"Was ist ein Krama, ein traditionelles Kleidungsstück in Kambodscha?",Ein Tuch bzw. Schal,Ein Hut,Ein Gewand,Ein Schuh,,,opentriviaqa
 otq-world-3503,freizeit,4,"Welchen Teil ihrer Kleidung wechselt eine Maiko bei der Zeremonie Erikae, wenn sie zur Geisha wird?",Den Kragen,Die Schärpe,Den Kimono,Die Schuhe,,,opentriviaqa
 otq-world-3603,freizeit,4,Was ist ein „Chakin“ bei der japanischen Teezeremonie?,Ein Tuch,Ein Teebesen,Ein Teelöffel,Eine Teeschale,,,opentriviaqa
+otq-world-3611,freizeit,4,Was reicht man bei der Teezeremonie zum dicken Tee „Koicha“?,Süßigkeiten (Wagashi),Tabak,Fisch,Wasabi,,,opentriviaqa
 otq-world-3683,freizeit,4,In welchem Monat findet in Medellín das Blumenfest (Feria de las Flores) statt?,August,November,Juli,Januar,,,opentriviaqa
 otq-world-3837,freizeit,4,Woraus wird das in Taiwan beliebte „Grass Jelly“ hergestellt?,Aus Kräutern,Aus Reis,Aus Pilzen,Aus Pfirsichen,,,opentriviaqa
 otq-world-391,freizeit,4,In welchem Teil des Vereinigten Königreichs soll die Tradition der Einweihungsparty entstanden sein?,Schottland,England,Nordirland,Wales,,,opentriviaqa

@@ -11,9 +11,13 @@ agw-0009,allgemeinwissen,3,Wie viele Zähne hat das vollständige Gebiss eines E
 agw-0010,allgemeinwissen,4,Wie viele farbige Felder hat ein klassischer 3×3×3-Zauberwürfel auf seiner gesamten Oberfläche?,54,48,56,64,,6 Seiten mit je 9 Feldern.,spiele
 agw-0011,allgemeinwissen,4,Was bezeichnet das Wort „Petrichor“?,Den Geruch von Regen auf trockener Erde,Einen Edelstein aus Vulkangestein,Eine Muskelgruppe im Rücken,Ein altgriechisches Versmaß,,,begriffe
 agw-0012,allgemeinwissen,4,Welche Farbe hat die Zunge einer Giraffe überwiegend?,Blauschwarz,Rosa,Grau,Gelb,,Die dunkle Färbung schützt vermutlich vor Sonnenbrand.,tiere
+otq-brain-teasers-60,allgemeinwissen,1,"Was geht am Morgen auf vier, mittags auf zwei und abends auf drei Beinen?",Der Mensch,Die Schildkröte,Das Faultier,Der Rabe,,,opentriviaqa
 otq-brain-teasers-81,allgemeinwissen,1,Joe hat 29 Paar Socken. Wie viele einzelne Socken hat er?,58,60,56,29,,,opentriviaqa
 otq-for-kids-112,allgemeinwissen,1,"Wie geht die Reihe weiter: XX, XXXX, XXXXXX, …?",XXXXXXXX,XXXXXXX,XXXXXXXXX,XXXXXXXXXX,,,opentriviaqa
+otq-for-kids-114,allgemeinwissen,1,"Chad hat 23 Comics, zusammen mit Jason sind es 59. Wie viele hat Jason?",36,26,35,82,,,opentriviaqa
+otq-for-kids-217,allgemeinwissen,1,Was ist die Quadratwurzel aus 121?,11,10,12,13,,,opentriviaqa
 otq-for-kids-281,allgemeinwissen,1,Was ergibt 16 − 4 + 3?,15,14,13,16,,,opentriviaqa
+otq-for-kids-286,allgemeinwissen,1,"Anton hat 8 Äpfel, 2 Orangen und 3 Birnen. Wie viele Früchte hat er?",13,14,12,11,,,opentriviaqa
 otq-for-kids-287,allgemeinwissen,1,Was ergibt 12 − 3?,9,8,7,6,,,opentriviaqa
 otq-for-kids-315,allgemeinwissen,1,Was ist die Quadratwurzel aus 144?,12,7,14,16,,,opentriviaqa
 otq-for-kids-428,allgemeinwissen,1,Was ergibt 123 geteilt durch 10?,"12,3","32,1","3,21","1,23",,,opentriviaqa
@@ -25,6 +29,7 @@ otq-general-2646,allgemeinwissen,1,Wie oft im Jahr erscheint das Magazin Nationa
 otq-general-76,allgemeinwissen,1,Vor welcher Zahl fürchtet sich jemand mit Triskaidekaphobie?,13,6,9,666,,,opentriviaqa
 otq-general-78,allgemeinwissen,1,Wie heißt das 50. Hochzeitsjubiläum?,Goldene Hochzeit,Perlenhochzeit,Diamantene Hochzeit,Silberne Hochzeit,,,opentriviaqa
 otq-history-1062,allgemeinwissen,1,In welchem Monat sind Frauentag und St. Patrick’s Day?,März,August,April,Juni,,,opentriviaqa
+otq-history-1065,allgemeinwissen,1,In welchem Monat ist der Valentinstag?,Februar,März,Juli,Mai,,,opentriviaqa
 otq-history-1066,allgemeinwissen,1,In welchem Monat feiern viele Länder den Tag der Arbeit?,Mai,März,April,Oktober,,,opentriviaqa
 otq-history-844,allgemeinwissen,1,Wie viele Monate im Jahr haben 31 Tage?,7,5,6,8,,,opentriviaqa
 otq-newest-1918,allgemeinwissen,1,"Rätsel: Du bist in einem dunklen Raum mit Kerze, Ofen, Gaslampe und einem Streichholz. Was zündest du zuerst an?",Das Streichholz,Die Kerze,Den Ofen,Die Gaslampe,,,opentriviaqa
@@ -37,10 +42,11 @@ otq-brain-teasers-141,allgemeinwissen,2,"Eine Mutter hat 6 Töchter, und jede ha
 otq-brain-teasers-147,allgemeinwissen,2,"Da sind drei Ananas, und du nimmst zwei. Wie viele hast du dann?",2,1,0,3,,,opentriviaqa
 otq-brain-teasers-152,allgemeinwissen,2,"Was kann tanzen, leben und sterben – ohne Beine, ohne Lunge und ohne lebendig zu sein?",Feuer,Wasser,Dunkelheit,Wind,,,opentriviaqa
 otq-brain-teasers-22,allgemeinwissen,2,"Rätsel: Was geht immer die Treppe hinauf und hinunter, ohne sich zu bewegen?",Ein Teppich,Ein Schal,Ein Vorhang,Ein Handtuch,,,opentriviaqa
+otq-brain-teasers-8,allgemeinwissen,2,Du überholst bei einem Lauf den Zweiten. Auf welchem Platz bist du jetzt?,Zweiter,Erster,Dritter,Ausgeschieden,,,opentriviaqa
 otq-brain-teasers-87,allgemeinwissen,2,Vor fünf Jahren waren Schwester und Bruder zusammen 8 Jahre alt. Wie alt sind sie zusammen in fünf Jahren?,28,18,13,8,,,opentriviaqa
 otq-for-kids-218,allgemeinwissen,2,Ein Dreieck hat Winkel von 47° und 106°. Wie groß ist der dritte Winkel?,27°,37°,207°,17°,,,opentriviaqa
 otq-general-1626,allgemeinwissen,2,An welchem Apriltag wird der „Tag der Erde“ gefeiert?,22. April,30. April,12. April,2. April,,,opentriviaqa
-otq-general-1874,allgemeinwissen,2,"Ein Bauer trägt einen Sack Getreide, sein Sohn zwei. Wer trägt die schwerere Last?",Das lässt sich nicht sagen – die Säcke können verschieden schwer sein,Der Sohn,Der Vater,Beide gleich viel,,,opentriviaqa
+otq-general-1874,allgemeinwissen,2,"Ein Bauer trägt einen Sack Getreide, sein Sohn zwei. Wer trägt die schwerere Last?",Nicht entscheidbar,Der Sohn,Der Vater,Beide gleich viel,,,opentriviaqa
 otq-general-2865,allgemeinwissen,2,"In einem Beutel liegen 4 rote und 6 blaue Murmeln. Wie wahrscheinlich ist es, eine blaue oder grüne zu ziehen?",6 von 10,0,4 von 10,2 von 10,,,opentriviaqa
 otq-general-791,allgemeinwissen,2,Welches Wort passt nicht in die Reihe?,Amethyst,Narzisse,Rose,Gänseblümchen,,,opentriviaqa
 otq-science-technology-738,allgemeinwissen,2,Ein Zahlenschloss hat drei Stellen mit je fünf möglichen Ziffern (0–4). Wie viele Kombinationen gibt es?,125,21,15,120,,,opentriviaqa
@@ -63,6 +69,8 @@ otq-general-818,allgemeinwissen,3,Wie viele Primzahlen sind kleiner als 23?,8,7,
 otq-general-96,allgemeinwissen,3,Welcher Edelstein ist traditionell der Monatsstein des Septembers?,Saphir,Topas,Türkis,Opal,,,opentriviaqa
 otq-general-993,allgemeinwissen,3,"Wie heißt das Prinzip, nach dem jeder Beschäftigte bis zur Stufe seiner Unfähigkeit aufsteigt?",Peter-Prinzip,William-Prinzip,Matthäus-Prinzip,Johnson-Prinzip,,,opentriviaqa
 otq-general-997,allgemeinwissen,3,"Wie heißt das Gesetz „Arbeit dehnt sich in genau dem Maß aus, wie Zeit für ihre Erledigung zur Verfügung steht“?",Parkinsonsches Gesetz,Atkinsonsches Gesetz,Pattersonsches Gesetz,Robinsonsches Gesetz,,,opentriviaqa
+otq-history-1058,allgemeinwissen,3,In welchem Monat sind der Weltgesundheitstag und vielerorts Buddhas Geburtstag?,April,Juni,Februar,September,,,opentriviaqa
+otq-newest-1265,allgemeinwissen,3,"Wenn ein Monat an einem Sonntag beginnt, auf welchen Tag fällt der 13.?",Freitag,Mittwoch,Montag,Samstag,,,opentriviaqa
 otq-newest-2113,allgemeinwissen,3,"Wie heißt die (scherzhafte) Angst, irgendwo beobachte einen eine Ente?",Anatidaephobie,Ornithophobie,Aquaphobie,Entophobie,,,opentriviaqa
 otq-science-technology-1000,allgemeinwissen,3,"Welche Zahl fehlt: 8, 16, 28, 44, ?, 88, 116?",64,48,56,52,,,opentriviaqa
 otq-science-technology-1037,allgemeinwissen,3,Ein Zahlenschloss hat drei Stellen mit je 40 möglichen Zahlen (0–39). Wie viele Kombinationen gibt es?,64.000,120,117,3.000,,,opentriviaqa
@@ -80,6 +88,7 @@ otq-general-2390,allgemeinwissen,4,Ringelblume und Opal sind Symbole welches Mon
 otq-general-36,allgemeinwissen,4,Auf welchen Wochentag fällt der 13. eines Monats (über 400 Jahre gesehen) am häufigsten?,Freitag,Sonntag,Montag,Mittwoch,,,opentriviaqa
 otq-rated-1771,allgemeinwissen,4,"Wie endet das Kant zugeschriebene Zitat „Wissenschaft ist organisiertes Wissen, Weisheit ist organisiertes …“?",Leben,Denken,Ansehen,Gemüt,,,opentriviaqa
 otq-rated-1772,allgemeinwissen,4,Wie vollendet sich der Satz „Wissen ist das Anhäufen von Fakten; Weisheit liegt in ihrer …“?,Vereinfachung,Bestätigung,Anwendung,Deutung,,,opentriviaqa
+otq-science-technology-1001,allgemeinwissen,4,"Welche Zahl fehlt: 3, 6, 18, 36, ?, 216, 234, 468",54,108,72,39,,,opentriviaqa
 otq-science-technology-1002,allgemeinwissen,4,"Welche Zahl fehlt: 10, 20, 100, ?, 280, 560, 640",200,110,180,270,,,opentriviaqa
 otq-science-technology-1036,allgemeinwissen,4,"Wer hat die besten Chancen: A zieht 3 Asse aus 52 Karten, B würfelt mit 2 Würfeln eine 2, C würfelt mit 3 Würfeln eine 3?",B,A,C,Alle gleich,,,opentriviaqa
 otq-science-technology-387,allgemeinwissen,4,"Welche Menge ist am größten: alle ganzen Zahlen, alle geraden oder alle ungeraden Zahlen?",Alle sind gleich mächtig,Die geraden Zahlen,Die ganzen Zahlen,Die ungeraden Zahlen,,,opentriviaqa
