@@ -5,8 +5,12 @@
 // The output is reproducible (no timestamps) and committed to the repo, so the
 // game can be downloaded directly from GitHub.
 //
-// Usage: node tools/build.mjs [--dev]   (--dev: no minification)
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+// --android builds the web part of the Android app instead
+// (android/app/src/main/assets/www/, not committed): same game, but images are
+// copied as separate files – smaller HTML, faster start in the WebView.
+//
+// Usage: node tools/build.mjs [--dev] [--android]   (--dev: no minification)
+import { readFile, writeFile, mkdir, rm, copyFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as esbuild from 'esbuild';
@@ -14,12 +18,14 @@ import { loadCatalogs, formatIssue } from './lib/load-catalogs.mjs';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dev = process.argv.includes('--dev');
+const android = process.argv.includes('--android');
+const outDir = android ? path.join(root, 'android/app/src/main/assets/www') : path.join(root, 'dist');
 const SIZE_WARN_BYTES = 5 * 1024 * 1024;
 
 const pkg = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'));
 
 // 1. catalogs
-const { manifest, questions, errors, warnings } = await loadCatalogs(path.join(root, 'catalogs'), { inlineImages: true });
+const { manifest, questions, errors, warnings } = await loadCatalogs(path.join(root, 'catalogs'), { inlineImages: !android });
 if (warnings.length) console.warn(`⚠ ${warnings.length} Hinweis(e) in den Katalogen:\n${warnings.map(formatIssue).join('\n')}`);
 if (errors.length) {
   console.error(`✗ Build abgebrochen, ${errors.length} Fehler in den Katalogen:\n${errors.map(formatIssue).join('\n')}`);
@@ -43,6 +49,7 @@ const js = await esbuild.build({
   target: ['es2020'],
   define: {
     __APP_VERSION__: JSON.stringify(pkg.version),
+    __APP_PLATFORM__: JSON.stringify(android ? 'android' : 'web'),
   },
 });
 const css = await esbuild.build({ ...common, entryPoints: [path.join(root, 'src/styles/main.css')] });
@@ -63,9 +70,20 @@ for (const [marker, value] of Object.entries(replacements)) {
   html = html.replace(marker, () => value);
 }
 
-await mkdir(path.join(root, 'dist'), { recursive: true });
-const out = path.join(root, 'dist/quizshow.html');
+if (android) await rm(outDir, { recursive: true, force: true });
+await mkdir(outDir, { recursive: true });
+const out = path.join(outDir, android ? 'index.html' : 'quizshow.html');
 await writeFile(out, html);
+if (android) {
+  // relative image paths (checked by loadCatalogs) → same path next to index.html
+  const images = new Set(questions.map((q) => q.image).filter((img) => img && !/^(https?:|data:)/i.test(img)));
+  for (const img of images) {
+    const target = path.join(outDir, img);
+    await mkdir(path.dirname(target), { recursive: true });
+    await copyFile(path.join(root, 'catalogs', img), target);
+  }
+  console.log(`✓ ${images.size} Bilder nach ${path.relative(root, outDir)}/ kopiert`);
+}
 
 const bytes = Buffer.byteLength(html);
 console.log(`✓ ${path.relative(root, out)} (${(bytes / 1024).toFixed(1)} KB, ${questions.length} Fragen, Katalog ${manifest.version})`);

@@ -1,0 +1,78 @@
+name: Android
+
+# Baut die Android-App (WebView-Hülle, siehe android/) als Debug-APK.
+# Die APK liegt danach als Artefakt "quizshow-apk" am Workflow-Lauf.
+on:
+  push:
+    paths:
+      - 'src/**'
+      - 'catalogs/**'
+      - 'tools/**'
+      - 'android/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/android.yml'
+  pull_request:
+    paths:
+      - 'src/**'
+      - 'catalogs/**'
+      - 'tools/**'
+      - 'android/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/android.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  debug-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Web-Teil bauen
+        run: |
+          npm ci
+          npm run build:android
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      # prüft auch die Prüfsumme von gradle-wrapper.jar
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Debug-APK bauen
+        working-directory: android
+        env:
+          # fortlaufend → neue APKs lassen sich über ältere installieren
+          VERSION_CODE: ${{ github.run_number }}
+        run: ./gradlew --no-daemon assembleDebug
+
+      - name: APK umbenennen
+        id: apk
+        run: |
+          version=$(node -p "require('./package.json').version")
+          name="quizshow-${version}-${{ github.run_number }}-debug.apk"
+          mv android/app/build/outputs/apk/debug/app-debug.apk "$name"
+          echo "file=$name" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quizshow-apk
+          path: ${{ steps.apk.outputs.file }}
+          if-no-files-found: error
+          retention-days: 30

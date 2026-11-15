@@ -1,5 +1,9 @@
 // Minimal IndexedDB key-value store for catalog data (questions incl. images).
 // Falls back to memory if IndexedDB is unavailable (private mode, some file:// setups).
+// In the Android app the data is stored as files by the native side instead.
+import { nativeBridge } from './native.js';
+
+const native = nativeBridge();
 const DB_NAME = 'quizshow';
 const STORE = 'catalogs';
 const memory = new Map();
@@ -43,6 +47,14 @@ function run(mode, fn) {
 export const isPersistent = () => persistent;
 
 export async function dbGet(key) {
+  if (native) {
+    try {
+      const raw = native.readData(String(key));
+      return raw == null ? memory.get(key) : JSON.parse(raw);
+    } catch {
+      return memory.get(key);
+    }
+  }
   try {
     return await run('readonly', (s) => s.get(key));
   } catch {
@@ -52,6 +64,14 @@ export async function dbGet(key) {
 
 export async function dbSet(key, value) {
   memory.set(key, value);
+  if (native) {
+    try {
+      return Boolean(native.writeData(String(key), JSON.stringify(value)));
+    } catch {
+      persistent = false;
+      return false;
+    }
+  }
   try {
     await run('readwrite', (s) => s.put(value, key));
     return true;
@@ -62,6 +82,14 @@ export async function dbSet(key, value) {
 
 export async function dbDelete(key) {
   memory.delete(key);
+  if (native) {
+    try {
+      native.deleteData(String(key));
+    } catch {
+      /* memory only */
+    }
+    return;
+  }
   try {
     await run('readwrite', (s) => s.delete(key));
   } catch {

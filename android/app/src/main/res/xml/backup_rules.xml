@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android-Backup (bis Android 11): Einstellungen, Statistik, Bestenlisten
+     (SharedPreferences) und importierte Kataloge (Dateien), nicht den WebView-Cache -->
+<full-backup-content>
+    <include domain="sharedpref" path="quizshow.xml" />
+    <include domain="file" path="catalogs/" />
+</full-backup-content>

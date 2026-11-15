@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generiert von tools/assets/build-app-icon.mjs -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M54,28 A26,26 0 1,1 54,80 A26,26 0 1,1 54,28 Z"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M45.5,46 A8.5,8.5 0 1,1 62.5,46 C62.5,51.5 54,52.5 54,58.5 L54,60.5"
+        android:strokeColor="#ffffff"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path
+        android:pathData="M54,65.6 A3.6,3.6 0 1,1 54,72.8 A3.6,3.6 0 1,1 54,65.6 Z"
+        android:fillColor="#ffffff" />
+</vector>

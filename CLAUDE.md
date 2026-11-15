@@ -3,6 +3,8 @@
 Quizspiel im Gameshow-Stil. Auslieferung als **eine einzige, offline lauffähige HTML-Datei**
 (`dist/quizshow.html`), gebaut aus `src/` + `catalogs/` mit `npm run build`.
 Plan und Meilensteine: `docs/PLAN.md`. CSV-Format: `docs/FRAGENFORMAT.md`.
+Zusätzlich gibt es eine Android-App (`android/`, WebView-Hülle in Java), deren Web-Teil
+`npm run build:android` erzeugt (nicht committet); die Debug-APK baut der Workflow `android.yml`.
 
 ## Regeln
 

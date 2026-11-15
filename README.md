@@ -22,12 +22,25 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - Über **5400 Fragen** in 17 Kategorien – u. a. Essen & Ernährung, Computer- & Brettspiele, Die 90er –
   sowie Bilderfragen zu **Flaggen**, **Länderumrissen**, **Obst & Gemüse** und **Blättern heimischer Bäume**
 
-**Status:** Version 1.0 – alle Meilensteine M0–M6 umgesetzt. Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Version 1.0 – alle Meilensteine M0–M7 umgesetzt (M7: Android-App). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 
 [`dist/quizshow.html`](dist/quizshow.html) herunterladen (auf GitHub: Datei öffnen → „Download raw file“)
 und im Browser öffnen – fertig. Kein Server, keine Installation, kein Internet nötig.
+
+### Android-App
+
+Dasselbe Spiel gibt es als Android-App (ab Android 7). Die APK baut GitHub Actions bei jeder
+Änderung: im Repo unter **Actions → „Android“** den neuesten erfolgreichen Lauf öffnen und unten das
+Artefakt **`quizshow-apk`** herunterladen (eine ZIP-Datei mit der APK). Die APK aufs Handy
+kopieren und öffnen; beim ersten Mal muss die Installation „aus unbekannten Quellen“ für die
+Datei-App bzw. den Browser erlaubt werden.
+
+Es ist vorerst eine **Debug-APK** (für Tests, nicht für den Play Store). Neuere APKs lassen sich
+über ältere installieren – Einstellungen, Statistik, Bestenlisten und importierte Kataloge bleiben
+erhalten und sind Teil der Android-Datensicherung. Die Zurück-Taste schließt Dialoge, fragt vor dem
+Beenden eines Spiels nach und verlässt die App auf dem Startbildschirm.
 
 ## Entwickeln
 
@@ -37,6 +50,7 @@ Voraussetzung: Node.js ≥ 20.
 npm install
 npm run build      # → dist/quizshow.html (minifiziert)
 npm run build:dev  # ohne Minifizierung
+npm run build:android  # Web-Teil der Android-App → android/app/src/main/assets/www/
 npm run validate   # Fragenkataloge prüfen
 npm test           # Unit-Tests
 npm run check      # alles zusammen (wie in CI)
@@ -46,6 +60,11 @@ npm run e2e        # Browser-Tests (braucht Playwright, s. u.)
 Die Browser-Tests spielen die fertige `dist/quizshow.html` offline durch. Playwright ist bewusst
 keine Projektabhängigkeit; einmalig installieren mit
 `npm i --no-save playwright && npx playwright install chromium`. In CI laufen sie in einem eigenen Job.
+
+Die Android-App selbst (`android/`) ist eine schlanke WebView-Hülle in Java. Lokal bauen mit
+Android Studio oder – mit installiertem Android-SDK und JDK 17 – per
+`npm run build:android && cd android && ./gradlew assembleDebug`
+(→ `android/app/build/outputs/apk/debug/`). Das App-Icon erzeugt `tools/assets/build-app-icon.mjs`.
 
 ## Fragen schreiben
 
@@ -75,6 +94,7 @@ catalogs/          Fragenkataloge (CSV), Manifest index.json, Bilder
 dist/              fertiges Spiel (wird mit committet)
 docs/              Plan und Formatbeschreibung
 src/index.html     HTML-Template mit Platzhaltern für CSS/Kataloge/JS
+android/           Android-App (WebView-Hülle, Gradle-Projekt)
 src/js/core/       Spiellogik ohne DOM (in Node testbar)
 src/js/ui/         Darstellung
 src/styles/        CSS

@@ -1,0 +1,18 @@
+// Android-Hülle der Quizshow (WebView). Der Web-Teil wird vorher mit
+// `npm run build:android` nach app/src/main/assets/www/ gebaut.
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = 'quizshow'
+include ':app'

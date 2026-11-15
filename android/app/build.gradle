@@ -1,0 +1,67 @@
+plugins {
+    id 'com.android.application'
+}
+
+// versionName = Version aus package.json, versionCode = fortlaufende Nummer
+// (in GitHub Actions die Run-Nummer, damit sich Debug-APKs drüberinstallieren lassen)
+def pkg = new groovy.json.JsonSlurper().parse(rootProject.file('../package.json'))
+def versionCodeEnv = System.getenv('VERSION_CODE')
+
+android {
+    namespace 'de.quizshow.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'de.quizshow.app'
+        minSdk 24
+        targetSdk 35
+        versionCode(versionCodeEnv ? versionCodeEnv.toInteger() : 1)
+        versionName pkg.version
+    }
+
+    signingConfigs {
+        // fester, eingecheckter Debug-Schlüssel (kein Geheimnis!): alle Debug-APKs
+        // tragen dieselbe Signatur und lassen sich als Update installieren
+        debug {
+            storeFile file('debug.keystore')
+            storePassword 'android'
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+        }
+    }
+
+    buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    lint {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation 'androidx.activity:activity:1.9.3'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'androidx.webkit:webkit:1.12.1'
+}
+
+def webIndex = file('src/main/assets/www/index.html')
+tasks.configureEach { task ->
+    if (task.name == 'preBuild') {
+        task.doFirst {
+            if (!webIndex.exists()) {
+                throw new GradleException('Web-Teil fehlt: zuerst im Repo-Hauptverzeichnis `npm run build:android` ausführen.')
+            }
+        }
+    }
+}

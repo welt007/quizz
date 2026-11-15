@@ -16,6 +16,8 @@ export function setKeyHandler(fn) {
   handler = fn;
 }
 
+export const hasKeyHandler = () => handler != null;
+
 /** A–D or 1–4 → 0–3, otherwise -1. */
 export function answerIndexFromKey(key) {
   const letter = ANSWER_KEYS.indexOf(key.toUpperCase());

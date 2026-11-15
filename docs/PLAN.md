@@ -226,6 +226,11 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 | `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |
 | `quizshow` → `catalogs` | IndexedDB | Fragen je Katalog (Schlüssel `<quelle>/<datei>`), Bilder als `data:`-URI |
 
+In der **Android-App** gehen dieselben Werte über die native Brücke `window.QuizshowNative`
+(`src/js/data/native.js` ↔ `android/…/NativeStore.java`): die localStorage-Schlüssel in die
+SharedPreferences-Datei `quizshow.xml`, die IndexedDB-Daten als Dateien nach `files/catalogs/`.
+So überstehen sie ein Zurücksetzen der WebView-Daten und sind Teil der Android-Datensicherung.
+
 Alle Zugriffe in `try/catch`; im privaten Modus oder bei `file://`-Einschränkungen läuft das
 Spiel ohne Speicherung weiter (In-Memory-Fallback; hinzugefügte Kataloge gelten dann nur bis
 zum Schließen, worauf das Optionsmenü hinweist).
@@ -241,6 +246,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M4** ✅ | **Optionen & Kataloge**: mehrere CSVs je Quelle, zu einem Pool vereint; Kataloge einzeln an/aus; per URL hinzufügen/aktualisieren/entfernen; Standardkatalog-Update; CSV-Import; IndexedDB; Vorschau mit Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** ✅ | Präsentationsmodus (`F`, Vollbild, skaliert), Bild-Zoom (`Z`), Tastenkürzel-Hilfe (`?`), Statistik mit Knackpunkten, A11y-/Responsiv-Feinschliff, Browser-Tests im Repo + CI | Release 1.0 |
 | **M6** ✅ | Inhalte: rund 5000 Fragen aus OpenTriviaQA übersetzt (CC BY-SA 4.0), neue Kategorien (u. a. Tiere & Natur, Kunst & Literatur, Musik, Film, Sport, Sprache), je 50 Fragen „Flaggen“ und „Umrisse“ mit Bildern; danach Bilderfragen zu Obst & Gemüse und Baumblättern sowie die Kategorien Essen & Ernährung, Computer- & Brettspiele und Die 90er | Spielspaß |
+| **M7** ✅ | **Android-App** (`android/`, `de.quizshow.app`): WebView-Hülle in Java, Web-Teil per `npm run build:android` (Bilder als Dateien statt `data:`-URIs), Laden über `WebViewAssetLoader` (https-Origin statt `file://`), native Speicherung (SharedPreferences + Dateien, Auto-Backup), Zurück-Taste → `window.quizshowBack()`, CSV-Import über den Android-Dateiauswahl-Dialog, Vollbild, Display bleibt an, Spieluhr pausiert im Hintergrund; Debug-APK per GitHub Actions (`.github/workflows/android.yml`) | Spielen auf dem Handy |
 
 ## 9. Tests
 
@@ -254,6 +260,9 @@ zum Schließen, worauf das Optionsmenü hinweist).
   Standardkatalog-Update gegen ein simuliertes GitHub. Zeitabhängiges mit Playwrights Uhr.
   Playwright ist **keine** Projektabhängigkeit: lokal `npm i --no-save playwright && npx playwright
   install chromium`, in CI ein eigener Job `e2e`. Ohne Playwright werden die Tests übersprungen.
+- **Android** (`test/e2e/android.e2e.mjs`): baut den Web-Teil der App und prüft ihn unter der
+  WebView-Adresse `https://appassets.androidplatform.net/` mit simulierter nativer Brücke
+  (Speichern/Laden, Bilder als Dateien, Zurück-Taste). Die APK selbst baut der Workflow `Android`.
 
 ## 10. Risiken & Gegenmaßnahmen
 

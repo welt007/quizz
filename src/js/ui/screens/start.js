@@ -72,7 +72,7 @@ export function renderStart(ctx) {
     h(
       'footer',
       { class: 'footer' },
-      `Version ${ctx.version} · ${activeCatalogs} von ${totalCatalogs} Katalogen aktiv · `,
+      `${ctx.platform === 'android' ? 'App-' : ''}Version ${ctx.version} · ${activeCatalogs} von ${totalCatalogs} Katalogen aktiv · `,
       h('button', { class: 'link', onclick: () => ctx.go('options') }, 'Kataloge verwalten'),
       ' · ',
       h('button', { class: 'link', onclick: () => showHelp() }, '⌨️ Tastenkürzel (?)'),

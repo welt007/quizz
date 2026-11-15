@@ -5,7 +5,7 @@ import { recordAnswer } from './core/stats.js';
 import { insertHighscore } from './core/highscores.js';
 import { createLibrary } from './data/library.js';
 import { loadJson, saveJson, KEYS } from './data/storage.js';
-import { setKeyHandler } from './ui/input.js';
+import { setKeyHandler, hasKeyHandler } from './ui/input.js';
 import { audio } from './ui/audio.js';
 import { togglePresentation, isPresentation, onPresentationChange } from './ui/presentation.js';
 import { showHelp } from './ui/components/help.js';
@@ -20,8 +20,11 @@ import { renderHighscores } from './ui/screens/highscores.js';
 import { renderOptions } from './ui/screens/options.js';
 import { renderStatistics } from './ui/screens/statistics.js';
 
-/* global __APP_VERSION__ */
+/* global __APP_VERSION__, __APP_PLATFORM__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
+/** 'web' (HTML file) or 'android' (app, see android/) */
+const PLATFORM = typeof __APP_PLATFORM__ !== 'undefined' ? __APP_PLATFORM__ : 'web';
+document.documentElement.classList.add(`platform-${PLATFORM}`);
 const FALLBACK_COLORS = ['#8e6cff', '#e05c9b', '#25a5b8', '#c9a227', '#6aa84f', '#e07b39'];
 
 function loadEmbeddedCatalogs() {
@@ -46,6 +49,7 @@ const screens = {
 const ctx = {
   app: document.getElementById('app'),
   version: VERSION,
+  platform: PLATFORM,
   library: null,
   /** Merged pool of all enabled catalogs: { questions, categories, activeCatalogs, totalCatalogs } */
   catalog: { questions: [], categories: {}, activeCatalogs: 0, totalCatalogs: 0 },
@@ -55,6 +59,8 @@ const ctx = {
   stats: loadJson(KEYS.stats, {}),
   highscores: loadJson(KEYS.highscores, {}),
   leaveHandlers: [],
+  /** Name of the current screen. */
+  screen: null,
 
   /** Recomputes the pool after catalogs were added, removed, enabled or disabled. */
   refreshCatalog() {
@@ -111,7 +117,8 @@ const ctx = {
     for (const fn of ctx.leaveHandlers.splice(0)) fn();
     setKeyHandler(null);
     window.scrollTo(0, 0);
-    (screens[name] ?? renderStart)(ctx, params);
+    ctx.screen = screens[name] ? name : 'start';
+    screens[ctx.screen](ctx, params);
   },
 
   toast(text) {
@@ -160,6 +167,19 @@ document.addEventListener('keydown', (e) => {
   e.preventDefault();
   action();
 });
+// Android back button (see android/): behaves like Escape – closes an open dialog,
+// asks before ending a game, leaves sub-screens. false = nothing left → close the app.
+window.quizshowBack = () => {
+  const dialog = document.querySelector('dialog[open]');
+  if (dialog) {
+    dialog.close();
+    return true;
+  }
+  if (!ctx.library || ctx.screen === 'start') return false;
+  if (hasKeyHandler()) document.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+  else ctx.go('start');
+  return true;
+};
 renderSoundButton();
 renderPresentButton();
 document.body.append(h('div', { class: 'corner' }, presentButton, soundButton));
