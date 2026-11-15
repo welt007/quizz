@@ -13,25 +13,43 @@ wis-0011,wissenschaft,4,Wie heißt der kleinste Knochen im menschlichen Körper?
 wis-0012,wissenschaft,4,In welcher Einheit wird die elektrische Kapazität angegeben?,Farad,Henry,Tesla,Weber,,Henry ist die Einheit der Induktivität.,physik
 otq-animals-79,wissenschaft,1,Was entsteht durch die Anziehungskraft von Mond und Sonne?,Gezeiten,Walwanderungen,Küstenlinien,Wellen,,,opentriviaqa
 otq-general-2019,wissenschaft,1,Wie nennt man die Angst vor Fremden?,Xenophobie,Dendrophobie,Dystychiphobie,Klaustrophobie,,,opentriviaqa
+otq-general-2239,wissenschaft,1,Auf welche Krankheit macht die rosa Schleife aufmerksam?,Brustkrebs,Hautkrebs,AIDS,Autismus,,,opentriviaqa
+otq-general-2808,wissenschaft,1,Was gelang Christiaan Barnard am 3. Dezember 1967?,Die erste Herztransplantation,Die erste Hirnoperation,Die erste Lungentransplantation,Die erste Nierentransplantation,,,opentriviaqa
+otq-general-558,wissenschaft,1,Welches Phänomen am Polarhimmel entsteht durch Sonnenwind und Erdmagnetfeld?,Polarlicht,Erdbeben,Sonnenfinsternis,Gezeiten,,,opentriviaqa
+otq-general-756,wissenschaft,1,Welche Infektionskrankheit wird durch Mückenstiche übertragen?,Malaria,Cholera,Tuberkulose,Masern,,,opentriviaqa
 otq-general-824,wissenschaft,1,Welche Größe misst man in Newton?,Kraft,Masse,Geschwindigkeit,Energie,,,opentriviaqa
 otq-history-1241,wissenschaft,1,Die Erfindung des Verbrennungsmotors steigerte die Nachfrage nach welchem Rohstoff enorm?,Erdöl,Erdgas,Wasser,Kohle,,,opentriviaqa
+otq-history-230,wissenschaft,1,Welches Unternehmen kaufte 2006 die Videoplattform YouTube?,Google,Amazon,eBay,Yahoo,,,opentriviaqa
 otq-newest-679,wissenschaft,1,Wie lange braucht Sonnenlicht ungefähr bis zur Erde?,Gut 8 Minuten,Knapp 23 Minuten,10 bis 12 Minuten,Etwa 4 Minuten,,,opentriviaqa
 otq-people-1184,wissenschaft,1,Wer erfand das Dynamit?,Alfred Nobel,Isaac Newton,Karl von Reichenbach,Robert Oppenheimer,,,opentriviaqa
 otq-people-2072,wissenschaft,1,In welchem Land wurde Isaac Newton geboren?,England,Österreich,Frankreich,Schottland,,,opentriviaqa
+otq-people-2075,wissenschaft,1,Welche herabfallende Frucht soll Newton zur Gravitationstheorie inspiriert haben?,Ein Apfel,Eine Birne,Ein Pfirsich,Eine Orange,,,opentriviaqa
 otq-science-technology-1012,wissenschaft,1,Wer umkreiste als erster Mensch die Erde?,Juri Gagarin,Alexei Leonow,Neil Armstrong,German Titow,,,opentriviaqa
+otq-science-technology-1108,wissenschaft,1,Was ist die SI-Einheit der Zeit?,Die Sekunde,Das Ohm,Das Grad,Die Minute,,,opentriviaqa
 otq-science-technology-1270,wissenschaft,1,Welchen pH-Wert hat reines Wasser?,7,1,14,0,,,opentriviaqa
+otq-science-technology-1918,wissenschaft,1,Wie heißt der riesige Wirbelsturm auf dem Jupiter?,Großer Roter Fleck,Grüner Gürtel,Rotes Auge,Weißes Auge,,,opentriviaqa
 otq-science-technology-1944,wissenschaft,1,Welche Formel gehört zur Relativitätstheorie?,E = mc²,V = 4/3 πr³,a² + b² = c²,F = m · a,,,opentriviaqa
 otq-science-technology-2029,wissenschaft,1,Welche Verbindung erzeugt den typischen salzigen Geschmack?,Natriumchlorid,Cäsium,Calciumcarbonat,Rubidium,,,opentriviaqa
 otq-science-technology-204,wissenschaft,1,Wie viele Knochen hat ein erwachsener Mensch?,206,207,208,212,,,opentriviaqa
 otq-science-technology-25,wissenschaft,1,Welcher Planet ist vor allem für sein Ringsystem bekannt?,Saturn,Neptun,Mars,Venus,,,opentriviaqa
 otq-science-technology-26,wissenschaft,1,Welcher Planet ist nach dem römischen Gott des Meeres benannt?,Neptun,Merkur,Pluto,Uranus,,,opentriviaqa
+otq-science-technology-28,wissenschaft,1,Welcher Planet hat als einziger große Mengen flüssiges Wasser an der Oberfläche?,Erde,Saturn,Pluto,Mars,,,opentriviaqa
 otq-science-technology-304,wissenschaft,1,Welche Zahlenreihe enthält nur Primzahlen?,"2, 3, 5, 7, 11, 13, 17","1, 4, 11, 13, 15, 17","2, 3, 5, 7, 9, 11, 37","1, 3, 5, 7, 9, 11, 13",,,opentriviaqa
+otq-science-technology-337,wissenschaft,1,Welcher Planet ist nach dem obersten römischen Gott benannt?,Jupiter,Mars,Neptun,Saturn,,,opentriviaqa
 otq-science-technology-369,wissenschaft,1,"Wie nennt man einen Arzt, der auf Knochen, Muskeln und Gelenke spezialisiert ist?",Orthopäde,Osteopath,Allopath,Kinderarzt,,,opentriviaqa
 otq-science-technology-440,wissenschaft,1,Welche Zellen transportieren Sauerstoff durch den Körper?,Rote Blutkörperchen,Fettzellen,Sauerstoffzellen,Weiße Blutkörperchen,,,opentriviaqa
+otq-science-technology-443,wissenschaft,1,Wie heißt die größte Arterie des Menschen?,Aorta,Halsschlagader,Lungenarterie,Hohlvene,,,opentriviaqa
+otq-science-technology-495,wissenschaft,1,Welcher Teil der Zelle enthält die Chromosomen?,Der Zellkern,Das endoplasmatische Retikulum,Das Zytoplasma,Der Golgi-Apparat,,,opentriviaqa
+otq-science-technology-501,wissenschaft,1,"Wie heißt die Kraft, die ein bewegtes Objekt abbremst?",Reibung,Schwerkraft,Magnetkraft,Molekularkraft,,,opentriviaqa
+otq-science-technology-541,wissenschaft,1,In welcher Stadt wurde Albert Einstein geboren?,Ulm,Berlin,Bonn,München,,,opentriviaqa
 otq-science-technology-696,wissenschaft,1,Wie heißt die große Hauptplatine im Computer?,Motherboard,Tochterkarte,Vaterkarte,Sohnplatine,,,opentriviaqa
 otq-science-technology-753,wissenschaft,1,Welches chemische Symbol hat Gold?,Au,Ag,Go,Gd,,,opentriviaqa
+otq-science-technology-758,wissenschaft,1,Welches chemische Symbol hat Kupfer?,Cu,Cp,Co,Ku,,,opentriviaqa
+otq-science-technology-855,wissenschaft,1,Welcher Mönch gilt als Vater der Genetik?,Gregor Mendel,James Watson,Jean-Baptiste Lamarck,Francis Crick,,,opentriviaqa
 otq-science-technology-883,wissenschaft,1,Welches chemische Symbol hat Schwefel?,S,Sf,Su,Sw,,,opentriviaqa
 otq-science-technology-923,wissenschaft,1,Welche Umweltbelastung lässt Seen versauern und schädigt Wälder und Böden?,Saurer Regen,Das Abschmelzen der Pole,Das Ozonloch,Die Erderwärmung,,,opentriviaqa
+otq-science-technology-96,wissenschaft,1,Welches Gesundheitsproblem ist eine häufige Folge von Übergewicht?,Bluthochdruck,Ohnmacht,Schwindel,Niedriger Blutdruck,,,opentriviaqa
+otq-world-48,wissenschaft,1,Wo tritt das „Aurora borealis“ genannte Leuchten auf?,In der Nordpolarregion,In der Südpolarregion,Am Äquator,In der Wüste,,,opentriviaqa
 otq-general-100,wissenschaft,2,"Was entsteht, wenn man eine Säure mit einer Base mischt?",Wasser und ein Salz,Wasser und Kohlendioxid,Sauerstoff und Wasserstoff,Ein Salz und Sauerstoff,,,opentriviaqa
 otq-general-1068,wissenschaft,2,Welches chemische Symbol hat Plutonium?,Pu,P,Pt,Pm,,,opentriviaqa
 otq-general-1267,wissenschaft,2,"Welcher Arzt zeigte, dass Kindbettfieber durch Händewaschen stark verringert werden kann?",Ignaz Semmelweis,Joseph Lister,Louis Pasteur,Robert Koch,,,opentriviaqa
@@ -39,9 +57,11 @@ otq-general-1310,wissenschaft,2,Zu welchem Forschungsgebiet gehört die Suche na
 otq-general-1478,wissenschaft,2,Welche Aufgabe hat der Vergaser im Motor?,Er mischt Luft und Kraftstoff,Er kühlt,Er zündet das Gemisch,Er reinigt,,,opentriviaqa
 otq-general-1740,wissenschaft,2,Wie groß ist der Abstand Erde–Sonne in Astronomischen Einheiten?,1,"0,92",93 Millionen,150,,,opentriviaqa
 otq-general-2052,wissenschaft,2,Wovor fürchtet sich jemand mit Akrophobie?,Vor der Höhe,Vor Schlangen,Vor Bauernhöfen,Vor Schmerzen,,,opentriviaqa
+otq-general-2526,wissenschaft,2,Welche Blutgruppe ist weltweit am häufigsten?,0 positiv,AB positiv,AB negativ,B negativ,,,opentriviaqa
 otq-general-2806,wissenschaft,2,"In welchem Jahr stellte Alessandro Volta die erste Batterie, die Voltasche Säule, vor?",1800,1459,1890,1902,,,opentriviaqa
 otq-general-665,wissenschaft,2,Wovor fürchtet sich jemand mit Entomophobie?,Vor Insekten,Vor Staub,Vor Kühen,Vor Vögeln,,,opentriviaqa
 otq-general-676,wissenschaft,2,Zu welcher Stoffgruppe gehört Zucker chemisch?,Kohlenhydrate,Nukleinsäuren,Proteine,Lipide,,,opentriviaqa
+otq-general-811,wissenschaft,2,Wie lang ist ein Mikrometer?,Ein Millionstel Meter,Eine Million Meter,Ein Millionstel Kilometer,Ein Tausendstel Millimeter mal zehn,,,opentriviaqa
 otq-general-940,wissenschaft,2,Wie viel Grad Celsius beträgt der absolute Nullpunkt (gerundet)?,−273 °C,−32 °C,−135 °C,−356 °C,,,opentriviaqa
 otq-general-944,wissenschaft,2,Wie nennt man die weiche Stelle am Kopf von Säuglingen?,Fontanelle,Himbeere,Sutura,Neurokranium,,,opentriviaqa
 otq-history-1227,wissenschaft,2,"Welcher griechische Philosoph, Lehrer des Aristoteles, gründete die Akademie in Athen?",Platon,Parmenides,Demokrit,Sokrates,,,opentriviaqa
@@ -53,66 +73,100 @@ otq-humanities-881,wissenschaft,2,Welcher englische Philosoph schrieb den „Lev
 otq-humanities-886,wissenschaft,2,Von welchem Philosophen stammt der „kategorische Imperativ“?,Immanuel Kant,John Locke,Jean-Jacques Rousseau,G. E. Moore,,,opentriviaqa
 otq-newest-2544,wissenschaft,2,Was wird bei einer Angiografie untersucht?,Blutgefäße,Nervenzellen,Hormonspiegel,Blutzuckerwerte,,,opentriviaqa
 otq-rated-1190,wissenschaft,2,"Wie nennt man Träume, in denen man sich bewusst wird, dass man träumt?",Klarträume (luzide Träume),Wachträume,Déjà-vus,Tagträume,,,opentriviaqa
+otq-rated-1602,wissenschaft,2,Welches Hormon produziert die Bauchspeicheldrüse?,Insulin,Adrenalin,Testosteron,Melatonin,,,opentriviaqa
+otq-science-technology-1048,wissenschaft,2,Welche Rechenmaschine entwarf Charles Babbage?,Die Differenzmaschine,Den Abakus,Die Pascaline,Die Lochkartenmaschine,,,opentriviaqa
 otq-science-technology-1099,wissenschaft,2,Welcher Teil des Auges entspricht der Blende einer Kamera?,Die Pupille,Die Iris,Die Zapfen,Der Sehnerv,,,opentriviaqa
 otq-science-technology-1111,wissenschaft,2,Wie viele Bit hat ein Terabit?,1.000.000.000.000,1.000,1.000.000,1.000.000.000,,,opentriviaqa
 otq-science-technology-1193,wissenschaft,2,Welches Element macht den Großteil der Sonne aus?,Wasserstoff,Chrom,Magnesium,Sauerstoff,,,opentriviaqa
+otq-science-technology-1195,wissenschaft,2,Durch welchen Prozess erzeugt die Sonne ihre Energie?,Kernfusion,Kernspaltung,Verbrennung,Radioaktiven Zerfall,,,opentriviaqa
 otq-science-technology-121,wissenschaft,2,In welchem Alter beginnen Babys ungefähr zu lachen?,Mit etwa 4 Monaten,Mit etwa 12 Monaten,Mit etwa 7 Monaten,Mit etwa 18 Monaten,,,opentriviaqa
 otq-science-technology-1214,wissenschaft,2,"Wie heißt der höchste bekannte Berg im Sonnensystem, der auf dem Mars liegt?",Olympus Mons,Arsia Mons,Syrtis Major,Tharsis,,,opentriviaqa
 otq-science-technology-1254,wissenschaft,2,Nach welcher biblischen Figur ist der „Adamsapfel“ benannt?,Adam,Jakob,Abraham,Josef,,,opentriviaqa
+otq-science-technology-1289,wissenschaft,2,Mit welchem Fluggerät gelangen Otto Lilienthal ab 1891 die ersten Gleitflüge?,Mit Gleitflugzeugen (Hängegleitern),Mit Heißluftballons,Mit Zeppelinen,Mit Motorflugzeugen,,,opentriviaqa
 otq-science-technology-1316,wissenschaft,2,Welches ist das leichteste Metall?,Lithium,Titan,Kobalt,Bor,,,opentriviaqa
 otq-science-technology-1323,wissenschaft,2,Welches Tier zeigt das Abzeichen der Apollo-11-Mission?,Einen Adler,Einen Falken,Einen Bären,Einen Löwen,,,opentriviaqa
 otq-science-technology-133,wissenschaft,2,Warum bleiben Krater auf dem Mond viel besser erhalten als auf der Erde?,Weil es keine Atmosphäre gibt,Wegen der starken Sonnenstrahlung,Wegen der Rotation,Wegen der Erdanziehung,,,opentriviaqa
 otq-science-technology-1355,wissenschaft,2,Welcher Sternhaufen wird auch „Siebengestirn“ genannt?,Plejaden,Hyaden,Arcturus,Altair,,,opentriviaqa
+otq-science-technology-1400,wissenschaft,2,Aus welchem Protein bestehen Haare hauptsächlich?,Keratin,Fibrin,Kollagen,Chitin,,,opentriviaqa
 otq-science-technology-148,wissenschaft,2,Womit beschäftigt sich die Myologie?,Mit den Muskeln,Mit den Blutzellen,Mit den Knochen,Mit den Haaren,,,opentriviaqa
 otq-science-technology-1556,wissenschaft,2,Wie heißt der größte Mond des Saturn?,Titan,Europa,Ganymed,Kronos,,,opentriviaqa
+otq-science-technology-1561,wissenschaft,2,Woraus besteht die Atmosphäre des Saturn hauptsächlich?,Wasserstoff,Sauerstoff,Methan,Stickstoff,,,opentriviaqa
 otq-science-technology-1727,wissenschaft,2,Mit welchen Insekten beschäftigt sich die Koleopterologie?,Mit Käfern,Mit Stechmücken,Mit Gottesanbeterinnen,Mit Parasiten,,,opentriviaqa
 otq-science-technology-1816,wissenschaft,2,Wofür steht IRC?,Internet Relay Chat,Internet Rough Chat,Internet Reality Chat,Internet Real Chat,,,opentriviaqa
+otq-science-technology-1824,wissenschaft,2,Welches „Fahrzeug“ transportiert im Computer Daten?,Der Bus,Das Schiff,Das Auto,Das Flugzeug,,,opentriviaqa
 otq-science-technology-1830,wissenschaft,2,Welche „farbige“ Körperteil-Bezeichnung ist eine Funktechnik?,Bluetooth,Grüne Zunge,Blondes Haar,Rote Augen,,,opentriviaqa
+otq-science-technology-1836,wissenschaft,2,Welcher Vorgang ist KEINE chemische Reaktion?,Wasser verdampft zu Dampf,Essig und Natron werden gemischt,Holz verbrennt,Ein Nagel rostet,,,opentriviaqa
+otq-science-technology-1847,wissenschaft,2,Wie heißt der Schnittpunkt von x- und y-Achse?,Ursprung,Abszisse,Quadrant,Ordinate,,,opentriviaqa
 otq-science-technology-1875,wissenschaft,2,"Wie nennt man eine Wirtschaftsform, in der der Staat Produktion und Verteilung vollständig lenkt?",Planwirtschaft,Gemeinwirtschaft,Marktwirtschaft,Übergangswirtschaft,,,opentriviaqa
 otq-science-technology-1950,wissenschaft,2,Was beschreibt die Gleichung y = mx + b?,Eine Gerade in der Ebene,Ein Prisma,Einen Kreis in der Ebene,Eine Ellipse in der Ebene,,,opentriviaqa
 otq-science-technology-1963,wissenschaft,2,Welcher Jupitermond ist zugleich der größte Mond des Sonnensystems?,Ganymed,Titan,Io,Europa,,,opentriviaqa
+otq-science-technology-1964,wissenschaft,2,"Wie heißt der größte Mond des Pluto, benannt nach dem Fährmann der Unterwelt?",Charon,Nereid,Proteus,Triton,,,opentriviaqa
 otq-science-technology-2083,wissenschaft,2,Mangel an welchem Vitamin verursacht Rachitis?,Vitamin D,Vitamin B5,Vitamin A,Vitamin E,,,opentriviaqa
+otq-science-technology-228,wissenschaft,2,Welche Farbe hat sauerstoffreiches arterielles Blut?,Hellrot,Lila,Blau,Dunkelrot,,,opentriviaqa
 otq-science-technology-273,wissenschaft,2,Welche erbsengroße Drüse an der Schädelbasis steuert das Hormonsystem?,Hirnanhangsdrüse (Hypophyse),Schilddrüse,Thymus,Zirbeldrüse,,,opentriviaqa
 otq-science-technology-34,wissenschaft,2,Wie nennt man eine Internetadresse wie „https://www.beispiel.de“?,URL,TCP,WAP,USB,,,opentriviaqa
 otq-science-technology-363,wissenschaft,2,Vor wie vielen Jahren entstand die Erde ungefähr?,"Vor 4,6 Milliarden Jahren","Vor 14,6 Milliarden Jahren",Vor 46 Milliarden Jahren,"Vor 4,6 Billionen Jahren",,,opentriviaqa
 otq-science-technology-431,wissenschaft,2,Welche Zellorganellen werden „Kraftwerke der Zelle“ genannt?,Mitochondrien,Vakuolen,Chloroplasten,Ribosomen,,,opentriviaqa
+otq-science-technology-444,wissenschaft,2,Welcher Teil des Nervensystems steuert unwillkürliche Vorgänge wie Herzschlag und Verdauung?,Das vegetative (autonome) Nervensystem,Das zentrale Nervensystem,Das periphere Nervensystem,Das motorische Nervensystem,,,opentriviaqa
+otq-science-technology-544,wissenschaft,2,In welchem Jahr wurde Albert Einstein geboren?,1879,1869,1899,1889,,,opentriviaqa
 otq-science-technology-630,wissenschaft,2,Was enthält hartes Wasser reichlich?,Mineralien wie Kalk,Polare Moleküle,Freie Elektronen,Kochsalz,,,opentriviaqa
+otq-science-technology-68,wissenschaft,2,Wie heißt die Erkrankung Herpes zoster umgangssprachlich?,Gürtelrose,Lippenherpes,Windpocken,Mumps,,,opentriviaqa
+otq-science-technology-685,wissenschaft,2,Welcher rote Überriese ist der zweithellste Stern im Sternbild Orion?,Beteigeuze,Spica,Pollux,Sirius,,,opentriviaqa
 otq-science-technology-708,wissenschaft,2,Was bedeutet der Name Homo erectus?,Aufgerichteter Mensch,Denkender Mensch,Geschickter Mensch,Weiser Mensch,,,opentriviaqa
 otq-science-technology-858,wissenschaft,2,"Welche Unterschiede untersuchte Charles Darwin auf den Galápagos-Inseln, was seine Evolutionstheorie mitprägte?",Die Schnäbel der Finken,Die Krallen der Greifvögel,Die Pfoten der Affen,Die Schwänze der Leguane,,,opentriviaqa
 otq-science-technology-935,wissenschaft,2,Wie heißt die Lehre von den Zellen?,Zytologie,Protozoologie,Histologie,Ökologie,,,opentriviaqa
 otq-science-technology-942,wissenschaft,2,Wer gilt mit seiner „Differenzmaschine“ als Vater des Computers?,Charles Babbage,John Atanasoff,Blaise Pascal,Konrad Zuse,,,opentriviaqa
+otq-science-technology-986,wissenschaft,2,Wer gelten als Begründer der Infinitesimalrechnung?,Newton und Leibniz,Newton und Gauß,Euler und Cauchy,Descartes und Pascal,,,opentriviaqa
 otq-world-2997,wissenschaft,2,Welche ungewöhnliche Eigenschaft hat Eis bzw. Wasser im Vergleich zu den meisten Stoffen?,Es dehnt sich beim Gefrieren aus,Es wird beim Erhitzen schwerer,Es schrumpft beim Gefrieren,Es wird beim Abkühlen schwerer,,,opentriviaqa
 otq-world-589,wissenschaft,2,Welcher britische Physiker und Mathematiker wurde am ersten Weihnachtstag 1642 geboren?,Isaac Newton,John Henry Pratt,Michael Faraday,James Clerk Maxwell,,,opentriviaqa
 otq-animals-300,wissenschaft,3,Was ist „9949 Brontosaurus“?,Ein Asteroid,Ein Planet,Ein Stern,Ein Schwarzes Loch,,,opentriviaqa
 otq-general-1014,wissenschaft,3,Welches gilt als eines der ersten Computerspiele (1958)?,Tennis for Two,Tetris,Myst,Pong,,,opentriviaqa
 otq-general-1032,wissenschaft,3,Wer schrieb das erste Computerprogramm der Geschichte – für Charles Babbages Analytische Maschine?,"Ada Lovelace, Lord Byrons Tochter",John von Neumann,Grace Hopper,Blaise Pascal,,,opentriviaqa
+otq-general-1103,wissenschaft,3,Welcher Blutbestandteil ist für die Gerinnung wichtig und nur wenige Tage lagerfähig?,Blutplättchen,Rote Blutkörperchen,Plasma,Weiße Blutkörperchen,,,opentriviaqa
 otq-general-1139,wissenschaft,3,Wo ist ein Tag länger als ein Jahr?,Auf der Venus,An den Polen,Auf dem Mars,Auf dem Jupiter,,,opentriviaqa
 otq-general-1227,wissenschaft,3,Wie nennt man die krankhafte Angst vor der Dunkelheit?,Nyktophobie,Kynophobie,Klaustrophobie,Zoophobie,,,opentriviaqa
+otq-general-1366,wissenschaft,3,Welcher Webbrowser konnte als einer der ersten Grafik und Text gemeinsam anzeigen?,Mosaic,Netscape,Opera,Gopher,,,opentriviaqa
 otq-general-1403,wissenschaft,3,Wie viel Kochsalz enthält eine physiologische Kochsalzlösung?,"0,9 %",9 %,"4,5 %","1,3 %",,,opentriviaqa
 otq-general-1479,wissenschaft,3,Was bedeutet „Lakrimation“?,Tränenfluss,Psychose,Abhängigkeit,Erweiterung,,,opentriviaqa
 otq-general-1709,wissenschaft,3,Wann erschien die erste Version des Betriebssystems Windows?,1985,1975,1991,1981,,,opentriviaqa
 otq-general-1831,wissenschaft,3,Was ist ein Fluid in der Physik?,Ein Gas oder eine Flüssigkeit,Nur ein Gas,Nur eine Flüssigkeit,Jeder Energieträger,,,opentriviaqa
 otq-general-2017,wissenschaft,3,Wie heißt die Angst vor Pferden?,Hippophobie,Heliophobie,Iatrophobie,Dendrophobie,,,opentriviaqa
 otq-general-2121,wissenschaft,3,Welche Disziplin der Philosophie befasst sich mit dem Sein?,Ontologie,Kausalität,Erkenntnistheorie,Phänomenologie,,,opentriviaqa
+otq-general-2327,wissenschaft,3,Welche britische Automarke begann 1922 als „Swallow Sidecar Company“?,Jaguar,Bentley,Rolls-Royce,Land Rover,,,opentriviaqa
 otq-general-2354,wissenschaft,3,Wie heißt die Angst vor Elektrizität?,Elektrophobie,Eleutherophobie,Emetophobie,Ergophobie,,,opentriviaqa
 otq-general-2459,wissenschaft,3,Wovor hat jemand mit „Hippopotomonstrosesquippedaliophobie“ ironischerweise Angst?,Vor langen Wörtern,Vor Flusspferden,Vor großen Tieren,Vor Dickhäutern,,,opentriviaqa
+otq-general-265,wissenschaft,3,Wofür wird Lithium als Medikament vor allem verschrieben?,Bipolare Störung,Blutarmut,Diabetes,Grüner Star,,,opentriviaqa
+otq-general-426,wissenschaft,3,Wie heißt die Angst vor Katzen?,Ailurophobie,Kynophobie,Pädophobie,Alektorophobie,,,opentriviaqa
+otq-general-635,wissenschaft,3,Welche Krankheit kann durch unsaubere Tätowiernadeln übertragen werden?,Hepatitis B,Tuberkulose,Cholera,Mumps,,,opentriviaqa
 otq-general-668,wissenschaft,3,Wie viele Triebwerke hat ein B-52-Bomber?,8,2,4,6,,,opentriviaqa
+otq-general-675,wissenschaft,3,Welcher dieser Stoffe hat die höchste Dichte?,Iridium,Gold,Blei,Platin,,,opentriviaqa
 otq-general-690,wissenschaft,3,"In welcher Disziplin erhielten Martin Perl, Riccardo Giacconi und Georges Charpak den Nobelpreis?",Physik,Literatur,Chemie,Medizin,,,opentriviaqa
+otq-history-505,wissenschaft,3,Wer war 2001 der erste zahlende Weltraumtourist?,Dennis Tito,Toyohiro Akiyama,Mark Shuttleworth,Richard Branson,,,opentriviaqa
+otq-history-880,wissenschaft,3,"In welchem Jahrzehnt wurden Telefon, Glühbirne und Phonograph erfunden?",1870er,1840er,1820er,1890er,,,opentriviaqa
 otq-hobbies-765,wissenschaft,3,Welches für die Blutgerinnung wichtige Vitamin steckt reichlich in frischen Brennnesseln?,Vitamin K,Vitamin B12,Vitamin A,Vitamin D,,,opentriviaqa
+otq-humanities-210,wissenschaft,3,"Wie nennt man es, wenn man alle unbeantworteten E-Mails löscht und neu anfängt?",E-Mail-Bankrott,E-Plünderung,Digitaler Neustart,Spam-Kapitulation,,,opentriviaqa
+otq-humanities-590,wissenschaft,3,Welche zwei gegensätzlichen Triebe treiben den Menschen laut Sigmund Freud an?,Lebens- und Todestrieb,Liebe und Hass,Gut und Böse,Hunger und Durst,,,opentriviaqa
 otq-humanities-887,wissenschaft,3,Welcher Philosoph erfand (neben Newton) die Infinitesimalrechnung und lehrte die Monaden?,Gottfried Wilhelm Leibniz,Baruch de Spinoza,David Hume,Jean-Jacques Rousseau,,,opentriviaqa
 otq-newest-1453,wissenschaft,3,Welches Symbol ist international das bekannteste Zeichen der Pharmazie?,Die Schale der Hygieia,Die Feigenhand,Das Rutenbündel,Die Doppelaxt,,,opentriviaqa
+otq-newest-481,wissenschaft,3,Wofür wird das Medikament Minoxidil heute bekannt eingesetzt?,Gegen Haarausfall,Gegen Libidoverlust,Gegen Schlaflosigkeit,Gegen Appetitlosigkeit,,,opentriviaqa
 otq-newest-932,wissenschaft,3,"Wie heißt die solarbetriebene Raumsonde, die 2011 zum Jupiter startete?",Juno,Horizon,Zeus,Hera,,,opentriviaqa
 otq-people-1403,wissenschaft,3,Welche Schweizer Familie brachte im 17. und 18. Jahrhundert gleich mehrere große Mathematiker hervor?,Bernoulli,Piccard,Riemann,Euler,,,opentriviaqa
 otq-people-1643,wissenschaft,3,Welche Auszeichnung wird oft als „Nobelpreis der Mathematik“ bezeichnet und nur alle vier Jahre vergeben?,Die Fields-Medaille,Der Wolf-Preis für Mathematik,Der Webby Award,Der Abelpreis,,,opentriviaqa
+otq-people-85,wissenschaft,3,Mit welchem Gas lässt man Bananen nachreifen?,Ethylen,Methan,Helium,Stickstoff,,,opentriviaqa
 otq-rated-1333,wissenschaft,3,Wovor hat jemand mit Aviophobie Angst?,Vor dem Fliegen,Vor Bienen,Vor Adlern,Vor Vögeln,,,opentriviaqa
+otq-rated-1639,wissenschaft,3,Wogegen wirken die Flavonoide im Tee als Antioxidantien?,Gegen freie Radikale,Gegen Cellulite,Gegen Teer in der Lunge,Gegen Cholesterin,,,opentriviaqa
 otq-science-technology-1008,wissenschaft,3,Welche erbliche Blutgerinnungsstörung tritt fast nur bei Männern auf?,Hämophilie (Bluterkrankheit),Anämie,Sichelzellenkrankheit,Thalassämie,,,opentriviaqa
+otq-science-technology-1059,wissenschaft,3,Wie nennt man den Schwund eines Muskels?,Atrophie,Dystrophie,Hypertrophie,Hyperplasie,,,opentriviaqa
 otq-science-technology-1119,wissenschaft,3,Welchen pH-Wert hat eine Salzsäurelösung ungefähr?,1 bis 2,4,14,7,,,opentriviaqa
 otq-science-technology-1125,wissenschaft,3,Wie lässt sich Seife chemisch beschreiben?,Als Base mit bitterem Geschmack,Als Säure mit saurem Geschmack,Als Säure mit bitterem Geschmack,Als Base mit saurem Geschmack,,,opentriviaqa
 otq-science-technology-1139,wissenschaft,3,Wie nennt man Zellen mit Zellkern?,Eukaryotisch,Mitochondrial,Golgi-Zellen,Prokaryotisch,,,opentriviaqa
 otq-science-technology-117,wissenschaft,3,Welcher britische Naturforscher veröffentlichte 1872 eine grundlegende Studie über den Ausdruck von Gemütsbewegungen?,Charles Darwin,Leonardo da Vinci,Alfred Brehm,Thomas Huxley,,,opentriviaqa
+otq-science-technology-118,wissenschaft,3,Was bezeichnet der Begriff Prosopagnosie?,"Die Unfähigkeit, Gesichter zu erkennen","Die Unfähigkeit, Gefühle auszudrücken",Die Fehldeutung von Mimik,Völlige Gleichgültigkeit gegenüber anderen,,,opentriviaqa
 otq-science-technology-1239,wissenschaft,3,An welchem Tag ist der Weltnichtrauchertag?,31. Mai,31. März,1. April,1. Januar,,,opentriviaqa
 otq-science-technology-1255,wissenschaft,3,In welchem Körperteil liegt das Corti-Organ?,Im Innenohr,Im Vorderhirn,In der Milchdrüse,Im Auge,,,opentriviaqa
 otq-science-technology-1294,wissenschaft,3,Wie hieß die erste Raumstation der Welt?,Saljut 1,Mir,Sojus,Skylab,,,opentriviaqa
+otq-science-technology-1307,wissenschaft,3,Welches Gas ist nach Stickstoff und Sauerstoff das dritthäufigste in der Luft?,Argon,Helium,Kohlendioxid,Wasserstoff,,,opentriviaqa
+otq-science-technology-1309,wissenschaft,3,Welche dieser Längen ist die größte?,1 Parsec,1 Lichtjahr,1 Astronomische Einheit,1 Lichtminute,,,opentriviaqa
 otq-science-technology-1339,wissenschaft,3,Welches Organ wird bei einer Nephrektomie entfernt?,Die Niere,Die Schilddrüse,Die Bauchspeicheldrüse,Die Milz,,,opentriviaqa
 otq-science-technology-1348,wissenschaft,3,Wie viele Stufen hat die internationale Bewertungsskala für nukleare Ereignisse (INES) oberhalb von null?,7,6,3,10,,,opentriviaqa
 otq-science-technology-1356,wissenschaft,3,Wie heißen die beiden hellsten Sterne im Sternbild Zwillinge?,Kastor und Pollux,Spica und Arktur,Wega und Atair,Merak und Dubhe,,,opentriviaqa
@@ -122,34 +176,59 @@ otq-science-technology-1489,wissenschaft,3,Welche Raumsonde erforschte als erste
 otq-science-technology-1490,wissenschaft,3,Wie lange braucht der Merkur für einen Umlauf um die Sonne?,88 Tage,2 Jahre,44 Tage,365 Tage,,,opentriviaqa
 otq-science-technology-1506,wissenschaft,3,Bei welchem Körpervorgang spielen die Vitamine des B-Komplexes die wichtigste Rolle?,Zellstoffwechsel,Ausscheidung,Zellteilung,Wundheilung,,,opentriviaqa
 otq-science-technology-1507,wissenschaft,3,Wozu gehören die B-Vitamine?,Zu den wasserlöslichen Vitaminen,Zu den fettlöslichen Vitaminen,Zu den alkohollöslichen Vitaminen,Zu den unlöslichen Vitaminen,,,opentriviaqa
+otq-science-technology-1559,wissenschaft,3,Welche Raumsonde schwenkte 2004 in die Saturnumlaufbahn ein?,Cassini,Pioneer 11,Voyager 2,Galileo,,,opentriviaqa
 otq-science-technology-1567,wissenschaft,3,Welche Raumsonde besuchte als erste den Neptun?,Voyager 2,Voyager 1,Pioneer 10,Pioneer 11,,,opentriviaqa
 otq-science-technology-1573,wissenschaft,3,Welcher Anteil der Masse eines Atoms steckt im Kern?,"Über 99,9 %",90 %,70 %,"0,01 %",,,opentriviaqa
+otq-science-technology-1634,wissenschaft,3,Welcher Bestandteil des Atoms ist KEIN Elementarteilchen?,Proton,Quark,Elektron,Gluon,,,opentriviaqa
 otq-science-technology-1637,wissenschaft,3,Welche Kraft hält Protonen und Neutronen im Atomkern zusammen?,Die starke Wechselwirkung,Die elektromagnetische Kraft,Die Gravitation,Die schwache Wechselwirkung,,,opentriviaqa
 otq-science-technology-1671,wissenschaft,3,Was studierte Charles Darwin zunächst an der Universität Edinburgh?,Medizin,Geographie,Theologie,Meeresbiologie,,,opentriviaqa
+otq-science-technology-1672,wissenschaft,3,Welches Hobby pflegte Charles Darwin leidenschaftlich?,Käfer sammeln,Kräuter sammeln,Malen,Briefmarken sammeln,,,opentriviaqa
+otq-science-technology-169,wissenschaft,3,Womit beschäftigt sich die Parodontologie?,Mit dem Zahnhalteapparat,Mit den Augen,Mit Fingern und Zehen,Mit den Ohren,,,opentriviaqa
 otq-science-technology-1702,wissenschaft,3,Wie groß ist die Masse des Mars im Vergleich zur Erde ungefähr?,Etwa ein Zehntel,Etwa ein Sechstel,Etwa die Hälfte,Etwa gleich groß,,,opentriviaqa
 otq-science-technology-1714,wissenschaft,3,Wofür ist das Hormon Oxytocin unter anderem verantwortlich?,Für die Wehen der Gebärmutter,Für das Wachstum der Gebärmutter,Für die Entwicklung der Eierstöcke,Für den Eisprung,,,opentriviaqa
+otq-science-technology-1803,wissenschaft,3,Wie heißen die Knochen der Finger und Zehen?,Phalangen (Fingerglieder),Tarsalknochen,Karpalknochen,Wirbel,,,opentriviaqa
+otq-science-technology-1806,wissenschaft,3,Wie heißen Milchzähne in der Fachsprache?,Dentes decidui,Dentes infantiles,Dentes primi,Dentes ossei,,,opentriviaqa
 otq-science-technology-1810,wissenschaft,3,"Wofür steht SMTP, das Protokoll zum Versenden von E-Mails?",Simple Mail Transfer Protocol,Snail Mail Transfer Protocol,Super Mail Transfer Procedure,Secure Mail Transport Protocol,,,opentriviaqa
 otq-science-technology-182,wissenschaft,3,Welches Organ gehört zum Integumentsystem des Menschen?,Die Haut,Die Mandeln,Die Leber,Der Rachen,,,opentriviaqa
 otq-science-technology-1857,wissenschaft,3,Welches Mineral ist neben Calcium ein Hauptbaustein von Knochen und Zähnen und steckt in allen Zellmembranen?,Phosphor,Eisen,Kalium,Fluorid,,,opentriviaqa
+otq-science-technology-1922,wissenschaft,3,Welcher Komet stürzte 1994 auf den Jupiter?,Shoemaker-Levy 9,Hale-Bopp,Halley,Tempel 1,,,opentriviaqa
+otq-science-technology-1943,wissenschaft,3,Welche Gleichung nennt man „Eulersche Identität“?,e^(iπ) + 1 = 0,a² + b² = c²,E = mc²,F = m·a,,,opentriviaqa
+otq-science-technology-2058,wissenschaft,3,Welches Organ baut alte rote Blutkörperchen ab?,Die Milz,Die Nieren,Die Lunge,Die Schilddrüse,,,opentriviaqa
 otq-science-technology-2063,wissenschaft,3,"Wie hieß die gemeinsame Raumsonde von NASA und ESA, die 1997 zum Saturn startete?",Cassini-Huygens,Voyager 3,Titan IV,Ulysses,,,opentriviaqa
 otq-science-technology-2076,wissenschaft,3,Für die Bildung welches Eiweißes braucht der Körper Vitamin C?,Kollagen,Zytokin,Fibrin,Opsin,,,opentriviaqa
 otq-science-technology-333,wissenschaft,3,Welche Raumfahrtbehörde ist NICHT am Projekt der Internationalen Raumstation beteiligt?,Chinas CNSA,Russlands Roskosmos,Kanadas CSA,Japans JAXA,,,opentriviaqa
+otq-science-technology-404,wissenschaft,3,Wie heißen die Handwurzelknochen?,Karpalknochen,Tarsalknochen,Phalangen,Mittelfußknochen,,,opentriviaqa
 otq-science-technology-418,wissenschaft,3,Welcher Begriff Freuds beschreibt die Rivalität des Kindes mit dem gleichgeschlechtlichen Elternteil?,Ödipuskomplex,Messiaskomplex,Minderwertigkeitskomplex,Kastrationskomplex,,,opentriviaqa
+otq-science-technology-424,wissenschaft,3,Was entsteht bei der Transkription aus der DNA-Vorlage?,RNA,Fettsäuren,Proteine,Eine Doppelhelix,,,opentriviaqa
 otq-science-technology-425,wissenschaft,3,Wie viele DNA-Basen codieren eine Aminosäure?,3,10,25,1,,,opentriviaqa
+otq-science-technology-426,wissenschaft,3,Welche Enzyme schneiden DNA an bestimmten Stellen und machten die Gentechnik möglich?,Restriktionsenzyme,Polymerasen,Ligasen,Lipasen,,,opentriviaqa
+otq-science-technology-451,wissenschaft,3,Welcher Zuckerersatz hemmt Karies verursachende Bakterien?,Xylit,Aspartam,Saccharin,Dentin,,,opentriviaqa
+otq-science-technology-53,wissenschaft,3,Welcher Fachbegriff bezeichnet Schluckbeschwerden?,Dysphagie,Dyspepsie,Dysurie,Dyspnoe,,,opentriviaqa
 otq-science-technology-573,wissenschaft,3,Wie viel Prozent der Menschen in Europa sind ungefähr Rhesus-positiv?,85 %,33 %,50 %,65 %,,,opentriviaqa
 otq-science-technology-660,wissenschaft,3,Welches chemische Symbol hat Vanadium?,V,Va,Vn,Vd,,,opentriviaqa
+otq-science-technology-67,wissenschaft,3,Wie heißt die krankhafte Ansammlung von Hirnwasser in den Hirnkammern?,Hydrozephalus (Wasserkopf),Spina bifida,Multiple Sklerose,Epilepsie,,,opentriviaqa
 otq-science-technology-683,wissenschaft,3,"Wie heißt die äußerste, sehr dünne Schicht der Sonnenatmosphäre?",Korona,Chromosphäre,Photosphäre,Sonnenwind,,,opentriviaqa
 otq-science-technology-799,wissenschaft,3,Wie heißt die scheinbare Bahn der Sonne am Himmel im Laufe eines Jahres?,Ekliptik,Revolution,Tierkreis,Korona,,,opentriviaqa
+otq-science-technology-956,wissenschaft,3,Wer entwickelte die Skala für die Stärke von Tornados?,Tetsuya Theodore Fujita,Charles Richter,Francis Beaufort,Giuseppe Mercalli,,,opentriviaqa
 otq-science-technology-967,wissenschaft,3,Welches Edelgas hat die Ordnungszahl 54?,Xenon,Radon,Krypton,Argon,,,opentriviaqa
 otq-science-technology-98,wissenschaft,3,Wie viele Menschen weltweit sind laut WHO übergewichtig?,Mehr als eine Milliarde,Mehr als drei Millionen,Mehr als eine Million,Mehr als 50 Millionen,,,opentriviaqa
+otq-sports-1,wissenschaft,3,Welche philosophische Disziplin definierte Aristoteles als „Wissenschaft vom immateriellen Sein“?,Metaphysik,Psychologie,Logik,Ethik,,,opentriviaqa
+otq-world-116,wissenschaft,3,Aus welchem Land stammt die traditionelle Heilkunde Ayurveda?,Indien,Israel,Pakistan,China,,,opentriviaqa
 otq-world-1436,wissenschaft,3,"Welche Familie hatte als erste zwei Nobelpreisträger im selben Jahr (1915, Vater und Sohn)?",Die Braggs,Die Curies,Die Einsteins,Die Bohrs,,,opentriviaqa
 otq-world-1592,wissenschaft,3,"Welcher der größten Menschen der Geschichte starb 1940 mit 2,72 m Körpergröße?",Robert Wadlow,Zeng Jinlian,Sultan Kösen,Eddie Carmel,,,opentriviaqa
 otq-world-2577,wissenschaft,3,Welches riesige Radioteleskop wurde 1963 in Puerto Rico gebaut?,Arecibo-Observatorium,James-Clerk-Maxwell-Teleskop,Allen Telescope Array,ALMA,,,opentriviaqa
 otq-world-3049,wissenschaft,3,"Edward Bernays, ein Pionier der Öffentlichkeitsarbeit, war der Neffe welches Psychoanalytikers?",Sigmund Freud,Donald Winnicott,Melanie Klein,Carl Gustav Jung,,,opentriviaqa
+otq-world-938,wissenschaft,3,Welche italienische Automarke hieß ursprünglich „Anonima Lombarda Fabbrica Automobili“?,Alfa Romeo,Maserati,Lancia,Ferrari,,,opentriviaqa
 otq-general-1016,wissenschaft,4,Was ist eine Poliosis?,Ein Ergrauen von Haaren,Ein Ausfallen der Zähne,Ein Schrumpfen der Knorpel,Eine altersbedingte Verlangsamung,,,opentriviaqa
+otq-general-1234,wissenschaft,4,In welchem Organ liegt die nach einem britischen Chirurgen benannte Bowman-Kapsel?,In der Niere,In der Lunge,In der Bauchspeicheldrüse,Im Gehirn,,,opentriviaqa
+otq-general-1533,wissenschaft,4,Was meint der Begriff „Vierte Welt“?,"Die ärmsten, ausgegrenzten Gesellschaften",Außerirdische Gesellschaften,Unentdeckte Völker,Die Weltgesellschaft,,,opentriviaqa
+otq-general-1584,wissenschaft,4,Wie heißt die Entzündung der Haarwurzeln mit kleinen eitrigen Pickeln?,Follikulitis,Impetigo,Zellulitis,Furunkel,,,opentriviaqa
+otq-general-1605,wissenschaft,4,In welcher Schwangerschaftswoche sind die Fingerabdrücke eines Fötus weitgehend ausgebildet?,Um die 18. Woche,Um die 8. Woche,Um die 30. Woche,Um die 36. Woche,,,opentriviaqa
 otq-general-1620,wissenschaft,4,Was wird Levi Spear Parmly zugeschrieben?,Die Zahnseide,Das Strahltriebwerk,Die Blu-ray-Disc,Die QWERTY-Tastatur,,,opentriviaqa
+otq-general-1676,wissenschaft,4,Wie heißt der waagrechte Träger über einer Fenster- oder Türöffnung?,Sturz,Pfette,Estrich,Sparren,,,opentriviaqa
 otq-general-1795,wissenschaft,4,Wie heißt ein anderer Fachbegriff für die Angst vor Dunkelheit?,Achluophobie,Akustikophobie,Algophobie,Agoraphobie,,,opentriviaqa
 otq-general-1826,wissenschaft,4,In welchem Erdzeitalter leben wir laut Geologen?,Känozoikum,Mesozoikum,Paläozoikum,Präkambrium,,,opentriviaqa
+otq-general-2032,wissenschaft,4,Wer erfand 1901 in Chicago den ersten löslichen Kaffee?,Satori Kato,Henri Nestlé,Eduard Helfenmeier,Levi Hutchins,,,opentriviaqa
 otq-general-2051,wissenschaft,4,Wovor fürchtet sich jemand mit Amathophobie?,Vor Staub,Vor Zahlen,Vor Räumen,Vor Kerzen,,,opentriviaqa
 otq-general-2202,wissenschaft,4,"Welches Kampfflugzeug erreichte als erstes Mach 3,2?",MiG-25 „Foxbat“,F-15 Eagle,F-16 Falcon,F-22 Raptor,,,opentriviaqa
 otq-general-2268,wissenschaft,4,Wie heißt die Angst vor Wirbelstürmen?,Lilapsophobie,Chirophobie,Pagophobie,Stenophobie,,,opentriviaqa
@@ -164,10 +243,12 @@ otq-general-2415,wissenschaft,4,Welche japanische Automarke wurde 1909 als Webst
 otq-general-2421,wissenschaft,4,"Welche japanische Automarke baute schon 1917 ein Auto, wurde als eigene Firma aber erst 1970 gegründet?",Mitsubishi,Mazda,Nissan,Suzuki,,,opentriviaqa
 otq-general-2438,wissenschaft,4,Zur Behandlung welcher Krankheit wird das Isotop Gold-198 eingesetzt?,Krebs,Tollwut,Alzheimer,AIDS,,,opentriviaqa
 otq-general-2686,wissenschaft,4,Wer war der erste promovierte Naturwissenschaftler auf dem Mond?,Harrison Schmitt,John Young,David Scott,Alan Shepard,,,opentriviaqa
+otq-general-583,wissenschaft,4,In welchem Jahr überquerte das erste bemannte Luftkissenboot SR-N1 den Ärmelkanal?,1959,1934,1969,1978,,,opentriviaqa
 otq-general-657,wissenschaft,4,Welcher Ingenieur gründete 1847 die britische Institution of Mechanical Engineers?,George Stephenson,Robert Stephenson,Igor Sikorski,Joseph Strauss,,,opentriviaqa
 otq-general-682,wissenschaft,4,Wofür wird Zucker NICHT verwendet?,Um den Gefrierpunkt von Eis zu erhöhen,Zum Gerben von Leder,Zum Härten von Asphalt,Zur Penicillinherstellung,,,opentriviaqa
 otq-general-888,wissenschaft,4,"Welche Phobie lässt Menschen das Haus kaum verlassen, weil sie das Sonnenlicht fürchten?",Heliophobie,Phagophobie,Nekrophobie,Erythrophobie,,,opentriviaqa
 otq-general-912,wissenschaft,4,In welchem Jahr rollte die erste Boeing 747 aus der Fertigungshalle?,1968,1972,1970,1974,,,opentriviaqa
+otq-general-924,wissenschaft,4,In welchem Jahr veröffentlichten Freud und Breuer die „Studien über Hysterie“ mit dem Fall Anna O.?,1895,1848,1901,1912,,,opentriviaqa
 otq-history-1014,wissenschaft,4,Wer erfand 1898 eine der ersten Taschenlampen?,David Misell,John Evinrude,Peter Hewitt,Nikola Tesla,,,opentriviaqa
 otq-history-1016,wissenschaft,4,Was entwickelten Ivan Getting und Bradford Parkinson?,GPS,Das Transistorradio,Das Automatikgetriebe,UKW-Radio,,,opentriviaqa
 otq-history-1020,wissenschaft,4,Was erfand Charles Strite?,Den Pop-up-Toaster,Die Küchenmaschine,Den Elektroherd,Die Toilettenspülung,,,opentriviaqa
@@ -180,39 +261,56 @@ otq-history-369,wissenschaft,4,Welches Werkzeug ließ sich Peter Robertson 1909 
 otq-history-898,wissenschaft,4,Was erfand Hiram Percy Maxim?,Den Schalldämpfer,Die automatische Pistole,Das Scharfschützengewehr,Das Sturmgewehr,,,opentriviaqa
 otq-hobbies-346,wissenschaft,4,Was bedeutet „Cenosillicaphobie“?,Angst vor einem leeren Glas,Angst vor einem fallenden Glas,Angst vor Scherben,Angst vor Durst,,,opentriviaqa
 otq-hobbies-447,wissenschaft,4,Welcher Stoff im Absinth soll ähnlich wie Cannabis auf das Gehirn wirken?,Thujon,Phenylethylamin,Koffein,Codein,,,opentriviaqa
+otq-hobbies-659,wissenschaft,4,Welches dieser Vitamine ist fettlöslich?,Vitamin K,Vitamin B5,Vitamin B12,Vitamin C,,,opentriviaqa
 otq-humanities-193,wissenschaft,4,Welche ausgestorbene Menschenart heißt übersetzt „arbeitender Mensch“?,Homo ergaster,Homo antecessor,Homo habilis,Homo cepranensis,,,opentriviaqa
 otq-humanities-21,wissenschaft,4,Was ist Enterokinase?,Ein Enzym,Eine Krankheit,Ein Medikament,Ein Hormon,,,opentriviaqa
 otq-humanities-345,wissenschaft,4,Wie heißt eine (übermäßige) Liebe zu Katzen?,Ailurophilie,Phallainophilie,Kynophilie,Apiophilie,,,opentriviaqa
 otq-humanities-349,wissenschaft,4,Was bezeichnet „Cenophilie“?,Eine Vorliebe für leere Räume,Eine Vorliebe für Schmutz,Eine Vorliebe für Pelze,Eine Vorliebe für die Schule,,,opentriviaqa
+otq-humanities-616,wissenschaft,4,In welchem Jahr wurde der Begriff „Fotografie“ erstmals verwendet?,1839,1876,1729,1903,,,opentriviaqa
+otq-humanities-621,wissenschaft,4,In welchem Jahr entstand die erste dauerhafte Farbfotografie (James Clerk Maxwell)?,1861,1901,1925,1959,,,opentriviaqa
 otq-newest-2115,wissenschaft,4,Wie nennt man die Angst vor Fett in der Nahrung?,Lipophobie,Fettophobie,Glykophobie,Lipidophobie,,,opentriviaqa
+otq-people-1625,wissenschaft,4,Welcher Rumäne erhielt 1827 in Frankreich ein Patent auf einen Füllfederhalter?,Petrache Poenaru,Henri Coandă,Aurel Vlaicu,Traian Vuia,,,opentriviaqa
 otq-people-2095,wissenschaft,4,Welcher schwedische Erfinder entwickelte den Rollgabelschlüssel und die Rohrzange?,Johan Petter Johansson,Frans Wilhelm Lindqvist,Carl Munters,Jonas Lidströmer,,,opentriviaqa
 otq-rated-1073,wissenschaft,4,Eine Syzygie ist die gerade Aufstellung von drei …,Himmelskörpern,Vulkanen,Hauptstädten,Schwarzen Löchern,,,opentriviaqa
 otq-religion-faith-424,wissenschaft,4,In welche drei Domänen teilt die Biologie die zellulären Lebewesen ein?,"Archaeen, Bakterien und Eukaryoten","Endoderm, Mesoderm und Ektoderm","Pflanzen, Tiere und Pilze","Viren, Bakterien und Pilze",,,opentriviaqa
+otq-science-technology-1007,wissenschaft,4,In welchem Jahr gelang mit Fröschen das erste Klonen eines Tieres durch Zellkerntransfer?,1952,1907,1973,1996,,,opentriviaqa
 otq-science-technology-1013,wissenschaft,4,Welcher russische Kosmonaut stellte 2005 den Rekord für die längste Gesamtzeit im All auf?,Sergei Krikaljow,Anatoli Solowjow,Waleri Poljakow,Sergei Awdejew,,,opentriviaqa
 otq-science-technology-1021,wissenschaft,4,"Wie hieß der erste Affe, der ins All flog?",Albert I.,Gordo,Sam,Bonny,,,opentriviaqa
 otq-science-technology-1049,wissenschaft,4,Welche Rechenhilfe wurde 1617 erfunden?,Die Napierschen Rechenstäbchen,Der Abakus,Der Jacquard-Webstuhl,Die Analytische Maschine,,,opentriviaqa
+otq-science-technology-1105,wissenschaft,4,Wer schlug als Erster ein dezimales Maßsystem vor?,Simon Stevin,Gabriel Mouton,Napoleon,Ludwig XIV.,,,opentriviaqa
 otq-science-technology-1133,wissenschaft,4,"Was muss man im Flugzeug tun, um in den Sinkflug zu gehen?",Das Höhenruder nach unten stellen,Das Höhenruder nach oben stellen,Beide Querruder senken,Beide Querruder heben,,,opentriviaqa
 otq-science-technology-1178,wissenschaft,4,Welche Erbkrankheit bietet zugleich einen gewissen Schutz vor Malaria?,Sichelzellenanämie,Asthma,Laktoseintoleranz,Tay-Sachs-Syndrom,,,opentriviaqa
 otq-science-technology-1185,wissenschaft,4,In welchem Wellenlängenbereich beobachtet das Weltraumteleskop Hubble NICHT?,Radiowellen,Sichtbares Licht,Ultraviolett,Nahes Infrarot,,,opentriviaqa
+otq-science-technology-1213,wissenschaft,4,Welche Raumsonde lieferte 1965 die ersten Nahaufnahmen vom Mars?,Mariner 4,Viking 1,Mars 2,Viking 2,,,opentriviaqa
 otq-science-technology-1215,wissenschaft,4,Wie lang ist das Valles Marineris auf dem Mars ungefähr?,Etwa 4.000 km,Etwa 750 km,Etwa 500 km,Etwa 10.000 km,,,opentriviaqa
 otq-science-technology-1258,wissenschaft,4,Welche Art von Drüsen sind die Montgomery-Drüsen?,Talgdrüsen,Tränendrüsen,Schweißdrüsen,Speicheldrüsen,,,opentriviaqa
 otq-science-technology-1264,wissenschaft,4,Welchen Winkel bilden die beiden Wasserstoffatome im Wassermolekül?,"Etwa 104,5°",180°,"Etwa 114,5°",90°,,,opentriviaqa
+otq-science-technology-1274,wissenschaft,4,"Wie heißt das Phänomen, dass heißes Wasser manchmal schneller gefriert als kaltes?",Mpemba-Effekt,Leidenfrost-Effekt,Fourier-Effekt,Torricelli-Effekt,,,opentriviaqa
 otq-science-technology-1296,wissenschaft,4,In welchem Jahr wurde erstmals eine Mahlzeit an Bord eines Flugzeugs serviert?,1919,1969,1949,1959,,,opentriviaqa
+otq-science-technology-1335,wissenschaft,4,Welches Organ wird bei einer Sigmoidoskopie untersucht?,Der Dickdarm,Die Gallenblase,Das Gehirn,Die Gebärmutter,,,opentriviaqa
 otq-science-technology-135,wissenschaft,4,Welche Form hat der Mond streng genommen?,Leicht eiförmig,Wie eine Kiwi,Birnenförmig,Wie eine Zitrone,,,opentriviaqa
 otq-science-technology-1364,wissenschaft,4,Woraus besteht die Oberfläche des Zwergplaneten Pluto hauptsächlich?,Aus Stickstoffeis,Aus Sauerstoff,Aus Kohlenstoff,Aus Ozon,,,opentriviaqa
+otq-science-technology-1460,wissenschaft,4,Wie heißt der medizinische Fachbegriff für Tränenfluss?,Lakrimation,Laktation,Salivation,Blepharitis,,,opentriviaqa
 otq-science-technology-1474,wissenschaft,4,Wer erfand den Namen „iPod“?,Vinnie Chieco,Jonathan Ive,Tony Fadell,Steve Jobs,,,opentriviaqa
+otq-science-technology-1492,wissenschaft,4,Welches Element macht mehr als die Hälfte der Masse des Merkur aus?,Eisen,Blei,Nickel,Kohlenstoff,,,opentriviaqa
 otq-science-technology-1532,wissenschaft,4,Wie viele Erdmassen hat die Sonne ungefähr?,Etwa 330.000,Etwa 3.300,Etwa 33.000,"Etwa 3,3 Millionen",,,opentriviaqa
 otq-science-technology-1596,wissenschaft,4,In welchem Organ liegen die Billroth-Stränge?,In der Milz,Im Zwerchfell,Im Herzen,Im Kehlkopf,,,opentriviaqa
 otq-science-technology-1608,wissenschaft,4,Wozu ist die Energie eines Photons laut Einstein proportional?,Zu seiner Frequenz,Zu seiner Masse,Zu seiner Geschwindigkeit,Zu seinem Volumen,,,opentriviaqa
+otq-science-technology-1620,wissenschaft,4,Wie viele Kohlenstoffatome passen ungefähr nebeneinander auf die Breite eines Haares?,Etwa eine halbe Million,Etwa tausend,Etwa eine Milliarde,Etwa hundert,,,opentriviaqa
 otq-science-technology-1642,wissenschaft,4,Welche Form haben große Tornados mit nur einem Wirbel meist?,Keilform,Trichterform,Ofenrohrform,Seilform,,,opentriviaqa
 otq-science-technology-1658,wissenschaft,4,Welcher ist der größte Mond des Uranus?,Titania,Miranda,Ariel,Oberon,,,opentriviaqa
+otq-science-technology-1684,wissenschaft,4,Welchem Gewürz werden stimmungsaufhellende Eigenschaften nachgesagt?,Safran,Schwarzer Pfeffer,Chili,Muskat,,,opentriviaqa
 otq-science-technology-171,wissenschaft,4,Welche Persönlichkeitsstörung geht oft mit selbstschädigendem Verhalten und starken Gefühlsschwankungen einher?,Borderline-Störung,Zwangsstörung,Panikstörung,Generalisierte Angststörung,,,opentriviaqa
 otq-science-technology-172,wissenschaft,4,Welche Störung äußert sich etwa durch exzentrisches Verhalten und seltsame Kleidung?,Schizotypische Persönlichkeitsstörung,Antisoziale Persönlichkeitsstörung,Narzisstische Persönlichkeitsstörung,Histrionische Persönlichkeitsstörung,,,opentriviaqa
 otq-science-technology-1741,wissenschaft,4,In welcher Drüse kommen Hürthle-Zellen vor?,Schilddrüse,Thymus,Nebenniere,Hirnanhangsdrüse,,,opentriviaqa
 otq-science-technology-1742,wissenschaft,4,In welchem Organ liegen die Kohn-Poren?,In der Lunge,In der Haut,In der Zunge,Im Darm,,,opentriviaqa
+otq-science-technology-1757,wissenschaft,4,Was ist „Shen“ in der traditionellen chinesischen Medizin?,Der Geist bzw. die Seele,Der Atem,Die Körpersäfte,Das Blut,,,opentriviaqa
+otq-science-technology-176,wissenschaft,4,Welche dieser Störungen wird NICHT zu den Neurosen gerechnet?,Schizoide Persönlichkeitsstörung,Zwangsstörung,Panikstörung,Agoraphobie,,,opentriviaqa
 otq-science-technology-1765,wissenschaft,4,"Welches Tier soll laut traditioneller chinesischer Medizin gegen Asthma, Impotenz und Herzleiden helfen?",Das Seepferdchen,Die Schlange,Der Hai,Der Frosch,,,opentriviaqa
 otq-science-technology-1766,wissenschaft,4,In welchem Land entstand die rekonstruktive plastische Chirurgie (z. B. Nasenrekonstruktion)?,Indien,Römisches Reich,Antikes Griechenland,Ägypten,,,opentriviaqa
+otq-science-technology-1782,wissenschaft,4,Wie endet das Aristoteles zugeschriebene Zitat „Es gab nie ein Genie ohne einen Schuss …“?,Wahnsinn,Kummer,Skepsis,Torheit,,,opentriviaqa
 otq-science-technology-1795,wissenschaft,4,"Wie heißt das Knirschen, wenn raue Gelenkflächen aneinanderreiben?",Krepitation,Ballenzeh,Exostose,Osteoporose,,,opentriviaqa
+otq-science-technology-184,wissenschaft,4,"Welche Aufgabe gehört NICHT zum Blutkreislauf, sondern vor allem zu Niere und Darm?",Ausscheidung von Abfallstoffen,Regulierung der Körpertemperatur,Transport von Sauerstoff,Verteilung von Hormonen,,,opentriviaqa
 otq-science-technology-1853,wissenschaft,4,Welcher dieser Stoffe ist KEIN Kohlenhydrat?,Glycerin,Fructose,Cellulose,Stärke,,,opentriviaqa
 otq-science-technology-1878,wissenschaft,4,"Wie nennt man Stoffe, die das Wachstum von Bakterien hemmen, ohne sie abzutöten?",Bakteriostatisch,Bakterisierend,Bakteriostoppend,Bakterizid,,,opentriviaqa
 otq-science-technology-1933,wissenschaft,4,Wer war die erste in Großbritannien zugelassene Ärztin?,Elizabeth Garrett Anderson,Agnodike,Mary Seacole,Florence Nightingale,,,opentriviaqa
@@ -222,21 +320,27 @@ otq-science-technology-1999,wissenschaft,4,Zu welcher Gruppe gehören Frauen bei
 otq-science-technology-2003,wissenschaft,4,Welche Farbe kann KEINE reine Spektralfarbe sein?,Purpur,Cyan,Gelb,Orange,,,opentriviaqa
 otq-science-technology-2005,wissenschaft,4,Welche Farbe stellt ein Computermonitor NICHT durch direktes Abstrahlen der eigenen Wellenlänge dar?,Orange,Grün,Rot,Blau,,,opentriviaqa
 otq-science-technology-229,wissenschaft,4,Welcher Hirnlappen ist vor allem für das sprachliche Gedächtnis zuständig?,Linker Schläfenlappen,Linker Scheitellappen,Rechter Schläfenlappen,Rechter Scheitellappen,,,opentriviaqa
+otq-science-technology-230,wissenschaft,4,Welche dieser Erkrankungen betrifft NICHT das Hormonsystem?,Parkinson,Schilddrüsenüberfunktion,Diabetes,Morbus Cushing,,,opentriviaqa
 otq-science-technology-269,wissenschaft,4,Wie lautet der Fachbegriff für die Achillessehne?,Tendo calcaneus,Articulatio glenohumeralis,Teres major,Chordae tendineae,,,opentriviaqa
 otq-science-technology-287,wissenschaft,4,Was trennt die Physik in ihrer Forschungskultur deutlicher als andere Naturwissenschaften?,Theorie und Experiment,Abstraktes und Reales,Mikro- und Makrokosmos,Sichtbares und Unsichtbares,,,opentriviaqa
 otq-science-technology-420,wissenschaft,4,Welche der DNA-Basen ist eine Purinbase?,Adenin,Cytosin,Prolin,Thymin,,,opentriviaqa
 otq-science-technology-430,wissenschaft,4,Welche Stoffe werden im Golgi-Apparat sortiert und verändert?,Proteine,Wassermoleküle,Nukleinsäuren,Mineralien,,,opentriviaqa
+otq-science-technology-432,wissenschaft,4,In welchen Organismen findet man Plastiden wie Chloroplasten?,In Pflanzen und Algen,Nur in Algen,In Pflanzen und Tieren,In Pilzen und Tieren,,,opentriviaqa
 otq-science-technology-435,wissenschaft,4,Was für Enzyme enthalten Lysosomen?,Verdauungsenzyme,Hemmstoffe,Amylasen,Restriktionsenzyme,,,opentriviaqa
 otq-science-technology-491,wissenschaft,4,Welche Patienten haben am ehesten einen Shunt (AV-Fistel) am Arm?,Dialysepatienten,Arthrosepatienten,Rollstuhlfahrer,Palliativpatienten,,,opentriviaqa
 otq-science-technology-523,wissenschaft,4,Welche Spannung kann ein Blitz erreichen?,Bis zu rund einer Milliarde Volt,Etwa 4.000 Volt,Etwa 230 Volt,Etwa 10.000 Volt,,,opentriviaqa
 otq-science-technology-558,wissenschaft,4,Welche Fettart erhöht sowohl das „schlechte“ LDL- als auch das „gute“ HDL-Cholesterin?,Gesättigte Fette,Transfette,Einfach ungesättigte Fette,Mehrfach ungesättigte Fette,,,opentriviaqa
+otq-science-technology-579,wissenschaft,4,"Welcher antike Arzt wies nach, dass Arterien Blut und nicht Luft führen?",Galen,Hippokrates,Asklepios,Herodot,,,opentriviaqa
 otq-science-technology-594,wissenschaft,4,Wie heißt die Lehre von den Winden?,Anemologie,Konilogie,Lithologie,Kampanologie,,,opentriviaqa
 otq-science-technology-665,wissenschaft,4,Welches bionische Körperteil erhielt der Schotte Campbell Aird 1993 als Erster?,Einen Arm,Ein Ohr,Ein Bein,Ein Auge,,,opentriviaqa
 otq-science-technology-750,wissenschaft,4,Welches chemische Symbol hat Polonium?,Po,Pl,Pn,P,,,opentriviaqa
 otq-science-technology-825,wissenschaft,4,"Welche dieser Störungen ist KEINE Angststörung, sondern eine affektive Störung?",Zyklothymie,Körperdysmorphe Störung,Somatisierungsstörung,Panikstörung,,,opentriviaqa
+otq-science-technology-828,wissenschaft,4,Aus welchen zwei Phasen besteht der Zellzyklus?,Mitose und Interphase,Interphase und Zytokinese,Zytokinese und Meiose,Mitose und Meiose,,,opentriviaqa
+otq-science-technology-830,wissenschaft,4,"Wie heißt ein sehr großer, stumpfer Knochenvorsprung, etwa am Oberschenkel?",Trochanter,Crista,Tuberositas,Tuberculum,,,opentriviaqa
 otq-science-technology-876,wissenschaft,4,Welchen Planeten umkreist der Mond Ariel?,Uranus,Jupiter,Neptun,Saturn,,,opentriviaqa
 otq-science-technology-920,wissenschaft,4,Wie viele vorzeitige Todesfälle verursacht Luftverschmutzung weltweit pro Jahr nach WHO-Schätzungen?,Mehrere Millionen,Rund 500.000,Rund 50.000,Rund 5.000,,,opentriviaqa
 otq-science-technology-936,wissenschaft,4,Wie heißt die Lehre vom Wissen?,Epistemologie,Rheologie,Pulikologie,Dialektologie,,,opentriviaqa
 otq-science-technology-937,wissenschaft,4,Wie heißt die Wissenschaft vom Mars?,Areologie,Ombrologie,Marsologie,Astrogeologie,,,opentriviaqa
 otq-science-technology-951,wissenschaft,4,Wann ungefähr geht der zunehmende Halbmond auf?,Gegen Mittag,Bei Sonnenaufgang,Um Mitternacht,Bei Sonnenuntergang,,,opentriviaqa
+otq-world-2849,wissenschaft,4,Wie heißt eine Flugzeugbauform mit dem Höhenleitwerk vor dem Hauptflügel?,Canard (Entenflugzeug),Immelmann,Lomcovák,Chandelle,,,opentriviaqa
 otq-world-3048,wissenschaft,4,Wer gilt neben Edward Bernays als Begründer der modernen PR?,Ivy Lee,George Parker,John Price Jones,George Creel,,,opentriviaqa

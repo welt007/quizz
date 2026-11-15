@@ -1,4 +1,5 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-animals-104,natur,1,Auf welchem Kontinent leben keine Eidechsen?,Antarktika,Südamerika,Europa,Asien,,,opentriviaqa
 otq-animals-134,natur,1,Welches Säugetier ist schwarz-weiß gestreift und für seinen Gestank bekannt?,Stinktier,Faultier,Frettchen,Wiesel,,,opentriviaqa
 otq-animals-136,natur,1,Welches Nagetier ist mit spitzen Stacheln bedeckt?,Stachelschwein,Nutria,Gürteltier,Kiwi,,,opentriviaqa
 otq-animals-22,natur,1,Welche Hunderasse war die Lieblingsrasse von Königin Elisabeth II.?,Welsh Corgi,Border Collie,Bobtail,Australian Cattle Dog,,,opentriviaqa
@@ -6,6 +7,9 @@ otq-animals-266,natur,1,Was ist der Hauptgrund für den Rückgang der Nashörner
 otq-animals-33,natur,1,Welches dieser Tiere schwimmt am schnellsten?,Delfin,Flunder,Hai,Qualle,,,opentriviaqa
 otq-animals-4,natur,1,Welches dieser Tiere lebt NICHT in Australien?,Faultier,Schnabeltier,Dingo,Ameisenigel,,,opentriviaqa
 otq-animals-424,natur,1,Welcher ist der größte Fisch der Welt?,Walhai,Mantarochen,Mondfisch,Riesenhai,,,opentriviaqa
+otq-animals-51,natur,1,Wie nennt man eine Gruppe von Löwen?,Rudel,Herde,Schwarm,Schule,,,opentriviaqa
+otq-animals-80,natur,1,Welche Meerestiere sehen aus wie Blumen und ziehen bei Gefahr ihre Tentakel ein?,Seeanemonen,Seetang,Quallen,Schwämme,,,opentriviaqa
+otq-animals-89,natur,1,Welches Krokodil ist das größte lebende Reptil?,Leistenkrokodil (Salzwasserkrokodil),Nilkrokodil,Mississippi-Alligator,Gangesgavial,,,opentriviaqa
 otq-animals-9,natur,1,Wie ernähren sich Schlangen?,Sie sind Fleischfresser,Sie sind Pflanzenfresser,Sie sind Allesfresser,Sie fressen nur Früchte,,,opentriviaqa
 otq-animals-900,natur,1,Wovon ernähren sich Koalas fast ausschließlich?,Von Eukalyptusblättern,Von Flaschenbaumblättern,Von Teebaumblättern,Von Bambus,,,opentriviaqa
 otq-animals-915,natur,1,Woraus besteht die Nahrung des Großen Pandas zu 99 %?,Bambus,Bananen,Fisch,Honig,,,opentriviaqa
@@ -14,9 +18,12 @@ otq-animals-92,natur,1,Welches Tier zeigt das Logo der australischen Fluggesells
 otq-for-kids-45,natur,1,Welches große Tier mit braunem Fell frisst gern Fisch und Honig?,Bär,Fuchs,Gepard,Pferd,,,opentriviaqa
 otq-for-kids-49,natur,1,"Welches afrikanische Tier hat einen sehr langen Hals, frisst Blätter und gibt kaum Laute von sich?",Giraffe,Elefant,Zebra,Kamel,,,opentriviaqa
 otq-general-164,natur,1,Wie viele Beine hat eine Libelle?,6,8,0,4,,,opentriviaqa
+otq-general-2559,natur,1,Welche Delikatesse können Schweine besonders gut erschnüffeln?,Trüffel,Kartoffeln,Erdnüsse,Karotten,,,opentriviaqa
 otq-general-2582,natur,1,Wie viele Beine hat eine Spinne?,8,6,4,10,,,opentriviaqa
 otq-general-2586,natur,1,Wie viele Arme hat ein Oktopus?,8,14,12,10,,,opentriviaqa
 otq-rated-1766,natur,1,Welches halb im Wasser lebende Nagetier ist das Nationaltier Kanadas?,Biber,Pampashase,Meerschweinchen,Wasserschwein,,,opentriviaqa
+otq-rated-821,natur,1,Welches ist das schnellste Landtier der Erde?,Gepard,Puma,Zebra,Tiger,,,opentriviaqa
+otq-science-technology-1067,natur,1,Wovon ernähren sich Koalas?,Eukalyptusblätter,Banyanfeigen,Bambus,Gras,,,opentriviaqa
 otq-science-technology-454,natur,1,Aus wie vielen Zellen besteht ein Bakterium?,Aus einer,Aus Milliarden,Aus drei,Aus Millionen,,,opentriviaqa
 otq-science-technology-637,natur,1,Wodurch fällt der Riesentukan besonders auf?,Durch seinen riesigen Schnabel,Durch seine Bewegungen,Durch seine Augen,Durch seine Federn,,,opentriviaqa
 otq-world-2584,natur,1,Was für ein Tier ist der Springbock?,Eine Antilope,Ein Insekt,Ein Frosch,Eine Wildkatze,,,opentriviaqa
@@ -24,6 +31,7 @@ otq-animals-151,natur,2,Welche Farbe kommt bei Hühnereiern nicht vor?,Schwarz,W
 otq-animals-2,natur,2,Welches dieser Tiere ist KEIN Allesfresser?,Schnecke,Fuchs,Maus,Opossum,,,opentriviaqa
 otq-animals-216,natur,2,Welche Froschgruppe gilt als die giftigste?,Pfeilgiftfrösche,Agakröten,Scheinkröten,Rotaugenlaubfrösche,,,opentriviaqa
 otq-animals-247,natur,2,Was ist ein Schuppentier (Pangolin)?,Ein ameisenfressendes Säugetier mit Schuppen,Eine Giftschlange,Ein Fisch,Ein Wasservogel,,,opentriviaqa
+otq-animals-253,natur,2,"Welche Quallenart ist so giftig, dass sie einen Menschen töten kann?",Würfelqualle,Kompassqualle,Ohrenqualle,Spiegeleiqualle,,,opentriviaqa
 otq-animals-257,natur,2,Was sollte man vor einer angriffsbereiten Großkatze auf keinen Fall tun?,Umdrehen und wegrennen,Laut schreien,Sich größer machen,Ruhig stehen bleiben,,,opentriviaqa
 otq-animals-283,natur,2,In welchem Erdzeitalter lebten die Dinosaurier?,Mesozoikum,Känozoikum,Präkambrium,Holozän,,,opentriviaqa
 otq-animals-30,natur,2,"Welcher kleine, nachtaktive Fuchs lebt in den Wüsten Nordafrikas?",Fennek,Kapfuchs,Rotfuchs,Bengalfuchs,,,opentriviaqa
@@ -31,35 +39,56 @@ otq-animals-306,natur,2,Welcher dieser Dinosaurier war ein Pflanzenfresser?,Prot
 otq-animals-348,natur,2,Zu welcher Gruppe gehört das schottische Clydesdale-Pferd?,Kaltblut (Zugpferd),Kutschpferd,Pony,Reitpferd,,,opentriviaqa
 otq-animals-358,natur,2,Aus welchem Land stammt der Dalmatiner?,Kroatien,Niederlande,Italien,Dänemark,,,opentriviaqa
 otq-animals-382,natur,2,Zu welcher Gruppe von Hunderassen gehört der Beagle?,Laufhunde,Terrier,Zwerghunde,Hütehunde,,,opentriviaqa
+otq-animals-388,natur,2,Welche Hunderasse wurde in Kanada als Jagdhund gezüchtet?,Labrador Retriever,Pharaonenhund,Lakeland Terrier,Beagle,,,opentriviaqa
 otq-animals-530,natur,2,Welche Farbe hat das Fell des Beutelteufels überwiegend?,Schwarz,Grau,Weiß,Braun,,,opentriviaqa
 otq-animals-6,natur,2,Drei dieser Tiergruppen häuten sich. Welche nicht?,Pinguine,Schlangen,Insekten,Krebstiere,,,opentriviaqa
+otq-animals-673,natur,2,Woher stammt das Meerschweinchen ursprünglich?,Aus Südamerika,Aus Afrika,Aus Neuguinea,Aus Nordamerika,,,opentriviaqa
 otq-animals-687,natur,2,Warum eignen sich Waschbären nicht als Haustiere?,Sie können aggressiv werden,Sie riechen sehr streng,Ihr Fell löst Allergien aus,Sie sind tagsüber zu laut,,,opentriviaqa
+otq-animals-712,natur,2,Welche ist die größte Känguruart?,Rotes Riesenkänguru,Antilopenkänguru,Westliches Graues Riesenkänguru,Östliches Graues Riesenkänguru,,,opentriviaqa
 otq-animals-838,natur,2,"Unter welchem Namen ist der Skarabäus, der heilige Käfer der alten Ägypter, bekannt?",Pillendreher,Hirschkäfer,Junikäfer,Rosenkäfer,,,opentriviaqa
 otq-animals-856,natur,2,Welche Katzen sind fast immer weiblich?,Dreifarbige Glückskatzen,Weiße Katzen,Perserkatzen,Siamkatzen,,,opentriviaqa
+otq-animals-861,natur,2,Auf welchem Kontinent leben Erdferkel?,Afrika,Asien,Südamerika,Australien,,,opentriviaqa
+otq-animals-893,natur,2,Welche Farbe hat das Blut eines Oktopus?,Blau,Schwarz,Grün,Rosa,,,opentriviaqa
 otq-animals-975,natur,2,Welche Papageien gelten als beste Imitatoren von Geräuschen und menschlicher Sprache?,Graupapageien,Loris,Amazonen,Kakadus,,,opentriviaqa
+otq-animals-989,natur,2,"Welche robuste Katzenrasse hat ein dichtes, wasserabweisendes Fell und stammt aus Nordeuropa?",Norwegische Waldkatze,Perserkatze,Siamkatze,Ragamuffin,,,opentriviaqa
 otq-brain-teasers-118,natur,2,"Zu welcher Gruppe von Jagdhunden gehören Springer, Cocker und Cavalier King Charles?",Spaniel,Collie,Retriever,Schäferhund,,,opentriviaqa
+otq-for-kids-48,natur,2,Welche flauschige Hunderasse hat eine blauschwarze Zunge?,Chow-Chow,Pitbull,Dackel,Setter,,,opentriviaqa
 otq-general-1045,natur,2,Welche Säugetiergruppe legt Eier?,Kloakentiere,Nagetiere,Beuteltiere,Fledertiere,,,opentriviaqa
 otq-general-154,natur,2,Was für Insekten sind die Gelben Jacken (Yellowjackets) mit ihren Papiernestern?,Wespen,Ameisen,Grillen,Schmetterlinge,,,opentriviaqa
+otq-general-793,natur,2,Welches Tier passt nicht in die Reihe?,Füchsin (Fähe),Viper,Kreuzotter,Kobra,,,opentriviaqa
 otq-humanities-861,natur,2,Wie heißt ein Känguru-Junges?,Joey,Fawn,Filly,Kit,,,opentriviaqa
 otq-rated-1091,natur,2,Wie nennt man einen männlichen Kater im Englischen?,Tom,Buck,Ram,Boar,,,opentriviaqa
 otq-science-technology-142,natur,2,Welche Tiere erforscht die Myrmekologie?,Ameisen,Bienen,Fliegen,Hornissen,,,opentriviaqa
+otq-science-technology-1520,natur,2,In welchem Teil des Apfels stecken giftige cyanogene Glykoside?,In den Kernen,In den Blüten,In der Schale,In den Blättern,,,opentriviaqa
 otq-science-technology-1748,natur,2,Wie heißt die Wissenschaft von den Pilzen?,Mykologie,Fungitik,Myologie,Phykologie,,,opentriviaqa
+otq-science-technology-1952,natur,2,"Wonach riecht die Blüte der Rafflesia, der größten Einzelblüte der Welt?",Nach verwesendem Fleisch,Nach süßem Parfüm,Nach Pilzen,Nach Knoblauch,,,opentriviaqa
+otq-animals-1009,natur,3,Welcher ist der größte Schmetterling der Welt?,Königin-Alexandra-Vogelfalter,Rajah-Brooke-Vogelfalter,Goliath-Vogelfalter,Cairns-Vogelfalter,,,opentriviaqa
 otq-animals-107,natur,3,Welcher Hai hat einen abgeflachten Körper wie ein Rochen?,Engelhai,Riesenhai,Blauhai,Schwarzspitzen-Riffhai,,,opentriviaqa
 otq-animals-135,natur,3,Was für ein Tier ist die Wassermokassinotter (Cottonmouth)?,Eine Schlange,Eine Maus,Eine Fledermaus,Eine Eidechse,,,opentriviaqa
 otq-animals-15,natur,3,Wozu dient der Kobra vermutlich ihre aufspreizbare Haube?,Um bedrohlicher zu wirken,Zum Halten des Gleichgewichts,Zum Aufnehmen von Sonnenwärme,Zur Tarnung,,,opentriviaqa
 otq-animals-154,natur,3,Wie alt wird ein Löwe in freier Wildbahn durchschnittlich?,10 bis 14 Jahre,6 bis 9 Jahre,20 bis 24 Jahre,25 bis 30 Jahre,,,opentriviaqa
 otq-animals-222,natur,3,Wie schnell kann ein Zebra laufen?,Bis zu etwa 65 km/h,Bis zu etwa 40 km/h,Bis zu etwa 30 km/h,Bis zu etwa 100 km/h,,,opentriviaqa
+otq-animals-26,natur,3,Welcher ist der seltenste und am stärksten bedrohte Wolf?,Rotwolf,Äthiopischer Wolf,Mähnenwolf,Grauwolf,,,opentriviaqa
 otq-animals-261,natur,3,Wie viele Nashornarten gibt es heute?,5,2,4,3,,,opentriviaqa
+otq-animals-269,natur,3,Welche dieser Hyänenarten gibt es NICHT?,Goldhyäne,Schabrackenhyäne,Streifenhyäne,Tüpfelhyäne,,,opentriviaqa
 otq-animals-271,natur,3,Wo lebte der ausgestorbene Riesenvogel Moa?,In Neuseeland,In Puerto Rico,In Indonesien,Auf Madagaskar,,,opentriviaqa
 otq-animals-276,natur,3,In welchem dieser Länder leben keine wilden Rentiere?,Schweiz,Finnland,Russland,Norwegen,,,opentriviaqa
+otq-animals-29,natur,3,Welcher Flussdelfin aus dem Jangtse gilt als (vermutlich) ausgestorben?,Chinesischer Flussdelfin (Baiji),Gangesdelfin,La-Plata-Delfin,Amazonasdelfin,,,opentriviaqa
 otq-animals-304,natur,3,"Wo fand man 1971 das berühmte Fossil eines Velociraptors, der mit einem Protoceratops kämpft?",In der Wüste Gobi,Im Death Valley,Auf dem Balkan,"In Bernissart, Belgien",,,opentriviaqa
 otq-animals-311,natur,3,Wie alt werden Elefanten durchschnittlich?,Etwa 60 bis 70 Jahre,Etwa 15 Jahre,Über 110 Jahre,Etwa 35 Jahre,,,opentriviaqa
 otq-animals-314,natur,3,Wie viele Elefantenarten gibt es heute?,3,1,6,5,,,opentriviaqa
 otq-animals-322,natur,3,Welches Beuteltier hat einen nach hinten geöffneten Beutel?,Wombat,Känguru,Wallaby,Koala,,,opentriviaqa
 otq-animals-336,natur,3,Was bedeutet der Name Stegosaurus?,Dachechse,Panzerechse,Stachelechse,Stachelschwanz,,,opentriviaqa
 otq-animals-351,natur,3,Welche Hunderasse aus China hat dickes Fell und eine blauschwarze Zunge?,Chow-Chow,Shar-Pei,Akita,Shiba Inu,,,opentriviaqa
+otq-animals-36,natur,3,Wie viele Fledermausarten gibt es ungefähr?,Über 1000,Etwa 100,Etwa 300,Etwa 50,,,opentriviaqa
 otq-animals-373,natur,3,Wovon ernähren sich Weiße Fliegen (Mottenschildläuse)?,Von Pflanzensaft aus Blättern,Von Früchten,Von Insekten,Von Aas,,,opentriviaqa
+otq-animals-38,natur,3,Welches sechsbeinige Tier gehört zu den schnellsten Läufern?,Die Kakerlake,Der Marienkäfer,Der Mistkäfer,Die Ameise,,,opentriviaqa
+otq-animals-390,natur,3,Wie heißt die Nutria noch?,Biberratte (Sumpfbiber),Bisam,Wasserschwein,Murmeltier,,,opentriviaqa
+otq-animals-414,natur,3,Wie gelangt Sauerstoff in den Körper einer Qualle?,Durch Diffusion,Durch Kiemen,Durch eine Lunge,Durch Fotosynthese,,,opentriviaqa
+otq-animals-464,natur,3,Zu welcher Tiergruppe gehört der Grindwal eigentlich?,Zu den Delfinen,Zu den Walrossen,Zu den Robben,Zu den Ottern,,,opentriviaqa
 otq-animals-471,natur,3,Was sollte man einem Chinchilla nicht füttern?,Rosinen,Heu,Wasser,Pellets,,,opentriviaqa
+otq-animals-524,natur,3,Welche Aussage über den Kolkraben ist FALSCH?,Er frisst keine Vögel,Er frisst Aas,Er frisst Kot,Er frisst menschliche Essensreste,,,opentriviaqa
+otq-animals-56,natur,3,Wie alt werden Löwen in freier Wildbahn durchschnittlich?,10–15 Jahre,20–30 Jahre,5 Jahre,Über 30 Jahre,,,opentriviaqa
 otq-animals-574,natur,3,"Welche Delfine haben winzige Augen, sind fast blind und orientieren sich per Echoortung in trübem Wasser?",Flussdelfine,Ozeanische Delfine,Schlammdelfine,Schweinswale,,,opentriviaqa
 otq-animals-59,natur,3,In welcher Situation schnurren Katzen außer bei Wohlbefinden ebenfalls?,Bei Stress oder Schmerzen,Bei der Jagd oder beim Spielen,Bei Hunger oder Durst,Bei Einsamkeit oder Wut,,,opentriviaqa
 otq-animals-624,natur,3,"Welche Katzenrasse mit kurzem, „getickten“ Fell stammt wahrscheinlich aus Nordostafrika?",Abessinier,Korat,Sphynx,Burmilla,,,opentriviaqa
@@ -72,73 +101,124 @@ otq-animals-71,natur,3,Aus welchem Land stammt der Chihuahua?,Mexiko,Venezuela,S
 otq-animals-741,natur,3,Welche Farben hat die Turteltaube überwiegend?,Braun und Grau,Orange und Grau,Gelb und Schwarz,Blau und Rot,,,opentriviaqa
 otq-animals-82,natur,3,"Welches Tier trägt „Krebs“ im Namen, ist aber näher mit den Spinnen verwandt?",Pfeilschwanzkrebs,Winkerkrabbe,Taschenkrebs,Felsenkrabbe,,,opentriviaqa
 otq-animals-834,natur,3,Woher hat der Mantarochen den englischen Beinamen „Teufelsfisch“?,Von den hornartigen Kopflappen,Von seinem spitzen Schwanz,Von seiner Jagdweise,Von seinen flügelartigen Flossen,,,opentriviaqa
+otq-animals-835,natur,3,Zu welcher Insektengruppe gehören Periplaneta americana und Blattella germanica?,Schaben (Kakerlaken),Fliegen,Stabschrecken,Schmetterlinge,,,opentriviaqa
 otq-animals-853,natur,3,Wie schnell kann eine Hauskatze im Sprint laufen?,Etwa 48 km/h,Etwa 15 km/h,Etwa 25 km/h,Etwa 80 km/h,,,opentriviaqa
 otq-animals-87,natur,3,Welche Aussage über Ameisenigel ist FALSCH?,Sie sind Beuteltiere,Sie tragen Stacheln,Sie haben eine Schnauze,Sie legen Eier,,,opentriviaqa
 otq-animals-898,natur,3,Wie lange können Kakerlaken ohne Luft überleben?,Etwa 45 Minuten,Etwa 5 Minuten,Etwa 10 Sekunden,Etwa 2 Tage,,,opentriviaqa
 otq-animals-921,natur,3,Wie alt werden Große Pandas in menschlicher Obhut meist?,20 bis 30 Jahre,10 bis 15 Jahre,40 bis 50 Jahre,60 bis 70 Jahre,,,opentriviaqa
+otq-animals-949,natur,3,Was frisst ein „Graminivore“?,Gras,Früchte,Algen,Baumblätter,,,opentriviaqa
+otq-animals-962,natur,3,Wie heißen die Spinnentiere der Ordnung Opiliones?,Weberknechte,Wasserläufer,Kehrspinnen,Hummelspinnen,,,opentriviaqa
 otq-animals-967,natur,3,Welche ist die größte heute lebende Hyänenart?,Tüpfelhyäne,Erdwolf,Streifenhyäne,Schabrackenhyäne,,,opentriviaqa
 otq-animals-973,natur,3,Welche Farbe haben die Eier aller Papageienarten?,Weiß,Grün,Bunt gesprenkelt,Blau,,,opentriviaqa
+otq-animals-976,natur,3,Wie alt können große Papageienarten werden?,Bis zu 80 Jahre,20–25 Jahre,Bis zu 10 Jahre,14–15 Jahre,,,opentriviaqa
 otq-animals-98,natur,3,"Wie heißt die Fähigkeit von Eidechsen, bei Gefahr ihren Schwanz abzuwerfen?",Autotomie,Apotemnophilie,Autonomie,Autismus,,,opentriviaqa
+otq-general-1000,natur,3,Wie alt sind die meisten natürlichen Diamanten?,Über eine Milliarde Jahre,Über sieben Milliarden Jahre,Etwa eine Million Jahre,Etwa 10.000 Jahre,,,opentriviaqa
+otq-general-115,natur,3,Welcher Edelstein sollte in der Antike vor Trunkenheit schützen?,Amethyst,Rubin,Smaragd,Onyx,,,opentriviaqa
 otq-general-1466,natur,3,Welche Tiergruppe nennt man auch „Seekühe“?,Sirenen (Sirenia),Seeotter,Walrosse,Seelöwen,,,opentriviaqa
+otq-general-162,natur,3,Wie viele Fühler haben Nacktschnecken am Kopf?,4,8,2,6,,,opentriviaqa
 otq-general-2306,natur,3,Was für eine Pflanze ist die Engelwurz (Angelica)?,Ein Kraut,Ein Baum,Ein Farn,Ein Strauch,,,opentriviaqa
+otq-general-2506,natur,3,Zu wie viel Prozent besteht eine Qualle etwa aus Wasser?,95 bis 98 %,70 %,80 %,60 %,,,opentriviaqa
 otq-general-720,natur,3,Wie nennt man ein Pferd beiderlei Geschlechts unter einem Jahr?,Fohlen,Hengst,Jährling,Stute,,,opentriviaqa
+otq-general-723,natur,3,Was ist Rotschwingel?,Ein Gras,Eine Schlange,Ein Baum,Ein Känguru,,,opentriviaqa
 otq-general-790,natur,3,Welches dieser Tiere passt nicht zu den anderen?,Widder,Henne,Ricke,Fähe,,,opentriviaqa
+otq-hobbies-1021,natur,3,Welche Heilpflanze wird traditionell gegen leichte Depressionen eingesetzt?,Johanniskraut,Tabak,Asant,Juckbohne,,,opentriviaqa
+otq-hobbies-207,natur,3,Welche Pflanze liefert Kerne mit viel Vitamin E und wird zur Ölgewinnung angebaut?,Sonnenblume,Hagebutte,Geißblatt,Tulpe,,,opentriviaqa
 otq-hobbies-317,natur,3,Welche Blume ist die Nationalblume des Iran?,Tulpe,Lilie,Rose,Beifuß,,,opentriviaqa
 otq-rated-1096,natur,3,Welches Paar aus männlichem und weiblichem Tier ist FALSCH?,Ziegenbock – Sau,Keiler – Bache,Rüde – Hündin,Widder – Aue,,,opentriviaqa
+otq-science-technology-1322,natur,3,Welche dieser Lebewesen gab es zuerst auf der Erde?,Fische,Reptilien,Samenpflanzen,Vögel,,,opentriviaqa
 otq-science-technology-1958,natur,3,Welche Pflanze aus Sumatra hat den größten unverzweigten Blütenstand der Welt?,Titanwurz,Rafflesia,Talipotpalme,Tillandsie,,,opentriviaqa
+otq-science-technology-2009,natur,3,Welches Tier hat das komplexeste Farbsehen im Tierreich?,Fangschreckenkrebs,Honigbiene,Taube,Oktopus,,,opentriviaqa
+otq-science-technology-2036,natur,3,Mit welchem Teil betreibt ein Kaktus Fotosynthese?,Mit dem Stamm,Mit den Blüten,Mit den Wurzeln,Mit den Stacheln,,,opentriviaqa
+otq-science-technology-2106,natur,3,Die Nelke ist die Nationalblume welches europäischen Landes?,Spanien,Frankreich,Schottland,Deutschland,,,opentriviaqa
 otq-science-technology-282,natur,3,"Wie nennt man Organe, die im Laufe der Evolution ihre Funktion verloren haben?",Rudimentäre Organe,Unterentwickelte Organe,Veraltete Organe,Verkümmerte Organe,,,opentriviaqa
+otq-science-technology-932,natur,3,Womit beschäftigt sich ein Cetologe?,Mit Walen,Mit Wein,Mit Wörtern,Mit Kunst,,,opentriviaqa
+otq-world-3045,natur,3,Der Buntfasan ist der Nationalvogel welches asiatischen Landes?,Japan,Vietnam,China,Thailand,,,opentriviaqa
 otq-world-3260,natur,3,Der Elch ist ein Nationalsymbol welches europäischen Landes?,Norwegen,Dänemark,Island,Irland,,,opentriviaqa
 otq-animals-1008,natur,4,"Wie nennt man die Raubwanzen der Unterfamilie Triatominae, die die Chagas-Krankheit übertragen?",Kusswanzen,Lutscherwanzen,Mikrofonwanzen,Schmuckwanzen,,,opentriviaqa
 otq-animals-108,natur,4,"Welcher Hai galt als ausgestorben, bis er 1898 vor der Küste Japans gefunden wurde?",Koboldhai,Zigarrenhai,Makohai,Engelhai,,,opentriviaqa
 otq-animals-110,natur,4,Wie heißen Haijunge im Englischen?,Pups,Calves,Pecks,Cubs,,,opentriviaqa
+otq-animals-137,natur,4,Wie viele Stinktierarten gibt es etwa?,12,6,4,20,,,opentriviaqa
 otq-animals-145,natur,4,Wie alt werden Rotfüchse in freier Wildbahn meist?,Etwa 3 Jahre,Etwa 8 Jahre,Etwa 10 Jahre,Etwa 15 Jahre,,,opentriviaqa
 otq-animals-150,natur,4,Wie oft schlägt das Herz eines Huhns ungefähr pro Minute?,280- bis 315-mal,100- bis 130-mal,150- bis 190-mal,60- bis 90-mal,,,opentriviaqa
 otq-animals-157,natur,4,Wie viel Fleisch braucht ein ausgewachsener Löwe pro Tag ungefähr?,Etwa 7 kg,Etwa 2 kg,Etwa 20 kg,Etwa 30 kg,,,opentriviaqa
+otq-animals-158,natur,4,Wie lange dauert die Tragzeit einer Löwin etwa?,110 Tage,200 Tage,30 Tage,60 Tage,,,opentriviaqa
+otq-animals-176,natur,4,Wie lange dauert die Tragzeit beim Biber?,Etwa 3–4 Monate,2 Wochen,1 Jahr,6 Monate,,,opentriviaqa
 otq-animals-18,natur,4,Wie schnell nach dem Schlüpfen kann sich eine junge Kobra bereits verteidigen?,"Sofort, nach wenigen Stunden",Nach 2 Wochen,Nach 2 Monaten,Nach einem Jahr,,,opentriviaqa
 otq-animals-191,natur,4,Wie viele Regenwurmarten sind weltweit ungefähr bekannt?,Etwa 5.500,Etwa 3.000,Etwa 2.500,Etwa 1.000,,,opentriviaqa
 otq-animals-209,natur,4,In welchem Jahr starb der Dodo nach gängiger Angabe aus?,1681,1705,1789,1803,,,opentriviaqa
 otq-animals-223,natur,4,Welche Funktion haben die Zebrastreifen nach heutiger Kenntnis eher NICHT?,Warnsignal an andere Zebras,Wiedererkennung in der Herde,Kühlung des Körpers,Verwirrung von Fressfeinden,,,opentriviaqa
+otq-animals-236,natur,4,Wie viele Flamingoarten sind in Amerika heimisch?,4,3,2,1,,,opentriviaqa
 otq-animals-241,natur,4,Wann wurde nach Berichten zuletzt ein Beutelwolf (Tasmanischer Tiger) in freier Wildbahn erlegt?,1930,1880,1900,1910,,,opentriviaqa
 otq-animals-265,natur,4,Wie lange dauert die Tragzeit eines Nashorns ungefähr?,16 Monate,12 Monate,20 Monate,24 Monate,,,opentriviaqa
+otq-animals-268,natur,4,In welchem Lebensraum Afrikas kommen Hyänen am wenigsten vor?,Im dichten Regenwald,In Wüsten,In Gebirgen,In der Savanne,,,opentriviaqa
 otq-animals-270,natur,4,Wie heißt eine Gruppe von Hyänen?,Clan,Rudel,Herde,Schwarm,,,opentriviaqa
 otq-animals-3,natur,4,Drei dieser lateinischen Namen bezeichnen Bären. Welcher nicht?,Felis silvestris catus,Melursus ursinus,Helarctos malayanus,Ursus minimus,,,opentriviaqa
 otq-animals-32,natur,4,"Welche kleine Antilope springt so geschickt, dass sie mit den Hufspitzen auf Felsen landet, als würde sie tanzen?",Klippspringer,Bleichböckchen,Pferdeantilope,Säbelantilope,,,opentriviaqa
+otq-animals-324,natur,4,Welches Tier wird wegen der bläulichen Fellfarbe der Weibchen „Blue Flyer“ genannt?,Rotes Riesenkänguru,Silberreiher,Emu,Kookaburra,,,opentriviaqa
+otq-animals-343,natur,4,Wie lange dauert die Tragzeit beim Tiger etwa?,16 Wochen,22 Wochen,10 Wochen,30 Wochen,,,opentriviaqa
 otq-animals-405,natur,4,Wie gibt der Steinfisch sein Gift ab?,Über die Stacheln der Rückenflosse,Mit den Zähnen,Über die Schwanzflosse,Über die Brustflossen,,,opentriviaqa
 otq-animals-420,natur,4,In welchem Alter verlassen junge Wölfe meist ihr Rudel?,Mit 1 bis 3 Jahren,Mit 5 bis 6 Jahren,Mit 6 Monaten,Mit 7 bis 8 Jahren,,,opentriviaqa
 otq-animals-423,natur,4,Welcher ist einer der größten lebenden Greifvögel der Erde?,Mönchsgeier,Affenadler,Zwergadler,Turmfalke,,,opentriviaqa
+otq-animals-431,natur,4,Nach wie vielen Nächten ohne Blut stirbt eine Vampirfledermaus etwa?,2,5,10,7,,,opentriviaqa
+otq-animals-47,natur,4,Welche Bezeichnung ist KEINE eigene Bärenart (sondern ein Beiname)?,Mondbär,Braunbär,Schwarzbär,Malaienbär,,,opentriviaqa
+otq-animals-470,natur,4,Welche Fellfarbe haben wildlebende Chinchillas?,Grau,Schwarz,Braun,Beige,,,opentriviaqa
 otq-animals-472,natur,4,Was können Chinchillas nicht?,Schwitzen,Niesen,Springen,Schlucken,,,opentriviaqa
 otq-animals-473,natur,4,Welche zwei Varianten des Chinesischen Schopfhunds gibt es?,Hairless und Powderpuff,Wasser und Läufer,Hairless und Laufhund,Sportlich und Gefleckt,,,opentriviaqa
 otq-animals-494,natur,4,Was drückt das Pfeifen („Quieken“) von Meerschweinchen meist aus?,Freudige Aufregung,Gefahr oder Schmerz,Unbehagen,Warnung,,,opentriviaqa
 otq-animals-513,natur,4,Welche ist die kleinste Hirschart der Welt?,Nördlicher Pudu,Sumpfhirsch,Südlicher Pudu,Andenhirsch,,,opentriviaqa
+otq-animals-517,natur,4,Was für ein Tier ist der Andenschakal (Culpeo)?,Ein Wildhund,Ein Biber,Eine Wildkatze,Ein Marder,,,opentriviaqa
 otq-animals-521,natur,4,"Welcher Hai trägt den Spitznamen „Mülleimer des Meeres“, weil er fast alles frisst?",Tigerhai,Weißer Hai,Walhai,Hammerhai,,,opentriviaqa
 otq-animals-562,natur,4,Wovon ernähren sich ausgewachsene Goliathkäfer?,Von Früchten und Baumsaft,Von Blättern und Gras,Von Insekten,Von Aas,,,opentriviaqa
+otq-animals-566,natur,4,Welcher Delfin wird manchmal mit Narwal und Beluga in eine Gruppe gestellt?,Irawadidelfin,Großer Tümmler,Amazonasdelfin,Rundkopfdelfin,,,opentriviaqa
+otq-animals-567,natur,4,Welcher Wal stößt bei Gefahr wie ein Tintenfisch eine rötlich-braune Flüssigkeit aus?,Zwergpottwal,Finnwal,Schwertwal,Grönlandwal,,,opentriviaqa
 otq-animals-57,natur,4,"Was zeigt eine Katze, wenn sie stark mit dem Schwanz peitscht?",Unmut,Langeweile,Hunger,Verspieltheit,,,opentriviaqa
 otq-animals-571,natur,4,Welche Walgruppe bildet die Familie Phocoenidae?,Schweinswale,Flussdelfine,Schnabelwale,Delfine,,,opentriviaqa
+otq-animals-577,natur,4,Welcher Delfin treibt Fische auf den Strand und frisst sie dort?,Großer Tümmler,Schwertwal,Fleckendelfin,Gewöhnlicher Delfin,,,opentriviaqa
+otq-animals-582,natur,4,Welcher Frosch gilt als eines der kleinsten Amphibien der Welt?,Der Brasilianische Goldfrosch,Der Ochsenfrosch,Der Laubfrosch,Der Pfeilgiftfrosch,,,opentriviaqa
 otq-animals-608,natur,4,Wie viel wiegt ein ausgewachsenes Schnabeltier ungefähr?,"0,7 bis 2,4 kg","3,2 bis 4,6 kg",5 bis 8 kg,10 bis 12 kg,,,opentriviaqa
 otq-animals-612,natur,4,Wie hoch ist die normale Körpertemperatur eines gesunden Schnabeltiers?,Etwa 32 °C,Etwa 22 °C,Etwa 28 °C,35 bis 37 °C,,,opentriviaqa
 otq-animals-616,natur,4,"Wie nennt man die Gruppen, in denen wilde Chinchillas leben?",Herden bzw. Kolonien,Schulen,Schwärme,Trupps,,,opentriviaqa
 otq-animals-618,natur,4,Wofür werden Chinchillas in der Forschung als Modelltiere eingesetzt?,Für Studien des Gehörs,Für Studien der Lautbildung,Für Sehstudien,Für Fortpflanzungsstudien,,,opentriviaqa
+otq-animals-619,natur,4,"Was zeigt es an, wenn die Ohren eines Chinchillas rot werden?",Überhitzung,Trächtigkeit,Paarungsbereitschaft,Wut,,,opentriviaqa
 otq-animals-62,natur,4,Wie nennt man Reptilien und Amphibien zusammen im englischen Fachjargon?,Herps,Drosophila,Mollusken,Nematoden,,,opentriviaqa
+otq-animals-641,natur,4,Welche Unterart des Straußes starb um 1966 aus?,Arabischer Strauß,Nordafrikanischer Strauß,Südafrikanischer Strauß,Somalischer Strauß,,,opentriviaqa
+otq-animals-644,natur,4,Welche ist die kleinste Unterart des Asiatischen Elefanten?,Sumatra-Elefant,Indischer Elefant,Sri-Lanka-Elefant,Borneo-Elefant,,,opentriviaqa
 otq-animals-671,natur,4,Wie nennt man das Meerschweinchen auch?,Cavia (Cavy),Netty,Poppy,Willy,,,opentriviaqa
 otq-animals-674,natur,4,Wie nennt man im Englischen die Jungen des Meerschweinchens?,Pups,Kits,Calves,Piglets,,,opentriviaqa
+otq-animals-685,natur,4,Welche Nahrung bevorzugen Waschbären trotz Allesfresserei häufig?,Wirbellose wie Krebse und Insekten,Vögel,Fische,Gras,,,opentriviaqa
 otq-animals-691,natur,4,Mit welchem Tier wird die harmlose Blumentopfschlange oft verwechselt?,Mit einem Regenwurm,Mit einer Schwarzen Mamba,Mit einer Wassertrugnatter,Mit einer Warzenschlange,,,opentriviaqa
 otq-animals-694,natur,4,Woher hat die Glasschleiche (Panzerschleiche) ihren Namen?,Ihr Schwanz bricht leicht ab,Sie kann an Glas klettern,Ihre Augen wirken gläsern,Sie ist fast durchsichtig,,,opentriviaqa
 otq-animals-698,natur,4,Woran erkennt man die Lederschildkröte sofort unter den Meeresschildkröten?,Sie hat keinen harten Panzer,Sie hat einen sehr langen Schwanz,Sie ist auffallend bunt,Sie hat ein Horn auf dem Kopf,,,opentriviaqa
 otq-animals-699,natur,4,Wo lebt der Weißkehlwaran?,In Afrika,In Südamerika,In Neuguinea,In Australien,,,opentriviaqa
+otq-animals-700,natur,4,Welches ist die kleinste lebende Krokodilart?,Brauen-Glattstirnkaiman,Keilkopf-Glattstirnkaiman,Brillenkaiman,Yacarékaiman,,,opentriviaqa
 otq-animals-705,natur,4,Wie viele Stunden schlafen Faultiere in freier Wildbahn tatsächlich etwa pro Tag?,Weniger als 10 Stunden,20 bis 22 Stunden,12 bis 13 Stunden,15 bis 18 Stunden,,,opentriviaqa
 otq-animals-722,natur,4,Wie alt wird ein Furchenmolch (Mudpuppy) durchschnittlich?,Etwa 11 Jahre,2 Jahre,5 Jahre,35 Jahre,,,opentriviaqa
 otq-animals-73,natur,4,Womit kommen Chihuahua-Welpen typischerweise zur Welt?,Mit einer offenen Fontanelle am Schädel,Mit einer zusätzlichen Sehne,Mit haarlosen Ohren,Mit zwei zusätzlichen Eckzähnen,,,opentriviaqa
+otq-animals-743,natur,4,"Welches Mineral fehlt in den Knorpeln der Fledermaus-Fingerknochen, was sie biegsam macht?",Calcium,Kalium,Magnesium,Eisen,,,opentriviaqa
 otq-animals-747,natur,4,Wofür steht die Fledermaus in der chinesischen Tradition?,Für Glück und langes Leben,Für einen wiedergeborenen Geist,Für ein böses Omen,Für Ungeziefer,,,opentriviaqa
 otq-animals-751,natur,4,"Wie wird die Schweinsnasenfledermaus, die kleinste Fledermausart, auch genannt?",Hummelfledermaus,Wespenfledermaus,Kolibrifledermaus,Marienkäferfledermaus,,,opentriviaqa
+otq-animals-755,natur,4,Wie alt kann ein Perlboot (Nautilus) werden?,Etwa 20 Jahre,Etwa 1 Jahr,Etwa 2 Jahre,Etwa 100 Jahre,,,opentriviaqa
+otq-animals-761,natur,4,Was für Tiere sind die Riesengleiter (Colugos) aus Südostasien?,Säugetiere,Reptilien,Vögel,Amphibien,,,opentriviaqa
 otq-animals-768,natur,4,Welcher Sinn ist beim Schabrackentapir nur schwach ausgeprägt?,Das Sehen,Das Hören,Das Riechen,Der Tastsinn,,,opentriviaqa
 otq-animals-77,natur,4,Wie alt wird ein Flusspferd in freier Wildbahn etwa?,40 bis 50 Jahre,10 bis 20 Jahre,60 bis 70 Jahre,20 bis 30 Jahre,,,opentriviaqa
+otq-animals-774,natur,4,Was haben alle Blindwühlen (Schleichenlurche) gemeinsam?,Sie haben keine Beine,Sie sind Zwitter,Sie haben vier Augen,Sie haben Außenohren,,,opentriviaqa
 otq-animals-809,natur,4,Wie heißt das Kampfverhalten männlicher Giraffen?,Necking (Halskampf),Hoofing (Hufkampf),Tailing (Schwanzkampf),Horning (Hornkampf),,,opentriviaqa
 otq-animals-812,natur,4,Bei welchen Giraffen sind die Hörner oben meist kahl?,Bei Bullen,Bei Jungtieren,Bei Kühen,Bei sehr alten Tieren,,,opentriviaqa
+otq-animals-840,natur,4,Auf welcher dieser Inseln lebt der Komodowaran NICHT?,Bali,Rinca,Flores,Gili Motang,,,opentriviaqa
+otq-animals-862,natur,4,Welches Tier trägt den wissenschaftlichen Namen „Orycteropus afer“?,Erdferkel,Schimpanse,Afrikanischer Elefant,Hausmaus,,,opentriviaqa
+otq-animals-903,natur,4,Welchen giftigen Fisch imitiert der Feilenfisch Paraluteres prionurus?,Den Sattel-Spitzkopfkugelfisch,Den Roten Schnapper,Den Lippfisch,Den Steinfisch,,,opentriviaqa
+otq-animals-924,natur,4,In welchem Land gilt der Seestern „Gohongaze“ als essbare Delikatesse?,Japan,China,Italien,Neuseeland,,,opentriviaqa
 otq-animals-937,natur,4,"Wo lebt das Tapeti, ein nachtaktives Kaninchen?",In Mittel- und Südamerika,In Australien,In Südasien,In Südafrika,,,opentriviaqa
+otq-animals-940,natur,4,Wie viele Delfinarten gibt es ungefähr?,Etwa 40,Etwa 15,Etwa 80,Etwa 12,,,opentriviaqa
+otq-animals-982,natur,4,Welche haarlose Katzenrasse hat Faltohren und ein hundeähnliches Gesicht?,Ukrainian Levkoy,Sphynx,Don Sphynx,Peterbald,,,opentriviaqa
 otq-animals-984,natur,4,"Welche Katzenrasse stammt aus Russland und hat einen kurzen, buschigen Stummelschwanz?",Kurilen-Bobtail,Sibirische Katze,Russisch Blau,Manx,,,opentriviaqa
+otq-general-1148,natur,4,Was ist eine Schnatterente (englisch „Gadwall“)?,Eine Entenart,Ein U-Boot,Eine Kanone,Eine Firewall,,,opentriviaqa
 otq-general-2024,natur,4,Wie heißt eine Gruppe von Bären im Englischen?,A sleuth,A family,A tribe,A band,,,opentriviaqa
+otq-history-1083,natur,4,Welches ist KEIN Abschnitt des Erdaltertums (Paläozoikum)?,Paläogen,Silur,Perm,Kambrium,,,opentriviaqa
+otq-history-1155,natur,4,Welche fischförmigen Meeresreptilien entstanden in der Trias?,Ichthyosaurier,Pliosaurier,Mosasaurier,Dinosaurier,,,opentriviaqa
 otq-history-1451,natur,4,Welches Tier aus dem frühen Kambrium gilt als einer der ersten Fische?,Haikouichthys,Coccosteus,Kimberella,Cephalaspis,,,opentriviaqa
 otq-hobbies-322,natur,4,Welche Blume mit kleinen blauen Blüten ist die Nationalblume Estlands?,Kornblume,Gänseblümchen,Lilie,Dahlie,,,opentriviaqa
+otq-humanities-246,natur,4,Was ist ein Keilschwanz-Regenpfeifer (englisch „Killdeer“)?,Ein Vogel,Ein Hirsch,Ein Fisch,Ein Käfer,,,opentriviaqa
 otq-humanities-326,natur,4,Was für ein Tier ist ein Lippfisch?,Ein Fisch,Eine Ziege,Eine Antilope,Ein Schwein,,,opentriviaqa
 otq-newest-1203,natur,4,Welchen olivgrünen Edelstein nannten die Römer „Abendsmaragd“?,Peridot,Achat,Opal,Aquamarin,,,opentriviaqa
 otq-rated-1093,natur,4,Wie heißen junge männliche und weibliche Pferde?,Hengstfohlen und Stutfohlen,Stute und Hengst,Wallach und Stute,Jährling und Fohlen,,,opentriviaqa
@@ -147,8 +227,10 @@ otq-science-technology-1155,natur,4,"Welches dieser Lebewesen ist heterodont, ha
 otq-science-technology-1156,natur,4,Welches Säugetier hat die meisten Zähne?,Der Spinnerdelfin,Der Seeleopard,Der Dingo,Das Riesengürteltier,,,opentriviaqa
 otq-science-technology-1164,natur,4,Wie lange dauert bei einer Legehenne die Bildung der Eierschale ungefähr?,Etwa 20 Stunden,Etwa 48 Stunden,Etwa 5 Stunden,Unter 2 Stunden,,,opentriviaqa
 otq-science-technology-1519,natur,4,Wem ähnelt die giftige Frucht des Korallenbäumchens (Jerusalemkirsche)?,Einer Kirschtomate,Einer Sauerkirsche,Einer Aprikose,Einer Preiselbeere,,,opentriviaqa
+otq-science-technology-2078,natur,4,Welche Frucht gilt als die Vitamin-C-reichste der Welt?,Kakadu-Pflaume,Zitrone,Kiwi,Hagebutte,,,opentriviaqa
 otq-science-technology-284,natur,4,"Wie nennt man das Wiederauftreten von Merkmalen entfernter Vorfahren, etwa Zehen bei Salamandern?",Atavismus,Biometrie,Mutation,Biota,,,opentriviaqa
 otq-science-technology-638,natur,4,"Was bedeutet der Gattungsname der Königskobra, „Ophiophagus“?",Schlangenfresser,Königliche Schlange,Elefantentöter,Tödliches Reptil,,,opentriviaqa
 otq-science-technology-673,natur,4,Was gab es nach wissenschaftlicher Definition bei den Dinosauriern nicht?,Weder fliegende noch im Meer lebende Arten,Fliegende Arten,Wechselwarme Arten,Im Meer lebende Arten,,,opentriviaqa
 otq-science-technology-772,natur,4,"Wie heißt die Schmerzskala eines Insektenforschers, der sich von fast allen Bienen, Ameisen und Wespen stechen ließ?",Schmidt-Stichschmerzindex,Kardaschow-Skala,Schwan-Skala,Ludwig-Skala,,,opentriviaqa
+otq-world-2335,natur,4,Welcher Bartenwal hat ein weißes Band auf jeder Brustflosse?,Zwergwal,Grönlandwal,Blauwal,Grauwal,,,opentriviaqa
 otq-world-3261,natur,4,Welcher afrikanische Vogel ziert die Wappen des Sudan und Südafrikas?,Sekretär,Bindenfregattvogel,Brillenpinguin,Strauß,,,opentriviaqa

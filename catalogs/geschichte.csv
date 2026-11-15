@@ -11,50 +11,84 @@ ges-0009,geschichte,3,In welchem Jahr wurde die Magna Carta besiegelt?,1215,1066
 ges-0010,geschichte,4,In welchem Jahr fand die Schlacht bei Hastings statt?,1066,1016,1086,1166,,Wilhelm der Eroberer besiegte König Harald II.,mittelalter|england
 ges-0011,geschichte,4,Wie hieß der letzte Kaiser des Weströmischen Reiches?,Romulus Augustulus,Justinian I.,Konstantin XI.,Theodosius I.,,Er wurde 476 von Odoaker abgesetzt.,antike
 ges-0012,geschichte,4,Welcher Pharao ließ die Stadt Achet-Aton (Amarna) errichten?,Echnaton,Tutanchamun,Ramses II.,Cheops,,,antike|ägypten
+otq-general-1850,geschichte,1,In welchem Jahr wütete der Große Brand von London?,1666,1866,1566,1766,,,opentriviaqa
 otq-general-1990,geschichte,1,Welche Schlacht gewann die Sowjetunion 1943 als Wendepunkt des Zweiten Weltkriegs?,Schlacht von Stalingrad,Belagerung von Leningrad,Schlacht um Moskau,Schlacht um Kiew,,,opentriviaqa
 otq-geography-219,geschichte,1,Welcher Entdecker erreichte als Erster den Südpol?,Roald Amundsen,Richard Byrd,Robert Falcon Scott,Ernest Shackleton,,,opentriviaqa
 otq-geography-251,geschichte,1,Welcher frühere Staatschef sprach auf der Plaza de la Revolución in Havanna oft vor über einer Million Menschen?,Fidel Castro,Benito Mussolini,Salvador Allende,Francisco Franco,,,opentriviaqa
+otq-geography-362,geschichte,1,Wer erreichte als Erster den Südpol?,Roald Amundsen,Robert F. Scott,Ernest Shackleton,Robert Peary,,,opentriviaqa
+otq-history-1061,geschichte,1,In welchem Monat fand die Russische Oktoberrevolution (nach neuem Kalender) statt?,November,Oktober,Juni,Februar,,,opentriviaqa
+otq-history-1073,geschichte,1,In welchem Jahr endete das Weströmische Reich?,476,506,458,410,,,opentriviaqa
+otq-history-1216,geschichte,1,"Was begann am 6. Juni 1944, dem „D-Day“?",Die Landung der Alliierten in der Normandie,Die Kapitulation Japans,Die Kapitulation Deutschlands,Der Angriff auf Pearl Harbor,,,opentriviaqa
 otq-history-124,geschichte,1,"In welchem Krieg fanden die Schlachten von El Alamein, Narvik und Kreta statt?",Zweiter Weltkrieg,Erster Weltkrieg,Deutsch-Französischer Krieg,Koreakrieg,,,opentriviaqa
 otq-history-1253,geschichte,1,Welcher Stadtstaat war im Peloponnesischen Krieg der Hauptgegner Athens?,Sparta,Byzanz,Theben,Korinth,,,opentriviaqa
+otq-history-13,geschichte,1,Wie nennt man die Eingliederung Österreichs in das Deutsche Reich 1938?,Anschluss,Ansatz,Abwehr,Ahnentafel,,,opentriviaqa
+otq-history-1328,geschichte,1,Welche Metapher prägte Churchill für die Teilung Europas nach dem Zweiten Weltkrieg?,Der Eiserne Vorhang,Die Berliner Mauer,Der Ostblock,Der Kalte Krieg,,,opentriviaqa
 otq-history-1412,geschichte,1,Was fehlt der Großen Sphinx von Gizeh?,Die Nase,Die Flügel,Der Kopfschmuck,Der Schwanz,,,opentriviaqa
 otq-history-1430,geschichte,1,In welchem Jahrhundert begannen die Französische Revolution und die Unabhängigkeit der USA?,Im 18. Jahrhundert,Im 16. Jahrhundert,Im 17. Jahrhundert,Im 19. Jahrhundert,,,opentriviaqa
+otq-history-1437,geschichte,1,In welchem Jahrhundert ereigneten sich der Große Brand und die Große Pest von London?,17. Jahrhundert,15. Jahrhundert,16. Jahrhundert,18. Jahrhundert,,,opentriviaqa
 otq-history-160,geschichte,1,In welches Land marschierte Deutschland am 1. September 1939 ein?,Polen,Sowjetunion,Österreich,Tschechoslowakei,,,opentriviaqa
 otq-history-2,geschichte,1,"Wie heißt die rund 5.300 Jahre alte Gletschermumie, die 1991 in den Ötztaler Alpen gefunden wurde?",Ötzi,Bigfoot,Yeti,Nessie,,,opentriviaqa
 otq-history-236,geschichte,1,Wie heißt das 1867 erschienene Hauptwerk von Karl Marx?,Das Kapital,Schuld und Sühne,Krieg und Frieden,Der Kommunismus,,,opentriviaqa
 otq-history-255,geschichte,1,Welcher dieser Politiker stand im Zweiten Weltkrieg auf Seiten der Achsenmächte?,Benito Mussolini,Franklin D. Roosevelt,Winston Churchill,Charles de Gaulle,,,opentriviaqa
+otq-history-306,geschichte,1,Welcher griechische Historiker gilt als „Vater der Geschichtsschreibung“?,Herodot,Platon,Thukydides,Isokrates,,,opentriviaqa
 otq-history-31,geschichte,1,"Welcher Herrscher, ein Schüler des Aristoteles, eroberte bis zu seinem Tod mit 32 Jahren ein Weltreich?",Alexander der Große,Dareios,Julius Caesar,Augustus,,,opentriviaqa
+otq-history-386,geschichte,1,Wer bildete mit Pompeius und Crassus das Erste Triumvirat?,Gaius Julius Caesar,Cicero,Octavian,Marcus Antonius,,,opentriviaqa
+otq-history-411,geschichte,1,Von welchem Tier wurden Romulus und Remus der Sage nach gesäugt?,Von einer Wölfin,Von einer Bärin,Von einer Ziege,Von einer Löwin,,,opentriviaqa
 otq-history-53,geschichte,1,Welches als unsinkbar geltende Schiff mit 16 wasserdichten Abteilungen sank auf seiner Jungfernfahrt?,Titanic,Britannic,Andrea Doria,Empress of Ireland,,,opentriviaqa
+otq-history-641,geschichte,1,Wie hieß das Gegenbündnis der Ostblockstaaten zur NATO?,Warschauer Pakt,Pariser Verträge,Rat für gegenseitige Wirtschaftshilfe,Nationale Volksarmee,,,opentriviaqa
 otq-history-642,geschichte,1,In welchem Land entstand die Gewerkschaftsbewegung Solidarność?,Polen,DDR,Tschechoslowakei,Ungarn,,,opentriviaqa
 otq-history-66,geschichte,1,In welchem Jahr begann die Französische Revolution?,1789,1693,1724,1848,,,opentriviaqa
 otq-history-680,geschichte,1,Gegen welches Land wurden die beiden Golfkriege 1991 und 2003 geführt?,Irak,Israel,Iran,Kuwait,,,opentriviaqa
+otq-history-706,geschichte,1,Gegen welches Land richtete sich das „Unternehmen Barbarossa“ 1941?,Sowjetunion,Dänemark,Niederlande,Großbritannien,,,opentriviaqa
 otq-history-71,geschichte,1,Welcher französische König wurde „Sonnenkönig“ genannt?,Ludwig XIV.,Ludwig X.,Karl VII.,Heinrich IV.,,,opentriviaqa
+otq-history-781,geschichte,1,Wo fand die alliierte Landung am D-Day statt?,In der Normandie,In der Bretagne,In Calais,In Belgien,,,opentriviaqa
 otq-history-783,geschichte,1,In welchem Monat 1941 begann der deutsche Überfall auf die Sowjetunion?,Juni,August,März,September,,,opentriviaqa
 otq-history-827,geschichte,1,"Nach welchem Ort, an dem die Athener 490 v. Chr. die Perser besiegten, ist ein Laufwettbewerb benannt?",Marathon,Thermopylen,Salamis,Plataiai,,,opentriviaqa
+otq-history-841,geschichte,1,Wie nahm sich Kleopatra laut antiken Quellen das Leben?,Durch den Biss einer Giftschlange,Mit einem Schwert,Mit einem Giftpfeil,Durch einen Sturz,,,opentriviaqa
+otq-history-915,geschichte,1,Wie hieß das Militärbündnis der Sowjetunion mit den Ostblockstaaten?,Warschauer Pakt,Komintern,Moskauer Vertragsorganisation,Bund sozialistischer Staaten,,,opentriviaqa
+otq-history-950,geschichte,1,In welchem Jahrzehnt zerfiel die Sowjetunion und begann die Massennutzung des Internets?,1990er,2000er,1980er,1970er,,,opentriviaqa
 otq-history-958,geschichte,1,Welcher Krieg forderte mit über 60 Millionen Toten die meisten Opfer aller Zeiten?,Zweiter Weltkrieg,Vietnamkrieg,Napoleonische Kriege,Erster Weltkrieg,,,opentriviaqa
 otq-newest-237,geschichte,1,"Wilhelm Tell, der einen Apfel vom Kopf seines Sohnes schoss, ist Nationalheld welches Landes?",Schweiz,Deutschland,Österreich,Norwegen,,,opentriviaqa
 otq-newest-717,geschichte,1,Welcher englische König wurde „Löwenherz“ genannt?,Richard I.,Richard III.,Richard II.,Heinrich I.,,,opentriviaqa
 otq-people-1192,geschichte,1,Was ist ein Kaiser?,Ein Herrscher über ein Kaiserreich,Ein Herzog,Ein Ritter,Ein Prinz,,,opentriviaqa
+otq-people-1426,geschichte,1,Wer bestieg 1953 mit Tenzing Norgay als Erster den Mount Everest?,Edmund Hillary,George Mallory,Roald Amundsen,Reinhold Messner,,,opentriviaqa
+otq-people-1428,geschichte,1,Welcher spanische Konquistador eroberte das Aztekenreich?,Hernán Cortés,Francisco Pizarro,Giovanni da Verrazzano,Francisco de Orellana,,,opentriviaqa
 otq-people-1433,geschichte,1,Wie oft war Heinrich VIII. von England verheiratet?,Sechsmal,Siebenmal,Fünfmal,Achtmal,,,opentriviaqa
+otq-people-198,geschichte,1,Mit welcher Königin ist Marcus Antonius als berühmtes Paar verbunden?,Kleopatra,Nofretete,Zenobia,Agrippina,,,opentriviaqa
 otq-people-21,geschichte,1,Welches berühmte Gangsterpärchen der 1930er-Jahre bestand aus Bonnie Parker und Clyde Barrow?,Bonnie und Clyde,Sacco und Vanzetti,Romeo und Julia,Mickey und Mallory,,,opentriviaqa
 otq-people-51,geschichte,1,Wer gründete die erste faschistische Partei?,Benito Mussolini,Adolf Hitler,Francisco Franco,Josef Stalin,,,opentriviaqa
 otq-people-67,geschichte,1,"Welcher Politiker sagte: „Frag nicht, was dein Land für dich tun kann – frag, was du für dein Land tun kannst“?",John F. Kennedy,Abraham Lincoln,John Major,Martin Luther King,,,opentriviaqa
 otq-people-78,geschichte,1,"Welcher Seefahrer entdeckte Amerika, als er einen Seeweg nach Indien suchte?",Christoph Kolumbus,Hernán Cortés,Heinrich der Seefahrer,Vasco da Gama,,,opentriviaqa
+otq-people-833,geschichte,1,Aus welchem Land stammte Christoph Kolumbus?,Italien (Genua),Portugal,England,Spanien,,,opentriviaqa
 otq-rated-1182,geschichte,1,Welches römische Bauwerk hieß ursprünglich Flavisches Amphitheater?,Das Kolosseum,Der Venustempel,Das Pantheon,Der Septimius-Severus-Bogen,,,opentriviaqa
 otq-world-1139,geschichte,1,Wie heißt die Stadt Stalingrad heute?,Wolgograd,Kiew,Sankt Petersburg,Nischni Nowgorod,,,opentriviaqa
+otq-world-1263,geschichte,1,An welchem Märztag wurde Julius Caesar ermordet?,15.,17.,13.,1.,,,opentriviaqa
+otq-world-1363,geschichte,1,Wie hieß die Währung Deutschlands bis 2001?,D-Mark,Taler,Gulden,Schilling,,,opentriviaqa
 otq-world-139,geschichte,1,"Welches Land teilten Russland, Preußen und Österreich zwischen 1772 und 1795 unter sich auf?",Polen,Slowakei,Belarus,Ungarn,,,opentriviaqa
 otq-world-1842,geschichte,1,Welches Land wurde im August 1947 von Großbritannien unabhängig?,Indien,China,Malaysia,Sri Lanka,,,opentriviaqa
 otq-world-2609,geschichte,1,Welche Farbe hat die Flagge des Sozialismus?,Rot,"Rot, Weiß und Blau",Rot und Gelb,Blau,,,opentriviaqa
+otq-world-3014,geschichte,1,Welchen Schatz entdeckte Howard Carter 1922?,Das Grab des Tutanchamun,Den Schatz des Priamos,Den Nibelungenschatz,Die Himmelsscheibe von Nebra,,,opentriviaqa
+otq-world-447,geschichte,1,Welche Stadt war die Hauptstadt der Tschechoslowakei?,Prag,Budapest,Brünn,Pressburg (Bratislava),,,opentriviaqa
 otq-world-526,geschichte,1,"Welches Land war Zentrum des Inkareichs, als Pizarro 1532 landete?",Peru,Brasilien,Bolivien,Argentinien,,,opentriviaqa
+otq-world-866,geschichte,1,In welcher Stadt führte Lech Wałęsa den Streik auf der Leninwerft an?,Danzig,Warschau,Krakau,Stettin,,,opentriviaqa
+otq-world-960,geschichte,1,"Welche Stadt war bis 1990 eine westdeutsche Enklave, ganz von der DDR umgeben?",West-Berlin,Leipzig,Dresden,Bonn,,,opentriviaqa
 otq-entertainment-134,geschichte,2,Welche größte und älteste Rennbahn Roms lag zwischen Palatin und Aventin?,Circus Maximus,Circus des Maxentius,Circus des Nero,Circus Flaminius,,,opentriviaqa
 otq-general-1829,geschichte,2,Wann wurde der Euro als Buchgeld eingeführt?,Januar 1999,Januar 1990,Januar 2002,Januar 1994,,,opentriviaqa
 otq-general-2773,geschichte,2,Welche Stadt wurde 1906 von einem schweren Erdbeben mit rund 3.000 Toten zerstört?,San Francisco,Taipeh,Wellington,Tokio,,,opentriviaqa
 otq-general-310,geschichte,2,Welche Nationalität hatte der englische König Wilhelm III. (Wilhelm von Oranien)?,Niederländisch,Französisch,Spanisch,Englisch,,,opentriviaqa
+otq-general-377,geschichte,2,Wie hieß die Währung der Niederlande vor dem Euro?,Gulden,Dinar,Krone,Franken,,,opentriviaqa
 otq-general-707,geschichte,2,Welches Land verehrt den Dichter und Freiheitskämpfer José Martí als größten Nationalhelden?,Kuba,Spanien,Mexiko,Argentinien,,,opentriviaqa
+otq-general-870,geschichte,2,Wer von diesen erhielt NICHT den Friedensnobelpreis?,Papst Johannes Paul II.,Martin Luther King,Nelson Mandela,Jassir Arafat,,,opentriviaqa
 otq-geography-162,geschichte,2,Welches Land hatte den Schriftsteller Václav Havel als ersten Präsidenten?,Tschechien,Ungarn,Polen,Slowakei,,,opentriviaqa
 otq-geography-163,geschichte,2,Welches nordische Land trat als erstes der EG/EU bei?,Dänemark,Schweden,Finnland,Norwegen,,,opentriviaqa
 otq-geography-183,geschichte,2,Welches überwiegend muslimische Land erhielt 1999 in Helsinki den Status als EU-Beitrittskandidat?,Türkei,Israel,Marokko,Syrien,,,opentriviaqa
 otq-geography-227,geschichte,2,Der Rastafari-Glaube verehrt Haile Selassie. Kaiser welchen Landes war er?,Äthiopien,Libyen,Mosambik,Gabun,,,opentriviaqa
 otq-geography-295,geschichte,2,Seit wann ist der Euro als Bargeld offizielle Währung in der Eurozone?,2002,1999,1994,2004,,,opentriviaqa
+otq-geography-672,geschichte,2,Welcher Staat trieb im 19. Jahrhundert die Einigung Deutschlands voran?,Preußen,Österreich,Sachsen,Bayern,,,opentriviaqa
+otq-history-1001,geschichte,2,Was bedeutet der Spitzname des Kaisers Caligula?,Stiefelchen,Kleiner Schild,Kleines Schwert,Kleiner Soldat,,,opentriviaqa
+otq-history-1102,geschichte,2,"Wen meinte Churchill mit den „wenigen“, denen „so viele so viel verdanken“?",Britische Jagdflieger,Britische Generäle,Britische Wissenschaftler,Agenten in Frankreich,,,opentriviaqa
+otq-history-1105,geschichte,2,In welchem Verhältnis stand Katharina die Große zu Peter III.?,Sie war seine Ehefrau,Sie war seine Cousine,Sie war seine Tochter,Sie war seine Schwester,,,opentriviaqa
+otq-history-1106,geschichte,2,Welcher englische König soll seine Neffen im Tower von London eingesperrt haben?,Richard III.,Heinrich VIII.,Wilhelm der Eroberer,Eduard IV.,,,opentriviaqa
 otq-history-1110,geschichte,2,Welcher Herrscher machte aus dem russischen Zarentum das Russische Kaiserreich?,Peter der Große,Alexander I.,Paul I.,Konstantin I.,,,opentriviaqa
 otq-history-1125,geschichte,2,Was bezeichnet der japanische Begriff Seppuku?,Den rituellen Selbstmord der Samurai,Einen Treueschwur,Das Schweigen vor der Schlacht,Eine Waffe,,,opentriviaqa
 otq-history-1226,geschichte,2,Welcher Grieche schrieb die „Historien“ und gilt als „Vater der Geschichtsschreibung“?,Herodot,Diodor,Xenophon,Thukydides,,,opentriviaqa
@@ -71,24 +105,36 @@ otq-history-293,geschichte,2,Mit welchem Gift soll Napoleon einer Theorie zufolg
 otq-history-350,geschichte,2,Welches Passagierschiff wurde am 7. Mai 1915 vor Irland torpediert und sank in 18 Minuten?,Lusitania,Andrea Doria,Britannic,Titanic,,,opentriviaqa
 otq-history-404,geschichte,2,Welche Kultur in Südmesopotamien gilt als älteste Hochkultur der Welt?,Sumer,Minoer,Zapoteken,Phönizier,,,opentriviaqa
 otq-history-406,geschichte,2,Auf welcher Insel entstand die minoische Kultur?,Kreta,Zypern,Korsika,Korfu,,,opentriviaqa
+otq-history-412,geschichte,2,Welcher Pharao ließ den Tempel von Abu Simbel mit vier Kolossalstatuen erbauen?,Ramses II.,Mentuhotep II.,Echnaton,Tutanchamun,,,opentriviaqa
 otq-history-419,geschichte,2,In welcher russischen Stadt nahmen Terroristen 2004 Hunderte Schulkinder als Geiseln?,Beslan,Tschita,Rostow,Kirischi,,,opentriviaqa
 otq-history-482,geschichte,2,Welche Schlacht gilt als Napoleons Meisterstück?,Austerlitz,Friedland,Jena,Waterloo,,,opentriviaqa
+otq-history-501,geschichte,2,Welche Armee führte General Friedrich Paulus 1942/43?,Die 6. Armee in Stalingrad,Das Afrikakorps,Die Besatzung der Niederlande,Die Besatzung von Paris,,,opentriviaqa
 otq-history-515,geschichte,2,Welche Staatsform hatte Frankreich bis zur Französischen Revolution?,Absolute Monarchie,Diktatur,Konstitutionelle Monarchie,Republik,,,opentriviaqa
 otq-history-628,geschichte,2,Wie viele Jahre lagen zwischen dem Ende des Ersten und dem Beginn des Zweiten Weltkriegs?,21,25,20,23,,,opentriviaqa
 otq-history-630,geschichte,2,Wie wird die Anfangsphase des Zweiten Weltkriegs im Westen bis Mai 1940 auch genannt?,Sitzkrieg,Blitzkrieg,Stellungskrieg,Winterkrieg,,,opentriviaqa
 otq-history-634,geschichte,2,Welche Spitznamen hatten die 1945 über Hiroshima und Nagasaki abgeworfenen Atombomben?,Little Boy und Fat Man,Bomb 1 und Bomb 2,Big Boy und Fat Lady,Sandman und Assassin,,,opentriviaqa
+otq-history-646,geschichte,2,Welcher dieser Diktatoren starb zuletzt?,Francisco Franco,Josef Stalin,Benito Mussolini,Adolf Hitler,,,opentriviaqa
+otq-history-650,geschichte,2,In welchem Land wurde Che Guevara 1967 getötet?,Bolivien,Kuba,Argentinien,Kongo,,,opentriviaqa
 otq-history-660,geschichte,2,"Welche Stadt war Russlands Hauptstadt, bevor Peter der Große Sankt Petersburg gründete?",Moskau,Odessa,Kiew,Nowgorod,,,opentriviaqa
 otq-history-676,geschichte,2,Welche Mächte kämpften in den Punischen Kriegen gegeneinander?,Rom und Karthago,Athen und Sparta,Makedonien und Ägypten,Griechenland und Persien,,,opentriviaqa
 otq-history-679,geschichte,2,Wie heißen die Kriege im England des 15. Jahrhunderts zwischen den Häusern Lancaster und York?,Rosenkriege,Tulpenkriege,Sonnenblumenkriege,Lilienkriege,,,opentriviaqa
 otq-history-724,geschichte,2,Welcher chinesische Stratege schrieb „Die Kunst des Krieges“?,Sunzi (Sun Tzu),Sun Bin,Mao Zedong,Dschingis Khan,,,opentriviaqa
+otq-history-726,geschichte,2,Welcher sowjetische Marschall führte die Rote Armee u. a. bei Stalingrad und Kursk?,Georgi Schukow,Wassili Blücher,Iwan Konew,Walther Model,,,opentriviaqa
 otq-history-809,geschichte,2,Wie lange bestand das „Dritte Reich“?,12 Jahre,14 Jahre,6 Jahre,20 Jahre,,,opentriviaqa
+otq-history-812,geschichte,2,Welches dieser Länder war im Zweiten Weltkrieg NICHT neutral?,Griechenland,Portugal,Schweden,Schweiz,,,opentriviaqa
 otq-history-815,geschichte,2,Wer führte im Zweiten Weltkrieg das Vichy-Regime in Frankreich?,Marschall Pétain,Charles de Gaulle,Pierre Laval,Maxime Weygand,,,opentriviaqa
 otq-history-832,geschichte,2,Zu welcher Dynastie gehörte Kleopatra VII.?,Ptolemäer,Julisch-claudische Dynastie,Seleukiden,Flavier,,,opentriviaqa
 otq-history-843,geschichte,2,Nach wem ist der gregorianische Kalender benannt?,Papst Gregor XIII.,Gregor von Tours,Gregor Mendel,Papst Gregor dem Großen,,,opentriviaqa
+otq-history-875,geschichte,2,Wie hieß das britische Königshaus vor der Umbenennung in „Windsor“ 1917?,Sachsen-Coburg und Gotha,Hannover,Tudor,Stuart,,,opentriviaqa
 otq-history-92,geschichte,2,"Wie nannten die Hippies die Institutionen und Strukturen, die sie ablehnten?",Das Establishment,Die Macht,Das Regime,Die Elite,,,opentriviaqa
 otq-history-949,geschichte,2,In welchem Jahrzehnt starb Stalin und wurde die Europäische Wirtschaftsgemeinschaft gegründet?,1950er,1990er,1980er,1960er,,,opentriviaqa
 otq-newest-2315,geschichte,2,Welche Kultur soll laut dem Film „2012“ das Weltende für dieses Jahr vorhergesagt haben?,Die Maya,Die Ägypter,Die Inka,Die Azteken,,,opentriviaqa
 otq-people-1166,geschichte,2,Welcher Europäer umsegelte 1488 als Erster das Kap der Guten Hoffnung?,Bartolomeu Dias,Amerigo Vespucci,Christoph Kolumbus,Vasco da Gama,,,opentriviaqa
+otq-people-1273,geschichte,2,Welcher Kaiser einte China 221 v. Chr. erstmals?,Qin Shi Huang,Cixi,Zhu Yuanzhang,Kublai Khan,,,opentriviaqa
+otq-people-1457,geschichte,2,Welcher indische Freiheitskämpfer wurde 1948 ermordet?,Mahatma Gandhi,Jawaharlal Nehru,Subhas Chandra Bose,Bhagat Singh,,,opentriviaqa
+otq-people-1577,geschichte,2,Welcher italienische Freiheitskämpfer wurde „Held zweier Welten“ genannt?,Giuseppe Garibaldi,Camillo Cavour,Benito Mussolini,Giuseppe Mazzini,,,opentriviaqa
+otq-people-2232,geschichte,2,In welchem Jahrhundert lebte Platon?,5./4. Jahrhundert v. Chr.,7./6. Jahrhundert v. Chr.,2./1. Jahrhundert v. Chr.,1. Jahrhundert n. Chr.,,,opentriviaqa
+otq-people-2363,geschichte,2,Welcher Engländer umsegelte als erster seines Landes die Welt und kehrte 1580 zurück?,Francis Drake,Henry Hudson,James Cook,John Cabot,,,opentriviaqa
 otq-people-379,geschichte,2,Wer wurde nach der Ermordung Caligulas römischer Kaiser?,Claudius,Nero,Galba,Vespasian,,,opentriviaqa
 otq-people-411,geschichte,2,Wer war der Vater Karls des Großen?,Pippin der Jüngere,Heinrich VIII.,Ludwig der Fromme,Karl der Kahle,,,opentriviaqa
 otq-people-76,geschichte,2,Welcher Entdecker fand als Erster den Seeweg von Europa nach Indien?,Vasco da Gama,Gaspar Corte-Real,Heinrich der Seefahrer,Marco Polo,,,opentriviaqa
@@ -97,43 +143,57 @@ otq-rated-1497,geschichte,2,In welchem Monat wurde in der Sowjetunion die Oktobe
 otq-rated-1588,geschichte,2,Welcher babylonische Herrscher ließ eine der ältesten schriftlichen Gesetzessammlungen aufstellen?,Hammurabi,Nabonid,Kyros,Nebukadnezar,,,opentriviaqa
 otq-religion-faith-269,geschichte,2,Welcher israelische General trug wegen eines verlorenen Auges eine Augenklappe?,Mosche Dajan,Jitzchak Rabin,Ariel Scharon,Mosche Scharet,,,opentriviaqa
 otq-science-technology-1440,geschichte,2,Welche Organisation erhielt 1999 den Friedensnobelpreis für ihre medizinische Nothilfe?,Ärzte ohne Grenzen,Amnesty International,UNESCO,Internationales Rotes Kreuz,,,opentriviaqa
+otq-science-technology-713,geschichte,2,Wie heißt der 1868 in Frankreich entdeckte frühe Homo sapiens Europas?,Cro-Magnon-Mensch,Neandertaler,Australopithecus,Peking-Mensch,,,opentriviaqa
 otq-world-101,geschichte,2,Vor wie vielen Jahren wurde die Cheops-Pyramide ungefähr erbaut?,Vor etwa 4500 Jahren,Vor etwa 1000 Jahren,Vor etwa 2000 Jahren,Vor etwa 7000 Jahren,,,opentriviaqa
 otq-world-1137,geschichte,2,Wie hieß Kaliningrad früher?,Königsberg,Danzig,Wolgograd,Sankt Petersburg,,,opentriviaqa
+otq-world-1360,geschichte,2,Welcher Krieg begann und endete im September und dauerte sechs Jahre?,Der Zweite Weltkrieg,Der Erste Weltkrieg,Der Vietnamkrieg,Der Koreakrieg,,,opentriviaqa
 otq-world-1386,geschichte,2,Wie alt sind die ältesten Teile der Chinesischen Mauer?,Über 2.000 Jahre,Über 6.000 Jahre,Über 500 Jahre,Etwa 300 Jahre,,,opentriviaqa
 otq-world-1419,geschichte,2,In welchem südamerikanischen Land wurde der NS-Verbrecher Adolf Eichmann gefasst?,Argentinien,Uruguay,Brasilien,Paraguay,,,opentriviaqa
+otq-world-1445,geschichte,2,In welchem Monat 2005 erschütterten Bombenanschläge die Londoner U-Bahn?,Juli,Dezember,Januar,Oktober,,,opentriviaqa
+otq-world-2762,geschichte,2,Welches Ereignis vom 6. August 1945 trug den Codenamen „Little Boy“?,Der Atombombenabwurf auf Hiroshima,Die Landung in der Normandie,Der Atombombenabwurf auf Nagasaki,Die Befreiung von Paris,,,opentriviaqa
 otq-world-325,geschichte,2,"Wo stand die Zeusstatue des Phidias, eines der sieben Weltwunder der Antike?",In Olympia,In Athen,In Sparta,In Korinth,,,opentriviaqa
 otq-world-364,geschichte,2,Welches Schiff des Kolumbus lief an Weihnachten 1492 vor Hispaniola auf Grund?,Santa María,Pinta,Santa Clara,Niña,,,opentriviaqa
+otq-world-3962,geschichte,2,Welcher norwegische Polarforscher starb 1928 bei einem Rettungsflug in der Barentssee?,Roald Amundsen,Robert Falcon Scott,Fridtjof Nansen,Frederick Cook,,,opentriviaqa
 otq-world-4104,geschichte,2,In welchem Jahr stellte sich in Peking ein unbekannter Mann einer Kolonne von Panzern entgegen („Tank Man“)?,1989,1996,2001,1999,,,opentriviaqa
 otq-for-kids-234,geschichte,3,Welche Seeschlacht gilt als Wendepunkt des Pazifikkriegs im Zweiten Weltkrieg?,Midway,Leyte,Okinawa,Singapur,,,opentriviaqa
+otq-general-1467,geschichte,3,Welches Land schaffte als erstes seine Armee per Verfassung ab?,Costa Rica,Gabun,Togo,Island,,,opentriviaqa
 otq-general-167,geschichte,3,Wo nahm die Pestpandemie des 14. Jahrhunderts ihren Ausgang?,In Zentralasien,In Italien,In Frankreich,In Skandinavien,,,opentriviaqa
+otq-general-1818,geschichte,3,Wie nennt man den Zug burischer Siedler ab 1835 ins Innere Südafrikas?,Großer Treck,Marsch der Zehntausend,Zulukrieg,Burenkrieg,,,opentriviaqa
 otq-general-185,geschichte,3,Wie hießen die Provinzen des Perserreichs?,Satrapien,Larsa,Uruk,Assur,,,opentriviaqa
 otq-general-2014,geschichte,3,Welcher dieser Machthaber wurde NICHT „Generalissimus“ genannt?,Adolf Hitler,Augusto Pinochet,Kim Il-sung,Chiang Kai-shek,,,opentriviaqa
 otq-general-2455,geschichte,3,"Vor welchen Tieren sollen Napoleon, Mussolini und Julius Caesar Angst gehabt haben?",Vor Katzen,Vor Hunden,Vor Pferden,Vor Mäusen,,,opentriviaqa
+otq-general-254,geschichte,3,"An welchem Tag ereignete sich der „Schwarze Montag“, der größte Tagesverlust der Börsengeschichte?",19. Oktober 1987,22. September 1964,8. Dezember 1990,24. Oktober 1929,,,opentriviaqa
 otq-general-2727,geschichte,3,Wer gilt als erster Premierminister Großbritanniens?,Robert Walpole,William Gladstone,William Pitt der Jüngere,Benjamin Disraeli,,,opentriviaqa
 otq-general-2744,geschichte,3,Welches Giftgas setzte die Aum-Sekte 1995 in der Tokioter U-Bahn frei?,Sarin,Strychnin,Schwefeltrioxid,Natriumcyanid,,,opentriviaqa
 otq-general-2906,geschichte,3,Wer wurde als erster Herrscher zum Zaren von Russland gekrönt?,Iwan der Schreckliche,Nikolaus I.,Peter der Große,Michail Romanow,,,opentriviaqa
 otq-general-61,geschichte,3,Welche Parteien verwenden international häufig die Farbe Blau?,Konservative Parteien,Arbeiterparteien,Grüne Parteien,Kommunistische Parteien,,,opentriviaqa
 otq-general-610,geschichte,3,Wie starb der römische Kaiser Caligula?,Er wurde ermordet,Eines natürlichen Todes,Durch Selbstmord,Durch Gift,,,opentriviaqa
 otq-general-628,geschichte,3,Präsident welches Landes wurde Kurt Waldheim trotz Enthüllungen über seine NS-Vergangenheit?,Österreich,Deutschland,Schweiz,Schweden,,,opentriviaqa
+otq-general-80,geschichte,3,Wie viele Punkte umfasste Woodrow Wilsons Friedensprogramm von 1918?,14,12,10,20,,,opentriviaqa
 otq-general-91,geschichte,3,Welches japanische Schlachtschiff wurde 1945 bei der Schlacht um Okinawa auf eine Selbstmordmission geschickt?,Yamato,Musashi,Nagato,Mikasa,,,opentriviaqa
 otq-geography-222,geschichte,3,An welchem Meer lag das antike Troja?,An der Ägäis,Am Schwarzen Meer,Am Ionischen Meer,An der Adria,,,opentriviaqa
+otq-geography-288,geschichte,3,Wann trat Irland der Europäischen Gemeinschaft bei?,1973,1995,1957,1986,,,opentriviaqa
 otq-geography-358,geschichte,3,Wer gilt (umstritten) als erster Mensch am Nordpol (1909)?,Robert Peary,Vitus Bering,Roald Amundsen,Robert Falcon Scott,,,opentriviaqa
 otq-geography-42,geschichte,3,In welchem Land liegen die Höhle von Chauvet mit ihren steinzeitlichen Malereien?,Frankreich,Niederlande,Spanien,Belgien,,,opentriviaqa
 otq-geography-604,geschichte,3,Von welchem Land wurde Papua-Neuguinea 1975 unabhängig?,Australien,Indonesien,Neuseeland,Vereinigtes Königreich,,,opentriviaqa
 otq-geography-675,geschichte,3,Welche zwei Länder bildeten im 16. Jahrhundert die „Republik beider Nationen“?,Polen und Litauen,Schweden und Dänemark,Russland und Ukraine,Österreich und Ungarn,,,opentriviaqa
 otq-history-1007,geschichte,3,Welche Luftfahrzeuge dienten im Ersten Weltkrieg vor allem der Aufklärung über Nord- und Ostsee?,Zeppeline,Jagdflugzeuge,Strategische Bomber,Spionageballons,,,opentriviaqa
 otq-history-1069,geschichte,3,Wer war Ephialtes in der Schlacht bei den Thermopylen?,Ein griechischer Verräter,Ein griechischer Held,Ein persischer Held,Ein persischer Verräter,,,opentriviaqa
+otq-history-1127,geschichte,3,Welche Lehre prägte die Kultur der japanischen Samurai stark?,Zen-Buddhismus,Jainismus,Sufismus,Zoroastrismus,,,opentriviaqa
 otq-history-1139,geschichte,3,Wie lange dauerte die Schlacht am Antietam im Amerikanischen Bürgerkrieg?,Einen Tag,Sieben Tage,Fünf Tage,Drei Tage,,,opentriviaqa
 otq-history-1179,geschichte,3,In welchem Jahr wurde das Harvard College gegründet?,1636,1790,1802,1701,,,opentriviaqa
 otq-history-121,geschichte,3,"In welchem Krieg fanden die Schlachten von Ludford Bridge, St Albans und Blore Heath statt?",Rosenkriege,Normannische Eroberung,Hundertjähriger Krieg,Schwabenkrieg,,,opentriviaqa
 otq-history-1254,geschichte,3,In welcher Schlacht besiegten die Schotten 1314 entscheidend die Engländer?,Schlacht von Bannockburn,Schlacht von Falkirk,Schlacht von Culloden,Schlacht von Inverness,,,opentriviaqa
 otq-history-1255,geschichte,3,Bei welchem Ort endete 1954 der Indochinakrieg mit einer schweren französischen Niederlage?,Điện Biên Phủ,Hanoi,Huế,Khe Sanh,,,opentriviaqa
 otq-history-1263,geschichte,3,Wo hielt Joseph Goebbels am 18. Februar 1943 seine „Sportpalastrede“?,Im Berliner Sportpalast,Am Brandenburger Tor,Im Berliner Dom,Im Reichstag,,,opentriviaqa
+otq-history-1345,geschichte,3,Welcher Krieg endete 1842 mit der Öffnung von fünf chinesischen Häfen für den Handel?,Der Erste Opiumkrieg,Der Boxeraufstand,Der Koreakrieg,Der Taiping-Aufstand,,,opentriviaqa
 otq-history-1373,geschichte,3,Was war das Ziel der Operation Husky 1943?,Die Eroberung Siziliens,Die Bombardierung von Monte Cassino,Die Landung bei Anzio,Der Sieg in Nordafrika,,,opentriviaqa
 otq-history-1408,geschichte,3,Wie lange dauerte der Bau der Cheops-Pyramide nach Schätzungen?,Etwa 20 Jahre,Über 100 Jahre,Etwa 5 Jahre,Etwa 60 Jahre,,,opentriviaqa
 otq-history-17,geschichte,3,"Welcher Kreuzzug wurde von Philipp II. von Frankreich, Richard Löwenherz und Friedrich Barbarossa angeführt?",Dritter Kreuzzug,Kinderkreuzzug,Albigenserkreuzzug,Vierter Kreuzzug,,,opentriviaqa
 otq-history-198,geschichte,3,Wer gilt als Anführer des Aufstands im Warschauer Ghetto 1943?,Mordechaj Anielewicz,Chaim Rumkowski,Marek Edelman,Hilary Minc,,,opentriviaqa
 otq-history-221,geschichte,3,Welcher Pharao einte der Überlieferung nach Ober- und Unterägypten?,Menes,Thutmosis III.,Chephren,Imhotep,,,opentriviaqa
+otq-history-261,geschichte,3,Welcher französische General nahm im August 1944 die Kapitulation der Deutschen in Paris entgegen?,Philippe Leclerc,François Darlan,Philippe Pétain,Maxime Weygand,,,opentriviaqa
+otq-history-315,geschichte,3,In welchem Jahr fand in London die erste Weltausstellung („Great Exhibition“) statt?,1851,1900,1862,1873,,,opentriviaqa
 otq-history-36,geschichte,3,Welcher britische General schlug Rommel bei El Alamein?,Bernard Montgomery,Dwight D. Eisenhower,Harold Alexander,Archibald Wavell,,,opentriviaqa
 otq-history-410,geschichte,3,"Wie heißt die Hochkultur, deren reife Phase „Harappa-Kultur“ genannt wird?",Indus-Kultur,Altes China,Mali-Reich,Kanaan,,,opentriviaqa
 otq-history-438,geschichte,3,Welchen Aufstand führte der ehemalige Sklave Toussaint Louverture an?,Die Haitianische Revolution,Den Sandinisten-Aufstand,Einen Aufstand auf Martinique,Eine Revolte auf der Teufelsinsel,,,opentriviaqa
@@ -141,75 +201,113 @@ otq-history-464,geschichte,3,Wie viele Passagiere brachte die Mayflower 1620 üb
 otq-history-491,geschichte,3,"Welches Land traf 1991 ein Zyklon, der mindestens 138.000 Menschen das Leben kostete?",Bangladesch,China,Sri Lanka,Indonesien,,,opentriviaqa
 otq-history-494,geschichte,3,Wie hieß die alliierte Landung in Marokko und Algerien 1942?,Operation Torch,Operation Overlord,Operation Husky,Operation Dragoon,,,opentriviaqa
 otq-history-495,geschichte,3,Zu welchem Rang beförderte Hitler Friedrich Paulus kurz vor der Kapitulation in Stalingrad?,Generalfeldmarschall,Reichsmarschall,Großadmiral,Generaloberst,,,opentriviaqa
+otq-history-498,geschichte,3,An welchem Tag wurde Paris im Zweiten Weltkrieg befreit?,25. August 1944,11. August 1944,19. August 1944,6. Juni 1944,,,opentriviaqa
+otq-history-575,geschichte,3,Welche Sprache war im mittelalterlichen Heiligen Römischen Reich NICHT verbreitet?,Spanisch,Tschechisch,Deutsch,Italienisch,,,opentriviaqa
 otq-history-621,geschichte,3,Wer wurde 1983 auf dem Flughafen von Manila erschossen?,Benigno Aquino Jr.,Malcolm X,Benazir Bhutto,Jimmy Carter,,,opentriviaqa
 otq-history-649,geschichte,3,Welche deutsche Maschinenpistole des Zweiten Weltkriegs wurde im Ausland oft „Schmeisser“ genannt?,MP 40,MG 42,StG 44,MG 34,,,opentriviaqa
+otq-history-742,geschichte,3,"Was bedeutet der Titel „Shi Huangdi“, den Chinas Einiger 221 v. Chr. annahm?",Erster Kaiser,Der Eroberer,Der Mächtigste,Der Einiger,,,opentriviaqa
 otq-history-813,geschichte,3,Wer war Geli Raubal?,Eine Nichte Hitlers,Eine Sekretärin Hitlers,Eine Agentin,Hitlers Schwester,,,opentriviaqa
 otq-history-851,geschichte,3,Wann hatte die Woche zehn Tage?,Während der Französischen Revolution,Bei den alten Balten,In der Oktoberrevolution,Im Maya-Reich,,,opentriviaqa
 otq-history-872,geschichte,3,Welche war die letzte erfolgreiche Invasion Englands?,Die niederländische 1688,Die spanische 1588,Die deutsche 1940,Die normannische 1066,,,opentriviaqa
+otq-history-889,geschichte,3,Mit welchem Westgotenkönig verbündeten sich die Römer 451 gegen Attila?,Theoderich I.,Alarich I.,Geiserich,Odoaker,,,opentriviaqa
 otq-history-890,geschichte,3,Auf dem Gebiet welches heutigen Landes lag Attilas Hauptsitz?,Ungarn,Griechenland,Spanien,Bulgarien,,,opentriviaqa
+otq-history-907,geschichte,3,Welches Land geriet nach dem Zweiten Weltkrieg NICHT unter sowjetische Vorherrschaft?,Jugoslawien,Rumänien,Tschechoslowakei,Polen,,,opentriviaqa
 otq-history-918,geschichte,3,Wie nennt man die Phase der Entspannung zwischen der Sowjetunion und dem Westen Mitte der 1950er-Jahre?,Tauwetter,Zeitalter der Vernunft,Détente,Goldene Jahre,,,opentriviaqa
 otq-history-925,geschichte,3,An welcher Universität wurde Joseph Goebbels promoviert?,Heidelberg,Basel,Berlin,Rostock,,,opentriviaqa
+otq-history-955,geschichte,3,In welchem Jahrzehnt gab es die Ölkrise und kamen die ersten Mikrocomputer auf?,1970er,1960er,1980er,1990er,,,opentriviaqa
 otq-history-956,geschichte,3,In welchem Jahrzehnt wurde mit dem Bau des Panamakanals begonnen und das Grammofon populär?,1900er-Jahre,1930er-Jahre,1940er-Jahre,1920er-Jahre,,,opentriviaqa
 otq-humanities-249,geschichte,3,Wo begegnet man einem Halbkettenfahrzeug am ehesten?,Beim Militär,Im Straßenverkehr,Im Fitnessstudio,Im Flugzeug,,,opentriviaqa
 otq-humanities-467,geschichte,3,Welche polnische Stadt ist eng mit der Sage vom Drachen am Wawel verbunden?,Krakau,Warschau,Posen,Thorn,,,opentriviaqa
+otq-newest-1182,geschichte,3,Welcher Pharao war der Sohn von Sethos I.?,Ramses II.,Thutmosis I.,Ramses I.,Thutmosis II.,,,opentriviaqa
 otq-newest-1340,geschichte,3,"Welchen Beruf hatte Klaus Fuchs, der als Spion für die Sowjetunion verurteilt wurde?",Theoretischer Physiker,Rechtsanwalt,Geheimdienstoffizier,Arzt,,,opentriviaqa
+otq-newest-508,geschichte,3,Welcher römische Kaiser ließ angeblich Schnee aus den Bergen holen und mit Früchten servieren?,Nero,Vespasian,Caligula,Augustus,,,opentriviaqa
 otq-people-1049,geschichte,3,Welches Ereignis soll Katharina von Medici angestiftet haben?,Die Bartholomäusnacht,Den Sturm auf die Bastille,Den Hundertjährigen Krieg,Den Thermidor,,,opentriviaqa
 otq-people-1275,geschichte,3,Welcher englische Herrscher ist der einzige mit dem Beinamen „der Große“?,Alfred,Elisabeth I.,Heinrich VIII.,Victoria,,,opentriviaqa
 otq-people-1280,geschichte,3,Welcher Herrscher regierte das flächenmäßig größte Reich?,Georg V. von Großbritannien,Kublai Khan,Karl III. von Spanien,Alexander II. von Russland,,,opentriviaqa
 otq-people-129,geschichte,3,Welcher Diktator regierte Spanien von 1939 bis 1975?,Francisco Franco,António de Oliveira Salazar,Benito Mussolini,Miguel Primo de Rivera,,,opentriviaqa
 otq-people-1290,geschichte,3,Wen ließ Idi Amin 1972 aus Uganda ausweisen?,Die asiatische Minderheit,Die Briten,Die Araber,Die Libyer,,,opentriviaqa
+otq-people-1735,geschichte,3,Welcher schottische Freibeuter soll einen großen Schatz versteckt haben?,William Kidd,Henry Morgan,Francis Drake,Edward Teach,,,opentriviaqa
 otq-people-1996,geschichte,3,In welchem Jahr heiratete Marie Antoinette den französischen Thronfolger?,1770,1789,1793,1755,,,opentriviaqa
+otq-people-382,geschichte,3,Unter welchem Kaiser wurde das Christentum 380 Staatsreligion im Römischen Reich?,Theodosius I.,Valentinian III.,Konstantin I.,Licinius,,,opentriviaqa
+otq-people-413,geschichte,3,Philipp V. war 1700 der erste spanische König aus welchem Haus?,Bourbon,Savoyen,Bonaparte,Habsburg,,,opentriviaqa
+otq-people-756,geschichte,3,In welchem Verhältnis stand Lord Mountbatten zu Prinz Philip?,Er war sein Onkel,Er war sein Großvater,Er war sein Bruder,Er war sein Schwiegervater,,,opentriviaqa
 otq-people-852,geschichte,3,In welchem Jahr bestieg Königin Beatrix den niederländischen Thron?,1980,1985,1990,1973,,,opentriviaqa
 otq-people-856,geschichte,3,Wie viele Söhne bekam Königin Beatrix der Niederlande?,Drei,Fünf,Zwei,Vier,,,opentriviaqa
+otq-rated-1102,geschichte,3,Über welches Land griff Italien im Oktober 1940 Griechenland an?,Albanien,Zypern,Türkei,Bulgarien,,,opentriviaqa
+otq-rated-1496,geschichte,3,Wie lautete der eigentliche erste Vorname von König Georg VI.?,Albert,Edward,Henry,Charles,,,opentriviaqa
 otq-rated-1585,geschichte,3,Unter welchem Herrscher erreichte das Perserreich seine größte Ausdehnung?,Dareios I.,Xerxes I.,Kambyses II.,Kyros II.,,,opentriviaqa
+otq-rated-481,geschichte,3,Wie nennt man den Krieg zwischen Irak und Iran ab 1980 auch?,Erster Golfkrieg,Dritter Golfkrieg,Afghanistankrieg,Zweiter Golfkrieg,,,opentriviaqa
 otq-religion-faith-236,geschichte,3,Wann eroberte das islamische Kalifat Jerusalem?,638,1500,340,1040,,,opentriviaqa
+otq-religion-faith-83,geschichte,3,In welchem Jahr wurde Haiti nach der Revolution unabhängig?,1804,1784,1754,1854,,,opentriviaqa
 otq-science-technology-1767,geschichte,3,In welchem Land wurde nach archäologischen Funden das erste echte Glas hergestellt?,In Ägypten (bzw. Mesopotamien),In Japan,In China,In Indien,,,opentriviaqa
 otq-world-1135,geschichte,3,Welche europäische Hauptstadt hieß früher Reval?,Tallinn,Valletta,Tirana,Riga,,,opentriviaqa
 otq-world-143,geschichte,3,"Welches Land wurde 22 Jahre lang von Haiti beherrscht, bevor es 1844 unabhängig wurde?",Dominikanische Republik,Kuba,Puerto Rico,Costa Rica,,,opentriviaqa
 otq-world-1632,geschichte,3,Welches Gebäude in Bethlehem wurde 2002 fünf Wochen lang von israelischen Truppen belagert?,Die Geburtskirche,Die Universität Bethlehem,Die Salomonischen Teiche,Die Milchgrotte,,,opentriviaqa
+otq-world-18,geschichte,3,Welches Land erhielt 1955 durch einen Staatsvertrag seine volle Unabhängigkeit zurück?,Österreich,Belgien,Dänemark,Ungarn,,,opentriviaqa
 otq-world-1839,geschichte,3,Wie viele Staaten unterzeichneten 1945 die Charta der Vereinten Nationen (Gründungsmitglieder)?,51,57,100,61,,,opentriviaqa
 otq-world-1983,geschichte,3,Über welches Land war der niederländische König bis 1890 zugleich Staatsoberhaupt?,Luxemburg,Indonesien,Aruba,Belgien,,,opentriviaqa
 otq-world-2177,geschichte,3,Welche Stadt war NIE Hauptstadt Polens?,Danzig,Krakau,Posen,Warschau,,,opentriviaqa
+otq-world-3148,geschichte,3,Für welches Reich war Konstantinopel NIE Hauptstadt?,Mongolenreich,Osmanisches Reich,Oströmisches Reich,Lateinisches Kaiserreich,,,opentriviaqa
+otq-world-3954,geschichte,3,Welches afrikanische Land wurde am 1. Oktober 1960 von Großbritannien unabhängig?,Nigeria,Südafrika,Ghana,Kenia,,,opentriviaqa
+otq-world-4113,geschichte,3,Welche beiden Staaten sind die „Zwei“ im Zwei-plus-Vier-Vertrag?,DDR und Bundesrepublik Deutschland,Polen und Ukraine,Lettland und Litauen,Österreich und Schweiz,,,opentriviaqa
 otq-world-467,geschichte,3,In welchem Land verbot das Parlament 1644 Weihnachtsfeiern?,England,Frankreich,Deutschland,Schottland,,,opentriviaqa
+otq-world-99,geschichte,3,In welchem dieser heutigen Länder stand KEINES der sieben antiken Weltwunder?,Syrien,Irak,Ägypten,Türkei,,,opentriviaqa
+otq-general-1117,geschichte,4,Zur Geschichte welches Landes gehört die Jōmon-Zeit?,Japan,Griechenland,Brasilien,Ägypten,,,opentriviaqa
 otq-general-1383,geschichte,4,"Wie nannte Marco Polo die Hauptstadt Chinas, das heutige Peking?",Khanbaliq (Cambaluc),Kanton,Nanking,Xanadu,,,opentriviaqa
 otq-general-14,geschichte,4,Welcher spätantike Historiker erwähnte als Erster das finno-ugrische Volk der Merja?,Jordanes,Eusebius,Priskos,Prokop,,,opentriviaqa
+otq-general-1569,geschichte,4,Wer war der Erste Offizier der Titanic?,William Murdoch,Charles Lightoller,Benjamin Guggenheim,John Jacob Astor,,,opentriviaqa
 otq-general-1577,geschichte,4,Zur Eroberung welches Landes wurde 1831 die Fremdenlegion gegründet?,Algerien,Marokko,Tunesien,Vietnam,,,opentriviaqa
+otq-general-1851,geschichte,4,In welcher chinesischen Stadt starben 1845 über 1600 Menschen bei einem Brand?,Kanton (Guangzhou),Hongkong,Peking,Shanghai,,,opentriviaqa
 otq-general-2238,geschichte,4,Für wen galt Rosa zwischen den 1920er- und 1940er-Jahren in westlichen Ländern als passende Farbe?,Für Jungen,Für Babys,Für junge Frauen,Für die Oberschicht,,,opentriviaqa
 otq-general-226,geschichte,4,Auf welchen berühmten Schwindel fiel Anfang des 20. Jahrhunderts sogar Arthur Conan Doyle herein?,Die Feen von Cottingley,Das Irrlicht von Wales,Der Spuk von Amherst,Der Geist der Cock Lane,,,opentriviaqa
+otq-general-2263,geschichte,4,Was verursachte 1985 den Absturz des Air-India-Flugs 182 mit 329 Toten?,Eine Bombe an Bord,Ein Höhenmessfehler,Ein Herzinfarkt des Piloten,Ein Triebwerksschaden,,,opentriviaqa
 otq-general-269,geschichte,4,In welchem Zeitraum herrschte die „Pax Romana“ ungefähr?,27 v. Chr. bis 180 n. Chr.,33 bis 180 n. Chr.,180 bis 436 n. Chr.,145 bis 254 n. Chr.,,,opentriviaqa
 otq-general-27,geschichte,4,In welchem Ort soll der Geist Caligulas umgehen?,In den Lamianischen Gärten in Rom,In der Lateranbasilika,Im Amphitheatrum Castrense,In der Großen Synagoge,,,opentriviaqa
 otq-general-2815,geschichte,4,Wie hieß die erste europäische Stadtgründung in der Neuen Welt?,La Isabela,Puerto España,Santo Domingo,La Navidad,,,opentriviaqa
 otq-general-460,geschichte,4,Welcher dieser französischen Könige war KEIN Begründer einer Dynastie?,Ludwig XIII.,Hugo Capet,Philipp VI.,Pippin der Jüngere,,,opentriviaqa
 otq-general-463,geschichte,4,Wer von diesen Politikern war NIE Premierminister Israels?,Chaim Weizmann,Benjamin Netanjahu,Mosche Scharet,Ehud Barak,,,opentriviaqa
 otq-general-646,geschichte,4,Welcher englische König wurde 1457 auf Pembroke Castle in Wales geboren?,Heinrich VII.,Heinrich IV.,Heinrich V.,Heinrich VIII.,,,opentriviaqa
+otq-general-648,geschichte,4,"Wie heißen die Reitermilizen, die in Darfur für Massaker verantwortlich gemacht wurden?",Dschandschawid,Taliban,Mudschaheddin,Al-Shabaab,,,opentriviaqa
 otq-general-677,geschichte,4,In welchem Land wurde um 500 v. Chr. Zucker durch Eindampfen von Zuckerrohrsaft gewonnen?,Indien,China,Ägypten,Griechenland,,,opentriviaqa
+otq-geography-537,geschichte,4,Um welches Handelsgut stritten Briten und Niederländer im 17. bis 19. Jahrhundert auf Borneo besonders?,Pfeffer,Salz,Kaffee,Tee,,,opentriviaqa
 otq-geography-551,geschichte,4,In welcher Stadt wurde die Samurai-Polizeitruppe Shinsengumi gegründet?,Kyoto,Edo (Tokio),Nagasaki,Osaka,,,opentriviaqa
+otq-geography-599,geschichte,4,Welcher portugiesische Seefahrer sichtete im Jahr 1500 als erster Europäer Madagaskar?,Diogo Dias,Heinrich der Seefahrer,Diogo Cão,Vasco da Gama,,,opentriviaqa
 otq-history-1071,geschichte,4,Wer prägte im 14. Jahrhundert die Vorstellung vom „finsteren Mittelalter“?,Francesco Petrarca,Johan Huizinga,Dante Alighieri,Flavio Biondo,,,opentriviaqa
+otq-history-1080,geschichte,4,Wann wütete die „Justinianische Pest“ im Byzantinischen Reich zuerst?,541–542,748–749,627–628,935–936,,,opentriviaqa
 otq-history-1121,geschichte,4,Welcher Gangster wurde am 22. Juli 1934 von FBI-Agenten erschossen?,John Dillinger,Al Capone,Clyde Barrow,Bugsy Siegel,,,opentriviaqa
 otq-history-1131,geschichte,4,Welcher englische Seefahrer wurde in Japan als einer der ersten Europäer zum Samurai ernannt?,William Adams,Francis Drake,John Smith,John Franklin,,,opentriviaqa
 otq-history-1183,geschichte,4,In welchem Jahr wurde der Eriekanal zwischen Hudson River und Eriesee eröffnet?,1825,1904,1800,1862,,,opentriviaqa
 otq-history-126,geschichte,4,"Zu welchem Konflikt gehören die Schlachten von Custozza, Palestro und Calatafimi?",Italienische Unabhängigkeitskriege,Italienisch-Türkischer Krieg,Italienische Kriege,Abessinienkrieg,,,opentriviaqa
+otq-history-1350,geschichte,4,Wie nannte man die „Vereinigte Islamische Front zur Rettung Afghanistans“ meist?,Nordallianz,Al-Qaida,Taliban,Mudschaheddin,,,opentriviaqa
 otq-history-1370,geschichte,4,Welche Sprache hörten alliierte Soldaten 1944 in der Normandie überrascht von manchen Gefangenen?,Russisch,Finnisch,Ungarisch,Japanisch,,,opentriviaqa
 otq-history-1375,geschichte,4,Wie lautete der Codename der amphibischen Landung in der Normandie am 6. Juni 1944?,Neptune,Husky,Torch,Avalanche,,,opentriviaqa
 otq-history-1410,geschichte,4,Was unterscheidet das Innere der Cheops-Pyramide von anderen ägyptischen Pyramiden?,Aufsteigende Gänge und hoch gelegene Kammern,Eine größere Zahl an Kammern,Eine unterirdische Kammer,Breitere und längere Gänge,,,opentriviaqa
 otq-history-1431,geschichte,4,In welchem Jahrhundert stellten Chinesen erstmals Papier her und entstand die Seidenstraße?,2. Jahrhundert v. Chr.,4. Jahrhundert v. Chr.,3. Jahrhundert n. Chr.,5. Jahrhundert n. Chr.,,,opentriviaqa
+otq-history-1433,geschichte,4,In welchem Jahrhundert regierte Pharao Ramses III.?,12. Jahrhundert v. Chr.,7. Jahrhundert v. Chr.,2. Jahrhundert v. Chr.,5. Jahrhundert v. Chr.,,,opentriviaqa
 otq-history-165,geschichte,4,"Wie hieß die geheime britische Widerstandsorganisation, die für den Fall einer deutschen Invasion vorbereitet war?",Auxiliary Units,Home Guard,Special Operations Executive,Partisanen,,,opentriviaqa
 otq-history-172,geschichte,4,Bei welcher Belagerung im Zweiten Weltkrieg setzte die Wehrmacht die riesigen Mörser „Karl“ ein?,Belagerung von Sewastopol,Verteidigung von Berlin,Schlacht um Stalingrad,Schlacht um Moskau,,,opentriviaqa
+otq-history-208,geschichte,4,Wie viele Personen fanden im ersten militärischen U-Boot „Turtle“ (1775) Platz?,Eine,Drei,Zwei,Keine – es war unbemannt,,,opentriviaqa
+otq-history-225,geschichte,4,In welche drei großen „Reiche“ gliedert man die Geschichte des Alten Ägyptens?,"Altes, Mittleres und Neues Reich","Unter-, Mittel- und Oberreich","Früh-, Hoch- und Spätreich","Erstes, Zweites und Drittes Reich",,,opentriviaqa
 otq-history-235,geschichte,4,Welcher dieser Revolutionäre gehörte 1917 zu den Menschewiki?,Pawel Axelrod,Lew Kamenew,Josef Stalin,Matwei Muranow,,,opentriviaqa
 otq-history-272,geschichte,4,Wann begann die Konferenz von Jalta?,Februar 1945,Dezember 1944,Januar 1945,November 1944,,,opentriviaqa
 otq-history-37,geschichte,4,Welche Insel gilt als Englands erste überseeische Kolonie?,Neufundland,Rhodos,Island,Grönland,,,opentriviaqa
 otq-history-39,geschichte,4,Wie viele weitere selbstverwaltete Kolonien entstanden im 19. Jahrhundert neben New South Wales auf dem australischen Kontinent?,5,4,3,12,,,opentriviaqa
 otq-history-421,geschichte,4,Welchen Titel nahm Gottfried von Bouillon nach dem Ersten Kreuzzug statt der Königskrone an?,Beschützer des Heiligen Grabes,Bezwinger der Muslime,Verteidiger der Heiligen Stadt,Verteidiger des Heiligen Landes,,,opentriviaqa
+otq-history-433,geschichte,4,In welchem Jahr brach Magellan zu seiner Weltumsegelung auf?,1519,1522,1512,1532,,,opentriviaqa
 otq-history-469,geschichte,4,Welche friesische Handelsstadt wurde im 9. Jahrhundert mehrfach von Wikingern geplündert?,Dorestad,Haithabu,Utrecht,Groningen,,,opentriviaqa
 otq-history-472,geschichte,4,Welcher liberale Staatsmann prägte 1848 die niederländische Verfassung?,Johan Rudolf Thorbecke,Anton Mussert,Henri Winkelman,Pieter Jelles Troelstra,,,opentriviaqa
 otq-history-489,geschichte,4,Welche Region traf 1770 eine verheerende Hungersnot mit Millionen Toten?,Bengalen,Java,China,Persien,,,opentriviaqa
 otq-history-557,geschichte,4,Welcher Kartograf der Renaissance erstellte eine frühe Karte der Britischen Inseln?,Gerhard Mercator,Galileo Galilei,Nikolaus Kopernikus,René Descartes,,,opentriviaqa
+otq-history-56,geschichte,4,Welcher überschwere deutsche Panzer des Zweiten Weltkriegs kam nie zum Einsatz?,Panzer VIII „Maus“,Sturmpanzer IV „Brummbär“,Tiger II,Panther,,,opentriviaqa
 otq-history-573,geschichte,4,Welches mittelalterliche Volumenmaß ist das größte?,Tun,Bushel,Gallone,Quarter,,,opentriviaqa
 otq-history-574,geschichte,4,"Welche Umrechnung im mittelalterlichen Geldsystem (Pfund, Schilling, Pfennig) ist richtig?",1 Pfund = 20 Schilling = 240 Pfennig,1 Pfennig = 12 Schilling = 144 Pfund,1 Schilling = 100 Pfund = 1000 Pfennig,1 Pfund = 60 Pfennig = 720 Schilling,,,opentriviaqa
+otq-history-580,geschichte,4,Wer besaß im Mittelalter typischerweise etwa 100 Morgen Land?,Ein armer Ritter oder reicher freier Bauer,Ein Leibeigener,Ein Fürst,Ein Tagelöhner,,,opentriviaqa
 otq-history-599,geschichte,4,Seit wann gibt es Unterhosen für Männer zum Hineinschlüpfen?,Etwa seit dem 13. Jahrhundert,Etwa seit dem 7. Jahrhundert,Etwa seit dem 18. Jahrhundert,Etwa seit dem 15. Jahrhundert,,,opentriviaqa
 otq-history-611,geschichte,4,Welcher Zeitraum gilt als „Klassische Periode“ der Maya-Kultur?,Etwa 250 bis 900 n. Chr.,800 bis 100 v. Chr.,500 v. Chr. bis 200 n. Chr.,1000 bis 1500 n. Chr.,,,opentriviaqa
+otq-history-633,geschichte,4,Wie viele Tage nach Pearl Harbor erklärten die USA und China Japan offiziell den Krieg?,Einen,Sieben,Zehn,Zwei,,,opentriviaqa
 otq-history-648,geschichte,4,Welche Schlacht war das einzige Panzergefecht des Finnischen Winterkriegs?,Schlacht bei Honkaniemi,Schlacht um Narvik,Schlacht von Dünkirchen,Schlacht am Kollaa,,,opentriviaqa
 otq-history-753,geschichte,4,Wie viele Zivilisten starben in der Schlacht von Gettysburg?,Eine,Drei,Zwei,Vier,,,opentriviaqa
+otq-history-800,geschichte,4,Wo setzte Japan 1944 erstmals systematisch Kamikaze-Flieger ein?,Bei den Philippinen,Bei Makin,Bei Tarawa,Bei Palau,,,opentriviaqa
 otq-history-828,geschichte,4,Wen besiegten die griechischen Städte Siziliens 480 v. Chr. in der Schlacht bei Himera?,Karthago,Ägypten,Kreta,Rom,,,opentriviaqa
 otq-history-840,geschichte,4,Wer nahm nach dem Tod von Kleopatra und Marcus Antonius deren gemeinsame Kinder auf?,"Octavia, Antonius’ frühere Frau",Octavian selbst,Kleopatras ältester Sohn Caesarion,Niemand – sie wurden hingerichtet,,,opentriviaqa
 otq-history-845,geschichte,4,"Welches dieser Länder gehörte 1582 zu den ersten, die den Gregorianischen Kalender einführten?",Polen-Litauen,Russland,England,Schweden,,,opentriviaqa
@@ -218,24 +316,36 @@ otq-history-871,geschichte,4,"Was verlangte das englische Parlament, als der sp�
 otq-history-892,geschichte,4,"Womit störte Honoria, die Schwester des weströmischen Kaisers, den Frieden mit Attila?",Sie bot Attila die Ehe an,Sie heiratete Valentinian III.,"Sie versuchte, Attila zu töten",Sie ließ ihren Bruder ermorden,,,opentriviaqa
 otq-history-896,geschichte,4,Welche Erfindung von Joseph Glidden verursachte im Ersten Weltkrieg zusammen mit dem Maschinengewehr viele Opfer?,Stacheldraht,Der Revolver,Das Puckle-Gewehr,Das Dynamit,,,opentriviaqa
 otq-history-912,geschichte,4,Wen ernannte Josef Stalin vor seinem Tod 1953 zu seinem Nachfolger?,Niemanden,Chruschtschow,Bulganin,Beria,,,opentriviaqa
+otq-history-929,geschichte,4,Welches giftige Element enthielten früher Schminkcremes für eine helle Haut?,Blei,Schwefel,Kohlenstoff,Kupfer,,,opentriviaqa
+otq-history-935,geschichte,4,Was war im Barock zeitweise ein großer Modetrend im Gesicht?,Aufgeklebte Schönheitsflecken,Pickel,Warzen,Narben,,,opentriviaqa
+otq-humanities-600,geschichte,4,Zu wie vielen Monaten Haft wurde Vincenzo Peruggia für den Diebstahl der Mona Lisa 1911 zunächst verurteilt?,Etwa ein Jahr (später verkürzt auf 7 Monate),10 Jahre,5 Jahre,3 Wochen,,,opentriviaqa
 otq-humanities-849,geschichte,4,"In welchem Land liegt die Einhornhöhle, in der man einst ein angebliches Einhornskelett fand?",Deutschland,Schweiz,Großbritannien,Frankreich,,,opentriviaqa
 otq-humanities-98,geschichte,4,Mit welchem Kopf wurde die ägyptische Sphinx typischerweise NICHT dargestellt?,Mit Schlangenkopf,Mit Widderkopf,Mit Falkenkopf,Mit Menschenkopf,,,opentriviaqa
 otq-newest-1229,geschichte,4,Welche britische Braut trug statt eines Diadems einen Kranz aus Orangenblüten?,Königin Victoria,Prinzessin Diana,Elisabeth II.,Maria von Teck,,,opentriviaqa
 otq-newest-1263,geschichte,4,Zur Geschichte welches Reiches gehört die „Tulpenzeit“ von 1718 bis 1730?,Osmanisches Reich,Niederländisches Kolonialreich,Habsburgerreich,Russisches Kaiserreich,,,opentriviaqa
 otq-newest-716,geschichte,4,"Was haben Harald II., Richard I. und Richard III. von England gemeinsam?",Sie fielen alle im Kampf,Sie hatten keine Erben,Sie waren unehelich geboren,Sie waren Angelsachsen,,,opentriviaqa
 otq-people-1081,geschichte,4,Welcher Premierminister führte Kanada durch den Ersten Weltkrieg?,Robert Borden,Louis St. Laurent,Richard Bennett,Wilfrid Laurier,,,opentriviaqa
+otq-people-1292,geschichte,4,In welches Land marschierten Idi Amins Truppen im November 1978 ein?,Tansania,Sudan,Zaire,Kenia,,,opentriviaqa
 otq-people-1303,geschichte,4,"Gordion, wo Alexander der Große den Gordischen Knoten durchschlug, war die Hauptstadt welches Reiches?",Phrygien,Sparta,Illyrien,Mesopotamien,,,opentriviaqa
 otq-people-2391,geschichte,4,"Welcher Papst sagte über Elisabeth I., sie sei „nur eine Frau, Herrin einer halben Insel“, und doch fürchteten sie alle?",Sixtus V.,Urban VII.,Johannes Paul II.,Gregor XIII.,,,opentriviaqa
 otq-people-543,geschichte,4,Welcher japanische Militär war Premierminister während des Angriffs auf Pearl Harbor?,Hideki Tōjō,Isoroku Yamamoto,Fumimaro Konoe,Minoru Genda,,,opentriviaqa
+otq-rated-1259,geschichte,4,"Wo entdeckte William Buckland 1823 die „Red Lady of Paviland“, ein mit Ocker gefärbtes Skelett?",In Wales,In Schottland,In Frankreich,In Irland,,,opentriviaqa
 otq-religion-faith-166,geschichte,4,Nach wessen Tod begann Titus den Bau des Vespasian-Tempels in Rom?,Seines Vaters Vespasian,Seines Bruders Domitian,Seines Freundes Tiberius,Seines Onkels Claudius,,,opentriviaqa
 otq-religion-faith-303,geschichte,4,Wer war 28 Jahre lang Bürgermeister von Jerusalem und starb im Januar 2007?,Teddy Kollek,Ehud Olmert,Ariel Sharon,Nir Barkat,,,opentriviaqa
 otq-science-technology-90,geschichte,4,Während welches Krieges brach 430 v. Chr. die erste überlieferte Seuche dieser Art (die Attische Seuche) aus?,Peloponnesischer Krieg,Punische Kriege,Perserkriege,Trojanischer Krieg,,,opentriviaqa
 otq-world-1265,geschichte,4,Was markierten die Iden im römischen Kalender ursprünglich?,Den Vollmond,Einen Götterwechsel,Ein Totenfest,Das Monatsende,,,opentriviaqa
+otq-world-1518,geschichte,4,Welcher dieser Goldräusche in Nordamerika war der früheste?,Klondike,Fairbanks,Sitka,Nome,,,opentriviaqa
 otq-world-1543,geschichte,4,Wie hieß die irische Hafenstadt Cobh bis 1920?,Queenstown,Queens Island,Queensferry,Kingstown,,,opentriviaqa
+otq-world-2220,geschichte,4,Wer schmuggelte Bonnie Prince Charlie 1746 verkleidet aus Schottland?,Flora MacDonald,Mary Stuart,James Graham,Robert the Bruce,,,opentriviaqa
 otq-world-2297,geschichte,4,Was waren die Grundnahrungsmittel der Sumerer?,Bier und Brot,Reis und Oliven,Falafel und Hummus,Mais und Bohnen,,,opentriviaqa
+otq-world-2476,geschichte,4,Welches Organ galt in der Antike und im Mittelalter oft als Sitz von Liebe und Gefühl?,Die Leber,Das Gehirn,Die Milz,Die Lunge,,,opentriviaqa
+otq-world-2739,geschichte,4,Wer wurde 1937 Diktator von Nicaragua?,Anastasio Somoza García,René Schick,Carlos Fonseca,Daniel Ortega,,,opentriviaqa
 otq-world-2949,geschichte,4,Welches Bauwerk hieß im Alten Ägypten „Ipet resyt“ (südliches Heiligtum)?,Der Luxor-Tempel,Die Sphinx,Das Römische Theater,Die Zitadelle,,,opentriviaqa
 otq-world-3397,geschichte,4,"Was beendeten Bolivien und Paraguay im April 2009 offiziell, das in den 1930er-Jahren begonnen hatte?",Den Streit um den Chaco (Grenzvertrag),Die diplomatischen Beziehungen,Ein Freihandelsabkommen,Ihre Fußballrivalität,,,opentriviaqa
+otq-world-363,geschichte,4,Welches heutige europäische Land übernahm durch die Taufe König Æthelberhts um 597 das Christentum?,England,Schweiz,Frankreich,Deutschland,,,opentriviaqa
+otq-world-3827,geschichte,4,Wie hieß Singapur während der japanischen Besatzung 1942–1945?,Syonan-to,Singapur wurde nicht umbenannt,Pulau Ujong,Changi,,,opentriviaqa
 otq-world-4004,geschichte,4,Welche Passagierin der ersten Klasse auf der Titanic war die Modeschöpferin „Lucile“?,Lady Lucy Duff-Gordon,Madeleine Astor,Ida Straus,Edith Evans,,,opentriviaqa
 otq-world-4005,geschichte,4,Welcher Offizier der Titanic soll sich beim Untergang das Leben genommen haben?,William Murdoch,Henry Wilde,Harold Lowe,Charles Lightoller,,,opentriviaqa
+otq-world-4091,geschichte,4,Welcher britische Forscher besuchte 1853 verkleidet Mekka und Medina?,Richard Francis Burton,Cecil Rhodes,David Livingstone,Henry Morton Stanley,,,opentriviaqa
 otq-world-4120,geschichte,4,Was war „Gladio“?,Eine geheime Stay-behind-Organisation der NATO,Ein NATO-Generalsekretär,Ein Forschungsinstitut,Ein NATO-Stützpunkt,,,opentriviaqa
 otq-world-847,geschichte,4,Welche kanadische Hafenstadt wurde 1917 durch die Explosion eines Munitionsschiffs fast zerstört?,Halifax,Fredericton,Dartmouth,Yarmouth,,,opentriviaqa
