@@ -3,6 +3,7 @@ otq-animals-598,film,1,Welches besondere Talent hat der Pinguin Mumble in „Hap
 otq-general-1196,film,1,"Wie heißt der Kater, der ständig vergeblich hinter Tweety her ist?",Sylvester,Tom,Garfield,Felix,,,opentriviaqa
 otq-general-1566,film,1,Wer ist Han Solos Kopilot im Millennium Falken?,Chewbacca,R2-D2,Darth Vader,Yoda,,,opentriviaqa
 otq-general-16,film,1,"Sean Connery, Roger Moore und Pierce Brosnan spielten alle denselben britischen Geheimagenten. Welchen?",James Bond,Johnny English,Jim Malone,Eliot Ness,,,opentriviaqa
+otq-general-1926,film,1,Was für ein Hai ist der Menschenfresser in „Der weiße Hai“?,Weißer Hai,Tigerhai,Walhai,Grauer Riffhai,,,opentriviaqa
 otq-general-2005,film,1,Welchen Superhelden spielt Hugh Jackman in den X-Men-Filmen?,Wolverine,Professor X,Iceman,Colossus,,,opentriviaqa
 otq-general-2038,film,1,Aus welchem Film stammen Woody und Buzz Lightyear?,Toy Story,Cars,Shrek,Die Monster AG,,,opentriviaqa
 otq-general-2230,film,1,Wie heißt die Meerjungfrau im Disney-Film von 1989?,Arielle,Akasha,Marina,Melody,,,opentriviaqa
@@ -10,6 +11,7 @@ otq-general-300,film,1,Wer ist Shreks treuer Begleiter in den Filmen?,Esel,Der g
 otq-general-421,film,1,Wie heißt das Kaninchen in Disneys „Bambi“?,Klopfer,Blume,Feline,Ronno,,,opentriviaqa
 otq-geography-107,film,1,In welchem Land wurde „Der Herr der Ringe“ gedreht?,Neuseeland,Philippinen,Indonesien,Island,,,opentriviaqa
 otq-history-1035,film,1,Welcher Film startete am 25. Mai 1977 in den USA?,Krieg der Sterne,Der Pate,Der Pate II,Der weiße Hai,,,opentriviaqa
+otq-history-191,film,1,Wer drehte 1979 „Apocalypse Now“?,Francis Ford Coppola,Oliver Stone,Brian De Palma,Stanley Kubrick,,,opentriviaqa
 otq-literature-168,film,1,Welches Tier ist das Monster im Stephen-King-Film „Cujo“?,Ein Hund,Eine Schlange,Ein Alligator,Eine Katze,,,opentriviaqa
 otq-movies-1516,film,1,In welchem Film spielt Kevin Spacey an der Seite des mysteriösen Keyser Söze?,Die üblichen Verdächtigen,Sieben,American Beauty,L.A. Confidential,,,opentriviaqa
 otq-movies-1853,film,1,Wer macht Pinocchio im Disney-Film zu einem echten Jungen?,Die Blaue Fee,Jiminy Grille,Geppetto,Figaro,,,opentriviaqa
@@ -24,15 +26,22 @@ otq-newest-2367,film,1,Wie heißt die Figur von Kate Winslet in „Titanic“ (1
 otq-newest-2403,film,1,Welcher Regisseur drehte die „Der Pate“-Trilogie?,Francis Ford Coppola,Martin Scorsese,Quentin Tarantino,Oliver Stone,,,opentriviaqa
 otq-newest-900,film,1,Wer führte bei „Gefährten“ und „Die Abenteuer von Tim und Struppi“ (beide 2011) Regie?,Steven Spielberg,Martin Scorsese,Oliver Stone,Peter Jackson,,,opentriviaqa
 otq-rated-124,film,1,Wer spielt Austin Powers?,Mike Myers,Robert Wagner,Michael McKean,Michael Douglas,,,opentriviaqa
+otq-rated-201,film,1,Wer war Captain der Enterprise in der Originalserie „Raumschiff Enterprise“?,James T. Kirk,Montgomery Scott,Hikaru Sulu,Mr. Spock,,,opentriviaqa
 otq-rated-515,film,1,"Abu, Rajah und Dschafar stammen aus welchem Disney-Film?",Aladdin,Pocahontas,Bärenbrüder,Mulan,,,opentriviaqa
+otq-rated-521,film,1,"Aus welchem Disney-Film stammen Baghira, Shir Khan und Balu?",Das Dschungelbuch,Tarzan,101 Dalmatiner,Robin Hood,,,opentriviaqa
+otq-rated-526,film,1,"In welchem Disney-Film kommen Sarabi, Nala und Zazu vor?",Der König der Löwen,101 Dalmatiner,Pinocchio,Alice im Wunderland,,,opentriviaqa
 otq-sports-503,film,1,Auf welchen Fußballer spielt der Filmtitel „Kick it like Beckham“ an?,David Beckham,Alfredo Di Stéfano,Zico,Ronaldo,,,opentriviaqa
 otq-world-1913,film,1,Wie heißt das schwarze Schiff im ersten „Fluch der Karibik“-Film?,Black Pearl,Nautilus,Flying Dutchman,Queen Anne’s Revenge,,,opentriviaqa
+otq-world-3101,film,1,Unter welchem Namen war Fürstin Gracia Patricia von Monaco als Schauspielerin bekannt?,Grace Kelly,Grace Jones,Audrey Hepburn,Ingrid Bergman,,,opentriviaqa
 otq-animals-291,film,2,In welchem Zeichentrickfilm sucht der kleine Dinosaurier Littlefoot das Große Tal?,In einem Land vor unserer Zeit,Dinosaurier – Im Reich der Giganten,Jurassic Park,Ice Age,,,opentriviaqa
+otq-animals-689,film,2,Welche Disney-Heldin von 1995 hat einen Waschbären als Begleiter?,Pocahontas,Mulan,Arielle,Belle,,,opentriviaqa
 otq-for-kids-473,film,2,Welchen Namen geben die Feen Aurora in Disneys „Dornröschen“?,Briar Rose (Röschen),Dahlia,Topaz,Jasmin,,,opentriviaqa
 otq-general-1297,film,2,Welchen Lehrer spielt Robin Williams in „Der Club der toten Dichter“?,John Keating,Mark Thackeray,George Feeny,Jaime Escalante,,,opentriviaqa
 otq-general-1598,film,2,In welchem Woody-Allen-Film verliebt sich ein Maler in zwei junge Amerikanerinnen?,Vicky Cristina Barcelona,Match Point,Midnight in Paris,To Rome with Love,,,opentriviaqa
+otq-general-17,film,2,Wer drehte „Amadeus“ und „Einer flog über das Kuckucksnest“?,Miloš Forman,Stanley Kubrick,Pedro Almodóvar,Roman Polański,,,opentriviaqa
 otq-general-1925,film,2,Welche Farbe hat der Mantel des Mädchens in Spielbergs „Schindlers Liste“?,Rot,Grün,Weiß,Gelb,,,opentriviaqa
 otq-general-1934,film,2,Welcher Elton-John-Song aus „Der König der Löwen“ gewann 1995 den Oscar?,Can You Feel the Love Tonight,Circle of Life,I Just Can’t Wait to Be King,Hakuna Matata,,,opentriviaqa
+otq-general-1989,film,2,Welcher Filmstil mit strengen Regeln entstand 1995 in Dänemark?,Dogma 95,Nouvelle Vague,Neorealismus,Film noir,,,opentriviaqa
 otq-general-2290,film,2,Was für ein Film ist Stanley Kubricks „Full Metal Jacket“ (1987)?,Ein Kriegsfilm,Ein Sportfilm,Ein Horrorfilm,Eine Komödie,,,opentriviaqa
 otq-general-2591,film,2,In welchem Film von 1996 spielen Michael Jordan und die Looney Tunes Basketball?,Space Jam,Toy Story,Der Hofnarr,Who Framed Roger Rabbit,,,opentriviaqa
 otq-general-2738,film,2,"In welchem Film von 1994 spielt Jean Reno einen Auftragskiller, der ein Mädchen aufnimmt?",Léon – Der Profi,Ronin,Nikita,Das Mädchen Léolo,,,opentriviaqa
@@ -66,30 +75,41 @@ otq-movies-59,film,2,Auf welchem Roman von L. Frank Baum beruht der Film „Der 
 otq-movies-687,film,2,Was ermöglicht in „Zurück in die Zukunft“ die Zeitreise?,Der Fluxkompensator,Eine Geschwindigkeit von 100 km/h,Ein Blitzableiter,Ein Wurmloch,,,opentriviaqa
 otq-movies-762,film,2,Welcher deutsche Stummfilm von Fritz Lang (1927) zeigt eine geteilte Gesellschaft aus Arbeitern und Denkern?,Metropolis,Nosferatu,Das Cabinet des Dr. Caligari,M,,,opentriviaqa
 otq-movies-795,film,2,In welchem Horrorfilm wird der sechsjährige Michael Myers nach einem Mord eingesperrt?,Halloween,Wrong Turn,Jeepers Creepers,Amityville Horror,,,opentriviaqa
+otq-music-612,film,2,Wer spielte Jim Morrison in Oliver Stones Film „The Doors“ (1991)?,Val Kilmer,Johnny Depp,Tom Cruise,Kevin Bacon,,,opentriviaqa
 otq-newest-1355,film,2,Welche der Teenage Mutant Ninja Turtles trägt eine rote Maske?,Raphael,Donatello,Leonardo,Michelangelo,,,opentriviaqa
 otq-newest-663,film,2,Welche Nationalität hat Batmans Butler Alfred?,Englisch,Schottisch,Irisch,Schwedisch,,,opentriviaqa
+otq-people-1400,film,2,Welche Schweizerin spielte Honey Ryder in „James Bond – 007 jagt Dr. No“?,Ursula Andress,Jill St. John,Claudine Auger,Honor Blackman,,,opentriviaqa
 otq-rated-1150,film,2,Was benutzten Monty Python in „Die Ritter der Kokosnuss“ statt echter Pferde?,Kokosnussschalen,Ziegen,Schweine,Esel,,,opentriviaqa
+otq-rated-1232,film,2,Auf welchem Planeten wuchs Darth Vader (Anakin) auf?,Tatooine,Todesstern,Alderaan,Coruscant,,,opentriviaqa
+otq-rated-147,film,2,In welchem Disney-Film erklingt der Oscar-prämierte Song „When You Wish Upon a Star“?,Pinocchio,Schneewittchen,Das Dschungelbuch,Dornröschen,,,opentriviaqa
 otq-rated-1532,film,2,In welchem Jahr kam der Pixar-Film „Findet Nemo“ heraus?,2003,2006,2001,2000,,,opentriviaqa
+otq-rated-1697,film,2,In welchem Film spielt Tom Cruise einen Barkeeper?,Cocktail,Top Gun,Tage des Donners,Lockere Geschäfte,,,opentriviaqa
+otq-rated-1717,film,2,In welcher Horrorfilmreihe sehen Figuren tödliche Unglücke voraus?,Final Destination,Düstere Legenden,Der Exorzist,Scream,,,opentriviaqa
 otq-rated-1718,film,2,"Welche Filmreihe handelt von Menschen, die in einem Labyrinth aus würfelförmigen Räumen gefangen sind?",Cube,Stirb langsam,Matrix,Mad Max,,,opentriviaqa
 otq-rated-188,film,2,"Wie heißt das Restaurant mit Spielhalle, das Andys Familie in „Toy Story“ besucht?",Pizza Planet,Burger World,Space Diner,Toy Barn,,,opentriviaqa
 otq-rated-253,film,2,Wer führte bei „GoodFellas“ Regie?,Martin Scorsese,Francis Ford Coppola,Brian De Palma,Sergio Leone,,,opentriviaqa
 otq-rated-520,film,2,"In welchem Disneyfilm kommen Stromboli, Gideon und Figaro vor?",Pinocchio,Der Glöckner von Notre Dame,Pocahontas,Mulan,,,opentriviaqa
 otq-rated-648,film,2,"Welcher Regisseur drehte „Topas“, „Frenzy“ und „Psycho“?",Alfred Hitchcock,David Lynch,Sofia Coppola,Luc Besson,,,opentriviaqa
+otq-rated-652,film,2,"Wer drehte „Bram Stoker’s Dracula“, „Der Regenmacher“ und „Der Pate“?",Francis Ford Coppola,Pedro Almodóvar,Quentin Tarantino,Martin Scorsese,,,opentriviaqa
 otq-rated-69,film,2,"In welchem Film spielt Al Pacino einen blinden, trinkfesten Ex-Oberst?",Der Duft der Frauen,Donnie Brasco,Heat,Insomnia,,,opentriviaqa
 otq-sports-1859,film,2,"Für welchen Film gewann Danny Boyle, Regisseur der Olympia-Eröffnungsfeier 2012, den Oscar?",Slumdog Millionär,Kleine Morde unter Freunden,28 Days Later,Trainspotting,,,opentriviaqa
+otq-world-2211,film,2,Wer führte bei „Die Passion Christi“ (2004) Regie?,Mel Gibson,Nicolas Cage,Martin Scorsese,Oliver Stone,,,opentriviaqa
 otq-world-2931,film,2,In welchem Film- und Buchuniversum ist das „Spice Melange“ die wertvollste Substanz?,Der Wüstenplanet (Dune),Star Wars,Das fünfte Element,Blade Runner,,,opentriviaqa
 otq-world-2932,film,2,In welchem Film taucht die fiktive Firma Cyberdyne Systems auf?,Terminator,RoboCop,Die totale Erinnerung – Total Recall,Nummer 5 lebt!,,,opentriviaqa
 otq-world-3327,film,2,Wer spielte die Hauptrolle in „Der letzte Tango in Paris“ (1972)?,Marlon Brando,Jean-Paul Belmondo,Robert De Niro,Alain Delon,,,opentriviaqa
+otq-world-359,film,2,"Welcher Komiker, geboren 1889 in London, starb am Weihnachtstag 1977?",Charlie Chaplin,Buster Keaton,Stan Laurel,Oliver Hardy,,,opentriviaqa
 otq-animals-678,film,3,In welchem Disney-Film von 2009 sind Meerschweinchen Geheimagenten?,G-Force – Agenten mit Biss,Fast & Furry,Darwin,Fluffy Spies,,,opentriviaqa
 otq-animals-796,film,3,Wie heißt das Fingertier in „Madagascar“ (2005)?,Mort,Marty,Maurice,King Julien,,,opentriviaqa
 otq-entertainment-105,film,3,Wie hießen die Eltern von Bruce Wayne (Batman)?,Thomas und Martha,James und Elizabeth,Wayne und Alice,George und Elaine,,,opentriviaqa
 otq-for-kids-270,film,3,Welcher Disney-Zeichentrickfilm beruht NICHT auf dem Buch eines europäischen Autors?,Mulan,101 Dalmatiner,Winnie Puuh,Bambi,,,opentriviaqa
 otq-for-kids-475,film,3,Was wollen die drei Feen in Disneys „Dornröschen“ zu Auroras 16. Geburtstag selbst herstellen?,Eine Torte und ein Kleid,Ein Kleid und einen Umhang,Eine Torte und eine Decke,Einen Kuchen und Schuhe,,,opentriviaqa
+otq-for-kids-478,film,3,"Was geben die Feen dem Prinzen in „Dornröschen“ (Disney), um Malefiz zu besiegen?",Schwert und Schild,Umhang und Schwert,Uhr und Buch,Rose und Umhang,,,opentriviaqa
 otq-for-kids-567,film,3,Aus welchem Disney-Film stammt der Dialog „Wir stürzen gleich einen riesigen Wasserfall hinunter … Bring it on!“?,Ein Königreich für ein Lama,Der kleine Toaster,Mulan,Der Goofy-Film,,,opentriviaqa
 otq-general-1304,film,3,Welcher Schauspieler spielte sowohl einen aufsässigen Schüler als auch einen inspirierenden Lehrer?,Sidney Poitier,Richard Harris,Sean Connery,Hugh Grant,,,opentriviaqa
 otq-general-1427,film,3,Wie lautet der bürgerliche Name von Catwoman?,Selina Kyle,Samantha Wayne,Pamela Isley,Sarah Connor,,,opentriviaqa
 otq-general-1881,film,3,Wie lautet der Nachname von Vinny in „Mein Vetter Winnie“ (1992)?,Gambini,Ghirardelli,Gianfredo,Corleone,,,opentriviaqa
 otq-general-2002,film,3,Wer ist der Hauptgegner in „Spider-Man 2“ (2004)?,Doctor Octopus,Venom,Sandman,Der Grüne Kobold,,,opentriviaqa
+otq-general-2640,film,3,Welcher Film stammt von François Truffaut?,Die amerikanische Nacht,Die Tage von Léaud,Tage in Kalabrien,Tage in Algier,,,opentriviaqa
 otq-general-2683,film,3,In welchem Woody-Allen-Film gibt es in der Zukunft Roboter-Butler?,Der Schläfer,Match Point,Stardust Memories,Cassandras Traum,,,opentriviaqa
 otq-general-2838,film,3,Welche Figur in „Casablanca“ singt „As Time Goes By“ am Klavier?,Sam,Ilsa,Captain Renault,Victor Laszlo,,,opentriviaqa
 otq-general-309,film,3,In welchem Jahr drehte Stanley Kubrick „Uhrwerk Orange“?,1971,1968,1975,1965,,,opentriviaqa
@@ -104,6 +124,8 @@ otq-history-1377,film,3,Welche Zeichentrickfigur hatte am 9. Juni 1934 ihren ers
 otq-history-186,film,3,Wer drehte 1989 den Vietnamkriegsfilm „Die Verdammten des Krieges“?,Brian De Palma,Oliver Stone,Stanley Kubrick,Francis Ford Coppola,,,opentriviaqa
 otq-history-446,film,3,In welchem Film erinnert sich die Hauptfigur an Folter durch Messerschnitte in Gefangenschaft?,Rambo (First Blood),Die verwegenen Sieben,Der stählerne Adler,Rambo III,,,opentriviaqa
 otq-humanities-150,film,3,In welchem Film spricht ein Darsteller eine Khoisan-Sprache mit Klicklauten?,Die Götter müssen verrückt sein,Weiße Zeit der Dürre,Schrei nach Freiheit,Hotel Ruanda,,,opentriviaqa
+otq-humanities-483,film,3,"In welchem Film lobt Paul Newmans Figur „Fat Man, you shoot a great game of pool“?",Haie der Großstadt (The Hustler),Schlappschuss,Die Farbe des Geldes,Der Wildeste unter Tausend,,,opentriviaqa
+otq-literature-209,film,3,Wer spielte Ashley Wilkes in „Vom Winde verweht“?,Leslie Howard,Errol Flynn,Clark Gable,Gary Cooper,,,opentriviaqa
 otq-literature-325,film,3,Welcher Western ist ein Remake eines japanischen Films von 1954?,Die glorreichen Sieben,Das siebte Zeichen,Sieben,Seven Sinners,,,opentriviaqa
 otq-literature-337,film,3,In welchem Film von Taylor Hackford spielen Keanu Reeves und Charlize Theron neben Al Pacino als Teufel?,Im Auftrag des Teufels,Sweet November,Monster,Matrix,,,opentriviaqa
 otq-movies-118,film,3,In welchem Ort leben die Hauptfiguren im ersten „Fluch der Karibik“-Film?,Port Royal,Tortuga,Isla de Muerta,Nassau,,,opentriviaqa
@@ -120,10 +142,12 @@ otq-movies-2186,film,3,Woran erkennt man die Doppelgänger in „Die Dämonische
 otq-movies-273,film,3,Wie heißt die Familie in „Lost in Space“ (1998)?,Robinson,Crusoe,Smith,Peabody,,,opentriviaqa
 otq-movies-2854,film,3,Welches Tier spricht Jada Pinkett Smith in „Madagascar 2“?,Ein Flusspferd (Gloria),Ein Fingertier,Eine Giraffe,Einen Pinguin,,,opentriviaqa
 otq-movies-312,film,3,Für welche zwei Filme erhielt Dustin Hoffman den Oscar?,Kramer gegen Kramer und Rain Man,Asphalt-Cowboy und Lenny,Wag the Dog und Kramer gegen Kramer,Tootsie und Die Reifeprüfung,,,opentriviaqa
+otq-movies-3157,film,3,Wie heißt das Messgerät der Tornadojäger in „Twister“?,Dorothy,Toto,Twister,Oz,,,opentriviaqa
 otq-movies-3209,film,3,In welchem Film brüllt Lt. Kaffee den Colonel Jessep an: „Haben Sie den Code Red angeordnet?“,Eine Frage der Ehre,Die zwölf Geschworenen,JFK,Zeugin der Anklage,,,opentriviaqa
 otq-movies-3293,film,3,In welchem Film von 2009 kämpft eine Familie um das Leben ihrer leukämiekranken Tochter?,Beim Leben meiner Schwester,Seite an Seite,Marley & Ich,Wie ein einziger Tag,,,opentriviaqa
 otq-movies-697,film,3,Wer führte bei „African Queen“ (1951) Regie?,John Huston,John Sturges,Howard Hawks,Michael Curtiz,,,opentriviaqa
 otq-movies-923,film,3,In welchem Musical hält ein Blumenladen eine menschenfressende Pflanze?,Der kleine Horrorladen,Einst kommt der Tag,Charly,Die Nacht der lebenden Toten,,,opentriviaqa
+otq-movies-939,film,3,"Wie heißt das Hochhaus, in dem „Stirb langsam“ spielt?",Nakatomi Plaza,Trump Tower,Wayne Tower,Ellis Plaza,,,opentriviaqa
 otq-movies-987,film,3,Wie heißt der erste abendfüllende Tonfilm (1927)?,Der Jazzsänger,Applause,Movietone,Erpressung,,,opentriviaqa
 otq-music-172,film,3,Welcher Schauspieler spielte als Kind in einem Elvis-Film mit und später Elvis selbst?,Kurt Russell,Mel Gibson,Don Johnson,Val Kilmer,,,opentriviaqa
 otq-music-2081,film,3,Für welchen Peter-Pan-Film komponierte John Williams die Musik?,Hook,Wenn Träume fliegen lernen,Peter Pan 2,Peter Pan (2003),,,opentriviaqa
@@ -141,6 +165,7 @@ otq-newest-24,film,3,Welcher Animationsfilm heißt im Spanischen „Breaking the
 otq-newest-2429,film,3,In welchem Film von 1979 deckt Michael Douglas als Kameramann Mängel in einem Atomkraftwerk auf?,Das China-Syndrom,Coma,Die verbotene Stadt,Silkwood,,,opentriviaqa
 otq-newest-265,film,3,Welcher Woody-Allen-Film heißt auf Deutsch „Der Stadtneurotiker“?,Annie Hall,Manhattan,Hannah und ihre Schwestern,Zelig,,,opentriviaqa
 otq-newest-27,film,3,Welcher Science-Fiction-Film heißt in Deutschland mit Zusatz „Das unheimliche Wesen aus einer fremden Welt“?,Alien,Der Himmelsdrache,Broken Flowers,Taxi Driver,,,opentriviaqa
+otq-newest-551,film,3,In welchem Film verführt Lana Turner den Landstreicher John Garfield zum Mord (1946)?,Im Netz der Leidenschaften (The Postman Always Rings Twice),Chinatown,Frau ohne Gewissen,Eine verhängnisvolle Affäre,,,opentriviaqa
 otq-newest-773,film,3,In welchem Film von 2007 spielt Keira Knightley Cecilia Tallis an der Seite von James McAvoy?,Abbitte,Tatsächlich … Liebe,King Arthur,Eine dunkle Begierde,,,opentriviaqa
 otq-newest-779,film,3,Welchen Autor trifft Owen Wilsons Figur in „Midnight in Paris“ NICHT?,John Steinbeck,Ernest Hemingway,F. Scott Fitzgerald,Gertrude Stein,,,opentriviaqa
 otq-people-1093,film,3,Welchen Film von 1977 schrieb Steven Spielberg selbst und führte Regie?,Unheimliche Begegnung der dritten Art,A. I. – Künstliche Intelligenz,Krieg der Welten,E. T.,,,opentriviaqa
@@ -157,6 +182,7 @@ otq-rated-40,film,3,Welchen Beruf hat Dan Gallagher (Michael Douglas) in „Eine
 otq-rated-656,film,3,"Wer führte bei „Mitternacht im Garten von Gut und Böse“, „Absolute Power“ und „Mystic River“ Regie?",Clint Eastwood,Ron Howard,Peter Jackson,Steven Spielberg,,,opentriviaqa
 otq-rated-861,film,3,Wie heißt der Chihuahua von Elle Woods in „Natürlich blond“?,Bruiser,Buster,Benny,Coco,,,opentriviaqa
 otq-rated-872,film,3,Welche rothaarige Hollywood-Schauspielerin war das bekannteste Pin-up des Zweiten Weltkriegs neben Betty Grable?,Rita Hayworth,Lucille Ball,Katharine Hepburn,Greta Garbo,,,opentriviaqa
+otq-science-technology-1010,film,3,In welchem dieser Filme geht es NICHT um Klonen?,The Green Mile,Jurassic Park,The 6th Day,Die Insel,,,opentriviaqa
 otq-science-technology-1420,film,3,In welchem Film spielt Steve Martin den sadistischen Zahnarzt Orin Scrivello?,Der kleine Horrorladen,Der Zauberer von Oz,Ein Vater zuviel,Wicked,,,opentriviaqa
 otq-science-technology-576,film,3,Welche Science-Fiction-Figur hat die Blutgruppe „T-negativ“?,Mr. Spock,Darth Vader,Doctor Who,Yoda,,,opentriviaqa
 otq-world-1914,film,3,Wie heißt das Boot des Haijägers Quint in „Der weiße Hai“?,Orca,Hydra,Estella,Aphrodite,,,opentriviaqa
@@ -164,18 +190,21 @@ otq-world-3066,film,3,Wessen Leben diente als Vorbild für die Hauptfigur in Ors
 otq-animals-824,film,4,"Wie hieß der Hund, der als Erster den Filmhund Benji spielte?",Higgins,Benji,Arnold,Lassie,,,opentriviaqa
 otq-entertainment-174,film,4,Wie heißen die Fans von Strong Bad aus „Homestar Runner“?,The Deleteheads,The Trogdorians,The Geddup Noise,The Lucho Libres,,,opentriviaqa
 otq-general-1377,film,4,Wie heißt der älteste und bekannteste Filmpreis für Hindi-Filme in Indien?,Filmfare Award,Mumbai Gold Award,Diamond Star Award,Golden Lotus Award,,,opentriviaqa
+otq-general-1459,film,4,Wer hat NICHT das Frankenstein-Monster gespielt?,Michael Landon,Randy Quaid,Christopher Lee,Robert De Niro,,,opentriviaqa
 otq-general-1918,film,4,"Wer spielte als Erster James Bond in einer Verfilmung (1954, TV)?",Barry Nelson,Peter Sellers,David Niven,Sean Connery,,,opentriviaqa
 otq-general-1929,film,4,Das Atmen welches Tieres wurde für den T-Rex in „Jurassic Park“ verwendet?,Eines Wals,Eines Alligators,Eines Nashorns,Eines Flusspferds,,,opentriviaqa
 otq-general-2291,film,4,Welcher Kubrick-Film erhielt sieben Oscar-Nominierungen?,Barry Lyndon,Fear and Desire,2001: Odyssee im Weltraum,Spartacus,,,opentriviaqa
 otq-general-2672,film,4,"Welcher Film von 1955 gewann vier Oscars, darunter als bester Film?",Marty,Jenseits von Eden,"Denn sie wissen nicht, was sie tun",Das verflixte 7. Jahr,,,opentriviaqa
 otq-general-2811,film,4,Wer drehte 1931 die Musikkomödie „Die Million“ um ein Lotterielos?,René Clair,Ernst Lubitsch,Josef von Sternberg,Charlie Chaplin,,,opentriviaqa
 otq-general-419,film,4,Wer sprach im Original die Stimme von Roger Rabbit?,Charles Fleischer,Bob Hoskins,Mel Blanc,Christopher Lloyd,,,opentriviaqa
+otq-general-439,film,4,Wie viele seiner elf Oscar-Nominierungen gewann Spielbergs „Die Farbe Lila“?,Keine,Fünf,Drei,Acht,,,opentriviaqa
 otq-general-762,film,4,"Wie hieß das Tonsystem, das 1974 bei „Erdbeben“ die Kinosessel vibrieren ließ?",Sensurround,Tremor-Simulator,Seismasound,Dolby Stereo,,,opentriviaqa
 otq-general-766,film,4,Wer spielte im Katastrophenfilm „Erdbeben“ (1974) NICHT mit?,Fred Astaire,Lorne Greene,Charlton Heston,Ava Gardner,,,opentriviaqa
 otq-history-1395,film,4,Welche Schauspielerin hält ein Patent auf eine Wegwerfwindel mit Feuchttuchtasche?,Jamie Lee Curtis,Meryl Streep,Elizabeth Taylor,Julia Roberts,,,opentriviaqa
 otq-history-1418,film,4,Wer spielte im Film „Alamo“ (1960) Davy Crockett?,John Wayne,Clark Gable,James Stewart,Richard Widmark,,,opentriviaqa
 otq-history-273,film,4,Wie hieß Alfred Hitchcocks erster Thriller aus dem Jahr 1927?,Der Mieter,Der Mann von der Insel Man,Mord – Sir John greift ein!,Die 39 Stufen,,,opentriviaqa
 otq-history-290,film,4,Auf wessen Theaterstück beruht der Film „Arsen und Spitzenhäubchen“?,Joseph Kesselring,David Mamet,David Auburn,Edward Albee,,,opentriviaqa
+otq-history-688,film,4,Wer spielte in 14 James-Bond-Filmen Miss Moneypenny?,Lois Maxwell,Samantha Bond,Judi Dench,Naomie Harris,,,opentriviaqa
 otq-history-689,film,4,Welche Schauspielerin spielte in „Verliebt in eine Hexe“ die tollpatschige Hexe Esmeralda?,Alice Ghostley,Agnes Moorehead,Kathy Bates,Angela Lansbury,,,opentriviaqa
 otq-hobbies-428,film,4,Wer drehte 1928 den Stummfilm „Champagne“?,Alfred Hitchcock,Ingmar Bergman,Fritz Lang,F. W. Murnau,,,opentriviaqa
 otq-humanities-574,film,4,Wer produzierte und inszenierte den Film „Wer den Wind sät“ (1960)?,Stanley Kramer,Elia Kazan,Sidney Lumet,Billy Wilder,,,opentriviaqa
@@ -187,6 +216,7 @@ otq-literature-687,film,4,Welcher Film mit Scarlett Johansson beruht auf Oscar W
 otq-movies-1101,film,4,Welchen Oscar gewann „Braveheart“ (1995) NICHT?,Kostümdesign,Bester Film,Beste Regie,Bestes Make-up,,,opentriviaqa
 otq-movies-1154,film,4,Wie heißt der Chef des japanischen Geheimdienstes im Bond-Film „Man lebt nur zweimal“?,Tiger Tanaka,Hiraku Hashimoto,Yasuhiro Yoshida,Senjei Suzuki,,,opentriviaqa
 otq-movies-1159,film,4,Wie heißt das japanische Schiff in „Man lebt nur zweimal“?,Ning-Po,Mu-San,Feng-Li,Kong-Wu,,,opentriviaqa
+otq-movies-1214,film,4,Was lässt der Butler in „Aristocats“ auf der Flucht vor den Hunden NICHT zurück?,Seinen Mantel,Seinen Schirm,Seinen Hut,Seinen Beiwagen,,,opentriviaqa
 otq-movies-1225,film,4,Womit spioniert man in „Liebesgrüße aus Moskau“ die sowjetische Botschaft in Istanbul aus?,Mit einem Periskop,Mit einem Tonband,Mit einer Kamera,Mit einer Wanze,,,opentriviaqa
 otq-movies-1277,film,4,Auf welchem Planeten landet Ripley in „Alien 3“?,Fiorina 161,Auriga 5,LV-426,Nostromo 121,,,opentriviaqa
 otq-movies-1341,film,4,Wie heißt die Trainerin der Eiskunstläuferin in „In tödlicher Mission“?,Jacoba Brink,Solveig Marklund,Georgette Cousineau,Jekaterina Puljanin,,,opentriviaqa
@@ -210,7 +240,10 @@ otq-movies-3274,film,4,Wie heißt Molly Ringwalds Figur in „Pretty in Pink“?
 otq-movies-3347,film,4,"Wie heißt das Raumschiff, das Ripley in „Aliens“ zurück nach LV-426 bringt?",Sulaco,Nostromo,Pegasus,Argo,,,opentriviaqa
 otq-movies-3467,film,4,Wie viele Gliedmaßen schlägt Obi-Wan Anakin im Duell auf Mustafar ab?,3,4,2,1,,,opentriviaqa
 otq-movies-3743,film,4,Worin bewahren Jedi und Sith in „Star Wars“ ihr Wissen auf?,In Holocrons,In Yodas Gedächtnis,In einer Datenbank,In Schriftrollen,,,opentriviaqa
+otq-movies-477,film,4,Wie starben die Eltern von James Bond laut Romanvorlage?,Bei einem Kletterunfall,Hinrichtung,Flugzeugabsturz,Ertrinken,,,opentriviaqa
+otq-movies-572,film,4,Wer ist der Oberkellner in Ricks Café in „Casablanca“?,Carl,Ferrari,Sascha,Ugarte,,,opentriviaqa
 otq-movies-702,film,4,"Wer spielte in „African Queen“ den Bruder von Rose, den Missionar?",Robert Morley,Peter Lorre,Alec Guinness,Robert Taylor,,,opentriviaqa
+otq-movies-811,film,4,"Wer hatte die Idee zu „Zurück in die Zukunft“, als er das Jahrbuch seines Vaters fand?",Bob Gale,Michael J. Fox,Steven Spielberg,Robert Zemeckis,,,opentriviaqa
 otq-music-2713,film,4,Welche Haarfarbe hat Clementine in „Vergiss mein nicht!“ zu Beginn des Films?,Blau,Rot,Lila,Orange,,,opentriviaqa
 otq-newest-1536,film,4,In welchem Marlene-Dietrich-Film von 1932 reist sie durch das bürgerkriegsgeplagte China?,Shanghai-Express,Der blaue Engel,Marokko,Blonde Venus,,,opentriviaqa
 otq-newest-1596,film,4,Wer inszenierte 1970 die Verfilmung von Joseph Hellers „Catch-22“?,Mike Nichols,Miloš Forman,Robert Altman,Martin Scorsese,,,opentriviaqa
@@ -219,11 +252,13 @@ otq-newest-1894,film,4,Wer spielte an der Seite von Basil Rathbone in den Sherlo
 otq-newest-26,film,4,Welche Komödie heißt in Portugal „Ein sehr verrückter Toter“?,Immer Ärger mit Bernie,Kiss Kiss Bang Bang,Shaun of the Dead,Lang lebe Ned Devine,,,opentriviaqa
 otq-newest-554,film,4,In welchem Land spielt der Film „Original Sin“ mit Angelina Jolie überwiegend?,Kuba,Mexiko,England,Brasilien,,,opentriviaqa
 otq-newest-67,film,4,Welcher Film war bei der ersten Oscarverleihung am häufigsten nominiert?,Das Glück in der Mansarde (Seventh Heaven),Flügel aus Stahl (Wings),Sein letzter Befehl,Sonnenaufgang,,,opentriviaqa
+otq-newest-88,film,4,Welcher Film heißt in Japan „Ich liebe meinen Papa am meisten auf der Welt“?,Jersey Girl,Mrs. Doubtfire,Big Daddy,Vaterfreuden,,,opentriviaqa
 otq-people-977,film,4,Wie lautet der eigentliche Vorname des Schauspielers Richard Chamberlain?,George,Justin,Zachary,Charles,,,opentriviaqa
 otq-rated-1361,film,4,Wie lautet der Mädchenname von Martys Mutter in „Zurück in die Zukunft“?,Baines,Baskett,Burkett,Barks,,,opentriviaqa
 otq-rated-1561,film,4,Aus welchem Film stammt der Satz „What we’ve got here is failure to communicate“ (1967)?,Der Unbeugsame (Cool Hand Luke),Einer flog über das Kuckucksnest,Ein Unschuldiger,Scorpion,,,opentriviaqa
 otq-rated-1828,film,4,"Aus welchem Film von 1941 stammt der Satz, das Alter sei die einzige Krankheit, von der man nicht geheilt werden will?",Citizen Kane,Die Spur des Falken,Eine Dame verschwindet,Vertigo,,,opentriviaqa
 otq-rated-235,film,4,Wer führte beim Film „In den Straßen der Bronx“ (1993) Regie?,Robert De Niro,Martin Scorsese,Chazz Palminteri,Francis Ford Coppola,,,opentriviaqa
 otq-rated-509,film,4,In welchem Film von 1994 führt Meryl Streep als erfahrene Raftingführerin zwei Flüchtige durch Stromschnellen?,Am wilden Fluss,Mystic River,Suspicious River,Aus der Mitte entspringt ein Fluss,,,opentriviaqa
+otq-science-technology-1275,film,4,Aus welchem Land stammen die Figuren im Film „Water“ (2005) von Deepa Mehta?,Indien,Marokko,China,Tschad,,,opentriviaqa
 otq-science-technology-1421,film,4,"Welche Frage stellt Laurence Olivier im Film „Der Marathon-Mann“, während er Dustin Hoffman am Zahn bohrt?",„Ist es sicher?“,„Kommen sie?“,„Wo sind die Juwelen?“,„Wer bist du?“,,,opentriviaqa
 otq-science-technology-516,film,4,"In welchem Film spielt Dustin Hoffman einen Mathematiker, der sich gegen Schikanen wehrt?",Wer Gewalt sät,Sonntagsvater,The Point,Sphere,,,opentriviaqa

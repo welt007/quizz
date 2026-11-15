@@ -4,12 +4,15 @@ otq-general-2760,musik,1,Wer komponierte „Die vier Jahreszeiten“?,Antonio Vi
 otq-general-325,musik,1,Welcher Beatles-Song sollte Julian Lennon aufmuntern?,Hey Jude,Lucy in the Sky with Diamonds,Let It Be,Yesterday,,,opentriviaqa
 otq-general-702,musik,1,Wer komponierte die „Mondscheinsonate“?,Ludwig van Beethoven,Claude Debussy,Wolfgang Amadeus Mozart,Igor Strawinsky,,,opentriviaqa
 otq-general-935,musik,1,Welche Band wurde in Liverpool gegründet?,The Beatles,The Bee Gees,The Kinks,The Rolling Stones,,,opentriviaqa
+otq-geography-419,musik,1,In welcher Stadt wurde der „Walzerkönig“ Johann Strauss (Sohn) geboren?,Wien,Salzburg,Berlin,Prag,,,opentriviaqa
 otq-history-1188,musik,1,Welcher Stil prägte Ende der 1970er mit den Sex Pistols Musik und Mode?,Punk,Trance,Reggae,House,,,opentriviaqa
 otq-humanities-288,musik,1,Aus welchem Land stammt der Tango?,Argentinien,Spanien,Kuba,Frankreich,,,opentriviaqa
 otq-humanities-380,musik,1,Wer schuf die Rockoper „Tommy“?,The Who,The Rolling Stones,Elton John,The Beatles,,,opentriviaqa
+otq-humanities-736,musik,1,Wie nennt man das Vortäuschen von Gitarrenspiel ohne Instrument?,Luftgitarre,Luftsaiten,Pseudogitarre,Schattengitarre,,,opentriviaqa
 otq-literature-981,musik,1,Welcher schottische Dichter schrieb „Auld Lang Syne“?,Robert Burns,Walter Scott,Robert Louis Stevenson,Lord Byron,,,opentriviaqa
 otq-music-1068,musik,1,Welche Band sang „Just Can’t Get Enough“ und „People Are People“?,Depeche Mode,The Cure,New Order,Pet Shop Boys,,,opentriviaqa
 otq-music-1239,musik,1,Wer sang „Paint It Black“?,The Rolling Stones,ZZ Top,The Doors,Eric Clapton,,,opentriviaqa
+otq-music-1321,musik,1,Welche Farbe hat die Corvette in Princes Hit von 1983?,Rot,Weiß,Schwarz,Lila,,,opentriviaqa
 otq-music-1415,musik,1,In welcher Stadt starb Ludwig van Beethoven?,Wien,Bonn,Hannover,Berlin,,,opentriviaqa
 otq-music-2087,musik,1,Welche Sinfonie Beethovens trägt den Beinamen „Pastorale“?,Die sechste,Die dritte,Die fünfte,Die neunte,,,opentriviaqa
 otq-music-239,musik,1,Wer nahm im Januar 1956 „Heartbreak Hotel“ auf?,Elvis Presley,Jerry Lee Lewis,Hank Williams,Chuck Berry,,,opentriviaqa
@@ -17,6 +20,7 @@ otq-music-2421,musik,1,Welche Farbe trägt die Dame in Chris de Burghs Hit von 1
 otq-music-250,musik,1,Wie heißt der Bob-Marley-Song mit „Let’s get together and feel all right“?,One Love,"No Woman, No Cry",Jamming,Could You Be Loved,,,opentriviaqa
 otq-music-2949,musik,1,Welches Duo veröffentlichte 1986 „Brother Louie“?,Modern Talking,Depeche Mode,Erasure,Pet Shop Boys,,,opentriviaqa
 otq-music-3378,musik,1,Mit wem sang Paul McCartney 1982 „Ebony and Ivory“?,Stevie Wonder,Michael Jackson,Ray Charles,Lionel Richie,,,opentriviaqa
+otq-music-35,musik,1,Welcher Beatle wurde am 8. Dezember 1980 erschossen?,John Lennon,Paul McCartney,Ringo Starr,George Harrison,,,opentriviaqa
 otq-music-4900,musik,1,Welche dieser Opern komponierte Mozart?,Die Zauberflöte,Otello,Der Barbier von Sevilla,Fidelio,,,opentriviaqa
 otq-music-4957,musik,1,Wer spielte bei den Beatles den Bass?,Paul McCartney,Ringo Starr,George Harrison,John Lennon,,,opentriviaqa
 otq-music-759,musik,1,Wer veröffentlichte 1965 „Like a Rolling Stone“?,Bob Dylan,Neil Young,Simon & Garfunkel,Woody Guthrie,,,opentriviaqa
@@ -29,11 +33,14 @@ otq-rated-496,musik,1,Mit welchem Song hatte Cher 1998/99 einen weltweiten Numme
 otq-world-2972,musik,1,Welche dieser Bands bzw. Musiker stammt NICHT aus Irland?,Take That,U2,The Cranberries,Sinéad O’Connor,,,opentriviaqa
 otq-world-345,musik,1,Von welchem Komponisten stammt das „Halleluja“ aus dem Oratorium „Der Messias“?,Georg Friedrich Händel,Ludwig van Beethoven,Johann Sebastian Bach,Wolfgang Amadeus Mozart,,,opentriviaqa
 otq-world-839,musik,1,In welcher Stadt steht das Opernhaus „Teatro alla Scala“?,Mailand,Rom,Neapel,Venedig,,,opentriviaqa
+otq-general-1113,musik,2,Welches Instrument erfand Bartolomeo Cristofori in Florenz um 1700?,Das Klavier (Hammerklavier),Die Geige,Die Orgel,Die Harfe,,,opentriviaqa
 otq-general-2119,musik,2,Wie lautet der Hit von Creedence Clearwater Revival: „Proud …“?,Mary,Harry,Berry,Barry,,,opentriviaqa
+otq-general-2648,musik,2,Wer wurde 1957 mit dem „Banana Boat Song“ (Day-O) berühmt?,Harry Belafonte,Charlie Parker,Bob Marley,Miles Davis,,,opentriviaqa
 otq-general-335,musik,2,Wie heißt das tragische Liebespaar in „West Side Story“?,Tony und Maria,Bernardo und Anita,Romeo und Julia,Riff und Velma,,,opentriviaqa
 otq-general-936,musik,2,Wer machte 1951 den Song „Unforgettable“ berühmt?,Nat King Cole,Bing Crosby,Dean Martin,Frank Sinatra,,,opentriviaqa
 otq-geography-444,musik,2,Welcher dieser Musiker wurde NICHT in Spanien geboren?,Shakira,Paco de Lucía,Alejandro Sanz,Enrique Iglesias,,,opentriviaqa
 otq-history-948,musik,2,Welches Jahrzehnt nennt man das „Jazz-Zeitalter“?,Die 1920er,Die 1960er,Die 1890er,Die 1940er,,,opentriviaqa
+otq-hobbies-543,musik,2,Welche Sängerin war für ihre Bienenkorbfrisur bekannt?,Amy Winehouse,Beyoncé,Adele,Christina Aguilera,,,opentriviaqa
 otq-humanities-685,musik,2,Wer komponierte die Musik zu „West Side Story“?,Leonard Bernstein,Stephen Sondheim,Andrew Lloyd Webber,George Gershwin,,,opentriviaqa
 otq-humanities-689,musik,2,Auf welcher Oper beruht das Musical „Miss Saigon“?,Madame Butterfly,Der Mikado,Die Piraten von Penzance,La Bohème,,,opentriviaqa
 otq-humanities-782,musik,2,Wonach ist der Tanz Charleston benannt?,Nach einer Stadt,Nach seinem Erfinder,Nach einem Kleidungsstück,Nach einem Komponisten,,,opentriviaqa
@@ -46,6 +53,7 @@ otq-music-1034,musik,2,In welcher Epoche vervollkommnete Bach die Fuge?,Barock,K
 otq-music-1049,musik,2,Welcher Komponist schrieb „Le Sacre du printemps“?,Igor Strawinsky,Claude Debussy,Richard Strauss,Maurice Ravel,,,opentriviaqa
 otq-music-1051,musik,2,Wessen Musik („Also sprach Zarathustra“) eröffnet „2001: Odyssee im Weltraum“?,Richard Strauss,Johann Strauss,Claudio Monteverdi,John Williams,,,opentriviaqa
 otq-music-1199,musik,2,Welcher Bluesmusiker nannte seine Gitarre „Lucille“ und wurde „King of the Blues“ genannt?,B. B. King,Muddy Waters,Etta James,John Lee Hooker,,,opentriviaqa
+otq-music-1215,musik,2,Mit welchem Song hatte Justin Timberlake 2002 einen großen Hit?,Cry Me a River,Cry on My Shoulder,"Cry, Cry, Cry",Mirrors,,,opentriviaqa
 otq-music-1259,musik,2,Welche Band singt „Good Riddance (Time of Your Life)“?,Green Day,The Offspring,Blink-182,Weezer,,,opentriviaqa
 otq-music-1265,musik,2,In welchem Musical nach George Bernard Shaw kommt der Sprachforscher Professor Higgins vor?,My Fair Lady,The Music Man,Fosse,Mame,,,opentriviaqa
 otq-music-1354,musik,2,Welche Band hieß ursprünglich „The New Yardbirds“?,Led Zeppelin,Bad Company,Deep Purple,Genesis,,,opentriviaqa
@@ -70,6 +78,7 @@ otq-newest-1990,musik,2,Wer hatte 1995 einen Hit mit „Gangsta’s Paradise“?
 otq-rated-1502,musik,2,Welcher Musiker wurde als Gordon Matthew Sumner geboren?,Sting,Elton John,Leo Sayer,Phil Collins,,,opentriviaqa
 otq-rated-84,musik,2,Wer ersetzte 1975/76 Mick Taylor bei den Rolling Stones?,Ronnie Wood,Ed Wood,Bill Wyman,Roy Wood,,,opentriviaqa
 otq-rated-998,musik,2,"Welcher britische Musiker, „Chamäleon des Pop“ genannt, hieß eigentlich David Jones?",David Bowie,Marc Bolan,Davy Jones,Sid Vicious,,,opentriviaqa
+otq-religion-faith-397,musik,2,Welcher Komponist schrieb die Gralsoper „Parsifal“?,Richard Wagner,Carl Maria von Weber,Robert Schumann,Richard Strauss,,,opentriviaqa
 otq-world-3008,musik,2,Aus welcher Oper von George Gershwin stammt die Arie „Summertime“?,Porgy and Bess,Shall We Dance,Funny Face,Blue Monday,,,opentriviaqa
 otq-entertainment-80,musik,3,Mit welcher Band wurde der Gitarrist Slash berühmt?,Guns N’ Roses,AFI,DragonForce,Korn,,,opentriviaqa
 otq-for-kids-268,musik,3,Welche Popsängerin schrieb das Kinderbuch „Die englischen Rosen“?,Madonna,Kylie Minogue,Britney Spears,Céline Dion,,,opentriviaqa
@@ -80,10 +89,12 @@ otq-general-2881,musik,3,"Welcher Komponist schrieb „Wellingtons Sieg“, ein 
 otq-general-568,musik,3,Wer sang 2005 den Hit „Bad Day“?,Daniel Powter,James Blunt,Green Day,James Morrison,,,opentriviaqa
 otq-general-695,musik,3,Vervollständige den Titel des Duran-Duran-Songs „New Moon on …“,Monday,Thursday,Friday,Sunday,,,opentriviaqa
 otq-general-932,musik,3,Welcher Sänger ist der Vater der Sängerin Natalie Cole?,Nat King Cole,Ray Charles,Dean Martin,Frank Sinatra,,,opentriviaqa
+otq-geography-397,musik,3,Wie heißt die Nationalhymne Italiens?,Il Canto degli Italiani (Fratelli d’Italia),Inno d’Italia,"Italia, terra di gloria",Sogno italiano,,,opentriviaqa
 otq-geography-492,musik,3,Wie heißt die Nationalhymne der Schweiz?,Schweizerpsalm,"Rufst du, mein Vaterland",Schweizerlied,Alpenhymne,,,opentriviaqa
 otq-geography-766,musik,3,Wer von diesen Berühmtheiten ist KEIN Schwede bzw. keine Schwedin?,Lars Ulrich (Metallica),Die Mitglieder von ABBA,Greta Garbo,Ingrid Bergman,,,opentriviaqa
 otq-history-1190,musik,3,Welcher Musik- und Modestil war Anfang der 1980er endgültig aus der Mode?,Disco,Punk,Reggae,Grunge,,,opentriviaqa
 otq-history-403,musik,3,Wer gehörte NICHT zum „Million Dollar Quartet“ von Sun Records (1956)?,Willie Nelson,Carl Perkins,Jerry Lee Lewis,Johnny Cash,,,opentriviaqa
+otq-history-91,musik,3,Welche Band sang 1984 „We’re Not Gonna Take It“?,Twisted Sister,Quiet Riot,Ratt,Mötley Crüe,,,opentriviaqa
 otq-history-94,musik,3,Wer trat beim Woodstock-Festival 1969 NICHT auf?,Bob Dylan,Jimi Hendrix,Joe Cocker,Janis Joplin,,,opentriviaqa
 otq-hobbies-256,musik,3,Wer schrieb den durch Elvis bekannten Song „Blue Suede Shoes“?,Carl Perkins,Johnny Cash,Buddy Holly,Chuck Berry,,,opentriviaqa
 otq-humanities-106,musik,3,In welchem Musical der 1950er-Jahre erklingt „Some Enchanted Evening“?,South Pacific,Mame,"Hello, Dolly!",The King and I,,,opentriviaqa
@@ -98,6 +109,7 @@ otq-literature-333,musik,3,Welche Band nannte ihr siebtes Studioalbum „Seventh
 otq-music-1037,musik,3,Welcher Musikepoche gehört Debussys „L’isle joyeuse“ an?,Impressionismus,Neoklassizismus,Moderne,Minimalismus,,,opentriviaqa
 otq-music-1169,musik,3,Woran starb Beatles-Manager Brian Epstein 1967?,An einer Überdosis Schlafmittel,Bei einem Flugzeugabsturz,An Krebs,An einer Hirnblutung,,,opentriviaqa
 otq-music-1185,musik,3,Wer sang 1985 „Freeway of Love“ über ein pinkes Cadillac?,Aretha Franklin,Tina Turner,Janis Joplin,Whitney Houston,,,opentriviaqa
+otq-music-12,musik,3,"Welche Band bildeten Tommy Lee, Vince Neil, Nikki Sixx und Mick Mars?",Mötley Crüe,Poison,Great White,Whitesnake,,,opentriviaqa
 otq-music-1417,musik,3,Was geschah um 1798 in Ludwig van Beethovens Leben?,Er bemerkte erstmals seine Schwerhörigkeit,Er heiratete,Er zog nach Paris,Er schrieb seine erste Sinfonie,,,opentriviaqa
 otq-music-1457,musik,3,Wie lang ist Led Zeppelins „Stairway to Heaven“ etwa?,8 Minuten,11 Minuten,4 Minuten,6 Minuten,,,opentriviaqa
 otq-music-160,musik,3,Welche schwedische Band hatte 1974 mit „Hooked on a Feeling“ einen Hit?,Blue Swede,ABBA,Roxette,Europe,,,opentriviaqa
@@ -105,20 +117,25 @@ otq-music-1656,musik,3,Wer komponierte das Musical „Girl Crazy“ (1930)?,Geor
 otq-music-1682,musik,3,Wie hießen die beiden Gesichter des Duos Milli Vanilli?,Rob Pilatus und Fab Morvan,Dieter Bohlen und Thomas Anders,Bobby Farrell und Liz Mitchell,Paul und Art,,,opentriviaqa
 otq-music-1924,musik,3,"In welchem Musical ruft die fleischfressende Pflanze „Feed me, Seymour“?",Der kleine Horrorladen,Mamma Mia!,Wicked,Sweeney Todd,,,opentriviaqa
 otq-music-2126,musik,3,Welcher Sänger von Deep Purple gründete 1977 die Band Whitesnake?,David Coverdale,Joe Lynn Turner,Ian Gillan,Rod Evans,,,opentriviaqa
+otq-music-2145,musik,3,"Wie nennt man jemanden, der Saiteninstrumente baut?",Geigenbauer (Luthier),Gambist,Violinist,Organist,,,opentriviaqa
 otq-music-222,musik,3,Wer war vor Ringo Starr Schlagzeuger der Beatles?,Pete Best,Stuart Sutcliffe,Klaus Voormann,Charlie Watts,,,opentriviaqa
 otq-music-2369,musik,3,In welcher englischen Stadt wurde Pink Floyd gegründet?,London (Mitglieder aus Cambridge),Sheffield,Manchester,Liverpool,,,opentriviaqa
+otq-music-251,musik,3,"Welcher Song beginnt mit „When I was young, I never needed anyone“?",All by Myself,Back to You,Because I Love You,Without You,,,opentriviaqa
+otq-music-2643,musik,3,Aus welchem Musical stammt der Hit „Day by Day“ (1972)?,Godspell,Hair,Jesus Christ Superstar,Grease,,,opentriviaqa
 otq-music-2656,musik,3,Mit welchem Mädchennamen-Song hatte Toto 1982 einen großen Hit?,Rosanna,Gloria,Joanna,Donna,,,opentriviaqa
 otq-music-2777,musik,3,Mit welchem Song hatte Little Richard 1955 seinen ersten Hit?,Tutti Frutti,"Good Golly, Miss Molly",Long Tall Sally,Rip It Up,,,opentriviaqa
 otq-music-2796,musik,3,Wie hieß Frank Zappas Band von 1964 bis 1975?,The Mothers of Invention,"Mother, Mother",The Blackouts,Captain Beefheart,,,opentriviaqa
 otq-music-280,musik,3,"Womit bezeichneten alliierte Piloten im Zweiten Weltkrieg „Foo Fighters“, die Namensgeber der Band?",Unbekannte Flugobjekte,Den deutschen Geheimdienst,Feindliche Jäger,Gewitterwolken,,,opentriviaqa
 otq-music-281,musik,3,Welche Band hatte 1987 einen Hit mit „Alone“?,Heart,Starship,Cutting Crew,Bon Jovi,,,opentriviaqa
 otq-music-2869,musik,3,Wie heißt Tina Turners Song von 1973 über ihren Heimatort?,Nutbush City Limits,Nutmeg City Limits,Nutsville City Limits,Nutcracker City Limits,,,opentriviaqa
+otq-music-2984,musik,3,Welches schwarze Tier ist Titel eines Rocksongs von Janet Jackson (1989/90)?,Black Cat,Black Raven,Black Shark,Black Horse,,,opentriviaqa
 otq-music-3055,musik,3,Welche große Jazzsängerin wurde „Sassy“ genannt?,Sarah Vaughan,Ella Fitzgerald,Shirley Horn,Lena Horne,,,opentriviaqa
 otq-music-3101,musik,3,Wie kam der Rock-’n’-Roll-Sänger Ritchie Valens 1959 ums Leben?,Bei einem Flugzeugabsturz,Durch Krankheit,Durch eine Überdosis,Bei einem Autounfall,,,opentriviaqa
 otq-music-3296,musik,3,Wo wurde Verdis Oper „Aida“ 1871 uraufgeführt?,In Kairo,In Rom,In Mailand,In Paris,,,opentriviaqa
 otq-music-3300,musik,3,Wie viele Akte hat Verdis Oper „Aida“?,4,7,3,2,,,opentriviaqa
 otq-music-3669,musik,3,Wie viele Vorzeichen hat die Tonart G-Dur?,Ein Kreuz,Zwei Be,Drei Kreuze,Fünf Be,,,opentriviaqa
 otq-music-3673,musik,3,Was ist in der Musik eine Modulation?,Der Wechsel in eine andere Tonart,Eine Variation der Melodie,Ein Halbtonschritt,Eine Tempoänderung,,,opentriviaqa
+otq-music-3678,musik,3,Wie nennt man den Tritonus noch?,Verminderte Quinte,Große Septime,Große Terz,Kleine Terz,,,opentriviaqa
 otq-music-3828,musik,3,Welcher Deutsche begann im großen Stil mit der Fabrikproduktion von Mundharmonikas und Akkordeons?,Matthias Hohner,Carl Bechstein,Heinrich Steinweg,Wilhelm Schimmel,,,opentriviaqa
 otq-music-3953,musik,3,"Welcher Musiker sagte: „Wenn die Macht der Liebe die Liebe zur Macht überwindet, wird die Welt Frieden kennen“?",Jimi Hendrix,Elvis Costello,John Lennon,Bob Marley,,,opentriviaqa
 otq-music-4255,musik,3,Welcher Komponist und Pianist hatte die größten Hände?,Sergei Rachmaninow,Wolfgang Amadeus Mozart,Franz Liszt,Ludwig van Beethoven,,,opentriviaqa
@@ -127,15 +144,19 @@ otq-music-4797,musik,3,Welchen Beatles-Song von 1969 coverten Aerosmith (1978) u
 otq-music-499,musik,3,Welche Gruppe fragte 1971 „How Can You Mend a Broken Heart“?,Bee Gees,The Carpenters,Simon & Garfunkel,The Hollies,,,opentriviaqa
 otq-music-586,musik,3,In welchem Jahr wurde Elvis Presley aus der US-Armee entlassen?,1960,1963,1957,1962,,,opentriviaqa
 otq-music-593,musik,3,Welches Sandwich soll Elvis Presley am liebsten gegessen haben?,Erdnussbutter mit Banane,Erdnussbutter mit Marmelade,Cheeseburger mit Zwiebeln,Steak-Sandwich,,,opentriviaqa
+otq-music-623,musik,3,Wer hatte 1984 den einzigen großen Hit „Somebody’s Watching Me“?,Rockwell,Nena,Falco,Mike Reno,,,opentriviaqa
 otq-music-750,musik,3,Wer sprach im Original den Orang-Utan King Louie im „Dschungelbuch“?,Louis Prima,Herb Alpert,Bobby Darin,Cab Calloway,,,opentriviaqa
 otq-music-779,musik,3,Welche Band hatte mit „In-A-Gadda-Da-Vida“ einen Hit?,Iron Butterfly,Steppenwolf,Jefferson Airplane,The Doors,,,opentriviaqa
 otq-music-863,musik,3,Welcher dieser Gitarristen spielte NICHT bei den Yardbirds?,Jeff „Skunk“ Baxter,Jeff Beck,Jimmy Page,Eric Clapton,,,opentriviaqa
 otq-newest-1617,musik,3,Wie geht der Titel des Elton-John-Songs von 1973 weiter: „Saturday Night’s Alright for …“?,Fighting,Dancing,Rocking,Loving,,,opentriviaqa
+otq-newest-569,musik,3,In welchem Ballett verliebt sich Franz in eine lebensgroße Puppe?,Coppélia,Der Nussknacker,Giselle,Schwanensee,,,opentriviaqa
 otq-newest-570,musik,3,"Welches Ballett erzählt von einem Bauernmädchen, dessen Geist nach seinem Tod den Geliebten beschützt?",Giselle,Der Nussknacker,Schwanensee,La Sylphide,,,opentriviaqa
 otq-people-1119,musik,3,"Wer sang „We Didn’t Start the Fire“, in dem Schlagzeilen von 1949 bis 1989 aufgezählt werden?",Billy Joel,Bob Dylan,David Bowie,Bruce Springsteen,,,opentriviaqa
 otq-science-technology-224,musik,3,"Welcher Musiker hatte einen Zwillingsbruder, der bei der Geburt starb?",Elvis Presley,Michael Jackson,Freddie Mercury,Elton John,,,opentriviaqa
 otq-world-3181,musik,3,Welche englische Rockband nahm 1971 „July Morning“ auf?,Uriah Heep,Deep Purple,Pink Floyd,Rainbow,,,opentriviaqa
 otq-world-3194,musik,3,Wie heißt die Nationalhymne der Volksrepublik China?,Marsch der Freiwilligen,Sieg des Volkes,Ruhm der Nation,Die Sonne geht auf,,,opentriviaqa
+otq-world-3303,musik,3,"Wie heißt die deutsche Nationalhymne, die 1922 eingeführt wurde?",Das Lied der Deutschen,Marsch der Republik,Schönes Vaterland,Heil dir im Siegerkranz,,,opentriviaqa
+otq-world-3984,musik,3,"In welchem Prince-Song heißt es „Baby, you’re much too fast“?",Little Red Corvette,Pink Cadillac,Mercedes Benz,Raspberry Beret,,,opentriviaqa
 otq-world-4150,musik,3,Wie heißt die Nationalhymne Australiens?,Advance Australia Fair,God Save the King,Waltzing Matilda,Song of Australia,,,opentriviaqa
 otq-world-4152,musik,3,"Was bedeutet „Hatikwa“, der Titel der israelischen Nationalhymne?",Die Hoffnung,Das gelobte Land,Die Gnade,Der Ruhm,,,opentriviaqa
 otq-world-493,musik,3,Wie heißt die Nationalhymne Irlands?,Amhrán na bhFiann (The Soldier’s Song),Danny Boy,Molly Malone,God Bless Ireland,,,opentriviaqa
@@ -147,18 +168,22 @@ otq-general-2862,musik,4,Die Melodie welches Hits von 1951 schrieb der Friedensn
 otq-general-294,musik,4,Wie lautete der ursprüngliche Arbeitstitel des Musicals „West Side Story“?,East Side Story,Krieg und Liebe,Gangs of New York,Jets und Sharks,,,opentriviaqa
 otq-general-355,musik,4,Welcher Song von 1951 gilt Sam Phillips zufolge als erster Rock-’n’-Roll-Song?,Rocket 88,"Roll with Me, Henry",Rock Around the Clock,That’s All Right,,,opentriviaqa
 otq-general-366,musik,4,"In welchem Jahr wurden Händel, Bach und Scarlatti geboren?",1685,1789,1750,1613,,,opentriviaqa
+otq-general-644,musik,4,Welches 1978 gegründete Label veröffentlichte New Order und die Happy Mondays?,Factory Records,Fall Records,Fire Records,Fiction Records,,,opentriviaqa
 otq-geography-441,musik,4,"Wie heißt die Nationalhymne Spaniens, die keinen offiziellen Text hat?",Marcha Real,Mi Reino Precioso,Dios salve a España,España orgullosa,,,opentriviaqa
 otq-geography-768,musik,4,"Wie heißt das Lied, das als Nationalhymne Schwedens dient?","Du gamla, du fria",Sverige,Kungssången,Vi böja oss,,,opentriviaqa
 otq-history-1387,musik,4,Welcher Rockgitarrist hält ein Patent auf eine Stütze zum Halten der Gitarre?,Eddie Van Halen,Bob Dylan,Tom Petty,Brian May,,,opentriviaqa
 otq-history-98,musik,4,Welche britische Band hatte 1963 einen Hit mit „Hippy Hippy Shake“?,The Swinging Blue Jeans,The Kinks,The Rolling Stones,The Hollies,,,opentriviaqa
 otq-humanities-186,musik,4,In welchem Musical von Bob Fosse tritt Karl der Große auf?,Pippin,Spamalot,Camelot,A Little Night Music,,,opentriviaqa
 otq-humanities-681,musik,4,Welcher berühmte Bassist prägte das Lied „Ol’ Man River“ aus dem Musical „Show Boat“?,Paul Robeson,Robert Goulet,William Warfield,John Raitt,,,opentriviaqa
+otq-humanities-713,musik,4,Welcher Tanz soll nach einem Micky-Maus-Cartoon der 1930er benannt sein?,Jive,Charleston,Foxtrott,Quickstep,,,opentriviaqa
 otq-humanities-732,musik,4,Welche New Yorker Hardcore-Band parodierte im Video „Step Down“ den Hardcore-Tanz?,Sick of It All,Minor Threat,Agnostic Front,Madball,,,opentriviaqa
 otq-humanities-737,musik,4,Welche schwedische Metalband ist für komplexe Polyrhythmik bekannt und gilt als Wegbereiter des „Djent“?,Meshuggah,In Flames,Therion,Opeth,,,opentriviaqa
+otq-humanities-893,musik,4,Für welche Schauspielerin schrieb Stephen Sondheim „Send in the Clowns“?,Glynis Johns,Shirley Jones,Elizabeth Taylor,Barbra Streisand,,,opentriviaqa
 otq-humanities-895,musik,4,Worum geht es im Lied „A Little Priest“ aus Sondheims „Sweeney Todd“?,Um Kannibalismus,Um Nächstenliebe,Um Konfessionsstreit,Um Korruption im Klerus,,,opentriviaqa
 otq-music-1032,musik,4,Wie geht die Zeile aus „Long Cool Woman“ von The Hollies weiter: „She was a long cool woman …“?,in a black dress,in a flat bed,making a mess,in a slack dress,,,opentriviaqa
 otq-music-1113,musik,4,In welchem Musical von Meredith Willson wird das Barbershop-Lied „Lida Rose“ gesungen?,The Music Man,Die Schöne und das Biest,Kismet,Porgy and Bess,,,opentriviaqa
 otq-music-1122,musik,4,In welchem Musical von Rodgers und Hammerstein erklingt „Soliloquy“?,Carousel,South Pacific,Oklahoma!,The King and I,,,opentriviaqa
+otq-music-1218,musik,4,Mit welchem Song hatte Melissa Manchester 1978 einen großen Hit?,Don’t Cry Out Loud,Cry Baby,Lonely Teardrops,Tears May Fall,,,opentriviaqa
 otq-music-1244,musik,4,Welches Duo landete 1969 mit „In the Year 2525“ seinen einzigen Hit?,Zager and Evans,Mouth & MacNeal,McFadden & Whitehead,Teegarden & Van Winkle,,,opentriviaqa
 otq-music-152,musik,4,Welcher Song war 1970 ein Nummer-eins-Hit der Jackson 5?,The Love You Save,Ease on Down the Road,Ben,Dancing Machine,,,opentriviaqa
 otq-music-1710,musik,4,In welchem Musical singt ein junger Prinz das Liebeslied „Stranger in Paradise“?,Kismet,Nine,Die Schöne und das Biest,Miss Saigon,,,opentriviaqa
@@ -166,6 +191,7 @@ otq-music-1764,musik,4,Wie lautet der bürgerliche Name des Parodisten „Weird 
 otq-music-1804,musik,4,Welcher Bob-Dylan-Song war 1971 der erste internationale Hit von Olivia Newton-John?,If Not for You,Jolene,Let Me Be There,I Honestly Love You,,,opentriviaqa
 otq-music-2014,musik,4,Welcher Schlagzeuger kam 1988 zu den Red Hot Chili Peppers?,Chad Smith,Zak Starkey,Earl Palmer,Jack Irons,,,opentriviaqa
 otq-music-2177,musik,4,Welche Band sang „An Old Fashioned Love Song“?,Three Dog Night,U2,Queen,Kiss,,,opentriviaqa
+otq-music-2186,musik,4,Unter welchem Namen trat John Henry Ramistella beim Monterey Pop Festival auf?,Johnny Rivers,Steve Cropper,Al Kooper,Eric Burdon,,,opentriviaqa
 otq-music-2284,musik,4,Welchen Tag im August besangen Bon Jovi 1995?,Den 7.,Den 17.,Den 8.,Den 18.,,,opentriviaqa
 otq-music-2454,musik,4,Wer komponierte den „Zug der Edlen“ (Procession of the Nobles) aus „Mlada“?,Nikolai Rimski-Korsakow,Ludwig van Beethoven,Wolfgang Amadeus Mozart,Gustav Holst,,,opentriviaqa
 otq-music-2502,musik,4,Welche dieser Bands der 60er stammte aus Australien?,The Easybeats,The Mindbenders,Unit 4 + 2,The Casuals,,,opentriviaqa
@@ -176,6 +202,8 @@ otq-music-2957,musik,4,Welcher Jazztrompeter wurde „Little Jazz“ genannt?,Ro
 otq-music-2963,musik,4,Welches Songwriterduo schrieb „Will You Love Me Tomorrow“ für die Shirelles?,Gerry Goffin und Carole King,Burt Bacharach und Hal David,Leiber und Stoller,Lennon und McCartney,,,opentriviaqa
 otq-music-3081,musik,4,"Wovor stand Prince nach eigener Aussage, als er 1991 den Song „Cream“ schrieb?",Vor einem Spiegel,Vor einem Madonna-Poster,Vor dem Kühlschrank,Vor einem Weihnachtsbaum,,,opentriviaqa
 otq-music-3225,musik,4,Wer sang „The Look of Love“ im Film „Casino Royale“ (1967)?,Dusty Springfield,Jackie DeShannon,Kim Novak,Peggy Lee,,,opentriviaqa
+otq-music-3308,musik,4,Wer leitete die Jazzrock-Band Return to Forever am Keyboard?,Chick Corea,Rick Wakeman,Jan Hammer,Herbie Hancock,,,opentriviaqa
+otq-music-3501,musik,4,Welcher Gitarrist sagte: „Mehr als drei Akkorde – dann ist es Jazz“?,Lou Reed,Keith Richards,Chuck Berry,Louis Armstrong,,,opentriviaqa
 otq-music-3556,musik,4,Welcher Jazzpianist komponierte den Standard „Misty“?,Erroll Garner,Bill Evans,Jelly Roll Morton,McCoy Tyner,,,opentriviaqa
 otq-music-3717,musik,4,Welchem Komponisten wird die mehrstimmige „Messe de Nostre Dame“ zugeschrieben?,Guillaume de Machaut,Jacopo da Bologna,Maestro Piero,Johannes Ciconia,,,opentriviaqa
 otq-music-3852,musik,4,Wie hieß das Klavierstück „Flohwalzer“ in seiner englischen Urfassung von 1877?,The Celebrated Chop Waltz,Staccato-Etüde in C-Dur,Chopsticks Rag,Etüde in a-Moll,,,opentriviaqa
@@ -184,6 +212,8 @@ otq-music-4180,musik,4,In welchem Nirvana-Song wird „I’m not the only one“
 otq-music-4259,musik,4,Welches Familienmitglied von Ray Charles ertrank als Kind?,Sein Bruder,Seine Mutter,Sein Vater,Seine Schwester,,,opentriviaqa
 otq-music-4336,musik,4,Welcher Eurovisionsbeitrag wurde in einer Fantasiesprache gesungen?,Sanomi (Belgien 2003),Lapponia,Mum,Nanana,,,opentriviaqa
 otq-music-4569,musik,4,"Wie endet der berühmte US-Werbejingle „Oh, I wish I were an …“?",Oscar Mayer wiener,Oldsmobile,American Idol,Ocean liner,,,opentriviaqa
+otq-music-4625,musik,4,Welcher New Yorker Club von Hilly Kristal war ab 1973 Zentrum der Punkszene?,CBGB,The Palladium,Studio 54,Whisky a Go Go,,,opentriviaqa
+otq-music-484,musik,4,"Was wäre für Rizzo in „Grease“ das Schlimmste, das sie tun könnte („There Are Worse Things I Could Do“)?",Vor anderen zu weinen,Ein Versprechen zu brechen,Mit Jungs zu flirten,Kalt zu duschen,,,opentriviaqa
 otq-music-4950,musik,4,Welchem Musiker überließ Waylon Jennings 1959 seinen Platz im Unglücksflugzeug mit Buddy Holly?,The Big Bopper,Ritchie Valens,Tommy Allsup,Eddie Cochran,,,opentriviaqa
 otq-music-4991,musik,4,Welcher Altsaxofonist prägte das Dave Brubeck Quartet und schrieb „Take Five“?,Paul Desmond,Eric Dolphy,Darius Brubeck,Al Cohn,,,opentriviaqa
 otq-music-5000,musik,4,"Welche Girlgroup wurde von Foster & McElroy produziert („Hold On“, „My Lovin’“)?",En Vogue,Xscape,SWV,TLC,,,opentriviaqa
@@ -196,8 +226,11 @@ otq-music-902,musik,4,Welchen Song schrieb Garth Brooks zum Gedenken an seinen F
 otq-music-973,musik,4,"Welcher Song von Neil Young enthält die Zeile „Dreamer of pictures, I run in the night“?",Cinnamon Girl,Heart of Gold,Harvest Moon,Old Man,,,opentriviaqa
 otq-people-186,musik,4,"Wo lag die Insel Dorinish, die John Lennon 1967 kaufte?",In Irland,Im Mittelmeer,Im Japanischen Meer,In der Karibik,,,opentriviaqa
 otq-world-162,musik,4,Wer schrieb 1857 das Lied „Jingle Bells“?,James Lord Pierpont,Irving Berlin,Stephen Foster,John Williams,,,opentriviaqa
+otq-world-2356,musik,4,Wer nahm 1966 „Summer in the City“ ursprünglich auf?,The Lovin’ Spoonful,The Monkees,The Supremes,The Everly Brothers,,,opentriviaqa
 otq-world-2510,musik,4,Wie heißt das typische philippinische Liebeslied?,Kundiman,Oyayi,Harana,Balitaw,,,opentriviaqa
+otq-world-2576,musik,4,Welcher Volksmusikstil stammt aus Puerto Rico?,Plena,Salsa,Marimba,Reggaeton,,,opentriviaqa
 otq-world-2623,musik,4,Welchem mexikanischen Musikstil gehören Vicente Fernández und Pedro Infante an?,Ranchera,Corrido,Cumbia,Banda,,,opentriviaqa
 otq-world-3026,musik,4,Wie heißt die bulgarische Nationalhymne?,Mila Rodino (Liebe Heimat),O schönes Bulgarien,Das ist mein Land,Himmel auf Erden,,,opentriviaqa
+otq-world-3577,musik,4,Wie heißt die Nationalhymne Vietnams?,Tiến Quân Ca (Marschlied),Rote Macht,Erhebt euch,Ruhm,,,opentriviaqa
 otq-world-3718,musik,4,Der Melodie welcher europäischen Hymne soll die Hymne Venezuelas ähneln?,Der französischen,Der niederländischen,Der spanischen,Der portugiesischen,,,opentriviaqa
 otq-world-3970,musik,4,Wer war auf dem Titelbild der ersten Ausgabe des „Rolling Stone“ (1967)?,John Lennon,Eric Clapton,Jimi Hendrix,Janis Joplin,,,opentriviaqa

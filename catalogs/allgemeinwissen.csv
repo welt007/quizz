@@ -11,12 +11,16 @@ agw-0009,allgemeinwissen,3,Wie viele Zähne hat das vollständige Gebiss eines E
 agw-0010,allgemeinwissen,4,Wie viele farbige Felder hat ein klassischer 3×3×3-Zauberwürfel auf seiner gesamten Oberfläche?,54,48,56,64,,6 Seiten mit je 9 Feldern.,spiele
 agw-0011,allgemeinwissen,4,Was bezeichnet das Wort „Petrichor“?,Den Geruch von Regen auf trockener Erde,Einen Edelstein aus Vulkangestein,Eine Muskelgruppe im Rücken,Ein altgriechisches Versmaß,,,begriffe
 agw-0012,allgemeinwissen,4,Welche Farbe hat die Zunge einer Giraffe überwiegend?,Blauschwarz,Rosa,Grau,Gelb,,Die dunkle Färbung schützt vermutlich vor Sonnenbrand.,tiere
+otq-brain-teasers-3,allgemeinwissen,1,"Ich spreche nicht und höre nicht, aber ich sage immer die Wahrheit. Was bin ich?",Der Spiegel,Die Uhr,Ein Fisch,Die Oma,,,opentriviaqa
 otq-brain-teasers-60,allgemeinwissen,1,"Was geht am Morgen auf vier, mittags auf zwei und abends auf drei Beinen?",Der Mensch,Die Schildkröte,Das Faultier,Der Rabe,,,opentriviaqa
 otq-brain-teasers-81,allgemeinwissen,1,Joe hat 29 Paar Socken. Wie viele einzelne Socken hat er?,58,60,56,29,,,opentriviaqa
 otq-for-kids-112,allgemeinwissen,1,"Wie geht die Reihe weiter: XX, XXXX, XXXXXX, …?",XXXXXXXX,XXXXXXX,XXXXXXXXX,XXXXXXXXXX,,,opentriviaqa
 otq-for-kids-114,allgemeinwissen,1,"Chad hat 23 Comics, zusammen mit Jason sind es 59. Wie viele hat Jason?",36,26,35,82,,,opentriviaqa
+otq-for-kids-167,allgemeinwissen,1,Was ergibt 3 × 6 × 9 × 0 × 12 × 32 × 2?,0,124.416,999.999,1,,,opentriviaqa
+otq-for-kids-215,allgemeinwissen,1,Wie groß ist x in der Gleichung 4x + 4 = 12?,2,8,6,4,,,opentriviaqa
 otq-for-kids-217,allgemeinwissen,1,Was ist die Quadratwurzel aus 121?,11,10,12,13,,,opentriviaqa
 otq-for-kids-281,allgemeinwissen,1,Was ergibt 16 − 4 + 3?,15,14,13,16,,,opentriviaqa
+otq-for-kids-284,allgemeinwissen,1,Donna kauft 5 Lutscher und schenkt ihrer Freundin 2. Wie viele hat sie noch?,3,4,2,1,,,opentriviaqa
 otq-for-kids-286,allgemeinwissen,1,"Anton hat 8 Äpfel, 2 Orangen und 3 Birnen. Wie viele Früchte hat er?",13,14,12,11,,,opentriviaqa
 otq-for-kids-287,allgemeinwissen,1,Was ergibt 12 − 3?,9,8,7,6,,,opentriviaqa
 otq-for-kids-315,allgemeinwissen,1,Was ist die Quadratwurzel aus 144?,12,7,14,16,,,opentriviaqa
@@ -26,6 +30,7 @@ otq-for-kids-432,allgemeinwissen,1,Jemand hat 8 Hunde und genauso viele Katzen. 
 otq-general-1943,allgemeinwissen,1,Die Farbe „Pistazie“ ist ein Ton welcher Grundfarbe?,Grün,Braun,Rot,Blau,,,opentriviaqa
 otq-general-2496,allgemeinwissen,1,Ein Telefonhörer hat eine Sprechmuschel. Wie heißt der andere Teil?,Hörmuschel,Telefonschnur,Wählscheibe,Handteil,,,opentriviaqa
 otq-general-2646,allgemeinwissen,1,Wie oft im Jahr erscheint das Magazin National Geographic?,12-mal,52-mal,36-mal,24-mal,,,opentriviaqa
+otq-general-307,allgemeinwissen,1,Welche zwei Farben ergeben gemischt Orange?,Rot und Gelb,Gelb und Grün,Blau und Rot,Weiß und Blau,,,opentriviaqa
 otq-general-76,allgemeinwissen,1,Vor welcher Zahl fürchtet sich jemand mit Triskaidekaphobie?,13,6,9,666,,,opentriviaqa
 otq-general-78,allgemeinwissen,1,Wie heißt das 50. Hochzeitsjubiläum?,Goldene Hochzeit,Perlenhochzeit,Diamantene Hochzeit,Silberne Hochzeit,,,opentriviaqa
 otq-history-1062,allgemeinwissen,1,In welchem Monat sind Frauentag und St. Patrick’s Day?,März,August,April,Juni,,,opentriviaqa
@@ -34,27 +39,37 @@ otq-history-1066,allgemeinwissen,1,In welchem Monat feiern viele Länder den Tag
 otq-history-844,allgemeinwissen,1,Wie viele Monate im Jahr haben 31 Tage?,7,5,6,8,,,opentriviaqa
 otq-newest-1918,allgemeinwissen,1,"Rätsel: Du bist in einem dunklen Raum mit Kerze, Ofen, Gaslampe und einem Streichholz. Was zündest du zuerst an?",Das Streichholz,Die Kerze,Den Ofen,Die Gaslampe,,,opentriviaqa
 otq-newest-471,allgemeinwissen,1,Welche zwei Farben ergeben gemischt Lila?,Rot und Blau,Braun und Blau,Grün und Braun,Gelb und Rot,,,opentriviaqa
+otq-science-technology-1032,allgemeinwissen,1,"Wie wahrscheinlich ist es, aus einem Skatblatt ohne Joker mit 52 Karten ein Karo zu ziehen?",1 zu 4,1 zu 13,1 zu 26,1 zu 52,,,opentriviaqa
 otq-science-technology-107,allgemeinwissen,1,10 ist ein Vielfaches von 5 und von welcher weiteren Primzahl?,2,3,7,11,,,opentriviaqa
 otq-science-technology-979,allgemeinwissen,1,Welche Zahl ist die römische Zahl XL?,40,60,50,90,,,opentriviaqa
 otq-science-technology-983,allgemeinwissen,1,Was ist der größte gemeinsame Teiler von 24 und 36?,12,16,6,14,,,opentriviaqa
 otq-science-technology-984,allgemeinwissen,1,"Was ist das kleinste gemeinsame Vielfache von 5, 6 und 10?",30,20,10,60,,,opentriviaqa
+otq-world-464,allgemeinwissen,1,An welchem Datum ist der Internationale Frauentag?,8. März,1. April,15. Dezember,1. Mai,,,opentriviaqa
 otq-brain-teasers-141,allgemeinwissen,2,"Eine Mutter hat 6 Töchter, und jede hat einen Bruder. Wie viele Kinder hat sie?",7,6,12,13,,,opentriviaqa
 otq-brain-teasers-147,allgemeinwissen,2,"Da sind drei Ananas, und du nimmst zwei. Wie viele hast du dann?",2,1,0,3,,,opentriviaqa
 otq-brain-teasers-152,allgemeinwissen,2,"Was kann tanzen, leben und sterben – ohne Beine, ohne Lunge und ohne lebendig zu sein?",Feuer,Wasser,Dunkelheit,Wind,,,opentriviaqa
 otq-brain-teasers-22,allgemeinwissen,2,"Rätsel: Was geht immer die Treppe hinauf und hinunter, ohne sich zu bewegen?",Ein Teppich,Ein Schal,Ein Vorhang,Ein Handtuch,,,opentriviaqa
+otq-brain-teasers-26,allgemeinwissen,2,"12 Kerzen brennen, der Wind bläst 5 aus. Wie viele Kerzen bleiben übrig (am Ende)?",5 (die anderen brennen ab),12,0,7,,,opentriviaqa
 otq-brain-teasers-8,allgemeinwissen,2,Du überholst bei einem Lauf den Zweiten. Auf welchem Platz bist du jetzt?,Zweiter,Erster,Dritter,Ausgeschieden,,,opentriviaqa
+otq-brain-teasers-84,allgemeinwissen,2,Ein Bürogebäude hat 350 Fenster und halb so viele Türen. Wie viele Türen haben 3 solcher Gebäude?,525,500,550,575,,,opentriviaqa
 otq-brain-teasers-87,allgemeinwissen,2,Vor fünf Jahren waren Schwester und Bruder zusammen 8 Jahre alt. Wie alt sind sie zusammen in fünf Jahren?,28,18,13,8,,,opentriviaqa
 otq-for-kids-218,allgemeinwissen,2,Ein Dreieck hat Winkel von 47° und 106°. Wie groß ist der dritte Winkel?,27°,37°,207°,17°,,,opentriviaqa
+otq-for-kids-220,allgemeinwissen,2,Ein rechtwinkliges Dreieck hat Katheten von 3 cm und 4 cm. Wie lang ist die Hypotenuse?,5 cm,4 cm,7 cm,6 cm,,,opentriviaqa
+otq-for-kids-429,allgemeinwissen,2,"Eine dreistellige Zahl beginnt mit 8, die zweite Ziffer ist die Hälfte davon, die dritte wieder die Hälfte. Welche Zahl?",842,284,824,428,,,opentriviaqa
 otq-general-1626,allgemeinwissen,2,An welchem Apriltag wird der „Tag der Erde“ gefeiert?,22. April,30. April,12. April,2. April,,,opentriviaqa
 otq-general-1874,allgemeinwissen,2,"Ein Bauer trägt einen Sack Getreide, sein Sohn zwei. Wer trägt die schwerere Last?",Nicht entscheidbar,Der Sohn,Der Vater,Beide gleich viel,,,opentriviaqa
+otq-general-2099,allgemeinwissen,2,Die Farbe Sepia ist ein Ton welcher Grundfarbe?,Braun,Silber,Marineblau,Pflaume,,,opentriviaqa
 otq-general-2865,allgemeinwissen,2,"In einem Beutel liegen 4 rote und 6 blaue Murmeln. Wie wahrscheinlich ist es, eine blaue oder grüne zu ziehen?",6 von 10,0,4 von 10,2 von 10,,,opentriviaqa
 otq-general-791,allgemeinwissen,2,Welches Wort passt nicht in die Reihe?,Amethyst,Narzisse,Rose,Gänseblümchen,,,opentriviaqa
+otq-history-1064,allgemeinwissen,2,In welchem Monat wurde Napoleon geboren?,August,Februar,Juni,Mai,,,opentriviaqa
+otq-science-technology-1903,allgemeinwissen,2,Welches Wetter verspricht laut Bauernregel ein roter Abendhimmel?,"Schönes, trockenes Wetter",Regen,Schnee,Gewitter,,,opentriviaqa
 otq-science-technology-738,allgemeinwissen,2,Ein Zahlenschloss hat drei Stellen mit je fünf möglichen Ziffern (0–4). Wie viele Kombinationen gibt es?,125,21,15,120,,,opentriviaqa
 otq-world-1352,allgemeinwissen,2,Welcher Tag gilt als „Pi-Tag“ (amerikanische Schreibweise 3/14)?,14. März,15. März,16. März,17. März,,,opentriviaqa
 otq-world-2441,allgemeinwissen,2,Welches russische Unternehmen förderte 2004 rund 93 % des russischen Erdgases?,Gazprom,Lukoil,Rosneft,Surgutneftegas,,,opentriviaqa
 otq-brain-teasers-140,allgemeinwissen,3,Margarete sagt: „In zwei Jahren bin ich doppelt so alt wie vor fünf Jahren.“ Wie alt ist sie?,12,6,7,24,,,opentriviaqa
 otq-brain-teasers-29,allgemeinwissen,3,Wie oft kommt die Ziffer 3 in den Zahlen von 1 bis 50 vor?,15,14,10,13,,,opentriviaqa
 otq-brain-teasers-49,allgemeinwissen,3,Eine Wassermelone wiegt 10 kg plus die Hälfte ihres eigenen Gewichts. Wie schwer ist sie?,20 kg,10 kg,15 kg,5 kg,,,opentriviaqa
+otq-brain-teasers-80,allgemeinwissen,3,"Im Koffer sind Socken in vier Farben. Wie viele muss man blind ziehen, um sicher ein gleichfarbiges Paar zu haben?",5,6,8,4,,,opentriviaqa
 otq-for-kids-427,allgemeinwissen,3,"Welche Zahl passt nicht in die Folge: 2, 4, 6, 7, 9, 12, 11?",12,11,9,6,,,opentriviaqa
 otq-general-1141,allgemeinwissen,3,Was erfand Carlton Magee?,Die Parkuhr,Die Polizeisirene,Die Steuererklärung,Die Verkehrsampel,,,opentriviaqa
 otq-general-1784,allgemeinwissen,3,"Wie viele Frauen gäbe es, wenn die Welt ein Dorf mit 100 Menschen wäre?",Etwa 50,Etwa 60,Etwa 40,Etwa 35,,,opentriviaqa
@@ -65,6 +80,8 @@ otq-general-2383,allgemeinwissen,3,Welcher Monat hat den Granat als Monatsstein 
 otq-general-2385,allgemeinwissen,3,Saphir und Vergissmeinnicht sind Symbole welches Monats?,September,Juli,Februar,Dezember,,,opentriviaqa
 otq-general-2387,allgemeinwissen,3,Der Amethyst ist Monatsstein welches Monats?,Februar,September,April,Juli,,,opentriviaqa
 otq-general-2626,allgemeinwissen,3,In welchem Land wurde das Kreuzfahrtschiff „Queen Mary 2“ gebaut?,Frankreich,Griechenland,Deutschland,Irland,,,opentriviaqa
+otq-general-436,allgemeinwissen,3,Welcher Farbton ist KEIN Lila-Ton?,Zinnober (Vermilion),Heliotrop,Mountbatten-Rosa,Distel,,,opentriviaqa
+otq-general-508,allgemeinwissen,3,Wann stehen beide Zeiger von Big Ben genau übereinander?,Um 12 Uhr mittags und Mitternacht (und weitere Male),Nie,Nur um Mitternacht,Nur mittags,,,opentriviaqa
 otq-general-818,allgemeinwissen,3,Wie viele Primzahlen sind kleiner als 23?,8,7,9,10,,,opentriviaqa
 otq-general-96,allgemeinwissen,3,Welcher Edelstein ist traditionell der Monatsstein des Septembers?,Saphir,Topas,Türkis,Opal,,,opentriviaqa
 otq-general-993,allgemeinwissen,3,"Wie heißt das Prinzip, nach dem jeder Beschäftigte bis zur Stufe seiner Unfähigkeit aufsteigt?",Peter-Prinzip,William-Prinzip,Matthäus-Prinzip,Johnson-Prinzip,,,opentriviaqa
@@ -84,8 +101,10 @@ otq-brain-teasers-133,allgemeinwissen,4,Mein Enkel ist so viele Tage alt wie mei
 otq-brain-teasers-28,allgemeinwissen,4,"Neun Reisende haben Proviant für fünf Tage. Es kommen weitere hinzu, nun reicht er nur drei Tage. Wie viele kamen hinzu?",6,7,8,5,,,opentriviaqa
 otq-general-1025,allgemeinwissen,4,"Wie geht die Folge weiter: 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, …? (Nicht-Primzahlen)",21,23,22,19,,,opentriviaqa
 otq-general-2095,allgemeinwissen,4,Die Farbe „Gummigutt“ ist ein Ton welcher Grundfarbe?,Gelb,Grau,Blau,Lila,,,opentriviaqa
+otq-general-2097,allgemeinwissen,4,Welche Farbe hat der Farbton „ikterin“?,Gelb,Grün,Rot,Blau,,,opentriviaqa
 otq-general-2390,allgemeinwissen,4,Ringelblume und Opal sind Symbole welches Monats?,Oktober,November,Februar,Juni,,,opentriviaqa
 otq-general-36,allgemeinwissen,4,Auf welchen Wochentag fällt der 13. eines Monats (über 400 Jahre gesehen) am häufigsten?,Freitag,Sonntag,Montag,Mittwoch,,,opentriviaqa
+otq-general-792,allgemeinwissen,4,"Welche Zahl passt nicht: 17462, 11780, 13491, 15183? (Quersummen)",17462,11780,13491,15183,,,opentriviaqa
 otq-rated-1771,allgemeinwissen,4,"Wie endet das Kant zugeschriebene Zitat „Wissenschaft ist organisiertes Wissen, Weisheit ist organisiertes …“?",Leben,Denken,Ansehen,Gemüt,,,opentriviaqa
 otq-rated-1772,allgemeinwissen,4,Wie vollendet sich der Satz „Wissen ist das Anhäufen von Fakten; Weisheit liegt in ihrer …“?,Vereinfachung,Bestätigung,Anwendung,Deutung,,,opentriviaqa
 otq-science-technology-1001,allgemeinwissen,4,"Welche Zahl fehlt: 3, 6, 18, 36, ?, 216, 234, 468",54,108,72,39,,,opentriviaqa
