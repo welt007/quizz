@@ -1,27 +1,48 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-sports-1294,sport,1,Welcher Fußballer algerischer Abstammung führte Frankreich 1998 zum WM-Titel?,Zinédine Zidane,Alessandro Del Piero,Jean-Pierre Papin,Thierry Henry,,,opentriviaqa
+otq-sports-1381,sport,1,Welcher 17-Jährige gewann 1985 als erster ungesetzter Spieler das Herreneinzel in Wimbledon?,Boris Becker,Michael Stich,Goran Ivanišević,Stefan Edberg,,,opentriviaqa
+otq-sports-1701,sport,1,"Wie nennt man es im Golf, wenn der Ball mit dem ersten Schlag im Loch landet?",Hole-in-one,Birdie,Eagle,Bogey,,,opentriviaqa
 otq-sports-853,sport,1,Welche Skidisziplin wird in Skigebieten am häufigsten betrieben?,Alpiner Skilauf,Skilanglauf,Freestyle-Skiing,Skijöring,,,opentriviaqa
 otq-sports-874,sport,1,Mit was für Kugeln wird beim Boule bzw. Pétanque gespielt?,Mit Metallkugeln,Mit Gummibällen,Mit Holzkugeln,Mit Glaskugeln,,,opentriviaqa
 otq-geography-344,sport,2,Welcher Südtiroler bestieg den Everest als Erster ohne Flaschensauerstoff (mit Peter Habeler) und später als Erster im Alleingang?,Reinhold Messner,Hans Kammerlander,Jerzy Kukuczka,Peter Habeler,,,opentriviaqa
 otq-history-242,sport,2,In welchem Land fanden die Olympischen Winterspiele 2006 statt?,Italien,Schweiz,Frankreich,Deutschland,,,opentriviaqa
 otq-sports-1766,sport,2,Welches Rennen wird auch „Grand Prix der Ausdauer“ genannt?,24 Stunden von Le Mans,Großer Preis von Monaco,Indianapolis 500,Mille Miglia,,,opentriviaqa
 otq-sports-192,sport,2,Welches Tier war 1972 in München das erste offizielle Olympia-Maskottchen?,Der Dackel Waldi,Der Biber Amik,Der Hund Cobi,Der Adler Sam,,,opentriviaqa
+otq-sports-1940,sport,2,Womit stimmt man beim Pilates die Bewegungen ab?,Mit der Atmung,Mit dem Partner,Mit dem Gleichgewicht,Mit der Kraft,,,opentriviaqa
 otq-sports-2054,sport,2,Wer gewann 1988 den ersten „Golden Slam“ der Tennisgeschichte?,Steffi Graf,Martina Navratilova,John McEnroe,Pete Sampras,,,opentriviaqa
 otq-sports-569,sport,2,Wie heißt der Spielstand 0:0 im Tennis auf Englisch?,Love all,Zero all,Nil all,Null all,,,opentriviaqa
+otq-world-3705,sport,2,In welchem Jahr fanden erstmals Olympische Sommerspiele in Tokio statt?,1964,1996,1936,1948,,,opentriviaqa
 otq-world-3786,sport,2,Welche Sportart ist in Südafrika am beliebtesten?,Fußball,Leichtathletik,Tennis,Boxen,,,opentriviaqa
 otq-newest-2139,sport,3,Welches Team besiegte Spanien im Finale der Fußball-EM 1984 mit 2:0?,Frankreich,Niederlande,Deutschland,England,,,opentriviaqa
 otq-newest-520,sport,3,Bei welchen Schwimmarten darf im Wettkampf die Rollwende genutzt werden?,Freistil und Rücken,Rücken und Brust,Schmetterling und Brust,Schmetterling und Freistil,,,opentriviaqa
 otq-sports-1120,sport,3,Wer gründete zusammen mit Bill Bowerman die Sportmarke Nike?,Phil Knight,Adi Dassler,Jim Collins,Steve Prefontaine,,,opentriviaqa
+otq-sports-1306,sport,3,Welcher Fußballer spielte seine gesamte Vereinskarriere von 25 Jahren beim AC Mailand?,Paolo Maldini,Gianluca Vialli,Marco van Basten,Andrea Pirlo,,,opentriviaqa
+otq-sports-1307,sport,3,Welcher Verteidiger des AC Mailand gewann sechs Meisterschaften und drei Europapokale; seine Nummer 6 wird nicht mehr vergeben?,Franco Baresi,Paolo Maldini,Mauro Tassotti,Alessandro Costacurta,,,opentriviaqa
 otq-sports-1372,sport,3,Welcher philippinische Boxer gewann Weltmeistertitel in acht Gewichtsklassen?,Manny Pacquiao,Efren Reyes,Paeng Nepomuceno,Nonito Donaire,,,opentriviaqa
 otq-sports-1432,sport,3,Wie viele Gold- und Bronzemedaillen gewann Michael Phelps bei den Olympischen Spielen 2004 in Athen?,"6-mal Gold, 2-mal Bronze","5-mal Gold, 3-mal Bronze","6-mal Gold, 1-mal Bronze","5-mal Gold, 2-mal Bronze",,,opentriviaqa
+otq-sports-1435,sport,3,Mit welchem Vorsprung schlug Michael Phelps 2008 über 100 m Schmetterling Milorad Čavić?,Einer Hundertstelsekunde,Zwei Zehntelsekunden,Einer Zehntelsekunde,Zwei Hundertstelsekunden,,,opentriviaqa
 otq-sports-1615,sport,3,"Wie lautet der genauere Sammelbegriff für die chinesischen Kampfkünste, die im Westen oft „Kung Fu“ heißen?",Wushu,San Soo,Kendo,Hung Gar,,,opentriviaqa
+otq-sports-1642,sport,3,Wo fanden die Olympischen Sommerspiele 1928 statt?,In Amsterdam (Niederlande),In Buenos Aires,In Seoul,In Barcelona,,,opentriviaqa
+otq-sports-1673,sport,3,Wer gewann 1975 die erste Cricket-Weltmeisterschaft?,Westindische Inseln,Australien,England,Indien,,,opentriviaqa
 otq-sports-283,sport,3,In welcher dieser Städte findet kein Masters-Tennisturnier statt?,London,Rom,Monte Carlo,Madrid,,,opentriviaqa
+otq-sports-531,sport,3,Welcher dieser Vereine spielt in der französischen Fußballliga?,AJ Auxerre,Sporting Charleroi,Arminia Bielefeld,Jeunesse Esch,,,opentriviaqa
+otq-sports-864,sport,3,Wie lang ist eine Normbahn im Eisschnelllauf?,400 m,1000 m,700 m,500 m,,,opentriviaqa
 otq-sports-967,sport,3,Wer erzielte im WM-Halbfinale 2006 zwischen Deutschland und Italien in der Verlängerung das 1:0?,Fabio Grosso,Luca Toni,Alberto Gilardino,Alessandro Del Piero,,,opentriviaqa
 otq-sports-976,sport,3,Als Pionier welcher Skateboard-Disziplin gilt Tony Hawk?,Vert-Skating (Halfpipe),Grind-Skating,Freestyle,Street-Skating,,,opentriviaqa
+otq-world-1238,sport,3,In welcher Farbe treten italienische Nationalmannschaften traditionell an?,Blau,Weiß,Grün,Rot,,,opentriviaqa
 otq-religion-faith-216,sport,4,In welchem Jahr fanden die ersten Makkabiade-Spiele statt?,1932,1896,1964,1956,,,opentriviaqa
 otq-sports-1008,sport,4,Wie viele Sätze werden im olympischen Tischtennis-Einzel höchstens gespielt?,7,3,5,9,,,opentriviaqa
+otq-sports-1110,sport,4,Wer zeigte im Eiskunstlauf als Erster eine Vierfach-Dreifach-Kombination?,Elvis Stojko,Timothy Goebel,Jewgeni Pljuschtschenko,Alexei Jagudin,,,opentriviaqa
+otq-sports-1366,sport,4,Welche Schwimmerin gewann 2008 mit 41 Jahren drei olympische Silbermedaillen?,Dara Torres,Franziska van Almsick,Inge de Bruijn,Jenny Thompson,,,opentriviaqa
+otq-sports-1417,sport,4,In welchem Jahr wurde erstmals ein Basketballspiel im Fernsehen übertragen?,1940,1944,1956,1948,,,opentriviaqa
 otq-sports-1481,sport,4,"Aus welchem Land stammen die Sportler Georgi Asparuchow, Magdalena Malejewa und Dan Kolow?",Bulgarien,Rumänien,Serbien,Ungarn,,,opentriviaqa
 otq-sports-1550,sport,4,Wer gewann den ersten Wettbewerb der ersten modernen Olympischen Spiele 1896?,James Connolly,Rafer Johnson,Pierre de Coubertin,Jim Thorpe,,,opentriviaqa
 otq-sports-1621,sport,4,Was ist ein „Dao“ in der chinesischen Kampfkunst?,Ein Säbel,Eine Standposition,Eine Kampfsportart,Eine Bewegungsfolge,,,opentriviaqa
+otq-sports-1678,sport,4,Welches Land war von der ersten Cricket-WM 1975 wegen der Apartheid ausgeschlossen?,Südafrika,Pakistan,Australien,Sri Lanka,,,opentriviaqa
+otq-sports-1779,sport,4,"Wie hieß das Spiel, aus dem der Volleyball hervorging, ursprünglich?",Mintonette,Ballonette,Setball,Netball,,,opentriviaqa
 otq-sports-1793,sport,4,Wer gewann als erster Skispringer dreimal in Folge den Gesamtweltcup?,Adam Małysz,Andreas Goldberger,Jens Weißflog,Matti Nykänen,,,opentriviaqa
+otq-sports-2170,sport,4,Welchen Gegner nannte Muhammad Ali „The Washerwoman“?,George Chuvalo,Cleveland Williams,Ernie Terrell,Zora Folley,,,opentriviaqa
 otq-sports-2238,sport,4,Welcher 1987 geborene Eishockeyspieler wurde „The Next One“ genannt?,Sidney Crosby,Alexander Owetschkin,Connor McDavid,Wayne Gretzky,,,opentriviaqa
+otq-sports-275,sport,4,Welche Billard-Variante wird auf den größten Tischen gespielt?,Snooker,Pool,Karambolage,Rotation,,,opentriviaqa
 otq-sports-507,sport,4,Welcher Fußballer wurde trotz einer verformten Beine zweimal Weltmeister?,Garrincha,Michel Platini,Stanley Matthews,Zico,,,opentriviaqa
+otq-sports-866,sport,4,In welchem Umfeld entstand in den 1950er-Jahren der Kartsport?,Bei Militärpiloten auf Fliegerhorsten,Bei Sanitätern,Bei Mechanikern,Bei der Infanterie,,,opentriviaqa

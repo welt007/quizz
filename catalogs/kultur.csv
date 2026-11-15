@@ -1,77 +1,161 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-animals-375,kultur,1,In welchem Roman jagt ein Walfangschiff einen weißen Wal?,Moby Dick,Nord gegen Süd,20.000 Meilen unter dem Meer,Die Schatzinsel,,,opentriviaqa
+otq-literature-127,kultur,1,Wer schrieb „Vom Winde verweht“?,Margaret Mitchell,Harper Lee,Pearl S. Buck,Jacqueline Susann,,,opentriviaqa
+otq-literature-179,kultur,1,Welche beiden Städte meint Dickens’ Roman „Eine Geschichte aus zwei Städten“?,Paris und London,London und Manchester,Dublin und London,Edinburgh und London,,,opentriviaqa
 otq-literature-22,kultur,1,Was will Cruella de Vil in „101 Dalmatiner“ mit den Welpen?,Einen Pelzmantel machen,Sie verkaufen,Mit ihnen Zirkus spielen,Sie in einem Film zeigen,,,opentriviaqa
 otq-literature-229,kultur,1,In welchem Roman lehnt sich Winston Smith gegen einen totalitären Staat auf?,1984,Der Unsichtbare,Krieg der Welten,Farm der Tiere,,,opentriviaqa
+otq-literature-284,kultur,1,Wie viele Töchter haben Mr. und Mrs. Bennet in „Stolz und Vorurteil“?,Fünf,Vier,Sechs,Drei,,,opentriviaqa
+otq-literature-437,kultur,1,In welcher Stadt wuchs William Shakespeare auf?,Stratford-upon-Avon,Bath,London,Manchester,,,opentriviaqa
+otq-literature-73,kultur,1,Zu welcher Buchreihe von C. S. Lewis gehört „Die Reise auf der Morgenröte“?,Die Chroniken von Narnia,Xanth,Der Herr der Ringe,Die Piraten von Psion,,,opentriviaqa
+otq-literature-99,kultur,1,Welches Werk Dantes beginnt mit „In der Mitte unseres Lebensweges fand ich mich in einem dunklen Wald“?,Die Göttliche Komödie,Troilus und Cressida,Das Dekameron,Gargantua und Pantagruel,,,opentriviaqa
+otq-movies-1099,kultur,1,"Wer schrieb den Roman „Frankenstein“, den Mel Brooks in „Frankenstein Junior“ parodiert?",Mary Shelley,R. L. Stine,Stephen King,Bram Stoker,,,opentriviaqa
 otq-newest-626,kultur,1,"Welche Figur Bram Stokers reist nach London, um Mina Harker zu verführen?",Graf Dracula,Faust,Manfred,Frankenstein,,,opentriviaqa
 otq-people-662,kultur,1,"Welcher Autor, oft „Vater der Science-Fiction“ genannt, schrieb „Krieg der Welten“?",H. G. Wells,Douglas Adams,George Orwell,J. R. R. Tolkien,,,opentriviaqa
 otq-animals-377,kultur,2,Aus welcher Sammlung stammt das Märchen „Die weiße Schlange“?,Grimms Märchen,Andrew Langs Märchenbücher,Oscar Wildes Märchen,Andersens Märchen,,,opentriviaqa
+otq-animals-831,kultur,2,Was für ein Wal ist Moby Dick?,Ein Pottwal,Ein Bartenwal,Ein Blauwal,Ein Buckelwal,,,opentriviaqa
+otq-for-kids-491,kultur,2,Welcher Vogel hilft dem glücklichen Prinzen in Oscar Wildes Märchen?,Eine Schwalbe,Eine Nachtigall,Ein Spatz,Ein Kolibri,,,opentriviaqa
 otq-general-1048,kultur,2,Wer schrieb den Roman „Wer die Nachtigall stört“?,Harper Lee,James Baldwin,Norman Mailer,Mark Twain,,,opentriviaqa
+otq-history-1222,kultur,2,Welches Weltwunder der Antike schuf der Bildhauer Phidias?,Die Zeusstatue von Olympia,Die Hagia Sophia,Das Mausoleum von Halikarnassos,Den Leuchtturm von Alexandria,,,opentriviaqa
 otq-history-313,kultur,2,"Wie hieß die treue Frau des Odysseus, die 20 Jahre auf seine Rückkehr wartete?",Penelope,Mentor,Aspasia,Telemachos,,,opentriviaqa
+otq-humanities-114,kultur,2,Wie lautete Rembrandts Nachname?,Van Rijn,Rembrandt,Van Dyck,Bosch,,,opentriviaqa
 otq-literature-223,kultur,2,Wegen welches Buches rief Irans Revolutionsführer 1989 zur Tötung des Autors auf?,Die satanischen Verse,Mitternachtskinder,Lady Chatterley,Der Name der Rose,,,opentriviaqa
 otq-literature-246,kultur,2,Welcher Roman von Vladimir Nabokov wurde in mehreren Ländern wegen Obszönität verboten?,Lolita,Pnin,Fahles Feuer,Ada oder das Verlangen,,,opentriviaqa
 otq-literature-279,kultur,2,In welcher Komödie Shakespeares sorgen zwei Zwillingspaare für Verwechslungen?,Die Komödie der Irrungen,Wie es euch gefällt,Der Widerspenstigen Zähmung,Der Kaufmann von Venedig,,,opentriviaqa
+otq-literature-354,kultur,2,Welcher Fantasyroman um die Geschwister Pevensie spielt um 1940?,Der König von Narnia,Der bemalte Vogel,Der Herr der Ringe,Die Chroniken von Prydain,,,opentriviaqa
 otq-literature-401,kultur,2,Wie lautete der bürgerliche Name von Mark Twain?,Samuel L. Clemens,Booth Tarkington,Samuel Rogers Clinton,George F. Harrison,,,opentriviaqa
 otq-literature-613,kultur,2,"Welches Märchen von Hans Christian Andersen beginnt mit einer Frau, die sich ein Kind wünscht und von einer Hexe ein Gerstenkorn erhält?",Däumelinchen,Der Engel,Die wilden Schwäne,Die Prinzessin auf der Erbse,,,opentriviaqa
+otq-literature-614,kultur,2,Aus welchem Andersen-Märchen stammen Kai und Gerda?,Die Schneekönigin,Der standhafte Zinnsoldat,Die roten Schuhe,Die kleine Meerjungfrau,,,opentriviaqa
+otq-literature-670,kultur,2,In welchem Buch von John Steinbeck kommen George und Lennie vor?,Von Mäusen und Menschen,Die Irrfahrt des Bus,Die Perle,Die Straße der Ölsardinen,,,opentriviaqa
+otq-literature-702,kultur,2,"Welche Shakespeare-Figur ermordet ihren Bruder, den König, und heiratet dessen Witwe?",Claudius (Hamlet),Julius Caesar,Polonius,Jago,,,opentriviaqa
 otq-literature-800,kultur,2,Wer schrieb den Roman „Früchte des Zorns“?,John Steinbeck,John Ford,William Faulkner,Ernest Hemingway,,,opentriviaqa
+otq-literature-884,kultur,2,Wer schrieb „Tintenblut“?,Cornelia Funke,Frank Baum,Judy Blume,Michael Ende,,,opentriviaqa
 otq-newest-1349,kultur,2,Welche Romanfigur durchstreift mit dem U-Boot „Nautilus“ die Tiefen des Meeres?,Kapitän Nemo,Käpt’n Hook,Kapitän Ahab,Kapitän Blaubär,,,opentriviaqa
+otq-newest-1633,kultur,2,Welcher Roman stammt NICHT von Jane Austen?,Sturmhöhe,Die Abtei von Northanger,Mansfield Park,Stolz und Vorurteil,,,opentriviaqa
 otq-people-1109,kultur,2,Wer schrieb „Nathan der Weise“?,Gotthold Ephraim Lessing,Friedrich Schiller,Johann Wolfgang von Goethe,Heinrich von Kleist,,,opentriviaqa
+otq-world-2813,kultur,2,In welchem Comic von Charles M. Schulz wartet Linus auf den „Großen Kürbis“?,Peanuts,Garfield,Family Circus,Calvin und Hobbes,,,opentriviaqa
 otq-world-4087,kultur,2,Welcher Autor schrieb die Geschichten über den Bären Pu?,A. A. Milne,Lewis Carroll,J. M. Barrie,Lord Byron,,,opentriviaqa
 otq-world-4088,kultur,2,Welcher britische Mathematiker und Philosoph erhielt 1950 den Nobelpreis für Literatur?,Bertrand Russell,J. R. R. Tolkien,Aldous Huxley,Alan Turing,,,opentriviaqa
 otq-world-842,kultur,2,In welcher Stadt steht Michelangelos David?,Florenz,Mailand,Rom,Venedig,,,opentriviaqa
 otq-world-928,kultur,2,Wie heißt Ebenezer Scrooges unterbezahlter Angestellter in Dickens’ „Eine Weihnachtsgeschichte“?,Bob Cratchit,Tiny Tim,Jacob Marley,Fred Holywell,,,opentriviaqa
 otq-entertainment-179,kultur,3,Was ist Calvins Lieblingsthema im Comic „Calvin und Hobbes“?,Dinosaurier,Säugetiere,Pflanzen,Der Weltraum,,,opentriviaqa
 otq-for-kids-210,kultur,3,"Welches bekannte Märchen ist kein überliefertes Volksmärchen, sondern eine eigene Erfindung seines Autors?",Des Kaisers neue Kleider,Rapunzel,Dornröschen,Der Wolf und die sieben Geißlein,,,opentriviaqa
+otq-for-kids-266,kultur,3,Welche Figur kommt in „Alice im Wunderland“ NICHT vor?,Das Oberwiesel,Die Herzkönigin,Die Falsche Suppenschildkröte,Der Märzhase,,,opentriviaqa
 otq-for-kids-412,kultur,3,In welchem Jahr erschien der Roman „Anne auf Green Gables“?,1908,1919,1925,1955,,,opentriviaqa
+otq-for-kids-443,kultur,3,"Was darf Elisa in Andersens „Die wilden Schwäne“ nicht tun, bis sie elf Nesselhemden gestrickt hat?",Sprechen,Lächeln,Ihr Haar schneiden,In die Sonne gehen,,,opentriviaqa
+otq-for-kids-7,kultur,3,Was musste die Müllerstochter im Märchen „Rumpelstilzchen“ zu Gold spinnen?,Stroh,Schilf,Gras,Maisstängel,,,opentriviaqa
 otq-for-kids-87,kultur,3,Welche Süßigkeit lässt sich Edmund in „Der König von Narnia“ von der Weißen Hexe geben?,Türkischen Honig,Lakritz,Karamellbonbons,Gummibärchen,,,opentriviaqa
+otq-general-1197,kultur,3,Wie heißt die Katze in Edgar Allan Poes Erzählung „Der schwarze Kater“?,Pluto,Mitternacht,Neptun,Blacky,,,opentriviaqa
 otq-general-1575,kultur,3,Bei welcher klassischen Säulenordnung ist das Kapitell mit Akanthusblättern verziert?,Korinthisch,Ionisch,Toskanisch,Dorisch,,,opentriviaqa
 otq-general-1627,kultur,3,Welche Figur aus „Einer flog über das Kuckucksnest“ greift Oberschwester Ratched an und würgt sie fast zu Tode?,Randle McMurphy,Billy Bibbit,Chief Bromden,Charles Cheswick,,,opentriviaqa
 otq-general-1772,kultur,3,Wer schrieb den Roman „Jenseits von Eden“?,John Steinbeck,Steven Spielberg,Elia Kazan,Eugene O’Neill,,,opentriviaqa
+otq-general-2608,kultur,3,"Wer schrieb „Juda, der Unberühmte“, „Der Bürgermeister von Casterbridge“ und „Am grünen Rand der Welt“?",Thomas Hardy,William Shakespeare,Walter Scott,Charles Dickens,,,opentriviaqa
+otq-history-390,kultur,3,Welches Werk von Giovanni Boccaccio spielt vor dem Hintergrund der Pest von 1348?,Das Dekameron,Die Göttliche Komödie,Lob der Torheit,Utopia,,,opentriviaqa
+otq-history-513,kultur,3,Wer saß der Sage nach am Kopf der Tafelrunde von König Artus?,Niemand – die Tafel ist rund,Lancelot,Merlin,Artus,,,opentriviaqa
 otq-humanities-122,kultur,3,Welcher Mitbegründer des Kubismus ließ sich nie von seiner ersten Frau Olga Chochlowa scheiden?,Pablo Picasso,Paul Klee,Paul Cézanne,Henri Matisse,,,opentriviaqa
+otq-humanities-41,kultur,3,Welche dieser Farben ist KEIN Violett-Ton?,Indigo,Lavendel,Amethyst,Aubergine,,,opentriviaqa
+otq-humanities-495,kultur,3,Wer schrieb „Geschichte meines Lebens“ (Histoire de ma vie) über das Leben Casanovas?,Giacomo Casanova selbst,Alexandre Dumas,Gustave Flaubert,Tirso de Molina,,,opentriviaqa
+otq-humanities-612,kultur,3,"Welcher antike Autor schrieb die „Zehn Bücher über Architektur“, nach denen sich die Renaissance richtete?",Vitruv,Satyros,Aristoteles,Plinius,,,opentriviaqa
+otq-humanities-696,kultur,3,Auf welchem Kontinent entstanden die ersten Werwolf-Legenden?,Europa,Asien,Afrika,Südamerika,,,opentriviaqa
 otq-humanities-799,kultur,3,Womit hatte Rembrandt als Maler zunächst Erfolg?,Mit Porträts,Mit Wandmalereien,Mit Seestücken,Mit Ikonen,,,opentriviaqa
 otq-literature-1020,kultur,3,"Welche Farbe hat der alte Pick-up, den Bella in „Biss zum Morgengrauen“ geschenkt bekommt?",Rot,Blau,Silber,Schwarz,,,opentriviaqa
+otq-literature-1027,kultur,3,Welches Spiel spielen die Cullens in „Biss zum Morgengrauen“ bei Gewitter?,Baseball,Basketball,Fußball,Kricket,,,opentriviaqa
+otq-literature-1034,kultur,3,Welchem Volk gehört Atréju in „Die unendliche Geschichte“ an?,Den Grünhäuten,Den Orangehäuten,Den Blauhäuten,Den Rothäuten,,,opentriviaqa
 otq-literature-1070,kultur,3,In welchem Alter starb Edgar Allan Poe?,Mit 40 Jahren,Mit 60 Jahren,Mit 30 Jahren,Mit 52 Jahren,,,opentriviaqa
+otq-literature-1129,kultur,3,Aus welchem Shakespeare-Stück stammt der Titel „Schöne neue Welt“ (Brave New World)?,Der Sturm,Richard III.,Das Wintermärchen,Ein Sommernachtstraum,,,opentriviaqa
+otq-literature-1133,kultur,3,"In welchem Shakespeare-Stück treten die Handwerker Squenz, Schnock, Schnauz, Flaut, Zettel und Schlucker auf?",Ein Sommernachtstraum,Wie es euch gefällt,Viel Lärm um nichts,Der Sturm,,,opentriviaqa
+otq-literature-186,kultur,3,"In welchem Roman kommen Hester Prynne, Pearl und Roger Chillingworth vor?",Der scharlachrote Buchstabe,Die Erbin,Jane Eyre,Huckleberry Finn,,,opentriviaqa
 otq-literature-19,kultur,3,Welches Buch wurde 1985 in Kairo wegen angeblich obszöner Stellen zensiert?,Tausendundeine Nacht,Don Quijote,Die Gespräche des Konfuzius,Schöne neue Welt,,,opentriviaqa
 otq-literature-192,kultur,3,Ian Malcolm aus „Jurassic Park“ ist Experte auf welchem Gebiet?,Chaostheorie,Sprachwissenschaft,Geologie,Geschichte,,,opentriviaqa
+otq-literature-255,kultur,3,"Welcher Roman beginnt mit „Gestern Nacht träumte ich, ich sei wieder in Manderley“?",Rebecca,Sturmhöhe,Emma,Jane Eyre,,,opentriviaqa
 otq-literature-267,kultur,3,"Vervollständige Oscar Wildes Satz: „Wir alle liegen in der Gosse, aber einige von uns …“",… blicken zu den Sternen.,… machen das Beste daraus.,… fühlen sich dort wohl.,… kämpfen sich heraus.,,,opentriviaqa
+otq-literature-282,kultur,3,In welchem Shakespeare-Stück heißt es „Die ganze Welt ist Bühne“?,Wie es euch gefällt,Das Wintermärchen,Ein Sommernachtstraum,Die lustigen Weiber von Windsor,,,opentriviaqa
 otq-literature-285,kultur,3,Mit wem brennt Lydia in „Stolz und Vorurteil“ durch?,Mit Wickham,Mit Bingley,Mit Darcy,Mit Forster,,,opentriviaqa
 otq-literature-3,kultur,3,Wer schrieb „Berge des Wahnsinns“?,H. P. Lovecraft,Peter Straub,Edgar Allan Poe,C. S. Lewis,,,opentriviaqa
 otq-literature-305,kultur,3,Vervollständige Mark Twains Bonmot: „Die Nachricht von meinem Tod …“,… ist stark übertrieben.,… beruht auf Gerüchten.,… kommt etwas verfrüht.,… ist reines Wunschdenken.,,,opentriviaqa
+otq-literature-309,kultur,3,"Wie endet Mark Twains Bonmot „Alle reden über das Wetter, aber …“?",… keiner tut etwas dagegen.,"… das ist alles, was sie tun.",… niemand versteht es.,… dem Wetter ist das egal.,,,opentriviaqa
 otq-literature-536,kultur,3,Welcher Roman von Jane Austen hieß ursprünglich „Elinor and Marianne“?,Verstand und Gefühl,Überredung,Emma,Stolz und Vorurteil,,,opentriviaqa
+otq-literature-620,kultur,3,Welche Shakespeare-Heldin heiratet heimlich einen Mann anderer Herkunft und wird Opfer seiner Eifersucht?,Desdemona,Imogen,Ophelia,Anne,,,opentriviaqa
 otq-literature-626,kultur,3,Welche Shakespeare-Figur soll sich auf Rat ihres Vaters von Hamlet fernhalten?,Ophelia,Gertrude,Viola,Rosalinde,,,opentriviaqa
+otq-newest-1622,kultur,3,Welcher Ritter der Tafelrunde wurde von der Dame vom See aufgezogen?,Lancelot,Artus,Gawain,Parzival,,,opentriviaqa
 otq-newest-1637,kultur,3,In welchem Roman von Jane Austen ist Fanny Price die Hauptfigur?,Mansfield Park,Verstand und Gefühl,Stolz und Vorurteil,Emma,,,opentriviaqa
 otq-newest-1907,kultur,3,Wo bewahrte Sherlock Holmes seinen Tabak auf?,In der Spitze eines persischen Pantoffels,Im Kohleneimer,In einer silbernen Dose,In seinem Geigenkasten,,,opentriviaqa
+otq-people-740,kultur,3,Wer schrieb „Taras Bulba“ und „Der Mantel“?,Nikolai Gogol,Anton Tschechow,Fjodor Dostojewski,Thomas Mann,,,opentriviaqa
+otq-people-999,kultur,3,Für welche Kunstrichtung gilt Paul Cézanne als Wegbereiter?,Kubismus,Klassizismus,Dadaismus,Romantik,,,opentriviaqa
 otq-rated-1025,kultur,3,Welche griechische Dichterin lebte um 600 v. Chr. auf der Insel Lesbos?,Sappho,Sarojini Naidu,Pindar,Maya Angelou,,,opentriviaqa
+otq-rated-618,kultur,3,"Welchen Detektiv, der in Paris lebt, erfand Edgar Allan Poe?",C. Auguste Dupin,Paul Temple,Hercule Poirot,Jules Maigret,,,opentriviaqa
+otq-world-3143,kultur,3,In welchem Palast befindet sich die Sixtinische Kapelle?,Im Apostolischen Palast,Im Quirinalspalast,Im Lateranpalast,Im Palazzo Farnese,,,opentriviaqa
 otq-world-3643,kultur,3,In welchem Märchen beschreibt Kais Großmutter Schneeflocken als „weiße Bienen“?,Die Schneekönigin,Rapunzel,Das Mädchen mit den Schwefelhölzern,Däumelinchen,,,opentriviaqa
+otq-world-3651,kultur,3,In welchem Fantasyroman leben gepanzerte Eisbären auf Svalbard?,Der Goldene Kompass,Arktisches Abenteuer,Der König von Narnia,Schneeblind,,,opentriviaqa
+otq-world-4095,kultur,3,Welcher englische Dichter lässt in seinem Hauptwerk einen Oxforder Gelehrten mit Pilgern reisen?,Geoffrey Chaucer,John Bunyan,William Shakespeare,John Milton,,,opentriviaqa
 otq-world-837,kultur,3,Wo befindet sich Michelangelos berühmte Pietà?,Im Petersdom im Vatikan,In Mailand,In Florenz,In Venedig,,,opentriviaqa
+otq-entertainment-167,kultur,4,"Wie heißt der Klonbruder von Judge Dredd, den dieser selbst verhaftet?",Rico,Nico,Tubbs,Tibbs,,,opentriviaqa
 otq-for-kids-498,kultur,4,Was verlangt die Seele vom Fischer in Oscar Wildes Märchen „Der Fischer und seine Seele“?,Sein Herz,Sein einziges Kind,Seine Hoffnung,Seinen wertvollsten Besitz,,,opentriviaqa
+otq-for-kids-500,kultur,4,In was wird das schöne Sternenkind in Oscar Wildes gleichnamigem Märchen verwandelt?,"In ein Wesen halb Kröte, halb Schlange",In eine Blume,In Nebel,In eine schwarze Taube,,,opentriviaqa
 otq-general-1282,kultur,4,Welcher Dichter erhielt für seine Darstellungen des Landlebens viermal den Pulitzer-Preis?,Robert Frost,Robert Kelly,Robert Browning,Robert Hass,,,opentriviaqa
+otq-general-1405,kultur,4,Von welchem Roman wurde das Manuskript als einer der ersten auf einer Schreibmaschine getippt?,Die Abenteuer des Tom Sawyer,Huckleberry Finn,Der große Gatsby,Moby Dick,,,opentriviaqa
+otq-general-2183,kultur,4,"Was nennt Ambrose Bierce im „Wörterbuch des Teufels“ „eine der Soßen, die den Franzosen als Staatsreligion dienen“?",Mayonnaise,Ketchup,Sauce hollandaise,Senf,,,opentriviaqa
+otq-general-2712,kultur,4,Welcher Autor ist dem FALSCHEN Pseudonym zugeordnet?,Ellery Queen – Erle Stanley Gardner,Ellis Bell – Emily Brontë,Richard Bachman – Stephen King,Mark Twain – Samuel Clemens,,,opentriviaqa
 otq-general-2867,kultur,4,Welcher irische Dramatiker schrieb „Warten auf Godot“?,Samuel Beckett,Oscar Wilde,James Joyce,George Bernard Shaw,,,opentriviaqa
 otq-general-66,kultur,4,Wie heißt das superintelligente Blau in „Per Anhalter durch die Galaxis“?,Hooloovoo,Cyan,Volo-loco,Gobo,,,opentriviaqa
 otq-history-556,kultur,4,"Aus welchem Material schuf Donatello seinen David, die erste freistehende Aktfigur seit der Antike?",Bronze,Ton,Marmor,Granit,,,opentriviaqa
 otq-humanities-121,kultur,4,"Wie heißt die Grundierung aus Kreide und Leim, auf der man malt?",Gesso,Obsidian,Lasur,Gelato,,,opentriviaqa
+otq-humanities-123,kultur,4,Welcher Fotograf entwickelte zusammen mit Ansel Adams das Zonensystem?,Fred Archer,Alfred Stieglitz,Edward Weston,Minor White,,,opentriviaqa
+otq-humanities-227,kultur,4,Welcher Maler der Renaissance begann seine Ausbildung bei einem Goldschmied?,Sandro Botticelli,Raffael,Leonardo da Vinci,Caravaggio,,,opentriviaqa
+otq-humanities-230,kultur,4,Welcher Medici beauftragte 1419 Brunelleschi mit dem Neubau von San Lorenzo in Florenz?,Giovanni di Bicci de’ Medici,Cosimo I.,Lorenzo il Magnifico,Salvestro de’ Medici,,,opentriviaqa
+otq-humanities-281,kultur,4,Welche dieser Bezeichnungen ist KEINE Keramikart?,Glasurware,Porzellan,Steinzeug,Irdenware,,,opentriviaqa
+otq-humanities-287,kultur,4,"Wie nennt man eine Zeichnung, die die Umrisse eines Motivs mit einer durchgehenden Linie nachzeichnet?",Konturzeichnung,Gestenzeichnung,Schraffur,Pause,,,opentriviaqa
+otq-humanities-449,kultur,4,Welche englische Malerin des 17. Jahrhunderts gilt als eine der ersten professionellen Porträtmalerinnen?,Mary Beale,Antoinette Bouzonnet-Stella,Lucrina Fetti,Artemisia Gentileschi,,,opentriviaqa
 otq-humanities-450,kultur,4,Welche niederländische Malerin war das einzige weibliche Mitglied der Haarlemer Malergilde?,Judith Leyster,Anne Killigrew,Giovanna Garzoni,Maria Sibylla Merian,,,opentriviaqa
+otq-humanities-456,kultur,4,Welche Wachsbildnerin modellierte vor Madame Tussaud Figuren berühmter Persönlichkeiten?,Patience Wright,Luisa Roldán,Frances Scott,Caroline Watson,,,opentriviaqa
 otq-humanities-754,kultur,4,Welchen Adelstitel verlieh König Juan Carlos 1982 dem Maler Salvador Dalí?,Marquis von Púbol,Vicomte von Púbol,Herzog von Púbol,Baron von Púbol,,,opentriviaqa
 otq-literature-1047,kultur,4,Welche Romanfigur Jack Londons trägt stark autobiografische Züge?,Martin Eden,Dick Forrest,Humphrey van Weyden,Wolf Larsen,,,opentriviaqa
+otq-literature-1048,kultur,4,In welchem Roman von Jack London muss der Intellektuelle Humphrey van Weyden als Matrose dienen?,Der Seewolf,Lockruf des Goldes,Das Haus der Freude,Die eiserne Ferse,,,opentriviaqa
 otq-literature-1099,kultur,4,Wie hieß Isaac Asimovs erste Science-Fiction-Kurzgeschichte?,Cosmic Corkscrew,Robbie,Liar!,Marooned Off Vesta,,,opentriviaqa
+otq-literature-110,kultur,4,"Welcher Dichter (1572–1631) schrieb „Death, be not proud“?",John Donne,John Milton,Lord Byron,William Blake,,,opentriviaqa
 otq-literature-1115,kultur,4,Wer rettet in „Der Herr der Ringe“ Merry und Pippin aus dem Alten Weidenmann?,Tom Bombadil,Beorn,Bard der Bogenschütze,Gerstenmann Butterblume,,,opentriviaqa
+otq-literature-1132,kultur,4,Wer sagt in „Hamlet“ den Satz „Etwas ist faul im Staate Dänemark“?,Marcellus,Horatio,Ophelia,König Claudius,,,opentriviaqa
+otq-literature-144,kultur,4,Wer schrieb den autobiografisch geprägten Roman „Junkie“ über Heroinabhängige?,William S. Burroughs,Jack Kerouac,Philip Roth,Saul Bellow,,,opentriviaqa
 otq-literature-149,kultur,4,In welchem Roman kann die Hauptfigur Menschen allein durch Willenskraft verschwinden lassen?,Ein Mann in einer fremden Welt,Der Steppenwolf,Der Splitter im Auge Gottes,Wenn der Ast bricht,,,opentriviaqa
+otq-literature-156,kultur,4,"Aus welchem Werk stammen die Schlusszeilen über Adam und Eva, die „Hand in Hand … durch Eden ihren einsamen Weg“ gingen?",„Das verlorene Paradies“ von John Milton,„Der Sturm“ von Shakespeare,„Canterbury-Erzählungen“ von Chaucer,„Ulysses“ von James Joyce,,,opentriviaqa
+otq-literature-181,kultur,4,"In welchem Roman Joseph Conrads kommen Marlow, Stein und Gentleman Brown vor?",Lord Jim,Herz der Finsternis,Nostromo,Der Geheimagent,,,opentriviaqa
 otq-literature-242,kultur,4,"In welchem Roman William Faulkners stehen Jason, Quentin und Candace Compson im Mittelpunkt?",Schall und Wahn,Licht im August,Als ich im Sterben lag,"Absalom, Absalom!",,,opentriviaqa
+otq-literature-298,kultur,4,Welchen Roman veröffentlichte Agatha Christie unter dem Pseudonym Mary Westmacott?,Ein Frühling ohne dich (Absent in the Spring),Mord im Orient-Express,Die Tote in der Bibliothek,Tod auf dem Nil,,,opentriviaqa
 otq-literature-371,kultur,4,Welcher Roman Ernest Hemingways erschien 1950 als Nachfolger von „Wem die Stunde schlägt“?,Über den Fluss und in die Wälder,Inseln im Strom,Der Garten Eden,Der alte Mann und das Meer,,,opentriviaqa
 otq-literature-454,kultur,4,Welches Tier bringt in Coleridges „Die Ballade vom alten Seemann“ dem Schiff Glück?,Ein Albatros,Ein Delfin,Ein Wal,Eine Robbe,,,opentriviaqa
 otq-literature-51,kultur,4,In welchem Roman von Stephen King tritt erstmals der böse Randall Flagg auf?,The Stand – Das letzte Gefecht,Brennen muss Salem,Es,Das Bild – Rose Madder,,,opentriviaqa
+otq-literature-510,kultur,4,In welchem Roman von Jules Verne baut der Erfinder Thomas Roch eine furchtbare Waffe?,Vor der Flagge des Vaterlands,Herr der Welt,Von der Erde zum Mond,20.000 Meilen unter dem Meer,,,opentriviaqa
 otq-literature-513,kultur,4,Welche Romanfigur von Ian Fleming hat ihr Herz auf der rechten Körperseite?,Dr. No,Doctor Death,Dr. Jekyll,Dr. Moreau,,,opentriviaqa
+otq-literature-556,kultur,4,"Aus welchem Gedicht stammt die Zeile „Beauty is truth, truth beauty“?",Keats – Ode auf eine griechische Urne,Shelley – Ozymandias,Keats – Ode an eine Nachtigall,Shelley – An eine Lerche,,,opentriviaqa
+otq-literature-562,kultur,4,Wer schrieb das autobiografische Buch „Krass“ (Running with Scissors)?,Augusten Burroughs,David Sedaris,William S. Burroughs,Bret Easton Ellis,,,opentriviaqa
+otq-literature-585,kultur,4,In welchem Jahr schrieb William Wordsworth die Ode „Intimations of Immortality“ (begonnen 1802)?,1804,1798,1815,1790,,,opentriviaqa
 otq-literature-604,kultur,4,Wer schrieb die Gedichte „Meeting at Midnight“ und „Parting at Morning“?,Robert Browning,Emily Brontë,Walt Whitman,Elizabeth Barrett Browning,,,opentriviaqa
+otq-literature-606,kultur,4,Welches dieser Gedichte stammt von Alfred Tennyson?,Ulysses,A Musical Instrument,"Peter, Peter, Pumpkin Eater",Ozymandias,,,opentriviaqa
+otq-literature-609,kultur,4,Was las Hans Christian Andersen als Kind besonders gern?,Theaterstücke,Liebesgeschichten,Schauerromane,Gedichte,,,opentriviaqa
+otq-literature-615,kultur,4,Welche Dickens-Figur aus „David Copperfield“ soll an Hans Christian Andersen angelehnt sein?,Uriah Heep,Edward Murdstone,David Copperfield,James Steerforth,,,opentriviaqa
+otq-literature-652,kultur,4,"In welchem Werk schreibt Mark Twain, er sei mit dem Halleyschen Kometen gekommen und wolle mit ihm gehen?",In seiner Autobiografie,Tom Sawyer,Das vergoldete Zeitalter,Briefe von der Erde,,,opentriviaqa
 otq-literature-673,kultur,4,Welcher Dichter schrieb „Der endlose Raum“ über seine Zeit in einem französischen Internierungslager im Ersten Weltkrieg?,E. E. Cummings,Ezra Pound,Robert Frost,Ernest Hemingway,,,opentriviaqa
 otq-literature-684,kultur,4,Welcher Kunstbewegung wird Oscar Wilde zugerechnet?,Ästhetizismus,Jugendstil,Klassizismus,Symbolismus,,,opentriviaqa
+otq-literature-688,kultur,4,"Welches Stück Oscar Wildes, ursprünglich auf Französisch geschrieben, war in England bis 1931 verboten?",Salome,Eine florentinische Tragödie,Vera oder die Nihilisten,Ein idealer Gatte,,,opentriviaqa
 otq-literature-725,kultur,4,Welchen Beruf hat Stephanie Plum in Janet Evanovichs Romanen?,Kopfgeldjägerin,Polizistin,Spionin,Konditorin,,,opentriviaqa
 otq-literature-740,kultur,4,Wie nennen sich die Elben im „Silmarillion“ selbst („die Sprechenden“)?,Quendi,Quenya,Eldar,Noldor,,,opentriviaqa
+otq-literature-748,kultur,4,Was für ein Wesen ist Carcharoth im „Silmarillion“?,Ein Wolf,Ein Drache,Eine Spinne,Ein Balrog,,,opentriviaqa
+otq-literature-774,kultur,4,Welche Hemdfarbe trägt der Detektiv Nero Wolfe stets?,Gelb,Rosa,Weiß,Blau,,,opentriviaqa
 otq-literature-798,kultur,4,Welche Pflanze dient in Agatha Christies Erzählung „Das tödliche Kraut“ als Mordwaffe?,Fingerhut,Stechapfel,Schierling,Tollkirsche,,,opentriviaqa
 otq-literature-805,kultur,4,Wie heißt die Familie im Mittelpunkt von „Früchte des Zorns“?,Joad,Galati,Darwell,Adams,,,opentriviaqa
+otq-literature-827,kultur,4,Wer erhielt NICHT sowohl den Pulitzer- als auch den Nobelpreis?,Doris Lessing,Sinclair Lewis,William Faulkner,John Steinbeck,,,opentriviaqa
 otq-literature-831,kultur,4,Was trägt der Goldene Kompass Lyra in „Das Magische Messer“ auf?,Will bei der Suche nach seinem Vater zu helfen,Lord Asriel zu finden,Einen Gelehrten des Staubs zu suchen,Das Magische Messer zu finden,,,opentriviaqa
+otq-literature-851,kultur,4,Welchen Gegenstand in der Herrentoilette beschreibt Nicholson Baker im Roman „Rolltreppe“ (The Mezzanine) ausführlich?,Den Händetrockner,Den Spülgriff,Die Wasserhähne,Den Spiegel,,,opentriviaqa
+otq-literature-904,kultur,4,Welches Gedicht von T. S. Eliot (1915) trägt ein Motto aus Marlowes „Der Jude von Malta“?,Portrait of a Lady,The Love Song of J. Alfred Prufrock,Sweeney Among the Nightingales,The Hollow Men,,,opentriviaqa
 otq-literature-971,kultur,4,Wer schrieb die Erzählung „Le Horla“ in Form eines Tagebuchs eines Wahnsinnigen?,Guy de Maupassant,Edgar Allan Poe,E. T. A. Hoffmann,Sheridan Le Fanu,,,opentriviaqa
 otq-newest-1067,kultur,4,"Wer schrieb die Thriller „Die Chirurgin“, „Der Meister“ und „Scheintot“ (The Mephisto Club)?",Tess Gerritsen,Lisa Gardner,Patricia Cornwell,Kathy Reichs,,,opentriviaqa
+otq-newest-1599,kultur,4,Welcher Roman von Joseph Heller ist eine Fortsetzung von „Catch-22“?,Endzeit (Closing Time),Porträt eines Künstlers als alter Mann,Was geschah mit Slocum?,Weiß Gott,,,opentriviaqa
 otq-newest-655,kultur,4,"Welche Superheldenidentität teilen Alan Scott, Hal Jordan, John Stewart und Kyle Rayner?",Green Lantern,Nova,Booster Gold,Spider-Man,,,opentriviaqa
 otq-people-1346,kultur,4,Von welchem Dramatiker stammen „Die Herzogin von Malfi“ und „Der weiße Teufel“?,John Webster,J. B. Priestley,Harold Pinter,John Galsworthy,,,opentriviaqa
+otq-people-1359,kultur,4,Von wem stammt der Satz „Nachahmung ist die aufrichtigste Form der Schmeichelei“?,Charles Caleb Colton,Oscar Wilde,Mark Twain,George Bernard Shaw,,,opentriviaqa
 otq-people-300,kultur,4,"Welche Krimiautorin schrieb 2002 ein Buch, in dem sie den Fall Jack the Ripper für gelöst erklärte?",Patricia Cornwell,Elizabeth George,Antonia Fraser,P. D. James,,,opentriviaqa
+otq-people-59,kultur,4,Welcher englische Dichter (1593–1633) veröffentlichte zu Lebzeiten kein einziges Werk?,George Herbert,Lord Byron,George Fox,George Eliot,,,opentriviaqa
+otq-rated-1623,kultur,4,"Wie heißt der einzige Hund, der in einem Shakespeare-Stück auftritt („Die beiden Veroneser“)?",Crab,Max,Thisbe,Pongo,,,opentriviaqa
+otq-religion-faith-167,kultur,4,"Welche Figur fertigte Michelangelo als junger Mann, die dann als angebliche Antike verkauft wurde?",Einen schlafenden Cupido,Einen Cherub,Einen Bacchus,Einen Moses,,,opentriviaqa
 otq-religion-faith-390,kultur,4,"Wer schrieb „Joseph d’Arimathie“, das erste Werk, das den Heiligen Gral mit dem Abendmahl verbindet?",Robert de Boron,Geoffrey von Monmouth,Chrétien de Troyes,Thomas Malory,,,opentriviaqa
 otq-religion-faith-396,kultur,4,Wer schrieb den Gedichtzyklus „Idylls of the King“ über König Artus?,Alfred Tennyson,Dante Gabriel Rossetti,Jane Austen,Walter Scott,,,opentriviaqa
 otq-religion-faith-449,kultur,4,Welcher schwedische Dichter nannte Emanuel Swedenborg einen Narren?,Johan Henrik Kellgren,Carl Jung,August Strindberg,Honoré de Balzac,,,opentriviaqa

@@ -1,27 +1,64 @@
 id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-general-702,musik,1,Wer komponierte die „Mondscheinsonate“?,Ludwig van Beethoven,Claude Debussy,Wolfgang Amadeus Mozart,Igor Strawinsky,,,opentriviaqa
 otq-humanities-380,musik,1,Wer schuf die Rockoper „Tommy“?,The Who,The Rolling Stones,Elton John,The Beatles,,,opentriviaqa
+otq-music-1239,musik,1,Wer sang „Paint It Black“?,The Rolling Stones,ZZ Top,The Doors,Eric Clapton,,,opentriviaqa
+otq-music-4900,musik,1,Welche dieser Opern komponierte Mozart?,Die Zauberflöte,Otello,Der Barbier von Sevilla,Fidelio,,,opentriviaqa
+otq-newest-530,musik,1,Wer komponierte den Walzer „An der schönen blauen Donau“?,Johann Strauss (Sohn),Wolfgang Amadeus Mozart,Frédéric Chopin,Johannes Brahms,,,opentriviaqa
+otq-newest-968,musik,1,Wer komponierte das Musical „Cats“?,Andrew Lloyd Webber,Leonard Bernstein,Stephen Sondheim,Irving Berlin,,,opentriviaqa
+otq-people-1978,musik,1,Welcher Beatle wurde am 8. Dezember 1980 in New York erschossen?,John Lennon,George Harrison,Paul McCartney,Ringo Starr,,,opentriviaqa
 otq-rated-1554,musik,1,Welches Musikfestival versammelte 1969 rund 400.000 Menschen auf einer Farm im Staat New York?,Woodstock,Love Parade,Street Parade,Monterey Pop Festival,,,opentriviaqa
+otq-world-345,musik,1,Von welchem Komponisten stammt das „Halleluja“ aus dem Oratorium „Der Messias“?,Georg Friedrich Händel,Ludwig van Beethoven,Johann Sebastian Bach,Wolfgang Amadeus Mozart,,,opentriviaqa
+otq-music-1199,musik,2,Welcher Bluesmusiker nannte seine Gitarre „Lucille“ und wurde „King of the Blues“ genannt?,B. B. King,Muddy Waters,Etta James,John Lee Hooker,,,opentriviaqa
+otq-music-2498,musik,2,Wer kam als Letzter zu den Beatles?,Ringo Starr,George Harrison,Paul McCartney,John Lennon,,,opentriviaqa
+otq-music-2604,musik,2,Welche Sängerin nahm 1995 mit Nick Cave „Where the Wild Roses Grow“ auf?,Kylie Minogue,Mariah Carey,Björk,Sheryl Crow,,,opentriviaqa
+otq-music-4630,musik,2,Welcher dieser Songs stammt NICHT aus den 1980er-Jahren?,Layla,Billie Jean,Like a Virgin,Down Under,,,opentriviaqa
 otq-rated-1502,musik,2,Welcher Musiker wurde als Gordon Matthew Sumner geboren?,Sting,Elton John,Leo Sayer,Phil Collins,,,opentriviaqa
+otq-rated-998,musik,2,"Welcher britische Musiker, „Chamäleon des Pop“ genannt, hieß eigentlich David Jones?",David Bowie,Marc Bolan,Davy Jones,Sid Vicious,,,opentriviaqa
 otq-entertainment-80,musik,3,Mit welcher Band wurde der Gitarrist Slash berühmt?,Guns N’ Roses,AFI,DragonForce,Korn,,,opentriviaqa
+otq-general-241,musik,3,Wegen welches Songs von George Harrison gab es einen Plagiatsprozess?,My Sweet Lord,Something,Here Comes the Sun,While My Guitar Gently Weeps,,,opentriviaqa
 otq-general-2881,musik,3,"Welcher Komponist schrieb „Wellingtons Sieg“, ein Werk mit Kanonenschüssen und Trommeln?",Beethoven,Mendelssohn,Schumann,Schubert,,,opentriviaqa
 otq-general-695,musik,3,Vervollständige den Titel des Duran-Duran-Songs „New Moon on …“,Monday,Thursday,Friday,Sunday,,,opentriviaqa
+otq-geography-766,musik,3,Wer von diesen Berühmtheiten ist KEIN Schwede bzw. keine Schwedin?,Lars Ulrich (Metallica),Die Mitglieder von ABBA,Greta Garbo,Ingrid Bergman,,,opentriviaqa
+otq-hobbies-256,musik,3,Wer schrieb den durch Elvis bekannten Song „Blue Suede Shoes“?,Carl Perkins,Johnny Cash,Buddy Holly,Chuck Berry,,,opentriviaqa
 otq-literature-1136,musik,3,Für welches Shakespeare-Stück schrieb Mendelssohn die Musik mit dem berühmten Hochzeitsmarsch?,Ein Sommernachtstraum,Romeo und Julia,König Lear,Viel Lärm um nichts,,,opentriviaqa
 otq-music-1417,musik,3,Was geschah um 1798 in Ludwig van Beethovens Leben?,Er bemerkte erstmals seine Schwerhörigkeit,Er heiratete,Er zog nach Paris,Er schrieb seine erste Sinfonie,,,opentriviaqa
+otq-music-2126,musik,3,Welcher Sänger von Deep Purple gründete 1977 die Band Whitesnake?,David Coverdale,Joe Lynn Turner,Ian Gillan,Rod Evans,,,opentriviaqa
 otq-music-2656,musik,3,Mit welchem Mädchennamen-Song hatte Toto 1982 einen großen Hit?,Rosanna,Gloria,Joanna,Donna,,,opentriviaqa
 otq-music-2869,musik,3,Wie heißt Tina Turners Song von 1973 über ihren Heimatort?,Nutbush City Limits,Nutmeg City Limits,Nutsville City Limits,Nutcracker City Limits,,,opentriviaqa
 otq-music-3055,musik,3,Welche große Jazzsängerin wurde „Sassy“ genannt?,Sarah Vaughan,Ella Fitzgerald,Shirley Horn,Lena Horne,,,opentriviaqa
 otq-music-3669,musik,3,Wie viele Vorzeichen hat die Tonart G-Dur?,Ein Kreuz,Zwei Be,Drei Kreuze,Fünf Be,,,opentriviaqa
 otq-music-4772,musik,3,Wie lautet die oft falsch verstandene Zeile aus Jimi Hendrix’ „Purple Haze“ richtig?,"’Scuse me, while I kiss the sky","’Scuse me, while I kiss this guy","’Scuse me, while my kid supplies","’Scuse me, while my kilt’s so high",,,opentriviaqa
+otq-music-4797,musik,3,Welchen Beatles-Song von 1969 coverten Aerosmith (1978) und Michael Jackson (1988)?,Come Together,Let It Be,Help!,Lucy in the Sky with Diamonds,,,opentriviaqa
 otq-music-499,musik,3,Welche Gruppe fragte 1971 „How Can You Mend a Broken Heart“?,Bee Gees,The Carpenters,Simon & Garfunkel,The Hollies,,,opentriviaqa
 otq-music-863,musik,3,Welcher dieser Gitarristen spielte NICHT bei den Yardbirds?,Jeff „Skunk“ Baxter,Jeff Beck,Jimmy Page,Eric Clapton,,,opentriviaqa
+otq-newest-570,musik,3,"Welches Ballett erzählt von einem Bauernmädchen, dessen Geist nach seinem Tod den Geliebten beschützt?",Giselle,Der Nussknacker,Schwanensee,La Sylphide,,,opentriviaqa
+otq-science-technology-224,musik,3,"Welcher Musiker hatte einen Zwillingsbruder, der bei der Geburt starb?",Elvis Presley,Michael Jackson,Freddie Mercury,Elton John,,,opentriviaqa
+otq-world-3181,musik,3,Welche englische Rockband nahm 1971 „July Morning“ auf?,Uriah Heep,Deep Purple,Pink Floyd,Rainbow,,,opentriviaqa
+otq-world-3194,musik,3,Wie heißt die Nationalhymne der Volksrepublik China?,Marsch der Freiwilligen,Sieg des Volkes,Ruhm der Nation,Die Sonne geht auf,,,opentriviaqa
+otq-world-4152,musik,3,"Was bedeutet „Hatikwa“, der Titel der israelischen Nationalhymne?",Die Hoffnung,Das gelobte Land,Die Gnade,Der Ruhm,,,opentriviaqa
 otq-general-1481,musik,4,Welches war Elvis Presleys zweiter Nummer-eins-Hit?,Don’t Be Cruel,Love Me Tender,Hound Dog,Heartbreak Hotel,,,opentriviaqa
+otq-general-2555,musik,4,Mit welcher Satzbezeichnung beginnt Beethovens 5. Sinfonie?,Allegro con brio,Scherzo: Allegro,Andante con moto,Adagio molto,,,opentriviaqa
+otq-general-294,musik,4,Wie lautete der ursprüngliche Arbeitstitel des Musicals „West Side Story“?,East Side Story,Krieg und Liebe,Gangs of New York,Jets und Sharks,,,opentriviaqa
 otq-general-366,musik,4,"In welchem Jahr wurden Händel, Bach und Scarlatti geboren?",1685,1789,1750,1613,,,opentriviaqa
+otq-geography-441,musik,4,"Wie heißt die Nationalhymne Spaniens, die keinen offiziellen Text hat?",Marcha Real,Mi Reino Precioso,Dios salve a España,España orgullosa,,,opentriviaqa
 otq-geography-768,musik,4,"Wie heißt das Lied, das als Nationalhymne Schwedens dient?","Du gamla, du fria",Sverige,Kungssången,Vi böja oss,,,opentriviaqa
+otq-history-1387,musik,4,Welcher Rockgitarrist hält ein Patent auf eine Stütze zum Halten der Gitarre?,Eddie Van Halen,Bob Dylan,Tom Petty,Brian May,,,opentriviaqa
 otq-history-98,musik,4,Welche britische Band hatte 1963 einen Hit mit „Hippy Hippy Shake“?,The Swinging Blue Jeans,The Kinks,The Rolling Stones,The Hollies,,,opentriviaqa
+otq-humanities-681,musik,4,Welcher berühmte Bassist prägte das Lied „Ol’ Man River“ aus dem Musical „Show Boat“?,Paul Robeson,Robert Goulet,William Warfield,John Raitt,,,opentriviaqa
+otq-humanities-737,musik,4,Welche schwedische Metalband ist für komplexe Polyrhythmik bekannt und gilt als Wegbereiter des „Djent“?,Meshuggah,In Flames,Therion,Opeth,,,opentriviaqa
+otq-music-1032,musik,4,Wie geht die Zeile aus „Long Cool Woman“ von The Hollies weiter: „She was a long cool woman …“?,in a black dress,in a flat bed,making a mess,in a slack dress,,,opentriviaqa
+otq-music-1244,musik,4,Welches Duo landete 1969 mit „In the Year 2525“ seinen einzigen Hit?,Zager and Evans,Mouth & MacNeal,McFadden & Whitehead,Teegarden & Van Winkle,,,opentriviaqa
+otq-music-152,musik,4,Welcher Song war 1970 ein Nummer-eins-Hit der Jackson 5?,The Love You Save,Ease on Down the Road,Ben,Dancing Machine,,,opentriviaqa
+otq-music-1710,musik,4,In welchem Musical singt ein junger Prinz das Liebeslied „Stranger in Paradise“?,Kismet,Nine,Die Schöne und das Biest,Miss Saigon,,,opentriviaqa
+otq-music-1764,musik,4,Wie lautet der bürgerliche Name des Parodisten „Weird Al“?,Alfred Matthew Yankovic,Allen John Yankovic,Albert Christopher Yankovic,William Alan Yankovic,,,opentriviaqa
+otq-music-2014,musik,4,Welcher Schlagzeuger kam 1988 zu den Red Hot Chili Peppers?,Chad Smith,Zak Starkey,Earl Palmer,Jack Irons,,,opentriviaqa
 otq-music-2795,musik,4,Wer hatte 1970 einen Hit mit „Mama Told Me (Not to Come)“?,Three Dog Night,Jefferson Airplane,Deep Purple,Creedence Clearwater Revival,,,opentriviaqa
 otq-music-2916,musik,4,Welche wohlhabende russische Witwe war die Mäzenin von Pjotr Iljitsch Tschaikowsky?,Nadeschda von Meck,Marina Sacharowa,Jekaterina von Meck,Zarin Alexandra,,,opentriviaqa
+otq-music-3081,musik,4,"Wovor stand Prince nach eigener Aussage, als er 1991 den Song „Cream“ schrieb?",Vor einem Spiegel,Vor einem Madonna-Poster,Vor dem Kühlschrank,Vor einem Weihnachtsbaum,,,opentriviaqa
 otq-music-4991,musik,4,Welcher Altsaxofonist prägte das Dave Brubeck Quartet und schrieb „Take Five“?,Paul Desmond,Eric Dolphy,Darius Brubeck,Al Cohn,,,opentriviaqa
 otq-music-5034,musik,4,"Wer schrieb das Theaterstück, auf dem Puccinis Oper „Madama Butterfly“ beruht?",David Belasco,Frederick Ashton,Pietro Mascagni,André Messager,,,opentriviaqa
 otq-music-864,musik,4,Wer empfahl die Jimi Hendrix Experience 1967 für das Monterey Pop Festival?,Paul McCartney,Janis Joplin,John Phillips,Brian Wilson,,,opentriviaqa
 otq-music-973,musik,4,"Welcher Song von Neil Young enthält die Zeile „Dreamer of pictures, I run in the night“?",Cinnamon Girl,Heart of Gold,Harvest Moon,Old Man,,,opentriviaqa
 otq-world-2510,musik,4,Wie heißt das typische philippinische Liebeslied?,Kundiman,Oyayi,Harana,Balitaw,,,opentriviaqa
+otq-world-3026,musik,4,Wie heißt die bulgarische Nationalhymne?,Mila Rodino (Liebe Heimat),O schönes Bulgarien,Das ist mein Land,Himmel auf Erden,,,opentriviaqa
+otq-world-3970,musik,4,Wer war auf dem Titelbild der ersten Ausgabe des „Rolling Stone“ (1967)?,John Lennon,Eric Clapton,Jimi Hendrix,Janis Joplin,,,opentriviaqa
