@@ -1,0 +1,55 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-general-1473,religion,1,Wo wurde Jesus laut Bibel geboren?,In Bethlehem,In Jerusalem,In Jericho,In Ägypten,,,opentriviaqa
+otq-general-1504,religion,1,Welcher biblische Prophet wurde von einem großen Fisch verschluckt?,Jona,Jerobeam,Josua,Jeremia,,,opentriviaqa
+otq-general-2831,religion,1,Welcher der zwölf Apostel verriet Jesus laut Neuem Testament mit einem Kuss?,Judas,Thaddäus,Bartholomäus,Simon Zelotes,,,opentriviaqa
+otq-religion-faith-193,religion,1,Was tat Jesus laut Neuem Testament mit dem Aussätzigen?,Er berührte und heilte ihn,Er beachtete ihn nicht,Er gab ihm Medizin,Er schickte ihn fort,,,opentriviaqa
+otq-religion-faith-228,religion,1,In welcher Sprache ist die Tora geschrieben?,Hebräisch,Arabisch,Syrisch,Aramäisch,,,opentriviaqa
+otq-world-1908,religion,1,Wie viele Stämme Israels gab es laut Bibel?,12,13,15,7,,,opentriviaqa
+otq-world-597,religion,1,Auf welche historische Person geht die Figur des Weihnachtsmanns zurück?,Den heiligen Nikolaus,Den heiligen Ludwig,Den heiligen Josef,Den Apostel Paulus,,,opentriviaqa
+otq-general-557,religion,2,Welcher dieser Götter war KEIN Sonnengott?,Thor,Helios,Sol,Ra,,,opentriviaqa
+otq-geography-769,religion,2,Welche Konfession ist in Schweden vorherrschend?,Lutherisch,Orthodox,Reformiert,Römisch-katholisch,,,opentriviaqa
+otq-history-644,religion,2,Welcher Papst gilt als wichtiger Wegbereiter der Freiheitsbewegung in Polen und Osteuropa?,Johannes Paul II.,Johannes Paul I.,Benedikt XVI.,Johannes XXIII.,,,opentriviaqa
+otq-people-1384,religion,2,Wer war nach christlicher Überlieferung die heilige Anna?,Die Mutter Marias,Die Frau König Davids,Die Schwester des Petrus,Die Tochter Abrahams,,,opentriviaqa
+otq-people-877,religion,2,Wie endete Judas Iskariot laut Matthäusevangelium?,Er erhängte sich,Er stürzte sich von einer Klippe,Er ertränkte sich,Er vergiftete sich,,,opentriviaqa
+otq-religion-faith-112,religion,2,Zu welchem Fest essen Juden ungesäuertes Brot (Mazza)?,Pessach,Rosch ha-Schana,Chanukka,Jom Kippur,,,opentriviaqa
+otq-religion-faith-117,religion,2,Welcher Weg führt im Buddhismus zur Aufhebung des Leidens?,Der Edle Achtfache Pfad,Die Zehn rechten Taten,Die tiefe Versenkung,Die Sechs Heilmittel,,,opentriviaqa
+otq-religion-faith-157,religion,2,Welche verheiratete Frau sah König David beim Baden und begehrte sie?,Batseba,Ahinoam,Abigajil,Michal,,,opentriviaqa
+otq-religion-faith-319,religion,2,Welcher Prophet salbte laut Bibel im Auftrag Gottes David zum König?,Samuel,Abjatar,Ahimelech,Saul,,,opentriviaqa
+otq-religion-faith-510,religion,2,"Wer sagte: „Nicht die Gesunden brauchen den Arzt, sondern die Kranken“?",Jesus,Johannes der Täufer,Josef,Paulus,,,opentriviaqa
+otq-world-1628,religion,2,Welcher in Bethlehem geborene König war der zweite König Israels?,David,Juda,Josef,Samuel,,,opentriviaqa
+otq-world-599,religion,2,Wo lebten Maria und Josef laut Bibel vor der Geburt Jesu?,In Nazareth,In Jerusalem,In Bethlehem,In Rom,,,opentriviaqa
+otq-world-968,religion,2,Welcher doppelgesichtige römische Gott gab einem Monat seinen Namen?,Janus,Jupiter,Mars,Juno,,,opentriviaqa
+otq-history-407,religion,3,Welche Religion herrschte im persischen Achämenidenreich vor?,Zoroastrismus,Rastafari,Hinduismus,Schamanismus,,,opentriviaqa
+otq-history-745,religion,3,Welche Religion erlangte während der Tang-Dynastie in China großen Einfluss?,Buddhismus,Christentum,Hinduismus,Islam,,,opentriviaqa
+otq-humanities-101,religion,3,Welches Mischwesen aus Frau und Tier ist mit „Sirena“ gemeint?,Meerjungfrau,Grendel,Vampir,Mantikor,,,opentriviaqa
+otq-humanities-316,religion,3,Was für ein Wesen ist der Leprechaun in der irischen Sagenwelt?,Ein Feenwesen,Ein Gnom,Ein Zwerg,Ein Dämon,,,opentriviaqa
+otq-humanities-50,religion,3,Wo begegnen Reisende der Sage nach dem bösen Geist Ghul?,In der arabischen Wüste,In den schottischen Highlands,Im Regenwald,Im australischen Outback,,,opentriviaqa
+otq-humanities-520,religion,3,Was ist Bifröst in der nordischen Mythologie?,Die Regenbogenbrücke nach Asgard,"Die Schlange, die Thor tötet",Odins Halle der gefallenen Krieger,"Der Wolf, der Odin verschlingt",,,opentriviaqa
+otq-rated-1267,religion,3,Wer war Papst vor Johannes XXIII.?,Pius XII.,Johannes XXII.,Johannes Paul II.,Paul VI.,,,opentriviaqa
+otq-religion-faith-141,religion,3,Welcher Heilige gilt als Schutzpatron der Fischer?,Apostel Andreas,Erzengel Raphael,Hieronymus,Sebastian,,,opentriviaqa
+otq-religion-faith-179,religion,3,Was bedeutet der Name Mose laut Bibel?,Aus dem Wasser gezogen,Prinz von Ägypten,Der Schöne,Der Bittere,,,opentriviaqa
+otq-religion-faith-2,religion,3,Welcher dieser Männer war KEIN Sohn von Adam und Eva?,Henoch,Kain,Abel,Set,,,opentriviaqa
+otq-religion-faith-275,religion,3,Wovon träumte König Nebukadnezar im zweiten Kapitel des Buches Daniel?,Von einer Statue,Von einem Baum,Von einem Ziegenbock,Von einem Tempel,,,opentriviaqa
+otq-religion-faith-311,religion,3,Was isst man traditionell zum jüdischen Lichterfest Chanukka?,Kartoffelpuffer und Krapfen,Kartoffelpuffer und Fladenbrot,Gekochtes Huhn und Knödel,Krapfen und Fladenbrot,,,opentriviaqa
+otq-religion-faith-326,religion,3,Welchem Stamm Israels gehörte König David an?,Juda,Naftali,Benjamin,Simeon,,,opentriviaqa
+otq-religion-faith-327,religion,3,Wie viele Jahre regierte David laut Bibel als König?,40,25,45,35,,,opentriviaqa
+otq-religion-faith-351,religion,3,Zu welcher Gattung biblischer Bücher gehört das Buch der Psalmen?,Poetische Bücher,Geschichtsbücher,Apokalyptische Bücher,Prophetische Bücher,,,opentriviaqa
+otq-religion-faith-427,religion,3,Wo wurde der historische Nikolaus von Myra geboren?,In Kleinasien,In Cartagena,In Rom,In Alexandria,,,opentriviaqa
+otq-religion-faith-486,religion,3,"Wie alt war Josef laut Bibel, als der Pharao ihn über ganz Ägypten setzte?",30 Jahre,40 Jahre,22 Jahre,35 Jahre,,,opentriviaqa
+otq-religion-faith-518,religion,3,"Wie heißt der Weg zum Glück im Buddhismus, der Extreme vermeidet?",Der Mittlere Weg,Der Alte Pfad,Der Pfad der Freiheit,Der Pfad der Liebe,,,opentriviaqa
+otq-science-technology-1199,religion,3,Wer ist der Sonnengott im Hinduismus?,Surya,Krishna,Brahman,Ishvara,,,opentriviaqa
+otq-science-technology-2059,religion,3,Welchem griechischen Gott entspricht der römische Saturn?,Kronos,Styx,Ouroboros,Pan,,,opentriviaqa
+otq-world-1345,religion,3,Welcher Richtung des Protestantismus gehört die Kirche von Schottland an?,Presbyterianisch,Lutherisch,Methodistisch,Anglikanisch,,,opentriviaqa
+otq-world-1907,religion,3,Wie viele Monate hat ein normales Jahr im jüdischen Kalender?,12,18,15,13,,,opentriviaqa
+otq-world-2294,religion,3,Bei welchem antiken Volk entstand der Zoroastrismus?,Bei den Persern,Bei den Babyloniern,Bei den Griechen,Bei den Sumerern,,,opentriviaqa
+otq-world-2540,religion,3,Welche Religion hat in Japan die wenigsten Anhänger?,Islam,Buddhismus,Christentum,Shintoismus,,,opentriviaqa
+otq-world-3835,religion,3,Welche Religion hat in Taiwan die meisten Anhänger?,Buddhismus (mit Volksreligion),Hinduismus,Shintoismus,Islam,,,opentriviaqa
+otq-world-469,religion,3,Welcher nordische Gott wurde mit einem Mistelzweig getötet?,Balder,Odin,Loki,Thor,,,opentriviaqa
+otq-general-2188,religion,4,"Welcher biblische Prophet, der im feurigen Wagen gen Himmel fuhr, inspirierte den Gospel „Swing Low, Sweet Chariot“?",Elija,Ezechiel,Jona,Jesaja,,,opentriviaqa
+otq-general-2500,religion,4,Aus welchem Holz baute Noah laut Bibel die Arche?,Goferholz,Eichenholz,Eschenholz,Zedernholz,,,opentriviaqa
+otq-humanities-222,religion,4,Welcher Vogel galt bei vielen Völkern als Bote von Unglück und Tod?,Rabe,Adler,Taube,Kranich,,,opentriviaqa
+otq-humanities-464,religion,4,Was für ein Gegenstand ist der Sampo aus der finnischen Mythologie?,Eine Mühle,Ein Medaillon,Ein Schwert,Ein Ring,,,opentriviaqa
+otq-humanities-508,religion,4,Welcher Weg ist das Bhakti-Yoga?,Der Weg der Hingabe und Gottesliebe,Der Weg des Handelns,Der Weg der Körperbeherrschung,Der Weg der Erkenntnis,,,opentriviaqa
+otq-religion-faith-219,religion,4,In welchem Jahr wurde die Berlinerin Regina Jonas als erste Frau zur Rabbinerin ordiniert?,1935,1905,1964,1789,,,opentriviaqa
+otq-religion-faith-244,religion,4,"Wo lebte Rut, als sie ihren ersten Mann kennenlernte?",In Moab,In Bethlehem,In Jerusalem,In Juda,,,opentriviaqa
+otq-religion-faith-346,religion,4,In wie viele Bücher ist der Psalter unterteilt?,Fünf,Vier,Zwei,Drei,,,opentriviaqa

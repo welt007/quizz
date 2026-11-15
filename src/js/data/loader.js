@@ -72,7 +72,7 @@ export async function loadFromUrl(input, { fetchImpl = globalThis.fetch, onProgr
     progress(`Lade ${file} (${i + 1}/${manifest.files.length}) …`);
     try {
       const text = await (await fetchChecked(fetchImpl, resolveSourcePath(file, target.baseUrl), file)).text();
-      catalogs.push(parseFile(text, file, manifest.categories ?? {}));
+      catalogs.push(parseFile(text, file, manifest.categories ?? {}, manifest.titles?.[file]));
     } catch (e) {
       if (!(e instanceof LoaderError)) throw e;
       catalogs.push({ file, name: catalogDisplayName(file), questions: [], errors: [{ source: file, line: 0, message: e.message }], warnings: [] });
@@ -83,6 +83,7 @@ export async function loadFromUrl(input, { fetchImpl = globalThis.fetch, onProgr
     version: manifest.version,
     categories: manifest.categories ?? {},
     updateUrl: manifest.updateUrl,
+    attribution: manifest.attribution,
     url: String(input).trim(),
     resolvedUrl: target.url,
     catalogs,
@@ -111,9 +112,9 @@ export async function loadFromFiles(files, { fetchImpl = globalThis.fetch, onPro
 }
 
 /** categories: from index.json (unknown categories → warning), or null without a manifest. */
-function parseFile(text, file, categories) {
+function parseFile(text, file, categories, title) {
   const res = parseCatalog(text, { source: file, categories: categories ?? undefined });
-  return { file, name: catalogDisplayName(file), questions: res.questions.map(({ source, ...q }) => q), errors: res.errors, warnings: res.warnings };
+  return { file, name: title || catalogDisplayName(file), questions: res.questions.map(({ source, ...q }) => q), errors: res.errors, warnings: res.warnings };
 }
 
 /** Question ids must be unique within one source (across its files). */

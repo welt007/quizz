@@ -1,0 +1,69 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-animals-136,natur,1,Welches Nagetier ist mit spitzen Stacheln bedeckt?,Stachelschwein,Nutria,Gürteltier,Kiwi,,,opentriviaqa
+otq-animals-424,natur,1,Welcher ist der größte Fisch der Welt?,Walhai,Mantarochen,Mondfisch,Riesenhai,,,opentriviaqa
+otq-animals-900,natur,1,Wovon ernähren sich Koalas fast ausschließlich?,Von Eukalyptusblättern,Von Flaschenbaumblättern,Von Teebaumblättern,Von Bambus,,,opentriviaqa
+otq-animals-915,natur,1,Woraus besteht die Nahrung des Großen Pandas zu 99 %?,Bambus,Bananen,Fisch,Honig,,,opentriviaqa
+otq-animals-916,natur,1,In welchem Land leben Große Pandas in freier Wildbahn?,China,Mongolei,Thailand,Korea,,,opentriviaqa
+otq-for-kids-49,natur,1,"Welches afrikanische Tier hat einen sehr langen Hals, frisst Blätter und gibt kaum Laute von sich?",Giraffe,Elefant,Zebra,Kamel,,,opentriviaqa
+otq-general-164,natur,1,Wie viele Beine hat eine Libelle?,6,8,0,4,,,opentriviaqa
+otq-rated-1766,natur,1,Welches halb im Wasser lebende Nagetier ist das Nationaltier Kanadas?,Biber,Pampashase,Meerschweinchen,Wasserschwein,,,opentriviaqa
+otq-science-technology-637,natur,1,Wodurch fällt der Riesentukan besonders auf?,Durch seinen riesigen Schnabel,Durch seine Bewegungen,Durch seine Augen,Durch seine Federn,,,opentriviaqa
+otq-animals-151,natur,2,Welche Farbe kommt bei Hühnereiern nicht vor?,Schwarz,Weiß,Rosa,Blaugrün,,,opentriviaqa
+otq-animals-216,natur,2,Welche Froschgruppe gilt als die giftigste?,Pfeilgiftfrösche,Agakröten,Scheinkröten,Rotaugenlaubfrösche,,,opentriviaqa
+otq-animals-283,natur,2,In welchem Erdzeitalter lebten die Dinosaurier?,Mesozoikum,Känozoikum,Präkambrium,Holozän,,,opentriviaqa
+otq-animals-30,natur,2,"Welcher kleine, nachtaktive Fuchs lebt in den Wüsten Nordafrikas?",Fennek,Kapfuchs,Rotfuchs,Bengalfuchs,,,opentriviaqa
+otq-animals-306,natur,2,Welcher dieser Dinosaurier war ein Pflanzenfresser?,Protoceratops,Velociraptor,Tyrannosaurus,Allosaurus,,,opentriviaqa
+otq-animals-358,natur,2,Aus welchem Land stammt der Dalmatiner?,Kroatien,Niederlande,Italien,Dänemark,,,opentriviaqa
+otq-animals-6,natur,2,Drei dieser Tiergruppen häuten sich. Welche nicht?,Pinguine,Schlangen,Insekten,Krebstiere,,,opentriviaqa
+otq-animals-838,natur,2,"Unter welchem Namen ist der Skarabäus, der heilige Käfer der alten Ägypter, bekannt?",Pillendreher,Hirschkäfer,Junikäfer,Rosenkäfer,,,opentriviaqa
+otq-animals-856,natur,2,Welche Katzen sind fast immer weiblich?,Dreifarbige Glückskatzen,Weiße Katzen,Perserkatzen,Siamkatzen,,,opentriviaqa
+otq-animals-975,natur,2,Welche Papageien gelten als beste Imitatoren von Geräuschen und menschlicher Sprache?,Graupapageien,Loris,Amazonen,Kakadus,,,opentriviaqa
+otq-brain-teasers-118,natur,2,"Zu welcher Gruppe von Jagdhunden gehören Springer, Cocker und Cavalier King Charles?",Spaniel,Collie,Retriever,Schäferhund,,,opentriviaqa
+otq-humanities-861,natur,2,Wie heißt ein Känguru-Junges?,Joey,Fawn,Filly,Kit,,,opentriviaqa
+otq-animals-15,natur,3,Wozu dient der Kobra vermutlich ihre aufspreizbare Haube?,Um bedrohlicher zu wirken,Zum Halten des Gleichgewichts,Zum Aufnehmen von Sonnenwärme,Zur Tarnung,,,opentriviaqa
+otq-animals-154,natur,3,Wie alt wird ein Löwe in freier Wildbahn durchschnittlich?,10 bis 14 Jahre,6 bis 9 Jahre,20 bis 24 Jahre,25 bis 30 Jahre,,,opentriviaqa
+otq-animals-222,natur,3,Wie schnell kann ein Zebra laufen?,Bis zu etwa 65 km/h,Bis zu etwa 40 km/h,Bis zu etwa 30 km/h,Bis zu etwa 100 km/h,,,opentriviaqa
+otq-animals-304,natur,3,"Wo fand man 1971 das berühmte Fossil eines Velociraptors, der mit einem Protoceratops kämpft?",In der Wüste Gobi,Im Death Valley,Auf dem Balkan,"In Bernissart, Belgien",,,opentriviaqa
+otq-animals-336,natur,3,Was bedeutet der Name Stegosaurus?,Dachechse,Panzerechse,Stachelechse,Stachelschwanz,,,opentriviaqa
+otq-animals-351,natur,3,Welche Hunderasse aus China hat dickes Fell und eine blauschwarze Zunge?,Chow-Chow,Shar-Pei,Akita,Shiba Inu,,,opentriviaqa
+otq-animals-59,natur,3,In welcher Situation schnurren Katzen außer bei Wohlbefinden ebenfalls?,Bei Stress oder Schmerzen,Bei der Jagd oder beim Spielen,Bei Hunger oder Durst,Bei Einsamkeit oder Wut,,,opentriviaqa
+otq-animals-625,natur,3,"Welche alte, meist weiße Katzenrasse stammt ursprünglich aus der Türkei?",Türkisch Angora,Ocicat,Cymric,Selkirk Rex,,,opentriviaqa
+otq-animals-693,natur,3,Woran erkennt man den indischen Gangesgavial?,An seiner schmalen Schnauze,An seinem sehr kurzen Schwanz,An roten Flecken auf dem Rücken,An violetten Schuppen,,,opentriviaqa
+otq-animals-702,natur,3,Was fressen Faultiere hauptsächlich?,Pflanzen (Blätter),Insekten,Fleisch,Fisch,,,opentriviaqa
+otq-animals-82,natur,3,"Welches Tier trägt „Krebs“ im Namen, ist aber näher mit den Spinnen verwandt?",Pfeilschwanzkrebs,Winkerkrabbe,Taschenkrebs,Felsenkrabbe,,,opentriviaqa
+otq-animals-834,natur,3,Woher hat der Mantarochen den englischen Beinamen „Teufelsfisch“?,Von den hornartigen Kopflappen,Von seinem spitzen Schwanz,Von seiner Jagdweise,Von seinen flügelartigen Flossen,,,opentriviaqa
+otq-animals-98,natur,3,"Wie heißt die Fähigkeit von Eidechsen, bei Gefahr ihren Schwanz abzuwerfen?",Autotomie,Apotemnophilie,Autonomie,Autismus,,,opentriviaqa
+otq-general-1466,natur,3,Welche Tiergruppe nennt man auch „Seekühe“?,Sirenen (Sirenia),Seeotter,Walrosse,Seelöwen,,,opentriviaqa
+otq-general-2306,natur,3,Was für eine Pflanze ist die Engelwurz (Angelica)?,Ein Kraut,Ein Baum,Ein Farn,Ein Strauch,,,opentriviaqa
+otq-world-3260,natur,3,Der Elch ist ein Nationalsymbol welches europäischen Landes?,Norwegen,Dänemark,Island,Irland,,,opentriviaqa
+otq-animals-108,natur,4,"Welcher Hai galt als ausgestorben, bis er 1898 vor der Küste Japans gefunden wurde?",Koboldhai,Zigarrenhai,Makohai,Engelhai,,,opentriviaqa
+otq-animals-110,natur,4,Wie heißen Haijunge im Englischen?,Pups,Calves,Pecks,Cubs,,,opentriviaqa
+otq-animals-150,natur,4,Wie oft schlägt das Herz eines Huhns ungefähr pro Minute?,280- bis 315-mal,100- bis 130-mal,150- bis 190-mal,60- bis 90-mal,,,opentriviaqa
+otq-animals-18,natur,4,Wie schnell nach dem Schlüpfen kann sich eine junge Kobra bereits verteidigen?,"Sofort, nach wenigen Stunden",Nach 2 Wochen,Nach 2 Monaten,Nach einem Jahr,,,opentriviaqa
+otq-animals-191,natur,4,Wie viele Regenwurmarten sind weltweit ungefähr bekannt?,Etwa 5.500,Etwa 3.000,Etwa 2.500,Etwa 1.000,,,opentriviaqa
+otq-animals-209,natur,4,In welchem Jahr starb der Dodo nach gängiger Angabe aus?,1681,1705,1789,1803,,,opentriviaqa
+otq-animals-241,natur,4,Wann wurde nach Berichten zuletzt ein Beutelwolf (Tasmanischer Tiger) in freier Wildbahn erlegt?,1930,1880,1900,1910,,,opentriviaqa
+otq-animals-265,natur,4,Wie lange dauert die Tragzeit eines Nashorns ungefähr?,16 Monate,12 Monate,20 Monate,24 Monate,,,opentriviaqa
+otq-animals-3,natur,4,Drei dieser lateinischen Namen bezeichnen Bären. Welcher nicht?,Felis silvestris catus,Melursus ursinus,Helarctos malayanus,Ursus minimus,,,opentriviaqa
+otq-animals-32,natur,4,"Welche kleine Antilope springt so geschickt, dass sie mit den Hufspitzen auf Felsen landet, als würde sie tanzen?",Klippspringer,Bleichböckchen,Pferdeantilope,Säbelantilope,,,opentriviaqa
+otq-animals-423,natur,4,Welcher ist einer der größten lebenden Greifvögel der Erde?,Mönchsgeier,Affenadler,Zwergadler,Turmfalke,,,opentriviaqa
+otq-animals-521,natur,4,"Welcher Hai trägt den Spitznamen „Mülleimer des Meeres“, weil er fast alles frisst?",Tigerhai,Weißer Hai,Walhai,Hammerhai,,,opentriviaqa
+otq-animals-562,natur,4,Wovon ernähren sich ausgewachsene Goliathkäfer?,Von Früchten und Baumsaft,Von Blättern und Gras,Von Insekten,Von Aas,,,opentriviaqa
+otq-animals-571,natur,4,Welche Walgruppe bildet die Familie Phocoenidae?,Schweinswale,Flussdelfine,Schnabelwale,Delfine,,,opentriviaqa
+otq-animals-608,natur,4,Wie viel wiegt ein ausgewachsenes Schnabeltier ungefähr?,"0,7 bis 2,4 kg","3,2 bis 4,6 kg",5 bis 8 kg,10 bis 12 kg,,,opentriviaqa
+otq-animals-612,natur,4,Wie hoch ist die normale Körpertemperatur eines gesunden Schnabeltiers?,Etwa 32 °C,Etwa 22 °C,Etwa 28 °C,35 bis 37 °C,,,opentriviaqa
+otq-animals-618,natur,4,Wofür werden Chinchillas in der Forschung als Modelltiere eingesetzt?,Für Studien des Gehörs,Für Studien der Lautbildung,Für Sehstudien,Für Fortpflanzungsstudien,,,opentriviaqa
+otq-animals-674,natur,4,Wie nennt man im Englischen die Jungen des Meerschweinchens?,Pups,Kits,Calves,Piglets,,,opentriviaqa
+otq-animals-691,natur,4,Mit welchem Tier wird die harmlose Blumentopfschlange oft verwechselt?,Mit einem Regenwurm,Mit einer Schwarzen Mamba,Mit einer Wassertrugnatter,Mit einer Warzenschlange,,,opentriviaqa
+otq-animals-698,natur,4,Woran erkennt man die Lederschildkröte sofort unter den Meeresschildkröten?,Sie hat keinen harten Panzer,Sie hat einen sehr langen Schwanz,Sie ist auffallend bunt,Sie hat ein Horn auf dem Kopf,,,opentriviaqa
+otq-animals-699,natur,4,Wo lebt der Weißkehlwaran?,In Afrika,In Südamerika,In Neuguinea,In Australien,,,opentriviaqa
+otq-animals-705,natur,4,Wie viele Stunden schlafen Faultiere in freier Wildbahn tatsächlich etwa pro Tag?,Weniger als 10 Stunden,20 bis 22 Stunden,12 bis 13 Stunden,15 bis 18 Stunden,,,opentriviaqa
+otq-animals-73,natur,4,Womit kommen Chihuahua-Welpen typischerweise zur Welt?,Mit einer offenen Fontanelle am Schädel,Mit einer zusätzlichen Sehne,Mit haarlosen Ohren,Mit zwei zusätzlichen Eckzähnen,,,opentriviaqa
+otq-animals-768,natur,4,Welcher Sinn ist beim Schabrackentapir nur schwach ausgeprägt?,Das Sehen,Das Hören,Das Riechen,Der Tastsinn,,,opentriviaqa
+otq-animals-77,natur,4,Wie alt wird ein Flusspferd in freier Wildbahn etwa?,40 bis 50 Jahre,10 bis 20 Jahre,60 bis 70 Jahre,20 bis 30 Jahre,,,opentriviaqa
+otq-animals-809,natur,4,Wie heißt das Kampfverhalten männlicher Giraffen?,Necking (Halskampf),Hoofing (Hufkampf),Tailing (Schwanzkampf),Horning (Hornkampf),,,opentriviaqa
+otq-general-2024,natur,4,Wie heißt eine Gruppe von Bären im Englischen?,A sleuth,A family,A tribe,A band,,,opentriviaqa
+otq-rated-1093,natur,4,Wie heißen junge männliche und weibliche Pferde?,Hengstfohlen und Stutfohlen,Stute und Hengst,Wallach und Stute,Jährling und Fohlen,,,opentriviaqa
+otq-science-technology-1155,natur,4,"Welches dieser Lebewesen ist heterodont, hat also verschieden geformte Zähne?",Mensch,Schnecke,Schildkröte,Hai,,,opentriviaqa
+otq-science-technology-673,natur,4,Was gab es nach wissenschaftlicher Definition bei den Dinosauriern nicht?,Weder fliegende noch im Meer lebende Arten,Fliegende Arten,Wechselwarme Arten,Im Meer lebende Arten,,,opentriviaqa
+otq-world-3261,natur,4,Welcher afrikanische Vogel ziert die Wappen des Sudan und Südafrikas?,Sekretär,Bindenfregattvogel,Brillenpinguin,Strauß,,,opentriviaqa

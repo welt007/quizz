@@ -1,0 +1,55 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-general-165,freizeit,1,Welches Lebensmittel verdirbt praktisch nie?,Honig,Kartoffeln,Nudeln,Erdnussbutter,,,opentriviaqa
+otq-hobbies-155,freizeit,1,Welche japanische Spezialität besteht aus dünn geschnittenem rohem Fisch mit Soße?,Sashimi,Moussaka,Tempura,Ramen,,,opentriviaqa
+otq-hobbies-340,freizeit,1,"Wie heißt das dünne, panierte Kalbsschnitzel aus Österreich?",Wiener Schnitzel,Currywurst,Stollen,Spanferkel,,,opentriviaqa
+otq-hobbies-610,freizeit,1,Welche Spirituose gehört traditionell in eine Piña Colada?,Rum,Tequila,Gin,Wodka,,,opentriviaqa
+otq-hobbies-629,freizeit,1,Welches Tier isst man bei der französischen Spezialität Escargots?,Schnecken,Austern,Garnelen,Kaninchen,,,opentriviaqa
+otq-hobbies-73,freizeit,1,Welches Casinospiel geht auf das französische „Vingt-et-un“ zurück?,Blackjack,Bingo,Roulette,Baccara,,,opentriviaqa
+otq-hobbies-785,freizeit,1,Welches Vitamin steckt reichlich in Erdbeeren?,Vitamin C,Vitamin B12,Vitamin E,Vitamin K,,,opentriviaqa
+otq-hobbies-954,freizeit,1,"Welchen Nährstoff können Vegetarier entgegen einem verbreiteten Irrtum durchaus über Soja, Bohnen, Nüsse oder Eier aufnehmen?",Eiweiß,Kalorien,Ballaststoffe,Kohlenhydrate,,,opentriviaqa
+otq-hobbies-972,freizeit,1,Mit welcher Skala misst man die Schärfe von Chilischoten?,Scoville-Skala,Piquant-Skala,Hitzefaktor-Index,Richter-Skala,,,opentriviaqa
+otq-humanities-352,freizeit,1,Was ist ein Aperitif?,Ein Getränk vor dem Essen,Eine Nachspeise,Ein Vorspiel im Theater,Ein Kartenspiel,,,opentriviaqa
+otq-rated-728,freizeit,1,Was ist ein Wok?,Eine Pfanne aus der asiatischen Küche,Ein Sieb zum Abtropfen,Ein feines Fischernetz,Ein Werkzeug der Goldwäscher,,,opentriviaqa
+otq-world-2159,freizeit,1,"Tom-Yum-Suppe, Hummus, Chicken Tikka und Nasi Goreng stammen aus der Küche welches Kontinents?",Asien,Afrika,Südamerika,Europa,,,opentriviaqa
+otq-world-3202,freizeit,1,Was für ein Spiel ist das traditionelle chinesische Go?,Ein Brettspiel,Ein Versteckspiel,Ein Wettrennen mit Schnecken,Ein Ballspiel,,,opentriviaqa
+otq-world-3914,freizeit,1,"Aus welchem Land stammt der Brauch, einen Weihnachtsbaum zu schmücken?",Deutschland,Finnland,Russland,Norwegen,,,opentriviaqa
+otq-world-4108,freizeit,1,In welcher Stadt wurde 1810 zur Hochzeit von Kronprinz Ludwig das erste Oktoberfest gefeiert?,München,Stuttgart,Potsdam,Augsburg,,,opentriviaqa
+otq-hobbies-115,freizeit,2,Aus welchem Land stammt der Blauschimmelkäse Stilton?,England,Frankreich,Niederlande,Schweiz,,,opentriviaqa
+otq-hobbies-950,freizeit,2,Welche Nuss gab der Cola ihren Namen und enthält Koffein?,Kolanuss,Haselnuss,Erdnuss,Kastanie,,,opentriviaqa
+otq-humanities-500,freizeit,2,"Bei welcher Tätigkeit wollte der Earl of Sandwich angeblich nicht unterbrochen werden, als er Fleisch zwischen Brotscheiben bestellte?",Beim Glücksspiel,Beim Schachspielen,Bei der Vogeljagd,Beim Lesen,,,opentriviaqa
+otq-newest-475,freizeit,2,"Wie heißt die italienische Vorspeisenplatte mit Salami, Oliven und Artischocken?",Antipasto,Prosciutto,Crostini,Bruschetta,,,opentriviaqa
+otq-people-670,freizeit,2,Welche Obstsorte ist nach einer australischen Züchterin benannt?,Der Apfel Granny Smith,Die Nektarine,Die Pflaume Sweet Susan,Die Birne Bosc,,,opentriviaqa
+otq-general-2010,freizeit,3,Welche Firma entwickelte die Computerspielreihe „Command & Conquer“?,Westwood Studios (Electronic Arts),Microsoft,Blizzard,Nintendo,,,opentriviaqa
+otq-hobbies-1037,freizeit,3,Der teure Kaffee „Kopi Luwak“ wird aus den Ausscheidungen welches Tieres gewonnen?,Fleckenmusang (Schleichkatze),Bergziege,Fruchtfledermaus,Seekuh,,,opentriviaqa
+otq-hobbies-1115,freizeit,3,Was ist die Hauptzutat des spanischen Eintopfs Fabada Asturiana?,Bohnen,Lauch,Auberginen,Karotten,,,opentriviaqa
+otq-hobbies-576,freizeit,3,"Welches chinesische Tierkreiszeichen hat, wer 1976, 1988 oder 2000 geboren ist?",Drache,Pferd,Schlange,Hase,,,opentriviaqa
+otq-hobbies-579,freizeit,3,"Wie heißt das belgische Bier, das durch Spontangärung mit wilden Hefen entsteht?",Lambic,Pils,Stout,Kölsch,,,opentriviaqa
+otq-hobbies-620,freizeit,3,Welche Duftart enthält typischerweise 10 bis 20 % Duftstoffe?,Eau de Parfum,Eau de Cologne,Eau de Toilette,Rasierwasser,,,opentriviaqa
+otq-hobbies-701,freizeit,3,Welches Gemüse ist die Hauptzutat der portugiesischen Suppe Caldo verde?,Kohl,Tomate,Kürbis,Aubergine,,,opentriviaqa
+otq-hobbies-730,freizeit,3,"Woraus bestehen die Nester der Salanganen, die in China als „Schwalbennester“ eine Delikatesse sind?",Aus Speichel,Aus Bambussprossen,Aus Knochen,Aus getrockneten Insekten,,,opentriviaqa
+otq-hobbies-81,freizeit,3,Welches Frühstück wird im Englischen auch „Full Monty“ genannt?,Das komplette englische Frühstück,Das kontinentale Frühstück,Das irische Frühstück,Das französische Frühstück,,,opentriviaqa
+otq-hobbies-818,freizeit,3,Wie wird das japanische Gericht Karaage zubereitet?,Frittiert,Gebraten im Ofen,Geschmort,Gekocht,,,opentriviaqa
+otq-hobbies-83,freizeit,3,Wann wird im Vereinigten Königreich das sogenannte „wedding breakfast“ serviert?,Beim Hochzeitsempfang,Am Morgen nach der Hochzeit,Am Morgen vor der Trauung,Am Tag vor der Hochzeit,,,opentriviaqa
+otq-hobbies-835,freizeit,3,Was bedeutet der arabischstämmige Name „Safran“?,Gelb,Gift,Duft,Rot,,,opentriviaqa
+otq-hobbies-838,freizeit,3,Aus welchem indischen Strategiespiel ging das Schach hervor?,Chaturanga,Sankara,Pachisi,Mancala,,,opentriviaqa
+otq-hobbies-931,freizeit,3,Wie heißt das philippinische Gericht aus einem angebrüteten Entenei?,Balut,Adobo,Lumpia,Sinigang,,,opentriviaqa
+otq-hobbies-976,freizeit,3,Für welches Handwerk ist die englische Stadt Stoke-on-Trent berühmt?,Töpferei und Porzellan,Briefmarken,Uhrmacherei,Glasbläserei,,,opentriviaqa
+otq-hobbies-993,freizeit,3,Welches Tier ist das zwölfte und letzte Zeichen im chinesischen Tierkreis?,Schwein,Schlange,Hase,Ratte,,,opentriviaqa
+otq-rated-1603,freizeit,3,Wie hieß die Videospielfigur Mario ursprünglich?,Jumpman,Springboy,Hopman,Frog Guy,,,opentriviaqa
+otq-video-games-46,freizeit,3,Welche Figur aus der „Final Fantasy“-Reihe kämpft mit dem „Buster Sword“?,Cloud Strife,Sephiroth,Squall Leonhart,Seifer Almasy,,,opentriviaqa
+otq-geography-524,freizeit,4,Woraus besteht die norwegische Spezialität Smalahove?,Aus einem Schafskopf,Aus Schweinedarm,Aus Fischleber,Aus Hühnermägen,,,opentriviaqa
+otq-hobbies-1005,freizeit,4,Wer erfand das Sammelkartenspiel „Magic: The Gathering“?,Richard Garfield,Bennie Smith,Gary Gygax,Mike Flores,,,opentriviaqa
+otq-hobbies-1094,freizeit,4,Aus welchem Land stammt das knusprige Fladenbrot Pane carasau?,Italien (Sardinien),Brasilien,Portugal,Spanien,,,opentriviaqa
+otq-hobbies-203,freizeit,4,Was zeigte das erste außen an eine Jeans genähte Etikett von Levi’s (1936)?,Ein rotes Fähnchen,Einen Bären,Einen Cowboyhut,Einen Falken,,,opentriviaqa
+otq-hobbies-308,freizeit,4,"Wie heißt das Abkommen von 1951, mit dem mehrere europäische Länder Käsebezeichnungen vor Fälschung schützten?",Abkommen von Stresa,Schweizer Abkommen,Mailänder Abkommen,Genfer Abkommen,,,opentriviaqa
+otq-hobbies-373,freizeit,4,Welche Skala eines französischen Apothekers wird zur Messung des Zuckergehalts von Most und Wein genutzt?,Baumé-Skala,Beaufort-Skala,Brix-Skala,Scoville-Skala,,,opentriviaqa
+otq-hobbies-377,freizeit,4,Welche europäische Weinrebenart wurde Mitte des 19. Jahrhunderts von der Reblaus verwüstet?,Vitis vinifera,Vitis aestivalis,Vitis sylvestris,Vitis labrusca,,,opentriviaqa
+otq-hobbies-501,freizeit,4,Was bedeutet der Name des thailändischen Gerichts „Suea Rong Hai“?,Weinender Tiger,Spinnennetz,Wütender Tintenfisch,Mutterherz,,,opentriviaqa
+otq-hobbies-640,freizeit,4,Wer erfand die Stayman-Konvention im Kontrakt-Bridge?,George Rapée,Samuel Stayman,Bill Stayman,George C. Stayman,,,opentriviaqa
+otq-hobbies-787,freizeit,4,Aus welchem Land stammt das Fladenbrot Flatkaka?,Island,Philippinen,Südafrika,Peru,,,opentriviaqa
+otq-hobbies-794,freizeit,4,Aus welchem Land stammt das dünne Fladenbrot „Tunnbröd“?,Schweden,Deutschland,Schweiz,Norwegen,,,opentriviaqa
+otq-hobbies-829,freizeit,4,Welches Kraut wird in Laos und Thailand auch „laotischer Koriander“ genannt?,Dill,Majoran,Basilikum,Petersilie,,,opentriviaqa
+otq-hobbies-978,freizeit,4,Zu welchem Feiertag lässt man auf den Bermudas traditionell Drachen steigen?,Ostern,Weihnachten,Tag der Arbeit,Halloween,,,opentriviaqa
+otq-humanities-710,freizeit,4,Welcher lateinamerikanische Tanz gehört NICHT zum Turnierprogramm der Latein-Tänze?,Merengue,Rumba,Samba,Cha-Cha-Cha,,,opentriviaqa
+otq-sports-2374,freizeit,4,Welche Eröffnung kann nach dem ersten Schachzug 1. Sf3 nicht mehr entstehen?,Königsgambit,Englische Eröffnung,Spanische Partie,Königsindischer Angriff,,,opentriviaqa
+otq-world-3503,freizeit,4,"Welchen Teil ihrer Kleidung wechselt eine Maiko bei der Zeremonie Erikae, wenn sie zur Geisha wird?",Den Kragen,Die Schärpe,Den Kimono,Die Schuhe,,,opentriviaqa

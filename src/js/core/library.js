@@ -63,6 +63,7 @@ export function sourceFromResult(result, { id, kind, url, now = new Date().toISO
     url,
     version: result.version,
     updateUrl: result.updateUrl,
+    attribution: result.attribution,
     categories: result.categories ?? {},
     addedAt: previous?.addedAt ?? now,
     updatedAt: now,
@@ -80,7 +81,8 @@ export function builtinFromEmbedded(embedded) {
       version: manifest.version,
       categories: manifest.categories,
       updateUrl: manifest.updateUrl,
-      catalogs: embedded.files.map((f) => ({ file: f.file, questions: f.questions })),
+      attribution: manifest.attribution,
+      catalogs: embedded.files.map((f) => ({ file: f.file, name: manifest.titles?.[f.file], questions: f.questions })),
     },
     { id: BUILTIN_ID, kind: 'builtin', now: null },
   );

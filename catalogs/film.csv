@@ -1,0 +1,32 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-general-1566,film,1,Wer ist Han Solos Kopilot im Millennium Falken?,Chewbacca,R2-D2,Darth Vader,Yoda,,,opentriviaqa
+otq-general-16,film,1,"Sean Connery, Roger Moore und Pierce Brosnan spielten alle denselben britischen Geheimagenten. Welchen?",James Bond,Johnny English,Jim Malone,Eliot Ness,,,opentriviaqa
+otq-newest-900,film,1,Wer führte bei „Gefährten“ und „Die Abenteuer von Tim und Struppi“ (beide 2011) Regie?,Steven Spielberg,Martin Scorsese,Oliver Stone,Peter Jackson,,,opentriviaqa
+otq-rated-515,film,1,"Abu, Rajah und Dschafar stammen aus welchem Disney-Film?",Aladdin,Pocahontas,Bärenbrüder,Mulan,,,opentriviaqa
+otq-general-933,film,2,Wer spielt die Hauptrollen im Filmklassiker „Casablanca“?,Humphrey Bogart und Ingrid Bergman,James Stewart und June Allyson,Henry Fonda und Maureen O’Hara,Humphrey Bogart und Lauren Bacall,,,opentriviaqa
+otq-movies-1827,film,2,Wie heißt Bruce Willis’ Figur in „Stirb langsam“?,John McClane,Harry Ellis,Richard Thornburg,Al Powell,,,opentriviaqa
+otq-movies-687,film,2,Was ermöglicht in „Zurück in die Zukunft“ die Zeitreise?,Der Fluxkompensator,Eine Geschwindigkeit von 100 km/h,Ein Blitzableiter,Ein Wurmloch,,,opentriviaqa
+otq-newest-1355,film,2,Welche der Teenage Mutant Ninja Turtles trägt eine rote Maske?,Raphael,Donatello,Leonardo,Michelangelo,,,opentriviaqa
+otq-rated-1718,film,2,"Welche Filmreihe handelt von Menschen, die in einem Labyrinth aus würfelförmigen Räumen gefangen sind?",Cube,Stirb langsam,Matrix,Mad Max,,,opentriviaqa
+otq-world-2932,film,2,In welchem Film taucht die fiktive Firma Cyberdyne Systems auf?,Terminator,RoboCop,Die totale Erinnerung – Total Recall,Nummer 5 lebt!,,,opentriviaqa
+otq-entertainment-105,film,3,Wie hießen die Eltern von Bruce Wayne (Batman)?,Thomas und Martha,James und Elizabeth,Wayne und Alice,George und Elaine,,,opentriviaqa
+otq-general-309,film,3,In welchem Jahr drehte Stanley Kubrick „Uhrwerk Orange“?,1971,1968,1975,1965,,,opentriviaqa
+otq-movies-1217,film,3,"Wem gesteht der Butler Edgar in „Aristocats“, dass er die Katzen entführt hat?",Dem Pferd Frou-Frou,Den Gänsen Abigail und Amelia,Dem Anwalt Georges,Madame Adelaide,,,opentriviaqa
+otq-movies-3293,film,3,In welchem Film von 2009 kämpft eine Familie um das Leben ihrer leukämiekranken Tochter?,Beim Leben meiner Schwester,Seite an Seite,Marley & Ich,Wie ein einziger Tag,,,opentriviaqa
+otq-movies-923,film,3,In welchem Musical hält ein Blumenladen eine menschenfressende Pflanze?,Der kleine Horrorladen,Einst kommt der Tag,Charly,Die Nacht der lebenden Toten,,,opentriviaqa
+otq-newest-1737,film,3,In welchem Stummfilm spielt Max Schreck den Vampir Graf Orlok?,Nosferatu,Interview mit einem Vampir,Brennen muss Salem,Buffy – Im Bann der Dämonen,,,opentriviaqa
+otq-newest-1981,film,3,"Wer drehte „Always – Der Feuerengel von Montana“, Audrey Hepburns letzten Film?",Steven Spielberg,Ron Howard,Billy Wilder,William Wyler,,,opentriviaqa
+otq-rated-151,film,3,Wer führte Regie bei der Stephen-King-Verfilmung „Misery“ (1990)?,Rob Reiner,Richard Bachman,Stephen King,Ron Howard,,,opentriviaqa
+otq-rated-1541,film,3,"In welchem Film spielte Richard Gere den Zack Mayo, nachdem John Travolta die Rolle abgelehnt hatte?",Ein Offizier und Gentleman,"Die Braut, die sich nicht traut",Pretty Woman,Zwielicht,,,opentriviaqa
+otq-rated-178,film,3,Welchen Beatles-Song singt Ferris Bueller in „Ferris macht blau“ auf einem Paradewagen?,Twist and Shout,Come Together,Hey Jude,Please Please Me,,,opentriviaqa
+otq-rated-872,film,3,Welche rothaarige Hollywood-Schauspielerin war das bekannteste Pin-up des Zweiten Weltkriegs neben Betty Grable?,Rita Hayworth,Lucille Ball,Katharine Hepburn,Greta Garbo,,,opentriviaqa
+otq-history-273,film,4,Wie hieß Alfred Hitchcocks erster Thriller aus dem Jahr 1927?,Der Mieter,Der Mann von der Insel Man,Mord – Sir John greift ein!,Die 39 Stufen,,,opentriviaqa
+otq-history-689,film,4,Welche Schauspielerin spielte in „Verliebt in eine Hexe“ die tollpatschige Hexe Esmeralda?,Alice Ghostley,Agnes Moorehead,Kathy Bates,Angela Lansbury,,,opentriviaqa
+otq-humanities-708,film,4,"Wie heißt Carlos Sauras Film von 1995 mit Paco de Lucía, Joaquín Cortés und Manolo Sanlúcar?",Flamenco,Carmen,Bolero,Tango,,,opentriviaqa
+otq-literature-687,film,4,Welcher Film mit Scarlett Johansson beruht auf Oscar Wildes Stück „Lady Windermeres Fächer“?,Eine Frau von Welt (A Good Woman),Die Nanny Diaries,Die Schwester der Königin,Lost in Translation,,,opentriviaqa
+otq-movies-1154,film,4,Wie heißt der Chef des japanischen Geheimdienstes im Bond-Film „Man lebt nur zweimal“?,Tiger Tanaka,Hiraku Hashimoto,Yasuhiro Yoshida,Senjei Suzuki,,,opentriviaqa
+otq-movies-1544,film,4,Wer schrieb das Drehbuch zu „Batman Begins“ und den „Blade“-Filmen?,David S. Goyer,Christopher Nolan,David Benioff,Joss Whedon,,,opentriviaqa
+otq-movies-2503,film,4,Wer spielte im Western „Die glorreichen Sieben“ (1960) den mexikanischen Banditen Calvera?,Eli Wallach,Ricardo Montalban,Antonio Banderas,Edward James Olmos,,,opentriviaqa
+otq-music-2713,film,4,Welche Haarfarbe hat Clementine in „Vergiss mein nicht!“ zu Beginn des Films?,Blau,Rot,Lila,Orange,,,opentriviaqa
+otq-rated-509,film,4,In welchem Film von 1994 führt Meryl Streep als erfahrene Raftingführerin zwei Flüchtige durch Stromschnellen?,Am wilden Fluss,Mystic River,Suspicious River,Aus der Mitte entspringt ein Fluss,,,opentriviaqa
+otq-science-technology-516,film,4,"In welchem Film spielt Dustin Hoffman einen Mathematiker, der sich gegen Schikanen wehrt?",Wer Gewalt sät,Sonntagsvater,The Point,Sphere,,,opentriviaqa

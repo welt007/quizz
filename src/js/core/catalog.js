@@ -134,5 +134,7 @@ export function validateManifest(manifest) {
   }
   if (manifest.categories && typeof manifest.categories !== 'object') errs.push('"categories" muss ein Objekt sein');
   if (manifest.updateUrl != null && typeof manifest.updateUrl !== 'string') errs.push('"updateUrl" muss eine Zeichenkette sein');
+  if (manifest.titles != null && typeof manifest.titles !== 'object') errs.push('"titles" muss ein Objekt sein');
+  if (manifest.attribution != null && typeof manifest.attribution !== 'string') errs.push('"attribution" muss eine Zeichenkette sein');
   return errs;
 }

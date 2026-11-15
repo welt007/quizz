@@ -3,14 +3,39 @@
   "version": "2026-11-14.2",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
+  "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
   "files": [
     "allgemeinwissen.csv",
     "geographie.csv",
-    "wissenschaft.csv",
     "geschichte.csv",
+    "wissenschaft.csv",
+    "natur.csv",
+    "kultur.csv",
+    "religion.csv",
+    "musik.csv",
+    "film.csv",
+    "sport.csv",
+    "freizeit.csv",
+    "sprache.csv",
     "flaggen.csv",
     "umrisse.csv"
   ],
+  "titles": {
+    "allgemeinwissen.csv": "Allgemeinwissen",
+    "geographie.csv": "Geographie",
+    "geschichte.csv": "Geschichte",
+    "wissenschaft.csv": "Wissenschaft & Technik",
+    "natur.csv": "Tiere & Natur",
+    "kultur.csv": "Kunst & Literatur",
+    "religion.csv": "Religion & Mythologie",
+    "musik.csv": "Musik",
+    "film.csv": "Film & Fernsehen",
+    "sport.csv": "Sport",
+    "freizeit.csv": "Essen & Freizeit",
+    "sprache.csv": "Sprache",
+    "flaggen.csv": "Flaggen",
+    "umrisse.csv": "Umrisse"
+  },
   "categories": {
     "allgemeinwissen": {
       "name": "Allgemeinwissen",
@@ -23,7 +48,7 @@
       "color": "#2e9e6b"
     },
     "wissenschaft": {
-      "name": "Wissenschaft",
+      "name": "Wissenschaft & Technik",
       "icon": "🔬",
       "color": "#3a7bd5"
     },
@@ -41,6 +66,46 @@
       "name": "Umrisse",
       "icon": "🗺️",
       "color": "#16a085"
+    },
+    "natur": {
+      "name": "Tiere & Natur",
+      "icon": "🐾",
+      "color": "#6aa84f"
+    },
+    "kultur": {
+      "name": "Kunst & Literatur",
+      "icon": "🎨",
+      "color": "#8e6cff"
+    },
+    "religion": {
+      "name": "Religion & Mythologie",
+      "icon": "📜",
+      "color": "#c9a227"
+    },
+    "musik": {
+      "name": "Musik",
+      "icon": "🎵",
+      "color": "#e05c9b"
+    },
+    "film": {
+      "name": "Film & Fernsehen",
+      "icon": "🎬",
+      "color": "#e07b39"
+    },
+    "sport": {
+      "name": "Sport",
+      "icon": "⚽",
+      "color": "#25a5b8"
+    },
+    "freizeit": {
+      "name": "Essen & Freizeit",
+      "icon": "🍽️",
+      "color": "#d35400"
+    },
+    "sprache": {
+      "name": "Sprache",
+      "icon": "💬",
+      "color": "#7f8c8d"
     }
   }
 }

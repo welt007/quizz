@@ -1,0 +1,27 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-sports-853,sport,1,Welche Skidisziplin wird in Skigebieten am häufigsten betrieben?,Alpiner Skilauf,Skilanglauf,Freestyle-Skiing,Skijöring,,,opentriviaqa
+otq-sports-874,sport,1,Mit was für Kugeln wird beim Boule bzw. Pétanque gespielt?,Mit Metallkugeln,Mit Gummibällen,Mit Holzkugeln,Mit Glaskugeln,,,opentriviaqa
+otq-geography-344,sport,2,Welcher Südtiroler bestieg den Everest als Erster ohne Flaschensauerstoff (mit Peter Habeler) und später als Erster im Alleingang?,Reinhold Messner,Hans Kammerlander,Jerzy Kukuczka,Peter Habeler,,,opentriviaqa
+otq-history-242,sport,2,In welchem Land fanden die Olympischen Winterspiele 2006 statt?,Italien,Schweiz,Frankreich,Deutschland,,,opentriviaqa
+otq-sports-1766,sport,2,Welches Rennen wird auch „Grand Prix der Ausdauer“ genannt?,24 Stunden von Le Mans,Großer Preis von Monaco,Indianapolis 500,Mille Miglia,,,opentriviaqa
+otq-sports-192,sport,2,Welches Tier war 1972 in München das erste offizielle Olympia-Maskottchen?,Der Dackel Waldi,Der Biber Amik,Der Hund Cobi,Der Adler Sam,,,opentriviaqa
+otq-sports-2054,sport,2,Wer gewann 1988 den ersten „Golden Slam“ der Tennisgeschichte?,Steffi Graf,Martina Navratilova,John McEnroe,Pete Sampras,,,opentriviaqa
+otq-sports-569,sport,2,Wie heißt der Spielstand 0:0 im Tennis auf Englisch?,Love all,Zero all,Nil all,Null all,,,opentriviaqa
+otq-world-3786,sport,2,Welche Sportart ist in Südafrika am beliebtesten?,Fußball,Leichtathletik,Tennis,Boxen,,,opentriviaqa
+otq-newest-2139,sport,3,Welches Team besiegte Spanien im Finale der Fußball-EM 1984 mit 2:0?,Frankreich,Niederlande,Deutschland,England,,,opentriviaqa
+otq-newest-520,sport,3,Bei welchen Schwimmarten darf im Wettkampf die Rollwende genutzt werden?,Freistil und Rücken,Rücken und Brust,Schmetterling und Brust,Schmetterling und Freistil,,,opentriviaqa
+otq-sports-1120,sport,3,Wer gründete zusammen mit Bill Bowerman die Sportmarke Nike?,Phil Knight,Adi Dassler,Jim Collins,Steve Prefontaine,,,opentriviaqa
+otq-sports-1372,sport,3,Welcher philippinische Boxer gewann Weltmeistertitel in acht Gewichtsklassen?,Manny Pacquiao,Efren Reyes,Paeng Nepomuceno,Nonito Donaire,,,opentriviaqa
+otq-sports-1432,sport,3,Wie viele Gold- und Bronzemedaillen gewann Michael Phelps bei den Olympischen Spielen 2004 in Athen?,"6-mal Gold, 2-mal Bronze","5-mal Gold, 3-mal Bronze","6-mal Gold, 1-mal Bronze","5-mal Gold, 2-mal Bronze",,,opentriviaqa
+otq-sports-1615,sport,3,"Wie lautet der genauere Sammelbegriff für die chinesischen Kampfkünste, die im Westen oft „Kung Fu“ heißen?",Wushu,San Soo,Kendo,Hung Gar,,,opentriviaqa
+otq-sports-283,sport,3,In welcher dieser Städte findet kein Masters-Tennisturnier statt?,London,Rom,Monte Carlo,Madrid,,,opentriviaqa
+otq-sports-967,sport,3,Wer erzielte im WM-Halbfinale 2006 zwischen Deutschland und Italien in der Verlängerung das 1:0?,Fabio Grosso,Luca Toni,Alberto Gilardino,Alessandro Del Piero,,,opentriviaqa
+otq-sports-976,sport,3,Als Pionier welcher Skateboard-Disziplin gilt Tony Hawk?,Vert-Skating (Halfpipe),Grind-Skating,Freestyle,Street-Skating,,,opentriviaqa
+otq-religion-faith-216,sport,4,In welchem Jahr fanden die ersten Makkabiade-Spiele statt?,1932,1896,1964,1956,,,opentriviaqa
+otq-sports-1008,sport,4,Wie viele Sätze werden im olympischen Tischtennis-Einzel höchstens gespielt?,7,3,5,9,,,opentriviaqa
+otq-sports-1481,sport,4,"Aus welchem Land stammen die Sportler Georgi Asparuchow, Magdalena Malejewa und Dan Kolow?",Bulgarien,Rumänien,Serbien,Ungarn,,,opentriviaqa
+otq-sports-1550,sport,4,Wer gewann den ersten Wettbewerb der ersten modernen Olympischen Spiele 1896?,James Connolly,Rafer Johnson,Pierre de Coubertin,Jim Thorpe,,,opentriviaqa
+otq-sports-1621,sport,4,Was ist ein „Dao“ in der chinesischen Kampfkunst?,Ein Säbel,Eine Standposition,Eine Kampfsportart,Eine Bewegungsfolge,,,opentriviaqa
+otq-sports-1793,sport,4,Wer gewann als erster Skispringer dreimal in Folge den Gesamtweltcup?,Adam Małysz,Andreas Goldberger,Jens Weißflog,Matti Nykänen,,,opentriviaqa
+otq-sports-2238,sport,4,Welcher 1987 geborene Eishockeyspieler wurde „The Next One“ genannt?,Sidney Crosby,Alexander Owetschkin,Connor McDavid,Wayne Gretzky,,,opentriviaqa
+otq-sports-507,sport,4,Welcher Fußballer wurde trotz einer verformten Beine zweimal Weltmeister?,Garrincha,Michel Platini,Stanley Matthews,Zico,,,opentriviaqa

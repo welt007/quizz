@@ -129,6 +129,7 @@ export function renderOptions(ctx) {
           h('h3', { class: 'source__name' }, source.name, ' ', h('span', { class: 'badge' }, source.override ? 'Standard · aktualisiert' : KIND_LABEL[source.kind])),
           h('p', { class: 'source__meta' }, meta),
           source.kind === 'url' ? h('p', { class: 'source__url' }, source.url) : null,
+          source.attribution ? h('p', { class: 'source__meta source__attribution' }, source.attribution) : null,
         ),
         h('div', { class: 'source__tools' }, buttons),
       ),

@@ -1,0 +1,19 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+otq-geography-763,sprache,1,Welche Sprache ist die Amtssprache Schwedens?,Schwedisch,Finnisch,Deutsch,Dänisch,,,opentriviaqa
+otq-humanities-550,sprache,1,Vervollständige das Sprichwort: „Not macht …“,… erfinderisch,… hungrig,… fleißig,… stark,,,opentriviaqa
+otq-history-1290,sprache,2,Was bedeutet der arabische Begriff „al-Qaida“?,Die Basis,Die Rache,Der Kampf,Die Gerechtigkeit,,,opentriviaqa
+otq-humanities-152,sprache,2,Welche europäische Sprache ist mit keiner anderen Sprache der Welt verwandt?,Baskisch,Englisch,Griechisch,Ungarisch,,,opentriviaqa
+otq-humanities-17,sprache,2,Welcher Satz bedeutet „Ich liebe dich“ auf Niederländisch?,Ik hou van jou.,Ti amo.,Je t’aime.,Jeg elsker deg.,,,opentriviaqa
+otq-humanities-556,sprache,2,Welches Sprichwort steckt hinter: „Am Ende der unterirdischen Röhre gibt es Beleuchtung“?,Licht am Ende des Tunnels,Aus Fehlern wird man klug,Die Nacht ist am dunkelsten vor dem Morgen,"Wer mit dem Feuer spielt, verbrennt sich",,,opentriviaqa
+otq-humanities-647,sprache,2,In welchem afrikanischen Land ist Afrikaans eine Amtssprache?,Südafrika,Botsuana,Lesotho,Kenia,,,opentriviaqa
+otq-humanities-840,sprache,2,Welche dieser Sprachen ist mit dem Italienischen am engsten verwandt?,Rumänisch,Serbisch,Griechisch,Bulgarisch,,,opentriviaqa
+otq-world-1074,sprache,2,Auf welchem Kontinent ist Yoruba eine Muttersprache?,Afrika,Asien,Südamerika,Nordamerika,,,opentriviaqa
+otq-world-349,sprache,2,Wie heißt der Weihnachtsmann auf Französisch?,Père Noël,Olentzero,Väterchen Frost,Zwarte Piet,,,opentriviaqa
+otq-general-2359,sprache,3,Was bedeutet der Vorname Anastasia?,Auferstehung,Märtyrerin,Engelsgleich,Fluss,,,opentriviaqa
+otq-general-996,sprache,3,Welches 1822 formulierte Lautgesetz beschreibt die Entwicklung der germanischen Sprachen?,Grimmsches Gesetz,Vernersches Gesetz,Grassmannsches Gesetz,Ohmsches Gesetz,,,opentriviaqa
+otq-geography-379,sprache,3,Wie sagt man „Ich liebe dich“ auf Filipino?,Mahal kita,Ikaw na nga,Sino ka,Hindi ko alam,,,opentriviaqa
+otq-history-859,sprache,3,Was bedeutet der Name „Holland“ ursprünglich?,Holzland,Palmenland,Vulkanland,Wüstenland,,,opentriviaqa
+otq-humanities-360,sprache,3,Wie heißt der Bürgermeister auf Spanisch?,Alcalde,Clérigo,Tabernero,Carnicero,,,opentriviaqa
+otq-religion-faith-373,sprache,4,Welche zwei großen Aussprachetraditionen des Hebräischen gibt es?,Aschkenasisch und Sephardisch,Galiläisch und Samaritanisch,Babylonisch und Persisch,Jiddisch und Ladinisch,,,opentriviaqa
+otq-religion-faith-91,sprache,4,Wie viele Vokalbuchstaben hat das hebräische Alphabet?,Keinen,Acht,Fünf,Sechs,,,opentriviaqa
+otq-world-2556,sprache,4,Welcher Tag ist der Europäische Tag der Sprachen?,26. September,26. Mai,26. Dezember,26. Januar,,,opentriviaqa
