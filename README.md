@@ -13,10 +13,12 @@ Ein Quizspiel im Stil einer TV-Gameshow – **offline**, **portabel**, als **ein
 - Bestenlisten (Top 10) für Punkteleiter, Blitzrunde und Sudden Death
 - Show-Feeling: Moderator, Spannungspause, Sounds (synthetisiert, offline), Konfetti
 - Bedienung per Maus, Touch oder Tastatur (`A`–`D`, `Enter`, `Esc`, Joker `H`/`P`/`T`, Ton `M`)
-- Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub;
-  weitere Kataloge per URL im Optionsmenü *(in Arbeit)*
+- Fragenkataloge als CSV in [`catalogs/`](catalogs/), aktualisierbar direkt aus GitHub
+- **Optionen & Kataloge:** weitere Kataloge per URL (GitHub-Repo, `index.json` mit mehreren CSVs oder
+  einzelne CSV) oder als lokale CSV-Dateien hinzufügen; jede CSV ist ein Katalog, der sich einzeln
+  ein- und ausschalten lässt – alle eingeschalteten werden zu einem Fragenpool vereint
 
-**Status:** Meilenstein M3 (alle Spielmodi und Bestenlisten). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
+**Status:** Meilenstein M4 (Katalogverwaltung, Updates, Import). Den vollständigen Plan gibt es in [`docs/PLAN.md`](docs/PLAN.md).
 
 ## Spielen
 

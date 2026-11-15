@@ -3,6 +3,7 @@
 import { h } from './ui/dom.js';
 import { recordAnswer } from './core/stats.js';
 import { insertHighscore } from './core/highscores.js';
+import { createLibrary } from './data/library.js';
 import { loadJson, saveJson, KEYS } from './data/storage.js';
 import { setKeyHandler } from './ui/input.js';
 import { audio } from './ui/audio.js';
@@ -14,6 +15,7 @@ import { renderBlitz } from './ui/screens/blitz.js';
 import { renderSudden } from './ui/screens/sudden.js';
 import { renderDuel } from './ui/screens/duel.js';
 import { renderHighscores } from './ui/screens/highscores.js';
+import { renderOptions } from './ui/screens/options.js';
 
 /* global __APP_VERSION__ */
 const VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
@@ -21,7 +23,7 @@ const FALLBACK_COLORS = ['#8e6cff', '#e05c9b', '#25a5b8', '#c9a227', '#6aa84f', 
 
 function loadEmbeddedCatalogs() {
   const el = document.getElementById('embedded-catalogs');
-  if (!el) return { manifest: { title: 'Kein Katalog', version: '-', categories: {} }, questions: [] };
+  if (!el) return { manifest: { title: 'Kein Katalog', version: '-', files: [], categories: {} }, files: [] };
   return JSON.parse(el.textContent);
 }
 
@@ -34,28 +36,34 @@ const screens = {
   sudden: renderSudden,
   duel: renderDuel,
   highscores: renderHighscores,
+  options: renderOptions,
 };
-
-const catalog = loadEmbeddedCatalogs();
-const categoryIds = [...new Set(catalog.questions.map((q) => q.category))].sort((a, b) =>
-  (catalog.manifest.categories?.[a]?.name ?? a).localeCompare(catalog.manifest.categories?.[b]?.name ?? b, 'de'),
-);
 
 const ctx = {
   app: document.getElementById('app'),
   version: VERSION,
-  catalog,
-  categories: categoryIds,
+  library: null,
+  /** Merged pool of all enabled catalogs: { questions, categories, activeCatalogs, totalCatalogs } */
+  catalog: { questions: [], categories: {}, activeCatalogs: 0, totalCatalogs: 0 },
+  /** Category ids present in the pool, sorted by display name. */
+  categories: [],
   settings: loadJson(KEYS.settings, {}),
   stats: loadJson(KEYS.stats, {}),
   highscores: loadJson(KEYS.highscores, {}),
   leaveHandlers: [],
 
+  /** Recomputes the pool after catalogs were added, removed, enabled or disabled. */
+  refreshCatalog() {
+    ctx.catalog = ctx.library.pool();
+    const name = (id) => ctx.catalog.categories[id]?.name ?? id;
+    ctx.categories = [...new Set(ctx.catalog.questions.map((q) => q.category))].sort((a, b) => name(a).localeCompare(name(b), 'de'));
+  },
+
   categoryInfo(id) {
-    const meta = catalog.manifest.categories?.[id] ?? {};
-    const idx = Math.max(0, categoryIds.indexOf(id));
+    const meta = ctx.catalog.categories?.[id] ?? {};
+    const idx = Math.max(0, ctx.categories.indexOf(id));
     return {
-      name: meta.name ?? id,
+      name: meta.name ?? id.charAt(0).toUpperCase() + id.slice(1),
       icon: meta.icon ?? '❓',
       color: meta.color ?? FALLBACK_COLORS[idx % FALLBACK_COLORS.length],
     };
@@ -68,7 +76,7 @@ const ctx = {
 
   /** "Alle Kategorien" or the category names. */
   categoryLabel(ids = []) {
-    if (!ids.length || ids.length === categoryIds.length) return 'Alle Kategorien';
+    if (!ids.length || ids.length === ctx.categories.length) return 'Alle Kategorien';
     return ids.map((id) => ctx.categoryInfo(id).name).join(', ');
   },
 
@@ -133,4 +141,10 @@ document.addEventListener('keydown', (e) => {
 renderSoundButton();
 document.body.append(soundButton);
 
-ctx.go('start');
+createLibrary(loadEmbeddedCatalogs())
+  .init()
+  .then((library) => {
+    ctx.library = library;
+    ctx.refreshCatalog();
+    ctx.go('start');
+  });

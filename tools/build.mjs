@@ -25,9 +25,13 @@ if (errors.length) {
   console.error(`✗ Build abgebrochen, ${errors.length} Fehler in den Katalogen:\n${errors.map(formatIssue).join('\n')}`);
   process.exit(1);
 }
+// one entry per CSV file, so each file can be switched on/off in the game
 const embedded = {
   manifest,
-  questions: questions.map(({ source, ...q }) => q),
+  files: manifest.files.map((file) => ({
+    file,
+    questions: questions.filter((q) => q.source === file).map(({ source, ...q }) => q),
+  })),
 };
 
 // 2. JS + CSS

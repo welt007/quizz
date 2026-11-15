@@ -133,5 +133,6 @@ export function validateManifest(manifest) {
     errs.push('"files" darf nur relative .csv-Dateinamen enthalten');
   }
   if (manifest.categories && typeof manifest.categories !== 'object') errs.push('"categories" muss ein Objekt sein');
+  if (manifest.updateUrl != null && typeof manifest.updateUrl !== 'string') errs.push('"updateUrl" muss eine Zeichenkette sein');
   return errs;
 }

@@ -55,8 +55,10 @@ src/js/
     jokers.js        50:50, Publikumsabstimmung (Treffsicherheit je Schwierigkeit) ✅
     host.js          Moderator-Sprüche je Situation, ohne direkte Wiederholung ✅
   data/
-    loader.js        Manifest + CSV + Bilder einer Quelle per fetch laden (M4)
-    storage.js       localStorage-Wrapper mit In-Memory-Fallback ✅ (IndexedDB folgt in M4)
+    loader.js        Manifest + CSVs + Bilder einer Quelle per fetch laden, lokale CSVs importieren ✅
+    library.js       Quellen/Kataloge verwalten: an/aus, hinzufügen, aktualisieren, entfernen ✅
+    db.js            IndexedDB-Speicher für Katalogdaten (mit In-Memory-Fallback) ✅
+    storage.js       localStorage-Wrapper mit In-Memory-Fallback ✅
   ui/
     screens/         start, setup, ladder, training, blitz, sudden, duel (je Spiel + Ergebnis), highscores ✅; Optionen (M4)
     components/      questionView, chips, dialog, timer, highscoreEntry ✅
@@ -114,17 +116,31 @@ Ablauf beim Hinzufügen/Aktualisieren:
    Inhalts) → nur bei Änderung weiter.
 3. Alle CSVs laden, parsen, **validieren**. Fehlerhafte Zeilen werden übersprungen und angezeigt;
    ist eine Quelle komplett unbrauchbar, bleibt die alte Version aktiv.
-4. Bilder (relativ zur Quelle aufgelöst) laden und als Blob in IndexedDB speichern
-   → danach auch offline mit Bildern spielbar.
-5. Vorschau vor dem Übernehmen: „48 Fragen in 4 Kategorien, 2 Zeilen fehlerhaft – hinzufügen?“
+4. Bilder (relativ zur Quelle aufgelöst) laden und als `data:`-URI mit den Fragen in IndexedDB
+   speichern → danach auch offline mit Bildern spielbar. Fragen, deren Bild nicht ladbar ist,
+   werden übersprungen und gemeldet.
+5. Vorschau vor dem Übernehmen: Fragen/Dateien/Kategorien, je Datei die Anzahl, aufklappbare
+   Liste übersprungener Zeilen und Hinweise; „Hinzufügen“ bzw. „Update übernehmen“ oder „Verwerfen“.
+6. Beim Aktualisieren bleibt das An/Aus je Datei erhalten; neue Dateien sind eingeschaltet,
+   entfallene Dateien verschwinden. Eine bereits vorhandene URL wird erkannt und aktualisiert.
 
-**Zusammenführen mehrerer Quellen:**
+**Kataloge, Quellen und Zusammenführen (umgesetzt in `core/library.js`):**
 
-- Fragen werden intern als `<quelle>:<id>` geführt → gleiche IDs in verschiedenen Quellen kollidieren nicht.
+- **Ein Katalog = eine CSV-Datei.** Eine Quelle (Standardkatalog, URL, Datei-Import) kann mehrere
+  Kataloge enthalten (über `index.json` bzw. Mehrfachauswahl beim Import).
+- **Jeder Katalog lässt sich einzeln ein- und ausschalten** (Schalter), je Quelle zusätzlich „Alle an/aus“.
+  Ausgeschaltete Kataloge bleiben gespeichert und können jederzeit wieder eingeschaltet werden;
+  „Entfernen“ löscht eine Quelle endgültig (Standardkatalog: nur ausschalten oder zurücksetzen).
+- Alle eingeschalteten Kataloge werden zu **einem gemeinsamen Fragepool** vereint, mit dem alle
+  Spielmodi arbeiten. Sind alle aus, sind die Modi gesperrt und das Startmenü weist darauf hin.
+- Fragen werden intern als `<quelle>:<id>` geführt → gleiche IDs in verschiedenen Quellen kollidieren
+  nicht (Standardkatalog behält die reine ID, damit die Spielstatistik gültig bleibt).
 - Gleiche Kategorie-ID in mehreren Quellen = **eine** Kategorie (z. B. „geographie“ aus zwei
   Katalogen wird zusammen gespielt). Anzeigename/Icon/Farbe aus der zuerst geladenen Quelle;
-  Kategorien ohne Metadaten bekommen eine automatisch gewählte Farbe und ❓.
-- Beim Spielstart lässt sich zusätzlich nach Quelle filtern.
+  Kategorien ohne Metadaten bekommen eine automatisch gewählte Farbe, ❓ und den Namen aus der ID.
+- **Standardkatalog-Update:** `updateUrl` aus der eingebetteten `index.json` (hier das GitHub-Repo);
+  übernommen wird nur eine neuere `version`. Wird später eine HTML-Datei mit noch neuerem
+  eingebautem Katalog geöffnet, gewinnt dieser. „Zurücksetzen“ verwirft das Update.
 
 Außerdem: **CSV-Import** aus einer lokalen Datei (ganz ohne Netz; Bilder dann nur als
 `https`-URL oder `data:`-URI) und **„Standardkatalog zurücksetzen“** auf die eingebettete Version.
@@ -195,11 +211,10 @@ wählbar), Timer an/aus/Dauer, Sound an/aus.
 | Schlüssel | Speicher | Inhalt |
 |---|---|---|
 | `quizshow.settings` | localStorage | Sound, Timer, Moderation, „beim Start auf Updates prüfen“ |
-| `quizshow.sources` | localStorage | Liste der Quellen: id, URL, Name, aktiv, Version/Hash, Stand, Fragenanzahl |
+| `quizshow.library` | localStorage | Quellen mit Katalogen: id, Art, Name, URL, Version/Hash, Stand, Kategorie-Infos, je Katalog an/aus, Anzahl, übersprungene Zeilen |
 | `quizshow.highscores` | localStorage | je Modus (Punkteleiter, Blitzrunde, Sudden Death) Top 10: Name, Wertung, Details (Kategorien, Timer, Joker …), Datum |
 | `quizshow.stats` | localStorage | je Frage-`<quelle>:<id>`: gestellt/richtig (für Wiederholungsvermeidung) |
-| `catalogs` | IndexedDB | Fragen je Quelle inkl. Manifest |
-| `images` | IndexedDB | Bilder je Quelle als Blob |
+| `quizshow` → `catalogs` | IndexedDB | Fragen je Katalog (Schlüssel `<quelle>/<datei>`), Bilder als `data:`-URI |
 
 Alle Zugriffe in `try/catch`; im privaten Modus oder bei `file://`-Einschränkungen läuft das
 Spiel ohne Speicherung weiter (In-Memory-Fallback; hinzugefügte Kataloge gelten dann nur bis
@@ -213,7 +228,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | **M1** ✅ | Spielkern: Fragepool, Wiederholungsvermeidung, **Training** und **Punkteleiter (15 Stufen)** ohne Joker/Timer; Basis-UI (Start → Einrichtung → Spiel → Ergebnis), Tastatursteuerung | Erstes spielbares Quiz |
 | **M2** ✅ | Gameshow-Optik & Sound: Animationen, Countdown-Ring, WebAudio-Sounds mit Ton-Schalter, Moderator-Texte, Joker (50:50, Publikum, +30 s), Konfetti | Show-Feeling |
 | **M3** ✅ | Weitere Modi: Blitzrunde, Sudden Death, Duell/Party (Buzzer/Reihum); Bestenlisten mit Namenseintrag | Alle Modi |
-| **M4** | **Optionsmenü**: Kataloge per URL hinzufügen/aktualisieren/entfernen, Standardkatalog-Update, IndexedDB, CSV-Import, Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
+| **M4** ✅ | **Optionen & Kataloge**: mehrere CSVs je Quelle, zu einem Pool vereint; Kataloge einzeln an/aus; per URL hinzufügen/aktualisieren/entfernen; Standardkatalog-Update; CSV-Import; IndexedDB; Vorschau mit Fehleranzeige | Kataloge ohne neuen Build erweiterbar |
 | **M5** | Präsentationsmodus, Responsiv-/A11y-Feinschliff, Statistik, Playwright-E2E-Tests (`file://`) | Release 1.0 |
 | **M6** | Inhalte: Kataloge auf ≥ 50 Fragen je Kategorie und Stufe ausbauen | Spielspaß |
 

@@ -4,14 +4,15 @@ import { countByDifficulty } from '../../core/questionPool.js';
 import { MODES } from '../modes.js';
 
 export function renderStart(ctx) {
-  const { manifest, questions } = ctx.catalog;
+  const { questions, activeCatalogs, totalCatalogs } = ctx.catalog;
+  const empty = questions.length === 0;
 
   const modeButtons = MODES.map((m) =>
     h(
       'button',
       {
         class: 'mode',
-        disabled: !m.ready,
+        disabled: !m.ready || empty,
         title: m.ready ? null : 'Folgt in einem der nächsten Meilensteine',
         onclick: () => ctx.go('setup', { mode: m.id }),
       },
@@ -32,8 +33,14 @@ export function renderStart(ctx) {
         'div',
         { class: 'panel__head' },
         h('h2', {}, 'Spielmodus'),
-        h('button', { class: 'link', onclick: () => ctx.go('highscores') }, '🏅 Bestenliste'),
+        h(
+          'div',
+          { class: 'panel__tools' },
+          h('button', { class: 'link', onclick: () => ctx.go('highscores') }, '🏅 Bestenliste'),
+          h('button', { class: 'link', onclick: () => ctx.go('options') }, '⚙️ Optionen & Kataloge'),
+        ),
       ),
+      empty ? h('p', { class: 'setup__info is-warning' }, 'Keine aktiven Fragen – bitte in den Optionen mindestens einen Katalog aktivieren.') : null,
       h('div', { class: 'modes' }, modeButtons),
     ),
     h(
@@ -60,8 +67,13 @@ export function renderStart(ctx) {
         }),
       ),
     ),
-    h('footer', { class: 'footer' }, `Version ${ctx.version} · Katalog „${manifest.title}“ ${manifest.version}`),
+    h(
+      'footer',
+      { class: 'footer' },
+      `Version ${ctx.version} · ${activeCatalogs} von ${totalCatalogs} Katalogen aktiv · `,
+      h('button', { class: 'link', onclick: () => ctx.go('options') }, 'Kataloge verwalten'),
+    ),
   );
 
-  modeButtons[0].focus();
+  (empty ? ctx.app.querySelector('.footer .link') : modeButtons[0]).focus();
 }

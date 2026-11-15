@@ -90,6 +90,7 @@ GitHub Pages tun das. Format und Regeln sind dieselben wie hier beschrieben.
   "format": 1,
   "version": "2026-11-14.1",
   "title": "Standardkatalog",
+  "updateUrl": "https://github.com/welt007/quizz",
   "files": ["allgemeinwissen.csv", "geographie.csv"],
   "categories": {
     "geographie": { "name": "Geographie", "icon": "🌍", "color": "#2e9e6b" }
@@ -99,3 +100,11 @@ GitHub Pages tun das. Format und Regeln sind dieselben wie hier beschrieben.
 
 - `version` bei **jeder** inhaltlichen Änderung erhöhen – daran erkennt das Spiel, dass es ein Update gibt.
 - `format` beschreibt die Version dieses Dateiformats und wird nur bei inkompatiblen Änderungen erhöht.
+- `files`: beliebig viele CSV-Dateien (auch in Unterordnern, z. B. `sport/fussball.csv`). **Jede Datei
+  ist im Spiel ein eigener Katalog**, der sich einzeln ein- und ausschalten lässt; alle eingeschalteten
+  Kataloge werden zu einem Fragenpool vereint. Fragen-IDs müssen über alle Dateien einer Quelle
+  eindeutig sein.
+- `categories`: Anzeigename, Icon und Farbe je Kategorie (optional; ohne Angabe wird der Name aus
+  der ID gebildet).
+- `updateUrl` (optional, nur für den eingebauten Standardkatalog): woher das Spiel Updates holt –
+  ein GitHub-Repo oder eine URL wie im Optionsmenü.

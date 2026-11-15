@@ -2,6 +2,7 @@
   "format": 1,
   "version": "2026-11-14.2",
   "title": "Standardkatalog",
+  "updateUrl": "https://github.com/welt007/quizz",
   "files": ["allgemeinwissen.csv", "geographie.csv", "wissenschaft.csv", "geschichte.csv"],
   "categories": {
     "allgemeinwissen": { "name": "Allgemeinwissen", "icon": "💡", "color": "#f2a541" },
