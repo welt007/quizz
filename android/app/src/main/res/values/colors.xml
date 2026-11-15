@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- wie --bg / --bg-2 / --gold in src/styles/main.css -->
+    <!-- wie die CSS-Variablen bg, bg-2 und gold in src/styles/main.css -->
     <color name="stage">#0b0820</color>
     <color name="stage_light">#1a1145</color>
     <color name="gold">#ffc940</color>
