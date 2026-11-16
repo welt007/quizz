@@ -42,9 +42,9 @@ export function renderHighscores(ctx, params = {}) {
               'tr',
               {},
               h('td', {}, h('span', { class: `rank rank--${i + 1}` }, String(i + 1))),
-              h('td', { class: 'hs-name' }, e.name),
+              h('td', { class: 'hs-name' }, String(e.name ?? 'Anonym')),
               h('td', { class: 'num' }, formatPoints(e.score)),
-              h('td', { class: 'hs-detail' }, e.detail ?? ''),
+              h('td', { class: 'hs-detail' }, typeof e.detail === 'string' ? e.detail : ''),
               h('td', {}, formatDate(e.date)),
             ),
           ),
@@ -81,6 +81,7 @@ export function renderHighscores(ctx, params = {}) {
 }
 
 function formatDate(iso) {
+  if (typeof iso !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return '';
   const d = new Date(`${iso}T12:00:00`);
   return Number.isNaN(d.getTime()) ? '' : d.toLocaleDateString('de-DE');
 }

@@ -61,6 +61,41 @@ describe('Kataloge verwalten (Browser)', { skip }, () => {
     await g.context.close();
   });
 
+  test('Feindlicher Katalog: gefährliche Bilder, Farben und Icons kommen nicht in die Seite', async () => {
+    const g = await openGame(browser, { offline: false });
+    const { page, context } = g;
+    const o = helpers(g);
+    const dialogs = [];
+    page.on('dialog', (d) => (dialogs.push(d.message()), d.dismiss()));
+    await page.click('button:has-text("Optionen & Kataloge")');
+    await o.addUrl(`${server.url}/evil/index.json`);
+    // only the question without an image survives, the two with unsafe images are reported
+    assert.match(await g.text('.preview'), /1 Frage aus 1 Datei/);
+    assert.match(await g.text('.preview'), /2 (Zeile|Zeilen) übersprungen/);
+    await page.click('.preview >> text=Hinzufügen');
+    await page.waitForSelector('.source--url');
+    await page.click('text=Fertig');
+    await page.click('.mode >> text=Training');
+    await page.click('text=keine');
+    const chip = page.locator('.chip:has-text("Böse")');
+    await chip.click();
+    const chipStyle = await chip.getAttribute('style');
+    assert.ok(!chipStyle || !/url\(/.test(chipStyle), `keine CSS-Injektion über die Kategoriefarbe: ${chipStyle}`);
+    assert.ok((await chip.innerText()).length < 40, 'Icon ist gekürzt');
+    await page.click('text=Los geht’s!');
+    await page.waitForSelector('.answer:not(:disabled)');
+    assert.equal(await page.locator('.question__image').count(), 0, 'kein Bild mit javascript:/text-Daten');
+    await g.answer(true);
+    await page.waitForSelector('.btn--next');
+    assert.equal(await page.locator('.explanation img').count(), 0, 'Erklärung bleibt Text');
+    assert.match(await g.text('.explanation'), /<img src=x onerror=alert\(1\)>/);
+    const categoryStyle = await page.locator('.question__category').getAttribute('style');
+    assert.ok(!categoryStyle || !/url\(/.test(categoryStyle), 'keine CSS-Injektion im Spiel');
+    assert.deepEqual(dialogs, [], 'kein Script ausgeführt');
+    assert.deepEqual(g.errors, []);
+    await context.close();
+  });
+
   test('Paket mit mehreren CSVs per URL hinzufügen, zu einem Pool vereint, offline mit Bild spielbar', async () => {
     const g = await openGame(browser, { offline: false });
     const { page, context } = g;

@@ -1,0 +1,9 @@
+{
+  "format": 1,
+  "version": "1",
+  "title": "Böses Paket",
+  "files": ["boese.csv"],
+  "categories": {
+    "boese": { "name": "Böse", "icon": "😈😈😈😈😈😈😈😈😈😈😈😈", "color": "red; background: url(https://evil.example/x)" }
+  }
+}

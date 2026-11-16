@@ -4,6 +4,7 @@
 import { parseCatalog, validateManifest } from '../core/catalog.js';
 import { normalizeSourceUrl, resolveSourcePath } from '../core/sources.js';
 import { catalogDisplayName, hashString } from '../core/library.js';
+import { cleanCategories, cleanQuestion, cleanText } from '../core/sanitize.js';
 
 const IMAGE_MIME = { jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', webp: 'image/webp', gif: 'image/gif', svg: 'image/svg+xml' };
 export const MAX_IMAGE_BYTES = 3 * 1024 * 1024;
@@ -48,6 +49,7 @@ export async function loadFromUrl(input, { fetchImpl = globalThis.fetch, onProgr
       name: catalogDisplayName(file),
       version: hashString(text),
       categories: {},
+      attribution: undefined,
       url: String(input).trim(),
       resolvedUrl: target.url,
       catalogs: [parseFile(text, file, null)],
@@ -79,11 +81,11 @@ export async function loadFromUrl(input, { fetchImpl = globalThis.fetch, onProgr
     }
   }
   const result = {
-    name: manifest.title || catalogDisplayName(target.url.replace(/\/index\.json$/, '')),
+    name: cleanText(manifest.title, 80) || catalogDisplayName(target.url.replace(/\/index\.json$/, '')),
     version: manifest.version,
-    categories: manifest.categories ?? {},
-    updateUrl: manifest.updateUrl,
-    attribution: manifest.attribution,
+    categories: cleanCategories(manifest.categories),
+    updateUrl: typeof manifest.updateUrl === 'string' ? manifest.updateUrl : undefined,
+    attribution: cleanText(manifest.attribution, 600),
     url: String(input).trim(),
     resolvedUrl: target.url,
     catalogs,
@@ -114,7 +116,16 @@ export async function loadFromFiles(files, { fetchImpl = globalThis.fetch, onPro
 /** categories: from index.json (unknown categories → warning), or null without a manifest. */
 function parseFile(text, file, categories, title) {
   const res = parseCatalog(text, { source: file, categories: categories ?? undefined });
-  return { file, name: title || catalogDisplayName(file), questions: res.questions.map(({ source, ...q }) => q), errors: res.errors, warnings: res.warnings };
+  const questions = [];
+  for (const { source, ...q } of res.questions) {
+    // image addresses with other schemes (javascript:, file:, …) are not images
+    if (q.image && !cleanQuestion(q)?.image) {
+      res.errors.push({ source: file, line: 0, message: `${q.id}: Bildadresse "${String(q.image).slice(0, 40)}" ist nicht erlaubt – Frage übersprungen` });
+      continue;
+    }
+    questions.push(q);
+  }
+  return { file, name: cleanText(title, 80) || catalogDisplayName(file), questions, errors: res.errors, warnings: res.warnings };
 }
 
 /** Question ids must be unique within one source (across its files). */

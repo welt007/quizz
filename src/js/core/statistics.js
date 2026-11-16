@@ -10,7 +10,7 @@ function bucket() {
 
 function add(b, s) {
   b.total++;
-  if (!s?.a) return;
+  if (!s || typeof s !== 'object' || !(s.a > 0)) return;
   b.asked += s.a;
   b.correct += s.c;
   b.seen++;
@@ -26,6 +26,7 @@ const finish = (b) => ({ ...b, rate: rate(b.correct, b.asked), coverage: b.total
  *   troublemakers: questions answered wrong at least once, most wrong (then lowest rate) first
  */
 export function summarizeStats(questions, stats = {}, { limit = 10 } = {}) {
+  if (!stats || typeof stats !== 'object') stats = {};
   const overall = bucket();
   const byCategory = {};
   const byDifficulty = Object.fromEntries(ALL_DIFFICULTIES.map((d) => [d, bucket()]));

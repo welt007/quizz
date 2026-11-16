@@ -34,9 +34,10 @@ const TIMER_HINTS = {
 export function renderSetup(ctx, { mode }) {
   const def = modeById(mode);
   const opts = MODE_OPTIONS[mode] ?? {};
-  const saved = ctx.settings.setup?.[mode] ?? {};
+  const stored = ctx.settings.setup?.[mode];
+  const saved = stored && typeof stored === 'object' ? stored : {};
   const keep = (list, allowed) => {
-    const valid = (list ?? []).filter((v) => allowed.includes(v));
+    const valid = (Array.isArray(list) ? list : []).filter((v) => allowed.includes(v));
     return valid.length ? valid : allowed;
   };
   const savedNames = Array.isArray(saved.players) ? saved.players : [];
@@ -46,7 +47,7 @@ export function renderSetup(ctx, { mode }) {
     count: COUNT_OPTIONS.includes(saved.count) ? saved.count : 10,
     timer: saved.timer !== false,
     playerCount: Math.min(MAX_PLAYERS, Math.max(MIN_PLAYERS, savedNames.length || MIN_PLAYERS)),
-    names: Array.from({ length: MAX_PLAYERS }, (_, i) => savedNames[i] ?? ''),
+    names: Array.from({ length: MAX_PLAYERS }, (_, i) => (typeof savedNames[i] === 'string' ? savedNames[i].slice(0, MAX_NAME_LENGTH) : '')),
     variant: saved.variant === 'turns' ? 'turns' : 'buzzer',
     rounds: ROUND_OPTIONS.includes(saved.rounds) ? saved.rounds : 10,
   };

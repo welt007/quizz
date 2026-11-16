@@ -6,8 +6,25 @@ import {
 } from '../core/library.js';
 import { loadJson, saveJson } from './storage.js';
 import { dbGet, dbSet, dbDelete, isPersistent } from './db.js';
+import { cleanQuestions, cleanCategories, cleanText } from '../core/sanitize.js';
 
 const KEY = 'quizshow.library';
+
+/** A stored source with its fields checked – or null if it is not usable at all. */
+function cleanSource(s) {
+  if (!s || typeof s !== 'object' || typeof s.id !== 'string' || !Array.isArray(s.catalogs)) return null;
+  const catalogs = s.catalogs
+    .filter((c) => c && typeof c === 'object' && typeof c.id === 'string' && typeof c.file === 'string')
+    .map((c) => ({ ...c, name: cleanText(c.name, 80) || c.file, enabled: c.enabled !== false, count: Number(c.count) || 0, errors: Array.isArray(c.errors) ? c.errors : [] }));
+  return {
+    ...s,
+    name: cleanText(s.name, 80) || 'Katalog',
+    version: typeof s.version === 'string' ? s.version : '',
+    categories: cleanCategories(s.categories),
+    attribution: cleanText(s.attribution, 600),
+    catalogs,
+  };
+}
 
 export function createLibrary(embedded) {
   const embeddedBuiltin = builtinFromEmbedded(embedded);
@@ -52,7 +69,7 @@ export function createLibrary(embedded) {
     async init() {
       await dbGet('__probe__'); // detects whether IndexedDB works (see persistent)
       const stored = loadJson(KEY, null);
-      const storedSources = stored?.format === LIBRARY_FORMAT && Array.isArray(stored.sources) ? stored.sources : [];
+      const storedSources = stored?.format === LIBRARY_FORMAT && Array.isArray(stored.sources) ? stored.sources.map(cleanSource).filter(Boolean) : [];
       const storedBuiltin = storedSources.find((s) => s.id === BUILTIN_ID);
       let builtin;
       if (storedBuiltin?.override && compareVersions(storedBuiltin.version, embeddedBuiltin.source.version) > 0) {
@@ -66,8 +83,10 @@ export function createLibrary(embedded) {
         if (source.id === BUILTIN_ID && !source.override) continue;
         for (const cat of source.catalogs) {
           const entry = await dbGet(cat.id);
-          if (entry?.questions) {
-            data.set(cat.id, entry.questions);
+          const questions = cleanQuestions(entry?.questions);
+          if (questions.length) {
+            data.set(cat.id, questions);
+            cat.count = questions.length;
             delete cat.missing;
           } else cat.missing = true;
         }
@@ -106,7 +125,8 @@ export function createLibrary(embedded) {
       source.resolvedUrl = result.resolvedUrl;
       if (sourceId === BUILTIN_ID) {
         source.override = true;
-        source.updateUrl = previous?.updateUrl ?? source.updateUrl;
+        // a downloaded update must never redirect where later updates come from
+        source.updateUrl = embeddedBuiltin.source.updateUrl;
       }
       if (previous) {
         const keep = new Set(source.catalogs.map((c) => c.id));

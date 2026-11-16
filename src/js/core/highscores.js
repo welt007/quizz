@@ -4,8 +4,9 @@ export const HIGHSCORE_MODES = ['ladder', 'journey', 'blitz', 'sudden'];
 export const MAX_NAME_LENGTH = 20;
 
 /** Would `score` make it into the list? */
-export function qualifies(list = [], score, limit = HIGHSCORE_LIMIT) {
-  return score > 0 && (list.length < limit || score > list[list.length - 1].score);
+export function qualifies(list, score, limit = HIGHSCORE_LIMIT) {
+  const l = Array.isArray(list) ? list : [];
+  return Number.isFinite(score) && score > 0 && (l.length < limit || score > l[l.length - 1].score);
 }
 
 export function cleanName(name) {
@@ -18,8 +19,9 @@ export function cleanName(name) {
  * @param {{name: string, score: number, date: string, detail?: string}} entry
  * @returns {{list: object[], rank: number}} rank is 1-based, 0 if not in the list
  */
-export function insertHighscore(list = [], entry, limit = HIGHSCORE_LIMIT) {
-  const item = { ...entry, name: cleanName(entry.name) };
+export function insertHighscore(list, entry, limit = HIGHSCORE_LIMIT) {
+  if (!Array.isArray(list)) list = [];
+  const item = { ...entry, name: cleanName(entry.name), score: Number(entry.score) || 0 };
   let pos = list.findIndex((e) => item.score > e.score);
   if (pos === -1) pos = list.length;
   const next = [...list.slice(0, pos), item, ...list.slice(pos)].slice(0, limit);

@@ -1,0 +1,4 @@
+id,category,difficulty,question,correct,wrong1,wrong2,wrong3,image,explanation,tags
+ev-1,boese,1,Böse Frage 1?,Richtig 1,Nein,Vielleicht,Nie,javascript:alert(1),,
+ev-2,boese,1,Böse Frage 2?,Richtig 2,Nein,Vielleicht,Nie,,<img src=x onerror=alert(1)>,
+ev-3,boese,1,Böse Frage 3?,Richtig 3,Nein,Vielleicht,Nie,data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==,,

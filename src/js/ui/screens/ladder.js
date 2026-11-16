@@ -82,7 +82,11 @@ export function renderLadder(ctx, params) {
   let view;
   let timer = null;
   let busy = false;
-  ctx.onLeave(() => timer?.pause());
+  let alive = true;
+  ctx.onLeave(() => {
+    alive = false;
+    timer?.pause();
+  });
 
   function say(situation, vars = {}) {
     hostText.textContent = host.say(situation, { total: LADDER.length, ...vars });
@@ -165,6 +169,7 @@ export function renderLadder(ctx, params) {
     audio.play('lock');
     say('lock');
     setTimeout(() => {
+      if (!alive) return; // the screen was left during the pause
       game.answer(index);
       ctx.record(s.current.question.id, s.correct);
       view.reveal(index);

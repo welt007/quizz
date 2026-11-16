@@ -21,7 +21,9 @@ const JOKER_KEYS = { k: 'switch', f: 'shield', h: 'fifty' };
 /** Saved journey (settings.journey): resume at the start of a stage. */
 export const savedJourney = (ctx) => {
   const j = ctx.settings.journey;
-  return j && Number.isInteger(j.step) && Array.isArray(j.categories) ? j : null;
+  if (!j || typeof j !== 'object' || !Number.isInteger(j.step) || !Array.isArray(j.categories)) return null;
+  const categories = j.categories.filter((c) => typeof c === 'string');
+  return categories.length ? { ...j, categories } : null;
 };
 
 /** params: { questions, categories, resume? } */

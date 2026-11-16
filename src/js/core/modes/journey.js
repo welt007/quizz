@@ -47,6 +47,13 @@ export const JOURNEY_QUESTIONS = Array.from({ length: JOURNEY_STEPS }, (_, i) =>
  */
 export function createJourneyGame(questions, { stats, rng = Math.random, resume } = {}) {
   if (questions.length === 0) throw new Error('Die Reise braucht mindestens eine Frage');
+  // a saved journey comes from storage: every number is checked
+  const resumeStep = Number.isInteger(resume?.step) ? Math.max(0, Math.min(JOURNEY_STEPS - 1, resume.step)) : 0;
+  const resumeJoker = (t) => {
+    const n = Number(resume?.jokers?.[t]);
+    return Number.isInteger(n) && n > 0 ? Math.min(n, 9) : 0;
+  };
+  const resumeCorrect = Number.isInteger(resume?.totalCorrect) && resume.totalCorrect >= 0 ? resume.totalCorrect : 0;
   // category → difficulty → questions (freshest first)
   const pool = new Map();
   for (const q of orderByFreshness(questions, stats, rng)) {
@@ -57,7 +64,7 @@ export function createJourneyGame(questions, { stats, rng = Math.random, resume 
 
   const state = {
     phase: 'question',
-    step: Math.max(0, Math.min(JOURNEY_STEPS - 1, resume?.step ?? 0)),
+    step: resumeStep,
     category: null,
     difficulty: 1,
     length: STEP_QUESTIONS,
@@ -70,9 +77,9 @@ export function createJourneyGame(questions, { stats, rng = Math.random, resume 
     current: null,
     chosen: null,
     correct: null,
-    jokers: Object.fromEntries(JOKER_TYPES.map((t) => [t, Math.max(0, resume?.jokers?.[t] ?? 0)])),
-    stepsDone: Math.max(0, Math.min(JOURNEY_STEPS - 1, resume?.step ?? 0)),
-    totalCorrect: resume?.totalCorrect ?? 0,
+    jokers: Object.fromEntries(JOKER_TYPES.map((t) => [t, resumeJoker(t)])),
+    stepsDone: resumeStep,
+    totalCorrect: resumeCorrect,
     outcome: null,
     lastCategory: null,
   };

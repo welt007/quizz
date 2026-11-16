@@ -45,6 +45,7 @@ export function normalizeSourceUrl(input) {
     throw new SourceUrlError('Nur https-Adressen werden unterstützt.');
   }
   url.hash = '';
+  if (url.username || url.password) throw new SourceUrlError('Adressen mit Benutzername/Passwort werden nicht unterstützt.');
 
   if (url.hostname === 'github.com' || url.hostname === 'www.github.com') {
     return fromParts(githubToRaw(url));

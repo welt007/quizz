@@ -17,7 +17,9 @@ export function filterQuestions(questions, { categories, difficulties } = {}) {
  * @param {Object<string, {t?: number}>} stats  see stats.js
  */
 export function orderByFreshness(questions, stats = {}, rng = Math.random) {
-  return shuffle(questions, rng).sort((a, b) => (stats[a.id]?.t ?? 0) - (stats[b.id]?.t ?? 0));
+  if (!stats || typeof stats !== 'object') stats = {};
+  const t = (q) => Number(stats[q.id]?.t) || 0;
+  return shuffle(questions, rng).sort((a, b) => t(a) - t(b));
 }
 
 /** Difficulties to try if `d` has run out: nearest first, easier before harder. */

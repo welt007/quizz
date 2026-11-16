@@ -257,14 +257,16 @@ zum Schließen, worauf das Optionsmenü hinweist).
 
 ## 9. Tests
 
-- **Unit** (`node --test`): CSV-Parser, Validierung, URL-Normalisierung, Fragepool, Scoring, Modus-Zustandsmaschinen.
+- **Unit** (`node --test`): CSV-Parser, Validierung, URL-Normalisierung, Fragepool, Scoring, Modus-Zustandsmaschinen, Bereinigung fremder Daten (`test/sanitize.test.mjs`: Farben, Bildadressen, Kategorie-Metadaten, kaputter Speicher, Journey-Stand, feindliches Manifest durch den Loader).
 - **Katalog-Validierung** (`npm run validate`): in CI bei jeder Änderung an `catalogs/`.
 - **Build-Aktualität**: CI baut neu und bricht ab, wenn `dist/quizshow.html` vom Commit abweicht.
 - **E2E** (`npm run e2e`, `test/e2e/*.e2e.mjs`, Playwright + Chromium): `dist/quizshow.html` über
   `file://` und offline – jeder Modus (inkl. Joker, Zeitablauf, Timer-Pause, Buzzer-Sperre),
   Präsentationsmodus, Bild-Zoom, Hilfe, Statistik, Screenreader-Texte, Handy hoch/quer;
   Katalogverwaltung gegen einen lokalen CORS-Testserver (Fixtures in `test/e2e/fixtures/`),
-  Standardkatalog-Update gegen ein simuliertes GitHub. Zeitabhängiges mit Playwrights Uhr.
+  Standardkatalog-Update gegen ein simuliertes GitHub; ein feindliches Katalogpaket
+  (`fixtures/server/evil/`: `javascript:`-Bild, CSS-Injektion über die Kategoriefarbe, HTML in der
+  Erklärung) darf weder Script ausführen noch Attribute verändern. Zeitabhängiges mit Playwrights Uhr.
   Playwright ist **keine** Projektabhängigkeit: lokal `npm i --no-save playwright && npx playwright
   install chromium`, in CI ein eigener Job `e2e`. Ohne Playwright werden die Tests übersprungen.
 - **Android** (`test/e2e/android.e2e.mjs`): baut den Web-Teil der App und prüft ihn unter der
@@ -279,7 +281,7 @@ zum Schließen, worauf das Optionsmenü hinweist).
 | Repo wächst durch committete HTML-Datei | Build ist reproduzierbar, Änderungen nur bei echten Inhaltsänderungen; Bildgrößen-Richtwert |
 | `file://`-Einschränkungen (einige Browser sperren Storage/fetch) | Alles mit Fallback; Optionsmenü zeigt klare Fehlermeldung, Spielen geht immer |
 | Fremde Kataloge ohne CORS oder hinter Login | Verständliche Fehlermeldung + Weg über Download und CSV-Import |
-| Schadhafte Inhalte aus fremden Quellen | Texte nur per `textContent`; Bilder nur als `<img>` (SVG in `<img>` führt kein Script aus); Validierung vor Übernahme |
+| Schadhafte Inhalte aus fremden Quellen | Texte nur per `textContent`; Bilder nur als `<img>` (SVG in `<img>` führt kein Script aus); Validierung vor Übernahme. Zusätzlich `core/sanitize.js`: Bildadressen nur `https:`, `data:image/…` oder relativ (kein `javascript:`/`file:`/protokollrelativ), Kategoriefarben nur echte CSS-Farben (sonst Fallback), Icons/Namen längenbegrenzt und typgeprüft – beim Laden, beim Lesen aus dem Speicher und nochmals in `categoryInfo`. Quellen-URLs mit Zugangsdaten werden abgelehnt; ein heruntergeladenes Standardkatalog-Update kann die `updateUrl` nicht umlenken. Einstellungen, Statistik und Bestenlisten aus dem Speicher werden typgeprüft (`cleanSettings`/`cleanStats`/`cleanHighscores`), ein gespeicherter Journey-Stand ebenso; ein beschädigter eingebetteter Katalog zeigt noch den Startbildschirm |
 | GitHub-Rate-Limit / Repo privat | `raw.githubusercontent.com` statt API; bei privatem Repo: Hinweis, CSV-Import als Alternative |
 | Excel speichert CSV mit `;` und Windows-1252 | Trennzeichen-Erkennung; Doku empfiehlt „CSV UTF-8“; Validator meldet kaputte Umlaute |
 | Fehlerhafte Fragen in Katalogen | Validator in CI, zeilengenaue Fehlermeldungen, defekte Zeilen werden übersprungen |

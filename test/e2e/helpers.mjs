@@ -27,7 +27,7 @@ export const launch = () => pw.chromium.launch();
 
 /** Answer pairs [question, correct] known to the tests: embedded catalog + fixtures. */
 function KNOWN_FIXTURE_ANSWERS(q) {
-  const m = /^(?:Sport|Film|Musik|Kunst)frage (\d)\?$/.exec(q);
+  const m = /^(?:Sport|Film|Musik|Kunst|Böse )frage (\d)\?$/i.exec(q);
   if (m) return `Richtig ${m[1]}`;
   return { 'Welche Form hat dieser Ball?': 'Richtig rund', 'Noch eine Kunstfrage?': 'Richtig 2' }[q] ?? null;
 }

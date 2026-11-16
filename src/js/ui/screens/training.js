@@ -49,6 +49,8 @@ export function renderTraining(ctx, params) {
 
   let view;
   let busy = false;
+  let alive = true;
+  ctx.onLeave(() => (alive = false));
 
   function renderQuestion() {
     view = questionView(s.current, { categoryInfo: ctx.categoryInfo, onAnswer: choose, confirm: ctx.settings.confirmAnswer === true, confirmSlot: actions });
@@ -72,6 +74,7 @@ export function renderTraining(ctx, params) {
     view.lock(index);
     audio.play('click');
     setTimeout(() => {
+      if (!alive) return; // the screen was left during the pause
       game.answer(index);
       ctx.record(s.current.question.id, s.correct);
       view.reveal(index);

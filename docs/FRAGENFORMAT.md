@@ -62,6 +62,10 @@ damit sich Fragen nicht ständig wiederholen, sollte jede Stufe gut gefüllt sei
 
 ## Bilder
 
+Erlaubte Bildadressen: relative Pfade (werden gegen den Ort der CSV bzw. `index.json`
+aufgelöst), `https://…` und `data:image/…;base64,…`. Andere Schemata (`javascript:`, `file:`,
+protokollrelative `//…`) werden beim Laden verworfen, die Frage wird dann übersprungen.
+
 - Bilder gibt es **nur in der Frage** (Spalte `image`), nicht in den Antworten.
 - Formate: `.jpg`, `.png`, `.webp`, `.gif`, `.svg`
 - Empfehlung: max. 1280 px Kantenlänge, ≤ 200 KB je Bild (alle Bilder landen in der HTML-Datei).

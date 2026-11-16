@@ -26,6 +26,11 @@ import java.nio.charset.StandardCharsets;
  * reset of the WebView data. Methods are called on a WebView background thread.
  */
 final class NativeStore {
+    /** Upper bounds for what the web part may hand over – it never needs more. */
+    private static final int MAX_KEY_LENGTH = 512;
+    private static final int MAX_ITEM_LENGTH = 1 << 20; // 1 MB per preference value
+    private static final int MAX_DATA_LENGTH = 64 << 20; // 64 MB per catalog file
+
     private final SharedPreferences prefs;
     private final File dataDir;
 
@@ -34,23 +39,30 @@ final class NativeStore {
         dataDir = new File(context.getFilesDir(), "catalogs");
     }
 
+    private static boolean validKey(String key) {
+        return key != null && !key.isEmpty() && key.length() <= MAX_KEY_LENGTH;
+    }
+
     @JavascriptInterface
     public String getItem(String key) {
+        if (!validKey(key)) return null;
         return prefs.getString(key, null);
     }
 
     @JavascriptInterface
     public boolean setItem(String key, String value) {
+        if (!validKey(key) || value == null || value.length() > MAX_ITEM_LENGTH) return false;
         return prefs.edit().putString(key, value).commit();
     }
 
     @JavascriptInterface
     public void removeItem(String key) {
-        prefs.edit().remove(key).commit();
+        if (validKey(key)) prefs.edit().remove(key).commit();
     }
 
     @JavascriptInterface
     public synchronized String readData(String key) {
+        if (!validKey(key)) return null;
         File file = fileFor(key);
         if (!file.isFile()) return null;
         try (InputStream in = new FileInputStream(file)) {
@@ -67,6 +79,7 @@ final class NativeStore {
     /** Writes to a temporary file first, so a crash never leaves a half-written catalog. */
     @JavascriptInterface
     public synchronized boolean writeData(String key, String value) {
+        if (!validKey(key) || value == null || value.length() > MAX_DATA_LENGTH) return false;
         if (!dataDir.isDirectory() && !dataDir.mkdirs()) return false;
         File file = fileFor(key);
         File tmp = new File(dataDir, file.getName() + ".tmp");
@@ -82,7 +95,7 @@ final class NativeStore {
 
     @JavascriptInterface
     public synchronized void deleteData(String key) {
-        fileFor(key).delete();
+        if (validKey(key)) fileFor(key).delete();
     }
 
     /** Keys are arbitrary strings (catalog ids) → hex-encoded file names. */

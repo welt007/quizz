@@ -5,6 +5,7 @@ import { recordAnswer } from './core/stats.js';
 import { insertHighscore } from './core/highscores.js';
 import { createLibrary } from './data/library.js';
 import { loadJson, saveJson, KEYS } from './data/storage.js';
+import { cleanSettings, cleanStats, cleanHighscores, cleanCategoryMeta } from './core/sanitize.js';
 import { setKeyHandler, hasKeyHandler } from './ui/input.js';
 import { audio } from './ui/audio.js';
 import { togglePresentation, isPresentation, onPresentationChange } from './ui/presentation.js';
@@ -31,9 +32,15 @@ document.documentElement.classList.add(`platform-${PLATFORM}`);
 const FALLBACK_COLORS = ['#8e6cff', '#e05c9b', '#25a5b8', '#c9a227', '#6aa84f', '#e07b39'];
 
 function loadEmbeddedCatalogs() {
+  const empty = { manifest: { title: 'Kein Katalog', version: '-', files: [], categories: {} }, files: [] };
   const el = document.getElementById('embedded-catalogs');
-  if (!el) return { manifest: { title: 'Kein Katalog', version: '-', files: [], categories: {} }, files: [] };
-  return JSON.parse(el.textContent);
+  if (!el) return empty;
+  try {
+    const parsed = JSON.parse(el.textContent);
+    return parsed && typeof parsed === 'object' && Array.isArray(parsed.files) && parsed.manifest ? parsed : empty;
+  } catch {
+    return empty; // a damaged file still shows the start screen (with a hint in the options)
+  }
 }
 
 const screens = {
@@ -60,9 +67,10 @@ const ctx = {
   catalog: { questions: [], categories: {}, activeCatalogs: 0, totalCatalogs: 0 },
   /** Category ids present in the pool, sorted by display name. */
   categories: [],
-  settings: loadJson(KEYS.settings, {}),
-  stats: loadJson(KEYS.stats, {}),
-  highscores: loadJson(KEYS.highscores, {}),
+  // anything from storage may be stale, hand-edited or corrupt → checked before use
+  settings: cleanSettings(loadJson(KEYS.settings, {})),
+  stats: cleanStats(loadJson(KEYS.stats, {})),
+  highscores: cleanHighscores(loadJson(KEYS.highscores, {})),
   leaveHandlers: [],
   /** Name of the current screen. */
   screen: null,
@@ -70,12 +78,13 @@ const ctx = {
   /** Recomputes the pool after catalogs were added, removed, enabled or disabled. */
   refreshCatalog() {
     ctx.catalog = ctx.library.pool();
-    const name = (id) => ctx.catalog.categories[id]?.name ?? id;
+    const name = (id) => String(ctx.catalog.categories[id]?.name ?? id);
     ctx.categories = [...new Set(ctx.catalog.questions.map((q) => q.category))].sort((a, b) => name(a).localeCompare(name(b), 'de'));
   },
 
   categoryInfo(id) {
-    const meta = ctx.catalog.categories?.[id] ?? {};
+    // metadata can come from a catalog someone else published → checked again here
+    const meta = cleanCategoryMeta(ctx.catalog.categories?.[id]) ?? {};
     const idx = Math.max(0, ctx.categories.indexOf(id));
     return {
       name: meta.name ?? id.charAt(0).toUpperCase() + id.slice(1),
