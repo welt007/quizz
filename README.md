@@ -52,7 +52,7 @@ Beenden eines Spiels nach und verlässt die App auf dem Startbildschirm.
 
 ## Entwickeln
 
-Voraussetzung: Node.js ≥ 20.
+Voraussetzung: Node.js 26 (empfohlen, wie in CI; Datei `.nvmrc`), mindestens Node.js 22.
 
 ```bash
 npm install

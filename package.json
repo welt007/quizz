@@ -14,7 +14,7 @@
     "check": "npm run validate && npm test && npm run build"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "devDependencies": {
     "esbuild": "0.28.2"
