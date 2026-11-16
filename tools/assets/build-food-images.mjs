@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// Hinweis: Für die meisten Motive verwendet das Spiel inzwischen Fotos (catalogs/images/FOTOS.json);
+// nur Honigmelone, Kartoffel, Mandarine, Radieschen und Lauch nutzen noch die hier erzeugten SVGs.
 // Generates the fruit and vegetable pictures for the image questions (catalogs/obst-gemuese.csv).
 //
 // Most motifs come from Microsoft "Fluent Emoji Flat" (MIT licence, via the Iconify JSON package);

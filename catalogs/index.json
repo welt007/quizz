@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "version": "2026-11-15.4",
+  "version": "2026-11-16.1",
   "title": "Standardkatalog",
   "updateUrl": "https://github.com/welt007/quizz",
-  "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Obst und Gemüse: Microsoft Fluent Emoji (MIT) und eigene Zeichnungen; Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
+  "attribution": "Enthält übersetzte und bearbeitete Fragen aus OpenTriviaQA (github.com/uberspot/OpenTriviaQA), CC BY-SA 4.0. Flaggen: flag-icons (MIT); Fotos von Obst, Gemüse und Blättern: iNaturalist (CC0, CC BY, CC BY-SA – Urheber in catalogs/LIZENZ.md); einige Zeichnungen: Microsoft Fluent Emoji (MIT) und eigene; Umrisse: Natural Earth (gemeinfrei). Die Kataloge stehen unter CC BY-SA 4.0 – siehe catalogs/LIZENZ.md.",
   "files": [
     "allgemeinwissen.csv",
     "geographie.csv",

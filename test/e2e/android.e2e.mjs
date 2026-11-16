@@ -68,7 +68,7 @@ describe('Android-Version (WebView-Inhalt)', { skip }, () => {
       JSON.parse(document.getElementById('embedded-catalogs').textContent).files.flatMap((f) => f.questions.map((q) => q.image).filter(Boolean)),
     );
     assert.ok(images.length > 100);
-    assert.ok(images.every((src) => /^images\/.+\.svg$/.test(src)), 'Bilder als relative Pfade statt data:-URIs');
+    assert.ok(images.every((src) => /^images\/.+\.(svg|jpg)$/.test(src)), 'Bilder als relative Pfade statt data:-URIs');
     const statuses = await page.evaluate(async (list) => Promise.all(list.map(async (src) => (await fetch(src)).status)), [images[0], images.at(-1)]);
     assert.deepEqual(statuses, [200, 200]);
 

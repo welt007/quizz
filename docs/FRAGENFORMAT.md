@@ -72,8 +72,10 @@ protokollrelative `//…`) werden beim Laden verworfen, die Frage wird dann übe
 - Nur Bilder verwenden, die frei nutzbar sind; Quelle/Lizenz bei Bedarf in `explanation` angeben.
 - Fragen mit gleichem Text sind erlaubt, wenn das Bild den Unterschied macht (z. B. „Zu welchem Land
   gehört diese Flagge?“ in `flaggen.csv`, „Welches Land hat diesen Umriss?“ in `umrisse.csv`).
-  Die Umrisse erzeugt `tools/assets/build-outlines.mjs` aus Natural-Earth-Daten, die Obst-/Gemüsebilder
-  `tools/assets/build-food-images.mjs` und die Baumblätter `tools/assets/build-leaves.mjs`.
+  Die Umrisse erzeugt `tools/assets/build-outlines.mjs` aus Natural-Earth-Daten. Obst, Gemüse und
+  Baumblätter sind Fotos von iNaturalist (freie Lizenzen, Urheber in `catalogs/images/FOTOS.json` und
+  `catalogs/LIZENZ.md`); die wenigen verbliebenen Zeichnungen erzeugt `tools/assets/build-food-images.mjs`.
+  Fotos: JPEG, 600×450 Pixel (4:3), damit die HTML-Datei klein bleibt.
 
 ## Beispiel
 

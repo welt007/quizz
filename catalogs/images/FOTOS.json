@@ -1,0 +1,366 @@
+{
+ "images/blaetter/ahorn.jpg": {
+  "author": "Stephen James McWilliam",
+  "login": "steve_mcwilliam",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/164885133",
+  "observation": "https://www.inaturalist.org/observations/719e5059-0be1-41ec-9632-0d86333b5896"
+ },
+ "images/blaetter/birke.jpg": {
+  "author": "Daniel Cahen",
+  "login": "danielcahen",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/98750137",
+  "observation": "https://www.inaturalist.org/observations/71ffa439-887b-4675-a5ff-926f7275028b"
+ },
+ "images/blaetter/buche.jpg": {
+  "author": "Alexis",
+  "login": "alexis_orion",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/74072127",
+  "observation": "https://www.inaturalist.org/observations/86d20606-7193-4686-97b3-b5bc247848ba"
+ },
+ "images/blaetter/eberesche.jpg": {
+  "author": "Alexis",
+  "login": "alexis_orion",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/212229960",
+  "observation": "https://www.inaturalist.org/observations/036a0c4a-643a-43da-a18f-1c8878bd8728"
+ },
+ "images/blaetter/eiche.jpg": {
+  "author": "Alexis",
+  "login": "alexis_orion",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/82206518",
+  "observation": "https://www.inaturalist.org/observations/ffa8ca2e-12cb-438c-9386-087b93d4ed71"
+ },
+ "images/blaetter/erle.jpg": {
+  "author": "Daniel Das",
+  "login": "danieldas",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/213098305",
+  "observation": "https://www.inaturalist.org/observations/2ba1c650-80f6-4574-ac76-d96966687214"
+ },
+ "images/blaetter/esche.jpg": {
+  "author": "Peter Gabler",
+  "login": "peter_gabler",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/72108858",
+  "observation": "https://www.inaturalist.org/observations/9c5cb512-f9f6-4e38-8df2-ff968648651c"
+ },
+ "images/blaetter/espe.jpg": {
+  "author": "Stephen James McWilliam",
+  "login": "steve_mcwilliam",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/101908427",
+  "observation": "https://www.inaturalist.org/observations/cf2f4173-289f-40df-882e-a1ce01e80fe6"
+ },
+ "images/blaetter/hainbuche.jpg": {
+  "author": "Patrick Hacker",
+  "login": "pastabaum",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/90519974",
+  "observation": "https://www.inaturalist.org/observations/d185c089-133f-4fc8-8411-d153def24d97"
+ },
+ "images/blaetter/linde.jpg": {
+  "author": "Stanislav Murashkin",
+  "login": "stanislav_murashkin",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/224264256",
+  "observation": "https://www.inaturalist.org/observations/3636a2b8-ce6f-49c3-b7f3-fc2d3e4a4d06"
+ },
+ "images/blaetter/stechpalme.jpg": {
+  "author": "Stephen James McWilliam",
+  "login": "steve_mcwilliam",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/55202728",
+  "observation": "https://www.inaturalist.org/observations/9d2011cf-3bea-46ce-bc35-8d75e111f019"
+ },
+ "images/blaetter/ulme.jpg": {
+  "author": "Thomas Ebner",
+  "login": "mondseeirrsee",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/161298674",
+  "observation": "https://www.inaturalist.org/observations/430d4d56-c20e-4109-8be3-84d60197c551"
+ },
+ "images/blaetter/vogelkirsche.jpg": {
+  "author": "Ivo Macek",
+  "login": "ivom",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/68360197",
+  "observation": "https://www.inaturalist.org/observations/b4cad613-b987-47dc-9a8a-5a31945777a8"
+ },
+ "images/blaetter/weide.jpg": {
+  "author": "Андрей Тихонов",
+  "login": "andreytikhonov",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/50013422",
+  "observation": "https://www.inaturalist.org/observations/0de28471-2361-4efd-aadc-605d7e136923"
+ },
+ "images/gemuese/aubergine.jpg": {
+  "author": "Prasanta Hembram",
+  "login": "prasanta_hembram",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/244472602",
+  "observation": "https://www.inaturalist.org/observations/0d7fcece-50cb-477d-b6f8-d0a16ed6c3f7"
+ },
+ "images/gemuese/blumenkohl.jpg": {
+  "author": "Jagdish Singh Negi",
+  "login": "negi",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/173841513",
+  "observation": "https://www.inaturalist.org/observations/d4cca481-24e2-4711-b85f-60b4acdbd8b6"
+ },
+ "images/gemuese/brokkoli.jpg": {
+  "author": "buddyt888",
+  "login": "buddyt888",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/14407907",
+  "observation": "https://www.inaturalist.org/observations/1d01a6ac-960a-4d56-a931-9b9493febb7d"
+ },
+ "images/gemuese/chili.jpg": {
+  "author": "Thomas Mesaglio",
+  "login": "thebeachcomber",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/110002875",
+  "observation": "https://www.inaturalist.org/observations/73267aac-eda5-453a-9dd0-1169bf4c7ee9"
+ },
+ "images/gemuese/erbsen.jpg": {
+  "author": "Tom Rogers",
+  "login": "myacadianforest",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/147524445",
+  "observation": "https://www.inaturalist.org/observations/24dbc9e2-6ea1-45a6-a96f-c56bbe077a38"
+ },
+ "images/gemuese/gurke.jpg": {
+  "author": "Joyce Lai",
+  "login": "joyce191",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/88468391",
+  "observation": "https://www.inaturalist.org/observations/de6467ff-966c-4c2c-828c-23be25de3c0e"
+ },
+ "images/gemuese/ingwer.jpg": {
+  "author": "Clint Dalrymple",
+  "login": "clintdal",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/170147852",
+  "observation": "https://www.inaturalist.org/observations/ad54837c-0191-434b-bfa1-3f3fc87d60a3"
+ },
+ "images/gemuese/karotte.jpg": {
+  "author": "Lucie Karna",
+  "login": "lucie_karna",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/103243170",
+  "observation": "https://www.inaturalist.org/observations/e54a1c1e-f1fb-4b09-99a2-b42986b76baa"
+ },
+ "images/gemuese/kidneybohnen.jpg": {
+  "author": "Jagdish Singh Negi",
+  "login": "negi",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/248557006",
+  "observation": "https://www.inaturalist.org/observations/dfb5cc10-7009-41b0-b993-32321b3006c2"
+ },
+ "images/gemuese/knoblauch.jpg": {
+  "author": "Adam Kranz",
+  "login": "megachile",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/45154103",
+  "observation": "https://www.inaturalist.org/observations/cb77f605-a2ca-448e-b138-4996139f6c82"
+ },
+ "images/gemuese/kohlrabi.jpg": {
+  "author": "Austin R. Kelly",
+  "login": "austinrkelly",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/64914425",
+  "observation": "https://www.inaturalist.org/observations/0ad5cb47-d82c-4be4-a132-56f099175856"
+ },
+ "images/gemuese/kuerbis.jpg": {
+  "author": "Jorge Armín Escalante Pasos",
+  "login": "escalante-pasos",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/2200655",
+  "observation": "https://www.inaturalist.org/observations/0b7df6cb-441b-4b5e-87d1-c5fc68af0a40"
+ },
+ "images/gemuese/mais.jpg": {
+  "author": "Tereso Hernández Morales",
+  "login": "tereso30",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/33255735",
+  "observation": "https://www.inaturalist.org/observations/3e96cfea-493e-4a07-b322-59f3b8e92c33"
+ },
+ "images/gemuese/paprika.jpg": {
+  "author": "Urgamal Magsar",
+  "login": "urgamal",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/222664347",
+  "observation": "https://www.inaturalist.org/observations/77208c8f-6291-4a76-aa55-8fa17c32849c"
+ },
+ "images/gemuese/rote-bete.jpg": {
+  "author": "Diogo Luiz",
+  "login": "diogoluiz",
+  "license": "CC BY-SA 4.0",
+  "source": "https://www.inaturalist.org/photos/236430986",
+  "observation": "https://www.inaturalist.org/observations/1524ba3e-471a-461c-96bf-bdb36a5cfb57"
+ },
+ "images/gemuese/spargel.jpg": {
+  "author": "Ryan Durand",
+  "login": "ryan_durand",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/127928827",
+  "observation": "https://www.inaturalist.org/observations/3fb3c829-3991-428b-9db4-29aa336dfa56"
+ },
+ "images/gemuese/tomate.jpg": {
+  "author": "Heidi Hellstern",
+  "login": "ospreyeagle",
+  "license": "CC BY-SA 4.0",
+  "source": "https://www.inaturalist.org/photos/78599077",
+  "observation": "https://www.inaturalist.org/observations/e36dc908-fc00-4927-b9ea-8c8c8c4ccc71"
+ },
+ "images/gemuese/zwiebel.jpg": {
+  "author": "Andrew Sebastian",
+  "login": "data_nerd",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/173446391",
+  "observation": "https://www.inaturalist.org/observations/81f02ffd-bb43-4eb5-a81d-a196e9dea6c3"
+ },
+ "images/obst/ananas.jpg": {
+  "author": "Patty Mitchum",
+  "login": "pahrkm",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/145015925",
+  "observation": "https://www.inaturalist.org/observations/b219660b-710c-49e0-a007-5ae51d9e9fa5"
+ },
+ "images/obst/apfel.jpg": {
+  "author": "Tracy Sherbrook",
+  "login": "tracysherbrook2",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/234771727",
+  "observation": "https://www.inaturalist.org/observations/a67dbb86-dd2a-41ff-9f9a-c8d300d2809f"
+ },
+ "images/obst/avocado.jpg": {
+  "author": "Oscar Alejandro Morales Juárez",
+  "login": "alexmor",
+  "license": "CC BY-SA 4.0",
+  "source": "https://www.inaturalist.org/photos/208507152",
+  "observation": "https://www.inaturalist.org/observations/3830060c-3f93-4011-a9b0-5c1db2bbb6de"
+ },
+ "images/obst/banane.jpg": {
+  "author": "ZapolioPvP",
+  "login": "zapoliopvp",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/5445556",
+  "observation": "https://www.inaturalist.org/observations/7b974eb9-573c-47c2-9b12-3ca4a27509a7"
+ },
+ "images/obst/birne.jpg": {
+  "author": "jtweddle",
+  "login": "johnty",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/86995185",
+  "observation": "https://www.inaturalist.org/observations/dcdd1cba-5d0a-4aab-95e3-ff68968747cb"
+ },
+ "images/obst/erdbeere.jpg": {
+  "author": "Josep Gesti",
+  "login": "josepgesti",
+  "license": "CC BY-SA 4.0",
+  "source": "https://www.inaturalist.org/photos/251175425",
+  "observation": "https://www.inaturalist.org/observations/4bf76cf7-777d-4123-a22e-619716623e15"
+ },
+ "images/obst/heidelbeeren.jpg": {
+  "author": "Kai Löhr",
+  "login": "kai_pirinha",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/104657473",
+  "observation": "https://www.inaturalist.org/observations/f843cb92-4787-4a9c-a2bc-aeb1824389f1"
+ },
+ "images/obst/himbeere.jpg": {
+  "author": "Dustin Minialoff",
+  "login": "nottawasaga",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/47068637",
+  "observation": "https://www.inaturalist.org/observations/635a605e-f586-4b99-9641-665d5a2e2b66"
+ },
+ "images/obst/johannisbeeren.jpg": {
+  "author": "Annika Lindqvist",
+  "login": "annikaml",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/9351415",
+  "observation": "https://www.inaturalist.org/observations/d6973ff3-4d6d-4e2c-a262-1638018e0cae"
+ },
+ "images/obst/kirschen.jpg": {
+  "author": "Nicholas Allen",
+  "login": "nick_allen",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/107899823",
+  "observation": "https://www.inaturalist.org/observations/22af3b83-3000-4140-9c5f-bbe8e834ed28"
+ },
+ "images/obst/kiwi.jpg": {
+  "author": "bogsuckers",
+  "login": "bogsuckers",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/82677607",
+  "observation": "https://www.inaturalist.org/observations/f9b383d1-b9c8-4fa8-bc15-72ef4053c228"
+ },
+ "images/obst/kokosnuss.jpg": {
+  "author": "Rodolfo Salinas Villarreal",
+  "login": "rodolfosalinas",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/102226433",
+  "observation": "https://www.inaturalist.org/observations/df27eaf1-cf26-4bfd-ba85-3d603ce27288"
+ },
+ "images/obst/limette.jpg": {
+  "author": "Andrew Sebastian",
+  "login": "data_nerd",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/143301212",
+  "observation": "https://www.inaturalist.org/observations/1b5036a6-1f79-4d1f-bcb7-c1bc32366589"
+ },
+ "images/obst/mango.jpg": {
+  "author": "Jean-Lou Justine",
+  "login": "jeanloujustine",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/19811292",
+  "observation": "https://www.inaturalist.org/observations/934d5ea9-74b6-4515-a675-3ffb18d6abf6"
+ },
+ "images/obst/pfirsich.jpg": {
+  "author": "Brett Sandford",
+  "login": "bylsand",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/6421837",
+  "observation": "https://www.inaturalist.org/observations/b4df08d6-d418-4531-bdac-14e1adc2b2ad"
+ },
+ "images/obst/stachelbeere.jpg": {
+  "author": "Christian Kahle",
+  "login": "christiansw",
+  "license": "CC0 1.0",
+  "source": "https://www.inaturalist.org/photos/38571951",
+  "observation": "https://www.inaturalist.org/observations/52a0ca9f-02c6-4890-8000-65f65f2d6033"
+ },
+ "images/obst/wassermelone.jpg": {
+  "author": "Roman Luštrik",
+  "login": "romunov",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/158964975",
+  "observation": "https://www.inaturalist.org/observations/4d37eb5e-e225-4626-b5d1-f19b28e984f1"
+ },
+ "images/obst/weintrauben.jpg": {
+  "author": "Danielle",
+  "login": "morere-spiders",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/65824009",
+  "observation": "https://www.inaturalist.org/observations/211ecd34-f3a6-43bd-be11-31b4769826aa"
+ },
+ "images/obst/zitrone.jpg": {
+  "author": "Doug Miller",
+  "login": "dougalm",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/199295652",
+  "observation": "https://www.inaturalist.org/observations/fe463a4b-be98-4ab7-9616-b04172be7c5a"
+ },
+ "images/obst/zwetschge.jpg": {
+  "author": "Jonathan Eisen",
+  "login": "phylogenomics",
+  "license": "CC BY 4.0",
+  "source": "https://www.inaturalist.org/photos/81374506",
+  "observation": "https://www.inaturalist.org/observations/2205b457-3811-49f5-ba1c-28a2a8582565"
+ }
+}

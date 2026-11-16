@@ -91,8 +91,9 @@ Nach Änderungen `version` in `catalogs/index.json` erhöhen, `npm run check` au
 Der Standardkatalog enthält übersetzte Fragen aus [OpenTriviaQA](https://github.com/uberspot/OpenTriviaQA)
 (CC BY-SA 4.0); diese Fragen (IDs `otq-…`) stehen ebenfalls unter CC BY-SA 4.0. Flaggen stammen aus
 [flag-icons](https://github.com/lipis/flag-icons) (MIT), Länderumrisse aus Natural Earth (gemeinfrei),
-viele Obst- und Gemüsebilder aus [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT);
-die übrigen Bilder (Blätter, einige Obst- und Gemüsesorten) sind für dieses Projekt gezeichnet.
+Fotos von Obst, Gemüse und Baumblättern von [iNaturalist](https://www.inaturalist.org) (CC0, CC BY, CC BY-SA;
+Urheber je Foto in der Lizenzdatei); einige Zeichnungen aus [Microsoft Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (MIT)
+bzw. für dieses Projekt gezeichnet.
 Details: [`catalogs/LIZENZ.md`](catalogs/LIZENZ.md).
 
 ## Projektstruktur
